@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name">GSam Battery Monitor</string>
 
@@ -202,6 +202,10 @@
     <string name="process_suck_mon_title_prefix_wifi">Wifi Detail</string>
     <string name="process_suck_mon_title_prefix_radio">Radio Detail</string>
     <string name="process_suck_mon_title_prefix_screen">Screen Detail</string>
+    <string name="appdetail_usagedetail">Usage Details</string>
+    <string name="appdetail_processname">Process Name</string>
+    <string name="appdetail_included_packages">Included Packages</string>
+    <string name="appdetail_included_processes">Included Processes</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
     <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
@@ -309,7 +313,7 @@
     <!-- About -->
     <string name="about_app_name">About GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u0026\#xA9; GSam Labs 2012</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2013</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
     <string name="about_translations">Translations:</string>
@@ -317,8 +321,8 @@
     <!-- Translations & Translators -->   
     <string name="lang_default">Default System Language</string>        
     <string name="translator_anonymous">Anonymous</string>
-    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use <BR> The key should be in the form 'translator_lang'-->    
-    <string name="translator_ru">Dmitry Chernogaev &amp;lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&amp;gt;(XDA-Profile)&amp;lt;/a&amp;gt;</string>
+    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
+    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>    
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
@@ -343,4 +347,22 @@
     <string name="main_invalid_license_ok">Check My Purchase</string>
     <string name="main_invalid_license_cancel">Continue</string>    
     <string name="about_invalidlicense">You do not have a valid license.  GSam Battery Monitor will continue to run in Free mode.  If you feel this is a mistake, please contact the developer with your Google Purchase ID</string>
+
+    <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_menu_overflow_description">More options</string>
+    <string name="abs__action_mode_done">Done</string>
+    <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
+    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
+    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with_application">Share with <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
