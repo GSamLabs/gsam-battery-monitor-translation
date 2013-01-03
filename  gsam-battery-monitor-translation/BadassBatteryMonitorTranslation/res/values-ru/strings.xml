@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <string name="app_name">GSam Battery Monitor</string>
+    
+    <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Осталось: %1$02d:%2$02d (В среднем), %3$02d:%4$02d (Последние %5$sm)</string>
     <string name="battery_status_time_left_no_running">Осталось: %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Осталось: идет подсчет - проверьте позже</string>
@@ -9,6 +12,8 @@
     <string name="battery_status_title">Статус батареи - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">Статус батареи - %1$s%% (%2$s) - зарядка</string>
     <string name="battery_status_title_full">Статус батареи - %1$s%% (%2$s) - заряжена</string>
+    
+    <!-- Preferences -->
     <string name="preferences_general_category">Общие предпочтения</string>
     <string name="preferences_theme_category">Тема</string>
     <string name="preferences_alarm_category">Сигналы</string>
@@ -29,13 +34,9 @@
     <string name="preferences_theme_title">Тема значка батареи</string>
     <string name="preferences_theme_sum">Выберите стиль значка батареи</string>
     <string name="preferences_theme_getmore_title">Получить больше тем</string>
-    <string name="preferences_theme_getmore_msg">"Поиск дополнительных тем монитора батареи. GSam Labs не несет ответственности за все темы, если тема не работает, обращайтесь к производителю.
-
-Скачать и установить тему, вернуться в это меню к доступным темам.
-
-Вы знаете, что можете создавать свои темы? См. детали на http://badassbatterymonitor.blogspot.com"</string>
+    <string name="preferences_theme_getmore_msg">Поиск дополнительных тем монитора батареи. GSam Labs не несет ответственности за все темы, если тема не работает, обращайтесь к производителю.\n\nСкачать и установить тему, вернуться в это меню к доступным темам.\n\nВы знаете, что можете создавать свои темы? См. детали на http://badassbatterymonitor.blogspot.com"</string>
     <string name="preferences_theme_progress_title">Получаем темы</string>
-    <string name="preferences_theme_progress_msg">Получаем список доступных тем…</string>
+    <string name="preferences_theme_progress_msg">Получаем список доступных тем\u2026</string>
     <string name="preferences_widget_back_title">Прозрачный фон виджета</string>
     <string name="preferences_widget_back_msg">Сделайте фон виджета полностью прозрачным, чтобы видеть обои.</string>
     <string name="preferences_widget_show_timeleft_title">Показать оставшееся время</string>
@@ -45,9 +46,7 @@
     <string name="preferences_overlay_icon_configure_title">Настроить значок перекрытия</string>
     <string name="preferences_overlay_icon_configure_invalid">Невозможно запустить настройку. Откройте набор и настройте вручную.</string>
     <string name="preferences_overlay_icon_notvalid_title">Выбранная тема не поддерживает значки перекрытия</string>
-    <string name="preferences_overlay_icon_notvalid_msg">"Выберите другую тему и попытайтесь снова.
-
-Перекрытие поддерживается только дополнительными наборами значков. Выберите Получить больше тем из меню темы значка батареи для поиска дополнительного набора значков. Все наборы значков GSam Labs поддерживают перекрытие. Сторонние наборы могут не поддерживать перекрытие."</string>
+    <string name="preferences_overlay_icon_notvalid_msg">Выберите другую тему и попытайтесь снова.\n\nПерекрытие поддерживается только дополнительными наборами значков. Выберите Получить больше тем из меню темы значка батареи для поиска дополнительного набора значков. Все наборы значков GSam Labs поддерживают перекрытие. Сторонние наборы могут не поддерживать перекрытие.</string>
     <string name="preferences_widget_color_screen_title">Настройки виджета батареи</string>
     <string name="preferences_app_theme_title">Использовать темную тему</string>
     <string name="preferences_app_theme_sum">Использовать темную тему для экранов приложения</string>
@@ -60,7 +59,7 @@
     <string name="preferences_power_per_percent_title">Питание в процентах</string>
     <string name="preferences_power_per_percent_summary">Питание, используемое на каждое уменьшение батареи на 1 процент. Сбрасывается на ноль при изменении режима питания.</string>
     <string name="preferences_power_per_percent_dlgtext">Разделенные запятыми в форме ПИТАНИЕ_ИСПОЛЬЗУЕМОЕ_В_ПРОЦЕНТАХ_УМЕНЬШЕНИЯ,ОБЩИЙ_ПРОЦЕНТ_ИЗМЕРЕННЫЙ. Эта величина постоянно обновляется - чем дольше вы работаете, тем точнее она становится. Независимо от изменения настроек профиля питания, Вы должны очистить это поле и дать приложению обновиться.</string>
-    <string name="preferences_time_per_percent_title">Сбросить историю времени разрядки</string>
+    <string name="preferences_time_per_percent_title">Сбросить историю разрядки</string>
     <string name="preferences_time_per_percent_unkown">неизвестно</string>
     <string name="preferences_time_per_percent_summary">Сбросьте расчетную величину среднего времени, необходимого Вашему устройству для полного цикла батареи. Сейчас %1$s (%2$sm / процент, рассчитанный исходя из процентов %3$01d)</string>
     <string name="preferences_stats_since_title">Посмотреть статистику от</string>
@@ -73,12 +72,12 @@
     <string name="profedit_custom_values_saves">Сохранены пользовательские данные. Вы можете вернуть заводские установки в меню предпочтений.</string>
     <string name="preferences_clear_chart_history_title">Очистить файл истории графика</string>
     <string name="preferences_clear_chart_history_sum">Нажмите здесь, чтобы очистить локальный файл кэша истории графика.</string>
-    <string name="preferences_clear_chart_history_toast">Файл истории очищается…</string>
+    <string name="preferences_clear_chart_history_toast">Файл истории очищается\u2026</string>
     <string name="preferences_clear_chart_history_alert">Вы уверены?</string>
     <string name="preferences_clear_history_stats_title">Сбросить статистику батареи</string>
     <string name="preferences_clear_history_stats_sum">Нажмите здесь для сброса статистики батареи. Это уберет всю историю статистики. Эквивалентно полной зарядке и отключению. Вся статистика сбрасывается до этого момента, используйте осторожно!</string>
-    <string name="preferences_clear_history_stats_toast">Вся статистика батареи очищается…</string>
-    <string name="preferences_clear_history_stats_error_toast">Невозможно сбросить статистику - устройство может не поддерживать данную функцию…</string>
+    <string name="preferences_clear_history_stats_toast">Вся статистика батареи очищается\u2026</string>
+    <string name="preferences_clear_history_stats_error_toast">Невозможно сбросить статистику - устройство может не поддерживать данную функцию\u2026</string>
     <string name="preferences_custom_ref">История батареи будет основываться на созданной сейчас пользовательской метке (как если устройство будет отключено). Может быть использовано для определения, что использовало Вашу батарею с определенного момента времени, а не с последнего отключения или зарядки.</string>
     <string name="preferences_custom_ref_plugged">Устройство заряжается, Вы можете создавать пользовательскую метку только когда устройство отключено от зарядки.</string>
     <string name="preferences_send_anon_stats_title">Разрешить анон.статистику</string>
@@ -101,12 +100,14 @@
     <string name="preferences_widget_color_screen_sum">Установить градиент цвета батареи и настроить виджет</string>
     <string name="preferences_widget_color_category">Цвета</string>
     <string name="preferences_widget_general_category">Общее</string>
+    
+    <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
     <string name="icon_themes_icsmono">ICS монохромный</string>
-    <string name="icon_themes_trad">Традициональный</string>
-    <string name="icon_themes_default">Системный по умолчанию</string>
+    <string name="icon_themes_trad">Традиционный</string>
+    <string name="icon_themes_default">Системный</string>
     <string name="icon_themes_getmore">Больше тем</string>
-    <string name="time_left_calc_dontshow">"Не показывать время"</string>
+    <string name="time_left_calc_dontshow">Не показывать время</string>
     <string name="time_left_calc_last5">Последние 5 мин</string>
     <string name="time_left_calc_last15">Последние 15 мин</string>
     <string name="time_left_calc_last30">Последние 30 мин</string>
@@ -116,6 +117,8 @@
     <string name="stats_since_custom">От пользовательской метки</string>
     <string name="pwer_profiles_mfg">Заводские установки</string>
     <string name="pwer_profiles_saved">Текущие сохраненные значения</string>
+    
+    <!-- App Sucker -->
     <string name="process_kernel_label">Ядро(ОС Андроид)</string>
     <string name="process_suck_mon_android_system">Система (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% батареи использовалось:</string>
@@ -124,26 +127,28 @@
     <string name="process_suck_mon_title_unplugged">%1$s (От последнего отключения)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (От полной зарядки)</string>
     <string name="process_suck_mon_title_customref">%1$s (От пользовательской метки)</string>
-	<string name="procsuckmon_viewby_pwr">% исп. питания</string>
+	  <string name="procsuckmon_viewby_pwr">% исп.питания</string>
     <string name="procsuckmon_viewby_pwr_minforeground">% питания (только фон CPU)</string>
-    <string name="procsuckmon_viewby_cpu">Минуты исп. CPU</string>
+    <string name="procsuckmon_viewby_cpu">Минуты исп.CPU</string>
     <string name="procsuckmon_viewby_cpu_minforeground">CPU (только фон CPU)</string>
-    <string name="procsuckmon_viewby_data">Исп. время в сети</string>
-    <string name="procsuckmon_viewby_sensor">Исп. время сенсора</string>
+    <string name="procsuckmon_viewby_data">Время исп.в сети</string>
+    <string name="procsuckmon_viewby_sensor">Время исп.сенсора</string>
     <string name="procsuckmon_viewby_awake">Время бодрствования</string>
     <string name="procsuckmon_viewby_wake_times">Кол-во пробуждений</string>
-    <string name="procsuckmon_viewby_gps">Время исп. GPS</string>
+    <string name="procsuckmon_viewby_gps">Время исп.GPS</string>
+    
+    <!-- Main screen -->
     <string name="main_history_button">История</string>
     <string name="main_preferences_button">Предпочтения</string>
-    <string name="main_calculating">Подсчет…</string>
+    <string name="main_calculating">Подсчет\u2026</string>
     <string name="main_full">Полная</string>
-    <string name="main_timetofull">Остаток - до полной:</string>
+    <string name="main_timetofull">Остается-до полн.:</string>
     <string name="main_timetofull_tablet">Время до полной зарядки:</string>
-    <string name="main_timeleft">Ост.- в средн.:</string>
+    <string name="main_timeleft">Остается-в средн.:</string>
     <string name="main_timeleft_tablet">Остается (по средн.):</string>
-    <string name="main_timeleft_rolling">Ост.- посл. %1$sm:</string>
+    <string name="main_timeleft_rolling">Остается-посл. %1$sm:</string>
     <string name="main_timeleft_rolling_tablet">Остается (исп. в посл. %1$sm):</string>
-    <string name="main_talktime">Ост.- время разг.:</string>
+    <string name="main_talktime">Остается-время разг.:</string>
     <string name="main_talktime_tablet">Остающееся время разговора:</string>
     <string name="main_temp">Температура:</string>
     <string name="main_voltage">Напряжение:</string>
@@ -174,7 +179,7 @@
     <string name="menu_set_custom_ref">Установить пользовательскую метку</string>
     <string name="menu_remove_custom_ref">Убрать пользовательскую метку</string>
     <string name="menu_refresh">Обновить</string>
-    <string name="main_refresh_toast">Статистика обновляется…</string>
+    <string name="main_refresh_toast">Статистика обновляется\u2026</string>
     <string name="main_market_nomarket_msg">Функция не поддерживается. Похоже, на Вашем устройстве не установлена версия с маркета.</string>
     <string name="menu_help">Помощь</string>
     <string name="menu_review">Оценить GSam Battery Monitor</string>
@@ -189,14 +194,18 @@
     <string name="main_tablet_active_usage">Активный режим (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">Режим ожидания (%1$02d:%2$02d:%3$02d)</string>
     <string name="rate_me_title">Оценить GSam Battery Monitor</string>
-    <string name="rate_me_msg">"Вам нравится GSam Battery Monitor? Пожалуйста, выделите время, чтобы дать приложению хороший рейтинг!
-
-Не беспокойтесь, больше Вас об этом не спросят."</string>
+    <string name="rate_me_msg">Вам нравится GSam Battery Monitor? Пожалуйста, выделите время, чтобы дать приложению хороший рейтинг!\n\nНе беспокойтесь - Вас об этом больше не спросят.</string>
     <string name="rate_me_ok">Оценить!</string>
+    
+    <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
     <string name="process_suck_mon_title_prefix_wifi">Детали Wi-Fi</string>
     <string name="process_suck_mon_title_prefix_radio">Детали радио</string>
     <string name="process_suck_mon_title_prefix_screen">Детали экрана</string>
+    <string name="appdetail_usagedetail">Детали использования</string>
+    <string name="appdetail_processname">Имя процесса</string>
+    <string name="appdetail_included_packages">Включенные пакеты</string>
+    <string name="appdetail_included_processes">Включенные процессы</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
     <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
@@ -233,7 +242,7 @@
     <string name="appdetail_med">Средний - %s:</string>
     <string name="appdetail_medium">Средний:</string>
     <string name="appdetail_numwakes">Количество пробуждений:</string>
-    <string name="appdetail_pct_power">% питания</string>
+    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % питания</string>
     <string name="appdetail_pct_power_nospace">% питания</string>
     <string name="appdetail_pct_time">% времени</string>
     <string name="appdetail_phoneon">Радиомодуль вкл:</string>
@@ -263,12 +272,18 @@
     <string name="appdetail_wakelocks">Количество вэйклоков:</string>
     <string name="appdetail_wifiactive">Wifi активен:</string>
     <string name="appdetail_wifion">Wifi вкл:</string>
+    
+    <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Что нового</string>
     <string name="changelog_title">Что нового</string>
     <string name="changelog_ok_button">OK</string>
+    
+    <!-- Misc. -->
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="ok">OK</string>
+    
+    <!-- Charts -->
     <string name="main_chart_showtemp">Температура</string>
     <string name="main_chart_showother">Другое</string>
     <string name="main_chart_showradio">Сигнал телефона</string>
@@ -276,7 +291,7 @@
     <string name="chart_menu_battdischarge">График питание/проценты</string>
     <string name="notification_chargecomplete">Зарядка завершена</string>
     <string name="notification_battlow">Низкий уровень заряда (%1s%%)</string>
-	 <string name="chart_active">Активный</string>
+	  <string name="chart_active">Активный</string>
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
     <string name="chart_charging">Зарядка</string>
@@ -289,28 +304,31 @@
     <string name="chart_med">Средн.</string>
     <string name="chart_screen">Экран</string>
     <string name="chart_signal">Сигнал телефона</string>
-    <string name="chart_tempc">Температура батареи °C</string>
-    <string name="chart_tempf">Температура батареи °F</string>
+    <string name="chart_tempc">Температура батареи \u00B0C</string>
+    <string name="chart_tempf">Температура батареи \u00B0F</string>
     <string name="chart_timeformat">hh:mm a</string>
     <string name="chart_unknown">Неизвестно</string>
     <string name="chart_wifi">Wifi</string>
+    
+    <!-- About -->
     <string name="about_app_name">О GSam Battery Monitor</string>
-	<string name="about_version">Version %1s</string>
+	  <string name="about_version">Version %1s</string>
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
-    <string name="about_translations">Translations:</string>
-    <string name="lang_default">Default System Language</string>
+    <string name="about_translations">Перевод:</string>
+    
+    <!-- Translations & Translators -->
+    <string name="lang_default">Язык системы по умолчанию</string>        
     <string name="translator_anonymous">Anonymous</string>
-	<string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>        
+    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
+    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>    
+
+    <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Ваш экран слишком яркий?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">"Если Вам трудно читать в темное время из-за слишком большой яркости экрана, попробуйте GSam Screen Dimmer. Он позволяет уменьшить настройки яркости ниже обычного уровня, делая чтение в темное время более приемлемым!
-
-Не беспокойтесь, больше Вы этого сообщения не увидите."</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Если Вам трудно читать в темное время из-за слишком большой яркости экрана, попробуйте GSam Screen Dimmer. Он позволяет уменьшить настройки яркости ниже обычного уровня, делая чтение в темное время более приемлемым!\n\nНе беспокойтесь, больше Вы этого сообщения не увидите.</string>
     <string name="preferences_send_anon_stats_buypro_title">Приобрести Про-версию!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">"Бесплатная версия Battery Monitor не позволяет отключить рекламу, если Вы выбрали не отсылать анонимную статистику.
-
-Про-версия не включает рекламу и позволит Вам отключить анонимную статистику."</string>
+    <string name="preferences_send_anon_stats_buypro_msg">Бесплатная версия Battery Monitor не позволяет отключить рекламу, если Вы выбрали не отсылать анонимную статистику.\n\nПро-версия не включает рекламу и позволит Вам отключить анонимную статистику.</string>
     <string name="menu_seeotherapps">Другие приложения GSam Labs</string>
     <string name="menu_gopro">Обновить до Про-версии</string>
     <string name="menu_gopro_nook">Купить</string>
@@ -320,27 +338,31 @@
     <string name="nook_gopro_ok">Купить полную версию</string>
     <string name="nook_gopro_cancel">Продолжить в бесплатном режиме</string>
     <string name="main_market_pro_title">Спасибо за использование GSam Battery Monitor - бесплатной версии</string>
-    <string name="main_market_pro_msg">"Знаете ли Вы, что есть профессиональная версия GSam Battery Monitor для планшетов? Найдите ее в маркете.
-
-Не беспокойтесь, Вы больше не увидите этого сообщения."</string>
-    <string name="main_market_pro_msg_kindle">"Знаете ли Вы, что есть профессиональная версия GSam Battery Monitor для Kindle Fire? Найдите ее в Appstore.
-
-Не беспокойтесь, Вы больше не увидите этого сообщения."</string>
+    <string name="main_market_pro_msg">Знаете ли Вы, что есть профессиональная версия GSam Battery Monitor для планшетов? Найдите ее в маркете.\n\nНе беспокойтесь, Вы больше не увидите этого сообщения.</string>
+    <string name="main_market_pro_msg_kindle">Знаете ли Вы, что есть профессиональная версия GSam Battery Monitor для Kindle Fire? Найдите ее в Appstore.\n\nНе беспокойтесь, Вы больше не увидите этого сообщения.</string>
     <string name="main_market_pro_ok">Посмотреть</string>
     <string name="main_market_pro_cancel">Нет, спасибо</string>
     <string name="main_invalid_license_title">Неверная лицензия</string>
     <string name="main_invalid_license_msg">Ваша лицензия на это приложение недействительна. Battery Monitor продолжит работать в бесплатном режиме. Если Вы считаете, что это ошибка, проверьте покупку.</string>
     <string name="main_invalid_license_ok">Проверить мою покупку</string>
     <string name="main_invalid_license_cancel">Далее</string>
-	 <string name="about_invalidlicense">Ваша лицензия недействительна. Battery Monitor продолжит работать в бесплатном режиме. Если Вы считаете, что это ошибка, пожалуйста, свяжитесь с разработчиком, используя Ваш ID покупки Гугл</string>
+	 <string name="about_invalidlicense">Ваша лицензия недействительна. Battery Monitor продолжит работать в бесплатном режиме. Если Вы считаете, что это ошибка, пожалуйста, свяжитесь с разработчиком, используя Ваш Гугл-ID покупки</string>
+    
+    <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Домой</string>
     <string name="abs__action_bar_up_description">Вверх</string>
     <string name="abs__action_menu_overflow_description">Больше опций</string>
     <string name="abs__action_mode_done">Сделано</string>
+    <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_see_all">Посмотреть все...</string>
+    <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_dialog_title_default">Выбрать</string>
+    <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
     <string name="abs__share_action_provider_share_with">Поделиться...</string>
+    <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
     <string name="abs__activitychooserview_choose_application">Выбрать приложение</string>
+    <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with">Поделиться</string>
-    <string name="abs__shareactionprovider_share_with_application">Поделиться с %s</string>
+    <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with_application">Поделиться с <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
