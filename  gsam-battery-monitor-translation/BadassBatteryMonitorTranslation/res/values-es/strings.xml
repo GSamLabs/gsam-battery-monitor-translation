@@ -142,13 +142,13 @@
     <string name="main_preferences_button">Preferencias</string>
     <string name="main_calculating">Calculando\u2026</string>
     <string name="main_full">Lleno</string>
-    <string name="main_timetofull">Restante - Para Cargar: </string>
+    <string name="main_timetofull">Restante - Para Cargar:</string>
     <string name="main_timetofull_tablet">Tiempo para Carga Completa: </string>
-    <string name="main_timeleft">Restante - Promedio: </string>
+    <string name="main_timeleft">Restante - Promedio:</string>
     <string name="main_timeleft_tablet">Restante (Uso Promedio): </string>
-    <string name="main_timeleft_rolling">Restante - Último(s) %1$sm: </string>
+    <string name="main_timeleft_rolling">Restante - Últimos %1$sm:</string>
     <string name="main_timeleft_rolling_tablet">Restante (Uso de los Últimos %1$sm): </string>
-    <string name="main_talktime">Restante - En Llamada: </string>
+    <string name="main_talktime">Restante - En Llamada:</string>
     <string name="main_talktime_tablet">Tiempo de Conversación Restante: </string>
     <string name="main_temp">Temperatura: </string>
     <string name="main_voltage">Voltaje: </string>
