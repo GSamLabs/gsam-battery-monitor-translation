@@ -14,12 +14,12 @@
     <string name="battery_status_title_full">Estado de la Batería - %1$s%% (%2$s) - Llena</string>
 
     <!-- Preferences -->
-    <string name="preferences_general_category">General Preferences</string>
-    <string name="preferences_theme_category">Theme</string>
-    <string name="preferences_alarm_category">Alarms</string>
+    <string name="preferences_general_category">Preferencias Generales</string>
+    <string name="preferences_theme_category">Tema</string>
+    <string name="preferences_alarm_category">Alarmas</string>
     <string name="preferences_startup_service_title">Monitor On Device Startup</string>
-    <string name="preferences_startup_service_sum">Start battery monitoring on boot</string>
-    <string name="preferences_temperature_title">Temperature in Celsius</string>
+    <string name="preferences_startup_service_sum">Compenzar el monitoreo de la batería al arranque</string>
+    <string name="preferences_temperature_title">Temperatura en Celsius</string>
     <string name="preferences_show_notification_icon_title">Show Notification Icon</string>
     <string name="preferences_show_notification_icon_sum">Show % notification icon in notification bar</string>
     <string name="preferences_show_notification_title">Show Notification Only</string>
@@ -123,7 +123,7 @@
     <string name="process_suck_mon_android_system">Sistema(%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% de batería consumidos por:</string>
     <string name="process_suck_mon_nodata">No hay información disponible.  There are no apps that have consumed the specified resource during the last device power cycle.</string>
-    <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
+    <string name="process_suck_mon_title_prefix">App Drenadora- %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Desde Última Desconexión)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (Desde Última Carga Completa)</string>
     <string name="process_suck_mon_title_customref">%1$s (Desde Referencia Personalizada)</string>
@@ -148,7 +148,7 @@
     <string name="main_timeleft_tablet">Restante (Uso Promedio): </string>
     <string name="main_timeleft_rolling">Restante - Último(s) %1$sm: </string>
     <string name="main_timeleft_rolling_tablet">Restante (Uso de los Últimos %1$sm): </string>
-    <string name="main_talktime">Restante - Tiempo de Conversación: </string>
+    <string name="main_talktime">Restante - En Llamada: </string>
     <string name="main_talktime_tablet">Tiempo de Conversación Restante: </string>
     <string name="main_temp">Temperatura: </string>
     <string name="main_voltage">Voltaje: </string>
@@ -168,9 +168,9 @@
     <string name="main_idle_label">Held Awake:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Uso de Apps:</string>
-    <string name="main_app_usage_button">App Sucker</string>
-    <string name="main_android_batt_usage_button">Battery Use - Built In</string>    
-    <string name="main_android_batt_usage_failed">Unable to launch the built in battery usage screen...</string>
+    <string name="main_app_usage_button">App Drenadoras</string>
+    <string name="main_android_batt_usage_button">Uso de Batería - Incoporado</string>    
+    <string name="main_android_batt_usage_failed">Incapaz de abrir la ventana de uso de batería incoporada...</string>
     <string name="main_tools_menu">Más</string>
     <string name="main_menu_charts">Gráficas</string>
     <string name="menu_whatsnew">Novedades</string>
@@ -182,12 +182,12 @@
     <string name="main_refresh_toast">Statistics Refreshed\u2026</string>
     <string name="main_market_nomarket_msg">Function not available.  There does not appear to be a market application installed on your device.</string>
     <string name="menu_help">Ayuda</string>
-    <string name="menu_review">Evalular GSam Battery Monitor</string>
-    <string name="main_share_intentchoosertitle">Compartir la vida promedio de mi batería\u2026</string>
-    <string name="main_share_subject">Vida Promedio de la Batería - GSam Battery Monitor</string>
+    <string name="menu_review">Valorar GSam Battery Monitor</string>
+    <string name="main_share_intentchoosertitle">Compartir la duración promedio de mi batería\u2026</string>
+    <string name="main_share_subject">Duración Promedio de la Batería - GSam Battery Monitor</string>
     <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Average Battery Life: %1$s</string>
+    <string name="main_avg_timepercharge_label">Duración Promedio de la Batería: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Used Over %2$s (Since Last Unplugged)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Used Over %2$s (Since Full Charge)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Since Custom Reference)</string>
@@ -230,7 +230,7 @@
     <string name="appdetail_bytessent">Bytes Enviados:</string>  
     <string name="appdetail_cpu">Uso de CPU:</string>  
     <string name="appdetail_cpu_backgroundonly">CPU Usage (Background Only):</string>  
-    <string name="appdetail_dark">Dark:</string>  
+    <string name="appdetail_dark">Oscuro:</string>  
     <string name="appdetail_data_enabled">Data Enabled:</string>  
     <string name="appdetail_dim">Atenuado:</string>  
     <string name="appdetail_discharge_whileonoff">Discharge While On/Off:</string>  
@@ -245,7 +245,7 @@
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Power</string>
     <string name="appdetail_pct_power_nospace">% Energia</string>
     <string name="appdetail_pct_time">% Tiempo</string>
-    <string name="appdetail_phoneon">Phone Radio On:</string>  
+    <string name="appdetail_phoneon">Señal Encendida:</string>  
     <string name="appdetail_pwr_sysdata">Power For System Data:</string>  
     <string name="appdetail_received">Recibido:</string>  
     <string name="appdetail_received_wifimobile">Received (Wifi / Mobile):</string> 
@@ -262,13 +262,13 @@
     <string name="appdetail_sensor_pressure">Presión:</string>  
     <string name="appdetail_sensor_proximity">Proximidad:</string>  
     <string name="appdetail_sensor_relhum">Humedad Relativa:</string>  
-    <string name="appdetail_sensor_rotvector">Rotational Vector:</string>  
-    <string name="appdetail_sensor_temp">Temperature:</string>  
-    <string name="appdetail_sent">Sent:</string>  
-    <string name="appdetail_sent_wifimobile">Sent (Wifi / Mobile):</string>  
-    <string name="appdetail_signal_stregth">Signal Strength:</string>
-    <string name="appdetail_total_appssystem">Total (Apps / System):</string> 
-    <string name="appdetail_video">Video On:</string>  
+    <string name="appdetail_sensor_rotvector">Vector de Rotación:</string>  
+    <string name="appdetail_sensor_temp">Temperatura:</string>  
+    <string name="appdetail_sent">:</string>  
+    <string name="appdetail_sent_wifimobile">Enviados (Wifi / Red móvil):</string>  
+    <string name="appdetail_signal_stregth">Potencia de la Señal:</string>
+    <string name="appdetail_total_appssystem">Total (Apps / Sistema):</string> 
+    <string name="appdetail_video">Video Encendido:</string>  
     <string name="appdetail_wakelocks">Number of Wake Locks:</string>  
     <string name="appdetail_wifiactive">Wifi Activo:</string>  
     <string name="appdetail_wifion">Wifi Encendido:</string>      
@@ -349,8 +349,8 @@
     <string name="about_invalidlicense">You do not have a valid license.  GSam Battery Monitor will continue to run in Free mode.  If you feel this is a mistake, please contact the developer with your Google Purchase ID</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-    <string name="abs__action_bar_home_description">Navigate home</string>
-    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_bar_home_description">Volver al home</string>
+    <string name="abs__action_bar_up_description">Volver arriba</string>
     <string name="abs__action_menu_overflow_description">Más opciones</string>
     <string name="abs__action_mode_done">Donar</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
