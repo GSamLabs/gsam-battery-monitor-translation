@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GSam Battery Monitor</string>
+
+    <!-- Notification & Header messages -->
     <string name="battery_status_time_left" formatted="false">Temps Rest: %1$02d:%2$02d (Env.), %3$02d:%4$02d (%5$s dern. m)</string>
     <string name="battery_status_time_left_no_running" formatted="false">Temps Rest: %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Temps Rest: Calcul - revenez plus tard</string>
@@ -9,6 +11,8 @@
     <string name="battery_status_title" formatted="false">Etat Batterie - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging" formatted="false">Etat Batterie - %1$s%% (%2$s) - En charge</string>
     <string name="battery_status_title_full" formatted="false">Etat batterie - %1$s%% (%2$s) - Complète</string>
+
+    <!-- Preferences -->
     <string name="preferences_general_category">Préférences Générales</string>
     <string name="preferences_theme_category">Thème</string>
     <string name="preferences_alarm_category">Alarmes</string>
@@ -58,11 +62,11 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_power_profiles_edit_title">Editer Profil Energie</string>
     <string name="preferences_profiles_screen_summary">"Avancé - Editer les profils d'utilisation d'énergie utilisés pour calculer toutes les valeurs"</string>
     <string name="preferences_power_per_percent_title">Energie Par Pourcentage</string>
-    <string name="preferences_power_per_percent_summary">Amount of power used for each percent drop in battery. Zero out if you change profile settings.</string>
-    <string name="preferences_power_per_percent_dlgtext">Comma separated in the form POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. This value is constantly updated - the longer you run, the more accurate it gets. Whenever you change a Power Profile setting however, you should clear this field, and let the app regenerate.</string>
+    <string name="preferences_power_per_percent_summary">Quantité d\énergie utilisée pour chaque baisse de pourcentage de batterie.. Sur zéro si vous modifiez les paramètres de profil.</string>
+    <string name="preferences_power_per_percent_dlgtext">Séparés par des virgules sous la forme de POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Cette valeur est constamment mise à jour - plus vous exécutez, plus il devient précis. Cependant chaque fois que vous modifiez un paramètre Profil Energie, vous devez effacer ce champ, et laisser la régénération de l\'application.</string>
     <string name="preferences_time_per_percent_title">Réinitialiser Historique Temps Décharge</string>
     <string name="preferences_time_per_percent_unkown">inconnu</string>
-    <string name="preferences_time_per_percent_summary" formatted="false">Reset the calculated value for average amount of time your device lasts for a full battery cycle. Currently %1$s (%2$sm / percent calculated over %3$01d percentages)</string>
+    <string name="preferences_time_per_percent_summary" formatted="false">Réinitialiser la valeur calculée pour la quantité moyenne du temps de votre appareil pour un cycle complet de la batterie. Actuellement %1$s (%2$sm / pour cent calculé sur %3$01d pourcentages)</string>
     <string name="preferences_stats_since_title">Voir Statistiques Depuis</string>
     <string name="preferences_stats_since_summary">Voir les statistiques depuis le dernier débranchement, ou depuis la dernière charge complète</string>
     <string name="preferences_power_profiles_edit_summary">Personnaliser Votre Profil Energie. Les valeurs personnalisées ne seront utilisées que si le profil perso. est activé.</string>
@@ -70,7 +74,7 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="profedit_load_basedon">Recharger Données Basées Sur:</string>
     <string name="profedit_save">Sauv.</string>
     <string name="profedit_cancel">Annuler</string>
-    <string name="profedit_custom_values_saves">"Sauv. les valeurs personnalisées. Vous pouvez réactiver la fabrication par défaut dans l'écran des préférences."</string>
+    <string name="profedit_custom_values_saves">"Sauv. les valeurs personnalisées. Vous pouvez réactiver le paramétrage par défaut dans l'écran des préférences."</string>
     <string name="preferences_clear_chart_history_title">Effacer Historique Fichier Graphique</string>
     <string name="preferences_clear_chart_history_sum">"Cliquez ici pour effacer l'historique du fichier du cache local du graphique."</string>
     <string name="preferences_clear_chart_history_toast">"L'historique du fichier a été effacé…"</string>
@@ -78,8 +82,8 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_clear_history_stats_title">Réinitialiser Stats Batterie</string>
     <string name="preferences_clear_history_stats_sum">"Cliquer ici pour réinitialiser les stats de la batterie. Ceci effacera tout l'historique des stats. C'est l'équivalent de faire une charge complète puis de débrancher. Tous les stats seront remises à zéro, donc à utiliser avec prudence!"</string>
     <string name="preferences_clear_history_stats_toast">Tous les stats de la batterie ont été effacées…</string>
-    <string name="preferences_clear_history_stats_error_toast">Unable to reset statistics - this device may not support this function…</string>
-    <string name="preferences_custom_ref">The battery history will be based off of a custom reference point created now (or when the device gets unplugged). This can be used to determine what has used your battery since this specific point in time rather than since last unplugged or last charged.</string>
+    <string name="preferences_clear_history_stats_error_toast">Impossible de réinitialiser les statistiques - Cet appareil ne prend pas en charge cette fonction…</string>
+    <string name="preferences_custom_ref">L\'historique de la batterie sera basé sur un point de référence personnalisé créé maintenant(ou quand l\'appareil sera débranché). Ceci peut être utilisé pour déterminer ce qui a utilisé votre batterie depuis ce point précis dans le temps au lieu du dernier débranchement ou la dernière charge.</string>
     <string name="preferences_custom_ref_plugged">"L'appareil est actuellement en charge -vous pouvez créer une référence personnalisée seulement quand l'appareil est débranchée."</string>
     <string name="preferences_send_anon_stats_title">Autoriser Stats Utilisation Anonymes</string>
     <string name="preferences_send_anon_stats_sum">"Autoriser l'envoi de statistiques d'utilisation anonymes. Aucune donnée identifiable ou privée est envoyée."</string>
@@ -88,9 +92,9 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_override_lang_title">Langue</string>
     <string name="preferences_override_lang_sum">Utiliser une autre langue que la langue par défaut du système.</string>
     <string name="preferences_power_profiles_include_sensors_title">Inclure Capteur Dans Le Calcul</string>
-    <string name="preferences_power_profiles_include_sensors_sum">"Some devices don't calculate sensor usage correctly.  Uncheck this if your apps sensor usage seems inaccurate (accelerometer in particular). "</string>
+    <string name="preferences_power_profiles_include_sensors_sum">"Certains appareils ne peuvent pas calculer correctement l\'utilisation du capteur. Décocher cette option si votre utilisation du capteur applications semble inexacte (accéléromètre en particulier). "</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">Réinitialiser Pourcentage Energie</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_msg">"Ceci va réinitialiser votre calcul de l'énergie par pourcentage. Voulez-vous continuez?"</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_msg">"Ceci va réinitialiser votre calcul de l'énergie par pourcentage. Voulez-vous continuer?"</string>
     <string name="preferences_widget_dialog_title">Choisir Une Couleur</string>
     <string name="preferences_widget_color_full_title">Couleur Pour 100%</string>
     <string name="preferences_widget_color_middle_title">Couleur Pour 50%</string>
@@ -101,6 +105,8 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_widget_color_screen_sum">"Définir la couleur du dégradé de l'affichage de la batterie, et contrôler les paramètres du widget"</string>
     <string name="preferences_widget_color_category">Couleurs</string>
     <string name="preferences_widget_general_category">Général</string>
+    
+    <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cercle</string>
     <string name="icon_themes_icsmono">ICS Monochrome</string>
     <string name="icon_themes_trad">Traditionnel</string>
@@ -116,10 +122,12 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="stats_since_custom">Depuis Référence Perso.</string>
     <string name="pwer_profiles_mfg">Valeurs Fabricants</string>
     <string name="pwer_profiles_saved">Valeurs Actuelles Sauv.</string>
+
+    <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Système (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% de batterie consommée par:</string>
-    <string name="process_suck_mon_nodata">"Pas de donnée disponible. Il n'y a pas  d'application qui a consommée la ressource spécifiée au cours du dernier cycle d'énergie de l'appareil."</string>
+    <string name="process_suck_mon_nodata">"Pas de donnée disponible. Aucune application n'a consommé de ressource spécifiée au cours du dernier cycle d'énergie de l'appareil."</string>
     <string name="process_suck_mon_title_prefix">Appl Ventouse - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Depuis Dernier Débranch.)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (Depuis Dernière Charge Complète)</string>
@@ -133,6 +141,8 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="procsuckmon_viewby_awake">Voir Temps Resté Eveillé</string>
     <string name="procsuckmon_viewby_wake_times">Voir Nombre De Fois Appareil Veille</string>
     <string name="procsuckmon_viewby_gps">Voir Temps Utilisé GPS</string>
+
+    <!-- Main screen -->
     <string name="main_history_button">Historique</string>
     <string name="main_preferences_button">Préférences</string>
     <string name="main_calculating">Calcul…</string>
@@ -179,10 +189,10 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="menu_help">Aide</string>
     <string name="menu_review">Avis GSam Battery Monitor</string>
     <string name="main_share_intentchoosertitle">"Partager l'autonomie de la vie de ma batterie…"</string>
-    <string name="main_share_subject">Moyenne Vie Batterie - GSam Battery Monitor</string>
-    <string name="main_share_msg2" formatted="false">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_share_msg" formatted="false">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Average Battery Life: %1$s</string>
+    <string name="main_share_subject">Vie Moyenne Batterie - GSam Battery Monitor</string>
+    <string name="main_share_msg2" formatted="false">Mon %1$s %2$s a une moyenne de batterie de %3$s (%4$s utilisation active) sur une seule charge. Vérifier GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_share_msg" formatted="false">Mon %1$s %2$s a une moyenne de batterie de %3$s sur une seule charge. Vérifier GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_avg_timepercharge_label">Vie Moyenne Batterie: %1$s</string>
     <string name="main_tablet_battusage_unplug" formatted="false">%1$s%% Util. Sur %2$s (Depuis Dernier Débranch.)</string>
     <string name="main_tablet_battusage_fullcharge" formatted="false">%1$s%% Util. Sur %2$s (Depuis Dernière Charge Complète)</string>
     <string name="main_tablet_battusage_customref" formatted="false">%1$s%% Util. Sur %2$s (Depuis Référence Perso.)</string>
@@ -193,10 +203,16 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
 
 Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="rate_me_ok">Notez!</string>
+
+    <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Détails appl</string>
     <string name="process_suck_mon_title_prefix_wifi">Détails WiFi</string>
     <string name="process_suck_mon_title_prefix_radio">Détails radio</string>
     <string name="process_suck_mon_title_prefix_screen">Détails écran</string>
+    <string name="appdetail_usagedetail">Détails Utilisation</string>
+    <string name="appdetail_processname">Nom Processus</string>
+    <string name="appdetail_included_packages">Paquets Inclus</string>
+    <string name="appdetail_included_processes">Processus Inclus</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes" formatted="false">%1$01dm %2$01ds</string>
     <string name="appdetail_days" formatted="false">%1$01dd %2$01dh %3$01dm</string>
@@ -263,12 +279,21 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="appdetail_wakelocks">Nombre de Réveil Verrouillage:</string>
     <string name="appdetail_wifiactive">WiFi Activé:</string>
     <string name="appdetail_wifion">WiFi On:</string>
+    <string name="appdetail_bytes">%d octets</string>
+    <string name="appdetail_mb">%.2f MO</string>
+    <string name="appdetail_kb">%.2f KO</string>
+
+    <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Quoi De Neuf</string>
     <string name="changelog_title">Quoi De Neuf</string>
     <string name="changelog_ok_button">OK</string>
+
+    <!-- Misc. -->
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="ok">OK</string>
+
+    <!-- Charts -->
     <string name="main_chart_showtemp">Température</string>
     <string name="main_chart_showother">Autres</string>
     <string name="main_chart_showradio">Signal Mobile</string>
@@ -294,22 +319,29 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="chart_timeformat">hh:mm a</string>
     <string name="chart_unknown">Inconnu</string>
     <string name="chart_wifi">WiFi</string>
+    
+    <!-- About -->
     <string name="about_app_name">A Propos de GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>
     <string name="about_copyright">ⓒ GSam Labs 2013</string>
     <string name="about_chartengine">Moteur Graphique par AChartEngine.org</string>
     <string name="about_actionbar">Compatibilité ActionBar par actionbarsherlock.com</string>
     <string name="about_translations">Traductions:</string>
+    
+    <!-- Translations & Translators -->   
     <string name="lang_default">Langue Système Par Défaut</string>
-    <string name="translator_anonymous">Anonymous</string>
-    <string name="translator_fr">Jaworski Johan</string>
+    <string name="translator_anonymous">Anonyme</string>
+    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use <BR> The key should be in the form 'translator_lang'-->    
     <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR>&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\">(XDA-Profile)&lt;/a></string>
+    <string name="translator_fr">Jaworski Johan</string>    
+
+    <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Est-Ce Que Votre Ecran Est Trop Brillant?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">"If you have trouble reading at night because your screen is too bright, check out GSam Screen Dimmer. It lets you reduce your brightness settings below what is normally allowed, making for a much more pleasant night-time read!
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">"Si vous avez des difficultés à lire le soir parce que votre écran est trop lumineux, vérifier GSam Screen Dimmer. Il vous permet de réduire vos réglages de luminosité en deçà de ce qui est normalement autorisé, ce qui rend pour une nuit la lecture beaucoup plus agréable!
 
 Ne vous inquiétez pas, vous ne verrez plus ce message à nouveau."</string>
     <string name="preferences_send_anon_stats_buypro_title">Aller à Pro!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">"The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.
+    <string name="preferences_send_anon_stats_buypro_msg">"La version gratuite de Battery Monitor ne vous laissera pas désactiver les annonces si vous choisissez de ne pas accepter les statistiques d'utilisation anonymes.
 
 La version Pro ne contient pas les annonces, et vous pourrez désactiver les statistiques d'utilisation anonymes."</string>
     <string name="menu_seeotherapps">Voir Les Autres Appls Par GSam Labs</string>
@@ -334,18 +366,22 @@ Ne vous inquiétez pas, vous ne verrez plus ce message à nouveau."</string>
     <string name="main_invalid_license_ok">Vérifier Mes Achats</string>
     <string name="main_invalid_license_cancel">Continuer</string>
     <string name="about_invalidlicense">"Vous n'avez pas de licence valide. GSam Battery Monitor continuera à fonctionner en mode Gratuit. Si vous pensez que c'est une erreur, svp contactez le développeur avec votre ID d'Achat de Google"</string>
+
+    <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">"Naviguer vers L'Accueil"</string>
     <string name="abs__action_bar_up_description">Naviguer vers le haut</string>
     <string name="abs__action_menu_overflow_description">"Plus d'options"</string>
     <string name="abs__action_mode_done">Ok</string>
+    <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_see_all">Voir Tout...</string>
+    <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_dialog_title_default">"Sélect. l'activité"</string>
+    <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
     <string name="abs__share_action_provider_share_with">Partager avec...</string>
+    <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
     <string name="abs__activitychooserview_choose_application">Choisir une application</string>
+    <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with">Partager avec</string>
-    <string name="abs__shareactionprovider_share_with_application">Partager avec %s</string>
-    <string name="appdetail_usagedetail">Détails Utilisation</string>
-    <string name="appdetail_processname">Nom Processus</string>
-    <string name="appdetail_included_packages">Paquets Inclus</string>
-    <string name="appdetail_included_processes">Processus Inclus</string>
+    <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with_application">Partager avec <xliff:g example="Bluetooth" id="application_name">%s</xliff:g></string>
 </resources>

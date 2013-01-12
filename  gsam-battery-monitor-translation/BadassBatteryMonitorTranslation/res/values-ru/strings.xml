@@ -170,7 +170,7 @@
     <string name="main_app_usage_label">Приложения:</string>
     <string name="main_app_usage_button">Приложения</string>
     <string name="main_android_batt_usage_button">Батарея-встроенный экран</string>
-	  <string name="main_android_batt_usage_failed">Невозможно запустить встроенный экран использования батареи...</string>
+    <string name="main_android_batt_usage_failed">Невозможно запустить встроенный экран использования батареи...</string>
     <string name="main_tools_menu">Еще</string>
     <string name="main_menu_charts">Графики</string>
     <string name="menu_whatsnew">Что нового</string>
@@ -291,7 +291,7 @@
     <string name="chart_menu_battdischarge">График питание/проценты</string>
     <string name="notification_chargecomplete">Зарядка завершена</string>
     <string name="notification_battlow">Низкий уровень заряда (%1s%%)</string>
-	  <string name="chart_active">Активный</string>
+    <string name="chart_active">Активный</string>
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
     <string name="chart_charging">Зарядка</string>
@@ -312,7 +312,7 @@
     
     <!-- About -->
     <string name="about_app_name">О GSam Battery Monitor</string>
-	  <string name="about_version">Version %1s</string>
+    <string name="about_version">Version %1s</string>
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
