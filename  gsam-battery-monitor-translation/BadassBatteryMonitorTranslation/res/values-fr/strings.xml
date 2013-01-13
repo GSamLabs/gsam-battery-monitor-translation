@@ -30,6 +30,10 @@
     <string name="preferences_alarm_lowbatttrigger_title">Déclenchement Batterie Faible</string>
     <string name="preferences_alarm_lowbatttrigger_sum">"Le % restant déclenche l'alarme"</string>
     <string name="preferences_alarm_lowbatttrigger_err">La valeur doit être comprise entre 0 et 100</string>
+    <string name="preferences_alarm_hotbatt_title">Batterie Chaude</string>
+	  <string name="preferences_alarm_hotbatt_sum">Notification quand la batterie devient trop chaude</string>
+	  <string name="preferences_alarm_hotbatttrigger_title">Déclenchement Batterie Chaude</string>
+	  <string name="preferences_alarm_hotbatttrigger_sum">la température qui déclenche l\'alarme</string>
     <string name="preferences_theme_title">Thème Icône Batterie</string>
     <string name="preferences_theme_sum">"Choisir le style d'icône de la batterie"</string>
     <string name="preferences_theme_getmore_title">Obtenir plus de thèmes</string>
@@ -105,7 +109,8 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_widget_color_screen_sum">"Définir la couleur du dégradé de l'affichage de la batterie, et contrôler les paramètres du widget"</string>
     <string name="preferences_widget_color_category">Couleurs</string>
     <string name="preferences_widget_general_category">Général</string>
-    
+    <string name="preferences_start_foreground_title">Priorité Elevée</string>
+	  <string name="preferences_start_foreground_sum">Exécuter le moniteur de batterie en utilisant une priorité élevée. Utiliser cette option uniquement si vos icônes ne se mettent pas correctement à jour pour refléter correctement le pourcentage de la batterie. Ne pas activer d\'aucune autre manière sinon il y aura une incidence sur le nombre de ressources qui sont disponibles pour d\'autres applications.</string>
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cercle</string>
     <string name="icon_themes_icsmono">ICS Monochrome</string>
@@ -292,7 +297,7 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="ok">OK</string>
-
+    <string name="error">Une erreur s\'est produite</string>
     <!-- Charts -->
     <string name="main_chart_showtemp">Température</string>
     <string name="main_chart_showother">Autres</string>
@@ -301,6 +306,8 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="chart_menu_battdischarge">Graphique Energie vs Pourcentage</string>
     <string name="notification_chargecomplete">Charge Complète</string>
     <string name="notification_battlow">Batterie Faible (%1s%%)</string>
+    <string name="notification_batthot_f">Avertissement - Batterie Chaude (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Avertissement - Batterie Chaude (%.1f\u00B0C)</string>
     <string name="chart_active">Activer</string>
     <string name="chart_batt_history">Historique Batterie (%1$s)</string>
     <string name="chart_batt_percent">Batterie %</string>
