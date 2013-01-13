@@ -202,6 +202,9 @@
     <string name="rate_me_title">Rate GSam Battery Monitor</string>
     <string name="rate_me_msg">Do you like GSam Battery Monitor?  Please take the time to give the app a good rating!\n\nDon\'t worry - you won\'t be asked again.</string>
     <string name="rate_me_ok">Rate It!</string>
+    <string name="main_header_type">Type</string>
+    <string name="main_header_time">Time</string>
+    <string name="main_header_power">Power</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App Detail</string>
