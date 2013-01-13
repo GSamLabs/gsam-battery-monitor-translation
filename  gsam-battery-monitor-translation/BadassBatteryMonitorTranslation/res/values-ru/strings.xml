@@ -31,6 +31,10 @@
     <string name="preferences_alarm_lowbatttrigger_title">Сигнал низкого заряда</string>
     <string name="preferences_alarm_lowbatttrigger_sum">Остаток в %, активирующий сигнал</string>
     <string name="preferences_alarm_lowbatttrigger_err">Величина должна быть между 0 и 100</string>
+    <string name="preferences_alarm_hotbatt_title">Горячая батарея</string>
+    <string name="preferences_alarm_hotbatt_sum">Уведомление, когда батарея сильно нагревается</string>
+    <string name="preferences_alarm_hotbatttrigger_title">Сигнал горячей батареи</string>
+    <string name="preferences_alarm_hotbatttrigger_sum">Температура, при которой срабатывает сигнал</string>
     <string name="preferences_theme_title">Тема значка батареи</string>
     <string name="preferences_theme_sum">Выберите стиль значка батареи</string>
     <string name="preferences_theme_getmore_title">Получить больше тем</string>
@@ -100,11 +104,13 @@
     <string name="preferences_widget_color_screen_sum">Установить градиент цвета батареи и настроить виджет</string>
     <string name="preferences_widget_color_category">Цвета</string>
     <string name="preferences_widget_general_category">Общее</string>
+    <string name="preferences_start_foreground_title">Высокий приоритет</string>
+    <string name="preferences_start_foreground_sum">Использовать мониторинг в  приоритетном режиме.  Применяйте, только если значки несвоевременно обновляются для отражения процентного состояния батареи.  Не используйте в других случаях, так как это повлияет на доступность ресурсов для других приложений. </string>
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
     <string name="icon_themes_icsmono">ICS монохромный</string>
-    <string name="icon_themes_trad">Традиционный</string>
+    <string name="icon_themes_trad">Традиционный</string> 
     <string name="icon_themes_default">Системный</string>
     <string name="icon_themes_getmore">Больше тем</string>
     <string name="time_left_calc_dontshow">Не показывать время</string>
@@ -272,6 +278,9 @@
     <string name="appdetail_wakelocks">Количество вэйклоков:</string>
     <string name="appdetail_wifiactive">Wifi активен:</string>
     <string name="appdetail_wifion">Wifi вкл:</string>
+    <string name="appdetail_bytes">%d байт</string>
+	  <string name="appdetail_mb">%.2f Мб</string>
+    <string name="appdetail_kb">%.2f Кб</string>
     
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Что нового</string>
@@ -282,6 +291,7 @@
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="ok">OK</string>
+    <string name="error">Произошла ошибка</string>
     
     <!-- Charts -->
     <string name="main_chart_showtemp">Температура</string>
@@ -291,6 +301,8 @@
     <string name="chart_menu_battdischarge">График питание/проценты</string>
     <string name="notification_chargecomplete">Зарядка завершена</string>
     <string name="notification_battlow">Низкий уровень заряда (%1s%%)</string>
+    <string name="notification_batthot_f">Предупреждение-батарея горячая (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Предупреждение-батарея горячая (%.1f\u00B0C)</string>
     <string name="chart_active">Активный</string>
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
@@ -322,7 +334,8 @@
     <string name="lang_default">Язык системы по умолчанию</string>        
     <string name="translator_anonymous">Anonymous</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
-    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>    
+    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>
+    <string name="translator_fr">Jaworski Johan</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Ваш экран слишком яркий?</string>
