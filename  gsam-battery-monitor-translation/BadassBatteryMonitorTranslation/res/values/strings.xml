@@ -31,6 +31,10 @@
     <string name="preferences_alarm_lowbatttrigger_title">Low Battery Trigger</string>
     <string name="preferences_alarm_lowbatttrigger_sum">% remaining that triggers alarm</string>
     <string name="preferences_alarm_lowbatttrigger_err">Value must be between 0 and 100</string>
+    <string name="preferences_alarm_hotbatt_title">Hot Battery</string>
+    <string name="preferences_alarm_hotbatt_sum">Notification when battery is getting too hot</string>
+    <string name="preferences_alarm_hotbatttrigger_title">Hot Battery Trigger</string>
+    <string name="preferences_alarm_hotbatttrigger_sum">Temperature that triggers alarm</string>
     <string name="preferences_theme_title">Battery Icon Theme</string>
     <string name="preferences_theme_sum">Choose the battery icon style</string>
     <string name="preferences_theme_getmore_title">Get More Themes</string>
@@ -100,6 +104,8 @@
     <string name="preferences_widget_color_screen_sum">Set the color gradient of the battery view, and control the widget settings</string>
     <string name="preferences_widget_color_category">Colors</string>
     <string name="preferences_widget_general_category">General</string>
+    <string name="preferences_start_foreground_title">High Priority</string>
+    <string name="preferences_start_foreground_sum">Run the battery monitor using a high priority.  Use this only if your icons are not getting updated properly to reflect the proper battery percentage.  Do not enable this otherwise as it will affect how many resources are available to other applications. </string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
@@ -272,6 +278,9 @@
     <string name="appdetail_wakelocks">Number of Wake Locks:</string>  
     <string name="appdetail_wifiactive">Wifi Active:</string>  
     <string name="appdetail_wifion">Wifi On:</string>      
+    <string name="appdetail_bytes">%d bytes</string>        
+    <string name="appdetail_mb">%.2f MB</string>           
+    <string name="appdetail_kb">%.2f KB</string>     
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">What\'s New</string>
@@ -282,6 +291,7 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="ok">OK</string>
+    <string name="error">An error occurred</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">Temperature</string>
@@ -291,6 +301,8 @@
     <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
     <string name="notification_chargecomplete">Charge Complete</string>
     <string name="notification_battlow">Battery Low (%1s%%)</string>
+    <string name="notification_batthot_f">Warning - Hot Battery (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Warning - Hot Battery (%.1f\u00B0C)</string>
     <string name="chart_active">Active</string>
     <string name="chart_batt_history">Battery History (%1$s)</string>
     <string name="chart_batt_percent">Battery %</string>
@@ -321,8 +333,9 @@
     <!-- Translations & Translators -->   
     <string name="lang_default">Default System Language</string>        
     <string name="translator_anonymous">Anonymous</string>
-    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
-    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>    
+    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use <BR> The key should be in the form 'translator_lang'-->    
+    <string name="translator_ru">Dmitry Chernogaev (gaich)&amp;lt;BR&amp;gt;&amp;lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&amp;gt;(XDA-Profile)&amp;lt;/a&amp;gt;</string>    
+    <string name="translator_fr">Jaworski Johan</string>    
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
