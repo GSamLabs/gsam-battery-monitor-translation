@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Don't translate app_name -->
     <!--string name="app_name">GSam Battery Monitor</string -->
     
     <!-- Notification & Header messages -->
@@ -203,6 +202,9 @@
     <string name="rate_me_title">Оценить GSam Battery Monitor</string>
     <string name="rate_me_msg">Вам нравится GSam Battery Monitor? Пожалуйста, выделите время, чтобы дать приложению хороший рейтинг!\n\nНе беспокойтесь - Вас об этом больше не спросят.</string>
     <string name="rate_me_ok">Оценить!</string>
+    <string name="main_header_type">Тип</string>
+	  <string name="main_header_time">Время</string>
+     <string name="main_header_power">Расход</string>
     
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
@@ -335,7 +337,7 @@
     <string name="lang_default">Язык системы по умолчанию</string>        
     <string name="translator_anonymous">Anonymous</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
-    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>
+    <string name="translator_ru">Dmitry Chernogaev &lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>
     <string name="translator_fr">Jaworski Johan</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
