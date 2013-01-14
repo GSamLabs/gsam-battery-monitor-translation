@@ -84,7 +84,7 @@
     <string name="preferences_clear_history_stats_sum">"Clicca per resettare le statistiche della batteria.  Questo rimuoverà la cronologia delle statistiche.  E' uguale a caricare completamente il telefono.  Tutte le statistiche saranno relative a questo momento, quindi usare cautela!"</string>
     <string name="preferences_clear_history_stats_toast">Tutte le statistiche batteria cancellate\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Impossibile resettare statistiche - il dispositivo potrebbe non supportare questa funzione\u2026</string>
-    <string name="preferences_custom_ref">"La cronologia batteria si baserà sul punto di riferimento creato (o allo spegnimento del telefono).  Ciò può essere utile per determinare cosa ha usato la batteria da questo punto di riferimento piuttosto che dall'ultimo spegnimento o l'ultima carica. "</string>
+    <string name="preferences_custom_ref">"La cronologia partirà dal punto di riferimento creato (o dallo spegnimento del telefono).  Ciò può essere utile per determinare cosa ha usato la batteria da questo punto di riferimento piuttosto che dall'ultimo spegnimento o l'ultima carica. "</string>
     <string name="preferences_custom_ref_plugged">Dispositivo in carica - puoi creare un punto di riferimento solo quando il dispositivo non è attaccato alla rete elettrica.</string>
     <string name="preferences_send_anon_stats_title">Consenti Statistiche Anonime</string>
     <string name="preferences_send_anon_stats_sum">"Cosenti l'invio di statistiche anonime. Non sono inviati dati personali."</string>
@@ -178,8 +178,8 @@
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Uso Apps:</string>
     <string name="main_app_usage_button">Consumo Apps</string>
-    <string name="main_android_batt_usage_button">Uso Batteria - Predefinito</string>    
-    <string name="main_android_batt_usage_failed">Impossibile lanciare la schermata Uso Batteria predefinita</string>
+    <string name="main_android_batt_usage_button">Uso Batteria - Sistema</string>    
+    <string name="main_android_batt_usage_failed">Impossibile lanciare la schermata Uso Batteria di Sistema</string>
     <string name="main_tools_menu">Più</string>
     <string name="main_menu_charts">Grafici</string>
     <string name="menu_whatsnew">Novità</string>
@@ -225,10 +225,10 @@
     <string name="appdetail_details_button">Gestisci</string>
     <string name="appdetail_details_adjustpower">Consigli Risparmio energetico</string>
     <string name="appdetail_details_adjust_wifi">Spegnere il Wi-Fi quando non utilizzato tramite il pulsante in alto.</string>
-    <string name="appdetail_details_adjust_wifi_button"> Impostazioni WiFi</string>
+    <string name="appdetail_details_adjust_wifi_button"> Imposta WiFi</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Impossibile lanciare le Impostazioni WiFi</string>
     <string name="appdetail_details_adjust_screen">Diminuire la luminosità e il tempo di inattività dello schermo tramite il pulsante in alto.</string>
-    <string name="appdetail_details_adjust_screen_button">Impostazioni Display</string>
+    <string name="appdetail_details_adjust_screen_button">Imposta Display</string>
     <string name="appdetail_details_adjust_screen_failedintent">Impossibile lanciare Impostazioni Display</string>
     <string name="detail_menu_export">Esporta</string>
     <string name="detail_menu_export_dlg_title">Esporta i dati visualizzati tramite:</string>
@@ -276,7 +276,7 @@
     <string name="appdetail_sensor_temp">Temperatura:</string>  
     <string name="appdetail_sent">Inviati:</string>  
     <string name="appdetail_sent_wifimobile">Inviati (Wifi / Mobile):</string>  
-    <string name="appdetail_signal_stregth">Signal Strength:</string>
+    <string name="appdetail_signal_stregth">Forza Segnale:</string>
     <string name="appdetail_total_appssystem">Totale (Apps / System):</string> 
     <string name="appdetail_video">Video Attivo:</string>  
     <string name="appdetail_wakelocks">Numero di Wake Locks:</string>  
@@ -301,21 +301,21 @@
 
 
     <!-- Charts -->
-    <string name="main_chart_showtemp">Temperature</string>
-    <string name="main_chart_showother">Others</string>
-    <string name="main_chart_showradio">Phone Signal</string>
-    <string name="chart_menu_batthistory">Battery History Chart</string>
-    <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
-    <string name="notification_chargecomplete">Charge Complete</string>
-    <string name="notification_battlow">Battery Low (%1s%%)</string>
-    <string name="chart_active">Active</string>
-    <string name="chart_batt_history">Battery History (%1$s)</string>
-    <string name="chart_batt_percent">Battery %</string>
-    <string name="chart_charging">Charging</string>
+    <string name="main_chart_showtemp">Temperatura</string>
+    <string name="main_chart_showother">Altro</string>
+    <string name="main_chart_showradio">Segnale</string>
+    <string name="chart_menu_batthistory">Grafico Cronologia</string>
+    <string name="chart_menu_battdischarge">Grafico Consumo vs %</string>
+    <string name="notification_chargecomplete">Carica completata</string>
+    <string name="notification_battlow">Batteria scarica (%1s%%)</string>
+    <string name="chart_active">Attivo</string>
+    <string name="chart_batt_history">Cronologia batteria (%1$s)</string>
+    <string name="chart_batt_percent">% Batteria</string>
+    <string name="chart_charging">In carica</string>
     <string name="chart_dim">Dim</string>
     <string name="chart_gps">GPS</string>
     <string name="chart_high">High</string>
-    <string name="chart_incall">In Call</string>
+    <string name="chart_incall">Chiamate</string>
     <string name="chart_low">Low</string>
     <string name="chart_max">Max</string>
     <string name="chart_med">Med</string>
