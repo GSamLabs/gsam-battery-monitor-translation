@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">GSam Battery Monitor</string>
+    <!-- Don't translate app_name -->
+    <!--string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left" formatted="false">Temps Rest: %1$02d:%2$02d (Env.), %3$02d:%4$02d (%5$s dern. m)</string>
