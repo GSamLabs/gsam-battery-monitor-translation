@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-
-    <string name="app_name">GSam Battery Monitor</string>
-
+    
+    <!-- Don't translate app_name -->
+    <!--string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Tempo rimasto: %1$02d:%2$02d (Medio), %3$02d:%4$02d (Ultimi %5$sm)</string>
