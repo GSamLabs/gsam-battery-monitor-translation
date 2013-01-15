@@ -308,80 +308,86 @@
     <string name="chart_menu_battdischarge">Grafico Consumo vs %</string>
     <string name="notification_chargecomplete">Carica completata</string>
     <string name="notification_battlow">Batteria scarica (%1s%%)</string>
+    <string name="notification_batthot_f">Attenzione - Batteria Calda (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Attenzione - Batteria Calda (%.1f\u00B0C)</string>
     <string name="chart_active">Attivo</string>
     <string name="chart_batt_history">Cronologia batteria (%1$s)</string>
     <string name="chart_batt_percent">% Batteria</string>
     <string name="chart_charging">In carica</string>
     <string name="chart_dim">Dim</string>
     <string name="chart_gps">GPS</string>
-    <string name="chart_high">High</string>
+    <string name="chart_high">Forte</string>
     <string name="chart_incall">Chiamate</string>
-    <string name="chart_low">Low</string>
+    <string name="chart_low">Debole</string>
     <string name="chart_max">Max</string>
-    <string name="chart_med">Med</string>
-    <string name="chart_screen">Screen</string>
-    <string name="chart_signal">Phone Signal</string>
-    <string name="chart_tempc">Battery Temperature \u00B0C</string>
-    <string name="chart_tempf">Battery Temperature \u00B0F</string>
+    <string name="chart_med">Medio</string>
+    <string name="chart_screen">Schermo</string>
+    <string name="chart_signal">Segnale Telefono</string>
+    <string name="chart_tempc">Temperatura Batteria \u00B0C</string>
+    <string name="chart_tempf">Temperatura Batteria \u00B0F</string>
     <string name="chart_timeformat">hh:mm a</string>
-    <string name="chart_unknown">Unknown</string>
+    <string name="chart_unknown">Sconosciuto</string>
     <string name="chart_wifi">Wifi</string>
     
     <!-- About -->
-    <string name="about_app_name">About GSam Battery Monitor</string>
-    <string name="about_version">Version %1s</string>    
+    <string name="about_app_name">Info su GSam Battery Monitor</string>
+    <string name="about_version">Versione %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
-    <string name="about_translations">Translations:</string>
+    <string name="about_translations">Traduzioni:</string>
     
     <!-- Translations & Translators -->   
-    <string name="lang_default">Default System Language</string>        
-    <string name="translator_anonymous">Anonymous</string>
+    <string name="lang_default">Predefinito di Sistema</string>        
+    <string name="translator_anonymous">Anonimo</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
-    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>    
+    <string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string>
+    <string name="translator_fr">Jaworski Johan</string> 
+    <string name="translator_it">Fabio Abbà&lt;BR&gt;&lt;</string>    
+
 
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
-    <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">If you have trouble reading at night because your screen is too bright, check out GSam Screen Dimmer.  It lets you reduce your brightness settings below what is normally allowed, making for a much more pleasant night-time read!\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.\n\nThe Pro version does not include ads, and will let you turn off anonymous usage statistics.</string>
-    <string name="menu_seeotherapps">See Other Apps by GSam Labs</string>
-    <string name="menu_gopro">Upgrade To Pro</string>
-    <string name="menu_gopro_nook">Purchase</string>
-    <string name="menu_goprokindle">Upgrade To The Kindle Fire Edition</string>
-    <string name="nook_gopro_title">Trial Expired</string>
-    <string name="nook_gopro_msg">Your trial of the battery monitor has expired.  Please purchase the full edition.  You can continue to use the battery monitor, however it will run in Free mode which removes a number of features and optimizations.</string>
-    <string name="nook_gopro_ok">Buy Full Version</string>
-    <string name="nook_gopro_cancel">Continue In Free Mode</string>
-    <string name="main_market_pro_title">Thank You For Using GSam Battery Monitor - Free</string>
-    <string name="main_market_pro_msg">Did you know there is a Tablet optimized professional version of GSam Battery Monitor?  Look for it in the market.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_msg_kindle">Did you know there is a Kindle Fire optimized version of GSam Battery Monitor?  Look for it in the Appstore.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_ok">Take A Look</string>
-    <string name="main_market_pro_cancel">No Thank You</string>
-    <string name="main_invalid_license_title">Invalid License</string>
-    <string name="main_invalid_license_msg">Your license to this application appears to not be valid.  The Battery Monitor will continue to operate in it\'s Free mode.  If you feel this is a mistake, please check your purchase.</string>
-    <string name="main_invalid_license_ok">Check My Purchase</string>
-    <string name="main_invalid_license_cancel">Continue</string>    
-    <string name="about_invalidlicense">You do not have a valid license.  GSam Battery Monitor will continue to run in Free mode.  If you feel this is a mistake, please contact the developer with your Google Purchase ID</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_title">Lo schermo è troppo luminoso?</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Se gai problemi a leggere di notte perchè lo schermo è troppo luminoso, usa GSam Screen Dimmer! Ti consente di abbassare la luminosità sotto i valori normalmente consentiti, per una piacevole lettura notturna.\n\nQuesto messggio non verrà visualizzato nuovamente.</string>
+    <string name="preferences_send_anon_stats_buypro_title">Versione Pro!</string>
+    <string name="preferences_send_anon_stats_buypro_msg">La versione gratuita non consente di togliere la pubblicità se si sceglie di non inviare le statistiche anonime.\n\nLa versione Pro invece non contiene pubblicità e consente di non inviare statistiche.</string>
+    <string name="menu_seeotherapps">Altre Apps di GSam Labs</string>
+    <string name="menu_gopro">Passa a Pro</string>
+    <string name="menu_gopro_nook">Acquista</string>
+    <string name="menu_goprokindle">"Aggiorna all'edizione per Kindle Fire"</string>
+    <string name="nook_gopro_title">Prova scaduta</string>
+    <string name="nook_gopro_msg">Il periodo di prova è scaduto. Si prega di acquistare la versione completa. Diversamente Battery Monitor continuerà a funzionare nella modalità Free, che è priva di varie caratteristiche ed ottimizzazioni.</string>
+    <string name="nook_gopro_ok">Compra Versione Full</string>
+    <string name="nook_gopro_cancel">Continua Modalità Free</string>
+    <string name="main_market_pro_title">Grazie per aver usato GSam Battery Monitor - Free</string>
+    <string name="main_market_pro_msg">Sapevi che esiste una versione professionale di GSam Battery Monitor ottimizzata per Tablet? Cercala nel Market.\n\nQuesto messaggio non verrà visualizzato nuovamente.</string>
+    <string name="main_market_pro_msg_kindle">Sapevi che esiste una versione di GSam Battery Monitor ottimizzata per Kindle Fire? Cercala nel Market.\n\nQuesto messaggio non verrà visualizzato nuovamente.</string>
+    <string name="main_market_pro_ok">"Dai un'occhiata"</string>
+    <string name="main_market_pro_cancel">No Grazie</string>
+    <string name="main_invalid_license_title">Licenza non valida</string>
+    <string name="main_invalid_license_msg">La tua licenza per questa applicazione non è valida. Battery Monitor continuerà ad operare in modalità Free. Se pensi ci sia un errore, per favore controlla il tuo acquisto.
+    </string>
+    <string name="main_invalid_license_ok">Controlla Acquisto</string>
+    <string name="main_invalid_license_cancel">Continua</string>    
+    <string name="about_invalidlicense">Non hai una licenza valida. GSam Battery Monitor continuerà ad operare in modalità Free. Se pensi ci sia un errore, contatta lo sviluppatore con il tuo ID Acquisto Google</string>
 
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-    <string name="abs__action_bar_home_description">Navigate home</string>
-    <string name="abs__action_bar_up_description">Navigate up</string>
-    <string name="abs__action_menu_overflow_description">More options</string>
-    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__action_bar_home_description">Vai a home</string>
+    <string name="abs__action_bar_up_description">Naviga su</string>
+    <string name="abs__action_menu_overflow_description">Più opzioni</string>
+    <string name="abs__action_mode_done">Fatto</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activity_chooser_view_see_all">Vedi tutte...</string>
     <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">Seleziona attività</string>
     <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
-    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__share_action_provider_share_with">Condivisione con...</string>
     <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
-    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__activitychooserview_choose_application">"Scegli un'applicazione"</string>
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with">Condividi con</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">Share with <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">Condividi con <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
