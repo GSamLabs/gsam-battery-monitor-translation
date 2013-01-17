@@ -161,7 +161,7 @@
     <string name="main_talktime_tablet">Tempo conversazione rimasto: </string>
     <string name="main_temp">Temperatura: </string>
     <string name="main_voltage">Voltaggio: </string>
-    <string name="main_health">Tipo / Condizioni: </string>
+    <string name="main_health">Tipo/Condizioni: </string>
     <string name="main_health_cold">Fredda</string>
     <string name="main_health_dead">Morta</string>
     <string name="main_health_good">Buone</string>
