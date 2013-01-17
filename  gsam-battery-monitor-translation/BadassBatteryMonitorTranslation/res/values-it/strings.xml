@@ -215,7 +215,7 @@
     <string name="appdetail_usagedetail">Dettagli utilizzo</string>
     <string name="appdetail_processname">Nome processo</string>
     <string name="appdetail_included_packages">Pacchetti coinvolti</string>
-    <string name="appdetail_included_processes">Provessi coinvolti</string>
+    <string name="appdetail_included_processes">Processi coinvolti</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
     <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
@@ -250,8 +250,8 @@
     <string name="appdetail_light">Chiaro:</string>  
     <string name="appdetail_low">Debole - 0:</string>  
     <string name="appdetail_med">Medio - %s:</string>
-    <string name="appdetail_medium">Medio:</string>  
-    <string name="appdetail_numwakes">Numero di Wakelocks:</string>  
+    <string name="appdetail_medium">Medio:</string>
+    <string name="appdetail_numwakes">Interruzioni Standby:</string>
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Consumo</string>
     <string name="appdetail_pct_power_nospace">% Consumo</string>
     <string name="appdetail_pct_time">% Tempo</string>
