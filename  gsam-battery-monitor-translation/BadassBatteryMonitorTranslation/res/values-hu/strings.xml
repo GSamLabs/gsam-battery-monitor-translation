@@ -29,7 +29,7 @@
     <string name="preferences_alarm_lowbatt_title">Alacsony akku</string>
     <string name="preferences_alarm_lowbatt_sum">Értesítés alacsony akku szintnél</string>
     <string name="preferences_alarm_lowbatttrigger_title">Alacsony akku szint</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">% értékszint a riasztáshoz</string>
+    <string name="preferences_alarm_lowbatttrigger_sum">% érték a riasztási szinthez</string>
     <string name="preferences_alarm_lowbatttrigger_err">Az értéknek 0 és 100 között kell lennie</string>
     <string name="preferences_alarm_hotbatt_title">Forró akku</string>
     <string name="preferences_alarm_hotbatt_sum">Értesítés, ha az akku  a túl meleg lesz</string>
