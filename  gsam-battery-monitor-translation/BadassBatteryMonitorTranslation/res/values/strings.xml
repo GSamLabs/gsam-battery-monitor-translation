@@ -142,6 +142,7 @@
     <string name="procsuckmon_viewby_awake">View Time Held Awake</string>
     <string name="procsuckmon_viewby_wake_times">View Num Times Waking Device</string>
     <string name="procsuckmon_viewby_gps">View GPS Time Used</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">View Kernel Wakelocks</string>
 
     <!-- Main screen -->
     <string name="main_history_button">History</string>
@@ -211,6 +212,7 @@
     <string name="process_suck_mon_title_prefix_wifi">Wifi Detail</string>
     <string name="process_suck_mon_title_prefix_radio">Radio Detail</string>
     <string name="process_suck_mon_title_prefix_screen">Screen Detail</string>
+    <string name="process_suck_mon_title_prefix_wakelock">Wakelock Detail</string>
     <string name="appdetail_usagedetail">Usage Details</string>
     <string name="appdetail_processname">Process Name</string>
     <string name="appdetail_included_packages">Included Packages</string>
@@ -222,6 +224,7 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_details_button">Manage</string>
+    <string name="appdetail_details_button_wakelocks">Google Me</string>    
     <string name="appdetail_details_adjustpower">Power Savings Hint</string>
     <string name="appdetail_details_adjust_wifi">Turn off Wi-Fi when not in use using the Wi-Fi Settings button above.</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi Settings</string>
@@ -283,7 +286,7 @@
     <string name="appdetail_wifion">Wifi On:</string>      
     <string name="appdetail_bytes">%d bytes</string>        
     <string name="appdetail_mb">%.2f MB</string>           
-    <string name="appdetail_kb">%.2f KB</string>     
+    <string name="appdetail_kb">%.2f KB</string>   
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">What\'s New</string>
