@@ -142,6 +142,7 @@
     <string name="procsuckmon_viewby_awake">Время бодрствования</string>
     <string name="procsuckmon_viewby_wake_times">Кол-во пробуждений</string>
     <string name="procsuckmon_viewby_gps">Время исп.GPS</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">Вэйклоки ядра</string>
     
     <!-- Main screen -->
     <string name="main_history_button">История</string>
@@ -211,6 +212,7 @@
     <string name="process_suck_mon_title_prefix_wifi">Детали Wi-Fi</string>
     <string name="process_suck_mon_title_prefix_radio">Детали радио</string>
     <string name="process_suck_mon_title_prefix_screen">Детали экрана</string>
+    <string name="process_suck_mon_title_prefix_wakelock">Детали вэйклока</string>
     <string name="appdetail_usagedetail">Детали использования</string>
     <string name="appdetail_processname">Имя процесса</string>
     <string name="appdetail_included_packages">Включенные пакеты</string>
@@ -222,6 +224,7 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_details_button">Управление</string>
+    <string name="appdetail_details_button_wakelocks">Google</string>
     <string name="appdetail_details_adjustpower">Советы по энергосбережению</string>
     <string name="appdetail_details_adjust_wifi">Выключите Wi-Fi когда его не используете с помощью кнопки настроек Wi-Fi выше.</string>
     <string name="appdetail_details_adjust_wifi_button">Настройки Wi-Fi</string>
