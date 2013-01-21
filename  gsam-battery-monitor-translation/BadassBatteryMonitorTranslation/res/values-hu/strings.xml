@@ -7,8 +7,8 @@
     <string name="battery_status_time_left">Hátralévő idő: %1$02d:%2$02d (átlag), %3$02d:%4$02d (utolsó %5$sm)</string>
     <string name="battery_status_time_left_no_running">Hátralévő idő: %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Hátralévő idő: Kalkuláció..., nézd meg később</string>
-    <string name="battery_status_time_to_full">Idő a teljesig: %1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">Idő teljesig: Kalkuláció..., nézd meg később</string>
+    <string name="battery_status_time_to_full">Teljes töltésig: %1$02d:%2$02d</string>
+    <string name="battery_status_time_to_full_unknown">Teljes töltésig: Kalkuláció..., nézd meg később</string>
     <string name="battery_status_title">Akku állapot - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">Akku állapot - %1$s%% (%2$s) - Töltés</string>
     <string name="battery_status_title_full">Akku állapot - %1$s%% (%2$s) - Feltöltve</string>
@@ -142,7 +142,7 @@
     <string name="procsuckmon_viewby_awake">Ébren tartás ideje</string>
     <string name="procsuckmon_viewby_wake_times">Felébresztések száma</string>
     <string name="procsuckmon_viewby_gps">GPS használati idő</string>
-
+  	<string name="procsuckmon_viewby_kernel_wakelocks">Kernel ébrentartások</string>
     <!-- Main screen -->
     <string name="main_history_button">Előzmény</string>
     <string name="main_preferences_button">Beállítások</string>
@@ -171,7 +171,7 @@
     <string name="main_screen_on_label">Képernyő:</string>
     <string name="main_phone_radio_on_label">Rádió rész:</string>
     <string name="main_wifi_active_label">Wifi aktív:</string>
-    <string name="main_idle_label">Ébrenlét:</string>
+    <string name="main_idle_label">Ébrentartás:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Alkalmazások:</string>
     <string name="main_app_usage_button">Alkalmazások</string>
@@ -208,9 +208,10 @@
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Alkalmazások</string>
-    <string name="process_suck_mon_title_prefix_wifi">Wifi rész</string>
-    <string name="process_suck_mon_title_prefix_radio">Rádió rész</string>
-    <string name="process_suck_mon_title_prefix_screen">Képernyő rész</string>
+    <string name="process_suck_mon_title_prefix_wifi">Wifi</string>
+    <string name="process_suck_mon_title_prefix_radio">Telefon rádió</string>
+    <string name="process_suck_mon_title_prefix_screen">Képernyő</string>
+  	<string name="process_suck_mon_title_prefix_wakelock">Ébrentartás</string>    
     <string name="appdetail_usagedetail">Használat részletei</string>
     <string name="appdetail_processname">Folyamat név</string>
     <string name="appdetail_included_packages">Csomagok</string>
@@ -228,6 +229,7 @@
     <string name="appdetail_details_adjust_wifi_failedintent">A wifi beállítások nem érhetők el</string>
     <string name="appdetail_details_adjust_screen">Kisebb fényerő és képernyő kikapcsolási idő megadásához használd a fenti beállítás gombot.</string>
     <string name="appdetail_details_adjust_screen_button">Beállítás</string>
+    <string name="appdetail_details_button_wakelocks">Google</string>
     <string name="appdetail_details_adjust_screen_failedintent">A képernyő beállítások nem érhetők el</string>
     <string name="detail_menu_export">Exportálás</string>
     <string name="detail_menu_export_dlg_title">Képernyő adat (szöveg) export használata</string>
