@@ -5,12 +5,12 @@
     <!--string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">Zbývající čas: %1$02d:%2$02d (Průměrně), %3$02d:%4$02d (Poslední %5$sm)</string>
-    <string name="battery_status_time_left_no_running">Uplynulý čas: %1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">Uplynulý čas: Výpočet - zkontrolujte později</string>
-    <string name="battery_status_time_to_full">Čas do nabití: %1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">Čas do nabití: Výpočet - zkontrolujte později</string>
-    <string name="battery_status_title">Stav baterie- %1$s%% (%2$s)</string>
+    <string name="battery_status_time_left">Zbývá: %1$02d:%2$02d (průměrně), %3$02d:%4$02d (z posledních %5$sm)</string>
+    <string name="battery_status_time_left_no_running">Zbývá: %1$02d:%2$02d</string>
+    <string name="battery_status_time_left_unknown">Zbývá: výpočet - zkontrolujte později</string>
+    <string name="battery_status_time_to_full">Do nabití: %1$02d:%2$02d</string>
+    <string name="battery_status_time_to_full_unknown">Do nabití: výpočet - zkontrolujte později</string>
+    <string name="battery_status_title">Stav baterie - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">Stav baterie - %1$s%% (%2$s) - Nabíjení</string>
     <string name="battery_status_title_full">Stav baterie - %1$s%% (%2$s) - Nabito</string>
 
@@ -19,21 +19,21 @@
     <string name="preferences_theme_category">Vzhled</string>
     <string name="preferences_alarm_category">Alarmy</string>
     <string name="preferences_startup_service_title">Spouštět se zapnutím zařízení</string>
-    <string name="preferences_startup_service_sum">Zapnout Monitor baterie při startu</string>
+    <string name="preferences_startup_service_sum">Zapnout aplikaci při startu zařízení</string>
     <string name="preferences_temperature_title">Teplota ve °C</string>
     <string name="preferences_show_notification_icon_title">Zobrazovat stavovou ikonku</string>
     <string name="preferences_show_notification_icon_sum">Zobrazovat ikonu s procenty ve stavovém panelu</string>
     <string name="preferences_show_notification_title">Zobrazovat pouze v panelu</string>
     <string name="preferences_show_notification_sum">Zobrazovat ve stavovém panelu bez ikony</string>
     <string name="preferences_alarm_chargecomplete_title">Nabíjení dokončeno</string>
-    <string name="preferences_alarm_chargecomplete_sum">Oznámení, když je nabíjení dokončeno</string>
+    <string name="preferences_alarm_chargecomplete_sum">Oznámení, pokud je baterie nabita</string>
     <string name="preferences_alarm_lowbatt_title">Nízký stav baterie</string>
-    <string name="preferences_alarm_lowbatt_sum">Oznámení, když je nízký stav baterie</string>
+    <string name="preferences_alarm_lowbatt_sum">Oznámení, pokud je nízký stav baterie</string>
     <string name="preferences_alarm_lowbatttrigger_title">Pravidlo nízkého stavu baterie</string>
     <string name="preferences_alarm_lowbatttrigger_sum">Při kolika % spustit alarm</string>
     <string name="preferences_alarm_lowbatttrigger_err">Hodnota musí být mezi 0 a 100</string>
     <string name="preferences_alarm_hotbatt_title">Přehřívání baterie</string>
-    <string name="preferences_alarm_hotbatt_sum">Oznámení, když se baterie nadměrně zahřívá</string>
+    <string name="preferences_alarm_hotbatt_sum">Oznámení, pokud se baterie nadměrně zahřívá</string>
     <string name="preferences_alarm_hotbatttrigger_title">Pravidlo zahřívání baterie</string>
     <string name="preferences_alarm_hotbatttrigger_sum">Teplota u které zapnout alarm</string>
     <string name="preferences_theme_title">Vzhled ikony baterie</string>
@@ -54,7 +54,7 @@
     <string name="preferences_overlay_icon_notvalid_msg">Vyberte jiný vzhled a zkuste to znovu.\n\nPřekryvné ikony jsou podporovány pouze v přídavných balících ikon.  Vyberte Získat více vzhledů z menu Vzhled ikony baterie pro získání dalších ikon.  Všechny vzhledy od GSam Labs podporují překryvné ikony.  Vzhledy ikon třetích stran nemusí tyto ikony podporovat.</string>
     <string name="preferences_widget_color_screen_title">Nastavení widgetu baterie</string>
     <string name="preferences_app_theme_title">Použít tmavý vzhled</string>
-    <string name="preferences_app_theme_sum">Použít tmavý vzhled pro okno aplikace</string>
+    <string name="preferences_app_theme_sum">Použít tmavý vzhled pro hlavní okno aplikace</string>
     <string name="preferences_time_left_title">Výpočet zbývajícího času</string>
     <string name="preferences_time_left_sum">Počítat zbývající čas baterie založený na tomto časovém úseku.</string>
     <string name="preferences_profiles_screen_title">Profily napájení zařízení</string>
@@ -67,8 +67,8 @@
     <string name="preferences_time_per_percent_title">Resetovat historii časů vybíjení</string>
     <string name="preferences_time_per_percent_unkown">neznámé</string>
     <string name="preferences_time_per_percent_summary">Reset the calculated value for average amount of time your device lasts for a full battery cycle. Currently %1$s (%2$sm / percent calculated over %3$01d percentages)</string>
-    <string name="preferences_stats_since_title">Zobrazit statistiku před</string>
-    <string name="preferences_stats_since_summary">Zobrazit statistiku před posledním odpojením, před posledním nabitím.</string>
+    <string name="preferences_stats_since_title">Zobrazit statistiku od</string>
+    <string name="preferences_stats_since_summary">Zobrazit statistiku od posledního odpojení / od posledního nabití.</string>
     <string name="preferences_power_profiles_edit_summary">Přizpůsobit uživatelský profil.  Uživatelské hodnoty budou použity pouze pokud je aktivován uživatelský profil.</string>
     <string name="profedit_title">Modify the values below to change how your time remaining and App Sucker times are calculated</string>
     <string name="profedit_load_basedon">Obnovit data založená na:</string>
@@ -84,7 +84,7 @@
     <string name="preferences_clear_history_stats_toast">Všechny statistiky byly smzány\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Nepovedlo se smazat statistiky - toto zařízení nemusí funkci podporovat\u2026</string>
     <string name="preferences_custom_ref">The battery history will be based off of a custom reference point created now (or when the device gets unplugged).  This can be used to determine what has used your battery since this specific point in time rather than since last unplugged or last charged. </string>
-    <string name="preferences_custom_ref_plugged">Zařízení se nabíjí - vlastní reference můžete vytvářet pouze, když je telefon odpojen od napájení.</string>
+    <string name="preferences_custom_ref_plugged">Zařízení se nabíjí - uživatelskou předvolbu můžete použít pouze, když je telefon odpojen od napájení.</string>
     <string name="preferences_send_anon_stats_title">Povolit anonymní sběr statistik</string>
     <string name="preferences_send_anon_stats_sum">Povolit odesílání anonymních statistických dat.  Nebudou odesílána žádná osobní data.</string>
     <string name="preferences_show_ads_title">Zobrazovat reklamu</string>
@@ -106,22 +106,22 @@
     <string name="preferences_widget_color_category">Barvy</string>
     <string name="preferences_widget_general_category">Hlavní</string>
     <string name="preferences_start_foreground_title">Vysoká priorita</string>
-    <string name="preferences_start_foreground_sum">Spouštět Monitor baterie v režimu vysoké priority.  Použijte pouze v případě, když ikona baterie není korektně aktualizována a nezobrazuje správně procenta.  Toto nastavení ubere dostupné zdroje výkonu ostatním aplikacím. Nezapínejte proto zbytečně.</string>
+    <string name="preferences_start_foreground_sum">Spouštět monitor baterie v režimu vysoké priority.  Použijte pouze v případě, když ikona baterie není korektně aktualizována a nezobrazuje správně procenta.  Toto nastavení ubere dostupné zdroje výkonu ostatním aplikacím. Nezapínejte proto zbytečně.</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kruhový</string>   
-    <string name="icon_themes_icsmono">ICS Monochromatický</string>   
+    <string name="icon_themes_icsmono">Monochromatický</string>   
     <string name="icon_themes_trad">Tradiční</string>   
-    <string name="icon_themes_default">Předvolený systémem</string>   
+    <string name="icon_themes_default">Systémový</string>   
     <string name="icon_themes_getmore">Získat více vzhledů</string>
     <string name="time_left_calc_dontshow">Nezobrazovat</string>
-    <string name="time_left_calc_last5">Posledních 5 minut</string>
-    <string name="time_left_calc_last15">Posledních 15 minut</string>
-    <string name="time_left_calc_last30">Posledních 30 minut</string>
-    <string name="time_left_calc_last60">Posledních 60 minut</string>
-    <string name="stats_since_unplugged">Od posledního odpojení</string>
-    <string name="stats_since_charged">Od posledního plného nabití</string>
-    <string name="stats_since_custom">Od uživatelské předvolby</string>
+    <string name="time_left_calc_last5">Za posledních 5 minut</string>
+    <string name="time_left_calc_last15">Za posledních 15 minut</string>
+    <string name="time_left_calc_last30">Za posledních 30 minut</string>
+    <string name="time_left_calc_last60">Za posledních 60 minut</string>
+    <string name="stats_since_unplugged">posledního odpojení</string>
+    <string name="stats_since_charged">posledního plného nabití</string>
+    <string name="stats_since_custom">uživatelské předvolby</string>
     <string name="pwer_profiles_mfg">Původní hodnoty</string>
     <string name="pwer_profiles_saved">Stávající uložené hodnoty</string>
 
@@ -134,13 +134,13 @@
     <string name="process_suck_mon_title_unplugged">%1$s (Od posledního odpojení)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (Od plného nabití)</string>
     <string name="process_suck_mon_title_customref">%1$s (Od uživateslké předvolby)</string>
-    <string name="procsuckmon_viewby_pwr">Zobrazit % využití energie</string>
-    <string name="procsuckmon_viewby_pwr_minforeground">Zobrazit % energie (CPU na pozadí)</string>
-    <string name="procsuckmon_viewby_cpu">Zobrazit minutové využití CPU</string>
-    <string name="procsuckmon_viewby_cpu_minforeground">Zobrazit CPU (běžící pouze na pozadí)</string>
+    <string name="procsuckmon_viewby_pwr">Zobrazit využití energie v %</string>
+    <string name="procsuckmon_viewby_pwr_minforeground">Zobrazit využití energie v % (CPU na pozadí)</string>
+    <string name="procsuckmon_viewby_cpu">Zobrazit využití CPU v minutách</string>
+    <string name="procsuckmon_viewby_cpu_minforeground">Zobrazit využití CPU (běžící pouze na pozadí)</string>
     <string name="procsuckmon_viewby_data">Zobrazit využití přenesených dat</string>
     <string name="procsuckmon_viewby_sensor">Zobrazit využití senzorů</string>
-    <string name="procsuckmon_viewby_awake">View Time Held Awake</string>
+    <string name="procsuckmon_viewby_awake">Zobrazit čas v pohotovosti</string>
     <string name="procsuckmon_viewby_wake_times">Zobrazit počet probuzení zařízení</string>
     <string name="procsuckmon_viewby_gps">Zobrazit využití GPS</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Co zakazuje uspání</string>
@@ -150,13 +150,13 @@
     <string name="main_preferences_button">Předvolby</string>
     <string name="main_calculating">Výpočet\u2026</string>
     <string name="main_full">Plno</string>
-    <string name="main_timetofull">Zbývá - Do plna: </string>
+    <string name="main_timetofull">Zbývá - do nabití: </string>
     <string name="main_timetofull_tablet">Čas do plného nabití: </string>
-    <string name="main_timeleft">Zbývá - Průměrně: </string>
-    <string name="main_timeleft_tablet">Zbývá (Průměrné používání): </string>
-    <string name="main_timeleft_rolling">Zbývá - Posledních %1$sm: </string>
-    <string name="main_timeleft_rolling_tablet">Zbývá (Posledních %1$sm k použití): </string>
-    <string name="main_talktime">Zbývá - Čas hovoru: </string>
+    <string name="main_timeleft">Zbývá - průměrně: </string>
+    <string name="main_timeleft_tablet">Zbývá (běžné používání): </string>
+    <string name="main_timeleft_rolling">Zbývá - posledních %1$sm: </string>
+    <string name="main_timeleft_rolling_tablet">Zbývá (posledních %1$sm k použití): </string>
+    <string name="main_talktime">Zbývá - čas hovoru: </string>
     <string name="main_talktime_tablet">Zbývající čas hovoru: </string>
     <string name="main_temp">Teplota: </string>
     <string name="main_voltage">Napětí: </string>
@@ -166,14 +166,14 @@
     <string name="main_health_good">Dobrá</string>
     <string name="main_health_hot">Horká</string>
     <string name="main_health_over_voltage">Přepětí</string>
-    <string name="main_health_unknown">Neznámý</string>
+    <string name="main_health_unknown">Neznámé</string>
     <string name="main_health_failed">Nezdařený</string>
     <string name="main_usage_label">Využití baterie - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_phone_on_label">Telefon:</string>
     <string name="main_screen_on_label">Obrazovka:</string>
-    <string name="main_phone_radio_on_label">Telefonní signál:</string>
+    <string name="main_phone_radio_on_label">Signál:</string>
     <string name="main_wifi_active_label">Aktivní Wifi:</string>
-    <string name="main_idle_label">Held Awake:</string>
+    <string name="main_idle_label">V pohotovosti:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Aplikace:</string>
     <string name="main_app_usage_button">App Sucker</string>
@@ -195,7 +195,7 @@
     <string name="main_share_subject">Průměrná výdrž baterie - GSam Battery Monitor</string>
     <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Průměrná výdržbaterie: %1$s</string>
+    <string name="main_avg_timepercharge_label">Průměrná výdrž baterie: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Used Over %2$s (Od posledního odpojení)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Used Over %2$s Od plného nabití)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Od uživatelské předvolby)</string>
@@ -246,7 +246,7 @@
     <string name="appdetail_dark">Tmavá:</string>  
     <string name="appdetail_data_enabled">Data povolena:</string>  
     <string name="appdetail_dim">Ztlumená:</string>  
-    <string name="appdetail_discharge_whileonoff">Vybíjení během zapínání/vypínání:</string>  
+    <string name="appdetail_discharge_whileonoff">Vybíjení u zap./vyp.:</string>  
     <string name="appdetail_gps">GPS:</string>  
     <string name="appdetail_high">Vysoký - %s:</string>
     <string name="appdetail_keepawake">Keep Awake:</string>  
@@ -258,7 +258,7 @@
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Energie</string>
     <string name="appdetail_pct_power_nospace">% Energie</string>
     <string name="appdetail_pct_time">% Čas</string>
-    <string name="appdetail_phoneon">Zapnutý telefon (signál):</string>  
+    <string name="appdetail_phoneon">Zapnutý telefonní modul:</string>  
     <string name="appdetail_pwr_sysdata">Energie systémových dat:</string>  
     <string name="appdetail_received">Přijatá:</string>  
     <string name="appdetail_received_wifimobile">Přijatá (Wifi / Mobilní):</string> 
@@ -308,11 +308,11 @@
     <string name="chart_menu_battdischarge">Graf energie/procentuální</string>
     <string name="notification_chargecomplete">Nabíjení kompletní</string>
     <string name="notification_battlow">Prázdná baterie (%1s%%)</string>
-    <string name="notification_batthot_f">Varování - Horká Battery (%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">Varování - Horká batterie (%.1f\u00B0C)</string>
-    <string name="chart_active">Aktivní</string>
-    <string name="chart_batt_history">Historie batterie (%1$s)</string>
-    <string name="chart_batt_percent">Batterie %</string>
+    <string name="notification_batthot_f">Varování - Horká baterie (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Varování - Horká baterie (%.1f\u00B0C)</string>
+    <string name="chart_active">Aktivita</string>
+    <string name="chart_batt_history">Historie baterie (%1$s)</string>
+    <string name="chart_batt_percent">Baterie %</string>
     <string name="chart_charging">Nabíjení</string>
     <string name="chart_dim">Ztlumený</string>
     <string name="chart_gps">GPS</string>
@@ -338,17 +338,17 @@
     <string name="about_translations">Překlady:</string>
     
     <!-- Translations & Translators -->   
-    <string name="lang_default">Předvolený jazyk systému</string>        
+    <string name="lang_default">Jazyk systému</string>        
     <string name="translator_anonymous">Anonymní</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <!--  EG string name="translator_ru">Dmitry Chernogaev &lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string -->        
-    <string name="translator_cs">Matěj Trakal (&lt;BR&gt;&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
+    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Je vaše obrazovka moc jasná?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">POkud máte problém se čtením v noci, jelikož je obrazovka moc jasná, zkuste GSam Screen Dimmer.  Aplikace vám umožní nastavit jas na nižší hodnoty, než je běžně povoleno a umožní lépe číst v noci!\n\nTato zpráva nebude znovu zobrazena.</string>
-    <string name="preferences_send_anon_stats_buypro_title">Povýšit!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">Neplacená Free verze Battery Monitoru nedovoluje vypnout reklamy, pokud neodesíláte anonymní statistiky.\n\nPlacená Pro verze neobsahuje reklamy a dovoluje vypnout i odesílání statistik.</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Pokud máte problém se čtením v noci, jelikož je obrazovka moc jasná, zkuste GSam Screen Dimmer.  Aplikace vám umožní nastavit jas na nižší hodnoty, než je běžně povoleno a umožní lépe číst v noci!\n\nTato zpráva nebude znovu zobrazena.</string>
+    <string name="preferences_send_anon_stats_buypro_title">Přejít na plnou verzi!</string>
+    <string name="preferences_send_anon_stats_buypro_msg">Neplacená verze Battery Monitoru nedovoluje vypnout reklamy, aniž byste neodesílali anonymní statistiky.\n\nPlacená Pro verze neobsahuje reklamy a dovoluje vypnout i odesílání statistik.</string>
     <string name="menu_seeotherapps">Zobrazit další aplikace od GSam Labs</string>
     <string name="menu_gopro">Povýšit na Pro</string>
     <string name="menu_gopro_nook">Koupit</string>
