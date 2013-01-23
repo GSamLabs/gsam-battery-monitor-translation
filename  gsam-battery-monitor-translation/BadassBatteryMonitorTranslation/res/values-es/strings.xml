@@ -101,6 +101,9 @@
     <string name="preferences_widget_color_screen_sum">Set the color gradient of the battery view, and control the widget settings</string>
     <string name="preferences_widget_color_category">Colores</string>
     <string name="preferences_widget_general_category">General</string>
+    <string name="preferences_start_foreground_title">High Priority</string>
+    <string name="preferences_start_foreground_sum">Run the battery monitor using a high priority.  Use this only if your icons are not getting updated properly to reflect the proper battery percentage.  Do not enable this otherwise as it will affect how many resources are available to other applications. </string>
+
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circulo</string>   
@@ -137,6 +140,7 @@
     <string name="procsuckmon_viewby_awake">View Time Held Awake</string>
     <string name="procsuckmon_viewby_wake_times">View Num Times Waking Device</string>
     <string name="procsuckmon_viewby_gps">Ver Tiempo Usado por GPS</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">View Kernel Wakelocks</string>
 
     <!-- Main screen -->
     <string name="main_history_button">Historial</string>
@@ -197,12 +201,17 @@
     <string name="rate_me_title">Calificar GSam Battery Monitor</string>
     <string name="rate_me_msg">¿Te gusta GSam Battery Monitor? ¡Por favor tomate el tiempo de dar una buena calificación a la aplicación!\n\nNo te preocupes - no te lo pediremos de nuevo.</string>
     <string name="rate_me_ok">¡Calificar!</string>
+    <string name="main_header_type">Type</string>
+    <string name="main_header_time">Time</string>
+    <string name="main_header_power">Power</string>
+
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Detalles de Aplicaciones</string>
     <string name="process_suck_mon_title_prefix_wifi">Detalles de Wifi</string>
     <string name="process_suck_mon_title_prefix_radio">Radio Detail</string>
     <string name="process_suck_mon_title_prefix_screen">Detalles de Pantalla</string>
+    <string name="process_suck_mon_title_prefix_wakelock">Wakelock Detail</string>
     <string name="appdetail_usagedetail">Detalles de Uso</string>
     <string name="appdetail_processname">Nombre del Proceso</string>
     <string name="appdetail_included_packages">Paquetes Incluidos</string>
@@ -214,6 +223,7 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_details_button">Administrar</string>
+    <string name="appdetail_details_button_wakelocks">Google Me</string>
     <string name="appdetail_details_adjustpower">Sugerencias de Ahorro de Energia</string>
     <string name="appdetail_details_adjust_wifi">Turn off Wi-Fi when not in use using the Wi-Fi Settings button above.</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi Settings</string>
@@ -272,7 +282,11 @@
     <string name="appdetail_video">Video Encendido:</string>  
     <string name="appdetail_wakelocks">Number of Wake Locks:</string>  
     <string name="appdetail_wifiactive">Wifi Activo:</string>  
-    <string name="appdetail_wifion">Wifi Encendido:</string>      
+    <string name="appdetail_wifion">Wifi Encendido:</string>
+    <string name="appdetail_bytes">%d bytes</string>        
+    <string name="appdetail_mb">%.2f MB</string>           
+    <string name="appdetail_kb">%.2f KB</string>  
+    
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Novedades</string>
@@ -283,6 +297,7 @@
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="ok">OK</string>
+    <string name="error">An error occurred</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">Temperatura</string>
@@ -292,6 +307,8 @@
     <string name="chart_menu_battdischarge">Gráfica Energia vs Porcentaje</string>
     <string name="notification_chargecomplete">Carga Completa</string>
     <string name="notification_battlow">Batería Baja (%1s%%)</string>
+    <string name="notification_batthot_f">Warning - Hot Battery (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Warning - Hot Battery (%.1f\u00B0C)</string>
     <string name="chart_active">Activo</string>
     <string name="chart_batt_history">Historial de la Batería (%1$s)</string>
     <string name="chart_batt_percent">Batería %</string>
@@ -323,7 +340,10 @@
     <string name="lang_default">Idioma Predeterminado del Sistema</string>        
     <string name="translator_anonymous">Anónimo</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <!-- EXAMPLE string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string -->    
+    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>
+    <string name="translator_fr">Jaworski Johan</string>
+    <string name="translator_it">Fabio Abbà</string>
+    <string name="translator_hu">István Kriskó (Stefi)</string>  
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
