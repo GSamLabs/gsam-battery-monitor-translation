@@ -144,6 +144,7 @@
     <string name="procsuckmon_viewby_awake">Vedi Tempo WakeLock</string>
     <string name="procsuckmon_viewby_wake_times">Vedi Numero WakeLock usati</string>
     <string name="procsuckmon_viewby_gps">Vedi Tempo Utilizzo GPS</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">Vedi Wakelocks Kernel</string>
 
 
     <!-- Main screen -->
@@ -212,6 +213,7 @@
     <string name="process_suck_mon_title_prefix_wifi">Dettagli WiFi</string>
     <string name="process_suck_mon_title_prefix_radio">Dettagli Linea</string>
     <string name="process_suck_mon_title_prefix_screen">Dettagli Display</string>
+    <string name="process_suck_mon_title_prefix_wakelock">Dettagli Wakelock</string>
     <string name="appdetail_usagedetail">Dettagli utilizzo</string>
     <string name="appdetail_processname">Nome processo</string>
     <string name="appdetail_included_packages">Pacchetti coinvolti</string>
@@ -223,6 +225,7 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_details_button">Gestisci</string>
+    <string name="appdetail_details_button_wakelocks">Cerca su Google</string>
     <string name="appdetail_details_adjustpower">Consigli Risparmio energetico</string>
     <string name="appdetail_details_adjust_wifi">Spegnere il Wi-Fi quando non utilizzato tramite il pulsante in alto.</string>
     <string name="appdetail_details_adjust_wifi_button"> Imposta WiFi</string>
