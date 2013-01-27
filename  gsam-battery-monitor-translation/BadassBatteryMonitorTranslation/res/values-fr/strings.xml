@@ -147,7 +147,8 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="procsuckmon_viewby_awake">Voir Temps Resté Eveillé</string>
     <string name="procsuckmon_viewby_wake_times">Voir Nombre De Fois Appareil Veille</string>
     <string name="procsuckmon_viewby_gps">Voir Temps Utilisé GPS</string>
-
+    <string name="procsuckmon_viewby_kernel_wakelocks">Voir Wakelocks Kernel</string>
+    
     <!-- Main screen -->
     <string name="main_history_button">Historique</string>
     <string name="main_preferences_button">Préférences</string>
@@ -209,12 +210,16 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
 
 Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="rate_me_ok">Notez!</string>
-
+    <string name="main_header_type">Type</string>
+    <string name="main_header_time">Temps</string>
+    <string name="main_header_power">Energie</string>
+    
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Détails appl</string>
     <string name="process_suck_mon_title_prefix_wifi">Détails WiFi</string>
     <string name="process_suck_mon_title_prefix_radio">Détails radio</string>
     <string name="process_suck_mon_title_prefix_screen">Détails écran</string>
+    <string name="process_suck_mon_title_prefix_wakelock">Détails Wakelock</string>
     <string name="appdetail_usagedetail">Détails Utilisation</string>
     <string name="appdetail_processname">Nom Processus</string>
     <string name="appdetail_included_packages">Paquets Inclus</string>
@@ -225,7 +230,8 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="appdetail_days_twolevels" formatted="false">%1$01dd %2$01dh</string>
     <string name="appdetail_hours" formatted="false">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels" formatted="false">%1$01dh %2$01dm</string>
-    <string name="appdetail_details_button">Gère</string>
+    <string name="appdetail_details_button">Gérer</string>
+    <string name="appdetail_details_button_wakelocks">Google Moi</string>
     <string name="appdetail_details_adjustpower">Astuces Economie Energie</string>
     <string name="appdetail_details_adjust_wifi">"Désactiver la fonction WiFi quand elle n'est pas utilisée avec l'aide du bouton Paramètres WiFi au-dessus."</string>
     <string name="appdetail_details_adjust_wifi_button">Paramètres WiFi</string>
