@@ -65,7 +65,7 @@
     <string name="preferences_power_per_percent_dlgtext">Komma separeras i formen POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Detta värde uppdateras konstant - Ju längre du kör det, desto mer stämmer det.  När du ändrar i en strömprofilsinställning, ska du rensa detta fält och låta appen generera igen.</string>
     <string name="preferences_time_per_percent_title">Återställ Tiden För Urladdnings Historia</string>
     <string name="preferences_time_per_percent_unkown">okänd</string>
-    <string name="preferences_time_per_percent_summary">Återställ det beräknade värdet för genomsnittslig tid som din enhet håller från en full laddning. För närvarande %1$s (%2$sm / procent beräknat över %3$01d percentages)</string>
+    <string name="preferences_time_per_percent_summary">Återställ det beräknade värdet för genomsnittslig tid som din enhet håller från en full laddning. För närvarande %1$s (%2$sm / procent beräknat över %3$01d procentenheter)</string>
     <string name="preferences_stats_since_title">Visa Statistik</string>
     <string name="preferences_stats_since_summary">Visar statistik från det att du kopplade ifrån laddaren eller sedan full ladning.</string>
     <string name="preferences_power_profiles_edit_summary">Konfigurera din strömprofil. Det ändrade värdet kommer bara att användas om din anpassade profil är aktiverad.</string>
@@ -100,7 +100,7 @@
     <string name="preferences_widget_color_empty_title">Färg Vid 0%</string>
     <string name="preferences_widget_color_alpha_title">Genomskinlighet på färgen</string>
     <string name="preferences_widget_color_preview_title">Förhandsvisning för procent</string>
-    <string name="preferences_widget_color_preview_sum">Set the percent full value of the battery preview below.</string>
+    <string name="preferences_widget_color_preview_sum">Förhandsgranska hur widgeten kommer att se ut vid en viss procent nedan.</string>
     <string name="preferences_widget_color_screen_sum">Ställ in färggradienten enligt batteriet och ställ in widget inställningarna</string>
     <string name="preferences_widget_color_category">Färger</string>
     <string name="preferences_widget_general_category">Allmänt</string>
@@ -157,7 +157,7 @@
     <string name="main_timeleft_rolling_tablet">Återstående (De senaste %1$sm Användande: </string>
     <string name="main_talktime">Kvar - Taltid: </string>
     <string name="main_talktime_tablet">Återstående Taltid: </string>
-    <string name="main_temp">Temperatue: </string>
+    <string name="main_temp">Temperatur: </string>
     <string name="main_voltage">Volt: </string>
     <string name="main_health">Typ / Hälsa: </string>
     <string name="main_health_cold">Kallt</string>
@@ -171,10 +171,10 @@
     <string name="main_phone_on_label">Telefon:</string>
     <string name="main_screen_on_label">Skärm:</string>
     <string name="main_phone_radio_on_label">Radio:</string>
-    <string name="main_wifi_active_label">Wifi Aktiverat:</string>
-    <string name="main_idle_label">Hålld Vaken:</string>
+    <string name="main_wifi_active_label">Wifi:</string>
+    <string name="main_idle_label">Enheten Vaken:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
-    <string name="main_app_usage_label">App Användande:</string>
+    <string name="main_app_usage_label">Appar:</string>
     <string name="main_app_usage_button">App Sucker</string>
     <string name="main_android_batt_usage_button">Batterianvändnig</string>    
     <string name="main_android_batt_usage_failed">Kunde inte starta den inbyggda batterianvändningsappen...</string>
@@ -189,7 +189,7 @@
     <string name="main_refresh_toast">Statistiken Uppdaterades\u2026</string>
     <string name="main_market_nomarket_msg">Funktionen är ej tillgänglig. Det verkar inte finnas någon affär installerad på din enhet.</string>
     <string name="menu_help">Hjälp</string>
-    <string name="menu_review">Recensera GSam Battery MonitorReview</string>
+    <string name="menu_review">Recensera GSam Battery Monitor</string>
     <string name="main_share_intentchoosertitle">Dela din genomsnittliga batteritid\u2026</string>
     <string name="main_share_subject">Min Genomsnittliga Batteritid - GSam Battery Monitor</string>
     <string name="main_share_msg2">Mitt %1$s %2$s batteri snittar %3$s (%4$s under aktiv användning) på en laddning. Kolla in GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
@@ -209,7 +209,7 @@
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App Detaljer</string>
-    <string name="process_suck_mon_title_prefix_wifi">Wifi Detaljer</string>
+    <string name="process_suck_mon_title_prefix_wifi">Wi-Fi Detaljer</string>
     <string name="process_suck_mon_title_prefix_radio">Radio Detaljer</string>
     <string name="process_suck_mon_title_prefix_screen">Skärm Detaljer</string>
     <string name="process_suck_mon_title_prefix_wakelock">Wakelock Detaljer</string>
@@ -245,7 +245,7 @@
     <string name="appdetail_dark">Mörk:</string>  
     <string name="appdetail_data_enabled">Data På:</string>  
     <string name="appdetail_dim">Dimma:</string>  
-    <string name="appdetail_discharge_whileonoff">Ladda Ur Medan På/Av:</string>  
+    <string name="appdetail_discharge_whileonoff">Urladdning Medan På/Av:</string>  
     <string name="appdetail_gps">GPS:</string>  
     <string name="appdetail_high">Hög - %s:</string>
     <string name="appdetail_keepawake">Håll Vaken:</string>  
@@ -279,7 +279,7 @@
     <string name="appdetail_sent">Skicat:</string>  
     <string name="appdetail_sent_wifimobile">Skickat (Wifi / Data):</string>  
     <string name="appdetail_signal_stregth">Signal Styrka:</string>
-    <string name="appdetail_total_appssystem">Total (Appar / System):</string> 
+    <string name="appdetail_total_appssystem">Totalt (Appar / System):</string> 
     <string name="appdetail_video">Video På:</string>  
     <string name="appdetail_wakelocks">Antal Wakelocks:</string>  
     <string name="appdetail_wifiactive">Wifi Aktiv:</string>  
@@ -352,7 +352,7 @@
     <string name="preferences_send_anon_stats_buypro_title">Köp Pro!</string>
     <string name="preferences_send_anon_stats_buypro_msg">Gratisversionen av GSam Battery Monitor låter dig inte stänga av reklam om du väljer att inte skicka anonym statistik.\n\nPremiumversionen av GSam Battery Monitor innehåller ingen reklam, och låter dig stänga av sändningen av anonym statistik.</string>
     <string name="menu_seeotherapps">Se andra appar från GSam Labs</string>
-    <string name="menu_gopro">Upgrade Till Pro</string>
+    <string name="menu_gopro">Uppgradera Till Pro</string>
     <string name="menu_gopro_nook">Köp</string>
     <string name="menu_goprokindle">Uppgradera till versionen för Kindle Fire</string>
     <string name="nook_gopro_title">Prövotiden har gått ut</string>
