@@ -131,9 +131,9 @@
     <string name="process_suck_mon_header">%0$.1f%% van de batterij verbruikt door:</string>
     <string name="process_suck_mon_nodata">Geen gegevens beschikbaar. Er zijn geen apps die de geselecteerde bron gebruikt hebben sinds de laatste keer opladen</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
-    <string name="process_suck_mon_title_unplugged">%1$s (Sinds laatst ontkoppeld)</string>
-    <string name="process_suck_mon_title_fullcharge">%1$s (Sinds laatst volledig opgeladen)</string>
-    <string name="process_suck_mon_title_customref">%1$s (Sinds aangepast referentiepunt)</string>
+    <string name="process_suck_mon_title_unplugged">%1$s (sinds laatst ontkoppeld)</string>
+    <string name="process_suck_mon_title_fullcharge">%1$s (sinds laatst volledig opgeladen)</string>
+    <string name="process_suck_mon_title_customref">%1$s (sinds aangepast referentiepunt)</string>
     <string name="procsuckmon_viewby_pwr">Bekijk % energiegebruik</string>
     <string name="procsuckmon_viewby_pwr_minforeground">Bekijk % energie (alleen achtergrond CPU)</string>
     <string name="procsuckmon_viewby_cpu">Bekijk CPU-gebruik</string>
@@ -196,9 +196,9 @@
     <string name="main_share_msg2">Mijn %1$s %2$s batterij gebruikt gemiddeld %3$s (%4$s actief gebruik) na opladen. Bekijk GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">Mijn %1$s %2$s batterij gebruikt gemiddeld %3$s na opladen. Bekijk GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_avg_timepercharge_label">Gemiddelde batterijcyclus: %1$s</string>
-    <string name="main_tablet_battusage_unplug">%1$s%% gebruikt in %2$s (Sinds laatst ontkoppeld)</string>
-    <string name="main_tablet_battusage_fullcharge">%1$s%% gebruikt in %2$s (Sinds laatst opgeladen)</string>
-    <string name="main_tablet_battusage_customref">%1$s%% gebruikt in %2$s (Sinds aangepast referentiepunt)</string>
+    <string name="main_tablet_battusage_unplug">%1$s%% gebruikt in %2$s (sinds laatst ontkoppeld)</string>
+    <string name="main_tablet_battusage_fullcharge">%1$s%% gebruikt in %2$s (sinds laatst opgeladen)</string>
+    <string name="main_tablet_battusage_customref">%1$s%% gebruikt in %2$s (sinds aangepast referentiepunt)</string>
     <string name="main_tablet_active_usage">Actief (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">Standby (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">Beoordeel GSam Battery Monitor</string>
@@ -227,7 +227,7 @@
     <string name="appdetail_details_button">Beheren</string>
     <string name="appdetail_details_button_wakelocks">Google mij</string>    
     <string name="appdetail_details_adjustpower">Energiebesparing tips</string>
-    <string name="appdetail_details_adjust_wifi">Schakel Wi-Fi uit bij geen gebruik door de Wi-Fi instellingen knop bovenin.</string>
+    <string name="appdetail_details_adjust_wifi">Schakel Wi-Fi uit bij geen gebruik via de Wi-Fi instellingen knop bovenin.</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi instellingen</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Laden Wi-Fi instellingen niet mogelijk</string>
     <string name="appdetail_details_adjust_screen">Verlaag Helderheid en Time-out door de Display instellingen knop bovenin.</string>
@@ -238,7 +238,7 @@
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Export gegevens</string>    
     <string name="appdetail_appuid">App UID:</string>  
     <string name="appdetail_audio">Geluid aan:</string>  
-    <string name="appdetail_bright">Helderheid:</string>  
+    <string name="appdetail_bright">Helder:</string>  
     <string name="appdetail_bytesrec">Bytes ontvangen:</string>  
     <string name="appdetail_bytessent">Bytes verzonden:</string>  
     <string name="appdetail_cpu">CPU gebruik:</string>  
@@ -261,7 +261,7 @@
     <string name="appdetail_phoneon">Telefoon radio Aan:</string>  
     <string name="appdetail_pwr_sysdata">Energie voor systeem data:</string>  
     <string name="appdetail_received">Ontvangen:</string>  
-    <string name="appdetail_received_wifimobile">Ontvangen (Wi-Fi/Mobiel):</string>
+    <string name="appdetail_received_wifimobile">Ontvangen (Wi-Fi/mobiel):</string>
     <string name="appdetail_scanning">Scannen voor signaal:</string>  
     <string name="appdetail_screen_brightness">Helderheid:</string>  
     <string name="appdetail_screenon">Display Aan:</string>  
@@ -278,7 +278,7 @@
     <string name="appdetail_sensor_rotvector">Rotatie vector:</string>  
     <string name="appdetail_sensor_temp">Temperatuur:</string>  
     <string name="appdetail_sent">Verzonden:</string>  
-    <string name="appdetail_sent_wifimobile">Verzonden (wi-fi/mobiel):</string>  
+    <string name="appdetail_sent_wifimobile">Verzonden (Wi-Fi/mobiel):</string>  
     <string name="appdetail_signal_stregth">Signaalsterkte:</string>
     <string name="appdetail_total_appssystem">Totaal (apps/systeem):</string>
     <string name="appdetail_video">Video Aan:</string>  
