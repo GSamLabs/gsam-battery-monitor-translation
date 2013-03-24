@@ -51,6 +51,7 @@
     <string name="preferences_overlay_icon_configure_invalid">Unable to launch configuration.  Open the icon pack manually to configure.</string>
     <string name="preferences_overlay_icon_notvalid_title">Selected Theme Doesn\'t Support Overlay Icons</string>
     <string name="preferences_overlay_icon_notvalid_msg">Select a different theme, and try again.\n\nOverlay Icons are only supported by external Icon Packs.  Select Get More Themes from the Battery Icon Theme menu to find an external icon pack.  All Icon Packs provided by GSam Labs support overlay icons.  Third party icon packs may not support overlays.</string>
+    <string name="preferences_show_charging_animation_title">Show animation while charging</string> 
     <string name="preferences_widget_color_screen_title">Battery Widget Settings</string>
     <string name="preferences_app_theme_title">Use Dark App Theme</string>
     <string name="preferences_app_theme_sum">Use a dark theme for the app screens</string>
