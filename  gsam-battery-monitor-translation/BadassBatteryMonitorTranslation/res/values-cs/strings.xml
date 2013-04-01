@@ -52,6 +52,7 @@
     <string name="preferences_overlay_icon_configure_invalid">Nepovedlo se otevřít nastavení.  Pro konfiguraci otevřete balík ikon ručně.</string>
     <string name="preferences_overlay_icon_notvalid_title">Vybraný vzhled nepodporuje překryvné ikony</string>
     <string name="preferences_overlay_icon_notvalid_msg">Vyberte jiný vzhled a zkuste to znovu.\n\nPřekryvné ikony jsou podporovány pouze v přídavných balících ikon.  Vyberte Získat více vzhledů z menu Vzhled ikony baterie pro získání dalších ikon.  Všechny vzhledy od GSam Labs podporují překryvné ikony.  Vzhledy ikon třetích stran nemusí tyto ikony podporovat.</string>
+    <string name="preferences_show_charging_animation_title">Zobrazit animaci během nabíjení</string>
     <string name="preferences_widget_color_screen_title">Nastavení widgetu baterie</string>
     <string name="preferences_app_theme_title">Použít tmavý vzhled</string>
     <string name="preferences_app_theme_sum">Použít tmavý vzhled pro hlavní okno aplikace</string>
@@ -81,7 +82,7 @@
     <string name="preferences_clear_chart_history_alert">Jste si jisti?</string>
     <string name="preferences_clear_history_stats_title">Reset statistik baterie</string>
     <string name="preferences_clear_history_stats_sum">Klikněte zde pro reset statistik baterie.  Tato volba smaže veškeré statistiky.  Je to ekvivalent k plnému nabití a odpojení od napájení.  Všechny statistiky budou počítány od této chvíle, proto používejte s obezřetností!</string>
-    <string name="preferences_clear_history_stats_toast">Všechny statistiky byly smzány\u2026</string>
+    <string name="preferences_clear_history_stats_toast">Všechny statistiky byly smazány\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Nepovedlo se smazat statistiky - toto zařízení nemusí funkci podporovat\u2026</string>
     <string name="preferences_custom_ref">The battery history will be based off of a custom reference point created now (or when the device gets unplugged).  This can be used to determine what has used your battery since this specific point in time rather than since last unplugged or last charged. </string>
     <string name="preferences_custom_ref_plugged">Zařízení se nabíjí - uživatelskou předvolbu můžete použít pouze, když je telefon odpojen od napájení.</string>
@@ -114,11 +115,11 @@
     <string name="icon_themes_trad">Tradiční</string>   
     <string name="icon_themes_default">Systémový</string>   
     <string name="icon_themes_getmore">Získat více vzhledů</string>
-    <string name="time_left_calc_dontshow">Nezobrazovat</string>
-    <string name="time_left_calc_last5">Za posledních 5 minut</string>
-    <string name="time_left_calc_last15">Za posledních 15 minut</string>
-    <string name="time_left_calc_last30">Za posledních 30 minut</string>
-    <string name="time_left_calc_last60">Za posledních 60 minut</string>
+    <string name="time_left_calc_dontshow">nezobrazovat</string>
+    <string name="time_left_calc_last5">za posledních 5 minut</string>
+    <string name="time_left_calc_last15">za posledních 15 minut</string>
+    <string name="time_left_calc_last30">za posledních 30 minut</string>
+    <string name="time_left_calc_last60">za posledních 60 minut</string>
     <string name="stats_since_unplugged">posledního odpojení</string>
     <string name="stats_since_charged">posledního plného nabití</string>
     <string name="stats_since_custom">uživatelské předvolby</string>
@@ -128,7 +129,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Jádro (Android OS)</string>
     <string name="process_suck_mon_android_system">Systém (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% baterie spotřebovali:</string>
+    <string name="process_suck_mon_header">%0$.1f%% baterie spotřebovaly:</string>
     <string name="process_suck_mon_nodata">Nejsou dostupná data.  Nejsou dostupné žádné aplikace, které by spotřebovaly energii od posledního cyklu nabíjení.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Od posledního odpojení)</string>
@@ -160,13 +161,13 @@
     <string name="main_talktime_tablet">Zbývající čas hovoru: </string>
     <string name="main_temp">Teplota: </string>
     <string name="main_voltage">Napětí: </string>
-    <string name="main_health">Typ / Zdraví: </string>
+    <string name="main_health">Typ / Stav: </string>
     <string name="main_health_cold">Studená</string>
     <string name="main_health_dead">Mrtvá</string>
-    <string name="main_health_good">Dobrá</string>
+    <string name="main_health_good">Dobrý</string>
     <string name="main_health_hot">Horká</string>
     <string name="main_health_over_voltage">Přepětí</string>
-    <string name="main_health_unknown">Neznámé</string>
+    <string name="main_health_unknown">Neznámý</string>
     <string name="main_health_failed">Nezdařený</string>
     <string name="main_usage_label">Využití baterie - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_phone_on_label">Telefon:</string>
@@ -214,7 +215,7 @@
     <string name="process_suck_mon_title_prefix_radio">Detail signálu</string>
     <string name="process_suck_mon_title_prefix_screen">Detail obrazovky</string>
     <string name="process_suck_mon_title_prefix_wakelock">Detail zákazu uspání</string>
-    <string name="appdetail_usagedetail">Detail používání</string>
+    <string name="appdetail_usagedetail">Podrobnosti o využití</string>
     <string name="appdetail_processname">Jméno procesu</string>
     <string name="appdetail_included_packages">Zahrnuté balíčky</string>
     <string name="appdetail_included_processes">Zahrnuté procesy</string>
@@ -227,7 +228,7 @@
     <string name="appdetail_details_button">Spravovat</string>
     <string name="appdetail_details_button_wakelocks">Vygooglit</string>    
     <string name="appdetail_details_adjustpower">Tip</string>
-    <string name="appdetail_details_adjust_wifi">Když wifi zrovna nevyužíváte, vypněte ho pomocí tlačítka výše. Prodloužíte tak výdrž baterie.</string>
+    <string name="appdetail_details_adjust_wifi">Když wifi zrovna nevyužíváte, vypněte ji pomocí tlačítka výše. Prodloužíte tak výdrž baterie.</string>
     <string name="appdetail_details_adjust_wifi_button">Nastavení Wi-Fi</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Nepovedlo se otevřít nastavení wifi</string>
     <string name="appdetail_details_adjust_screen">Nastavení nižšího jasu a kratší doby vypnutí obrazovky může prodloužit výdrž. Nastavte obrazovku pomocí tlačítka výše.</string>
@@ -238,19 +239,19 @@
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Export dat</string>    
     <string name="appdetail_appuid">App UID:</string>  
     <string name="appdetail_audio">Zapnutý zvuk:</string>  
-    <string name="appdetail_bright">Jasná:</string>  
+    <string name="appdetail_bright">Jasný:</string>  
     <string name="appdetail_bytesrec">Bajtů přijatých:</string>  
     <string name="appdetail_bytessent">Bajtů odeslaných:</string>  
     <string name="appdetail_cpu">Využití CPU:</string>  
     <string name="appdetail_cpu_backgroundonly">Využití CPU (pouze na pozadí):</string>  
-    <string name="appdetail_dark">Tmavá:</string>  
+    <string name="appdetail_dark">Tmavý:</string>  
     <string name="appdetail_data_enabled">Data povolena:</string>  
-    <string name="appdetail_dim">Ztlumená:</string>  
+    <string name="appdetail_dim">Ztlumený:</string>  
     <string name="appdetail_discharge_whileonoff">Vybíjení u zap./vyp.:</string>  
     <string name="appdetail_gps">GPS:</string>  
     <string name="appdetail_high">Vysoký - %s:</string>
-    <string name="appdetail_keepawake">Keep Awake:</string>  
-    <string name="appdetail_light">Světlá:</string>  
+    <string name="appdetail_keepawake">Zadržení v probuzení:</string>  
+    <string name="appdetail_light">Světlý:</string>  
     <string name="appdetail_low">Nízký - 0:</string>  
     <string name="appdetail_med">Střední - %s:</string>
     <string name="appdetail_medium">Střední:</string>  
@@ -260,8 +261,8 @@
     <string name="appdetail_pct_time">% Čas</string>
     <string name="appdetail_phoneon">Zapnutý telefonní modul:</string>  
     <string name="appdetail_pwr_sysdata">Energie systémových dat:</string>  
-    <string name="appdetail_received">Přijatá:</string>  
-    <string name="appdetail_received_wifimobile">Přijatá (Wifi / Mobilní):</string> 
+    <string name="appdetail_received">Přijaté:</string>  
+    <string name="appdetail_received_wifimobile">Přijaté (Wifi / Mobilní):</string> 
     <string name="appdetail_scanning">Vyhledávání signálu:</string>  
     <string name="appdetail_screen_brightness">Jas obrazovky:</string>  
     <string name="appdetail_screenon">Zapnutá obrazovka:</string>  
@@ -334,7 +335,7 @@
     <string name="about_version">Verze %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
     <string name="about_chartengine">Grafy od AChartEngine.org</string>
-    <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
+    <string name="about_actionbar">ActionBar Compatibility od actionbarsherlock.com</string>
     <string name="about_translations">Překlady:</string>
     
     <!-- Translations & Translators -->   
