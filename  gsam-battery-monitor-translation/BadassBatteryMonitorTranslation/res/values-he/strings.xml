@@ -18,7 +18,7 @@
     <string name="preferences_general_category">הגדרות כלליות</string>
     <string name="preferences_theme_category">ערכת נושא</string>
     <string name="preferences_alarm_category">התראות</string>
-    <string name="preferences_startup_service_title">ניתור סוללה בהפעלת המכשיר</string>
+    <string name="preferences_startup_service_title">ניטור סוללה בהפעלת המכשיר</string>
     <string name="preferences_startup_service_sum">הפעלת האפליקציה בעת עליית המכשיר</string>
     <string name="preferences_temperature_title">מעלות בצלסיוס</string>
     <string name="preferences_show_notification_icon_title">הראה את סמל האפליקציה</string>
@@ -52,11 +52,12 @@
     <string name="preferences_overlay_icon_configure_invalid">לא ניתן לפתוח הגדרות של הסמל המוחלף. אנא הגדר את הסמל ידנית או פנה למפתחיו במקרה תקלה.</string>
     <string name="preferences_overlay_icon_notvalid_title">ערכת הנושא הנוכחית אינה תומכת בהחלפת הסמל הראשי במערכת.</string>
     <string name="preferences_overlay_icon_notvalid_msg">אנא בחר בערכת נושא אחרת ונסה שוב.\n\nהאפשרות להחליף את סמל הסוללה הראשי במערכת נתמכת רק בערכות נושא חיצוניות. כל ערכות הנושא החיצוניות אשר אנו מספקים בחנות האפליקציות תומכות באפשרות זו. ייתכן וערכות נושא ממפתחים אחרים אינן תומכות באפשרות זו.</string>
+	<string name="preferences_show_charging_animation_title">הראה אנימציה בזמן טעינה</string>
     <string name="preferences_widget_color_screen_title">הגדרות Widget סוללה</string>
     <string name="preferences_app_theme_title">החלף לערכת נושא כהה</string>
     <string name="preferences_app_theme_sum">החלף את ערכת הנושא הכללית של האפליקציה לכהה</string>
     <string name="preferences_time_left_title">חשב זמן נותר</string>
-    <string name="preferences_time_left_sum">חשב זמן נותר לפי טווח הזמן שנבחר</string>
+    <string name="preferences_time_left_sum">חשב זמן נותר על גבי טווח הזמן שנבחר</string>
     <string name="preferences_profiles_screen_title">פרופילי צריכה של המכשיר</string>
     <string name="preferences_power_profiles_use_stock_title">הפעל פרופיל מותאם אישית</string>
     <string name="preferences_power_profiles_edit_title">ערוך פרופיל צריכה</string>
@@ -67,7 +68,7 @@
     <string name="preferences_time_per_percent_title">איפוס היסטוריית פריקה</string>
     <string name="preferences_time_per_percent_unkown">לא ידוע</string>
     <string name="preferences_time_per_percent_summary">איפוס הערך המחושב עבור זמן בו הסוללה נגמרת לאחר טעינה מלאה. כרגע %1$s (%2$s דקות / אחוז המחושב על גבי %3$01d אחוזים)</string>
-    <string name="preferences_stats_since_title">נקודת התייחסות ממנה יש להראות סטטיסטיקה</string>
+    <string name="preferences_stats_since_title">נקודת התייחסות לסטטיסטיקה</string>
     <string name="preferences_stats_since_summary">מאז שהמכשיר נותק פעם אחרונה מטעינה, או מאז שהגיע לטעינה מלאה</string>
     <string name="preferences_power_profiles_edit_summary">עריכת פרופיל צריכה מותאם אישית. ערכים מותאמים אישית יעבדו רק כאשר פרופיל מותאם אישית מופעל.</string>
     <string name="profedit_title">שינוי הערכים הבאים יוביל לשינוי בצורה בה מתבצע חישוב זמן נותר וזמן אשר בוזבז על ידי אפליקציות</string>
@@ -126,8 +127,8 @@
     <string name="pwer_profiles_saved">ערכים מותאמים אישית</string>
 
     <!-- App Sucker -->
-    <string name="process_kernel_label">קרנל (חלק ממערכת Android)</string>
-    <string name="process_suck_mon_android_system">מערכת (%1s)</string>
+    <string name="process_kernel_label">קרנל (חלק ממערכת אנדרואיד)</string>
+    <string name="process_suck_mon_android_system">אנדרואיד (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% אחוזי סוללה נצרכו על ידי:</string>
     <string name="process_suck_mon_nodata">אין מידע זמין כעת. לא נמצאו אפליקציות אשר צרכו משאבים במחזור הטעינה/פריקה האחרון.</string>
     <string name="process_suck_mon_title_prefix">אפליקציות - %1$s</string>
@@ -143,7 +144,7 @@
     <string name="procsuckmon_viewby_awake">זמן החזקת המכשיר ער</string>
     <string name="procsuckmon_viewby_wake_times">מספר הבקשות להערת המכשיר</string>
     <string name="procsuckmon_viewby_gps">זמן שימוש בGPS</string>
-    <string name="procsuckmon_viewby_kernel_wakelocks">Wakelockים של הקרנל</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">נעילות ערנות (Wakelockים) בקרנל</string>
 
     <!-- Main screen -->
     <string name="main_history_button">היסטוריה</string>
@@ -177,7 +178,7 @@
     <string name="main_bluetooth_label">שן-כחולה:</string>
     <string name="main_app_usage_label">שימוש אפליקציות:</string>
     <string name="main_app_usage_button">שימוש אפליקציות</string>
-    <string name="main_android_batt_usage_button">אפליקצית המערכת לסטטוס סוללה</string>    
+    <string name="main_android_batt_usage_button">אפליקצית אנדרואיד לסטטוס סוללה</string>    
     <string name="main_android_batt_usage_failed">לא ניתן לפתוח את אפליקצית המערכת לסטטוס הסוללה...</string>
     <string name="main_tools_menu">יותר</string>
     <string name="main_menu_charts">תרשימים</string>
@@ -193,8 +194,8 @@
     <string name="menu_review">השאר ביקורת GSam Battery Monitor</string>
     <string name="main_share_intentchoosertitle">שיתוף חיי הסוללה שלי\u2026</string>
     <string name="main_share_subject">חיי סוללה ממוצעים - GSam Battery Monitor</string>
-    <string name="main_share_msg2">הסוללה במכשיר ה-%1$s %2$s שלי שורדת בממוצע %3$s (%4$s של שימוש אקטיבי) בטעינה אחת. הורד את אפליקציית GSam Battery Monitor: - http://bit.ly/uHT7Vy - #badassbattery</string>
-    <string name="main_share_msg">הסוללה במכשיר ה-%1$s %2$s שלי שורדת בממוצע %3$s בטעינה אחת. הורד את אפליקציית GSam Battery Monitor: - http://bit.ly/uHT7Vy - #badassbattery</string>
+    <string name="main_share_msg2">הסוללה במכשיר ה-%1$s %2$s שלי שורדת בממוצע %3$s (בשימוש אקטיבי של %4$s) מטעינה אחת. הורד את אפליקציית GSam Battery Monitor: - http://bit.ly/uHT7Vy - #badassbattery</string>
+    <string name="main_share_msg">הסוללה במכשיר ה-%1$s %2$s שלי שורדת בממוצע %3$s מטעינה אחת. הורד את אפליקציית GSam Battery Monitor: - http://bit.ly/uHT7Vy - #badassbattery</string>
     <string name="main_avg_timepercharge_label">חיי סוללה ממוצעים: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% סוללה בוזבזו בזמן %2$s (מאז שנותק לאחרונה)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% סוללה בוזבזו בזמן %2$s (מאז שהגיע לטעינה מלאה)</string>
@@ -236,13 +237,13 @@
     <string name="detail_menu_export">ייצוא</string>
     <string name="detail_menu_export_dlg_title">ייצוא המידע על המסך על ידי:</string>
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - מידע מיוצא</string>    
-    <string name="appdetail_appuid">UID של האפליקציה:</string>  
+    <string name="appdetail_appuid">מספר UID של האפליקציה:</string>  
     <string name="appdetail_audio">שמע דלוק:</string>  
     <string name="appdetail_bright">בהיר:</string>  
     <string name="appdetail_bytesrec">בתים שהתקבלו:</string>  
     <string name="appdetail_bytessent">בתים שנשלחו:</string>  
     <string name="appdetail_cpu">שימוש מעבד:</string>  
-    <string name="appdetail_cpu_backgroundonly">שימוש מעבד (יישומי רקע בלבד)</string>  
+    <string name="appdetail_cpu_backgroundonly">שימוש רקע במעבד:</string>  
     <string name="appdetail_dark">חשוך:</string>  
     <string name="appdetail_data_enabled">תקשורת נתונים מופעלת:</string>  
     <string name="appdetail_dim">עמום:</string>  
@@ -258,13 +259,13 @@
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % כוח</string>
     <string name="appdetail_pct_power_nospace">% כוח</string>
     <string name="appdetail_pct_time">% זמן</string>
-    <string name="appdetail_phoneon">אנטנה סלולרית דלוקה:</string>  
+    <string name="appdetail_phoneon">זמן אנטנה דלוקה:</string>  
     <string name="appdetail_pwr_sysdata">כוח שבוזבז על תקשורת מערכת:</string>  
     <string name="appdetail_received">התקבל:</string>  
-    <string name="appdetail_received_wifimobile">התקבל (WiFi / סלולר):</string>
+    <string name="appdetail_received_wifimobile">התקבל (סלולר / WiFi):</string>
     <string name="appdetail_scanning">סריקה וחיפוש של אות:</string>  
     <string name="appdetail_screen_brightness">בהירות מסך:</string>  
-    <string name="appdetail_screenon">מסך דלוק:</string>  
+    <string name="appdetail_screenon">זמן מסך דלוק:</string>  
     <string name="appdetail_sensor_accelerometer">מד תאוצה:</string>  
     <string name="appdetail_sensor_gravity">מד כוח משיכה:</string>  
     <string name="appdetail_sensor_gyroscope">ג'ירוסקופ:</string>  
@@ -278,12 +279,12 @@
     <string name="appdetail_sensor_rotvector">חיישן וקטור סיבובי:</string>  
     <string name="appdetail_sensor_temp">מד טמפרטורה:</string>  
     <string name="appdetail_sent">נשלח:</string>  
-    <string name="appdetail_sent_wifimobile">נשלח (WiFi / סלולר):</string>  
+    <string name="appdetail_sent_wifimobile">נשלח (סלולר / WiFi):</string>  
     <string name="appdetail_signal_stregth">עוצמת האות:</string>
     <string name="appdetail_total_appssystem">כללי (אפליקציות / מערכת):</string>
     <string name="appdetail_video">וידיאו דלוק:</string>  
     <string name="appdetail_wakelocks">מספר ה-Wake Locks:</string>  
-    <string name="appdetail_wifiactive">WiFi אקטיבי:</string>  
+    <string name="appdetail_wifiactive">זמן WiFi אקטיבי:</string>  
     <string name="appdetail_wifion">WiFi דלוק:</string>      
     <string name="appdetail_bytes">%d בתים</string>        
     <string name="appdetail_mb">%.2f MB</string>          
@@ -341,7 +342,7 @@
     <string name="lang_default">שפת ברירת מחדל של המערכת</string>        
     <string name="translator_anonymous">אנונימי</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_he">Michael Sandler &lt;a href=\"http://sandler.in\"&gt;(mich#~)&lt;/a&gt;</string>    
+    <string name="translator_he">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>    
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">המסך שלך הביר מדי?</string>
