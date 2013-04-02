@@ -56,7 +56,7 @@
     <string name="preferences_app_theme_title">使用深色风格</string>
     <string name="preferences_app_theme_sum">应用程序界面使用深色风格</string>
     <string name="preferences_time_left_title">计算剩余时间</string>
-    <string name="preferences_time_left_sum">根据最近多长时间的电池使用量来计算剩余时间。</string>
+    <string name="preferences_time_left_sum">用来计算剩余时间的统计区间</string>
     <string name="preferences_profiles_screen_title">设备耗电性能分析</string>
     <string name="preferences_power_profiles_use_stock_title">使用自定义的分析方式</string>
     <string name="preferences_power_profiles_edit_title">修改耗电性能分析方式</string>
@@ -83,8 +83,8 @@
     <string name="preferences_clear_history_stats_sum">在此重置电池统计信息。这样做所有的统计历史数据会被清除，相当于做了一次充满电并拔出充电器的动作。所有的统计数据都将基于这一点来计算，请小心使用该功能！</string>
     <string name="preferences_clear_history_stats_toast">所有电池统计信息已清除\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">无法重置统计信息-本设备可能不支持此功能\u2026</string>
-    <string name="preferences_custom_ref">电池历史会基于当前（或者拔出充电器时）的自定义参考点记录。这个功能通常用来计算某一个时刻开始使用情况。</string>
-    <string name="preferences_custom_ref_plugged">设备正在充电-充电器被拔出时你只能使用自定义的参考时间。</string>
+    <string name="preferences_custom_ref">电池历史会基于当前（或者拔出充电器时）的自选参考点记录。这个功能通常用来计算某一个时刻开始使用情况。</string>
+    <string name="preferences_custom_ref_plugged">设备正在充电-自选参考点只能在充电器被拔出时使用。</string>
     <string name="preferences_send_anon_stats_title">允许匿名使用统计</string>
     <string name="preferences_send_anon_stats_sum">允许发送匿名统计数据。保证不包含身份信息和私人数据。</string>
     <string name="preferences_show_ads_title">显示广告</string>
@@ -128,9 +128,9 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">内核(Android系统)</string>
     <string name="process_suck_mon_android_system">系统(%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% 的电量已被使用</string>
+    <string name="process_suck_mon_header">%0$.1f%%的电量已被应用程序使用</string>
     <string name="process_suck_mon_nodata">没有可用数据。在最后一次电池循环后没有应用程序消耗了资源。</string>
-    <string name="process_suck_mon_title_prefix">耗电分析 - %1$s</string>
+    <string name="process_suck_mon_title_prefix">应用程序耗电分析 - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (从上次拔出电源)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (从上次充满)</string>
     <string name="process_suck_mon_title_customref">%1$s (从自选参考点)</string>
@@ -150,7 +150,7 @@
     <string name="main_preferences_button">选项</string>
     <string name="main_calculating">计算中\u2026</string>
     <string name="main_full">已充满</string>
-    <string name="main_timetofull">剩余 - 充满：</string>
+    <string name="main_timetofull">剩余 - 充满还需：</string>
     <string name="main_timetofull_tablet">充满还需时间：</string>
     <string name="main_timeleft">剩余 - 平均：</string>
     <string name="main_timeleft_tablet">剩余使用时间（以平均使用情况）： </string>
@@ -183,7 +183,7 @@
     <string name="main_menu_charts">图表</string>
     <string name="menu_whatsnew">更新信息</string>
     <string name="about_about">关于</string>
-    <string name="main_stat_ref_label">* 基于%1秒前设置的自选参考点</string>
+    <string name="main_stat_ref_label">* 基于%1s前设置的自选参考点</string>
     <string name="menu_set_custom_ref">设置自选参考点</string>
     <string name="menu_remove_custom_ref">移除自选参考点</string>
     <string name="menu_refresh">刷新</string>
@@ -211,7 +211,7 @@
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">应用程序详情</string>
     <string name="process_suck_mon_title_prefix_wifi">Wifi详情</string>
-    <string name="process_suck_mon_title_prefix_radio">无线电详情</string>
+    <string name="process_suck_mon_title_prefix_radio">无线射频详情</string>
     <string name="process_suck_mon_title_prefix_screen">屏幕详情</string>
     <string name="process_suck_mon_title_prefix_wakelock">唤醒锁详情</string>
     <string name="appdetail_usagedetail">电量使用详情</string>
@@ -227,7 +227,7 @@
     <string name="appdetail_details_button">管理</string>
     <string name="appdetail_details_button_wakelocks">Google我</string>    
     <string name="appdetail_details_adjustpower">省电小提示</string>
-    <string name="appdetail_details_adjust_wifi">当Wi-Fi不使用时可以使用上面的Wi-Fi设置按钮。</string>
+    <string name="appdetail_details_adjust_wifi">当Wi-Fi不使用时可以使用上面的Wi-Fi设置按钮关闭该功能。</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi设置</string>
     <string name="appdetail_details_adjust_wifi_failedintent">无法打开wifi设置</string>
     <string name="appdetail_details_adjust_screen">通过上面的显示设置按钮可以降低屏幕亮度和减少屏幕超时</string>
@@ -238,27 +238,27 @@
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - 导出数据</string>    
     <string name="appdetail_appuid">应用程序 用户ID：</string>  
     <string name="appdetail_audio">声音打开：</string>  
-    <string name="appdetail_bright">亮度：</string>  
+    <string name="appdetail_bright">明亮：</string>  
     <string name="appdetail_bytesrec">收到字节数：</string>  
     <string name="appdetail_bytessent">发出字节数：</string>  
     <string name="appdetail_cpu">CPU使用：</string>  
     <string name="appdetail_cpu_backgroundonly">CPU使用（只包括后台应用）：</string>  
-    <string name="appdetail_dark">暗：</string>  
+    <string name="appdetail_dark">很暗：</string>  
     <string name="appdetail_data_enabled">数据连接打开：</string>  
-    <string name="appdetail_dim">亮度：</string>  
-    <string name="appdetail_discharge_whileonoff">放电开关：</string>  
+    <string name="appdetail_dim">暗：</string>  
+    <string name="appdetail_discharge_whileonoff">放电 开/关：</string>  
     <string name="appdetail_gps">GPS：</string>  
-    <string name="appdetail_high">高 - %s：</string>
+    <string name="appdetail_high">高 - %s:</string>
     <string name="appdetail_keepawake">保持唤醒：</string>  
     <string name="appdetail_light">亮：</string>  
-    <string name="appdetail_low">低 - 0：</string>  
-    <string name="appdetail_med">中 - %s：</string>
+    <string name="appdetail_low">低 - 0:</string>  
+    <string name="appdetail_med">中 - %s:</string>
     <string name="appdetail_medium">中：</string>  
     <string name="appdetail_numwakes">唤醒设备次数：</string>  
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % 电量</string>
     <string name="appdetail_pct_power_nospace">% 电量</string>
     <string name="appdetail_pct_time">% 时间</string>
-    <string name="appdetail_phoneon">电话无线电打开：</string>  
+    <string name="appdetail_phoneon">电话无线射频打开：</string>  
     <string name="appdetail_pwr_sysdata">系统数据消耗电量：</string>  
     <string name="appdetail_received">收到：</string>  
     <string name="appdetail_received_wifimobile">收到数据(Wifi / 移动)：</string>
@@ -342,7 +342,7 @@
     <string name="translator_anonymous">匿名</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <!--  EG string name="translator_ru">Dmitry Chernogaev &lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string -->        
-    <!-- string name="translator_zh_CN">Gavin Fang</string -->    
+    <string name="translator_zh_CN">Gavin Fang</string>    
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">您的屏幕太亮了？</string>
