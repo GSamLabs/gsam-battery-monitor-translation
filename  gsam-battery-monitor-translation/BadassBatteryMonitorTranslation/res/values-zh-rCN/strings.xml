@@ -52,6 +52,7 @@
     <string name="preferences_overlay_icon_configure_invalid">无法打开配置功能。请手动打开图标包进行手动配置。</string>
     <string name="preferences_overlay_icon_notvalid_title">当前主题风格不支持覆盖图标功能</string>
     <string name="preferences_overlay_icon_notvalid_msg">请选择其他的主题风格再试一次。\n\n只有扩展图标包支持覆盖图标功能。请在电池图标主题风格菜单选择获得更多主题风格来获得扩展图标包。 所有GSam Labs提供的图标包都支持覆盖图标功能。第三方图标包可能不支持该功能。</string>
+    <string name="preferences_show_charging_animation_title">显示充电动画</string>     
     <string name="preferences_widget_color_screen_title">电池小部件设置</string>
     <string name="preferences_app_theme_title">使用深色风格</string>
     <string name="preferences_app_theme_sum">应用程序界面使用深色风格</string>
