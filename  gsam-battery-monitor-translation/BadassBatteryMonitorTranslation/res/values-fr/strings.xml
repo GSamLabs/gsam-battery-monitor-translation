@@ -57,6 +57,7 @@ Saviez-vous que vous pouvez créer vos propres thèmes? Consulter http://badassb
     <string name="preferences_overlay_icon_notvalid_msg">"Sélectionner un thème différent, et réessayer.
 
 Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Icônes externes. Sélectionner Obtenir Plus De Thèmes depuis le menu Thème Icône Batterie pour trouver un pack d'icônes externe. Tous les Packs d'Icônes fournis par GSam Labs supportent le recouvrement d'icônes. Les packs d'icônes de troisième partie peuvent ne pas supporter le recouvrement."</string>
+    <string name="preferences_show_charging_animation_title">Voir l\'animation pendant le chargement</string>
     <string name="preferences_widget_color_screen_title">Paramètres Widget Batterie</string>
     <string name="preferences_app_theme_title">Utiliser Thème Sombre Appl</string>
     <string name="preferences_app_theme_sum">"Utiliser le thème sombre pour les écrans de l'application"</string>
