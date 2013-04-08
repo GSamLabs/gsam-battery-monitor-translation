@@ -67,7 +67,7 @@
 	<string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını kullandıysanız sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
 	<string name="preferences_time_per_percent_title">Zaman-Tüketim Geçmişini Sıfırlayın</string>
 	<string name="preferences_time_per_percent_unkown">bilinmiyor</string>
-	<string name="preferences_time_per_percent_summary">Cihazınızın pilinin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sm / %% - %3$01d adet yüzdeden hesaplandı)</string>
+	<string name="preferences_time_per_percent_summary">Cihazınızın pilinin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sd / %3$01d adet yüzdeden hesaplandı)</string>
 	<string name="preferences_stats_since_title">İstatistik Periyodu</string>
 	<string name="preferences_stats_since_summary">İstatistikleri, son fişten çekiş veya son tam şarjdan itibaren görüntüleyin</string>
 	<string name="preferences_power_profiles_edit_summary">Güç profilini düzenleyin. Değerler, özel güç profili seçeneği etkinse kullanılacaktır.</string>
