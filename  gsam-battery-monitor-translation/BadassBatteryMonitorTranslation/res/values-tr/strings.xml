@@ -22,7 +22,7 @@
 	<string name="preferences_startup_service_sum">Uygulamayı açılışta başlat</string>
 	<string name="preferences_temperature_title">Sıcaklık Birimi Celsius</string>
 	<string name="preferences_show_notification_icon_title">Bildirim Simgesini Göster</string>
-	<string name="preferences_show_notification_icon_sum">% Bildirim Simgesini Bildirim Çubuğunda Göster</string>
+	<string name="preferences_show_notification_icon_sum">% Bildirim simgesini bildirim çubuğunda göster</string>
 	<string name="preferences_show_notification_title">Sadece Bildirim Göster</string>
 	<string name="preferences_show_notification_sum">Bildirimi, bildirim simgesiz göster</string>
 	<string name="preferences_alarm_chargecomplete_title">Şarj Tamamlandı</string>
@@ -39,7 +39,7 @@
 	<string name="preferences_theme_title">Pil Simge Teması</string>
 	<string name="preferences_theme_sum">Pil simge stilini seç</string>
 	<string name="preferences_theme_getmore_title">Daha Fazla Tema Yükle</string>
-	<string name="preferences_theme_getmore_msg">Daha fazla tema aranacak. GSam Labs tüm temaları kontrol etmemektedir, bu yüzden temanın çalışmaması halinde geliştiricisiyle temasa geçiniz.\n\n Temayı yükledikten sonra bu menüye geri dönüp uygun temaları kontrol ediniz.\n\n Kendi temanızı yapabileceğinizi biliyor muydunuz? Detaylar için http://badassbatterymonitor.blogspot.com</string>
+	<string name="preferences_theme_getmore_msg">Daha fazla tema aranacak. GSam Labs tüm temaları kontrol etmemektedir, bu yüzden temanın çalışmaması halinde geliştiricisiyle temasa geçiniz.\n\nTemayı yükledikten sonra bu menüye geri dönüp uygun temaları kontrol ediniz.\n\nKendi temanızı yapabileceğinizi biliyor muydunuz? Detaylar için http://badassbatterymonitor.blogspot.com</string>
 	<string name="preferences_theme_progress_title">Temalar Alınıyor</string>
 	<string name="preferences_theme_progress_msg">Uygun temaların listesi alınıyor\u2026</string>
 	<string name="preferences_widget_back_title">Transparan Widget Arkaplanı</string>
@@ -64,10 +64,10 @@
 	<string name="preferences_profiles_screen_summary">Gelişmiş - Tüketim değerlerinin hesabında kullanılan parametreleri değiştirmek için profil düzenle</string>
 	<string name="preferences_power_per_percent_title">Yüzde Başına Güç</string>
 	<string name="preferences_power_per_percent_summary">Her bir pil yüzdesi için kullanılan güç miktarı. Profil ayarlarını değiştirdiyseniz sıfırlayın.</string>
-	<string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını kullandıysanız sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
+	<string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını değiştirdiyseniz sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
 	<string name="preferences_time_per_percent_title">Zaman-Tüketim Geçmişini Sıfırlayın</string>
 	<string name="preferences_time_per_percent_unkown">bilinmiyor</string>
-	<string name="preferences_time_per_percent_summary">Cihazınızın pilinin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sd / %3$01d adet yüzdeden hesaplandı)</string>
+	<string name="preferences_time_per_percent_summary">Pilin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sd / %3$01d adet yüzdeden hesaplandı)</string>
 	<string name="preferences_stats_since_title">İstatistik Periyodu</string>
 	<string name="preferences_stats_since_summary">İstatistikleri, son fişten çekiş veya son tam şarjdan itibaren görüntüleyin</string>
 	<string name="preferences_power_profiles_edit_summary">Güç profilini düzenleyin. Değerler, özel güç profili seçeneği etkinse kullanılacaktır.</string>
@@ -92,8 +92,8 @@
 	<string name="preferences_show_ads_sum">Ana ekranda reklamları gösterir.</string>
 	<string name="preferences_override_lang_title">Dil</string>
 	<string name="preferences_override_lang_sum">Sistem varsayılanı dışında bir dil seçin.</string>
-	<string name="preferences_power_profiles_include_sensors_title">Hesaplamalara Sensörleri Dahil Et</string>
-	<string name="preferences_power_profiles_include_sensors_sum">"Bazı cihazlar sensör kullanımı doğru hesaplamamaktadır. Uygulama sensör değerleri(özellikle akselerometre) tutarsız gözüküyorsa bu seçeneği kapatın."</string>
+	<string name="preferences_power_profiles_include_sensors_title">Sensör Kullanımını Dahil Et</string>
+	<string name="preferences_power_profiles_include_sensors_sum">"Bazı cihazlar sensör kullanımını doğru hesaplamamaktadır. Sensör değerleri(özellikle akselerometre) tutarsız gözüküyorsa bu seçeneği kapatın."</string>
 	<string name="preferences_power_profiles_include_sensors_dlg_title">Yüzde Başına Güç\'ü Sıfırla</string>
 	<string name="preferences_power_profiles_include_sensors_dlg_msg">Yüzde başına güç hesaplamanız sıfırlanacak. Devam etmek ister misiniz?</string>
 	<string name="preferences_widget_dialog_title">Renk Seç</string>
@@ -107,7 +107,7 @@
 	<string name="preferences_widget_color_category">Renkler</string>
 	<string name="preferences_widget_general_category">Genel</string>
 	<string name="preferences_start_foreground_title">Yüksek Öncelik</string>
-	<string name="preferences_start_foreground_sum">Uygulamayı yüksek öncelikte çalıştırın. Bu seçeneği sadece pil yüzdesini gösteren simgelerin doğru güncellenmediği zamanlarda kullanın. Aksi takdirde, diğer programların çalışması için gereken boş belleği azaltacaktır.</string>
+	<string name="preferences_start_foreground_sum">Uygulamayı yüksek öncelikte çalıştırın. Bu seçeneği sadece pil yüzdesini gösteren simgeler doğru güncellenmiyorsa kullanın. Aksi takdirde, diğer programların çalışması için gereken boş belleği azaltacaktır.</string>
 
     <!-- Preference Selection Arrays -->    
 	<string name="icon_themes_circle">Dairesel</string>
@@ -154,9 +154,9 @@
 	<string name="main_timetofull">Kalan - Tam Şarj: </string>
 	<string name="main_timetofull_tablet">Tam Şarj için: </string>
 	<string name="main_timeleft">Kalan - Ortalama: </string>
-	<string name="main_timeleft_tablet">Kalan (Ort. Kullanım): </string>
-	<string name="main_timeleft_rolling">Kalan - Son %1$sm: </string>
-	<string name="main_timeleft_rolling_tablet">Kalan (Son %1$sm Kullanım): </string>
+	<string name="main_timeleft_tablet">Kalan (Ortalama Kullanım): </string>
+	<string name="main_timeleft_rolling">Kalan - Son %1$sdk: </string>
+	<string name="main_timeleft_rolling_tablet">Kalan (Son %1$sdk Kullanım): </string>
 	<string name="main_talktime">Kalan - Konuşma Süresi: </string>
 	<string name="main_talktime_tablet">Kalan Konuşma Süresi: </string>
 	<string name="main_temp">Sıcaklık: </string>
@@ -318,7 +318,7 @@
 	<string name="chart_dim">Loş</string>
 	<string name="chart_gps">GPS</string>
 	<string name="chart_high">Yüksek</string>
-	<string name="chart_incall">Aramada</string>
+	<string name="chart_incall">Aramalar</string>
 	<string name="chart_low">Düşük</string>
 	<string name="chart_max">Maks.</string>
 	<string name="chart_med">Ort.</string>
@@ -379,7 +379,7 @@
 	<string name="about_invalidlicense">Geçerli bir lisansınız bulunmamakta. Uygulama ücretsiz modda çalışmaya devam edecektir. Bunun bir hata olduğunu düşünüyorsanız, Google Purchase ID\'nizle birlikte geliştiriciyle temasa geçin.</string>
 
 	<!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-	<string name="abs__action_bar_home_description">Home\'a Dön</string>
+	<string name="abs__action_bar_home_description">Anasayfa\'ya Dön</string>
 	<string name="abs__action_bar_up_description">Yukarı git</string>
 	<string name="abs__action_menu_overflow_description">Daha fazla seçenek...</string>
 	<string name="abs__action_mode_done">Tamamlandı</string>
