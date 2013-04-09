@@ -5,7 +5,7 @@
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
-	<string name="battery_status_time_left">Kalan: %1$02d:%2$02d (Ortalama), %3$02d:%4$02d (Son %5$sm)</string>
+	<string name="battery_status_time_left">Kalan: %1$02d:%2$02d (Ortalama), %3$02d:%4$02d (Son %5$sdk)</string>
 	<string name="battery_status_time_left_no_running">Kalan: %1$02d:%2$02d</string>
 	<string name="battery_status_time_left_unknown">Kalan: Hesaplanıyor - tekrar deneyiniz</string>
 	<string name="battery_status_time_to_full">Dolum Süresi: %1$02d:%2$02d</string>
@@ -19,7 +19,7 @@
 	<string name="preferences_theme_category">Tema</string>
 	<string name="preferences_alarm_category">İkazlar</string>
 	<string name="preferences_startup_service_title">Açılışta Başlat</string>
-	<string name="preferences_startup_service_sum">Pil monitörünü açılışta başlat</string>
+	<string name="preferences_startup_service_sum">Uygulamayı açılışta başlat</string>
 	<string name="preferences_temperature_title">Sıcaklık Birimi Celsius</string>
 	<string name="preferences_show_notification_icon_title">Bildirim Simgesini Göster</string>
 	<string name="preferences_show_notification_icon_sum">% Bildirim Simgesini Bildirim Çubuğunda Göster</string>
@@ -46,12 +46,12 @@
 	<string name="preferences_widget_back_msg">Widget arkaplanını, duvarkağıdınız tamamen gözükecek şekilde, transparan yapın.</string>
 	<string name="preferences_widget_show_timeleft_title">Kalan Zamanı Göster</string>
 	<string name="preferences_overlay_icon_sum">Uygulama simgesini stok pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
-	<string name="preferences_overlay_icon_title">Stok Pil Simgesinin Üstüne Getir</string>
+	<string name="preferences_overlay_icon_title">Pil Simgesinin Üstüne Getir</string>
 	<string name="preferences_overlay_icon_configure_sum">Üste gelecek simgenin büyüklüğünü, yerini, arkaplan rengini, parlaklığını vb. düzenleyin.</string>
 	<string name="preferences_overlay_icon_configure_title">Üste Gelecek Simgeyi Düzenle</string>
 	<string name="preferences_overlay_icon_configure_invalid">Düzenleme başlatılamadı. Simge paketini elle düzenlemeyi deneyin.</string>
 	<string name="preferences_overlay_icon_notvalid_title">Seçilen Tema Simge Üstüne Getirmeyi Desteklemiyor.</string>
-	<string name="preferences_overlay_icon_notvalid_msg">Başka bir tema seçip tekrar deneyin.\n\nSimge Üstüne Getirme özelliği sadece dış simge paketleri tarafından desteklenmektedir. Daha Fazla Tema Yükle sekmesinden dış simge paketi bulup indirebilirsiniz. Gsam Labs tarafından sağlanan tüm simge paketleri simge üstüne getirmeyi desteklemektedir. Üçüncü parti paketleri bu özelliği destekleyemeyebilir.</string>
+	<string name="preferences_overlay_icon_notvalid_msg">Başka bir tema seçip tekrar deneyin.\n\nSimge Üstüne Getirme özelliği sadece harici simge paketleri tarafından desteklenmektedir. Daha Fazla Tema Yükle sekmesinden harici simge paketi bulup indirebilirsiniz. Gsam Labs tarafından sağlanan tüm simge paketleri simge üstüne getirmeyi desteklemektedir. Üçüncü parti paketleri bu özelliği desteklemeyebilir.</string>
 	<string name="preferences_show_charging_animation_title">Şarj oluyorken animasyon</string>
 	<string name="preferences_widget_color_screen_title">Pil Widget Ayarları</string>
 	<string name="preferences_app_theme_title">Koyu Renkli Uygulama Teması</string>
@@ -61,7 +61,7 @@
 	<string name="preferences_profiles_screen_title">Cihaz Güç Profilleri</string>
 	<string name="preferences_power_profiles_use_stock_title">Özel Güç Profili Kullan</string>
 	<string name="preferences_power_profiles_edit_title">Güç Profilini Düzenle</string>
-	<string name="preferences_profiles_screen_summary">Gelişmiş - Tüm değerleri hesaplamak için güç kullanım profilini düzenle</string>
+	<string name="preferences_profiles_screen_summary">Gelişmiş - Tüketim değerlerinin hesabında kullanılan parametreleri değiştirmek için profil düzenle</string>
 	<string name="preferences_power_per_percent_title">Yüzde Başına Güç</string>
 	<string name="preferences_power_per_percent_summary">Her bir pil yüzdesi için kullanılan güç miktarı. Profil ayarlarını değiştirdiyseniz sıfırlayın.</string>
 	<string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını kullandıysanız sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
@@ -81,12 +81,12 @@
 	<string name="preferences_clear_chart_history_toast">Geçmiş dosyası silindi\u2026</string>
 	<string name="preferences_clear_chart_history_alert">Emin misiniz?</string>
 	<string name="preferences_clear_history_stats_title">Pil İstatistiklerini Sıfırla</string>
-	<string name="preferences_clear_history_stats_sum">Pil istatistiklerini sıfırlamak için tıklayın. Tüm istatistik geçmiş silinecek. Tam şarj yapıp telefonu fişten çekmekle eşdeğerdir. Bu noktaya kadarki tüm istatistikler sıfırlanacaktır!</string>
+	<string name="preferences_clear_history_stats_sum">Pil istatistiklerini sıfırlamak için tıklayın. Tüm istatistik geçmiş silinecek. Tam şarj yapıp cihazı fişten çekmekle eşdeğerdir. Bu noktaya kadarki tüm istatistikler sıfırlanacaktır!</string>
 	<string name="preferences_clear_history_stats_toast">Tüm pil istatistikleri temizlendi\u2026</string>
 	<string name="preferences_clear_history_stats_error_toast">Sıfırlama başarısız - cihazınız bu seçeneği desteklemiyor olabilir\u2026</string>
 	<string name="preferences_custom_ref">Pil geçmişi özel referans noktasına göre (veya fişten çekildiği ana göre) tutulacaktır. Bu özellik, referans noktasından bu yana pili en çok neyin tükettiğini keşfetmek için kullanılabilir.</string>
-	<string name="preferences_custom_ref_plugged"> Cihaz şu an şarj olmakta - özel referans noktasını telefon fişte takılı değilken oluşturabilirsiniz.</string>
-	<string name="preferences_send_anon_stats_title">Anonim Kullanım İstatistiğine İzin Ver</string>
+	<string name="preferences_custom_ref_plugged"> Cihaz şu an şarj olmakta - özel referans noktasını cihaz fişte takılı değilken oluşturabilirsiniz.</string>
+	<string name="preferences_send_anon_stats_title">Anonim İstatistiğe İzin Ver</string>
 	<string name="preferences_send_anon_stats_sum">Anonim kullanım istatistiklerinin gönderilmesine izin verir. Kişisel veya deşifre edilebilir hiçbir bilgi gönderilmez.</string>
 	<string name="preferences_show_ads_title">Reklamları Göster</string>
 	<string name="preferences_show_ads_sum">Ana ekranda reklamları gösterir.</string>
@@ -137,7 +137,7 @@
 	<string name="process_suck_mon_title_customref">%1$s (Özel Referanstan Bu Yana)</string>
 	<string name="procsuckmon_viewby_pwr">Güç Kullanım %</string>
 	<string name="procsuckmon_viewby_pwr_minforeground">Güç % (Sadece Arkaplan CPU)</string>
-	<string name="procsuckmon_viewby_cpu">CPU Dakikaları</string>
+	<string name="procsuckmon_viewby_cpu">CPU Süreleri</string>
 	<string name="procsuckmon_viewby_cpu_minforeground">CPU (Sadece Arkaplan CPU)</string>
 	<string name="procsuckmon_viewby_data">Ağ Veri Miktarı</string>
 	<string name="procsuckmon_viewby_sensor">Sensör Kullanım Süreleri</string>
@@ -172,7 +172,7 @@
 	<string name="main_usage_label">Pil Kullanımı - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
 	<string name="main_phone_on_label">Arama:</string>
 	<string name="main_screen_on_label">Ekran:</string>
-	<string name="main_phone_radio_on_label">Telefon Vericisi:</string>
+	<string name="main_phone_radio_on_label">Mobil Verici:</string>
 	<string name="main_wifi_active_label">Wifi Aktif:</string>
 	<string name="main_idle_label">Uyanıklık:</string>
 	<string name="main_bluetooth_label">Bluetooth:</string>
@@ -180,7 +180,7 @@
 	<string name="main_app_usage_button">Uyg. Kullanımı</string>
 	<string name="main_android_batt_usage_button">Pil İstatistiği (İşletim Sistemi)</string>
 	<string name="main_android_batt_usage_failed">İşletim sisteminin içsel pil istatistikleri gösterilemiyor...</string>
-	<string name="main_tools_menu">Daha fazla</string>
+	<string name="main_tools_menu">Daha fazla...</string>
 	<string name="main_menu_charts">Grafikler</string>
 	<string name="menu_whatsnew">Yenilikler</string>
 	<string name="about_about">Hakkında</string>
@@ -219,12 +219,12 @@
 	<string name="appdetail_processname">Proses İsmi</string>
 	<string name="appdetail_included_packages">İlgili Paketler</string>
 	<string name="appdetail_included_processes">İlgili Prosesler</string>
-	<string name="appdetail_seconds">%1$01dsaniye</string>
-	<string name="appdetail_minutes">%1$01ddakika %2$01dsaniye</string>
-	<string name="appdetail_days">%1$01dgün %2$01dsaat %3$01ddakika</string>
-	<string name="appdetail_days_twolevels">%1$01dgün %2$01dsaat</string>
-	<string name="appdetail_hours">%1$01dsaat %2$01ddakika %3$01dssaniye</string>
-	<string name="appdetail_hours_twolevels">%1$01dsaat %2$01ddakika</string>
+	<string name="appdetail_seconds">%1$01dsn</string>
+	<string name="appdetail_minutes">%1$01ddk %2$01dsn</string>
+	<string name="appdetail_days">%1$01dgün %2$01dsa %3$01ddk</string>
+	<string name="appdetail_days_twolevels">%1$01dgün %2$01dsa</string>
+	<string name="appdetail_hours">%1$01dsa %2$01ddk %3$01dsn</string>
+	<string name="appdetail_hours_twolevels">%1$01dsa %2$01ddk</string>
 	<string name="appdetail_details_button">Yönet</string>
 	<string name="appdetail_details_button_wakelocks">Google Me</string>
 	<string name="appdetail_details_adjustpower">Güç Tasarruf Önerisi</string>
@@ -239,7 +239,7 @@
 	<string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Veri Dışa Aktar</string>
 	<string name="appdetail_appuid">App UID:</string>
 	<string name="appdetail_audio">Ses Açık:</string>
-	<string name="appdetail_bright">Parlaklık:</string>
+	<string name="appdetail_bright">Parlak</string>
 	<string name="appdetail_bytesrec">Alınan Byte:</string>
 	<string name="appdetail_bytessent">Gönderilen Byte:</string>
 	<string name="appdetail_cpu">CPU Kullanım:</string>
@@ -259,7 +259,7 @@
 	<string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Güç</string>
 	<string name="appdetail_pct_power_nospace">% Güç</string>
 	<string name="appdetail_pct_time">% Süre</string>
-	<string name="appdetail_phoneon">Telefon Vericisi Açık:</string>
+	<string name="appdetail_phoneon">Mobil Verici Açık:</string>
 	<string name="appdetail_pwr_sysdata">Sistem Verisi İçin Güç:</string>
 	<string name="appdetail_received">Alınan:</string>
 	<string name="appdetail_received_wifimobile">Alınan (Wifi / Mobil):</string>
@@ -380,7 +380,7 @@
 	<!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
 	<string name="abs__action_bar_home_description">Home\'a Dön</string>
 	<string name="abs__action_bar_up_description">Yukarı git</string>
-	<string name="abs__action_menu_overflow_description">Daha fazla seçenek</string>
+	<string name="abs__action_menu_overflow_description">Daha fazla seçenek...</string>
 	<string name="abs__action_mode_done">Tamamlandı</string>
 	<!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
 	<string name="abs__activity_chooser_view_see_all">Hepsine bak...</string>
