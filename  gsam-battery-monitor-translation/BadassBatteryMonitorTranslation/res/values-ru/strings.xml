@@ -51,7 +51,7 @@
     <string name="preferences_overlay_icon_configure_invalid">Невозможно запустить настройку. Откройте набор и настройте вручную.</string>
     <string name="preferences_overlay_icon_notvalid_title">Выбранная тема не поддерживает значки перекрытия</string>
     <string name="preferences_overlay_icon_notvalid_msg">Выберите другую тему и попытайтесь снова.\n\nПерекрытие поддерживается только дополнительными наборами значков. Выберите Получить больше тем из меню темы значка батареи для поиска дополнительного набора значков. Все наборы значков GSam Labs поддерживают перекрытие. Сторонние наборы могут не поддерживать перекрытие.</string>
-    <string name="preferences_show_charging_animation_title">Показывать анимацию при зарядке</string>
+    <string name="preferences_show_charging_animation_title">Анимация при зарядке</string>
     <string name="preferences_widget_color_screen_title">Настройки виджета батареи</string>
     <string name="preferences_app_theme_title">Использовать темную тему</string>
     <string name="preferences_app_theme_sum">Использовать темную тему для экранов приложения</string>
@@ -389,5 +389,5 @@
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with">Поделиться</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">Поделиться с <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">Поделиться через <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
