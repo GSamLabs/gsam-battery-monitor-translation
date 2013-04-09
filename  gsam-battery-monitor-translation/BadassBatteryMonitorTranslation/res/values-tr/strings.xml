@@ -44,7 +44,7 @@
 	<string name="preferences_theme_progress_msg">Uygun temaların listesi alınıyor\u2026</string>
 	<string name="preferences_widget_back_title">Transparan Widget Arkaplanı</string>
 	<string name="preferences_widget_back_msg">Widget arkaplanını, duvarkağıdınız tamamen gözükecek şekilde, transparan yapın.</string>
-	<string name="preferences_widget_show_timeleft_title">Kalan Zamanı Göster</string>
+	<string name="preferences_widget_show_timeleft_title">Kalan Süreyi Göster</string>
 	<string name="preferences_overlay_icon_sum">Uygulama simgesini stok pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
 	<string name="preferences_overlay_icon_title">Pil Simgesinin Üstüne Getir</string>
 	<string name="preferences_overlay_icon_configure_sum">Üste gelecek simgenin büyüklüğünü, yerini, arkaplan rengini, parlaklığını vb. düzenleyin.</string>
@@ -56,8 +56,8 @@
 	<string name="preferences_widget_color_screen_title">Pil Widget Ayarları</string>
 	<string name="preferences_app_theme_title">Koyu Renkli Uygulama Teması</string>
 	<string name="preferences_app_theme_sum">Uygulama menülerinde koyu renk kullan</string>
-	<string name="preferences_time_left_title">Kalan Zamanı Hesapla</string>
-	<string name="preferences_time_left_sum">Bu zaman ölçeğine göre pilin tükenmesi için kalan zamanı hesapla.</string>
+	<string name="preferences_time_left_title">Kalan Süreyi Hesapla</string>
+	<string name="preferences_time_left_sum">Kalan ölçeklenmiş süre hesabı için süre ölçeği belirle.</string>
 	<string name="preferences_profiles_screen_title">Cihaz Güç Profilleri</string>
 	<string name="preferences_power_profiles_use_stock_title">Özel Güç Profili Kullan</string>
 	<string name="preferences_power_profiles_edit_title">Güç Profilini Düzenle</string>
@@ -115,7 +115,7 @@
 	<string name="icon_themes_trad">Geleneksel</string>
 	<string name="icon_themes_default">Sistem Varsayılanı</string>
 	<string name="icon_themes_getmore">Daha Fazla Tema Al</string>
-	<string name="time_left_calc_dontshow">Ölçeklenmiş Zamanı Gösterme</string>
+	<string name="time_left_calc_dontshow">Ölçeklenmiş Süreyi Gösterme</string>
 	<string name="time_left_calc_last5">Son 5 Dakika</string>
 	<string name="time_left_calc_last15">Son 15 Dakika</string>
 	<string name="time_left_calc_last30">Son 30 Dakika</string>
@@ -184,7 +184,7 @@
 	<string name="main_menu_charts">Grafikler</string>
 	<string name="menu_whatsnew">Yenilikler</string>
 	<string name="about_about">Hakkında</string>
-	<string name="main_stat_ref_label">* %1s önce oluşturulan özel referans noktasına göre</string>
+	<string name="main_stat_ref_label">* %1s önce oluşturulan özel referansa göre</string>
 	<string name="menu_set_custom_ref">Özel Referans Belirle</string>
 	<string name="menu_remove_custom_ref">Özel Referansı Kaldır</string>
 	<string name="menu_refresh">Yenile</string>
@@ -352,6 +352,7 @@
 	<string name="translator_nl">ArTsLeOpS</string>
 	<string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
 	<string name="translator_zh_CN">Gavin Fang</string>
+  <string name="translator_tr">Saldıray Günal</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
 	<string name="appdetail_details_adjust_screen_market_bsd_title">Ekranınız Çok Mu Parlak?</string>
