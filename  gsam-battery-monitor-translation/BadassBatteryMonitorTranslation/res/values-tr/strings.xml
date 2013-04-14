@@ -343,15 +343,6 @@
 	<string name="translator_anonymous">Anonim</string>
 	<!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link. You 
 		can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang' -->
-	<string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>
-	<string name="translator_fr">Jaworski Johan</string>
-	<string name="translator_it">Fabio Abbà</string>
-	<string name="translator_hu">István Kriskó (Stefi)</string>
-	<string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
-	<string name="translator_sv">Pontus Edgren</string>
-	<string name="translator_nl">ArTsLeOpS</string>
-	<string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
-	<string name="translator_zh_CN">Gavin Fang</string>
   <string name="translator_tr">Saldıray Günal</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
