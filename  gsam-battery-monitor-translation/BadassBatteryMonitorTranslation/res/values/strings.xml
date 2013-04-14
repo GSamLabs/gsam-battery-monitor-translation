@@ -44,6 +44,8 @@
     <string name="preferences_widget_back_title">Transparent Widget Background</string>
     <string name="preferences_widget_back_msg">Make the widget background completely transparent, allowing your wallpaper to show through.</string>
     <string name="preferences_widget_show_timeleft_title">Show Time Remaining</string>
+    <string name="preferences_widget_show_temp_title">Show Temperature</string>
+    <string name="preferences_widget_show_voltage_title">Show Voltage</string>
     <string name="preferences_overlay_icon_sum">Overlay the stock battery icon.  Location, size, etc. are all fully configurable.</string>
     <string name="preferences_overlay_icon_title">Overlay Standard Battery Icon</string>
     <string name="preferences_overlay_icon_configure_sum">Configure the overlay icon\'s size, location, background color, brightness, and more.</string>
