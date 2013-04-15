@@ -44,6 +44,8 @@
     <string name="preferences_widget_back_title">Прозрачный фон виджета</string>
     <string name="preferences_widget_back_msg">Сделайте фон виджета полностью прозрачным, чтобы видеть обои.</string>
     <string name="preferences_widget_show_timeleft_title">Показать оставшееся время</string>
+    <string name="preferences_widget_show_temp_title">Показать температуру</string>
+    <string name="preferences_widget_show_voltage_title">Показать напряжение</string>
     <string name="preferences_overlay_icon_sum">Перекрыть стоковый значок батареи. Положение, размер и др. полностью изменяемы.</string>
     <string name="preferences_overlay_icon_title">Перекрыть значок батареи</string>
     <string name="preferences_overlay_icon_configure_sum">Настройте размер, положение, цвет фона, яркость и др. показатели значка перекрытия.</string>
