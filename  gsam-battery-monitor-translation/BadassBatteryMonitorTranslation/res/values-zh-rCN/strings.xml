@@ -69,7 +69,7 @@
     <string name="preferences_time_per_percent_unkown">未知</string>
     <string name="preferences_time_per_percent_summary">重设你的设备当前计算的平均满电使用时间。当前 %1$s (%2$s分钟 / 百分之一 已统计%3$01d次)</string>
     <string name="preferences_stats_since_title">设置开始统计</string>
-    <string name="preferences_stats_since_summary">从拔出充电线开始，或者冲最后一次充满电开始</string>
+    <string name="preferences_stats_since_summary">从拔出充电线开始，或者从最后一次充满电开始</string>
     <string name="preferences_power_profiles_edit_summary">自定义耗电性能分析设置。自定义值只有在自定义性能分析功能被选中才能使用。</string>
     <string name="profedit_title">修改下面的值会改变剩余使用时间和应用程序耗电统计的结果</string>
     <string name="profedit_load_basedon">以如下哪项为依据重新加载数据：</string>
