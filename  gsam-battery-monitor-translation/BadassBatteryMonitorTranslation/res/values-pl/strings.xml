@@ -29,26 +29,26 @@
     <string name="preferences_alarm_lowbatt_title">Słaba bateria</string>
     <string name="preferences_alarm_lowbatt_sum">Powiadomienie, gdy niski stan baterii</string>
     <string name="preferences_alarm_lowbatttrigger_title">Sygnalizuje niski stan baterii</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">% Pozostałe, które włacza alarm</string>
+    <string name="preferences_alarm_lowbatttrigger_sum">% Pozostałe, które włącza alarm</string>
     <string name="preferences_alarm_lowbatttrigger_err">Wartość musi być między 0 a 100</string>
     <string name="preferences_alarm_hotbatt_title">Gorąca Bateria</string>
     <string name="preferences_alarm_hotbatt_sum">Powiadomienie, gdy bateria jest zbyt gorąca</string>
     <string name="preferences_alarm_hotbatttrigger_title">Alarm gorącej baterii</string>
     <string name="preferences_alarm_hotbatttrigger_sum">Temp. która uruchamia alarm</string>
-    <string name="preferences_theme_title">Motyw Ikony bateriie</string>
+    <string name="preferences_theme_title">Motyw ikony baterii</string>
     <string name="preferences_theme_sum">Wybierz motyw ikony baterii</string>
     <string name="preferences_theme_getmore_title">Pobierz więcej motywów</string>
     <string name="preferences_theme_getmore_msg">Tutaj wyszukasz więcej tematów Battery Monitor. GSam Labs nie kontroluje ani nie sprawdza wszystkich motywów, więc jeśli coś nie działa należy skontaktować się z twórcą motywu.Pobierz i zainstaluj motyw, a następnie wrócić do tego menu, aby wyświetlić dostępne motyw. Wiesz, że możesz tworzyć własne kompozycje? Sprawdz szczególy na http://badassbatterymonitor.blogspot.com!</string>
     <string name="preferences_theme_progress_title">Pobieranie motywów</string>
     <string name="preferences_theme_progress_msg">Pobieranie listy dostępnych motywów</string>
     <string name="preferences_widget_back_title">Przezroczyste tło widgetu</string>
-    <string name="preferences_widget_back_msg">Dodaj widget całkowicie przezroczysty, pozwalając  zobaczyć tapetę.</string>
-    <string name="preferences_widget_show_timeleft_title">Pokaż Pozostały czas</string>
+    <string name="preferences_widget_back_msg">Dodaj widget całkowicie przezroczysty, pozwalający zobaczyć tapetę.</string>
+    <string name="preferences_widget_show_timeleft_title">Pokaż pozostały czas</string>
 	<string name="preferences_widget_show_temp_title">Pokaż Temperature</string>
     <string name="preferences_widget_show_voltage_title">Pokaż Napięcie</string>
     <string name="preferences_overlay_icon_sum">Nakładka stockowa ikony baterii. Położenie, rozmiar, itp są w pełni konfigurowalne.</string>
     <string name="preferences_overlay_icon_title">Nakładka standardowej ikony baterii</string>
-    <string name="preferences_overlay_icon_configure_sum">Konfigurowanie nakładki ikony rozmiaru, położenia, koloru tła, jasność i więcej.</string>
+    <string name="preferences_overlay_icon_configure_sum">Konfigurowanie nakładki, ikony rozmiaru, położenia, koloru tła, jasność i więcej.</string>
     <string name="preferences_overlay_icon_configure_title">Konfigurowanie ikony nakładki</string>
     <string name="preferences_overlay_icon_configure_invalid">Nie można uruchomić konfiguracji. Otwórz pakiet ikon, aby ręcznie skonfigurować.</string>
     <string name="preferences_overlay_icon_notvalid_title">Wybrany styl nie obsługuje ikony nakładki</string>
@@ -62,10 +62,10 @@
     <string name="preferences_profiles_screen_title">Profile zasilania urządzenia</string>
     <string name="preferences_power_profiles_use_stock_title">Włącz niestandardowy profil</string>
     <string name="preferences_power_profiles_edit_title">Edytuj profil zasilania</string>
-    <string name="preferences_profiles_screen_summary">Zaawansowane - Edytuj profile zużycia energii wykorzystane do obliczenia wartości wszystkich</string>
+    <string name="preferences_profiles_screen_summary">Zaawansowane - Edytuj profile zużycia energii wykorzystane do obliczenia wszystkich wartości</string>
     <string name="preferences_power_per_percent_title">Energia w procentach</string>
     <string name="preferences_power_per_percent_summary">Ilość energii zużywanej dla każdego procent spadku baterii. Zero, jeśli zmienisz ustawienia profilu.</string>
-    <string name="preferences_power_per_percent_dlgtext">Oddzielone przecinkami w formie POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Wartość ta jest stale aktualizowana - im dłużej działa, tym bardziej dokładne pokazuje. Po każdej zmianie ustawienia profilu zasilania należy jednak wyczyścić to pole i pozwolić aplikacji na regeneracje.</string>
+    <string name="preferences_power_per_percent_dlgtext">Oddzielone przecinkami w formie POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Wartość ta jest stale aktualizowana - im dłużej działa, tym tym bardziej dokładny pomiar. Po każdej zmianie ustawienia profilu zasilania należy jednak wyczyścić to pole i pozwolić aplikacji na regeneracje.</string>
     <string name="preferences_time_per_percent_title">Resetowanie historii czasu rozładowania</string>
     <string name="preferences_time_per_percent_unkown">Nieznany</string>
     <string name="preferences_time_per_percent_summary">Zresetuj obliczoną wartość czasu średniego cyklu pełnego ładowania baterii Twojego urządzenia. Obecnie %1$s (%2$sm / percent obliczonych %3$01d procentów)</string>
@@ -78,11 +78,11 @@
     <string name="profedit_cancel">Anuluj</string>
     <string name="profedit_custom_values_saves">Zapisano niestandardowe wartości. Możesz ponownie włączyć domyślne ustawienia w oknie preferencji.</string>
     <string name="preferences_clear_chart_history_title">Wyczyść plik historii wykresu</string>
-    <string name="preferences_clear_chart_history_sum">Kliknij tutaj, aby wyczyścić plik historii wykresu z lokalnej pamięci podręcznej.</string>
+    <string name="preferences_clear_chart_history_sum">Kliknij tutaj, aby wyczyścić plik historii wykresu z pamięci podręcznej.</string>
     <string name="preferences_clear_chart_history_toast">Plik historii został wyczyszczony…</string>
     <string name="preferences_clear_chart_history_alert">Czy na pewno??</string>
     <string name="preferences_clear_history_stats_title">Resetowanie statystyk baterii</string>
-    <string name="preferences_clear_history_stats_sum">"Kliknij tutaj, aby zresetować statystyki baterii. Spowoduje to usunięcie całą historię statystyki. Odpowiednik pełnego naładowania i odłączenia. Wszystkie statystyki są resetowane do tego punktu, należy używać z ostrożnością!"</string>
+    <string name="preferences_clear_history_stats_sum">"Kliknij tutaj, aby zresetować statystyki baterii. Spowoduje to usunięcie całej historii. Odpowiednik pełnego naładowania i odłączenia. Wszystkie statystyki są resetowane do tego punktu, należy używać z ostrożnością!"</string>
     <string name="preferences_clear_history_stats_toast">Wszystkie statystyki baterii zostały wyczyszczone…</string>
     <string name="preferences_clear_history_stats_error_toast">Nie można zresetować statystyki - to urządzenie może nie obsługiwać tej funkcji…</string>
     <string name="preferences_custom_ref">Historia baterii będzie opierać się od niestandardowego punktu odniesienia utworzonego teraz(lub gdy urządzenie zostanie odłączone od zasilania). To może służyć do określenia, co korzysta z baterii od tego określonego punktu w czasie, a nie od ostatniego odłączenia lub ostatniego ładowania.</string>
@@ -95,20 +95,20 @@
     <string name="preferences_override_lang_sum">Użyj innego języka niż domyślny język systemu.</string>
     <string name="preferences_power_profiles_include_sensors_title">Uwzględnij w obliczeniach czujniki</string>
     <string name="preferences_power_profiles_include_sensors_sum">"Niektóre urządzenia mogą nie prawidłowo wykrywać wykorzystanie czujników.  Odznacz tę opcję, jeżeli czujnik wykorzystania aplikacji wygląda niedokładne (akcelerometr w szczególności). "</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_title">Resetowanie procentu energii</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_msg">Spowoduje to zresetowanie obliczeni procentowych energii. Czy chcesz kontynuować?</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_title">Resetowanie procentowego wskaźnika energii</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_msg">Spowoduje to zresetowanie obliczenń procentowych energii. Czy chcesz kontynuować?</string>
     <string name="preferences_widget_dialog_title">Wybierz kolor</string>
     <string name="preferences_widget_color_full_title">Kolor w 100%</string>
     <string name="preferences_widget_color_middle_title">Kolor w 50%</string>
     <string name="preferences_widget_color_empty_title">Kolor w 0%</string>
     <string name="preferences_widget_color_alpha_title">Przejrzystość koloru</string>
-    <string name="preferences_widget_color_preview_title">Podgląd procent</string>
+    <string name="preferences_widget_color_preview_title">Podgląd procentu</string>
     <string name="preferences_widget_color_preview_sum">Ustaw procenty całkowitej wartości podglądu baterii poniżej.</string>
     <string name="preferences_widget_color_screen_sum">Ustaw nachylenie kolorów widzenia baterii i kontroluj ustawienia widgetów</string>
     <string name="preferences_widget_color_category">Kolory</string>
     <string name="preferences_widget_general_category">Ogólne</string>
     <string name="preferences_start_foreground_title">Wysoki priorytet</string>
-    <string name="preferences_start_foreground_sum">Uruchom monitor baterii używając wysokiego priorytetu. Użyj tego tylko wtedy, gdy twoje ikony ikony nie są aktualizowane poprawnie do odzwierciedlenia prawidłowego stanu procentowego baterii. Nie stosować w innych przypadkach, nie wiadomo jak to wpłynie na dostępność zasobów dla innych aplikacji.</string>
+    <string name="preferences_start_foreground_sum">Uruchom Battery Monitor używając wysokiego priorytetu. Użyj tego tylko wtedy, gdy twoje ikony nie są aktualizowane poprawnie do odzwierciedlenia prawidłowego stanu procentowego baterii. Nie stosować w innych przypadkach, nie wiadomo jak to wpłynie na dostępność zasobów dla innych aplikacji.</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Koło</string>
@@ -124,7 +124,7 @@
     <string name="stats_since_unplugged">Od ostatniego odłączenia</string>
     <string name="stats_since_charged">Od ostatniego pełnego naładowania</string>
     <string name="stats_since_custom">Od niestandardowego odniesienia</string>
-    <string name="pwer_profiles_mfg">Producenci wartości</string>
+    <string name="pwer_profiles_mfg">Wartości producenta</string>
     <string name="pwer_profiles_saved">Aktualne zapisane wartości</string>
 
     <!-- App Sucker -->
@@ -136,8 +136,8 @@
     <string name="process_suck_mon_title_unplugged">%1$s (Od ostatniego odłączenia)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (Od pełnego naładowania)</string>
     <string name="process_suck_mon_title_customref">%1$s (Od niestandardowego odniesienia)</string>
-    <string name="procsuckmon_viewby_pwr">Widok % poboru enegri</string>
-    <string name="procsuckmon_viewby_pwr_minforeground">Widok % enegri (tylko użycie procesora)</string>
+    <string name="procsuckmon_viewby_pwr">Widok % poboru enegrii</string>
+    <string name="procsuckmon_viewby_pwr_minforeground">Widok % enegrii (tylko użycie procesora)</string>
     <string name="procsuckmon_viewby_cpu">Widok używania procesora</string>
     <string name="procsuckmon_viewby_cpu_minforeground">Widok CPU (tylko użycie procesora)</string>
     <string name="procsuckmon_viewby_data">Widok wykorzystania sieci</string>
@@ -163,10 +163,10 @@
     <string name="main_temp">Temp.:</string>
     <string name="main_voltage">Napięcie:</string>
     <string name="main_health">Typ / Stan:</string>
-    <string name="main_health_cold">Zimny</string>
-    <string name="main_health_dead">Martwy</string>
-    <string name="main_health_good">Dobry</string>
-    <string name="main_health_hot">Gorące</string>
+    <string name="main_health_cold">b. zły</string>
+    <string name="main_health_dead">zły</string>
+    <string name="main_health_good">dobry</string>
+    <string name="main_health_hot">b.dobry</string>
     <string name="main_health_over_voltage">Powyżej napięcia</string>
     <string name="main_health_unknown">Nieznany</string>
     <string name="main_health_failed">Nie powiodło się</string>
@@ -286,7 +286,7 @@
     <string name="appdetail_video">Video wł:</string>
     <string name="appdetail_wakelocks">Liczba blokad wybudzeń:</string>
     <string name="appdetail_wifiactive">Wifi aktywne:</string>
-    <string name="appdetail_wifion">Wifi wł:</string> 
+    <string name="appdetail_wifion">Wifi wł:</string>
     <string name="appdetail_bytes">%d bajty</string>
     <string name="appdetail_mb">%.2f MB</string>       
     <string name="appdetail_kb">%.2f KB</string>     
@@ -345,35 +345,35 @@
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <!-- EXAMPLE string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string -->
     <!-- string name="translator_pl">Anonymous</string -->     
-    <string name="translator_pl">cvxcvx</string> 
+    <string name="translator_pl">cvxcvx</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Czy Twój  ekran jest zbyt jasny?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">"Jeśli masz problemy z czytaniem w nocy, bo ekran jest zbyt jasny, sprawdź GSam Screen Dimmer. Pozwala to zmniejszyć ustawienia jasności poniżej tego, co jest normalnie dozwolone, dzięki temu przyjemniej jest czytać w nocy!Nie martw się, nie zobaczysz tego komunikatu ponownie."</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">"Jeśli masz problemy z czytaniem w nocy, bo ekran jest zbyt jasny, sprawdź GSam Screen Dimmer. Pozwala to zmienić ustawienia jasności poniżej poziomu domyślnego, co jest normalnie dozwolone, dzięki temu przyjemniej jest czytać w nocy!Nie martw się, nie zobaczysz tego komunikatu ponownie."</string>
     <string name="preferences_send_anon_stats_buypro_title">Przejdź na wersję Pro!</string>
     <string name="preferences_send_anon_stats_buypro_msg">"Darmowa wersja Battery Monitor nie pozwoli Ci wyłączyć reklam, jeśli zdecydujesz się nie zezwalaj na anonimowe statystyki użytkowania..Wersja Pro nie zawiera reklam i pozwoli Ci wyłączyć anonimowe statystyki użytkowania."</string>
     <string name="menu_seeotherapps">Zobacz inne aplikacje GSam Labs</string>
     <string name="menu_gopro">Uaktualnienie do Pro</string>
     <string name="menu_gopro_nook">Zakup</string>
     <string name="menu_goprokindle">Aktualizacja do wersji Kindle Fire Edition</string>
-    <string name="nook_gopro_title">Okresu próbny minoł</string>
+    <string name="nook_gopro_title">Okres próbny minoł</string>
     <string name="nook_gopro_msg">Okres próbny aplikacji minoł. Proszę zakupić pełną wersję. Możesz nadal używać battery monitor. Jednak będzie działać w trybie Free, który nie posiada wiele funkcji i optymalizacji.</string>
     <string name="nook_gopro_ok">Kup pełną wersję</string>
     <string name="nook_gopro_cancel">Kontynuuj w trybie Free</string>
     <string name="main_market_pro_title">Dziękujemy za korzystanie z GSam Battery Monitor - Free</string>
-    <string name="main_market_pro_msg">"Czy wiesz, że istnieje Tablet zoptymalizowany profesjonalna wersją GSam Battery Monitor? Poszukaj go na rynku.Nie martw się, nie zobaczysz tego komunikatu ponownie."</string>
-    <string name="main_market_pro_msg_kindle">"Czy wiesz, że jest  Kindle Fire zoptymalizowana wersja GSam Battery Monitor? Poszukaj go w Appstore.Nie martw się, nie zobaczysz tego komunikatu ponownie."</string>
+    <string name="main_market_pro_msg">"Czy wiesz, że istnieje również wersja tej aplikacji na tablety? Poszukaj jej na googleplay. Nie martw się, nie zobaczysz tego komunikatu ponownie.."</string>
+    <string name="main_market_pro_msg_kindle">"Czy wiesz, że jest zomptymalizowana wersja Kindle Fire? Poszukaj jej na googleplay. Nie martw się, nie zobaczysz tego komunikatu ponownie."</string>
     <string name="main_market_pro_ok">Zobacz</string>
     <string name="main_market_pro_cancel">Nie, dziękuję</string>
     <string name="main_invalid_license_title">Nieprawidłowa licencja</string>
-    <string name="main_invalid_license_msg">"Your license to this application appears to not be valid. The Battery Monitor will continue to operate in it's Free mode. If you feel this is a mistake, please check your purchase."</string>
-    <string name="main_invalid_license_ok">Check My Purchase</string>
+    <string name="main_invalid_license_msg">"Twoja licencja na tą aplikacje wydaje się nie być aktualna. Battery Monitor będzie działać w jego trybie Free. Jeśli uważasz, że to pomyłka, proszę sprawdzić stan twójego zakup."</string>
+    <string name="main_invalid_license_ok">Sprawdź swój zakup</string>
     <string name="main_invalid_license_cancel">Dalej</string>
     <string name="about_invalidlicense">Twoja licencja jest nie ważna. Battery Monitor będzie pracował w trybie Free. Jeśli uważasz, że to błąd, skontaktuj się z deweloperem przy użyciu swoje Google ID Zakup</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Nawiguj do strona głównej</string>
-    <string name="abs__action_bar_up_description">Do górę</string>
+    <string name="abs__action_bar_up_description">Do góry</string>
     <string name="abs__action_menu_overflow_description">Więcej opcji</string>
     <string name="abs__action_mode_done">Gotowe</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
