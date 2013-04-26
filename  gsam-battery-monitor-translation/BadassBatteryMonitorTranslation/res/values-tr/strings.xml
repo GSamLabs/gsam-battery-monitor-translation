@@ -11,8 +11,8 @@
 	<string name="battery_status_time_to_full">Dolum Süresi: %1$02d:%2$02d</string>
 	<string name="battery_status_time_to_full_unknown">Kalan: Hesaplanıyor - tekrar deneyiniz</string>
 	<string name="battery_status_title">Pil Durumu - %1$s%% (%2$s)</string>
-	<string name="battery_status_title_charging">Pil Durumu - %1$s%% (%2$s) - Şarj oluyor</string>
-	<string name="battery_status_title_full">Pil Durumu - %1$s%% (%2$s) - Şarj tamamlandı</string>
+	<string name="battery_status_title_charging">Pil Durumu - %1$s%% - Şarj oluyor</string>
+	<string name="battery_status_title_full">Pil Durumu - Şarj tamamlandı(%2$s)</string>
 
     <!-- Preferences -->
 	<string name="preferences_general_category">Genel Tercihler</string>
@@ -45,14 +45,14 @@
 	<string name="preferences_widget_back_title">Transparan Widget Arkaplanı</string>
 	<string name="preferences_widget_back_msg">Widget arkaplanını, duvarkağıdınız tamamen gözükecek şekilde, transparan yapın.</string>
 	<string name="preferences_widget_show_timeleft_title">Kalan Süreyi Göster</string>
-	<string name="preferences_overlay_icon_sum">Uygulama simgesini stok pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
+	<string name="preferences_overlay_icon_sum">Uygulama simgesini sistem pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
 	<string name="preferences_overlay_icon_title">Pil Simgesinin Üstüne Getir</string>
 	<string name="preferences_overlay_icon_configure_sum">Üste gelecek simgenin büyüklüğünü, yerini, arkaplan rengini, parlaklığını vb. düzenleyin.</string>
 	<string name="preferences_overlay_icon_configure_title">Üste Gelecek Simgeyi Düzenle</string>
 	<string name="preferences_overlay_icon_configure_invalid">Düzenleme başlatılamadı. Simge paketini elle düzenlemeyi deneyin.</string>
 	<string name="preferences_overlay_icon_notvalid_title">Seçilen Tema Simge Üstüne Getirmeyi Desteklemiyor.</string>
 	<string name="preferences_overlay_icon_notvalid_msg">Başka bir tema seçip tekrar deneyin.\n\nSimge Üstüne Getirme özelliği sadece harici simge paketleri tarafından desteklenmektedir. Daha Fazla Tema Yükle sekmesinden harici simge paketi bulup indirebilirsiniz. Gsam Labs tarafından sağlanan tüm simge paketleri simge üstüne getirmeyi desteklemektedir. Üçüncü parti paketleri bu özelliği desteklemeyebilir.</string>
-	<string name="preferences_show_charging_animation_title">Şarj oluyorken animasyon</string>
+	<string name="preferences_show_charging_animation_title">Şarj Oluyorken Animasyon</string>
 	<string name="preferences_widget_color_screen_title">Pil Widget Ayarları</string>
 	<string name="preferences_app_theme_title">Koyu Renkli Uygulama Teması</string>
 	<string name="preferences_app_theme_sum">Uygulama menülerinde koyu renk kullan</string>
@@ -67,7 +67,7 @@
 	<string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını değiştirdiyseniz sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
 	<string name="preferences_time_per_percent_title">Zaman-Tüketim Geçmişini Sıfırlayın</string>
 	<string name="preferences_time_per_percent_unkown">bilinmiyor</string>
-	<string name="preferences_time_per_percent_summary">Pilin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sd / %3$01d adet yüzdeden hesaplandı)</string>
+	<string name="preferences_time_per_percent_summary">Pilin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sdk / %3$01d adet yüzdeden hesaplandı)</string>
 	<string name="preferences_stats_since_title">İstatistik Periyodu</string>
 	<string name="preferences_stats_since_summary">İstatistikleri, son fişten çekiş veya son tam şarjdan itibaren görüntüleyin</string>
 	<string name="preferences_power_profiles_edit_summary">Güç profilini düzenleyin. Değerler, özel güç profili seçeneği etkinse kullanılacaktır.</string>
@@ -131,7 +131,7 @@
 	<string name="process_suck_mon_android_system">Sistem (%1s)</string>
 	<string name="process_suck_mon_header">%0$.1f%% pil harcayan:</string>
 	<string name="process_suck_mon_nodata">Veri mevcut değil. Son güç döngüsü boyunca güç tüketmiş bir uygulama bulunamadı.</string>
-	<string name="process_suck_mon_title_prefix">Uygulama Kullanımı - %1$s</string>
+	<string name="process_suck_mon_title_prefix">Uyg. Kullanımı - %1$s</string>
 	<string name="process_suck_mon_title_unplugged">%1$s (Fişten Çekişten Bu Yana)</string>
 	<string name="process_suck_mon_title_fullcharge">%1$s (Tam Şarjdan Bu Yana)</string>
 	<string name="process_suck_mon_title_customref">%1$s (Özel Referanstan Bu Yana)</string>
@@ -239,7 +239,7 @@
 	<string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Veri Dışa Aktar</string>
 	<string name="appdetail_appuid">App UID:</string>
 	<string name="appdetail_audio">Ses Açık:</string>
-	<string name="appdetail_bright">Parlak</string>
+	<string name="appdetail_bright">Parlak:</string>
 	<string name="appdetail_bytesrec">Alınan Byte:</string>
 	<string name="appdetail_bytessent">Gönderilen Byte:</string>
 	<string name="appdetail_cpu">CPU Kullanım:</string>
@@ -247,7 +247,7 @@
 	<string name="appdetail_dark">Karanlık:</string>
 	<string name="appdetail_data_enabled">Veri Aktif:</string>
 	<string name="appdetail_dim">Loş:</string>
-	<string name="appdetail_discharge_whileonoff">Açık/Kapalı İken Pil Tüketimi:</string>
+	<string name="appdetail_discharge_whileonoff">Açık/Kapalı İken Tüketim:</string>
 	<string name="appdetail_gps">GPS:</string>
 	<string name="appdetail_high">Yüksek - %s:</string>
 	<string name="appdetail_keepawake">Uyanık Tutuş:</string>
@@ -281,7 +281,7 @@
 	<string name="appdetail_sent">Gönderilen:</string>
 	<string name="appdetail_sent_wifimobile">Gönderilen (Wifi / Mobil):</string>
 	<string name="appdetail_signal_stregth">Sinyal Gücü:</string>
-	<string name="appdetail_total_appssystem">Toplam (Uygulama / Sistem):</string>
+	<string name="appdetail_total_appssystem">Toplam (Uyg. / Sistem):</string>
 	<string name="appdetail_video">Video Açık:</string>
 	<string name="appdetail_wakelocks">WakeLock Sayısı:</string>
 	<string name="appdetail_wifiactive">Wifi Aktif:</string>
