@@ -353,6 +353,7 @@
     <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
     <string name="translator_zh_CN">Gavin Fang</string>
     <string name="translator_tr">Saldıray Günal</string>
+    <string name="translator_pl">cvxcvx</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
