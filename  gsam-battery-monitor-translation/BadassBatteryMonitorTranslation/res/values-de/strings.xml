@@ -91,7 +91,7 @@
     <string name="preferences_send_anon_stats_title">Anonyme Nutzerstatistiken erlauben</string>
     <string name="preferences_send_anon_stats_sum">Erlaubt das Senden anonymer Nutzungsstatistiken. Es werden keine privaten, oder identifizierbaren Daten gesendet.</string>
     <string name="preferences_show_ads_title">Werbung anzeigen</string>
-    <string name="preferences_show_ads_sum">Werbung I'm Hauptbildschirm anzeigen.</string>
+    <string name="preferences_show_ads_sum">"Werbung I'm Hauptbildschirm anzeigen."</string>
     <string name="preferences_override_lang_title">Sprache</string>
     <string name="preferences_override_lang_sum">Eine andere, als die Systemsprache auswählen.</string>
     <string name="preferences_power_profiles_include_sensors_title">Sensoren in die Berechnung einbeziehen</string>
