@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">GSam Battery Monitor</string>
+    <!--  No need to translate the name of the app... -->
+    <!--  string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Zeit verbleibend: %1$02d:%2$02d (Durchschnitt), %3$02d:%4$02d (Letzte %5$sm)</string>
@@ -343,17 +344,7 @@
     <string name="lang_default">Default System Language</string>        
     <string name="translator_anonymous">Anonymous</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
-    <string name="translator_fr">Jaworski Johan</string>       
-    <string name="translator_it">Fabio Abbà</string>     
-    <string name="translator_hu">István Kriskó (Stefi)</string>    
-    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
-    <string name="translator_sv">Pontus Edgren</string>
-    <string name="translator_nl">ArTsLeOpS</string>
-    <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
-    <string name="translator_zh_CN">Gavin Fang</string>
-    <string name="translator_tr">Saldıray Günal</string>
-    <string name="translator_pl">cvxcvx</string>
+    <string name="translator_de">Anonymous</string>        
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
