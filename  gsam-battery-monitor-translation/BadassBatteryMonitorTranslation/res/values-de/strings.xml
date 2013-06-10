@@ -16,7 +16,7 @@
 
     <!-- Preferences -->
     <string name="preferences_general_category">Allgemeine Einstellungen</string>
-    <string name="preferences_theme_category">Theme</string>
+    <string name="preferences_theme_category">Designs</string>
     <string name="preferences_alarm_category">Alarme</string>
     <string name="preferences_startup_service_title">Den Gerätestart beobachten</string>
     <string name="preferences_startup_service_sum">Beim Hochfahren starten</string>
@@ -34,7 +34,7 @@
     <string name="preferences_alarm_lowbatttrigger_err">Der Wert muss zwischen 0 und 100 liegen</string>
     <string name="preferences_alarm_hotbatt_title">Heißer Akku</string>
     <string name="preferences_alarm_hotbatt_sum">Benachrichtigung, wenn der Akku zu heiß wird</string>
-    <string name="preferences_alarm_hotbatttrigger_title">Wert für Akkutemperaturwarnung</string>
+    <string name="preferences_alarm_hotbatttrigger_title">Wert für Temperaturwarnung</string>
     <string name="preferences_alarm_hotbatttrigger_sum">Temperatur, die den Alarm auslöst</string>
     <string name="preferences_theme_title">Akkusymbol</string>
     <string name="preferences_theme_sum">Wähle das Akkusymbol aus</string>
@@ -50,54 +50,54 @@
     <string name="preferences_overlay_icon_sum">Überlagere das Standard-Akkusymbol. Position, Größe, etc. sind frei einstellbar.</string>
     <string name="preferences_overlay_icon_title">Überlagere das Standard-Akkusymbol</string>
     <string name="preferences_overlay_icon_configure_sum">Stelle die Größe, Position, Hintergrundfarbe, Helligkeit und mehr für das überlagernde Symbol ein.</string>
-    <string name="preferences_overlay_icon_configure_title">Configure Overlay Icon</string>
+    <string name="preferences_overlay_icon_configure_title">Überlagerndes Symbol Einstellen</string>
     <string name="preferences_overlay_icon_configure_invalid">Starten der Konfiguration nicht möglich. Öffne das Symbolpaket manuell, um es einzustellen.</string>
     <string name="preferences_overlay_icon_notvalid_title">Das ausgewählte Paket unterstützt keine Überlagernden Symbole</string>
-    <string name="preferences_overlay_icon_notvalid_msg">Wähle win anderes Design und versuche es erneut. \n\nÜberlagernde Symbole werden nur durch externe Symbolpakete unterstützt. Wähle Mehr Symbole laden im Akkusymbol Menü aus, um ein externes Symbolpaket zu finden. Alle Symbolpakete von GSam Labs unterstützen überlagernde Ions. Symbolpakete von Drittanbietern unterstützen dies möglicherweise nicht.</string>
+    <string name="preferences_overlay_icon_notvalid_msg">Wähle ein anderes Design und versuche es erneut. \n\nÜberlagernde Symbole werden nur durch externe Symbolpakete unterstützt. Wähle Mehr Symbole laden im Akkusymbol Menü aus, um ein externes Symbolpaket zu finden. Alle Symbolpakete von GSam Labs unterstützen überlagernde Ions. Symbolpakete von Drittanbietern unterstützen dies möglicherweise nicht.</string>
     <string name="preferences_show_charging_animation_title">Animation während des Ladens anzeigen</string> 
     <string name="preferences_widget_color_screen_title">Akku Widget Einstellungen</string>
     <string name="preferences_app_theme_title">Dunkles Design anwenden</string>
     <string name="preferences_app_theme_sum">Nutze ein dunkles Design für die App-Bildschirme</string>
     <string name="preferences_time_left_title">Berechne verbleibende Zeit</string>
-    <string name="preferences_time_left_sum">Berechne die verbleibende Zeit, auf Basis dieses Zeitraums.</string>
+    <string name="preferences_time_left_sum">Berechne die verbleibende Zeit, auf Grund dieses Zeitraums.</string>
     <string name="preferences_profiles_screen_title">Geräte Energie Profile</string>
-    <string name="preferences_power_profiles_use_stock_title">Angepasstes Profil aktivieren</string>
+    <string name="preferences_power_profiles_use_stock_title">Eigenes Profil aktivieren</string>
     <string name="preferences_power_profiles_edit_title">Energie Profil bearbeiten</string>
     <string name="preferences_profiles_screen_summary">Erweitert - Bearbeite die Energie Profile zur Berechnung aller Werte</string>
     <string name="preferences_power_per_percent_title">Verbrauch je Prozent</string>
-    <string name="preferences_power_per_percent_summary">Menge der verbrauchten Energie je Prozent der Akkuladung. Setze diesen Wert zurück, wenn du seine Profileinstellungen änderst.</string>
-    <string name="preferences_power_per_percent_dlgtext">Kommagetrennter Wert in der Form VERBRAUCH_PRO_PROZENT_LADUNG, GESAMTE_GEMESSENE_LADUNG. Dieser Wert wird ständig aktualisiert - je länger du die Funktion nutzt, um so genauer wird er. Wann mimer du win Profil änderst, solltest dieses Feld leeren, und die App neu berechnen lassen.</string>
+    <string name="preferences_power_per_percent_summary">Menge des Verbauchs je Prozent der Akkuladung. Setze diesen Wert zurück, wenn du deine Profileinstellungen änderst.</string>
+    <string name="preferences_power_per_percent_dlgtext">Kommagetrennter Wert in der Form VERBRAUCH_PRO_PROZENT_LADUNG, GESAMTE_GEMESSENE_LADUNG. Dieser Wert wird ständig aktualisiert - je länger du die Funktion nutzt, um so genauer wird er. Wann immer du ein Profil änderst, solltest dieses Feld leeren, und die App neu berechnen lassen.</string>
     <string name="preferences_time_per_percent_title">Entladungszeit Messungen zurücksetzen</string>
     <string name="preferences_time_per_percent_unkown">unbekannt</string>
-    <string name="preferences_time_per_percent_summary">Setzt die berechnete Zeit zurück, die dein Gerät mit einer vollen Akkuladung hält. Aktuell %1$s (%2$sm / Prozent berechnet über %3$01d Prozent)</string>
+    <string name="preferences_time_per_percent_summary">Setzt die berechnete Zeit zurück, die dein Gerät durchschnittlich mit einer vollen Akkuladung hält. Aktuell %1$s (%2$sm / Prozent berechnet über %3$01d Prozent)</string>
     <string name="preferences_stats_since_title">Statistiken seit</string>
-    <string name="preferences_stats_since_summary">Statistiken seit dem letzten abstecken, oder dem letzten vollständigen Aufladen</string>
+    <string name="preferences_stats_since_summary">Statistiken seit letzten Abstecken, oder letzten vollständigen Aufladen</string>
     <string name="preferences_power_profiles_edit_summary">Bearbeite dein Profil. Die angepassten Werte werden nur genutzt, wenn dein Profil aktiviert ist.</string>
-    <string name="profedit_title">Ändere die Werte unten, um die Berechnung der verbleibenden Zeit, sowie der App Sucher Zeiten zu ändern.</string>
+    <string name="profedit_title">Ändere die Werte unten, um die Berechnung der verbleibenden Zeit, sowie der App Sucker Zeiten zu ändern.</string>
     <string name="profedit_load_basedon">Daten neu laden, basierend auf:</string>
     <string name="profedit_save">Speichern</string>
     <string name="profedit_cancel">Abbrechen</string>
     <string name="profedit_custom_values_saves">Gespeicherte eigene Werte. Du kannst die Herstellereinstellungen im Einstellungen Bildschirm wiederherstellen.</string>
-    <string name="preferences_clear_chart_history_title">Leeren der Aufzeichnungsdatei</string>
-    <string name="preferences_clear_chart_history_sum">Klicke hier, um alle lokalen Aufzeichnungsdateien zurück zu setzen.</string>
-    <string name="preferences_clear_chart_history_toast">Aufzeichnungsdateien wurden geleert\u2026</string>
+    <string name="preferences_clear_chart_history_title">Leeren der Verlaufsdatei</string>
+    <string name="preferences_clear_chart_history_sum">Klicke hier, um alle lokalen Verlaufsdateien zurück zu setzen.</string>
+    <string name="preferences_clear_chart_history_toast">Verlaufsdateien wurden geleert\u2026</string>
     <string name="preferences_clear_chart_history_alert">Bist du sicher?</string>
     <string name="preferences_clear_history_stats_title">Akku Statistiken zurücksetzen</string>
-    <string name="preferences_clear_history_stats_sum">Klicke heir um aloe Akku Statistiken zurück zu setzen. Dadurch werden alle aufgezeichneten Werte gelöscht. Das entspricht einem vollständigen Aufladen und Abstecken. Alle Aufzeichnungen bis zu diesem Zeitpunkt werden zurückgesetzt, also nutze die Funktion mit Vorsicht!</string>
+    <string name="preferences_clear_history_stats_sum">Klicke hier um alle Akku Statistiken zurück zu setzen. Dadurch werden alle aufgezeichneten Werte gelöscht. Das entspricht einem vollständigen Aufladen und Abstecken. Alle Aufzeichnungen bis zu diesem Zeitpunkt werden zurückgesetzt, also nutze die Funktion mit Vorsicht!</string>
     <string name="preferences_clear_history_stats_toast">Alle Akku Statistiken warden zurückgesetzt\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Zurücksetzen fehlgeschlagen - möglicherweise unterstützt dieses Gerät die Funktion nicht\u2026</string>
-    <string name="preferences_custom_ref">The battery history will be based off of a custom reference point created now (or when the device gets unplugged).  This can be used to determine what has used your battery since this specific point in time rather than since last unplugged or last charged. </string>
-    <string name="preferences_custom_ref_plugged">The device is currently charging - you may only create a custom reference when the device is unplugged.</string>
-    <string name="preferences_send_anon_stats_title">Anonyme Nutzerstatistiken erlauben</string>
+    <string name="preferences_custom_ref">Der Verlauf wird aufgrund eines eigenen Referenzpunktes neu berechnet (oder wenn das Gerät abgesteckt wird). Das kann genutzt werden, um zu sehen was deinen Akku verbraucht, von einem spezifischen Zeitpunkt ab, anstatt seit dem letzte Abstecken, oder vollen Laden. </string>
+    <string name="preferences_custom_ref_plugged">Das Gerät wird gerade geladen - Du kannst eine eigene Referenz nur erstellen, wenn das Gerät abgesteckt ist.</string>
+    <string name="preferences_send_anon_stats_title">Anonyme Nutzungsstatistiken erlauben</string>
     <string name="preferences_send_anon_stats_sum">Erlaubt das Senden anonymer Nutzungsstatistiken. Es werden keine privaten, oder identifizierbaren Daten gesendet.</string>
     <string name="preferences_show_ads_title">Werbung anzeigen</string>
-    <string name="preferences_show_ads_sum">"Werbung I'm Hauptbildschirm anzeigen."</string>
+    <string name="preferences_show_ads_sum">Werbung im Hauptbildschirm anzeigen.</string>
     <string name="preferences_override_lang_title">Sprache</string>
     <string name="preferences_override_lang_sum">Eine andere, als die Systemsprache auswählen.</string>
     <string name="preferences_power_profiles_include_sensors_title">Sensoren in die Berechnung einbeziehen</string>
-    <string name="preferences_power_profiles_include_sensors_sum">"Manche Geräte berechnen die Sensornutzung niche korrekt. Wähle dies Funktion ab, wenn die Sensornutzung dir ungenau erscheint (speziell der Beschleunigungssensor). "</string>
+    <string name="preferences_power_profiles_include_sensors_sum">"Manche Geräte berechnen die Sensornutzung nicht korrekt. Wähle diese Funktion ab, wenn die Sensornutzung dir ungenau erscheint (speziell der Beschleunigungssensor). "</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">Verbauch je Prozent zurücksetzen</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_msg">Die Verbrauch je Prozent Berechnung word hierdurch zurückgesetzt. Willst du fortfahren?</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_msg">Die Berechnung des Verbrauchs je Prozent wird hierdurch zurückgesetzt. Willst du fortfahren?</string>
     <string name="preferences_widget_dialog_title">Wähle eine Farbe</string>
     <string name="preferences_widget_color_full_title">Farbe bei 100%</string>
     <string name="preferences_widget_color_middle_title">Farbe bei 50%</string>
@@ -105,11 +105,11 @@
     <string name="preferences_widget_color_alpha_title">Farb-Transparenz</string>
     <string name="preferences_widget_color_preview_title">Prozent Vorschau</string>
     <string name="preferences_widget_color_preview_sum">Lege den Wert der Prozentzahl in der unten angezeigten Vorschau aus.</string>
-    <string name="preferences_widget_color_screen_sum">Lege den Farbverlauf der Akku Ansicht und der Widgeteinstellugnen fest</string>
+    <string name="preferences_widget_color_screen_sum">Lege den Farbverlauf der Akku Ansicht und der Widget Einstellugnen fest</string>
     <string name="preferences_widget_color_category">Farben</string>
     <string name="preferences_widget_general_category">Allgemein</string>
     <string name="preferences_start_foreground_title">Hohe Priorität</string>
-    <string name="preferences_start_foreground_sum">Gib den Akkumonitor eine hone Priorität. Nutze dies Funktion nur, wenn deine Symbole nicht richtig aktualisiert werden. Aktiviere die Funktion sonst nicht, weil sie beeinflusst, wieviele Ressourcen anderen Programmen zur Verfügung stehen. </string>
+    <string name="preferences_start_foreground_sum">Gib dem Akkumonitor eine hohe Priorität. Nutze dies Funktion nur, wenn deine Symbole nicht richtig aktualisiert werden. Aktiviere die Funktion sonst nicht, weil sie beeinflusst, wie viele Ressourcen anderen Programmen zur Verfügung stehen. </string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kreis</string>   
@@ -117,22 +117,22 @@
     <string name="icon_themes_trad">Klassisch</string>   
     <string name="icon_themes_default">System Standard</string>   
     <string name="icon_themes_getmore">Lade mehr Designs</string>
-    <string name="time_left_calc_dontshow">Don\'t Show Scaled Time</string>
+    <string name="time_left_calc_dontshow">Berechnete Zeit nicht anzeigen</string>
     <string name="time_left_calc_last5">Letze 5 Minuten</string>
     <string name="time_left_calc_last15">Letze 15 Minuten</string>
     <string name="time_left_calc_last30">Letze 30 Minuten</string>
     <string name="time_left_calc_last60">Letze 60 Minuten</string>
     <string name="stats_since_unplugged">Seit den letzten Abstecken</string>
     <string name="stats_since_charged">Seit dem letzten vollständigen Aufladen</string>
-    <string name="stats_since_custom">Seit angepasstem Zeitpunkt</string>
-    <string name="pwer_profiles_mfg">Hersteller Einstellungen</string>
+    <string name="stats_since_custom">Seit eigenem Zeitpunkt</string>
+    <string name="pwer_profiles_mfg">Werkseinstellungen</string>
     <string name="pwer_profiles_saved">Momentan gespeicherte Werte</string>
 
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">System (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% Akku verbraucht von:</string>
-    <string name="process_suck_mon_nodata">Keine Daten verfügbar. There are no apps that have consumed the specified resource during the last device power cycle.</string>
+    <string name="process_suck_mon_nodata">Keine Daten verfügbar. Es gibt keine Apps, die die spezielle Quelle seit dem letzte Ladezyklus verbraucht haben.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Seit letzem Abstecken)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (Seit letztem vollständigen Aufladen)</string>
@@ -144,7 +144,7 @@
     <string name="procsuckmon_viewby_data">Zeige verbrauchte Netzwerkdaten</string>
     <string name="procsuckmon_viewby_sensor">Zeige genutzte Sensorzeit</string>
     <string name="procsuckmon_viewby_awake">Zeige aktiv gehaltene Zeit</string>
-    <string name="procsuckmon_viewby_wake_times">Zeige die Anzahl des Geräte Weckens</string>
+    <string name="procsuckmon_viewby_wake_times">Zeige die Anzahl des Geräte Aufweckens</string>
     <string name="procsuckmon_viewby_gps">Zeige genutzte GPS Zeit</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Zeige Kernel Wakelocks</string>
 
@@ -158,9 +158,9 @@
     <string name="main_timeleft">Verbleibend - Durchschnitt: </string>
     <string name="main_timeleft_tablet">Verbleibend (durchschn. Nutzung): </string>
     <string name="main_timeleft_rolling">Verbleibend - Letze %1$sm: </string>
-    <string name="main_timeleft_rolling_tablet">Verleibend (Letzte %1$sm Nutzung): </string>
+    <string name="main_timeleft_rolling_tablet">Verbleibend (Letzte %1$sm Nutzung): </string>
     <string name="main_talktime">Verbleibend - Gesprächszeit: </string>
-    <string name="main_talktime_tablet">Verlbeibende Gesprächszeit: </string>
+    <string name="main_talktime_tablet">Verbleibende Gesprächszeit: </string>
     <string name="main_temp">Temperatur: </string>
     <string name="main_voltage">Spannung: </string>
     <string name="main_health">Typ / Zustand: </string>
@@ -176,7 +176,7 @@
     <string name="main_screen_on_label">Bildschirm:</string>
     <string name="main_phone_radio_on_label">Telefon Radio:</string>
     <string name="main_wifi_active_label">WLAN aktiv:</string>
-    <string name="main_idle_label">Wach gehalten:</string>
+    <string name="main_idle_label">Aktiv gehalten:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">App Nutzung:</string>
     <string name="main_app_usage_button">App Sucker</string>
@@ -189,8 +189,8 @@
     <string name="main_stat_ref_label">* Basiert auf persönlichen Einstellungen, erstellt vor %1s</string>
     <string name="menu_set_custom_ref">Persönliche Einstellungen anpassen</string>
     <string name="menu_remove_custom_ref">Persönliche Einstellungen entfernen</string>
-    <string name="menu_refresh">Aktuallisieren</string>
-    <string name="main_refresh_toast">Statistiken Aktuallisiert\u2026</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="main_refresh_toast">Statistiken Aktualisiert\u2026</string>
     <string name="main_market_nomarket_msg">Funktion nicht verfügbar. Es erscheint kein Market Programm, dass auf deinem Gerät installiert ist.</string>
     <string name="menu_help">Hilfe</string>
     <string name="menu_review">Bewerte GSam Battery Monitor</string>
@@ -205,7 +205,7 @@
     <string name="main_tablet_active_usage">Aktiv (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">Standby (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">Bewerte GSam Battery Monitor</string>
-    <string name="rate_me_msg">Gefällt did GSam Battery Monitor?  Nimm did bitte die Zeit und gib der App eine jute Wertung!\n\nKeine Sorge, du wirst nicht erneut danach gefragt.</string>
+    <string name="rate_me_msg">Gefällt dir GSam Battery Monitor?  Nimm dir bitte die Zeit und gib der App eine gute Wertung!\n\nKeine Sorge, diese Meldung wird dir nicht erneut angezeigt.</string>
     <string name="rate_me_ok">Bewerte!</string>
     <string name="main_header_type">Typ</string>
     <string name="main_header_time">Zeit</string>
@@ -230,10 +230,10 @@
     <string name="appdetail_details_button">Verwalten</string>
     <string name="appdetail_details_button_wakelocks">Google Mich</string>    
     <string name="appdetail_details_adjustpower">Akku-Spartips</string>
-    <string name="appdetail_details_adjust_wifi">Schalte WLAN ab, wenn es nicht genutzt wird über den Button unten.</string>
+    <string name="appdetail_details_adjust_wifi">Schalte WLAN  über den Button unten ab, wenn es nicht genutzt wird.</string>
     <string name="appdetail_details_adjust_wifi_button">WLAN Einstellungen</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Aufrufen der WLAN Einstellungen fehlgeschlagen</string>
-    <string name="appdetail_details_adjust_screen">Verringere die Bildschirmhelligkeit und den Ruhezustand über den Button unten.</string>
+    <string name="appdetail_details_adjust_screen">Verringere  über den Button unten die Bildschirmhelligkeit und den Ruhezustand.</string>
     <string name="appdetail_details_adjust_screen_button">Bildschirmeinstellungen</string>
     <string name="appdetail_details_adjust_screen_failedintent">Aufrufen der Bildschirmeinstellungen fehlgeschlagen</string>
     <string name="detail_menu_export">Exportieren</string>
@@ -252,12 +252,12 @@
     <string name="appdetail_discharge_whileonoff">Entladen während An/Aus:</string>  
     <string name="appdetail_gps">GPS:</string>  
     <string name="appdetail_high">Hoch - %s:</string>
-    <string name="appdetail_keepawake">Wach halten:</string>  
+    <string name="appdetail_keepawake">Aktiv halten:</string>  
     <string name="appdetail_light">Licht:</string>  
     <string name="appdetail_low">Niedrig - 0:</string>  
     <string name="appdetail_med">Mittel - %s:</string>
     <string name="appdetail_medium">Mittel:</string>  
-    <string name="appdetail_numwakes">Anzahl, wie oft das Gerät geweckt wurde:</string>  
+    <string name="appdetail_numwakes">Zahl, wie oft das Gerät geweckt wurde:</string>  
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Ladung</string>
     <string name="appdetail_pct_power_nospace">% Ladung</string>
     <string name="appdetail_pct_time">% Zeit</string>
@@ -336,7 +336,7 @@
     <string name="about_app_name">Über GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
-    <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
+    <string name="about_chartengine">Chart Engine von AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Kompatibilität von actionbarsherlock.com</string>
     <string name="about_translations">Übersetzungen:</string>
     
@@ -348,15 +348,15 @@
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Ist dein Bildschirm zu hell?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">Wenn du Probleme hast nachts zu lesen, weil dein Bildschirm zu hell ist, schau dir GSam Screen Dimmer an.  Es lässt dich deine Bildschirmhelligkeit unter den normal erlaubten Wert reduzieren, für win angenehmeres Lesen bei Nacht!\n\nKeine Sorge, diese Meldung wird dir nicht erneut angezeigt.</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Wenn du Probleme hast nachts zu lesen, weil dein Bildschirm zu hell ist, schau dir GSam Screen Dimmer an.  Es lässt dich deine Bildschirmhelligkeit unter den normal erlaubten Wert reduzieren, für ein angenehmeres Lesen bei Nacht!\n\nKeine Sorge, diese Meldung wird dir nicht erneut angezeigt.</string>
     <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">Die kostenlose Version von Battery Monitor erlaubt es dir niche die Werbung abzuschalten, wenn du nicht die anonymen Nutzungsstatitiken erlaubst.\n\nDie Pro Version enthält keine Werbung und lässt die die anonymen Nutzungsstatitiken abschalten.</string>
+    <string name="preferences_send_anon_stats_buypro_msg">Die kostenlose Version von Battery Monitor lässt dich die Werbung nicht abschalten, wenn du nicht die anonymen Nutzungsstatitiken erlaubst.\n\nDie Pro Version enthält keine Werbung und lässt dich die anonymen Nutzungsstatitiken abschalten.</string>
     <string name="menu_seeotherapps">Andere Apps von GSam Labs</string>
     <string name="menu_gopro">Upgrade To Pro</string>
     <string name="menu_gopro_nook">Kaufen</string>
     <string name="menu_goprokindle">Upgrade To The Kindle Fire Edition</string>
     <string name="nook_gopro_title">Probeversion abgelaufen</string>
-    <string name="nook_gopro_msg">Deine Probeversion von battery monitor ist abgelaufen.  Bitte kaufe die Vollversion. Du kannst battery monitor writer nutzen, es word im kostenlosen Modus weiter laufen, was einige Funktionen und Optimierungen deaktiviert.</string>
+    <string name="nook_gopro_msg">Deine Probeversion von battery monitor ist abgelaufen.  Bitte kaufe die Vollversion. Du kannst battery monitor weiter nutzen, es wird im kostenlosen Modus weiter laufen, was einige Funktionen und Optimierungen deaktiviert.</string>
     <string name="nook_gopro_ok">Kaufe die Vollversion</string>
     <string name="nook_gopro_cancel">Weiter im kostenlosen Modus</string>
     <string name="main_market_pro_title">Danke, dass du GSam Battery Monitor - Free benutzt</string>
@@ -365,13 +365,13 @@
     <string name="main_market_pro_ok">Will ich sehen</string>
     <string name="main_market_pro_cancel">Nein, danke</string>
     <string name="main_invalid_license_title">Ungültige Lizenz</string>
-    <string name="main_invalid_license_msg">Deine Lizenz für disses Programm scheint nicht gültig zu sein. Battery Monitor wird nicht im kostenlosen Modus weiter laufen. Wenn das dir falsch erscheint, überprüfe bitte deinen Kauf.</string>
+    <string name="main_invalid_license_msg">Deine Lizenz für dieses Programm scheint nicht gültig zu sein. Battery Monitor wird nicht im kostenlosen Modus weiter laufen. Wenn dir das falsch erscheint, überprüfe bitte deinen Kauf.</string>
     <string name="main_invalid_license_ok">Kauf überprüfen</string>
     <string name="main_invalid_license_cancel">Weiter</string>    
-    <string name="about_invalidlicense">Du hast keine gültige Lizenz. Battery Monitor wird nicht im kostenlosen Modus weiter laufen. Wenn das dir falsch erscheint, nimm bitte Kontakt zum Entwickler mit deiner Kauf ID auf.</string>
+    <string name="about_invalidlicense">Du hast keine gültige Lizenz. Battery Monitor wird nicht im kostenlosen Modus weiter laufen. Wenn dir das falsch erscheint, nimm bitte Kontakt zum Entwickler mit deiner Kauf ID auf.</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-    <string name="abs__action_bar_home_description">Navigieren sum Hauptbildschirm</string>
+    <string name="abs__action_bar_home_description">Navigieren zum Hauptbildschirm</string>
     <string name="abs__action_bar_up_description">Navigieren mach Oben</string>
     <string name="abs__action_menu_overflow_description">Mehr Optionen</string>
     <string name="abs__action_mode_done">Fertig</string>
@@ -382,7 +382,7 @@
     <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
     <string name="abs__share_action_provider_share_with">Teilen mit...</string>
     <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
-    <string name="abs__activitychooserview_choose_application">Wähle win Programm</string>
+    <string name="abs__activitychooserview_choose_application">Wähle ein Programm</string>
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with">Teile mit</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
