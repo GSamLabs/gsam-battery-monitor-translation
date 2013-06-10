@@ -180,8 +180,8 @@
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">App Nutzung:</string>
     <string name="main_app_usage_button">App Sucker</string>
-    <string name="main_android_batt_usage_button">Akkunutzung - Eingebaut</string>    
-    <string name="main_android_batt_usage_failed">Erstellung des Bildschirms zum eingebauten Akku fehlgeschlagen...</string>
+    <string name="main_android_batt_usage_button">Akkinfo - System</string>    
+    <string name="main_android_batt_usage_failed">Erstellung des Bildschirms zum System Akkuinfo fehlgeschlagen...</string>
     <string name="main_tools_menu">Mehr</string>
     <string name="main_menu_charts">Charts</string>
     <string name="menu_whatsnew">Was ist neu?</string>
@@ -352,9 +352,9 @@
     <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
     <string name="preferences_send_anon_stats_buypro_msg">Die kostenlose Version von Battery Monitor lässt dich die Werbung nicht abschalten, wenn du nicht die anonymen Nutzungsstatitiken erlaubst.\n\nDie Pro Version enthält keine Werbung und lässt dich die anonymen Nutzungsstatitiken abschalten.</string>
     <string name="menu_seeotherapps">Andere Apps von GSam Labs</string>
-    <string name="menu_gopro">Upgrade To Pro</string>
+    <string name="menu_gopro">Upgrade zur Pro Version</string>
     <string name="menu_gopro_nook">Kaufen</string>
-    <string name="menu_goprokindle">Upgrade To The Kindle Fire Edition</string>
+    <string name="menu_goprokindle">Upgrade auf die Kindle Fire Edition</string>
     <string name="nook_gopro_title">Probeversion abgelaufen</string>
     <string name="nook_gopro_msg">Deine Probeversion von battery monitor ist abgelaufen.  Bitte kaufe die Vollversion. Du kannst battery monitor weiter nutzen, es wird im kostenlosen Modus weiter laufen, was einige Funktionen und Optimierungen deaktiviert.</string>
     <string name="nook_gopro_ok">Kaufe die Vollversion</string>
