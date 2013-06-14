@@ -16,7 +16,7 @@
 
     <!-- Preferences -->
     <string name="preferences_general_category">Allgemeine Einstellungen</string>
-    <string name="preferences_theme_category">Designs</string>
+    <string name="preferences_theme_category">Aussehen</string>
     <string name="preferences_alarm_category">Alarme</string>
     <string name="preferences_startup_service_title">Den Gerätestart beobachten</string>
     <string name="preferences_startup_service_sum">Beim Hochfahren starten</string>
@@ -36,7 +36,7 @@
     <string name="preferences_alarm_hotbatt_sum">Benachrichtigung, wenn der Akku zu heiß wird</string>
     <string name="preferences_alarm_hotbatttrigger_title">Wert für Temperaturwarnung</string>
     <string name="preferences_alarm_hotbatttrigger_sum">Temperatur, die den Alarm auslöst</string>
-    <string name="preferences_theme_title">Aussehen</string>
+    <string name="preferences_theme_title">Akkusymbol</string>
     <string name="preferences_theme_sum">Wähle das Akkusymbol aus</string>
     <string name="preferences_theme_getmore_title">Mehr Symbole laden</string>
     <string name="preferences_theme_getmore_msg">Es wird nach mehr Symbolthemen gesucht. GSam Labs kontrolliert und überprüft nicht alle Designs. Sollte ein Design also nicht funktionieren, kontaktiere bitte den Entwickler des Designs.\n\nLade das Design herunter und rufe dieses Menü erneut auf, um die verfügbaren Designs zu sehen.\n\nHast du gewusst, dass du deine eigenen Designs entwerfen kannst? Schau dir http://badassbatterymonitor.blogspot.com für Details an, wie es funktioniert!</string>
