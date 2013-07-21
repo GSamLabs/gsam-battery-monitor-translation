@@ -24,17 +24,14 @@
     <string name="preferences_show_notification_icon_sum">Show % notification icon in notification bar</string>
     <string name="preferences_show_notification_title">Show Notification Only</string>
     <string name="preferences_show_notification_sum">See the notification without the notification icon</string>
-    <string name="preferences_alarm_chargecomplete_title">Charge Complete</string>
-    <string name="preferences_alarm_chargecomplete_sum">Notification when charge is complete</string>
-    <string name="preferences_alarm_lowbatt_title">Low Battery</string>
-    <string name="preferences_alarm_lowbatt_sum">Notification when battery is getting low</string>
-    <string name="preferences_alarm_lowbatttrigger_title">Low Battery Trigger</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">% remaining that triggers alarm</string>
-    <string name="preferences_alarm_lowbatttrigger_err">Value must be between 0 and 100</string>
-    <string name="preferences_alarm_hotbatt_title">Hot Battery</string>
-    <string name="preferences_alarm_hotbatt_sum">Notification when battery is getting too hot</string>
-    <string name="preferences_alarm_hotbatttrigger_title">Hot Battery Trigger</string>
-    <string name="preferences_alarm_hotbatttrigger_sum">Temperature that triggers alarm</string>
+    <string name="preferences_alarm_condition_charging">Battery above</string>
+    <string name="preferences_alarm_condition_discharging">Battery below</string>
+    <string name="preferences_alarm_condition_overheated">Battery overheated</string>
+    <string name="preferences_alarm_condition_overvoltage">Battery over voltage</string>
+    <string name="preferences_alarm_condition_temperature">Temperature above</string>
+    <string name="preferences_alarm_select_percent">Battery Percent</string>
+    <string name="preferences_alarm_select_temperature">Battery Temperature</string>
+    <string name="preferences_alarm_select_tone">Select Notification Tone</string>
     <string name="preferences_theme_title">Battery Icon Theme</string>
     <string name="preferences_theme_sum">Choose the battery icon style</string>
     <string name="preferences_theme_getmore_title">Get More Themes</string>
@@ -63,9 +60,10 @@
     <string name="preferences_power_profiles_use_stock_title">Enable Custom Profile</string>
     <string name="preferences_power_profiles_edit_title">Edit Power Profile</string>
     <string name="preferences_profiles_screen_summary">Advanced - Edit the power usage profiles used to calculate all values</string>
-    <string name="preferences_power_per_percent_title">Power Per Percent</string>
-    <string name="preferences_power_per_percent_summary">Amount of power used for each percent drop in battery.  Zero out if you change profile settings.</string>
-    <string name="preferences_power_per_percent_dlgtext">Comma separated in the form POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  This value is constantly updated - the longer you run, the more accurate it gets.  Whenever you change a Power Profile setting however, you should clear this field, and let the app regenerate.</string>
+    <string name="preferences_power_per_percent_reset_title">Reset Time Remaining Estimates</string>
+    <string name="preferences_power_per_percent_reset_summary">Reset the time remaining estimates.  Use this if your time remaining is not accurate.  Currently %1$s / percent calculated over %2$01d percentages</string>
+    <string name="preferences_power_per_percent_dlgtext">Comma separated in the form POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  This value is constantly updated - the longer you run, the more accurate it gets.  Whenever you change a Power Profile setting however, you should clear this field, and let the app regenerate.</string>   
+    <string name="preferences_power_per_percent_reset">Reset</string>
     <string name="preferences_time_per_percent_title">Reset Time Discharge History</string>
     <string name="preferences_time_per_percent_unkown">unknown</string>
     <string name="preferences_time_per_percent_summary">Reset the calculated value for average amount of time your device lasts for a full battery cycle. Currently %1$s (%2$sm / percent calculated over %3$01d percentages)</string>
@@ -109,6 +107,8 @@
     <string name="preferences_widget_general_category">General</string>
     <string name="preferences_start_foreground_title">High Priority</string>
     <string name="preferences_start_foreground_sum">Run the battery monitor using a high priority.  Use this only if your icons are not getting updated properly to reflect the proper battery percentage.  Do not enable this otherwise as it will affect how many resources are available to other applications. </string>
+    <string name="preferences_menu_add_alarm">Add New Alarm</string>
+    <string name="preferences_menu_remove_alarm">Remove Alarm</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
@@ -309,9 +309,11 @@
     <string name="chart_menu_batthistory">Battery History Chart</string>
     <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
     <string name="notification_chargecomplete">Charge Complete</string>
+    <string name="notification_battcharging">Battery Charging (%1s%%)</string>
     <string name="notification_battlow">Battery Low (%1s%%)</string>
     <string name="notification_batthot_f">Warning - Hot Battery (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Warning - Hot Battery (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Warning - Battery Over Voltage (%.1f V)</string>
     <string name="chart_active">Active</string>
     <string name="chart_batt_history">Battery History (%1$s)</string>
     <string name="chart_batt_percent">Battery %</string>
