@@ -24,17 +24,14 @@
     <string name="preferences_show_notification_icon_sum">Показать % значка оповещения в строке оповещения</string>
     <string name="preferences_show_notification_title">Показать только оповещение</string>
     <string name="preferences_show_notification_sum">Оповещение без значка оповещения</string>
-    <string name="preferences_alarm_chargecomplete_title">Полная зарядка</string>
-    <string name="preferences_alarm_chargecomplete_sum">Оповещение при полной зарядке</string>
-    <string name="preferences_alarm_lowbatt_title">Низкий заряд</string>
-    <string name="preferences_alarm_lowbatt_sum">Оповещение при низком заряде</string>
-    <string name="preferences_alarm_lowbatttrigger_title">Сигнал низкого заряда</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">Остаток в %, активирующий сигнал</string>
-    <string name="preferences_alarm_lowbatttrigger_err">Величина должна быть между 0 и 100</string>
-    <string name="preferences_alarm_hotbatt_title">Горячая батарея</string>
-    <string name="preferences_alarm_hotbatt_sum">Уведомление, когда батарея сильно нагревается</string>
-    <string name="preferences_alarm_hotbatttrigger_title">Сигнал горячей батареи</string>
-    <string name="preferences_alarm_hotbatttrigger_sum">Температура, при которой срабатывает сигнал</string>
+     <string name="preferences_alarm_condition_charging">Батарея выше</string>
+    <string name="preferences_alarm_condition_discharging">Батарея ниже</string>
+    <string name="preferences_alarm_condition_overheated">Перегрев батареи</string>
+    <string name="preferences_alarm_condition_overvoltage">Избыточн.напряж.батареи</string>
+    <string name="preferences_alarm_condition_temperature">Температура выше</string>
+    <string name="preferences_alarm_select_percent">Процент батареи</string>
+    <string name="preferences_alarm_select_temperature">Температура батареи</string>
+    <string name="preferences_alarm_select_tone">Выбрать тон уведомления</string>
     <string name="preferences_theme_title">Тема значка батареи</string>
     <string name="preferences_theme_sum">Выберите стиль значка батареи</string>
     <string name="preferences_theme_getmore_title">Получить больше тем</string>
@@ -63,9 +60,10 @@
     <string name="preferences_power_profiles_use_stock_title">Активировать профиль</string>
     <string name="preferences_power_profiles_edit_title">Редактировать профиль</string>
     <string name="preferences_profiles_screen_summary">Дополнительно - отредактировать профили питания для подсчета всех величин</string>
-    <string name="preferences_power_per_percent_title">Питание в процентах</string>
-    <string name="preferences_power_per_percent_summary">Питание, используемое на каждое уменьшение батареи на 1 процент. Сбрасывается на ноль при изменении режима питания.</string>
-    <string name="preferences_power_per_percent_dlgtext">Разделенные запятыми в форме ПИТАНИЕ_ИСПОЛЬЗУЕМОЕ_В_ПРОЦЕНТАХ_УМЕНЬШЕНИЯ,ОБЩИЙ_ПРОЦЕНТ_ИЗМЕРЕННЫЙ. Эта величина постоянно обновляется - чем дольше вы работаете, тем точнее она становится. Независимо от изменения настроек профиля питания, Вы должны очистить это поле и дать приложению обновиться.</string>
+    <string name="preferences_power_per_percent_reset_title">Сброс расчётного времени остатка</string>
+    <string name="preferences_power_per_percent_reset_summary">Сброс расчётного времени остатка.  Используйте, если время, остающееся до разрядки, неточное.  Текущее %1$s / процент, рассчитанный исходя из процентов %2$01d</string>
+    <string name="preferences_power_per_percent_dlgtext">Разделенные запятыми в форме ПИТАНИЕ_ИСПОЛЬЗУЕМОЕ_В_ПРОЦЕНТАХ_УМЕНЬШЕНИЯ,ОБЩИЙ_ПРОЦЕНТ_ИЗМЕРЕННЫЙ. Эта величина постоянно обновляется - чем дольше Вы работаете, тем точнее она становится. Независимо от изменения настроек профиля питания, Вы должны очистить это поле и дать приложению обновиться.</string>
+    <string name="preferences_power_per_percent_reset">Сброс</string>
     <string name="preferences_time_per_percent_title">Сбросить историю разрядки</string>
     <string name="preferences_time_per_percent_unkown">неизвестно</string>
     <string name="preferences_time_per_percent_summary">Сбросьте расчетную величину среднего времени, необходимого Вашему устройству для полного цикла батареи. Сейчас %1$s (%2$sm / процент, рассчитанный исходя из процентов %3$01d)</string>
@@ -109,6 +107,8 @@
     <string name="preferences_widget_general_category">Общее</string>
     <string name="preferences_start_foreground_title">Высокий приоритет</string>
     <string name="preferences_start_foreground_sum">Использовать мониторинг в  приоритетном режиме.  Применяйте, только если значки несвоевременно обновляются для отражения процентного состояния батареи.  Не используйте в других случаях, так как это повлияет на доступность ресурсов для других приложений. </string>
+    <string name="preferences_menu_add_alarm">Добавить новый сигнал</string>
+    <string name="preferences_menu_remove_alarm">Убрать сигнал</string>
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
@@ -309,9 +309,11 @@
     <string name="chart_menu_batthistory">График истории батареи</string>
     <string name="chart_menu_battdischarge">График питание/проценты</string>
     <string name="notification_chargecomplete">Зарядка завершена</string>
+    <string name="notification_battcharging">Батарея заряжается (%1s%%)</string>
     <string name="notification_battlow">Низкий уровень заряда (%1s%%)</string>
     <string name="notification_batthot_f">Предупреждение-батарея горячая (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Предупреждение-батарея горячая (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Предупреждение-избыточное напряжение батареи (%.1f V)</string>
     <string name="chart_active">Активный</string>
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
@@ -350,6 +352,11 @@
     <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
     <string name="translator_sv">Pontus Edgren</string>
     <string name="translator_nl">ArTsLeOpS</string>
+    <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
+    <string name="translator_zh_CN">Gavin Fang</string>
+    <string name="translator_tr">Saldıray Günal</string>
+    <string name="translator_pl">cvxcvx</string>
+    <string name="translator_de">Jan Fortein</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Ваш экран слишком яркий?</string>
