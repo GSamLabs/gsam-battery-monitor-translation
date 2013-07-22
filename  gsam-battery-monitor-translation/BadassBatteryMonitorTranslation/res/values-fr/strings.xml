@@ -24,17 +24,14 @@
     <string name="preferences_show_notification_icon_sum">"Afficher le % de l'icône de notification dans la barre d'état"</string>
     <string name="preferences_show_notification_title">Afficher Seulement Notification</string>
     <string name="preferences_show_notification_sum">"Voir la notification sans l'icône de notification"</string>
-    <string name="preferences_alarm_chargecomplete_title">Charge Complète</string>
-    <string name="preferences_alarm_chargecomplete_sum">Notification quand la charge est complète</string>
-    <string name="preferences_alarm_lowbatt_title">Batterie Faible</string>
-    <string name="preferences_alarm_lowbatt_sum">Notification quand la batterie est faible</string>
-    <string name="preferences_alarm_lowbatttrigger_title">Déclenchement Batterie Faible</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">"Le % restant déclenche l'alarme"</string>
-    <string name="preferences_alarm_lowbatttrigger_err">La valeur doit être comprise entre 0 et 100</string>
-    <string name="preferences_alarm_hotbatt_title">Batterie Chaude</string>
-    <string name="preferences_alarm_hotbatt_sum">Notification quand la batterie devient trop chaude</string>
-    <string name="preferences_alarm_hotbatttrigger_title">Déclenchement Batterie Chaude</string>
-    <string name="preferences_alarm_hotbatttrigger_sum">"la température qui déclenche l'alarme"</string>
+    <string name="preferences_alarm_condition_charging">Batterie au-dessus</string>
+    <string name="preferences_alarm_condition_discharging">Batterie dessous</string>
+    <string name="preferences_alarm_condition_overheated">Batterie en surchauffe</string>
+    <string name="preferences_alarm_condition_overvoltage">Batterie en surtension</string>
+    <string name="preferences_alarm_condition_temperature">Température au-dessous</string>
+    <string name="preferences_alarm_select_percent">Pourcentage Batterie</string>
+    <string name="preferences_alarm_select_temperature">Température Batterie</string>
+    <string name="preferences_alarm_select_tone">Sélectionner Tonalité Notification</string>
     <string name="preferences_theme_title">Thème Icône Batterie</string>
     <string name="preferences_theme_sum">"Choisir le style d'icône de la batterie"</string>
     <string name="preferences_theme_getmore_title">Obtenir plus de thèmes</string>
@@ -69,9 +66,10 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_power_profiles_use_stock_title">Activer Profil Perso.</string>
     <string name="preferences_power_profiles_edit_title">Editer Profil Energie</string>
     <string name="preferences_profiles_screen_summary">"Avancé - Editer les profils d'utilisation d'énergie utilisés pour calculer toutes les valeurs"</string>
-    <string name="preferences_power_per_percent_title">Energie Par Pourcentage</string>
-    <string name="preferences_power_per_percent_summary">"Quantité d'énergie utilisée pour chaque baisse de pourcentage de batterie.. Sur zéro si vous modifiez les paramètres de profil."</string>
+    <string name="preferences_power_per_percent_reset_title">Réinitialiser Temps Restant Estimé</string>
+    <string name="preferences_power_per_percent_reset_summary">Réinitialiser le temps restant estimé. Utiliser cette option si votre temps restant n\'est pas précis. Actuellment %1$s / pour cent calculée sur %2$01d pourcentages</string>
     <string name="preferences_power_per_percent_dlgtext">"Séparés par des virgules sous la forme de POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Cette valeur est constamment mise à jour - plus vous exécutez, plus il devient précis. Cependant chaque fois que vous modifiez un paramètre Profil Energie, vous devez effacer ce champ, et laisser la régénération de l'application."</string>
+    <string name="preferences_power_per_percent_reset">Réinitialiser</string>
     <string name="preferences_time_per_percent_title">Réinitialiser Historique Temps Décharge</string>
     <string name="preferences_time_per_percent_unkown">Inconnu</string>
     <string name="preferences_time_per_percent_summary">Réinitialiser la valeur calculée pour la quantité moyenne du temps de votre appareil pour un cycle complet de la batterie. Actuellement %1$s (%2$sm / pour cent calculé sur %3$01d pourcentages)</string>
@@ -115,6 +113,9 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_widget_general_category">Général</string>
     <string name="preferences_start_foreground_title">Priorité Elevée</string>
     <string name="preferences_start_foreground_sum">"Exécuter le moniteur de batterie en utilisant une priorité élevée. Utiliser cette option uniquement si vos icônes ne se mettent pas correctement à jour pour refléter correctement le pourcentage de la batterie. Ne pas activer d'aucune autre manière sinon il y aura une incidence sur le nombre de ressources qui sont disponibles pour d'autres applications."</string>
+    <string name="preferences_menu_add_alarm">Ajouter Nouvelle Alarme</string>
+    <string name="preferences_menu_remove_alarm">Retirer Alarme</string>
+
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cercle</string>
     <string name="icon_themes_icsmono">ICS Monochrome</string>
@@ -315,9 +316,11 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="chart_menu_batthistory">Historique Graphique Batterie</string>
     <string name="chart_menu_battdischarge">Graphique Energie vs Pourcentage</string>
     <string name="notification_chargecomplete">Charge Complète</string>
+     <string name="notification_battcharging">Batterie en Charge (%1s%%)</string>
     <string name="notification_battlow">Batterie Faible (%1s%%)</string>
     <string name="notification_batthot_f">Avertissement - Batterie Chaude (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Avertissement - Batterie Chaude (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Avertissement - Batterie Surtension (%.1f V)</string>
     <string name="chart_active">Activer</string>
     <string name="chart_batt_history">Historique Batterie (%1$s)</string>
     <string name="chart_batt_percent">Batterie %</string>
