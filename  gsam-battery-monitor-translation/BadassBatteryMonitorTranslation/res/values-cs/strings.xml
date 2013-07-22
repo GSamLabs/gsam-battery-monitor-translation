@@ -25,17 +25,14 @@
     <string name="preferences_show_notification_icon_sum">Zobrazovat ikonu s procenty ve stavovém panelu</string>
     <string name="preferences_show_notification_title">Zobrazovat pouze v panelu</string>
     <string name="preferences_show_notification_sum">Zobrazovat ve stavovém panelu bez ikony</string>
-    <string name="preferences_alarm_chargecomplete_title">Nabíjení dokončeno</string>
-    <string name="preferences_alarm_chargecomplete_sum">Oznámení, pokud je baterie nabita</string>
-    <string name="preferences_alarm_lowbatt_title">Nízký stav baterie</string>
-    <string name="preferences_alarm_lowbatt_sum">Oznámení, pokud je nízký stav baterie</string>
-    <string name="preferences_alarm_lowbatttrigger_title">Pravidlo nízkého stavu baterie</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">Při kolika % spustit alarm</string>
-    <string name="preferences_alarm_lowbatttrigger_err">Hodnota musí být mezi 0 a 100</string>
-    <string name="preferences_alarm_hotbatt_title">Přehřívání baterie</string>
-    <string name="preferences_alarm_hotbatt_sum">Oznámení, pokud se baterie nadměrně zahřívá</string>
-    <string name="preferences_alarm_hotbatttrigger_title">Pravidlo zahřívání baterie</string>
-    <string name="preferences_alarm_hotbatttrigger_sum">Teplota u které zapnout alarm</string>
+    <string name="preferences_alarm_condition_charging">Baterie nad</string>
+    <string name="preferences_alarm_condition_discharging">Baterie pod</string>
+    <string name="preferences_alarm_condition_overheated">Přehřátí baterie</string>
+    <string name="preferences_alarm_condition_overvoltage">Přepětí baterie</string>
+    <string name="preferences_alarm_condition_temperature">Teplota nad</string>
+    <string name="preferences_alarm_select_percent">Procenta baterie</string>
+    <string name="preferences_alarm_select_temperature">Teplota baterie</string>
+    <string name="preferences_alarm_select_tone">Vybrat zvuk oznámení</string>
     <string name="preferences_theme_title">Vzhled ikony baterie</string>
     <string name="preferences_theme_sum">Vybrat vzhled ikony baterie</string>
     <string name="preferences_theme_getmore_title">Získat více vzhledů</string>
@@ -44,7 +41,9 @@
     <string name="preferences_theme_progress_msg">Načítání seznamu dostupných vzhledů\u2026</string>
     <string name="preferences_widget_back_title">Průhlednost pozadí widgetu</string>
     <string name="preferences_widget_back_msg">Průhledné pozadí widgetu umožňuje vidět tapetu.</string>
-    <string name="preferences_widget_show_timeleft_title">Zobrazit zbývající čas</string>
+    <string name="preferences_widget_show_timeleft_title">Zobrazovat zbývající čas</string>
+    <string name="preferences_widget_show_temp_title">Zobrazovat teplotu</string>
+    <string name="preferences_widget_show_voltage_title">Zobrazovat napětí</string>    
     <string name="preferences_overlay_icon_sum">Překrytí standardní ikony baterie.  Pozice, velikost, apod., vše je možné změnit.</string>
     <string name="preferences_overlay_icon_title">Překrytí standardní ikony baterie</string>
     <string name="preferences_overlay_icon_configure_sum">Nastavení velikosti, pozice, pozadí a dalších vlastností překryvné ikony.</string>
@@ -62,9 +61,10 @@
     <string name="preferences_power_profiles_use_stock_title">Povolit vlastní profily</string>
     <string name="preferences_power_profiles_edit_title">Upravit napájecí profil</string>
     <string name="preferences_profiles_screen_summary">Pokročilé - upravte profil spotřeby energie pro jednotlivé položky</string>
-    <string name="preferences_power_per_percent_title">Energie na procenta</string>
-    <string name="preferences_power_per_percent_summary">Amount of power used for each percent drop in battery.  Zero out if you change profile settings.</string>
-    <string name="preferences_power_per_percent_dlgtext">Comma separated in the form POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  This value is constantly updated - the longer you run, the more accurate it gets.  Whenever you change a Power Profile setting however, you should clear this field, and let the app regenerate.</string>
+    <string name="preferences_power_per_percent_reset_title">Obnovit odhady zbývajících časů</string>
+    <string name="preferences_power_per_percent_reset_summary">Obnoví odhady zbývajících časů.  Použijte, pokud nejsou odhady časů správné.  Aktuálně %1$s / procent vypočteno z %2$01d procent</string>
+    <string name="preferences_power_per_percent_dlgtext">Comma separated in the form POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  This value is constantly updated - the longer you run, the more accurate it gets.  Whenever you change a Power Profile setting however, you should clear this field, and let the app regenerate.</string>   
+    <string name="preferences_power_per_percent_reset">Reset</string>
     <string name="preferences_time_per_percent_title">Resetovat historii časů vybíjení</string>
     <string name="preferences_time_per_percent_unkown">neznámé</string>
     <string name="preferences_time_per_percent_summary">Reset the calculated value for average amount of time your device lasts for a full battery cycle. Currently %1$s (%2$sm / percent calculated over %3$01d percentages)</string>
@@ -108,6 +108,8 @@
     <string name="preferences_widget_general_category">Hlavní</string>
     <string name="preferences_start_foreground_title">Vysoká priorita</string>
     <string name="preferences_start_foreground_sum">Spouštět monitor baterie v režimu vysoké priority.  Použijte pouze v případě, když ikona baterie není korektně aktualizována a nezobrazuje správně procenta.  Toto nastavení ubere dostupné zdroje výkonu ostatním aplikacím. Nezapínejte proto zbytečně.</string>
+    <string name="preferences_menu_add_alarm">Přidat nový alarm</string>
+    <string name="preferences_menu_remove_alarm">Odstranit alarm</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kruhový</string>   
@@ -307,10 +309,12 @@
     <string name="main_chart_showradio">Telefonní signál</string>
     <string name="chart_menu_batthistory">Graf historie baterie</string>
     <string name="chart_menu_battdischarge">Graf energie/procentuální</string>
-    <string name="notification_chargecomplete">Nabíjení kompletní</string>
-    <string name="notification_battlow">Prázdná baterie (%1s%%)</string>
+    <string name="notification_chargecomplete">Nabíjení dokončeno</string>
+    <string name="notification_battcharging">Nabíjení baterie (%1s%%)</string>
+    <string name="notification_battlow">Vybitá baterie (%1s%%)</string>
     <string name="notification_batthot_f">Varování - Horká baterie (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Varování - Horká baterie (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Warning - Battery Over Voltage (%.1f V)</string>
     <string name="chart_active">Aktivita</string>
     <string name="chart_batt_history">Historie baterie (%1$s)</string>
     <string name="chart_batt_percent">Baterie %</string>
