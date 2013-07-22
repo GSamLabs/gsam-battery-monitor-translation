@@ -25,7 +25,6 @@
     <string name="preferences_show_notification_icon_sum">在状态栏显示当前电量指示图标</string>
     <string name="preferences_show_notification_title">只显示提醒</string>
     <string name="preferences_show_notification_sum">提醒时不显示当前电量指示图标</string>
-    <string name="preferences_alarm_chargecomplete_title">充满提醒</string>
     <string name="preferences_alarm_chargecomplete_sum">充电完成时提醒</string>
     <string name="preferences_alarm_lowbatt_title">低电量提醒</string>
     <string name="preferences_alarm_lowbatt_sum">剩余电量过低时提醒</string>
@@ -64,7 +63,8 @@
     <string name="preferences_profiles_screen_summary">高级功能 - 修改用于耗电性能分析的参数</string>
     <string name="preferences_power_per_percent_title">电量消耗速率</string>
     <string name="preferences_power_per_percent_summary">电池每降低百分之一是所消耗的电量。如果改变了耗电性能分析设置，请清空该数值。</string>
-    <string name="preferences_power_per_percent_dlgtext">这个值表示为“每降低百分之一所消耗的电量,已消耗的总的百分数”。这个值是即时更新的，也就是说，你是用的越久，这个值越接近实际情况。当你修改耗电性能分析的设置时，必须吧这个值清楚，应用程序会重新计算这个值。</string>
+    <string name="preferences_power_per_percent_dlgtext">这个值表示为“每降低百分之一所消耗的电量,已消耗的总的百分数”。这个值是即时更新的，也就是说，你是用的越久，这个值越接近实际情况。当你修改耗电性能分析的设置时，必须把这个值清除，应用程序会重新计算这个值。</string>
+    <string name="preferences_power_per_percent_reset">重置</string>
     <string name="preferences_time_per_percent_title">重设放电历史</string>
     <string name="preferences_time_per_percent_unkown">未知</string>
     <string name="preferences_time_per_percent_summary">重设你的设备当前计算的平均满电使用时间。当前 %1$s (%2$s分钟 / 百分之一 已统计%3$01d次)</string>
@@ -108,6 +108,8 @@
     <string name="preferences_widget_general_category">通用设置</string>
     <string name="preferences_start_foreground_title">高优先级</string>
     <string name="preferences_start_foreground_sum">以高优先级运行本应用。当电池图标不更新时使用该设定。否则请勿勾选本选项，以免占用过多系统资源。</string>
+    <string name="preferences_menu_add_alarm">添加闹钟</string>
+    <string name="preferences_menu_remove_alarm">移除闹钟</string>
    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">圆圈</string>  
@@ -308,9 +310,11 @@
     <string name="chart_menu_batthistory">电池历史图表</string>
     <string name="chart_menu_battdischarge">电量 vs 百分比 图标</string>
     <string name="notification_chargecomplete">充电完成</string>
+    <string name="notification_battcharging">充电中(%1s%%)</string>
     <string name="notification_battlow">电量低(%1s%%)</string>
     <string name="notification_batthot_f">警告 - 电池过热(%.1f\u00B0F)</string>
     <string name="notification_batthot_c">警告 - 电池过热(%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">警告 - 电池电压过高 (%.1f V)</string>
     <string name="chart_active">活动</string>
     <string name="chart_batt_history">电池历史(%1$s)</string>
     <string name="chart_batt_percent">电池 %</string>
@@ -343,7 +347,17 @@
     <string name="translator_anonymous">匿名</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <!--  EG string name="translator_ru">Dmitry Chernogaev &lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string -->        
+    <string name="translator_fr">Jaworski Johan</string>       
+    <string name="translator_it">Fabio Abbà</string>     
+    <string name="translator_hu">István Kriskó (Stefi)</string>    
+    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
+    <string name="translator_sv">Pontus Edgren</string>
+    <string name="translator_nl">ArTsLeOpS</string>
+    <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
     <string name="translator_zh_CN">Gavin Fang</string>    
+    <string name="translator_tr">Saldıray Günal</string>
+    <string name="translator_pl">cvxcvx</string>
+    <string name="translator_de">Jan Fortein</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">您的屏幕太亮了？</string>
