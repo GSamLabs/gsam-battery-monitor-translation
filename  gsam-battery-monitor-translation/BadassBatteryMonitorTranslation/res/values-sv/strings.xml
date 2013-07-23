@@ -4,6 +4,8 @@
 	<!--  Don't include app name in locale file -->
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
+
+
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Tid kvar: %1$02d:%2$02d (genomsnitt), %3$02d:%4$02d (de senaste %5$sm)</string>
     <string name="battery_status_time_left_no_running">Tid kvar: %1$02d:%2$02d</string>
@@ -25,17 +27,14 @@
     <string name="preferences_show_notification_icon_sum">Visar % notifikation i notifikationer</string>
     <string name="preferences_show_notification_title">Visa bara notifikation</string>
     <string name="preferences_show_notification_sum">Se notifikationen utan ikonen</string>
-    <string name="preferences_alarm_chargecomplete_title">Laddning klar</string>
-    <string name="preferences_alarm_chargecomplete_sum">Notifikation när laddningen är klar</string>
-    <string name="preferences_alarm_lowbatt_title">Lågt Batteri</string>
-    <string name="preferences_alarm_lowbatt_sum">Notifikation när batteriet är lågt</string>
-    <string name="preferences_alarm_lowbatttrigger_title">Gräns för lågt batteri</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">% kvar som sätter igång larmet</string>
-    <string name="preferences_alarm_lowbatttrigger_err">Värdet måste vara mellan  0 och 100</string>
-    <string name="preferences_alarm_hotbatt_title">Varmt batteri</string>
-    <string name="preferences_alarm_hotbatt_sum">Notifikation när batteriet blir för varmt</string>
-    <string name="preferences_alarm_hotbatttrigger_title">Gräns för varmt batteri</string>
-    <string name="preferences_alarm_hotbatttrigger_sum">Temperatur som sätter igång alarmet</string>
+    <string name="preferences_alarm_condition_charging">Batteri över</string>
+    <string name="preferences_alarm_condition_discharging">Batteri under</string>
+    <string name="preferences_alarm_condition_overheated">Batteri överhettat</string>
+    <string name="preferences_alarm_condition_overvoltage">Batteri överspänt</string>
+    <string name="preferences_alarm_condition_temperature">Temperatur över</string>
+    <string name="preferences_alarm_select_percent">Batteri procent</string>
+    <string name="preferences_alarm_select_temperature">Batteri temperatur</string>
+    <string name="preferences_alarm_select_tone">Välj notifikationssignal</string>
     <string name="preferences_theme_title">Tema för batteriikon</string>
     <string name="preferences_theme_sum">Välj hur batteriikonen ska se ut</string>
     <string name="preferences_theme_getmore_title">Skaffa fler teman</string>
@@ -61,9 +60,10 @@
     <string name="preferences_power_profiles_use_stock_title">Aktivera anpassande profiler</string>
     <string name="preferences_power_profiles_edit_title">Ändra strömprofil</string>
     <string name="preferences_profiles_screen_summary">Avancerad - ändra profilen för strömanvändning som används för att beräkna alla värden</string>
-    <string name="preferences_power_per_percent_title">Ström per procent</string>
-    <string name="preferences_power_per_percent_summary">Värdet av ström som används per procent allt eftersom batteriets nivå sjunker. Nolla om du ändrar i profilinställningar.</string>
-    <string name="preferences_power_per_percent_dlgtext">Komma separeras i formen POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Detta värde uppdateras konstant - Ju längre du kör det, desto mer stämmer det.  När du ändrar i en strömprofilsinställning, ska du rensa detta fält och låta appen generera data igen.</string>
+    <string name="preferences_power_per_percent_reset_title">Återställ uppskattad tid</string>
+    <string name="preferences_power_per_percent_reset_summary">Återställer den uppskattade tiden. Använd detta om din uppskattade tid inte är korrekt. För närvarande %1$s / procent beräknat över %2$01d procentenheter.</string>
+    <string name="preferences_power_per_percent_dlgtext">Komma separeras i formen POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Detta värde uppdateras konstant - Ju längre du kör det, desto mer stämmer det. När du ändrar i en strömprofilsinställning ska du rensa detta fält och låta appen generera data igen.</string>
+    <string name="preferences_power_per_percent_reset">Återställ</string>
     <string name="preferences_time_per_percent_title">Återställ tiden för urladdningshistoria</string>
     <string name="preferences_time_per_percent_unkown">okänd</string>
     <string name="preferences_time_per_percent_summary">Återställ det beräknade värdet för genomsnittslig tid som din enhet håller från en full laddning. För närvarande %1$s (%2$sm / procent beräknat över %3$01d procentenheter)</string>
@@ -107,6 +107,8 @@
     <string name="preferences_widget_general_category">Allmänt</string>
     <string name="preferences_start_foreground_title">Hög Prioritet</string>
     <string name="preferences_start_foreground_sum">Kör batteriövervakaren genom att använda en hög prioritet. Använd bara om dina ikoner inte uppdateras korrekt så att det speglar batteriets procent. Aktivera ej annars då detta kommer att påverka hur många resurser som finns tillgängliga för andra applikationer. </string>
+    <string name="preferences_menu_add_alarm">Lägg till ett nytt alarm</string>
+    <string name="preferences_menu_remove_alarm">Ta bort alarm</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cirkel</string>   
@@ -307,9 +309,11 @@
     <string name="chart_menu_batthistory">Diagram över batteriets historia</string>
     <string name="chart_menu_battdischarge">Ström VS rrocent diagram</string>
     <string name="notification_chargecomplete">Laddnig klar!</string>
+    <string name="notification_battcharging">Batteri laddas (%1s%%)</string>
     <string name="notification_battlow">Batteri lågt (%1s%%)</string>
     <string name="notification_batthot_f">Varning - Varmt Batteri! (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Varning - Varmt Batteri! (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Varning - Batteri överspänt (%.1f V)</string>
     <string name="chart_active">Aktiv</string>
     <string name="chart_batt_history">Batteri historia (%1$s)</string>
     <string name="chart_batt_percent">Batteri %</string>
