@@ -24,10 +24,10 @@
     <string name="preferences_show_notification_icon_sum">Показать % значка оповещения в строке оповещения</string>
     <string name="preferences_show_notification_title">Показать только оповещение</string>
     <string name="preferences_show_notification_sum">Оповещение без значка оповещения</string>
-     <string name="preferences_alarm_condition_charging">Батарея выше</string>
-    <string name="preferences_alarm_condition_discharging">Батарея ниже</string>
+     <string name="preferences_alarm_condition_charging">Заряд выше</string>
+    <string name="preferences_alarm_condition_discharging">Заряд ниже</string>
     <string name="preferences_alarm_condition_overheated">Перегрев батареи</string>
-    <string name="preferences_alarm_condition_overvoltage">Избыточн.напряж.батареи</string>
+    <string name="preferences_alarm_condition_overvoltage">Перенапряжение</string>
     <string name="preferences_alarm_condition_temperature">Температура выше</string>
     <string name="preferences_alarm_select_percent">Процент батареи</string>
     <string name="preferences_alarm_select_temperature">Температура батареи</string>
@@ -61,12 +61,12 @@
     <string name="preferences_power_profiles_edit_title">Редактировать профиль</string>
     <string name="preferences_profiles_screen_summary">Дополнительно - отредактировать профили питания для подсчета всех величин</string>
     <string name="preferences_power_per_percent_reset_title">Сброс расчётного времени остатка</string>
-    <string name="preferences_power_per_percent_reset_summary">Сброс расчётного времени остатка.  Используйте, если время, остающееся до разрядки, неточное.  Текущее %1$s / процент, рассчитанный исходя из процентов %2$01d</string>
+    <string name="preferences_power_per_percent_reset_summary">Сброс расчётного времени остатка.  Используйте, если время, остающееся до разрядки, неточное. Текущее %1$s / рассчитано, исходя из %2$01d циклов</string>
     <string name="preferences_power_per_percent_dlgtext">Разделенные запятыми в форме ПИТАНИЕ_ИСПОЛЬЗУЕМОЕ_В_ПРОЦЕНТАХ_УМЕНЬШЕНИЯ,ОБЩИЙ_ПРОЦЕНТ_ИЗМЕРЕННЫЙ. Эта величина постоянно обновляется - чем дольше Вы работаете, тем точнее она становится. Независимо от изменения настроек профиля питания, Вы должны очистить это поле и дать приложению обновиться.</string>
     <string name="preferences_power_per_percent_reset">Сброс</string>
     <string name="preferences_time_per_percent_title">Сбросить историю разрядки</string>
     <string name="preferences_time_per_percent_unkown">неизвестно</string>
-    <string name="preferences_time_per_percent_summary">Сбросьте расчетную величину среднего времени, необходимого Вашему устройству для полного цикла батареи. Сейчас %1$s (%2$sm / процент, рассчитанный исходя из процентов %3$01d)</string>
+    <string name="preferences_time_per_percent_summary">Сбросьте расчётную величину среднего времени, необходимого Вашему устройству для полного цикла батареи. Сейчас %1$s (%2$sm / рассчитано, исходя из %3$01d циклов)</string>
     <string name="preferences_stats_since_title">Посмотреть статистику от</string>
     <string name="preferences_stats_since_summary">Посмотреть статистику от последнего отключения, или от последней полной зарядки</string>
     <string name="preferences_power_profiles_edit_summary">Настройте Ваши профили питания. Пользовательские значения будут применяться, только если активирован профиль.</string>
@@ -84,7 +84,7 @@
     <string name="preferences_clear_history_stats_toast">Вся статистика батареи очищается\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Невозможно сбросить статистику - устройство может не поддерживать данную функцию\u2026</string>
     <string name="preferences_custom_ref">История батареи будет основываться на созданной сейчас пользовательской метке (как если устройство будет отключено). Может быть использовано для определения, что использовало Вашу батарею с определенного момента времени, а не с последнего отключения или зарядки.</string>
-    <string name="preferences_custom_ref_plugged">Устройство заряжается, Вы можете создавать пользовательскую метку только когда устройство отключено от зарядки.</string>
+    <string name="preferences_custom_ref_plugged">Устройство заряжается, Вы можете создавать пользовательскую метку, только если устройство отключено от зарядки.</string>
     <string name="preferences_send_anon_stats_title">Разрешить анон.статистику</string>
     <string name="preferences_send_anon_stats_sum">Разрешить отсылку анонимной статистики использования. Частные и идентифицируемые данные не отсылаются.</string>
     <string name="preferences_show_ads_title">Показать рекламу</string>
@@ -313,7 +313,7 @@
     <string name="notification_battlow">Низкий уровень заряда (%1s%%)</string>
     <string name="notification_batthot_f">Предупреждение-батарея горячая (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Предупреждение-батарея горячая (%.1f\u00B0C)</string>
-    <string name="notification_battovervoltage">Предупреждение-избыточное напряжение батареи (%.1f V)</string>
+    <string name="notification_battovervoltage">Предупреждение-перенапряжение батареи (%.1f V)</string>
     <string name="chart_active">Активный</string>
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
