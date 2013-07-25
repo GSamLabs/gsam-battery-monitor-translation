@@ -89,7 +89,7 @@
     <string name="preferences_send_anon_stats_sum">Разрешить отсылку анонимной статистики использования. Частные и идентифицируемые данные не отсылаются.</string>
     <string name="preferences_show_ads_title">Показать рекламу</string>
     <string name="preferences_show_ads_sum">Показать рекламу на главном экране.</string>
-	  <string name="preferences_override_lang_title">Язык</string>
+    <string name="preferences_override_lang_title">Язык</string>
     <string name="preferences_override_lang_sum">Использовать язык, отличный от языка системы по умолчанию.</string>
     <string name="preferences_power_profiles_include_sensors_title">Включить в расчет сенсоры</string>
     <string name="preferences_power_profiles_include_sensors_sum">"Некоторые устройства не могут правильно определить использование сенсоров.  Снимите галочку, если данные использования сенсора кажутся Вам неверными (в частности, данные акселерометра). "</string>
