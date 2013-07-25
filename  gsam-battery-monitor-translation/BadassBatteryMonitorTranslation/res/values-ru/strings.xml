@@ -33,7 +33,7 @@
     <string name="preferences_alarm_select_temperature">Температура батареи</string>
     <string name="preferences_alarm_select_tone">Выбрать тон уведомления</string>
     <string name="preferences_theme_title">Тема значка батареи</string>
-    <string name="preferences_theme_sum">Выберите стиль значка батареи</string>
+    <string name="preferences_theme_sum">Выбрать стиль значка батареи</string>
     <string name="preferences_theme_getmore_title">Получить больше тем</string>
     <string name="preferences_theme_getmore_msg">Поиск дополнительных тем монитора батареи. GSam Labs не несет ответственности за все темы, если тема не работает, обращайтесь к производителю.\n\nСкачать и установить тему, вернуться в это меню к доступным темам.\n\nВы знаете, что можете создавать свои темы? См. детали на http://badassbatterymonitor.blogspot.com"</string>
     <string name="preferences_theme_progress_title">Получаем темы</string>
@@ -61,7 +61,7 @@
     <string name="preferences_power_profiles_edit_title">Редактировать профиль</string>
     <string name="preferences_profiles_screen_summary">Дополнительно - отредактировать профили питания для подсчета всех величин</string>
     <string name="preferences_power_per_percent_reset_title">Сбросить расчёт остатка</string>
-    <string name="preferences_power_per_percent_reset_summary">Сбросьте расчётную величину времени остатка.  Используйте, если время, остающееся до разрядки, неточное. Текущая величина %1$s единиц энергии на процент расхода, рассчитано, исходя из %2$01d процентов заряда в целом</string>
+    <string name="preferences_power_per_percent_reset_summary">Сбросьте расчётную величину времени остатка. Используйте, если время, остающееся до разрядки, неточное. Текущая величина %1$s единиц энергии на процент расхода, рассчитано, исходя из %2$01d процентов заряда в целом</string>
     <string name="preferences_power_per_percent_dlgtext">Разделенные запятыми в форме ПИТАНИЕ_ИСПОЛЬЗУЕМОЕ_В_ПРОЦЕНТАХ_УМЕНЬШЕНИЯ,ОБЩИЙ_ПРОЦЕНТ_ИЗМЕРЕННЫЙ. Эта величина постоянно обновляется - чем дольше Вы работаете, тем точнее она становится. Независимо от изменения настроек профиля питания, Вы должны очистить это поле и дать приложению обновиться.</string>
     <string name="preferences_power_per_percent_reset">Сброс</string>
     <string name="preferences_time_per_percent_title">Сбросить историю разрядки</string>
@@ -207,8 +207,8 @@
     <string name="rate_me_msg">Вам нравится GSam Battery Monitor? Пожалуйста, выделите время, чтобы дать приложению хороший рейтинг!\n\nНе беспокойтесь - Вас об этом больше не спросят.</string>
     <string name="rate_me_ok">Оценить!</string>
     <string name="main_header_type">Тип</string>
-	  <string name="main_header_time">Время</string>
-     <string name="main_header_power">Расход</string>
+    <string name="main_header_time">Время</string>
+    <string name="main_header_power">Расход</string>
     
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
@@ -238,7 +238,7 @@
     <string name="detail_menu_export">Экспорт</string>
     <string name="detail_menu_export_dlg_title">Экспорт данных использования экрана (текста)</string>
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - экспорт данных</string>
-	  <string name="appdetail_appuid">UID приложения:</string>
+    <string name="appdetail_appuid">UID приложения:</string>
     <string name="appdetail_audio">Аудио вкл:</string>
     <string name="appdetail_bright">Яркость:</string>
     <string name="appdetail_bytesrec">Байт получено:</string>
@@ -288,7 +288,7 @@
     <string name="appdetail_wifiactive">Wifi активен:</string>
     <string name="appdetail_wifion">Wifi вкл:</string>
     <string name="appdetail_bytes">%d байт</string>
-	  <string name="appdetail_mb">%.2f Мб</string>
+    <string name="appdetail_mb">%.2f Мб</string>
     <string name="appdetail_kb">%.2f Кб</string>
     
     <!-- Change Log - actual change content isn't translated -->
@@ -380,7 +380,7 @@
     <string name="main_invalid_license_msg">Ваша лицензия на это приложение недействительна. Battery Monitor продолжит работать в бесплатном режиме. Если Вы считаете, что это ошибка, проверьте покупку.</string>
     <string name="main_invalid_license_ok">Проверить мою покупку</string>
     <string name="main_invalid_license_cancel">Далее</string>
-	 <string name="about_invalidlicense">Ваша лицензия недействительна. Battery Monitor продолжит работать в бесплатном режиме. Если Вы считаете, что это ошибка, пожалуйста, свяжитесь с разработчиком, используя Ваш Гугл-ID покупки</string>
+    <string name="about_invalidlicense">Ваша лицензия недействительна. Battery Monitor продолжит работать в бесплатном режиме. Если Вы считаете, что это ошибка, пожалуйста, свяжитесь с разработчиком, используя Ваш Google-ID покупки</string>
     
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Домой</string>
