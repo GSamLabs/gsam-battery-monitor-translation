@@ -192,6 +192,10 @@
     <string name="main_refresh_toast">Statistics Refreshed\u2026</string>
     <string name="main_market_nomarket_msg">Function not available.  There does not appear to be a market application installed on your device.</string>
     <string name="menu_help">Help</string>
+    <string name="menu_send_debug_data">Send error report</string>    
+    <string name="menu_send_debug_data_dlg_title">Send Error Report Using:</string>
+    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
+    <string name="menu_send_debug_data_body">Please enter a description of the problem you encountered:\n\n</string> 
     <string name="menu_review">Review GSam Battery Monitor</string>
     <string name="main_share_intentchoosertitle">Share my average battery life\u2026</string>
     <string name="main_share_subject">Average Battery Life - GSam Battery Monitor</string>
