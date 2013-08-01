@@ -41,7 +41,9 @@
 	<string name="preferences_widget_back_title">Transparan Widget Arkaplanı</string>
 	<string name="preferences_widget_back_msg">Widget arkaplanını, duvarkağıdınız tamamen gözükecek şekilde, transparan yapın.</string>
 	<string name="preferences_widget_show_timeleft_title">Kalan Süreyi Göster</string>
-	<string name="preferences_overlay_icon_sum">Uygulama simgesini sistem pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
+	<string name="preferences_widget_show_temp_title">Sıcaklığı Göster</string>
+  <string name="preferences_widget_show_voltage_title">Voltajı Göster</string>
+  <string name="preferences_overlay_icon_sum">Uygulama simgesini sistem pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
 	<string name="preferences_overlay_icon_title">Pil Simgesinin Üstüne Getir</string>
 	<string name="preferences_overlay_icon_configure_sum">Üste gelecek simgenin büyüklüğünü, yerini, arkaplan rengini, parlaklığını vb. düzenleyin.</string>
 	<string name="preferences_overlay_icon_configure_title">Üste Gelecek Simgeyi Düzenle</string>
@@ -61,6 +63,7 @@
   <string name="preferences_power_per_percent_reset_title">Kalan Zaman Tahminlerini Sıfırla</string>
   <string name="preferences_power_per_percent_reset_summary">Kalan zaman tahminlerini sıfırlayın. Kalan zaman göstergesi isabetli görünmüyorsa kullanın. Bu değer şu an %1$s / yüzde. %2$01d adet yüzdeden hesaplandı</string>
    <string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını değiştirdiyseniz sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
+  <string name="preferences_power_per_percent_reset">Sıfırla</string>
 	<string name="preferences_time_per_percent_title">Zaman-Tüketim Geçmişini Sıfırlayın</string>
 	<string name="preferences_time_per_percent_unkown">bilinmiyor</string>
 	<string name="preferences_time_per_percent_summary">Pilin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sdk / yüzde. %3$01d adet yüzdeden hesaplandı)</string>
@@ -104,7 +107,9 @@
 	<string name="preferences_widget_general_category">Genel</string>
 	<string name="preferences_start_foreground_title">Yüksek Öncelik</string>
 	<string name="preferences_start_foreground_sum">Uygulamayı yüksek öncelikte çalıştırın. Bu seçeneği sadece pil yüzdesini gösteren simgeler doğru güncellenmiyorsa kullanın. Aksi takdirde, diğer programların çalışması için gereken boş belleği azaltacaktır.</string>
-
+  <string name="preferences_menu_add_alarm">Yeni İkaz Ekle</string>
+  <string name="preferences_menu_remove_alarm">İkaz Kaldır</string>
+  
     <!-- Preference Selection Arrays -->    
 	<string name="icon_themes_circle">Dairesel</string>
 	<string name="icon_themes_icsmono">ICS Monochrome</string>
