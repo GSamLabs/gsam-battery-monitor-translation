@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">GSam Battery Monitor Pro</string>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- string name="app_name">GSam Battery Monitor</string -->
+
+    <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Pozos. czas: %1$02d:%2$02d (Średni), %3$02d:%4$02d (Ostatni %5$sm)</string>
     <string name="battery_status_time_left_no_running">Pozos. czas: %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Pozos. czas: Obliczanie - Sprawdź później</string>
@@ -9,6 +12,8 @@
     <string name="battery_status_title">Stan Baterii - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">Stan Baterii - %1$s%% (%2$s) - Ładowanie</string>
     <string name="battery_status_title_full">Stan Baterii - %1$s%% (%2$s) - Pełna</string>
+
+    <!-- Preferences -->
     <string name="preferences_general_category">Ustawienia Ogólne</string>
     <string name="preferences_theme_category">Motyw</string>
     <string name="preferences_alarm_category">Alarm</string>
@@ -30,11 +35,11 @@
     <string name="preferences_theme_title">Motyw ikony baterii</string>
     <string name="preferences_theme_sum">Wybierz motyw ikony baterii</string>
     <string name="preferences_theme_getmore_title">Pobierz więcej motywów</string>
-    <string name="preferences_theme_getmore_msg">Tutaj wyszukasz więcej tematów Battery Monitor. GSam Labs nie kontroluje ani nie sprawdza wszystkich motywów, więc jeśli coś nie działa należy skontaktować się z twórcą motywu.
+    <string name="preferences_theme_getmore_msg">"Tutaj wyszukasz więcej tematów Battery Monitor. GSam Labs nie kontroluje ani nie sprawdza wszystkich motywów, więc jeśli coś nie działa należy skontaktować się z twórcą motywu.
 	
-	Pobierz i zainstaluj motyw, a następnie wrócić do tego menu, aby wyświetlić dostępne motyw. 
+Pobierz i zainstaluj motyw, a następnie wrócić do tego menu, aby wyświetlić dostępne motyw. 
 	
-	Wiesz, że możesz tworzyć własne kompozycje? Sprawdz szczególy na http://badassbatterymonitor.blogspot.com!</string>
+Wiesz, że możesz tworzyć własne kompozycje? Sprawdz szczególy na http://badassbatterymonitor.blogspot.com!"</string>
     <string name="preferences_theme_progress_title">Pobieranie motywów</string>
     <string name="preferences_theme_progress_msg">Pobieranie listy dostępnych motywów</string>
     <string name="preferences_widget_back_title">Przezroczyste tło widgetu</string>
@@ -48,9 +53,9 @@
     <string name="preferences_overlay_icon_configure_title">Konfigurowanie ikony nakładki</string>
     <string name="preferences_overlay_icon_configure_invalid">Nie można uruchomić konfiguracji. Otwórz pakiet ikon, aby ręcznie skonfigurować.</string>
     <string name="preferences_overlay_icon_notvalid_title">Wybrany styl nie obsługuje ikony nakładki</string>
-    <string name="preferences_overlay_icon_notvalid_msg">Wybierz inny motyw i spróbuj ponownie.
+    <string name="preferences_overlay_icon_notvalid_msg">"Wybierz inny motyw i spróbuj ponownie.
 	
-	Ikony nakładki są obsługiwane tylko przez zewnetrzne zestawy ikon. Wybierz Pobierz więcej motywów z Battery menu zestawy ikon aby znaleźć zewnętrzny pakiet. Wszystkie pakiety ikon dostarczonych przez GSam Labs wspierają ikony nakładki. Pakiety ikon stron trzecich mogą nie obsługiwać nakładki.</string>
+Ikony nakładki są obsługiwane tylko przez zewnetrzne zestawy ikon. Wybierz Pobierz więcej motywów z Battery menu zestawy ikon aby znaleźć zewnętrzny pakiet. Wszystkie pakiety ikon dostarczonych przez GSam Labs wspierają ikony nakładki. Pakiety ikon stron trzecich mogą nie obsługiwać nakładki."</string>
     <string name="preferences_show_charging_animation_title">Pokaż animację podczas ładowania</string>
     <string name="preferences_widget_color_screen_title">Ustawienia widgetów Battery</string>
     <string name="preferences_app_theme_title">Użyj ciemnego tematu aplikacji</string>
@@ -108,8 +113,10 @@
     <string name="preferences_widget_general_category">Ogólne</string>
     <string name="preferences_start_foreground_title">Wysoki priorytet</string>
     <string name="preferences_start_foreground_sum">Uruchom Battery Monitor używając wysokiego priorytetu. Użyj tego tylko wtedy, gdy twoje ikony nie są aktualizowane poprawnie do odzwierciedlenia prawidłowego stanu procentowego baterii. Nie stosować w innych przypadkach, nie wiadomo jak to wpłynie na dostępność zasobów dla innych aplikacji.</string>
-    <string name="preferences_menu_add_alarm">Dodaj nowy alarm/string>
+    <string name="preferences_menu_add_alarm">Dodaj nowy alarm</string>
     <string name="preferences_menu_remove_alarm">Usuń alarm</string>
+    
+    <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Koło</string>
     <string name="icon_themes_icsmono">ICS Monochrome</string>
     <string name="icon_themes_trad">Tradycyjny</string>
@@ -125,6 +132,8 @@
     <string name="stats_since_custom">Od niestandardowego odniesienia</string>
     <string name="pwer_profiles_mfg">Wartości producenta</string>
     <string name="pwer_profiles_saved">Aktualne zapisane wartości</string>
+
+    <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">System (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% baterii zużytej przez:</string>
@@ -143,6 +152,8 @@
     <string name="procsuckmon_viewby_wake_times">Liczba wybudzeń urządzenia</string>
     <string name="procsuckmon_viewby_gps">Widok użycia GPS</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Widok Kernel Wakelocks</string>
+
+    <!-- Main screen -->
     <string name="main_history_button">Historia</string>
     <string name="main_preferences_button">Ustawienia</string>
     <string name="main_calculating">Obliczanie</string>
@@ -205,13 +216,15 @@
     <string name="main_tablet_active_usage">Aktywny (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">Stan czuwania (%1$02d:%2$02d:%3$02d)</string>
     <string name="rate_me_title">Oceń GSam Battery Monitor</string>
-    <string name="rate_me_msg">Podoba Ci się GSam Battery Monitor? Prosimy o trochę czasu, aby dać aplikacji dobrą ocenę!
+    <string name="rate_me_msg">"Podoba Ci się GSam Battery Monitor? Prosimy o trochę czasu, aby dać aplikacji dobrą ocenę!
 	
-	Nie martw się - nie zostaniesz poproszony o to ponownie</string>
+Nie martw się - nie zostaniesz poproszony o to ponownie"</string>
     <string name="rate_me_ok">Oceń to!</string>
     <string name="main_header_type">Typ</string>
     <string name="main_header_time">Czas</string>
     <string name="main_header_power">Energia</string>
+
+    <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Szczegóły aplikacji</string>
     <string name="process_suck_mon_title_prefix_wifi">Szczegóły Wifi</string>
     <string name="process_suck_mon_title_prefix_radio">Szczegóły Radia GSM</string>
@@ -291,13 +304,19 @@
     <string name="appdetail_bytes">%d bajty</string>
     <string name="appdetail_mb">%.2f MB</string>
     <string name="appdetail_kb">%.2f KB</string>
+
+    <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Co nowego</string>
     <string name="changelog_title">Co nowego</string>
     <string name="changelog_ok_button">OK</string>
+	
+    <!-- Misc. -->
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="ok">OK</string>
     <string name="error">Wystąpił błąd</string>
+
+    <!-- Charts -->
     <string name="main_chart_showtemp">Temp.</string>
     <string name="main_chart_showother">Inne</string>
     <string name="main_chart_showradio">Sygnał telefonu</string>
@@ -327,34 +346,30 @@
     <string name="chart_timeformat">hh:mm a</string>
     <string name="chart_unknown">Nieznany</string>
     <string name="chart_wifi">Wifi</string>
+    
+    <!-- About -->
     <string name="about_app_name">Informacje GSam Battery Monitor</string>
     <string name="about_version">Wersja %1s</string>
     <string name="about_copyright">ⓒ GSam Labs 2013</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
     <string name="about_translations">Tłumaczenie:</string>
-    <string name="lang_default">Domyślny język systemu</string>
+    
+    <!-- Translations & Translators -->   
+    <string name="lang_default">Domyślny język systemu</string>        
     <string name="translator_anonymous">Anonimowy</string>
-    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\">(gaich)&lt;/a></string>
-    <string name="translator_fr">Jaworski Johan</string>
-    <string name="translator_it">Fabio Abbà</string>
-    <string name="translator_hu">István Kriskó (Stefi)</string>
-    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\">mtrakal&lt;/a>)</string>
-    <string name="translator_sv">Pontus Edgren</string>
-    <string name="translator_nl">ArTsLeOpS</string>
-    <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\">mich&lt;/a>)</string>
-    <string name="translator_zh_CN">Gavin Fang</string>
-    <string name="translator_tr">Saldıray Günal</string>
+    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
+    <!-- EXAMPLE string name="translator_ru">Dmitry Chernogaev (gaich)&lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(XDA-Profile)&lt;/a&gt;</string -->
+    <!-- string name="translator_pl">Anonymous</string -->     
     <string name="translator_pl">www.cvxcvx.pl</string>
-    <string name="translator_de">Jan Fortein</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_title">Czy Twój ekran jest zbyt jasny?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">Jeśli masz problemy z czytaniem w nocy, bo ekran jest zbyt jasny, sprawdź GSam Screen Dimmer. Pozwala to zmienić ustawienia jasności poniżej poziomu domyślnego, co jest normalnie dozwolone, dzięki temu przyjemniej jest czytać w nocy!
-	
-	Nie martw się, nie zobaczysz tego komunikatu ponownie.</string>
+
+    <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
+    <string name="appdetail_details_adjust_screen_market_bsd_title">Czy Twój  ekran jest zbyt jasny?</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">"Jeśli masz problemy z czytaniem w nocy, bo ekran jest zbyt jasny, sprawdź GSam Screen Dimmer. Pozwala to zmienić ustawienia jasności poniżej poziomu domyślnego, co jest normalnie dozwolone, dzięki temu przyjemniej jest czytać w nocy!Nie martw się, nie zobaczysz tego komunikatu ponownie."</string>
     <string name="preferences_send_anon_stats_buypro_title">Przejdź na wersję Pro!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">Darmowa wersja Battery Monitor nie pozwoli Ci wyłączyć reklam, jeśli zdecydujesz się nie zezwalaj na anonimowe statystyki użytkowania.
+    <string name="preferences_send_anon_stats_buypro_msg">"Darmowa wersja Battery Monitor nie pozwoli Ci wyłączyć reklam, jeśli zdecydujesz się nie zezwalaj na anonimowe statystyki użytkowania.
 	
-	Wersja Pro nie zawiera reklam i pozwoli Ci wyłączyć anonimowe statystyki użytkowania.</string>
+Wersja Pro nie zawiera reklam i pozwoli Ci wyłączyć anonimowe statystyki użytkowania."</string>
     <string name="menu_seeotherapps">Zobacz inne aplikacje GSam Labs</string>
     <string name="menu_gopro">Uaktualnienie do Pro</string>
     <string name="menu_gopro_nook">Zakup</string>
@@ -364,12 +379,12 @@
     <string name="nook_gopro_ok">Kup pełną wersję</string>
     <string name="nook_gopro_cancel">Kontynuuj w trybie Free</string>
     <string name="main_market_pro_title">Dziękujemy za korzystanie z GSam Battery Monitor - Free</string>
-    <string name="main_market_pro_msg">Czy wiesz, że istnieje również wersja tej aplikacji na tablety? Poszukaj jej na googleplay. 
+    <string name="main_market_pro_msg">"Czy wiesz, że istnieje również wersja tej aplikacji na tablety? Poszukaj jej na googleplay. 
 	
-	Nie martw się, nie zobaczysz tego komunikatu ponownie..</string>
-    <string name="main_market_pro_msg_kindle">Czy wiesz, że jest zomptymalizowana wersja Kindle Fire? Poszukaj jej na googleplay. 
+Nie martw się, nie zobaczysz tego komunikatu ponownie.."</string>
+    <string name="main_market_pro_msg_kindle">"Czy wiesz, że jest zomptymalizowana wersja Kindle Fire? Poszukaj jej na googleplay. 
 	
-	Nie martw się, nie zobaczysz tego komunikatu ponownie.</string>
+Nie martw się, nie zobaczysz tego komunikatu ponownie."</string>
     <string name="main_market_pro_ok">Zobacz</string>
     <string name="main_market_pro_cancel">Nie, dziękuję</string>
     <string name="main_invalid_license_title">Nieprawidłowa licencja</string>
@@ -377,16 +392,24 @@
     <string name="main_invalid_license_ok">Sprawdź swój zakup</string>
     <string name="main_invalid_license_cancel">Dalej</string>
     <string name="about_invalidlicense">Twoja licencja jest nie ważna. Battery Monitor będzie pracował w trybie Free. Jeśli uważasz, że to błąd, skontaktuj się z deweloperem przy użyciu swoje Google ID Zakup</string>
+
+    <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Nawiguj do strona głównej</string>
     <string name="abs__action_bar_up_description">Do góry</string>
     <string name="abs__action_menu_overflow_description">Więcej opcji</string>
     <string name="abs__action_mode_done">Gotowe</string>
+    <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_see_all">Zobacz wszystko...</string>
+    <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_dialog_title_default">Wybierz czynność</string>
+    <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
     <string name="abs__share_action_provider_share_with">Podziel się..</string>
+    <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
     <string name="abs__activitychooserview_choose_application">Wybierz aplikację</string>
+    <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with">Podziel się</string>
-    <string name="abs__shareactionprovider_share_with_application">Podziel się%s</string>
+    <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with_application">Podziel się<xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
     <string name="abs__searchview_description_search">Szukaj</string>
     <string name="abs__searchview_description_query">Wyszukiwane</string>
     <string name="abs__searchview_description_clear">Wyczyść zapytanie</string>
