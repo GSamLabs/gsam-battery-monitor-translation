@@ -333,7 +333,7 @@
     <string name="chart_signal">Сигнал телефона</string>
     <string name="chart_tempc">Температура батареи \u00B0C</string>
     <string name="chart_tempf">Температура батареи \u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Неизвестно</string>
     <string name="chart_wifi">Wifi</string>
     
