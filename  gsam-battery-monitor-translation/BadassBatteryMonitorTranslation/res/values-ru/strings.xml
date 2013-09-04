@@ -146,6 +146,7 @@
     <string name="procsuckmon_viewby_wake_times">Кол-во пробуждений</string>
     <string name="procsuckmon_viewby_gps">Время исп.GPS</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Вэйклоки ядра</string>
+    <string name="procsuckmon_wakelock_user_apps">Объед.вэйклоки прилож.(не ядра)</string>
     
     <!-- Main screen -->
     <string name="main_history_button">История</string>
@@ -294,6 +295,7 @@
     <string name="appdetail_bytes">%d байт</string>
     <string name="appdetail_mb">%.2f Мб</string>
     <string name="appdetail_kb">%.2f Кб</string>
+    <string name="appdetail_totaltime">Общ.время(вкл.бодрствование):</string>
     
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Что нового</string>
