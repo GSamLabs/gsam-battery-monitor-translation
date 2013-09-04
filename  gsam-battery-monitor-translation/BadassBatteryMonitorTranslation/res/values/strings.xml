@@ -146,6 +146,7 @@
     <string name="procsuckmon_viewby_wake_times">View Num Times Waking Device</string>
     <string name="procsuckmon_viewby_gps">View GPS Time Used</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">View Kernel Wakelocks</string>
+    <string name="procsuckmon_wakelock_user_apps">Combined App Wakelocks (non-Kernel)</string>
 
     <!-- Main screen -->
     <string name="main_history_button">History</string>
@@ -294,6 +295,7 @@
     <string name="appdetail_bytes">%d bytes</string>        
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
+    <string name="appdetail_totaltime">Total Time (including awake):</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">What\'s New</string>
