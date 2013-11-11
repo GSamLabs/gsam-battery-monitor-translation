@@ -182,7 +182,7 @@
     <string name="main_app_usage_button">Приложения</string>
     <string name="main_android_batt_usage_button">Батарея-встроенный экран</string>
     <string name="main_android_batt_usage_failed">Невозможно запустить встроенный экран использования батареи...</string>
-    <string name="main_tools_menu">Еще</string>
+    <string name="main_tools_menu">Ещё</string>
     <string name="main_menu_charts">Графики</string>
     <string name="menu_whatsnew">Что нового</string>
     <string name="about_about">О приложении</string>
@@ -250,7 +250,7 @@
     <string name="appdetail_bytessent">Байт передано:</string>
     <string name="appdetail_cpu">Использование CPU:</string>
     <string name="appdetail_cpu_backgroundonly">Использование CPU(Только в фоне):</string>
-    <string name="appdetail_dark">Темный:</string>
+    <string name="appdetail_dark">Тёмный:</string>
     <string name="appdetail_data_enabled">Активные данные:</string>
     <string name="appdetail_dim">Затемнение:</string>
     <string name="appdetail_discharge_whileonoff">Разрядка при вкл/выкл:</string>
@@ -320,15 +320,15 @@
     <string name="notification_batthot_f">Предупреждение-батарея горячая (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Предупреждение-батарея горячая (%.1f\u00B0C)</string>
     <string name="notification_battovervoltage">Предупреждение-перенапряжение батареи (%.1f V)</string>
-    <string name="chart_active">Активный</string>
+    <string name="chart_active">Активн.</string>
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
     <string name="chart_charging">Зарядка</string>
     <string name="chart_dim">Затемнение</string>
     <string name="chart_gps">GPS</string>
-    <string name="chart_high">Высокий</string>
-    <string name="chart_incall">Во время звонка</string>
-    <string name="chart_low">Низкий</string>
+    <string name="chart_high">Высок.</string>
+    <string name="chart_incall">Звонок</string>
+    <string name="chart_low">Низк.</string>
     <string name="chart_max">Макс.</string>
     <string name="chart_med">Средн.</string>
     <string name="chart_screen">Экран</string>
