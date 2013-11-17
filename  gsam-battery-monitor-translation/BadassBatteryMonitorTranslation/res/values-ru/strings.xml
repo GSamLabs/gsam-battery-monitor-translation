@@ -153,14 +153,14 @@
     <string name="main_preferences_button">Предпочтения</string>
     <string name="main_calculating">Подсчет\u2026</string>
     <string name="main_full">Полная</string>
-    <string name="main_timetofull">Остается-до полн.:</string>
-    <string name="main_timetofull_tablet">Время до полной зарядки:</string>
-    <string name="main_timeleft">Остается-в средн.:</string>
-    <string name="main_timeleft_tablet">Остается (по средн.):</string>
-    <string name="main_timeleft_rolling">Остается-посл. %1$sm:</string>
-    <string name="main_timeleft_rolling_tablet">Остается (исп. в посл. %1$sm):</string>
-    <string name="main_talktime">Остается-время разг.:</string>
-    <string name="main_talktime_tablet">Остающееся время разговора:</string>
+    <string name="main_timeremaining">Остаётся</string>
+    <string name="main_timetofull2">До полной:</string>
+    <string name="main_timetofull_tablet2">До полной зарядки:</string>
+    <string name="main_timeleft2">В среднем:</string>
+    <string name="main_timeleft_tablet2">Использование в среднем:</string>
+    <string name="main_timeleft_rolling2">Посл.%1$sm:</string>
+    <string name="main_timeleft_rolling_tablet2">Использование за последние %1$sm:</string>
+    <string name="main_talktime2">Разговор:</string>
     <string name="main_temp">Температура:</string>
     <string name="main_voltage">Напряжение:</string>
     <string name="main_health">Тип / состояние:</string>
@@ -172,6 +172,9 @@
     <string name="main_health_unknown">Неизвестно</string>
     <string name="main_health_failed">Сбой</string>
     <string name="main_usage_label">Использование батареи - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label2">Исп.%1$s%% за %2$s</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s активн., %3$s ожид.</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s активн.</string>
     <string name="main_phone_on_label">Телефон:</string>
     <string name="main_screen_on_label">Экран:</string>
     <string name="main_phone_radio_on_label">Радиомодуль:</string>
@@ -214,6 +217,15 @@
     <string name="main_header_type">Тип</string>
     <string name="main_header_time">Время</string>
     <string name="main_header_power">Расход</string>
+    <string name="averages_since">С %1$s</string>
+    <string name="averages_header">В среднем на полную зарядку</string>
+    <string name="main_avg_timepercharge_label2">Батарея:</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s активн.)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s ожидан.)</string>
+    <string name="main_avg_screenon_label">Экран вкл:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s макс.)</string>
+    <string name="main_avg_chargetime_label">Время зарядки:</string>
+    <string name="main_avg_chargetime_text">%1$s сеть / %2$s USB</string>
     
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
@@ -227,10 +239,13 @@
     <string name="appdetail_included_processes">Включенные процессы</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
+    <string name="appdetail_minutes_decimal">%1$sm</string>
     <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
     <string name="appdetail_days_twolevels">%1$01dd %2$01dh</string>
+    <string name="appdetail_days_twolevels_decimal">%1$01dd %2$sh</string>
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
+    <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
     <string name="appdetail_details_button">Управление</string>
     <string name="appdetail_details_button_wakelocks">Google</string>
     <string name="appdetail_details_adjustpower">Советы по энергосбережению</string>
@@ -296,6 +311,7 @@
     <string name="appdetail_mb">%.2f Мб</string>
     <string name="appdetail_kb">%.2f Кб</string>
     <string name="appdetail_totaltime">Общ.время(вкл.бодрствование):</string>
+    <string name="appdetail_select_package">Выбрать пакет</string>
     
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Что нового</string>
