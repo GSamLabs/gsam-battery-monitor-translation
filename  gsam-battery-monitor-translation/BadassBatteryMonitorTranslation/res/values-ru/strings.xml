@@ -4,7 +4,7 @@
     <!--string name="app_name">GSam Battery Monitor</string -->
     
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">Осталось: %1$02d:%2$02d (В среднем), %3$02d:%4$02d (Последние %5$sm)</string>
+    <string name="battery_status_time_left">Осталось: %1$02d:%2$02d (В среднем), %3$02d:%4$02d (Последние %5$s мин)</string>
     <string name="battery_status_time_left_no_running">Осталось: %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Осталось: идет подсчет - проверьте позже</string>
     <string name="battery_status_time_to_full">Время до полного: %1$02d:%2$02d</string>
@@ -52,8 +52,8 @@
     <string name="preferences_overlay_icon_notvalid_msg">Выберите другую тему и попытайтесь снова.\n\nПерекрытие поддерживается только дополнительными наборами значков. Выберите Получить больше тем из меню темы значка батареи для поиска дополнительного набора значков. Все наборы значков GSam Labs поддерживают перекрытие. Сторонние наборы могут не поддерживать перекрытие.</string>
     <string name="preferences_show_charging_animation_title">Анимация при зарядке</string>
     <string name="preferences_widget_color_screen_title">Настройки виджета батареи</string>
-    <string name="preferences_app_theme_title">Использовать темную тему</string>
-    <string name="preferences_app_theme_sum">Использовать темную тему для экранов приложения</string>
+    <string name="preferences_app_theme_title">Использовать тёмную тему</string>
+    <string name="preferences_app_theme_sum">Использовать тёмную тему для экранов приложения</string>
     <string name="preferences_time_left_title">Рассчитать остаток времени</string>
     <string name="preferences_time_left_sum">Рассчитать остаток времени, основываясь на использовании в данный временной промежуток</string>
     <string name="preferences_profiles_screen_title">Профили питания устройства</string>
@@ -125,7 +125,7 @@
     <string name="stats_since_charged">От последней полной зарядки</string>
     <string name="stats_since_custom">От пользовательской метки</string>
     <string name="pwer_profiles_mfg">Заводские установки</string>
-    <string name="pwer_profiles_saved">Текущие сохраненные значения</string>
+    <string name="pwer_profiles_saved">Текущие сохранённые значения</string>
     
     <!-- App Sucker -->
     <string name="process_kernel_label">Ядро(ОС Андроид)</string>
@@ -133,9 +133,9 @@
     <string name="process_suck_mon_header">%0$.1f%% батареи использовалось:</string>
     <string name="process_suck_mon_nodata">Данные недоступны. Нет приложений, которые потребляли указанный ресурс во время последнего цикла батареи устройства.</string>
     <string name="process_suck_mon_title_prefix">Приложения - %1$s</string>
-    <string name="process_suck_mon_title_unplugged">%1$s (От последнего отключения)</string>
-    <string name="process_suck_mon_title_fullcharge">%1$s (От полной зарядки)</string>
-    <string name="process_suck_mon_title_customref">%1$s (От пользовательской метки)</string>
+    <string name="process_suck_mon_title_unplugged">%1$s (от посл.отключения)</string>
+    <string name="process_suck_mon_title_fullcharge">%1$s (от полн.зарядки)</string>
+    <string name="process_suck_mon_title_customref">%1$s (от польз.метки)</string>
 	  <string name="procsuckmon_viewby_pwr">% исп.питания</string>
     <string name="procsuckmon_viewby_pwr_minforeground">% питания (только фон CPU)</string>
     <string name="procsuckmon_viewby_cpu">Минуты исп.CPU</string>
@@ -146,20 +146,20 @@
     <string name="procsuckmon_viewby_wake_times">Кол-во пробуждений</string>
     <string name="procsuckmon_viewby_gps">Время исп.GPS</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Вэйклоки ядра</string>
-    <string name="procsuckmon_wakelock_user_apps">Объед.вэйклоки прилож.(не ядра)</string>
+    <string name="procsuckmon_wakelock_user_apps">Объед.вэйклоки приложения(не ядра)</string>
     
     <!-- Main screen -->
     <string name="main_history_button">История</string>
     <string name="main_preferences_button">Предпочтения</string>
-    <string name="main_calculating">Подсчет\u2026</string>
+    <string name="main_calculating">Подсчёт\u2026</string>
     <string name="main_full">Полная</string>
     <string name="main_timeremaining">Остаётся</string>
     <string name="main_timetofull2">До полной:</string>
     <string name="main_timetofull_tablet2">До полной зарядки:</string>
     <string name="main_timeleft2">В среднем:</string>
     <string name="main_timeleft_tablet2">Использование в среднем:</string>
-    <string name="main_timeleft_rolling2">Посл.%1$sm:</string>
-    <string name="main_timeleft_rolling_tablet2">Использование за последние %1$sm:</string>
+    <string name="main_timeleft_rolling2">Посл.%1$s мин:</string>
+    <string name="main_timeleft_rolling_tablet2">Использование за последние %1$s мин:</string>
     <string name="main_talktime2">Разговор:</string>
     <string name="main_temp">Температура:</string>
     <string name="main_voltage">Напряжение:</string>
@@ -220,10 +220,10 @@
     <string name="averages_since">С %1$s</string>
     <string name="averages_header">В среднем на полную зарядку</string>
     <string name="main_avg_timepercharge_label2">Батарея:</string>
-    <string name="main_avg_timepercharge_text_active">%1$s (%2$s активн.)</string>
-    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s ожидан.)</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s активный режим)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s режим ожидания)</string>
     <string name="main_avg_screenon_label">Экран вкл:</string>
-    <string name="main_avg_screenon_text">%1$s (%2$s макс.)</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s максимум)</string>
     <string name="main_avg_chargetime_label">Время зарядки:</string>
     <string name="main_avg_chargetime_text">%1$s сеть / %2$s USB</string>
     
@@ -234,22 +234,22 @@
     <string name="process_suck_mon_title_prefix_screen">Детали экрана</string>
     <string name="process_suck_mon_title_prefix_wakelock">Детали вэйклока</string>
     <string name="appdetail_usagedetail">Детали использования</string>
-    <string name="appdetail_processname">Имя процесса</string>
-    <string name="appdetail_included_packages">Включенные пакеты</string>
-    <string name="appdetail_included_processes">Включенные процессы</string>
-    <string name="appdetail_seconds">%1$01ds</string>
-    <string name="appdetail_minutes">%1$01dm %2$01ds</string>
-    <string name="appdetail_minutes_decimal">%1$sm</string>
-    <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
-    <string name="appdetail_days_twolevels">%1$01dd %2$01dh</string>
-    <string name="appdetail_days_twolevels_decimal">%1$01dd %2$sh</string>
-    <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
-    <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
-    <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
+    <string name="appdetail_processname">Назв. процесса</string>
+    <string name="appdetail_included_packages">Включённые пакеты</string>
+    <string name="appdetail_included_processes">Включённые процессы</string>
+    <string name="appdetail_seconds">%1$01dс</string>
+    <string name="appdetail_minutes">%1$01dм %2$01dс</string>
+    <string name="appdetail_minutes_decimal">%1$sм</string>
+    <string name="appdetail_days">%1$01dд %2$01dч %3$01dм</string>
+    <string name="appdetail_days_twolevels">%1$01dд %2$01dч</string>
+    <string name="appdetail_days_twolevels_decimal">%1$01dд %2$sч</string>
+    <string name="appdetail_hours">%1$01dч %2$01dм %3$01dс</string>
+    <string name="appdetail_hours_twolevels">%1$01dч %2$01dм</string>
+    <string name="appdetail_hours_twolevels_decimal">%1$01dч %2$sм</string>
     <string name="appdetail_details_button">Управление</string>
     <string name="appdetail_details_button_wakelocks">Google</string>
     <string name="appdetail_details_adjustpower">Советы по энергосбережению</string>
-    <string name="appdetail_details_adjust_wifi">Выключите Wi-Fi когда его не используете с помощью кнопки настроек Wi-Fi выше.</string>
+    <string name="appdetail_details_adjust_wifi">Выключите Wi-Fi, когда его не используете, с помощью кнопки настроек Wi-Fi выше.</string>
     <string name="appdetail_details_adjust_wifi_button">Настройки Wi-Fi</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Невозможно запустить настройки Wi-Fi</string>
     <string name="appdetail_details_adjust_screen">Уменьшите яркость и время отключения экрана с помощью кнопки настроек экрана выше.</string>
@@ -260,19 +260,19 @@
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - экспорт данных</string>
     <string name="appdetail_appuid">UID приложения:</string>
     <string name="appdetail_audio">Аудио вкл:</string>
-    <string name="appdetail_bright">Яркость:</string>
+    <string name="appdetail_bright">Яркий:</string>
     <string name="appdetail_bytesrec">Байт получено:</string>
     <string name="appdetail_bytessent">Байт передано:</string>
     <string name="appdetail_cpu">Использование CPU:</string>
-    <string name="appdetail_cpu_backgroundonly">Использование CPU(Только в фоне):</string>
+    <string name="appdetail_cpu_backgroundonly">Использование CPU (только в фоне):</string>
     <string name="appdetail_dark">Тёмный:</string>
     <string name="appdetail_data_enabled">Активные данные:</string>
-    <string name="appdetail_dim">Затемнение:</string>
+    <string name="appdetail_dim">Затемнённый:</string>
     <string name="appdetail_discharge_whileonoff">Разрядка при вкл/выкл:</string>
     <string name="appdetail_gps">GPS:</string>
     <string name="appdetail_high">Высокий - %s:</string>
     <string name="appdetail_keepawake">Бодрствование:</string>
-    <string name="appdetail_light">Свет:</string>
+    <string name="appdetail_light">Светлый:</string>
     <string name="appdetail_low">Низкий - 0:</string>
     <string name="appdetail_med">Средний - %s:</string>
     <string name="appdetail_medium">Средний:</string>
@@ -308,8 +308,8 @@
     <string name="appdetail_wifiactive">Wifi активен:</string>
     <string name="appdetail_wifion">Wifi вкл:</string>
     <string name="appdetail_bytes">%d байт</string>
-    <string name="appdetail_mb">%.2f Мб</string>
-    <string name="appdetail_kb">%.2f Кб</string>
+    <string name="appdetail_mb">%.2f МБ</string>
+    <string name="appdetail_kb">%.2f КБ</string>
     <string name="appdetail_totaltime">Общ.время(вкл.бодрствование):</string>
     <string name="appdetail_select_package">Выбрать пакет</string>
     
@@ -340,7 +340,7 @@
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
     <string name="chart_charging">Зарядка</string>
-    <string name="chart_dim">Затемнение</string>
+    <string name="chart_dim">Затемн.</string>
     <string name="chart_gps">GPS</string>
     <string name="chart_high">Высок.</string>
     <string name="chart_incall">Звонок</string>
@@ -367,7 +367,7 @@
     <string name="lang_default">Язык системы по умолчанию</string>        
     <string name="translator_anonymous">Anonymous</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
-    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>
+    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://google.com/+DmitryGaich\"&gt;(gaich)&lt;/a&gt;</string>
     <string name="translator_fr">Jaworski Johan</string>
     <string name="translator_it">Fabio Abbà</string>
     <string name="translator_hu">István Kriskó (Stefi)</string>
@@ -394,7 +394,7 @@
     <string name="nook_gopro_ok">Купить полную версию</string>
     <string name="nook_gopro_cancel">Продолжить в бесплатном режиме</string>
     <string name="main_market_pro_title">Спасибо за использование GSam Battery Monitor - бесплатной версии</string>
-    <string name="main_market_pro_msg">Знаете ли Вы, что есть профессиональная версия GSam Battery Monitor для планшетов? Найдите ее в маркете.\n\nНе беспокойтесь, Вы больше не увидите этого сообщения.</string>
+    <string name="main_market_pro_msg">Знаете ли Вы, что есть профессиональная версия GSam Battery Monitor для планшетов? Найдите ее в Google Play.\n\nНе беспокойтесь, Вы больше не увидите этого сообщения.</string>
     <string name="main_market_pro_msg_kindle">Знаете ли Вы, что есть профессиональная версия GSam Battery Monitor для Kindle Fire? Найдите ее в Appstore.\n\nНе беспокойтесь, Вы больше не увидите этого сообщения.</string>
     <string name="main_market_pro_ok">Посмотреть</string>
     <string name="main_market_pro_cancel">Нет, спасибо</string>
