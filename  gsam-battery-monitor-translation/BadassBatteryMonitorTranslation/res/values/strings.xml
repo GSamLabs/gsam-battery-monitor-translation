@@ -226,7 +226,17 @@
     <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
     <string name="main_avg_chargetime_label">Charge Time:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
-
+    <string name="main_kitkat_nostats_title">Root Companion App Required On KitKat</string>
+    <string name="main_kitkat_nostats_helper_needed">Unfortunately, Google has removed the ability in KitKat (4.4) for
+        non-system applications to access battery statistics\n
+        \nAs Root, you can re-enable GSam by installing the Root Companion app (http://goo.gl/Dy06az) and copying it to
+        /system/priv-app.\n
+        \nWe are working on an alternate means to collect the needed data as well - sorry for the inconvenience!\n
+        \nSee http://goo.gl/r93pUE for more information.</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">The Root Companion application is not installed correctly in /system/priv-app.  Please launch the application and verify it is correctly installed.</string>
+	<string name="main_kitkat_nostats_launch_companion">Launch Root Companion</string>
+	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
+    
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App Detail</string>
     <string name="process_suck_mon_title_prefix_wifi">Wifi Detail</string>
