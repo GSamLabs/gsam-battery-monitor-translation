@@ -4,14 +4,14 @@
     <!--string name="app_name">GSam Battery Monitor</string -->
     
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">Осталось: %1$02d:%2$02d (В среднем), %3$02d:%4$02d (Последние %5$s мин)</string>
-    <string name="battery_status_time_left_no_running">Осталось: %1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">Осталось: идет подсчет - проверьте позже</string>
-    <string name="battery_status_time_to_full">Время до полного: %1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">Время до полного: идет подсчет - проверьте позже</string>
-    <string name="battery_status_title">Статус батареи - %1$s%% (%2$s)</string>
-    <string name="battery_status_title_charging">Статус батареи - %1$s%% (%2$s) - зарядка</string>
-    <string name="battery_status_title_full">Статус батареи - %1$s%% (%2$s) - заряжена</string>
+    <string name="battery_status_time_left">Ост.:%1$02d:%2$02d(в средн.),%3$02d:%4$02d(посл.%5$sмин)</string>
+    <string name="battery_status_time_left_no_running">Ост.:%1$02d:%2$02d</string>
+    <string name="battery_status_time_left_unknown">Ост.:подсчет - проверьте позже</string>
+    <string name="battery_status_time_to_full">Время до полн.зарядки: %1$02d:%2$02d</string>
+    <string name="battery_status_time_to_full_unknown">Время до полн.:подсчет - проверьте позже</string>
+    <string name="battery_status_title">Статус батареи-%1$s%% (%2$s)</string>
+    <string name="battery_status_title_charging">Статус батареи-%1$s%% (%2$s)-зарядка</string>
+    <string name="battery_status_title_full">Статус батареи-%1$s%% (%2$s)-заряжена</string>
     
     <!-- Preferences -->
     <string name="preferences_general_category">Общие предпочтения</string>
@@ -172,9 +172,9 @@
     <string name="main_health_unknown">Неизвестно</string>
     <string name="main_health_failed">Сбой</string>
     <string name="main_usage_label">Использование батареи - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
-    <string name="main_usage_label2">Исп.%1$s%% за %2$s</string>
-    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s активн., %3$s ожид.</string>
-    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s активн.</string>
+    <string name="main_usage_label2">%1$s%% за %2$s</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/ч - %2$s актив.,%3$s ожид.</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/ч - %2$s актив.реж.</string>
     <string name="main_phone_on_label">Телефон:</string>
     <string name="main_screen_on_label">Экран:</string>
     <string name="main_phone_radio_on_label">Радиомодуль:</string>
@@ -220,8 +220,8 @@
     <string name="averages_since">С %1$s</string>
     <string name="averages_header">В среднем на полную зарядку</string>
     <string name="main_avg_timepercharge_label2">Батарея:</string>
-    <string name="main_avg_timepercharge_text_active">%1$s (%2$s активный режим)</string>
-    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s режим ожидания)</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s актив.режим)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s ожидание)</string>
     <string name="main_avg_screenon_label">Экран вкл:</string>
     <string name="main_avg_screenon_text">%1$s (%2$s максимум)</string>
     <string name="main_avg_chargetime_label">Время зарядки:</string>
@@ -273,12 +273,12 @@
     <string name="appdetail_bright">Яркий:</string>
     <string name="appdetail_bytesrec">Байт получено:</string>
     <string name="appdetail_bytessent">Байт передано:</string>
-    <string name="appdetail_cpu">Использование CPU:</string>
-    <string name="appdetail_cpu_backgroundonly">Использование CPU (только в фоне):</string>
+    <string name="appdetail_cpu">CPU:</string>
+    <string name="appdetail_cpu_backgroundonly">CPU (только фон):</string>
     <string name="appdetail_dark">Тёмный:</string>
     <string name="appdetail_data_enabled">Активные данные:</string>
     <string name="appdetail_dim">Затемнённый:</string>
-    <string name="appdetail_discharge_whileonoff">Разрядка при вкл/выкл:</string>
+    <string name="appdetail_discharge_whileonoff">Разряд при вкл/выкл:</string>
     <string name="appdetail_gps">GPS:</string>
     <string name="appdetail_high">Высокий - %s:</string>
     <string name="appdetail_keepawake">Бодрствование:</string>
@@ -292,8 +292,8 @@
     <string name="appdetail_pct_time">% времени</string>
     <string name="appdetail_phoneon">Радиомодуль вкл:</string>
     <string name="appdetail_pwr_sysdata">Питание на системные данные:</string>
-    <string name="appdetail_received">Получено:</string>
-    <string name="appdetail_received_wifimobile">Получено (Wifi / моб.сеть):</string>
+    <string name="appdetail_received">Приём:</string>
+    <string name="appdetail_received_wifimobile">Приём (Wifi/моб.сеть):</string>
     <string name="appdetail_scanning">Поиск сигнала:</string>
     <string name="appdetail_screen_brightness">Яркость экрана:</string>
     <string name="appdetail_screenon">Экран вкл.:</string>
@@ -309,10 +309,10 @@
     <string name="appdetail_sensor_relhum">Отн. влажность:</string>
     <string name="appdetail_sensor_rotvector">Ротационный вектор:</string>
     <string name="appdetail_sensor_temp">Температура:</string>
-    <string name="appdetail_sent">Отправлено:</string>
-    <string name="appdetail_sent_wifimobile">Отправлено (Wifi / моб.сеть):</string>
+    <string name="appdetail_sent">Отправка:</string>
+    <string name="appdetail_sent_wifimobile">Отправка (Wifi/моб.сеть):</string>
     <string name="appdetail_signal_stregth">Уровень сигнала:</string>
-    <string name="appdetail_total_appssystem">Всего (прилож. / система):</string>
+    <string name="appdetail_total_appssystem">Всего (прилож./система):</string>
     <string name="appdetail_video">Видео вкл.:</string>
     <string name="appdetail_wakelocks">Количество вэйклоков:</string>
     <string name="appdetail_wifiactive">Wifi активен:</string>
