@@ -109,6 +109,8 @@
     <string name="preferences_start_foreground_sum">Run the battery monitor using a high priority.  Use this only if your icons are not getting updated properly to reflect the proper battery percentage.  Do not enable this otherwise as it will affect how many resources are available to other applications. </string>
     <string name="preferences_menu_add_alarm">Add New Alarm</string>
     <string name="preferences_menu_remove_alarm">Remove Alarm</string>
+    <string name="preferences_disable_animation_title">Disable animation effects</string>
+    <string name="preferences_disable_animation_sum">Disables screen animation for slower devices.</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
@@ -333,6 +335,12 @@
     <string name="no">No</string>
     <string name="ok">OK</string>
     <string name="error">An error occurred</string>
+    
+    <!-- Copied from the original BATTERY_STATS permission description -->
+    <string name="permlab_batteryStats">read battery statistics</string>
+    <string name="permdesc_batteryStats">Allows an application to read the current low-level
+        battery use data.  May allow the application to find out detailed information about
+        which apps you use.</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">Temperature</string>
@@ -372,6 +380,21 @@
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
     <string name="about_translations">Translations:</string>
+    
+    <!-- DashClock Widget Extension -->
+    <string name="dashclock_description">Show battery statistics including time left, drain per hour, and more.</string>
+    <string name="dashclock_active_standby">%1$s Active, %2$s Standby</string>
+    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
+    <string name="dashclock_delta_per_hour_short_full">Full</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Charging</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Discharging</string>  
+    <string name="dashclock_to_empty">%1$s to empty</string>  
+    <string name="dashclock_to_full">%1$s to full</string>
+    <string name="dashclock_pref_show_used">Show amount used</string>
+    <string name="dashclock_pref_show_remaining_time">Show time remaining</string>
+    <string name="dashclock_pref_show_active_standby">Show active and standby times</string>
+    <string name="dashclock_pref_show_temp_voltage">Show temperature and voltage</string>
+    <string name="dashclock_settings">GSam Extension Settings</string>
     
     <!-- Translations & Translators -->   
     <string name="lang_default">Default System Language</string>        
