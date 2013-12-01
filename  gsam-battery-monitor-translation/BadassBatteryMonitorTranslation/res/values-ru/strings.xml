@@ -110,7 +110,7 @@
     <string name="preferences_menu_add_alarm">Добавить новый сигнал</string>
     <string name="preferences_menu_remove_alarm">Убрать сигнал</string>
     <string name="preferences_disable_animation_title">Отключить анимацию</string>
-    <string name="preferences_disable_animation_sum">Отключить эффекты анимации экрана для устройств с низкой производительностью.</string>
+    <string name="preferences_disable_animation_sum">Отключить эффекты анимации экрана для устройств с низкой производительностью</string>
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
@@ -148,7 +148,7 @@
     <string name="procsuckmon_viewby_wake_times">Кол-во пробуждений</string>
     <string name="procsuckmon_viewby_gps">Время исп.GPS</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Вэйклоки ядра</string>
-    <string name="procsuckmon_wakelock_user_apps">Объед.вэйклоки приложения(не ядра)</string>
+    <string name="procsuckmon_wakelock_user_apps">Объед.вэйклоки прилож.(не ядра)</string>
     
     <!-- Main screen -->
     <string name="main_history_button">История</string>
@@ -390,10 +390,10 @@
     <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/ч - разряжается</string>
     <string name="dashclock_to_empty">%1$s до разрядки</string>
     <string name="dashclock_to_full">%1$s до полной</string>
-    <string name="dashclock_pref_show_used">Показ использования</string>
-    <string name="dashclock_pref_show_remaining_time">Показ ост. времени</string>
-    <string name="dashclock_pref_show_active_standby">Показ активн. и ожидания</string>
-    <string name="dashclock_pref_show_temp_voltage">Показ темп. и напряж.</string>
+    <string name="dashclock_pref_show_used">Использование</string>
+    <string name="dashclock_pref_show_remaining_time">Остаток времени</string>
+    <string name="dashclock_pref_show_active_standby">Активный режим и ожидание</string>
+    <string name="dashclock_pref_show_temp_voltage">Температура и напряжение</string>
     <string name="dashclock_settings">Настройки расширения GSam</string>
     
     <!-- Translations & Translators -->
