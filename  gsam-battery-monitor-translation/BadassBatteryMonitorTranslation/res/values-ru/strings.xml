@@ -7,11 +7,11 @@
     <string name="battery_status_time_left">Ост.:%1$02d:%2$02d(в средн.),%3$02d:%4$02d(посл.%5$sмин)</string>
     <string name="battery_status_time_left_no_running">Ост.:%1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Ост.:подсчет - проверьте позже</string>
-    <string name="battery_status_time_to_full">Время до полн.зарядки: %1$02d:%2$02d</string>
+    <string name="battery_status_time_to_full">Время до полной зарядки: %1$02d:%2$02d</string>
     <string name="battery_status_time_to_full_unknown">Время до полн.:подсчет - проверьте позже</string>
     <string name="battery_status_title">Статус батареи-%1$s%% (%2$s)</string>
-    <string name="battery_status_title_charging">Статус батареи-%1$s%% (%2$s)-зарядка</string>
-    <string name="battery_status_title_full">Статус батареи-%1$s%% (%2$s)-заряжена</string>
+    <string name="battery_status_title_charging">Батарея заряжается-%1$s%% (%2$s)</string>
+    <string name="battery_status_title_full">Батарея заряжена-%1$s%% (%2$s)</string>
     
     <!-- Preferences -->
     <string name="preferences_general_category">Общие предпочтения</string>
