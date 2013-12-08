@@ -214,7 +214,7 @@
     <string name="main_tablet_active_usage">Активный режим (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">Режим ожидания (%1$02d:%2$02d:%3$02d)</string>
     <string name="rate_me_title">Оценить GSam Battery Monitor</string>
-    <string name="rate_me_msg">Вам нравится GSam Battery Monitor? Пожалуйста, выделите время, чтобы дать приложению хороший рейтинг!\n\nНе беспокойтесь - Вас об этом больше не спросят.</string>
+    <string name="rate_me_msg">Вам нравится GSam Battery Monitor? Пожалуйста, уделите время, чтобы дать приложению хороший рейтинг!\n\nНе беспокойтесь - Вас об этом больше не спросят.</string>
     <string name="rate_me_ok">Оценить!</string>
     <string name="main_header_type">Тип</string>
     <string name="main_header_time">Время</string>
@@ -353,7 +353,7 @@
     <string name="notification_battlow">Низкий уровень заряда (%1s%%)</string>
     <string name="notification_batthot_f">Предупреждение-батарея горячая (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">Предупреждение-батарея горячая (%.1f\u00B0C)</string>
-    <string name="notification_battovervoltage">Предупреждение-перенапряжение батареи (%.1f V)</string>
+    <string name="notification_battovervoltage">Предупреждение-перенапряжение батареи (%.1f В)</string>
     <string name="chart_active">Активн.</string>
     <string name="chart_batt_history">История батареи (%1$s)</string>
     <string name="chart_batt_percent">Батарея %</string>
@@ -375,10 +375,10 @@
     
     <!-- About -->
     <string name="about_app_name">О GSam Battery Monitor</string>
-    <string name="about_version">Version %1s</string>
+    <string name="about_version">Версия %1s</string>
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
-    <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
-    <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
+    <string name="about_chartengine">График от AChartEngine.org</string>
+    <string name="about_actionbar">Совместимость строки меню от actionbarsherlock.com</string>
     <string name="about_translations">Перевод:</string>
 
     <!-- DashClock Widget Extension -->
