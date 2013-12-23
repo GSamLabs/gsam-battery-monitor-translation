@@ -203,6 +203,7 @@
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
     <string name="menu_send_debug_data_body">Please enter a description of the problem you encountered:\n\n</string> 
     <string name="menu_review">Review GSam Battery Monitor</string>
+    <string name="menu_enable_more_stats">Enable More Stats</string>
     <string name="main_share_intentchoosertitle">Share my average battery life\u2026</string>
     <string name="main_share_subject">Average Battery Life - GSam Battery Monitor</string>
     <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
@@ -228,13 +229,13 @@
     <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
     <string name="main_avg_chargetime_label">Charge Time:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
-    <string name="main_kitkat_nostats_title">Root Companion App Required On KitKat</string>
-    <string name="main_kitkat_nostats_helper_needed">Unfortunately, Google has removed the ability in KitKat (4.4) for
-        non-system applications to access battery statistics\n
-        \nAs Root, you can re-enable GSam by installing the Root Companion app (http://goo.gl/Dy06az) and copying it to
-        /system/priv-app.\n
-        \nWe are working on an alternate means to collect the needed data as well - sorry for the inconvenience!\n
-        \nSee http://goo.gl/r93pUE for more information.</string>
+    <string name="main_kitkat_nostats_title2">Enable More Stats with Root Companion App</string>
+    <string name="main_kitkat_nostats_helper_needed2">You can enable access to more statistics if you
+        have Root access by installing the GSam Root Companion app.  This gives you access to detailed
+        wakelock, sensor usage, and many other statistics.\n
+        \nIf you do not have Root, or do not know what this means, don\'t worry about it.  GSam will
+        function just fine without it.\n
+        \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> for more information.</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">The Root Companion application is not installed correctly in /system/priv-app.  Please launch the application and verify it is correctly installed.</string>
 	<string name="main_kitkat_nostats_launch_companion">Launch Root Companion</string>
 	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
