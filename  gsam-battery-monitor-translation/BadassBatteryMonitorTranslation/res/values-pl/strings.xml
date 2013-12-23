@@ -77,12 +77,12 @@
     <string name="profedit_custom_values_saves">Zapisano niestandardowe wartości. Możesz ponownie włączyć domyślne ustawienia w oknie preferencji.</string>
     <string name="preferences_clear_chart_history_title">Wyczyść plik historii wykresu</string>
     <string name="preferences_clear_chart_history_sum">Kliknij tutaj, aby wyczyścić plik historii wykresu z pamięci podręcznej.</string>
-    <string name="preferences_clear_chart_history_toast">Udostępnij mój średni czas pracy baterii\ u2026</string>
+    <string name="preferences_clear_chart_history_toast">Udostępnij mój średni czas pracy baterii\u2026</string>
     <string name="preferences_clear_chart_history_alert">Jesteś pewny?</string>
     <string name="preferences_clear_history_stats_title">Resetowanie statystyk baterii</string>
     <string name="preferences_clear_history_stats_sum">Kliknij tutaj, aby zresetować statystyki baterii. Spowoduje to usunięcie całej historii. Odpowiednik pełnego naładowania i odłączenia. Wszystkie statystyki są resetowane do tego punktu, należy używać z ostrożnością!</string>
-    <string name="preferences_clear_history_stats_toast">Wszystkie statystyki baterii zostały wyczyszczone\ u2026</string>
-    <string name="preferences_clear_history_stats_error_toast">Nie można zresetować statystyki - to urządzenie może nie obsługiwać tej funkcji\ u2026</string>
+    <string name="preferences_clear_history_stats_toast">Wszystkie statystyki baterii zostały wyczyszczone\u2026</string>
+    <string name="preferences_clear_history_stats_error_toast">Nie można zresetować statystyki - to urządzenie może nie obsługiwać tej funkcji\u2026</string>
     <string name="preferences_custom_ref">Historia baterii będzie opierać się od niestandardowego punktu odniesienia utworzonego teraz(lub gdy urządzenie zostanie odłączone od zasilania). To może służyć do określenia, co korzysta z baterii od tego określonego punktu w czasie, a nie od ostatniego odłączenia lub ładowania.</string>
     <string name="preferences_custom_ref_plugged">Urządzenie jest aktualnie ładowanie - można utworzyć niestandardowe odniesienie, tylko gdy urządzenie jest odłączone od zasilania.</string>
     <string name="preferences_send_anon_stats_title">Pozwól na anonimowe statystyki użytkowania</string>
@@ -153,7 +153,7 @@
     <!-- Main screen -->
     <string name="main_history_button">Historia</string>
     <string name="main_preferences_button">Preferencje</string>
-    <string name="main_calculating">Obliczanie\ u2026</string>
+    <string name="main_calculating">Obliczanie\u2026</string>
     <string name="main_full">Pełna</string>
     <string name="main_timeremaining">Pozostały czas</string>
     <string name="main_timetofull2">Do pełna:</string>
@@ -195,7 +195,7 @@
     <string name="menu_set_custom_ref">Ustaw niestandardowe preferencje</string>
     <string name="menu_remove_custom_ref">Usuń niestandardowe preferencje</string>
     <string name="menu_refresh">Odśwież</string>
-    <string name="main_refresh_toast">Statystyki odświeżone\ u2026</string>
+    <string name="main_refresh_toast">Statystyki odświeżone\u2026</string>
     <string name="main_market_nomarket_msg">Funkcja jest nie dostępna. Wydaje się, że aplikacja Market nie jest zainstalowana na tym urządzeniu.</string>
     <string name="menu_help">Pomoc</string>
     <string name="menu_send_debug_data">Wyślij raport o błędach</string>    
@@ -203,7 +203,7 @@
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Raport o błędach</string>  
     <string name="menu_send_debug_data_body">Proszę wprowadź opis napotkanego problemu:\n\n</string>
     <string name="menu_review">Oceń GSam Battery Monitor</string>
-    <string name="main_share_intentchoosertitle">Udostępnij mój średni czas pracy baterii\2026</string>
+    <string name="main_share_intentchoosertitle">Udostępnij mój średni czas pracy baterii\u2026</string>
     <string name="main_share_subject">Średni czas pracy baterii - GSam Battery Monitor</string>
     <string name="main_share_msg2">Moje %1$s %2$s średnie baterii %3$s (%4$s aktywne korzystanie) na jednym ładowaniu. Sprawdź na GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_share_msg">Moje %1$s %2$s średnie baterii %3$s na jednym ładowaniu. Sprawdź na GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
