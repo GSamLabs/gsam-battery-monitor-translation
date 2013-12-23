@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">GSam Battery Monitor</string>
+    <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">Hátralévő idő: %1$02d:%2$02d (átlag), %3$02d:%4$02d (utolsó %5$sm)</string>
+    <string name="battery_status_time_left">Hátralévő idő: %1$02d:%2$02d (átlag), %3$02d:%4$02d (utolsó %5$sp)</string>
     <string name="battery_status_time_left_no_running">Hátralévő idő: %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Hátralévő idő: Kalkuláció..., nézd meg később</string>
     <string name="battery_status_time_to_full">Teljes töltésig: %1$02d:%2$02d</string>
@@ -24,17 +24,14 @@
     <string name="preferences_show_notification_icon_sum">Megjeleníti a % ikont az értesítési sávon</string>
     <string name="preferences_show_notification_title">Csak az értesítést mutatja</string>
     <string name="preferences_show_notification_sum">Az értesítések megjelenítése, de az ikont nem teszi ki az állapotsorra</string>
-    <string name="preferences_alarm_chargecomplete_title">Töltés kész</string>
-    <string name="preferences_alarm_chargecomplete_sum">Értesítés teljes feltöltéskor</string>
-    <string name="preferences_alarm_lowbatt_title">Alacsony akku</string>
-    <string name="preferences_alarm_lowbatt_sum">Értesítés alacsony akku szintnél</string>
-    <string name="preferences_alarm_lowbatttrigger_title">Alacsony akku szint</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">% érték a riasztási szinthez</string>
-    <string name="preferences_alarm_lowbatttrigger_err">Az értéknek 0 és 100 között kell lennie</string>
-    <string name="preferences_alarm_hotbatt_title">Forró akku</string>
-    <string name="preferences_alarm_hotbatt_sum">Értesítés, ha az akku  a túl meleg lesz</string>
-    <string name="preferences_alarm_hotbatttrigger_title">Forró akku határérték</string>
-    <string name="preferences_alarm_hotbatttrigger_sum">Hőmérséklet riasztási határ</string>
+    <string name="preferences_alarm_condition_charging">Akku szint felett</string>
+    <string name="preferences_alarm_condition_discharging">Akku szint alatt</string>
+    <string name="preferences_alarm_condition_overheated">Akku túlhevülés</string>
+    <string name="preferences_alarm_condition_overvoltage">Akku túlfeszültség</string>
+    <string name="preferences_alarm_condition_temperature">Hőmérséklet felett</string>
+    <string name="preferences_alarm_select_percent">Akku százalék</string>
+    <string name="preferences_alarm_select_temperature">Akku hőmérséklet</string>
+    <string name="preferences_alarm_select_tone">Értesítési hang választás</string>
     <string name="preferences_theme_title">Akku ikon téma</string>
     <string name="preferences_theme_sum">Akku ikon stílus választás</string>
     <string name="preferences_theme_getmore_title">További témák beszerzése</string>
@@ -44,6 +41,8 @@
     <string name="preferences_widget_back_title">Áttetsző widget háttér</string>
     <string name="preferences_widget_back_msg">Tedd teljesen átlátszóvá a widget hátterét, úgy a háttér átlátszik rajta.</string>
     <string name="preferences_widget_show_timeleft_title">Hátralévő idő mutatása</string>
+    <string name="preferences_widget_show_temp_title">Hőmérséklet mutatása</string>
+    <string name="preferences_widget_show_voltage_title">Feszültség mutatása</string>
     <string name="preferences_overlay_icon_sum">Az akku ikont a jobb felső sarokba kerül az eredeti akku ikont letakarva.</string>
     <string name="preferences_overlay_icon_title">Eredeti akku ikon letakarása</string>
      <string name="preferences_overlay_icon_configure_sum">A letakaró ikon méretének, helyének, háttérszínének, stb. beállítása és egyebek.</string>
@@ -51,6 +50,7 @@
     <string name="preferences_overlay_icon_configure_invalid">A beállítás nem végezhető el. Nyisd meg az ikon csomagot manuálisan a beállítások végrehajtásához.</string>
     <string name="preferences_overlay_icon_notvalid_title">A kiválasztott téma nem támogatja az ikon letakarást</string>
     <string name="preferences_overlay_icon_notvalid_msg">Válassz másik témát és próbáld újra.\n\nA letakaró ikonok csak a külső ikon csomagokban támogatottak. Válassz további témák közül az Akku ikon téma menüből és keress külső ikon csomagot. A GSam Labs összes ikon csomagja támogatja a letakaró ikonokat. Más forrású ikon csomagok nem biztos, hogy alkalmasak erre.</string>
+    <string name="preferences_show_charging_animation_title">Animáció töltés közben</string>
     <string name="preferences_widget_color_screen_title">Battery Widget beállítások</string>
     <string name="preferences_app_theme_title">Sötét téma használata</string>
     <string name="preferences_app_theme_sum">Sötét téma használata az alkalmazásképernyőknél</string>
@@ -60,9 +60,10 @@
     <string name="preferences_power_profiles_use_stock_title">Egyéni profil engedélyezés</string>
     <string name="preferences_power_profiles_edit_title">Energia profil szerkesztés</string>
     <string name="preferences_profiles_screen_summary">Haladó - Az energiaprofil szerkesztése a kalkuláció módosításához</string>
-    <string name="preferences_power_per_percent_title">Százalékonkénti energia</string>
-    <string name="preferences_power_per_percent_summary">Mennyi energiát használunk minden egy százalékos akku eséskor. Nullázd ki, ha megváltoztatod a profilbeállításokat.</string>
+    <string name="preferences_power_per_percent_reset_title">Hátralévő idő becslés alapra</string>
+    <string name="preferences_power_per_percent_reset_summary">Alapra állítja a hátralévő idő becslést.  Akkor alkalmazd, ha a hátralévő idő becslés nem hiteles.  Jelenleg %1$s / százalékkal kalkulálva %2$01d százalék</string>
     <string name="preferences_power_per_percent_dlgtext">Ponttal elválasztva a POWER_USED_PER_PERCENT_DROP és a TOTAL_PERCENT_MEASURED értéke. Ez az érték állandóan változik - minél tovább fut, annál pontosabb. Ha megváltoztatjuk az Energiaprofil beállítást, akkor törölnünk kell ezt a mezőt is és hagyjuk, hogy az alkalmazás újra generálja.</string>
+    <string name="preferences_power_per_percent_reset">Alapra</string>
     <string name="preferences_time_per_percent_title">Lemerítési napló idő nullázás</string>
     <string name="preferences_time_per_percent_unkown">ismeretlen</string>
     <string name="preferences_time_per_percent_summary">Nullázza az utolsó lemerülési ciklus akkuértékeinek kalkulált átlageredményeit. Jelenleg %1$s (%2$sm / százalék kalkulálva %3$01d százalékarányra)</string>
@@ -91,7 +92,7 @@
     <string name="preferences_override_lang_title">Nyelv</string>
     <string name="preferences_override_lang_sum">Ha a rendszer alapértelmezettől eltérő nyelvet szeretnél használni.</string>
     <string name="preferences_power_profiles_include_sensors_title">Szenzorokat is belevéve a kalkulációba</string>
-    <string name="preferences_power_profiles_include_sensors_sum">Néhány készülék (Kindle Fire) nem jól kalkulálja a szenzor használatot. Töröld ezt, ha az alkalmazások szenzorhasználata helytelennek tűnik</string>
+    <string name="preferences_power_profiles_include_sensors_sum">Néhány készülék nem jól kalkulálja a szenzor használatot. Töröld ezt, ha az alkalmazások szenzorhasználata helytelennek tűnik (különösen a gyorsulásmérő).</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">\'Százalékonkénti energia\' nullázása"</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">"Ez le fogja nullázni a \'Százalékonkénti energia\' kalkulációt. Valóban folytatod?"</string>
     <string name="preferences_widget_dialog_title">Szín választás</string>
@@ -99,13 +100,17 @@
     <string name="preferences_widget_color_middle_title">Szín 50%</string>
     <string name="preferences_widget_color_empty_title">Szín 0%</string>
     <string name="preferences_widget_color_alpha_title">Szín áttetszőség</string>
-    <string name="preferences_widget_color_preview_title">Százalékérték megjelenítés</string>
-    <string name="preferences_widget_color_preview_sum">A százalékos teljes érték beállítása az akku nézet alatt.</string>
+    <string name="preferences_widget_color_preview_title">Százalékértékkel kitöltés</string>
+    <string name="preferences_widget_color_preview_sum">Kitölti az akku nézeti képét a töltöttségi szintnek megfelelően.</string>
     <string name="preferences_widget_color_screen_sum">Akku nézet színárnyalata és a widget beállítások</string>
     <string name="preferences_widget_color_category">Színek</string>
     <string name="preferences_widget_general_category">Általános</string>
     <string name="preferences_start_foreground_title">Magas prioritás</string>
     <string name="preferences_start_foreground_sum">A Battery Monitor-t magas prioritással futtatja. Csak akkor használd, ha az állapotsor ikon nem megfelelően mutatja az akku töltöttségi értéket. Egyébként ne engedélyezd, mivel túl sok erőforrást vonhat el más alkalmazásoktól. </string>
+    <string name="preferences_menu_add_alarm">Új riasztás hozzáadás</string>
+    <string name="preferences_menu_remove_alarm">Riasztás eltávolítás</string>
+    <string name="preferences_disable_animation_title">Animáció tiltása</string>
+    <string name="preferences_disable_animation_sum">Kikapcsolja az animációt (lassabb készülékekhez)</string>
    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kör</string>  
@@ -113,12 +118,12 @@
     <string name="icon_themes_trad">Hagyományos</string>  
     <string name="icon_themes_default">Rendszer ikon</string>  
     <string name="icon_themes_getmore">További témák</string>
-    <string name="time_left_calc_dontshow">Ne legyen időosztás</string>
+    <string name="time_left_calc_dontshow">Ne legyen számítás</string>
     <string name="time_left_calc_last5">Utolsó 5 perc</string>
     <string name="time_left_calc_last15">Utolsó 15 perc</string>
     <string name="time_left_calc_last30">Utolsó 30 perc</string>
     <string name="time_left_calc_last60">Utolsó 60 perc</string>
-    <string name="stats_since_unplugged">Akkuról leválasztás óta</string>
+    <string name="stats_since_unplugged">Töltőről leválasztás óta</string>
     <string name="stats_since_charged">Full feltöltés óta</string>
     <string name="stats_since_custom">Egyéni ref. ponttól</string>
     <string name="pwer_profiles_mfg">Gyártói értékek</string>
@@ -142,20 +147,22 @@
     <string name="procsuckmon_viewby_awake">Ébren tartás ideje</string>
     <string name="procsuckmon_viewby_wake_times">Felébresztések száma</string>
     <string name="procsuckmon_viewby_gps">GPS használati idő</string>
-  	<string name="procsuckmon_viewby_kernel_wakelocks">Kernel ébrentartások</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">Kernel ébrentartások</string>
+    <string name="procsuckmon_wakelock_user_apps">Kombinált alkalmazás ébrentartás (nem kernel)</string>
+
     <!-- Main screen -->
     <string name="main_history_button">Előzmény</string>
     <string name="main_preferences_button">Beállítások</string>
     <string name="main_calculating">Számolás\u2026</string>
     <string name="main_full">Teljes</string>
-    <string name="main_timetofull">Teljes töltésig </string>
-    <string name="main_timetofull_tablet">Teljes feltöltésig </string>
-    <string name="main_timeleft">Hátralévő(átl.haszn.) </string>
-    <string name="main_timeleft_tablet">Hátralévő (átlag használat) </string>
-    <string name="main_timeleft_rolling">Hátralévő(utolsó %1$sp) </string>
-    <string name="main_timeleft_rolling_tablet">Hátralévő (utolsó %1$sp alapján) </string>
-    <string name="main_talktime">Hátralévő(hívásra) </string>
-    <string name="main_talktime_tablet">Hátralévő beszélgetési idő: </string>
+    <string name="main_timeremaining">Hátralévő idő</string>
+    <string name="main_timetofull2">Full-ig </string>
+    <string name="main_timetofull_tablet2">Teljes feltöltésig </string>
+    <string name="main_timeleft2">Átlag </string>
+    <string name="main_timeleft_tablet2">Átlag használat </string>
+    <string name="main_timeleft_rolling2">Utolsó %1$sp </string>
+    <string name="main_timeleft_rolling_tablet2">Utolsó %1$sp alapján </string>
+    <string name="main_talktime2">Hívásra </string>
     <string name="main_temp">Hőmérséklet:</string>
     <string name="main_voltage">Feszültség:</string>
     <string name="main_health">Típus/állapot:</string>
@@ -167,6 +174,9 @@
     <string name="main_health_unknown">Ismeretlen</string>
     <string name="main_health_failed">Sikertelen</string>
     <string name="main_usage_label">Akkuhasználat - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label2">Eddig %1$s%% ez %2$s</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/ó - %2$s Aktív, %3$s Készenlét</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/ó - %2$s Aktív</string>
     <string name="main_phone_on_label">Telefon:</string>
     <string name="main_screen_on_label">Képernyő:</string>
     <string name="main_phone_radio_on_label">Rádió rész:</string>
@@ -188,6 +198,10 @@
     <string name="main_refresh_toast">Statisztika frissítés\u2026</string>
     <string name="main_market_nomarket_msg">A funkció nem elérhető. Úgy tűnik, a Market alkalmazás nincs telepítve erre a készülékre.</string>
     <string name="menu_help">Súgó</string>
+    <string name="menu_send_debug_data">Hibajelentés küldése</string>    
+    <string name="menu_send_debug_data_dlg_title">Hibajelentés küldés tudnivalók:</string>
+    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
+    <string name="menu_send_debug_data_body">Kérlek add meg a felmerült probléma leírását:\n\n</string>
     <string name="menu_review">GSam Battery Monitor áttekintése</string>
     <string name="main_share_intentchoosertitle">Átlagos akkuidő megosztása\u2026</string>
     <string name="main_share_subject">Átlagos akkuidő - GSam Battery Monitor</string>
@@ -205,23 +219,45 @@
     <string name="main_header_type">Típus</string>
     <string name="main_header_time">Idő</string>
     <string name="main_header_power">Akku</string>
+    <string name="averages_since">Ekkortól: %1$s</string>
+    <string name="averages_header">Átlag, teljes töltésre vetítve</string>
+    <string name="main_avg_timepercharge_label2">Akku idő:</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s Aktív)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Készenlét)</string>
+    <string name="main_avg_screenon_label">Képernyő be:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
+    <string name="main_avg_chargetime_label">Töltési idő:</string>
+    <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
+    <string name="main_kitkat_nostats_title">Root Companion alkalmazás szükséges KitKat-nál</string>
+    <string name="main_kitkat_nostats_helper_needed">Sajnos a Google megszüntette a KitKat (4.4)-ban azt a lehetőséget,
+        hogy a nem rendszer alkalmazások hozzáférjenek az akku statisztikához\n
+        \nA Root Companion alkalamzás (http://goo.gl/Dy06az) a GSam részére root jogokat biztosít bemásolva azt a
+        /system/priv-app mappába.\n
+        \nDolgozunk egy alternatív megoldáson, hogy összegyűjtsük a szükséges adatokat - elnézést a kellemetlenségért!\n
+        \nNézd meg ezt: http://goo.gl/r93pUE a további információkért.</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">A Root Companion alkalmazás nincs megfelelően telepítve a /system/priv-app mappába.  Kérlek futtasd az alkalmazást és ellenőrizd, hogy megfelelően települt-e.</string>
+        <string name="main_kitkat_nostats_launch_companion">Root Companion indítása</string>
+        <string name="main_kitkat_nostats_install_companion">Root Companion telepítése</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Alkalmazások</string>
     <string name="process_suck_mon_title_prefix_wifi">Wifi</string>
     <string name="process_suck_mon_title_prefix_radio">Telefon rádió</string>
     <string name="process_suck_mon_title_prefix_screen">Képernyő</string>
-  	<string name="process_suck_mon_title_prefix_wakelock">Ébrentartás</string>    
+        <string name="process_suck_mon_title_prefix_wakelock">Ébrentartás</string>    
     <string name="appdetail_usagedetail">Használat részletei</string>
     <string name="appdetail_processname">Folyamat név</string>
     <string name="appdetail_included_packages">Csomagok</string>
     <string name="appdetail_included_processes">Folyamatok</string>
     <string name="appdetail_seconds">%1$01dmp</string>
     <string name="appdetail_minutes">%1$01dp %2$01dmp</string>
+    <string name="appdetail_minutes_decimal">%1$sp</string>
     <string name="appdetail_days">%1$01dn %2$01dó %3$01dp</string>
     <string name="appdetail_days_twolevels">%1$01dn %2$01dó</string>
+    <string name="appdetail_days_twolevels_decimal">%1$01dn %2$só</string>
     <string name="appdetail_hours">%1$01dó %2$01dp %3$01dmp</string>
     <string name="appdetail_hours_twolevels">%1$01dó %2$01dp</string>
+    <string name="appdetail_hours_twolevels_decimal">%1$01dó %2$sp</string>
     <string name="appdetail_details_button">Kezelés</string>
     <string name="appdetail_details_adjustpower">Akku takarékossági tipp</string>
     <string name="appdetail_details_adjust_wifi">Kapcsold ki a Wi-Fi-t a fenti beállítás gombbal, ha nem használod.</string>
@@ -286,6 +322,8 @@
     <string name="appdetail_bytes">%d bájt</string>        
     <string name="appdetail_mb">%.2f MB</string>          
     <string name="appdetail_kb">%.2f KB</string>    
+    <string name="appdetail_totaltime">Össz idő (ébrenléti is):</string>
+    <string name="appdetail_select_package">Csomag választás a kezeléshez</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Újdonságok</string>
@@ -298,6 +336,12 @@
     <string name="ok">OK</string>
     <string name="error">Egy hiba keletkezett</string>
 
+    <!-- Copied from the original BATTERY_STATS permission description -->
+    <string name="permlab_batteryStats">read battery statistics</string>
+    <string name="permdesc_batteryStats">Engedélyt ad az alkalmazásnak, hogy a jelenlegi alacsony szintű
+        akku használati adatokhoz hozzáférjen.  Lehetséges, hogy részletekbe menő alkalmazáshasználati
+        adatokhoz is hozzáfér majd.</string>
+
     <!-- Charts -->
     <string name="main_chart_showtemp">Hőmérséklet</string>
     <string name="main_chart_showother">Egyebek</string>
@@ -305,9 +349,11 @@
     <string name="chart_menu_batthistory">Akku előzmény diagram</string>
     <string name="chart_menu_battdischarge">Akku és Százalék diagram</string>
     <string name="notification_chargecomplete">A töltés teljes</string>
+    <string name="notification_battcharging">Akku töltés (%1s%%)</string>
     <string name="notification_battlow">Akkuszint alacsony (%1s%%)</string>
-    <string name="notification_batthot_f">Figyelem - Az akku túl meleg (%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">Figyelem - Az akku túl meleg (%.1f\u00B0C)</string>
+    <string name="notification_batthot_f">Figyelem - Akku túlmelegedés (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Figyelem - Akku túlmelegedés (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Figyelem - Akku túlfeszültség (%.1f V)</string>
     <string name="chart_active">Aktív</string>
     <string name="chart_batt_history">Akku előzmény (%1$s)</string>
     <string name="chart_batt_percent">Akku %</string>
@@ -334,16 +380,31 @@
     <string name="about_chartengine">Diagramot készítette:  AChartEngine.org</string>
     <string name="about_actionbar">ActionBar kompatibilitás:  actionbarsherlock.com</string>
     <string name="about_translations">Fordítók:</string>
+
+    <!-- DashClock Widget Extension -->
+    <string name="dashclock_description">Megjeleníti az akku statisztikát, beleértve a hátralévő időt, merülést óránként és egyebeket.</string>
+    <string name="dashclock_active_standby">%1$s Aktív, %2$s Készenlét</string>
+    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/ó</string>
+    <string name="dashclock_delta_per_hour_short_full">Teljes</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/ó - Töltés</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/ó - Lemerítés</string>  
+    <string name="dashclock_to_empty">%1$s lemerülésig</string>  
+    <string name="dashclock_to_full">%1$s feltöltésig</string>
+    <string name="dashclock_pref_show_used">Használati százalék mutatása</string>
+    <string name="dashclock_pref_show_remaining_time">Hátralévő idő mutatása</string>
+    <string name="dashclock_pref_show_active_standby">Aktív és készenléti idő mutatása</string>
+    <string name="dashclock_pref_show_temp_voltage">Hőmérséklet és feszültség mutatása</string>
+    <string name="dashclock_settings">GSam bővítmények beállításai</string>
    
     <!-- Translations & Translators -->  
     <string name="lang_default">Alapértelmezett rendszer nyelv</string>        
     <string name="translator_anonymous">Névtelen</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
     <string name="translator_hu">István Kriskó (Stefi)</string>
-    
-	<!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
+
+        <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">A képernyő túl világos?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">a Ha neked gondot okot az éjszakai olvasás, mert a kijelződ nagyon világít, nézd meg a GSam Screen Dimmer-t. Ezzel még tovább csökkentheted a fényerő beállításokat, melyeket a rendszer már jónak tartott. Így még kényelmesebb lesz az éjszakai olvasás.\n\nNe aggódj, nem fogod látni újra ezt az üzenetet.</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Ha neked gondot okot az éjszakai olvasás, mert a kijelződ nagyon világít, nézd meg a GSam Screen Dimmer-t. Ezzel még tovább csökkentheted a fényerő beállításokat, melyeket a rendszer már jónak tartott. Így még kényelmesebb lesz az éjszakai olvasás.\n\nNe aggódj, nem fogod látni újra ezt az üzenetet.</string>
     <string name="preferences_send_anon_stats_buypro_title">Válts a Pro-ra!</string>
     <string name="preferences_send_anon_stats_buypro_msg">A Battery Monitor ingyenes változatában nem lehet kikapcsolni a hirdetéseket, ha az választod hogy ne engedélyezze az ismeretlen használati statisztikát.\n\nA Pro verzió nem tartalmaz hirdetéseket és engedi kikapcsolni az ismeretlen használati statisztikát.</string>
     <string name="menu_seeotherapps">Nézd meg a többi GSam Labs alkalmazást</string>
@@ -381,5 +442,5 @@
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with">Megosztás</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">Megosztás ezzel: <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">Megosztás... <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
