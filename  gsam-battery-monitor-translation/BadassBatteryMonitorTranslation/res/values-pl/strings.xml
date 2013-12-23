@@ -175,8 +175,8 @@
     <string name="main_health_failed">Niepowodzenie</string>
     <string name="main_usage_label">Zużycie baterii - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_usage_label2">Użycie %1$s%% in %2$s</string>
-    <string name="main_usage_label_active_standby">u0394 %1$.1f%%/h - %2$s Aktywny, %3$s Czuwanie</string>
-    <string name="main_usage_label_active">u0394 %1$.1f%%/h - %2$s Aktywny</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s Aktywny, %3$s Czuwanie</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s Aktywny</string>
     <string name="main_phone_on_label">Telefon:</string>
     <string name="main_screen_on_label">Ekran:</string>
     <string name="main_phone_radio_on_label">GSM Radio:</string>
@@ -219,7 +219,7 @@
     <string name="main_header_type">Typ</string>
     <string name="main_header_time">Czas</string>
     <string name="main_header_power">Energia</string>
-    <string name="averages_since">Od %1$ s</string>
+    <string name="averages_since">Od %1$s</string>
     <string name="averages_header">Srednio na pełnym naładowaniu</string>
     <string name="main_avg_timepercharge_label2">Żywotność baterii:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s Aktywny)</string>
@@ -351,8 +351,8 @@
     <string name="notification_chargecomplete">Ładowanie zakończone</string>
     <string name="notification_battcharging">Ładowanie baterii (%1s%%)</string>
     <string name="notification_battlow">Niski poziom baterii (%1s%%)</string>
-    <string name="notification_batthot_f">Ostrzeżenie - Gorąca Bateria (%.1fu00B0F)</string>
-    <string name="notification_batthot_c">Ostrzeżenie - Gorąca Bateria (%.1fu00B0C)</string>
+    <string name="notification_batthot_f">Ostrzeżenie - Gorąca Bateria (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Ostrzeżenie - Gorąca Bateria (%.1f\u00B0C)</string>
     <string name="notification_battovervoltage">Ostrzeżenie - Wysokie napięcie baterii (%.1f V)</string>
     <string name="chart_active">Aktywne</string>
     <string name="chart_batt_history">Historia baterii (%1$s)</string>
@@ -367,8 +367,8 @@
     <string name="chart_med">Średni</string>
     <string name="chart_screen">Ekran</string>
     <string name="chart_signal">Sygnał telefonu</string>
-    <string name="chart_tempc">Temperatura Beterii u00B0C</string>
-    <string name="chart_tempf">Temperatura Beterii u00B0F</string>
+    <string name="chart_tempc">Temperatura Beterii \u00B0C</string>
+    <string name="chart_tempf">Temperatura Beterii \u00B0F</string>
     <string name="chart_timeformat">hh:mm a</string>
     <string name="chart_unknown">Nieznane</string>
     <string name="chart_wifi">WiFi</string>
@@ -387,7 +387,7 @@
     <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
     <string name="dashclock_delta_per_hour_short_full">Pełna</string>
     <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Ładowanie</string>  
-    <string name="dashclock_delta_per_hour_discharging">u0394 %1$.1f%%/h - Rozładowywanie</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Rozładowywanie</string>  
     <string name="dashclock_to_empty">%1$s do rozładowania</string>  
     <string name="dashclock_to_full">%1$s do pełnego</string>
     <string name="dashclock_pref_show_used">Pokaż użytą ilość</string>
@@ -400,18 +400,7 @@
     <string name="lang_default">Domyślny język systemu</string>        
     <string name="translator_anonymous">Anonimowy</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_ru">Dmitry Chernogaev &lt;a href="http://forum.xda-developers.com/member.php?u=4563466"&gt;(gaich)&lt;/a&gt;</string>        
-    <string name="translator_fr">Jaworski Johan</string>       
-    <string name="translator_it">Fabio Abbà</string>     
-    <string name="translator_hu">István Kriskó (Stefi)</string>    
-    <string name="translator_cs">Matěj Trakal (&lt;a href="http://mtrakal.cz"&gt;mtrakal&lt;/a&gt;)</string>
-    <string name="translator_sv">Pontus Edgren</string>
-    <string name="translator_nl">ArTsLeOpS</string>
-    <string name="translator_iw">Michael Sandler (&lt;a href="http://sandler.in"&gt;mich&lt;/a&gt;)</string>
-    <string name="translator_zh_CN">Gavin Fang</string>
-    <string name="translator_tr">Saldıray Günal</string>
     <string name="translator_pl">www.cvxcvx.pl</string>
-    <string name="translator_de">Jan Fortein</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Czy Twój ekran jest zbyt jasny?</string>
