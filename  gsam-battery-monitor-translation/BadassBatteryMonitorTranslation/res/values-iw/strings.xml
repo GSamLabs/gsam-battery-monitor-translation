@@ -326,7 +326,7 @@
     <string name="chart_signal">אות סלולרי</string>
     <string name="chart_tempc">טמפרטורת סוללה \u00B0C</string>
     <string name="chart_tempf">טמפרטורת סוללה \u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">לא ידוע</string>
     <string name="chart_wifi">WiFi</string>
    

@@ -371,7 +371,7 @@ Regardez http://goo.gl/r93pUE pour plus d\'informations."</string>
     <string name="chart_signal">Signal Mobile</string>
     <string name="chart_tempc">Température Batterie °C</string>
     <string name="chart_tempf">Température Batterie °F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Inconnu</string>
     <string name="chart_wifi">WiFi</string>
     
