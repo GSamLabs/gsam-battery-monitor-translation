@@ -330,7 +330,7 @@
     <string name="chart_signal">Signaal</string>
     <string name="chart_tempc">Temperatuur \u00B0C</string>
     <string name="chart_tempf">Temperatuur \u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Onbekend</string>
     <string name="chart_wifi">Wi-Fi</string>
     

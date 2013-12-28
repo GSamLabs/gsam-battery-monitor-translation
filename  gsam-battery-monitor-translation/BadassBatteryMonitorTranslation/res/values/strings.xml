@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
 
     <string name="app_name">GSam Battery Monitor</string>
 
@@ -21,7 +21,7 @@
     <string name="preferences_startup_service_sum">Start battery monitoring on boot</string>
     <string name="preferences_temperature_title">Temperature in Celsius</string>
     <string name="preferences_show_notification_icon_title">Show Notification Icon</string>
-    <string name="preferences_show_notification_icon_sum">Show % notification icon in notification bar</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Show % notification icon in notification bar</string>
     <string name="preferences_show_notification_title">Show Notification Only</string>
     <string name="preferences_show_notification_sum">See the notification without the notification icon</string>
     <string name="preferences_alarm_condition_charging">Battery above</string>
@@ -370,7 +370,7 @@
     <string name="chart_signal">Phone Signal</string>
     <string name="chart_tempc">Battery Temperature \u00B0C</string>
     <string name="chart_tempf">Battery Temperature \u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Unknown</string>
     <string name="chart_wifi">Wifi</string>
     
@@ -411,7 +411,7 @@
     <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
     <string name="translator_zh_CN">Gavin Fang</string>
     <string name="translator_tr">Saldıray Günal</string>
-    <string name="translator_pl">cvxcvx</string>
+    <string name="translator_pl">www.cvxcvx.pl</string>
     <string name="translator_de">Jan Fortein</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->

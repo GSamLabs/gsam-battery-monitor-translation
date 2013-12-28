@@ -328,7 +328,7 @@
     <string name="chart_signal">Segnale Telefono</string>
     <string name="chart_tempc">Temperatura Batteria \u00B0C</string>
     <string name="chart_tempf">Temperatura Batteria \u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Sconosciuto</string>
     <string name="chart_wifi">Wifi</string>
     

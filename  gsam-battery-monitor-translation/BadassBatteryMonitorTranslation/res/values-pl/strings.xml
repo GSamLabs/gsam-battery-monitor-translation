@@ -369,7 +369,7 @@
     <string name="chart_signal">Sygnał telefonu</string>
     <string name="chart_tempc">Temperatura Beterii \u00B0C</string>
     <string name="chart_tempf">Temperatura Beterii \u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Nieznane</string>
     <string name="chart_wifi">WiFi</string>
     

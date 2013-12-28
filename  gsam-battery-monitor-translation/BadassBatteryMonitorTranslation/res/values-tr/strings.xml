@@ -327,7 +327,7 @@
 	<string name="chart_signal">Verici Sinyali</string>
 	<string name="chart_tempc">Pil Sıcaklığı \u00B0C</string>
 	<string name="chart_tempf">Pil Sıcaklığı \u00B0F</string>
-	<string name="chart_timeformat">ss:dd a</string>
+	<string name="chart_timeformat">HH:mm</string>
 	<string name="chart_unknown">Bilinmiyor</string>
 	<string name="chart_wifi">Wifi</string>
     

@@ -330,7 +330,7 @@
     <string name="chart_signal">电话信号</string>
     <string name="chart_tempc">电池温度\u00B0C</string>
     <string name="chart_tempf">电池温度\u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">未知</string>
     <string name="chart_wifi">Wifi</string>
    
