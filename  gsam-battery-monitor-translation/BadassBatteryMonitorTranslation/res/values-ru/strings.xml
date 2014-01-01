@@ -203,6 +203,7 @@
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - сообщение об ошибке</string>
     <string name="menu_send_debug_data_body">Пожалуйста, опишите проблему, с которой Вы столкнулись:\n\n</string>
     <string name="menu_review">Оценить GSam Battery Monitor</string>
+    <string name="menu_enable_more_stats">Включить доп. статистику</string>
     <string name="main_share_intentchoosertitle">Поделиться средней жизнью батареи…</string>
     <string name="main_share_subject">Средняя жизнь батареи - GSam Battery Monitor</string>
     <string name="main_share_msg2">Моя продолжительность %1$s %2$s %3$s (%4$s активного использования) на одной зарядке. GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
@@ -228,16 +229,16 @@
     <string name="main_avg_screenon_text">%1$s (%2$s максимум)</string>
     <string name="main_avg_chargetime_label">Время зарядки:</string>
     <string name="main_avg_chargetime_text">%1$s сеть / %2$s USB</string>
-    <string name="main_kitkat_nostats_title">Приложение Root Companion необходимо для KitKat</string>
-    <string name="main_kitkat_nostats_helper_needed">К сожалению, Google убрал в KitKat (4.4) возможность
-        доступа несистемных приложений к статистике батареи\n
-        \nДля решения проблемы, можно  вернуть работу GSam с помощью установки Root Companion (http://goo.gl/Dy06az) и копирования его в
-        /system/priv-app.\n
-        \Мы также работаем над альтернативными средствами сбора необходимых данных - извините за неудобство!\n
-        \nСм. http://goo.gl/r93pUE для дополнительной информации.</string>
+    <string name="main_kitkat_nostats_title2">Включить дополнительную статистику с приложением Root Companion</string>
+    <string name="main_kitkat_nostats_helper_needed2">Можно включить доступ к дополнительной статистике, если на Вашем
+        устройстве есть рут, установив приложение GSam Root Companion.  Это предоставит Вам доступ к детальной
+        статистике вэйклоков, использования датчиков, и многой другой статистике.\n
+        \nЕсли у Вас нет рута, или же Вы не знаете, что это значит, не беспокойтесь.  GSam будет
+        прекрасно работать без этого.\n
+        \nСм. <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> для дополнительной информации.</string>    
     <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion не установлено корректно в/system/priv-app.  Пожалуйста, запустите приложение и проверьте, правильно ли оно установлено.</string>
-    <string name="main_kitkat_nostats_launch_companion">Запустить Root Companion</string>
-    <string name="main_kitkat_nostats_install_companion">Установить Root Companion</string>
+        <string name="main_kitkat_nostats_launch_companion">Запустить Root Companion</string>
+        <string name="main_kitkat_nostats_install_companion">Установить Root Companion</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
