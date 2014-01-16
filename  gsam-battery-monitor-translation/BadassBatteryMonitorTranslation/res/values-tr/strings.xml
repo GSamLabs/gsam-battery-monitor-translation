@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
 
-	<!--  Don't include app name in locale file -->
-    <!-- string name="app_name">GSam Battery Monitor</string -->
+    <string name="app_name">GSam Battery Monitor</string>
 
-    <!-- Notification & Header messages -->
+        <!-- Notification & Header messages -->
 	<string name="battery_status_time_left">Kalan: %1$02d:%2$02d (Ortalama), %3$02d:%4$02d (Son %5$sdk)</string>
 	<string name="battery_status_time_left_no_running">Kalan: %1$02d:%2$02d</string>
 	<string name="battery_status_time_left_unknown">Kalan: Hesaplanıyor - tekrar deneyiniz</string>
