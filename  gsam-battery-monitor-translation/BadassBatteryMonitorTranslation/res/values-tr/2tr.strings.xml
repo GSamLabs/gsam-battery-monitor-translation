@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="app_name">GSam Battery Monitor</string>
+<string name="app_name">GSam Battery Monitor</string>
 
-        <!-- Notification & Header messages -->
+<!-- Notification & Header messages -->
 	<string name="battery_status_time_left">Kalan: %1$02d:%2$02d (Ortalama), %3$02d:%4$02d (Son %5$sdk)</string>
 	<string name="battery_status_time_left_no_running">Kalan: %1$02d:%2$02d</string>
 	<string name="battery_status_time_left_unknown">Kalan: Hesaplanıyor - tekrar deneyiniz</string>
@@ -13,7 +13,7 @@
 	<string name="battery_status_title_charging">Pil Durumu - %1$s%% - Şarj oluyor</string>
 	<string name="battery_status_title_full">Pil Durumu - Şarj tamamlandı(%2$s)</string>
 
-    <!-- Preferences -->
+<!-- Preferences -->
 	<string name="preferences_general_category">Genel Tercihler</string>
 	<string name="preferences_theme_category">Tema</string>
 	<string name="preferences_alarm_category">İkazlar</string>
@@ -21,17 +21,17 @@
 	<string name="preferences_startup_service_sum">Uygulamayı açılışta başlat</string>
 	<string name="preferences_temperature_title">Sıcaklık Birimi Celsius</string>
 	<string name="preferences_show_notification_icon_title">Bildirim Simgesini Göster</string>
-  <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">% Bildirim simgesini bildirim çubuğunda göster</string>
+<string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">% Bildirim simgesini bildirim çubuğunda göster</string>
 	<string name="preferences_show_notification_title">Sadece Bildirim Göster</string>
-<string name="preferences_show_notification_sum">Bildirimi simgesiz g�ster</string>
+<string name="preferences_show_notification_sum">Bildirimi simgesiz göster</string>
 	<string name="preferences_alarm_condition_charging">Pil seviyesi bundan yüksekken</string>
-  <string name="preferences_alarm_condition_discharging">Pil seviyesi bundan düşükken</string>
-  <string name="preferences_alarm_condition_overheated">Pil aşırı ısınmış</string>
-  <string name="preferences_alarm_condition_overvoltage">Pilde aşırı voltaj</string>
-  <string name="preferences_alarm_condition_temperature">Sıcaklık bundan yüksekken</string>
-  <string name="preferences_alarm_select_percent">Pil Yüzdesi</string>
-  <string name="preferences_alarm_select_temperature">Pil Sıcaklığı</string>
-  <string name="preferences_alarm_select_tone">Bildirim Tonunu Seç</string>
+<string name="preferences_alarm_condition_discharging">Pil seviyesi bundan düşükken</string>
+<string name="preferences_alarm_condition_overheated">Pil aşırı ısınmış</string>
+<string name="preferences_alarm_condition_overvoltage">Pilde aşırı voltaj</string>
+<string name="preferences_alarm_condition_temperature">Sıcaklık bundan yüksekken</string>
+<string name="preferences_alarm_select_percent">Pil Yüzdesi</string>
+<string name="preferences_alarm_select_temperature">Pil Sıcaklığı</string>
+<string name="preferences_alarm_select_tone">Bildirim Tonunu Seç</string>
 	<string name="preferences_theme_title">Pil Simge Teması</string>
 	<string name="preferences_theme_sum">Pil simge stilini seç</string>
 	<string name="preferences_theme_getmore_title">Daha Fazla Tema Yükle</string>
@@ -42,8 +42,8 @@
 	<string name="preferences_widget_back_msg">Widget arkaplanını, duvarkağıdınız tamamen gözükecek şekilde, transparan yapın.</string>
 	<string name="preferences_widget_show_timeleft_title">Kalan Süreyi Göster</string>
 	<string name="preferences_widget_show_temp_title">Sıcaklığı Göster</string>
-  <string name="preferences_widget_show_voltage_title">Voltajı Göster</string>
-  <string name="preferences_overlay_icon_sum">Uygulama simgesini sistem pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
+<string name="preferences_widget_show_voltage_title">Voltajı Göster</string>
+<string name="preferences_overlay_icon_sum">Uygulama simgesini sistem pil simgesinin üstüne getir. Yeri, büyüklüğü vb. tamamen ayarlanabilirdir.</string>
 	<string name="preferences_overlay_icon_title">Pil Simgesinin Üstüne Getir</string>
 	<string name="preferences_overlay_icon_configure_sum">Üste gelecek simgenin büyüklüğünü, yerini, arkaplan rengini, parlaklığını vb. düzenleyin.</string>
 	<string name="preferences_overlay_icon_configure_title">Üste Gelecek Simgeyi Düzenle</string>
@@ -60,10 +60,10 @@
 	<string name="preferences_power_profiles_use_stock_title">Özel Güç Profili Kullan</string>
 	<string name="preferences_power_profiles_edit_title">Güç Profilini Düzenle</string>
 	<string name="preferences_profiles_screen_summary">Gelişmiş - Tüketim değerlerinin hesabında kullanılan parametreleri değiştirmek için profil düzenle</string>
-  <string name="preferences_power_per_percent_reset_title">Kalan Zaman Tahminlerini Sıfırla</string>
-  <string name="preferences_power_per_percent_reset_summary">Kalan zaman tahminlerini sıfırlayın. Kalan zaman göstergesi isabetli görünmüyorsa kullanın. Bu değer şu an %1$s / yüzde. %2$01d adet yüzdeden hesaplandı</string>
-   <string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını değiştirdiyseniz sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
-  <string name="preferences_power_per_percent_reset">Sıfırla</string>
+<string name="preferences_power_per_percent_reset_title">Kalan Zaman Tahminlerini Sıfırla</string>
+<string name="preferences_power_per_percent_reset_summary">Kalan zaman tahminlerini sıfırlayın. Kalan zaman göstergesi isabetli görünmüyorsa kullanın. Bu değer şu an %1$s / yüzde. %2$01d adet yüzdeden hesaplandı</string>
+<string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını değiştirdiyseniz sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
+<string name="preferences_power_per_percent_reset">Sıfırla</string>
 	<string name="preferences_time_per_percent_title">Zaman-Tüketim Geçmişini Sıfırlayın</string>
 	<string name="preferences_time_per_percent_unkown">bilinmiyor</string>
 	<string name="preferences_time_per_percent_summary">Pilin tam şarj sonrası ortalama ne kadar sürede tükendiğini gösteren değeri sıfırlayın.Bu değer şu an %1$s (%2$sdk / yüzde. %3$01d adet yüzdeden hesaplandı)</string>
@@ -107,12 +107,12 @@
 	<string name="preferences_widget_general_category">Genel</string>
 	<string name="preferences_start_foreground_title">Yüksek Öncelik</string>
 	<string name="preferences_start_foreground_sum">Uygulamayı yüksek öncelikte çalıştırın. Bu seçeneği sadece pil yüzdesini gösteren simgeler doğru güncellenmiyorsa kullanın. Aksi takdirde, diğer programların çalışması için gereken boş belleği azaltacaktır.</string>
-  <string name="preferences_menu_add_alarm">Yeni İkaz Ekle</string>
-  <string name="preferences_menu_remove_alarm">İkaz Kaldır</string>
-    <string name="preferences_disable_animation_title">Animasyon Efektlerini Kapat</string>
-    <string name="preferences_disable_animation_sum">Yava� cihazlar i�in animasyon efektlerini kapat�r.</string>
-  
-    <!-- Preference Selection Arrays -->    
+<string name="preferences_menu_add_alarm">Yeni İkaz Ekle</string>
+<string name="preferences_menu_remove_alarm">İkaz Kaldır</string>
+<string name="preferences_disable_animation_title">Animasyon Efektlerini Kapat</string>
+<string name="preferences_disable_animation_sum">Yavaş cihazlar için animasyon efektlerini kapatır.</string>
+
+<!-- Preference Selection Arrays -->
 	<string name="icon_themes_circle">Dairesel</string>
 	<string name="icon_themes_icsmono">ICS Monochrome</string>
 	<string name="icon_themes_trad">Geleneksel</string>
@@ -129,7 +129,7 @@
 	<string name="pwer_profiles_mfg">Üretici Değerleri</string>
 	<string name="pwer_profiles_saved">Mevcut Kaydedilmiş Değerler</string>
 
-    <!-- App Sucker -->
+<!-- App Sucker -->
 	<string name="process_kernel_label">Kernel (Android OS)</string>
 	<string name="process_suck_mon_android_system">Sistem (%1s)</string>
 	<string name="process_suck_mon_header">%0$.1f%% pil harcayan:</string>
@@ -148,9 +148,9 @@
 	<string name="procsuckmon_viewby_wake_times">Uyandırılma Sayısı</string>
 	<string name="procsuckmon_viewby_gps">GPS Kullanım Süresi</string>
 	<string name="procsuckmon_viewby_kernel_wakelocks">Kernel Wakelock Sayısı</string>
-<string name="procsuckmon_wakelock_user_apps">Karma Uyg. Wakelocklar� (Kernel harici)</string>
+<string name="procsuckmon_wakelock_user_apps">Karma Uyg. Wakelockları (Kernel harici)</string>
 
-    <!-- Main screen -->
+<!-- Main screen -->
 	<string name="main_history_button">Geçmiş</string>
 	<string name="main_preferences_button">Tercihler</string>
 	<string name="main_calculating">Hesaplanıyor\u2026</string>
@@ -174,9 +174,9 @@
 	<string name="main_health_unknown">Bilinmiyor</string>
 	<string name="main_health_failed">Başarısız</string>
 	<string name="main_usage_label">Pil Kullanımı - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
- <string name="main_usage_label2">Kullan�m: %1$s%% S�re: %2$s</string>
-    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/sa - %2$s Aktif, %3$s Beklemede</string>
-    <string name="main_usage_label_active">\u0394 %1$.1f%%/sa - %2$s Aktif</string>
+<string name="main_usage_label2">Kullanım: %1$s%% Süre: %2$s</string>
+<string name="main_usage_label_active_standby">\u0394 %1$.1f%%/sa - %2$s Aktif, %3$s Beklemede</string>
+<string name="main_usage_label_active">\u0394 %1$.1f%%/sa - %2$s Aktif</string>
 
 	<string name="main_phone_on_label">Arama:</string>
 	<string name="main_screen_on_label">Ekran:</string>
@@ -199,12 +199,12 @@
 	<string name="main_refresh_toast">İstatistikler Yenilendi\u2026</string>
 	<string name="main_market_nomarket_msg">Özellik mevcut değil. Cihazınızda yüklü market uygulaması bulunamadı.</string>
 	<string name="menu_help">Yardım</string>
-    <string name="menu_send_debug_data">Hata Raporu G�nder</string>    
-    <string name="menu_send_debug_data_dlg_title">Hata Raporu G�nder:</string>
-    <string name="menu_send_debug_data_subject">GSam Battery Monitor - Error Report (Hata Raporu)</string>  
-    <string name="menu_send_debug_data_body">L�tfen ya�ad���n�z sorunu k�saca a��klay�n�z:\n\n</string> 
+<string name="menu_send_debug_data">Hata Raporu Gönder</string>
+<string name="menu_send_debug_data_dlg_title">Hata Raporu Gönder:</string>
+<string name="menu_send_debug_data_subject">GSam Battery Monitor - Error Report (Hata Raporu)</string>
+<string name="menu_send_debug_data_body">Lütfen yaşadığınız sorunu kısaca açıklayınız:\n\n</string>
 	<string name="menu_review">GSam Battery Monitor\'ü Değerlendir</string>
-<string name="menu_enable_more_stats">Daha Fazla �statistik</string>
+<string name="menu_enable_more_stats">Daha Fazla İstatistik</string>
 	<string name="main_share_intentchoosertitle">Ortalama Pil Ömrümü Paylaş\u2026</string>
 	<string name="main_share_subject">Ortalama Pil Ömrü - GSam Battery Monitor</string>
 	<string name="main_share_msg2">%1$s %2$s cihazımın tam şarjdaki ortalama pil ömrü: %3$s (%4$s aktif kullanımla). GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
@@ -222,7 +222,7 @@
 	<string name="main_header_time">Süre</string>
 	<string name="main_header_power">Güç</string>
 
-    <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
+<!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
 	<string name="process_suck_mon_title_prefix_app">Uygulama Detayı</string>
 	<string name="process_suck_mon_title_prefix_wifi">Wifi Detayı</string>
 	<string name="process_suck_mon_title_prefix_radio">Verici Detayı</string>
@@ -303,18 +303,18 @@
 	<string name="appdetail_mb">%.2f MB</string>
 	<string name="appdetail_kb">%.2f KB</string>
 
-    <!-- Change Log - actual change content isn't translated -->
+<!-- Change Log - actual change content isn't translated -->
 	<string name="changelog_full_title">Yenilikler</string>
 	<string name="changelog_title">Yenilikler</string>
 	<string name="changelog_ok_button">TAMAM</string>
 
-    <!-- Misc. -->
+<!-- Misc. -->
 	<string name="yes">Evet</string>
 	<string name="no">Hayır</string>
 	<string name="ok">TAMAM</string>
 	<string name="error">Bir hata oluştu.</string>
 
-    <!-- Charts -->
+<!-- Charts -->
 	<string name="main_chart_showtemp">Sıcaklık</string>
 	<string name="main_chart_showother">Diğer</string>
 	<string name="main_chart_showradio">Verici Sinyali</string>
@@ -342,23 +342,23 @@
 	<string name="chart_timeformat">HH:mm</string>
 	<string name="chart_unknown">Bilinmiyor</string>
 	<string name="chart_wifi">Wifi</string>
-    
-    <!-- About -->
+
+<!-- About -->
 	<string name="about_app_name">GSam Battery Monitor Hakkında</string>
 	<string name="about_version">Versiyon no: %1s</string>
 	<string name="about_copyright">\u24d2 GSam Labs 2013</string>
 	<string name="about_chartengine">Grafik Motoru: AChartEngine.org</string>
 	<string name="about_actionbar">ActionBar Uyumluluğu: Actionbarsherlock.com</string>
 	<string name="about_translations">Çeviriler:</string>
-    
-    <!-- Translations & Translators -->   
+
+<!-- Translations & Translators -->
 	<string name="lang_default">Varsayılan Sistem Dili</string>
 	<string name="translator_anonymous">Anonim</string>
-	<!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link. You 
+	<!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link. You
 		can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang' -->
-  <string name="translator_tr">Saldıray Günal</string>
+<string name="translator_tr">Saldıray Günal</string>
 
-    <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
+<!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
 	<string name="appdetail_details_adjust_screen_market_bsd_title">Ekranınız Çok Mu Parlak?</string>
 	<string name="appdetail_details_adjust_screen_market_bsd_msg">Ekran parlaklığı yüzünden gece okumalarında zorluk çekiyorsanız GSam Screen Dimmer\'ı tavsiye ederiz. Uygulama ekran parlaklığını, normalde izin verilenden daha da fazla düşürerek gece okumalarını daha zevkli hale getiriyor.\n\nMerak etmeyin - bu mesajı bir daha görmeyeceksiniz.</string>
 	<string name="preferences_send_anon_stats_buypro_title">Pro Ol!</string>
@@ -391,12 +391,3 @@
 	<string name="abs__activity_chooser_view_see_all">Hepsine bak...</string>
 	<!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
 	<string name="abs__activity_chooser_view_dialog_title_default">Eylem Seç</string>
-	<!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
-	<string name="abs__share_action_provider_share_with">Paylaş...</string>
-	<!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
-	<string name="abs__activitychooserview_choose_application">Uygulama seç</string>
-	<!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-	<string name="abs__shareactionprovider_share_with">Paylaşma aracı</string>
-	<!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-	<string name="abs__shareactionprovider_share_with_application">Paylaşma aracı <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
-</resources>
