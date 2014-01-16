@@ -391,3 +391,12 @@
 	<string name="abs__activity_chooser_view_see_all">Hepsine bak...</string>
 	<!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
 	<string name="abs__activity_chooser_view_dialog_title_default">Eylem Seç</string>
+   <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
+  <string name="abs__share_action_provider_share_with">Paylaş...</string>
+  <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
+  <string name="abs__activitychooserview_choose_application">Uygulama seç</string>
+  <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+  <string name="abs__shareactionprovider_share_with">Paylaşma aracı</string>
+  <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+  <string name="abs__shareactionprovider_share_with_application">Paylaşma aracı <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+</resources>
