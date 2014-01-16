@@ -22,7 +22,7 @@
 	<string name="preferences_startup_service_sum">Uygulamayı açılışta başlat</string>
 	<string name="preferences_temperature_title">Sıcaklık Birimi Celsius</string>
 	<string name="preferences_show_notification_icon_title">Bildirim Simgesini Göster</string>
-	<string name="preferences_show_notification_icon_sum">% Bildirim simgesini bildirim çubuğunda göster</string>
+  <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">% Bildirim simgesini bildirim çubuğunda göster</string>
 	<string name="preferences_show_notification_title">Sadece Bildirim Göster</string>
 	<string name="preferences_alarm_condition_charging">Pil seviyesi bundan yüksekken</string>
   <string name="preferences_alarm_condition_discharging">Pil seviyesi bundan düşükken</string>
