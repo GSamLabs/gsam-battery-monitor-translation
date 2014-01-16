@@ -252,10 +252,13 @@
 	<string name="appdetail_included_processes">İlgili Prosesler</string>
 	<string name="appdetail_seconds">%1$01dsn</string>
 	<string name="appdetail_minutes">%1$01ddk %2$01dsn</string>
+  <string name="appdetail_minutes_decimal">%1$sdk</string>
 	<string name="appdetail_days">%1$01dgün %2$01dsa %3$01ddk</string>
 	<string name="appdetail_days_twolevels">%1$01dgün %2$01dsa</string>
+  <string name="appdetail_days_twolevels_decimal">%1$01dgün %2$ssa</string>
 	<string name="appdetail_hours">%1$01dsa %2$01ddk %3$01dsn</string>
 	<string name="appdetail_hours_twolevels">%1$01dsa %2$01ddk</string>
+  <string name="appdetail_hours_twolevels_decimal">%1$01dsa %2$sdk</string>
 	<string name="appdetail_details_button">Yönet</string>
 	<string name="appdetail_details_button_wakelocks">Google Me</string>
 	<string name="appdetail_details_adjustpower">Güç Tasarruf Önerisi</string>
@@ -320,6 +323,8 @@
 	<string name="appdetail_bytes">%d byte</string>
 	<string name="appdetail_mb">%.2f MB</string>
 	<string name="appdetail_kb">%.2f KB</string>
+  <string name="appdetail_totaltime">Toplam Süre (uyanıklık dahil):</string>
+  <string name="appdetail_select_package">Yönetilecek Paketi Seçin</string>
 
 <!-- Change Log - actual change content isn't translated -->
 	<string name="changelog_full_title">Yenilikler</string>
@@ -331,6 +336,12 @@
 	<string name="no">Hayır</string>
 	<string name="ok">TAMAM</string>
 	<string name="error">Bir hata oluştu.</string>
+   
+   <!-- Copied from the original BATTERY_STATS permission description -->
+    <string name="permlab_batteryStats">pil istatistiklerini oku</string>
+    <string name="permdesc_batteryStats">Uygulamanın mevcut low-level pil kullanım verisini okumasına izin verir. 
+    Uygulamanın hangi uygulamaları kullandığınızı detaylı olarak öğrenmesine imkan verir. </string>
+
 
 <!-- Charts -->
 	<string name="main_chart_showtemp">Sıcaklık</string>
@@ -339,6 +350,7 @@
 	<string name="chart_menu_batthistory">Pil Geçmişi Grafiği</string>
 	<string name="chart_menu_battdischarge">Güç vs Yüzde Grafiği</string>
 	<string name="notification_chargecomplete">Şarj Tamamlandı</string>
+  <string name="notification_battcharging">Şarj Oluyor (%1s%%)</string>
 	<string name="notification_battlow">Düşük Pil (%1s%%)</string>
 	<string name="notification_batthot_f">Uyarı - Pil Çok Isınmış (%.1f\u00B0F)</string>
 	<string name="notification_batthot_c">Uyarı - Pil Çok Isınmış (%.1f\u00B0C)</string>
