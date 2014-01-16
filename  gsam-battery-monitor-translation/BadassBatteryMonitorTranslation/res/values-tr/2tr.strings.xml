@@ -354,6 +354,7 @@
 	<string name="notification_battlow">Düşük Pil (%1s%%)</string>
 	<string name="notification_batthot_f">Uyarı - Pil Çok Isınmış (%.1f\u00B0F)</string>
 	<string name="notification_batthot_c">Uyarı - Pil Çok Isınmış (%.1f\u00B0C)</string>
+  <string name="notification_battovervoltage">Uyarı - Pilde Aşırı Voltaj! (%.1f V)</string>
 	<string name="chart_active">Aktif</string>
 	<string name="chart_batt_history">Pil Geçmişi (%1$s)</string>
 	<string name="chart_batt_percent">Pil %</string>
