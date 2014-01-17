@@ -60,8 +60,8 @@
 	<string name="preferences_power_profiles_use_stock_title">Özel Güç Profili Kullan</string>
 	<string name="preferences_power_profiles_edit_title">Güç Profilini Düzenle</string>
 	<string name="preferences_profiles_screen_summary">Gelişmiş - Tüketim değerlerinin hesabında kullanılan parametreleri değiştirmek için profil düzenle</string>
-<string name="preferences_power_per_percent_reset_title">Kalan Zaman Tahminlerini Sıfırla</string>
-<string name="preferences_power_per_percent_reset_summary">Kalan zaman tahminlerini sıfırlayın. Kalan zaman göstergesi isabetli görünmüyorsa kullanın. Bu değer şu an %1$s / yüzde. %2$01d adet yüzdeden hesaplandı</string>
+<string name="preferences_power_per_percent_reset_title">Kalan Süre Tahminlerini Sıfırla</string>
+<string name="preferences_power_per_percent_reset_summary">Kalan süre tahminlerini sıfırlayın. Kalan süre göstergesi isabetli görünmüyorsa kullanın. Bu değer şu an %1$s/yüzde. %2$01d adet yüzdeden hesaplandı.</string>
 <string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını değiştirdiyseniz sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
 <string name="preferences_power_per_percent_reset">Sıfırla</string>
 	<string name="preferences_time_per_percent_title">Zaman-Tüketim Geçmişini Sıfırlayın</string>
@@ -381,6 +381,21 @@
 	<string name="about_chartengine">Grafik Motoru: AChartEngine.org</string>
 	<string name="about_actionbar">ActionBar Uyumluluğu: Actionbarsherlock.com</string>
 	<string name="about_translations">Çeviriler:</string>
+
+<!-- DashClock Widget Extension -->
+  <string name="dashclock_description">Kalan süre, saatlik tüketim vb. pil istatistiklerini göster.</string>
+  <string name="dashclock_active_standby">%1$s Aktif, %2$s Beklemede</string>
+  <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/sa</string>
+  <string name="dashclock_delta_per_hour_short_full">Dolu</string>
+  <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/sa - Şarj oluyor</string>  
+  <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/sa - Pil boşalıyor</string>  
+  <string name="dashclock_to_empty">Pilin boşalmasına: %1$s</string>  
+  <string name="dashclock_to_full">Dolmasına: %1$s</string>
+  <string name="dashclock_pref_show_used">Kullanılan miktarı göster</string>
+  <string name="dashclock_pref_show_remaining_time">Kalan süreyi göster</string>
+  <string name="dashclock_pref_show_active_standby">Aktif ve bekleme sürelerini göster</string>
+  <string name="dashclock_pref_show_temp_voltage">Sıcaklık ve voltaj göster</string>
+  <string name="dashclock_settings">GSam Uzantı Ayarları</string>
 
 <!-- Translations & Translators -->
 	<string name="lang_default">Varsayılan Sistem Dili</string>
