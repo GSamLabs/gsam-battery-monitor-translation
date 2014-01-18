@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">GSam Battery Monitor</string>
+	<!--  Don't include app name in locale file -->
+    <!-- string name="app_name">GSam Battery Monitor</string -->
 
-        <!-- Notification & Header messages -->
+    <!-- Notification & Header messages -->
 	<string name="battery_status_time_left">Kalan: %1$02d:%2$02d (Ortalama), %3$02d:%4$02d (Son %5$sdk)</string>
 	<string name="battery_status_time_left_no_running">Kalan: %1$02d:%2$02d</string>
 	<string name="battery_status_time_left_unknown">Kalan: Hesaplanıyor - tekrar deneyiniz</string>
@@ -21,8 +22,9 @@
 	<string name="preferences_startup_service_sum">Uygulamayı açılışta başlat</string>
 	<string name="preferences_temperature_title">Sıcaklık Birimi Celsius</string>
 	<string name="preferences_show_notification_icon_title">Bildirim Simgesini Göster</string>
-  <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">% Bildirim simgesini bildirim çubuğunda göster</string>
+	<string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">% Bildirim simgesini bildirim çubuğunda göster</string>
 	<string name="preferences_show_notification_title">Sadece Bildirim Göster</string>
+<string name="preferences_show_notification_sum">Bildirimi simgesiz göster</string>
 	<string name="preferences_alarm_condition_charging">Pil seviyesi bundan yüksekken</string>
   <string name="preferences_alarm_condition_discharging">Pil seviyesi bundan düşükken</string>
   <string name="preferences_alarm_condition_overheated">Pil aşırı ısınmış</string>
@@ -59,8 +61,8 @@
 	<string name="preferences_power_profiles_use_stock_title">Özel Güç Profili Kullan</string>
 	<string name="preferences_power_profiles_edit_title">Güç Profilini Düzenle</string>
 	<string name="preferences_profiles_screen_summary">Gelişmiş - Tüketim değerlerinin hesabında kullanılan parametreleri değiştirmek için profil düzenle</string>
-  <string name="preferences_power_per_percent_reset_title">Kalan Zaman Tahminlerini Sıfırla</string>
-  <string name="preferences_power_per_percent_reset_summary">Kalan zaman tahminlerini sıfırlayın. Kalan zaman göstergesi isabetli görünmüyorsa kullanın. Bu değer şu an %1$s / yüzde. %2$01d adet yüzdeden hesaplandı</string>
+<string name="preferences_power_per_percent_reset_title">Kalan Süre Tahminlerini Sıfırla</string>
+<string name="preferences_power_per_percent_reset_summary">Kalan süre tahminlerini sıfırlayın. Kalan süre göstergesi isabetli görünmüyorsa kullanın. Bu değer şu an %1$s/yüzde. %2$01d adet yüzdeden hesaplandı.</string>
    <string name="preferences_power_per_percent_dlgtext">Virgülle ayırılmış olan POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED değeridir. Bu değer sürekli güncellenmektedir - programı ne kadar uzun kullanırsanız o kadar doğru sonuç verir. Ancak, Güç Profili ayarlarını değiştirdiyseniz sıfırlamalı ve tekrar oluşmasını sağlamalısınız.</string>
   <string name="preferences_power_per_percent_reset">Sıfırla</string>
 	<string name="preferences_time_per_percent_title">Zaman-Tüketim Geçmişini Sıfırlayın</string>
@@ -108,6 +110,8 @@
 	<string name="preferences_start_foreground_sum">Uygulamayı yüksek öncelikte çalıştırın. Bu seçeneği sadece pil yüzdesini gösteren simgeler doğru güncellenmiyorsa kullanın. Aksi takdirde, diğer programların çalışması için gereken boş belleği azaltacaktır.</string>
   <string name="preferences_menu_add_alarm">Yeni İkaz Ekle</string>
   <string name="preferences_menu_remove_alarm">İkaz Kaldır</string>
+<string name="preferences_disable_animation_title">Animasyon Efektlerini Kapat</string>
+<string name="preferences_disable_animation_sum">Yavaş cihazlar için animasyon efektlerini kapatır.</string>
   
     <!-- Preference Selection Arrays -->    
 	<string name="icon_themes_circle">Dairesel</string>
@@ -145,20 +149,21 @@
 	<string name="procsuckmon_viewby_wake_times">Uyandırılma Sayısı</string>
 	<string name="procsuckmon_viewby_gps">GPS Kullanım Süresi</string>
 	<string name="procsuckmon_viewby_kernel_wakelocks">Kernel Wakelock Sayısı</string>
+<string name="procsuckmon_wakelock_user_apps">Karma Uyg. Wakelockları (Kernel harici)</string>
 
     <!-- Main screen -->
 	<string name="main_history_button">Geçmiş</string>
 	<string name="main_preferences_button">Tercihler</string>
 	<string name="main_calculating">Hesaplanıyor\u2026</string>
 	<string name="main_full">Dolu</string>
-	<string name="main_timetofull">Kalan - Tam Şarj: </string>
-	<string name="main_timetofull_tablet">Tam Şarj için: </string>
-	<string name="main_timeleft">Kalan - Ortalama: </string>
-	<string name="main_timeleft_tablet">Kalan (Ortalama Kullanım): </string>
-	<string name="main_timeleft_rolling">Kalan - Son %1$sdk: </string>
-	<string name="main_timeleft_rolling_tablet">Kalan (Son %1$sdk Kullanım): </string>
-	<string name="main_talktime">Kalan - Konuşma Süresi: </string>
-	<string name="main_talktime_tablet">Kalan Konuşma Süresi: </string>
+    <string name="main_timeremaining">Kalan Süre</string>
+	<string name="main_timetofull2">Tam Şarj:</string>
+	<string name="main_timetofull_tablet2">Tam Şarj için:</string>
+	<string name="main_timeleft2">Ortalama:</string>
+	<string name="main_timeleft_tablet2">Ortalama Kullanım:</string>
+	<string name="main_timeleft_rolling2">Son %1$sdk:</string>
+	<string name="main_timeleft_rolling_tablet2">Son %1$sdk Kullanım:</string>
+	<string name="main_talktime2">Konuşma Süresi:</string>
 	<string name="main_temp">Sıcaklık: </string>
 	<string name="main_voltage">Voltaj: </string>
 	<string name="main_health">Tip / Sağlık: </string>
@@ -170,6 +175,9 @@
 	<string name="main_health_unknown">Bilinmiyor</string>
 	<string name="main_health_failed">Başarısız</string>
 	<string name="main_usage_label">Pil Kullanımı - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+  <string name="main_usage_label2">Kullanım: %1$s%% Süre: %2$s</string>
+  <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/sa - %2$s Aktif, %3$s Beklemede</string>
+  <string name="main_usage_label_active">\u0394 %1$.1f%%/sa - %2$s Aktif</string>
 	<string name="main_phone_on_label">Arama:</string>
 	<string name="main_screen_on_label">Ekran:</string>
 	<string name="main_phone_radio_on_label">Mobil Verici:</string>
@@ -191,7 +199,12 @@
 	<string name="main_refresh_toast">İstatistikler Yenilendi\u2026</string>
 	<string name="main_market_nomarket_msg">Özellik mevcut değil. Cihazınızda yüklü market uygulaması bulunamadı.</string>
 	<string name="menu_help">Yardım</string>
+<string name="menu_send_debug_data">Hata Raporu Gönder</string>
+<string name="menu_send_debug_data_dlg_title">Hata Raporu Gönder:</string>
+<string name="menu_send_debug_data_subject">GSam Battery Monitor - Error Report (Hata Raporu)</string>
+<string name="menu_send_debug_data_body">Lütfen yaşadığınız sorunu kısaca açıklayınız:\n\n</string>
 	<string name="menu_review">GSam Battery Monitor\'ü Değerlendir</string>
+<string name="menu_enable_more_stats">Daha Fazla İstatistik</string>
 	<string name="main_share_intentchoosertitle">Ortalama Pil Ömrümü Paylaş\u2026</string>
 	<string name="main_share_subject">Ortalama Pil Ömrü - GSam Battery Monitor</string>
 	<string name="main_share_msg2">%1$s %2$s cihazımın tam şarjdaki ortalama pil ömrü: %3$s (%4$s aktif kullanımla). GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
@@ -208,6 +221,25 @@
 	<string name="main_header_type">Tip</string>
 	<string name="main_header_time">Süre</string>
 	<string name="main_header_power">Güç</string>
+  <string name="averages_since">%1$s tarihinden beri</string>
+  <string name="averages_header">Ortalamalar (Tam Şarj)</string>
+  <string name="main_avg_timepercharge_label2">Pil Ömrü:</string>
+  <string name="main_avg_timepercharge_text_active">%1$s (%2$s Aktif)</string>
+  <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Beklemede)</string>
+  <string name="main_avg_screenon_label">Ekran Açık:</string>
+  <string name="main_avg_screenon_text">%1$s (%2$s Maks.)</string>
+  <string name="main_avg_chargetime_label">Şarj Süresi:</string>
+  <string name="main_avg_chargetime_text">%1$s Priz / %2$s USB</string>
+  <string name="main_kitkat_nostats_title2">Root Companion App\’le Daha Fazla İstatistik… </string>
+  <string name="main_kitkat_nostats_helper_needed2">Root erişiminiz varsa Gsam Root Companion App\’le 
+  daha fazla istatistiğe sahip olabilirsiniz. Yüklediğiniz takdirde uygulama size wakelock, sensor kullanımı 
+  vb. birçok istatistik sunacaktır.\n
+        \nRoot erişiminiz yoksa veya Root nedir bilmiyorsanız hiç kafanızı yormayın. 
+        Gsam Battery Monitor onsuz da çalışmaya devam edecektir.\n
+        \nDaha fazla bilgi için: <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a></string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion uygulaması /system/priv-app klasörüne düzgün şekilde kurulamadı. Lütfen uygulamayı çalıştırıp doğru olarak yüklenildiğinden emin olunuz.</string>
+	<string name="main_kitkat_nostats_launch_companion">Root Companion\’ı çalıştır</string>
+	<string name="main_kitkat_nostats_install_companion">Root Companion\’ı yükle</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
 	<string name="process_suck_mon_title_prefix_app">Uygulama Detayı</string>
@@ -221,10 +253,13 @@
 	<string name="appdetail_included_processes">İlgili Prosesler</string>
 	<string name="appdetail_seconds">%1$01dsn</string>
 	<string name="appdetail_minutes">%1$01ddk %2$01dsn</string>
+  <string name="appdetail_minutes_decimal">%1$sdk</string>
 	<string name="appdetail_days">%1$01dgün %2$01dsa %3$01ddk</string>
 	<string name="appdetail_days_twolevels">%1$01dgün %2$01dsa</string>
+  <string name="appdetail_days_twolevels_decimal">%1$01dgün %2$ssa</string>
 	<string name="appdetail_hours">%1$01dsa %2$01ddk %3$01dsn</string>
 	<string name="appdetail_hours_twolevels">%1$01dsa %2$01ddk</string>
+  <string name="appdetail_hours_twolevels_decimal">%1$01dsa %2$sdk</string>
 	<string name="appdetail_details_button">Yönet</string>
 	<string name="appdetail_details_button_wakelocks">Google Me</string>
 	<string name="appdetail_details_adjustpower">Güç Tasarruf Önerisi</string>
@@ -289,6 +324,8 @@
 	<string name="appdetail_bytes">%d byte</string>
 	<string name="appdetail_mb">%.2f MB</string>
 	<string name="appdetail_kb">%.2f KB</string>
+  <string name="appdetail_totaltime">Toplam Süre (uyanıklık dahil):</string>
+  <string name="appdetail_select_package">Yönetilecek Paketi Seçin</string>
 
     <!-- Change Log - actual change content isn't translated -->
 	<string name="changelog_full_title">Yenilikler</string>
@@ -300,6 +337,11 @@
 	<string name="no">Hayır</string>
 	<string name="ok">TAMAM</string>
 	<string name="error">Bir hata oluştu.</string>
+   
+   <!-- Copied from the original BATTERY_STATS permission description -->
+    <string name="permlab_batteryStats">pil istatistiklerini oku</string>
+    <string name="permdesc_batteryStats">Uygulamanın mevcut low-level pil kullanım verisini okumasına izin verir. 
+    Uygulamanın hangi uygulamaları kullandığınızı detaylı olarak öğrenmesine imkan verir. </string>
 
     <!-- Charts -->
 	<string name="main_chart_showtemp">Sıcaklık</string>
@@ -308,9 +350,11 @@
 	<string name="chart_menu_batthistory">Pil Geçmişi Grafiği</string>
 	<string name="chart_menu_battdischarge">Güç vs Yüzde Grafiği</string>
 	<string name="notification_chargecomplete">Şarj Tamamlandı</string>
+  <string name="notification_battcharging">Şarj Oluyor (%1s%%)</string>
 	<string name="notification_battlow">Düşük Pil (%1s%%)</string>
 	<string name="notification_batthot_f">Uyarı - Pil Çok Isınmış (%.1f\u00B0F)</string>
 	<string name="notification_batthot_c">Uyarı - Pil Çok Isınmış (%.1f\u00B0C)</string>
+  <string name="notification_battovervoltage">Uyarı - Pilde Aşırı Voltaj! (%.1f V)</string>
 	<string name="chart_active">Aktif</string>
 	<string name="chart_batt_history">Pil Geçmişi (%1$s)</string>
 	<string name="chart_batt_percent">Pil %</string>
@@ -337,7 +381,21 @@
 	<string name="about_chartengine">Grafik Motoru: AChartEngine.org</string>
 	<string name="about_actionbar">ActionBar Uyumluluğu: Actionbarsherlock.com</string>
 	<string name="about_translations">Çeviriler:</string>
-    
+
+<!-- DashClock Widget Extension -->
+  <string name="dashclock_description">Kalan süre, saatlik tüketim vb. pil istatistiklerini göster.</string>
+  <string name="dashclock_active_standby">%1$s Aktif, %2$s Beklemede</string>
+  <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/sa</string>
+  <string name="dashclock_delta_per_hour_short_full">Dolu</string>
+  <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/sa - Şarj oluyor</string>  
+  <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/sa - Pil boşalıyor</string>  
+  <string name="dashclock_to_empty">Pilin boşalmasına: %1$s</string>  
+  <string name="dashclock_to_full">Dolmasına: %1$s</string>
+  <string name="dashclock_pref_show_used">Kullanılan miktarı göster</string>
+  <string name="dashclock_pref_show_remaining_time">Kalan süreyi göster</string>
+  <string name="dashclock_pref_show_active_standby">Aktif ve bekleme sürelerini göster</string>
+  <string name="dashclock_pref_show_temp_voltage">Sıcaklık ve voltaj göster</string>
+  <string name="dashclock_settings">GSam Uzantı Ayarları</string>
     <!-- Translations & Translators -->   
 	<string name="lang_default">Varsayılan Sistem Dili</string>
 	<string name="translator_anonymous">Anonim</string>
