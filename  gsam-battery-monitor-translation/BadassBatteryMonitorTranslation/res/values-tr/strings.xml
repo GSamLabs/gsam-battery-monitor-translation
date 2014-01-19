@@ -230,8 +230,8 @@
   <string name="main_avg_screenon_text">%1$s (%2$s Maks.)</string>
   <string name="main_avg_chargetime_label">Şarj Süresi:</string>
   <string name="main_avg_chargetime_text">%1$s Priz / %2$s USB</string>
-  <string name="main_kitkat_nostats_title2">Root Companion App\’le Daha Fazla İstatistik… </string>
-  <string name="main_kitkat_nostats_helper_needed2">Root erişiminiz varsa Gsam Root Companion App\’le 
+  <string name="main_kitkat_nostats_title2">Root Companion\’la Daha Fazla İstatistik… </string>
+  <string name="main_kitkat_nostats_helper_needed2">Root erişiminiz varsa Gsam Root Companion\’la 
   daha fazla istatistiğe sahip olabilirsiniz. Yüklediğiniz takdirde uygulama size wakelock, sensor kullanımı 
   vb. birçok istatistik sunacaktır.\n
         \nRoot erişiminiz yoksa veya Root nedir bilmiyorsanız hiç kafanızı yormayın. 
