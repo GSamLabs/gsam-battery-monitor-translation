@@ -163,7 +163,7 @@
     <string name="main_timeleft_tablet2">Media de uso:</string>
     <string name="main_timeleft_rolling2">Ultimos %1$sm:</string>
     <string name="main_timeleft_rolling_tablet2">Ultimos %1$sm Uso:</string>
-    <string name="main_talktime2">Tiempo de conversación:</string>
+    <string name="main_talktime2">Conversación:</string>
     <string name="main_temp">Temperatura: </string>
     <string name="main_voltage">Voltaje: </string>
     <string name="main_health">Tipo / Salud: </string>
