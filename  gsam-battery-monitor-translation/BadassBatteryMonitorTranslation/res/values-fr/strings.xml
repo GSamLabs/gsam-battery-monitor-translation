@@ -115,7 +115,9 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_start_foreground_sum">"Exécuter le moniteur de batterie en utilisant une priorité élevée. Utiliser cette option uniquement si vos icônes ne se mettent pas correctement à jour pour refléter correctement le pourcentage de la batterie. Ne pas activer d'aucune autre manière sinon il y aura une incidence sur le nombre de ressources qui sont disponibles pour d'autres applications."</string>
     <string name="preferences_menu_add_alarm">Ajouter Nouvelle Alarme</string>
     <string name="preferences_menu_remove_alarm">Retirer Alarme</string>
-
+    <string name="preferences_disable_animation_title">Désactiver Effets Animation</string>
+    <string name="preferences_disable_animation_sum">Désactiver les effets d\'animation pour les appareils lents.</string>
+    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cercle</string>
     <string name="icon_themes_icsmono">ICS Monochrome</string>
@@ -202,13 +204,14 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="main_refresh_toast">Rafraîchissement Stats…</string>
     <string name="main_market_nomarket_msg">"La fonction n'est pas disponible. Il ne semble pas y avoir d'application Market d'installée sur votre appareil."</string>
     <string name="menu_help">Aide</string>
-    <string name="menu_send_debug_data">Envoyer rapport d\'érreur</string>
+    <string name="menu_send_debug_data">"Envoyer rapport d'érreur"</string>
     <string name="menu_send_debug_data_dlg_title">Envoyer Rapport Erreur Utilisation:</string>
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Rapport Erreur</string>
     <string name="menu_send_debug_data_body">"Svp entrez une description du problème rencontré:
 
 "</string>
     <string name="menu_review">Avis GSam Battery Monitor</string>
+    <string name="menu_enable_more_stats">Activer Plus de Stats</string>
     <string name="main_share_intentchoosertitle">"Partager l'autonomie de la vie de ma batterie…"</string>
     <string name="main_share_subject">Vie Moyenne Batterie - GSam Battery Monitor</string>
     <string name="main_share_msg2">Mon %1$s %2$s a une moyenne de batterie de %3$s (%4$s utilisation active) sur une seule charge. Vérifier GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
@@ -227,7 +230,7 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="main_header_type">Type</string>
     <string name="main_header_time">Temps</string>
     <string name="main_header_power">Energie</string>
-     <string name="averages_since">Depuis %1$s</string>
+    <string name="averages_since">Depuis %1$s</string>
     <string name="averages_header">Moyenne Par Charge Complète</string>
     <string name="main_avg_timepercharge_label2">Vie Batterie:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s Actif)</string>
@@ -236,15 +239,13 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
     <string name="main_avg_chargetime_label">Temps Chargement:</string>
     <string name="main_avg_chargetime_text">%1$s CA / %2$s USB</string>
-    <string name="main_kitkat_nostats_title">Application Root Companion Requis pour KitKat</string>
-    <string name="main_kitkat_nostats_helper_needed">"Malheureusement, Google a supprimé la possibilité dans KitKat (4.4) pour les applications non-système d\'accéder aux statistiques de la batterie
+    <string name="main_kitkat_nostats_title2">Activer Plus de Stats avec l\'Application Root Companion</string>
+    <string name="main_kitkat_nostats_helper_needed2">"Vous pouvez activer l\'accès à plus de statistiques si vous avez un accès Root en installant l\'application GSam Root Companion. Cela vous donne un accès détaillé pour le wakelock, l\'utilisation du capteur, ainsi que beaucoup d\'autres statistiques.
  
-En tant que Root, vous pouvez réactiver GSam en installant l\'application Root Companion (http://goo.gl/Dy06az) et la copier dans /system/priv-app.
+Si vous n\'êtes pas Root, ou si vous ne savez pas ce que cela signifie, ne vous inquiétez pas pour cela. GSam fonctionnera très bien sans cela.
  
-Nous travaillons sur un autre moyen de recueillir les données nécessaires - désolé pour le désagrément!
- 
-Regardez http://goo.gl/r93pUE pour plus d\'informations."</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">L\'application Root Companion n\'est pas installée correctement dans /system/priv-app. Svp lancez l\'application et vérifiez qu\'elle est correctement installée.</string>
+Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pour plus d\'informations.</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">"L'application Root Companion n'est pas installée correctement dans /system/priv-app. Svp lancez l'application et vérifiez qu'elle est correctement installée."</string>
     <string name="main_kitkat_nostats_launch_companion">Lancer Root Companion</string>
     <string name="main_kitkat_nostats_install_companion">Installer Root Companion</string>
     
@@ -374,14 +375,27 @@ Regardez http://goo.gl/r93pUE pour plus d\'informations."</string>
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Inconnu</string>
     <string name="chart_wifi">WiFi</string>
-    
-    <!-- About -->
     <string name="about_app_name">A Propos de GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
     <string name="about_chartengine">Moteur Graphique par AChartEngine.org</string>
     <string name="about_actionbar">Compatibilité ActionBar par actionbarsherlock.com</string>
     <string name="about_translations">Traductions:</string>
+    
+    <!-- Dashclock -->   
+    <string name="dashclock_description">Afficher les statistiques de la batterie, y compris le temps restant, le drainage par heure, et plus.</string>
+    <string name="dashclock_active_standby">%1$s Actif, %2$s Veille</string>
+    <string name="dashclock_delta_per_hour_short">Δ %1$.1f%%/h</string>
+    <string name="dashclock_delta_per_hour_short_full">Complète</string>
+    <string name="dashclock_delta_per_hour_charging">Δ %1$.1f%%/h - En charge</string>
+    <string name="dashclock_delta_per_hour_discharging">Δ %1$.1f%%/h - Déchargement</string>
+    <string name="dashclock_to_empty">%1$s pour vide</string>
+    <string name="dashclock_to_full">%1$s pour complète</string>
+    <string name="dashclock_pref_show_used">Afficher la quantité utilisée</string>
+    <string name="dashclock_pref_show_remaining_time">Afficher le temps restant</string>
+    <string name="dashclock_pref_show_active_standby">Afficher le temps actif et de veille</string>
+    <string name="dashclock_pref_show_temp_voltage">Afficher température et tension</string>
+    <string name="dashclock_settings">Paramètres  Extension GSam</string>
     
     <!-- Translations & Translators -->   
     <string name="lang_default">Langue Système Par Défaut</string>
@@ -421,32 +435,21 @@ Ne vous inquiétez pas, vous ne verrez plus ce message à nouveau."</string>
     <string name="main_invalid_license_ok">Vérifier Mes Achats</string>
     <string name="main_invalid_license_cancel">Continuer</string>
     <string name="about_invalidlicense">"Vous n'avez pas de licence valide. GSam Battery Monitor continuera à fonctionner en mode Gratuit. Si vous pensez que c'est une erreur, svp contactez le développeur avec votre ID d'Achat de Google"</string>
-
+    
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">"Naviguer vers L'Accueil"</string>
     <string name="abs__action_bar_up_description">Naviguer vers le haut</string>
     <string name="abs__action_menu_overflow_description">"Plus d'options"</string>
     <string name="abs__action_mode_done">Ok</string>
-    <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_see_all">Voir Tout...</string>
-    <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_dialog_title_default">"Sélect. l'activité"</string>
-    <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
     <string name="abs__share_action_provider_share_with">Partager avec...</string>
-    <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
     <string name="abs__activitychooserview_choose_application">Choisir une application</string>
-    <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with">Partager avec</string>
-    <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share 
-
-UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">Partager avec <xliff:g example="Bluetooth" 
-
-id="application_name">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abs__searchview_description_search">Rechercher</string>
     <string name="abs__searchview_description_query">Rechercher question</string>
     <string name="abs__searchview_description_clear">Effacer question</string>
     <string name="abs__searchview_description_submit">Envoyer question</string>
     <string name="abs__searchview_description_voice">Recherche vocale</string>
 </resources>
-
