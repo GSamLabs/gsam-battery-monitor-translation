@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Don't translate app_name -->
-    <!--string name="app_name">GSam Battery Monitor</string -->
+    <string name="app_name">GSam Battery Monitor</string>
 
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Resterend: %1$02d:%2$02d (gemiddeld), %3$02d:%4$02d (laatste %5$sm)</string>
@@ -22,7 +21,7 @@
     <string name="preferences_startup_service_sum">Start met het monitoren van de batterij na het opstarten van het apparaat</string>
     <string name="preferences_temperature_title">Temperatuur in Celsius</string>
     <string name="preferences_show_notification_icon_title">Notificatie icon weergeven</string>
-    <string name="preferences_show_notification_icon_sum">Geef % notificatie icon weer in notificatie balk</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Geef % notificatie icon weer in notificatie balk</string>
     <string name="preferences_show_notification_title">Alleen notificatie weergeven</string>
     <string name="preferences_show_notification_sum">Geef de notificatie weer zonder de notificatie icon</string>
     <string name="preferences_alarm_condition_charging">Batterij boven</string>
@@ -110,6 +109,9 @@
     <string name="preferences_start_foreground_sum">Draai Battery Monitor met een hoge prioriteit. Gebruik dit alleen wanneer de icons niet juist worden vernieuwd, waardoor ze niet het juiste batterijpercentage weergeven. Schakel dit alleen in wanneer nodig, want bij inschakeling zijn er minder systeembronnen voor andere apps</string>
     <string name="preferences_menu_add_alarm">Nieuw alarm toevoegen</string>
     <string name="preferences_menu_remove_alarm">Alarm verwijderen</string> 
+    <string name="preferences_disable_animation_title">Schakel schermanimaties uit</string>
+    <string name="preferences_disable_animation_sum">Schakelt schermanimaties uit voor tragere apparaten.</string>
+    
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
@@ -153,17 +155,17 @@
     <string name="main_preferences_button">Voorkeuren</string>
     <string name="main_calculating">Berekenen\u2026</string>
     <string name="main_full">Opgeladen</string>
-    <string name="main_timetofull">Resterend - volledig opladen: </string>
-    <string name="main_timetofull_tablet">Tijd tot volledig opladen: </string>
-    <string name="main_timeleft">Resterend - gemiddeld: </string>
-    <string name="main_timeleft_tablet">Resterend (gemiddeld gebruik): </string>
-    <string name="main_timeleft_rolling">Resterend - laatste %1$sm: </string>
-    <string name="main_timeleft_rolling_tablet">Resterend (laatste %1$sm gebruik): </string>
-    <string name="main_talktime">Resterend - gesprekstijd: </string>
-    <string name="main_talktime_tablet">Gesprekstijd resterend: </string>
-    <string name="main_temp">Temperatuur: </string>
-    <string name="main_voltage">Voltage: </string>
-    <string name="main_health">Type / Status: </string>
+    <string name="main_timeremaining">Tijd resterend</string>
+    <string name="main_timetofull2">Tot opgeladen:</string>
+    <string name="main_timetofull_tablet2">Tot volledig opgeladen:</string>
+    <string name="main_timeleft2">Gemiddeld:</string>
+    <string name="main_timeleft_tablet2">Gemiddeld gebruik:</string>
+    <string name="main_timeleft_rolling2">Laatste %1$sm:</string>
+    <string name="main_timeleft_rolling_tablet2">Laatste %1$sm gebruik:</string>
+    <string name="main_talktime2">Gesprekstijd:</string>
+    <string name="main_temp">Temperatuur:</string>
+    <string name="main_voltage">Voltage:</string>
+    <string name="main_health">Type / Status:</string>
     <string name="main_health_cold">Koud</string>
     <string name="main_health_dead">Dood</string>
     <string name="main_health_good">Goed</string>
@@ -172,6 +174,9 @@
     <string name="main_health_unknown">Onbekend</string>
     <string name="main_health_failed">Mislukt</string>
     <string name="main_usage_label">Batterijgebruik - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label2">Gebruikt %1$s%% in %2$s</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s Actief, %3$s Standby</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s Actief</string>
     <string name="main_phone_on_label">Gesprekken:</string>
     <string name="main_screen_on_label">Display:</string>
     <string name="main_phone_radio_on_label">Radio:</string>
@@ -193,7 +198,12 @@
     <string name="main_refresh_toast">Statieken vernieuwen\u2026</string>
     <string name="main_market_nomarket_msg">Functie niet beschikbaar. Er lijkt geen market-app ge?nstalleerd te zijn op je apparaat.</string>
     <string name="menu_help">Help</string>
+    <string name="menu_send_debug_data">Verzend foutrapport</string>    
+    <string name="menu_send_debug_data_dlg_title">Verzend foutrapport met:</string>
+    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Foutrapport</string>  
+    <string name="menu_send_debug_data_body">Geef alsjeblieft een omschrijven van het probleem dat je hebt ondervonden:\n\n</string> 
     <string name="menu_review">Beoordeel GSam Battery Monitor</string>
+    <string name="menu_enable_more_stats">Schakel meer statistieken in</string>
     <string name="main_share_intentchoosertitle">Deel mijn gemiddeld batterijgebruik\u2026</string>
     <string name="main_share_subject">Gemiddeld batterijgebruik - GSam Battery Monitor</string>
     <string name="main_share_msg2">Mijn %1$s %2$s batterij gebruikt gemiddeld %3$s (%4$s actief gebruik) na opladen. Bekijk GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
@@ -210,6 +220,22 @@
     <string name="main_header_type">Type</string>
     <string name="main_header_time">Tijd</string>
     <string name="main_header_power">Energie</string>
+    <string name="averages_since">Sinds %1$s</string>
+    <string name="averages_header">Gemiddelden na volledig opladen</string>
+    <string name="main_avg_timepercharge_label2">Batterijcyclus:</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s Actief)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Standby)</string>
+    <string name="main_avg_screenon_label">Scherm aan:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
+    <string name="main_avg_chargetime_label">Oplaadtijd:</string>
+    <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
+    <string name="main_kitkat_nostats_title2">Schakel meer statistieken in met de Root Companion App</string>
+    <string name="main_kitkat_nostats_helper_needed2">Je kan toegang krijgen tot meer statistieken wanneer je Root access hebt door het installeren van de GSam Root Companion app. Deze app geeft je toegang tot gedetailleerde statistieken over wakelocks, sensorgebruik en nog vele andere statistieken.\n
+        \nAls je geen Root-toegang hebt of niet weet wat dit betekent, maar je er geen zorgen over GSam functioneert ook prima zonder deze toegang.\n
+        \nKijk op <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> voor meer informatie.</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">De Root Companion App is niet goed in /system/priv-app geïnstalleerd. Open de app en kijk of deze goed is geïnstalleerd.</string>
+    <string name="main_kitkat_nostats_launch_companion">Open Root Companion</string>
+    <string name="main_kitkat_nostats_install_companion">Installeer Root Companion</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App details</string>
@@ -223,10 +249,13 @@
     <string name="appdetail_included_processes">Inclusief processen</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
+    <string name="appdetail_minutes_decimal">%1$sm</string>
     <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
     <string name="appdetail_days_twolevels">%1$01dd %2$01dh</string>
+    <string name="appdetail_days_twolevels_decimal">%1$01dd %2$sh</string>
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
+    <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
     <string name="appdetail_details_button">Beheren</string>
     <string name="appdetail_details_button_wakelocks">Google mij</string>    
     <string name="appdetail_details_adjustpower">Energiebesparing tips</string>
@@ -291,6 +320,8 @@
     <string name="appdetail_bytes">%d bytes</string>        
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
+    <string name="appdetail_totaltime">Totaal tijd (inclusief actief):</string>
+    <string name="appdetail_select_package">Selecteer Package om te beheren</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Wat is nieuw?</string>
