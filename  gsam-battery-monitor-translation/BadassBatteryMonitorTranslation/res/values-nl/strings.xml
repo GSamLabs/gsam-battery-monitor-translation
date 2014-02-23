@@ -20,38 +20,38 @@
     <string name="preferences_startup_service_title">Monitor na opstarten</string>
     <string name="preferences_startup_service_sum">Start met het monitoren van de batterij na het opstarten van het apparaat</string>
     <string name="preferences_temperature_title">Temperatuur in Celsius</string>
-    <string name="preferences_show_notification_icon_title">Notificatie icon weergeven</string>
-    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Geef % notificatie icon weer in notificatie balk</string>
+    <string name="preferences_show_notification_icon_title">Notificatie-icon weergeven</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Geef % notificatie-icon weer in notificatiebalk</string>
     <string name="preferences_show_notification_title">Alleen notificatie weergeven</string>
-    <string name="preferences_show_notification_sum">Geef de notificatie weer zonder de notificatie icon</string>
+    <string name="preferences_show_notification_sum">Geef de notificatie weer zonder de notificatie-icon</string>
     <string name="preferences_alarm_condition_charging">Batterij boven</string>
     <string name="preferences_alarm_condition_discharging">Batterij onder</string>
     <string name="preferences_alarm_condition_overheated">Batterij oververhit</string>
     <string name="preferences_alarm_condition_overvoltage">Batterij over Voltage</string>
     <string name="preferences_alarm_condition_temperature">Temperatuur boven</string>
     <string name="preferences_alarm_select_percent">Batterij percentage</string>
-    <string name="preferences_alarm_select_temperature">Batterij temperatuur</string>
-    <string name="preferences_alarm_select_tone">Notificatie toon selecteren</string>
-    <string name="preferences_theme_title">Batterij icon thema</string>
+    <string name="preferences_alarm_select_temperature">Batterijtemperatuur</string>
+    <string name="preferences_alarm_select_tone">Notificatietoon selecteren</string>
+    <string name="preferences_theme_title">Batterij icon-thema</string>
     <string name="preferences_theme_sum">Selecteer de stijl van de batterij icon</string>
     <string name="preferences_theme_getmore_title">Krijg meer thema\'s</string>
     <string name="preferences_theme_getmore_msg">Hier zijn meer Battery Monitor thema\'s te krijgen. GSam Labs controleert of keurt de thema\'s niet, dus wanneer het thema niet werkt, neem dan contact op met de ontwikkelaar van het thema.\n\nDownload en installeer het thema, kom daarna terug in dit menu om de beschikbare thema\'s te zien.\n\nHet is mogelijk om eigen thema\'s te maken. Zie http://badassbatterymonitor.blogspot.com voor meer informatie!</string>
     <string name="preferences_theme_progress_title">Thema\'s ophalen</string>
     <string name="preferences_theme_progress_msg">Haal een lijst op met beschikbare thema\'s\u2026</string>
-    <string name="preferences_widget_back_title">Transparante widget achtergrond</string>
-    <string name="preferences_widget_back_msg">Maak de widget achtergrond compleet transparant, zodat de achtergrond zichtbaar is</string>
+    <string name="preferences_widget_back_title">Transparante widgetachtergrond</string>
+    <string name="preferences_widget_back_msg">Maak de widgetachtergrond compleet transparant, zodat de achtergrond zichtbaar is</string>
     <string name="preferences_widget_show_timeleft_title">Resterende tijd weergeven</string>
     <string name="preferences_widget_show_temp_title">Temperatuur weergeven</string>
     <string name="preferences_widget_show_voltage_title">Voltage weergeven</string> 
-    <string name="preferences_overlay_icon_sum">Overlap de standaard batterij icon.  Locatie, grootte en meer zijn volledig te configureren.</string>
-    <string name="preferences_overlay_icon_title">Standaard batterij icon overlappen</string>
-    <string name="preferences_overlay_icon_configure_sum">Configureer de grootte, locatie, achtergrondkleur, helderheid en meer van de overlappende icons.</string>
-    <string name="preferences_overlay_icon_configure_title">Overlappend icon configureren</string>
-    <string name="preferences_overlay_icon_configure_invalid">Niet mogelijk om configuratie op te starten. Open het icon pack handmatig om te configureren</string>
+    <string name="preferences_overlay_icon_sum">Overlap de standaard batterij icon. O.a. locatie en grootte zijn volledig in te stellen.</string>
+    <string name="preferences_overlay_icon_title">Overlap standaard batterij icon</string>
+    <string name="preferences_overlay_icon_configure_sum">Stel de grootte, locatie, achtergrondkleur, helderheid en meer in van de overlappende icons.</string>
+    <string name="preferences_overlay_icon_configure_title">Overlappend icon instellen</string>
+    <string name="preferences_overlay_icon_configure_invalid">Niet mogelijk om instelling op te wijzingen. Open het iconpack handmatig om in te stellen</string>
     <string name="preferences_overlay_icon_notvalid_title">Geselecteerde thema ondersteunt geen overlappende icons</string>
-    <string name="preferences_overlay_icon_notvalid_msg">Selecteer een ander thema en probeer opnieuw.\n\nOverlappende icons worden alleen ondersteund voor externe icon packs. Selecteer Ophalen thema\'s in het Batterij icon thema-menu om een externe icon pack te vinden.  Alle icon packs geleverd door GSam Labs ondersteunen overlappende icons.  Icon packs van derden kunnen overlappende icons niet ondersteunen.</string>
+    <string name="preferences_overlay_icon_notvalid_msg">Selecteer een ander thema en probeer het opnieuw.\n\nOverlappende icons worden alleen ondersteund voor externe iconpacks. Selecteer Thema\'s ophalen in het Batterij icon thema-menu om een externe iconpack te vinden.  Alle iconpacks geleverd door GSam Labs ondersteunen overlappende icons. Iconpacks van derden kunnen overlappende icons niet ondersteunen.</string>
     <string name="preferences_show_charging_animation_title">Animatie weergeven tijdens opladen</string>
-    <string name="preferences_widget_color_screen_title">Batterij widget instellingen</string>
+    <string name="preferences_widget_color_screen_title">Batterij widget-instellingen</string>
     <string name="preferences_app_theme_title">Donker thema gebruiken</string>
     <string name="preferences_app_theme_sum">Gebruik een donker thema voor de schermen van de app</string>
     <string name="preferences_time_left_title">Resterende tijd berekenen</string>
@@ -60,13 +60,13 @@
     <string name="preferences_power_profiles_use_stock_title">Aangepast profiel gebruiken</string>
     <string name="preferences_power_profiles_edit_title">Energieprofiel wijzigen</string>
     <string name="preferences_profiles_screen_summary">Geavanceerd - Wijzig de profielen die gebruikt worden om alle waarden voor het energiegebruik te berekenen</string>
-    <string name="preferences_power_per_percent_reset_title">Resterende tijd verwachting resetten</string>
-    <string name="preferences_power_per_percent_reset_summary">Reset de resterende tijd verwachtingen. Gebruik dit wanneer de resterende tijd niet accuraat berekend wordt. Momenteel %1$s / procent berekend over %2$01d percentages</string>
+    <string name="preferences_power_per_percent_reset_title">Resterende tijd-verwachting resetten</string>
+    <string name="preferences_power_per_percent_reset_summary">Reset de resterende tijd-verwachtingen. Gebruik dit wanneer de resterende tijd niet accuraat berekend wordt. Momenteel: %1$s / procent berekend over %2$01d percentages</string>
     <string name="preferences_power_per_percent_dlgtext">Kommagescheiden in het formulier POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Deze waarde wordt continu vernieuwd - hoe langer de app draait, hoe meer accuraat het wordt. Wanneer een energieprofiel-instelling gewijzigd wordt, moet dit veld gewist worden om de app het opnieuw laten berekenen.</string>
     <string name="preferences_power_per_percent_reset">Reset</string>
     <string name="preferences_time_per_percent_title">Tijd-tot-ontladen geschiedenis wissen</string>
     <string name="preferences_time_per_percent_unkown">Onbekend</string>
-    <string name="preferences_time_per_percent_summary">Wis de berekende waarde voor de gemiddelde tijd die het apparaat nodig heeft voor een batterij cyclus. Momenteel %1$s (%2$sm / procent berekend over %3$01d percentages)</string>
+    <string name="preferences_time_per_percent_summary">Wis de berekende waarde voor de gemiddelde tijd die het apparaat nodig heeft voor een batterijcyclus. Momenteel: %1$s (%2$sm / procent berekend over %3$01d percentages)</string>
     <string name="preferences_stats_since_title">Statistieken sinds weergeven</string>
     <string name="preferences_stats_since_summary">Geef de statistieken weer sinds de laatste keer ontkoppeld, of sinds de laatste keer volledig opgeladen</string>
     <string name="preferences_power_profiles_edit_summary">Pas het energieprofiel aan. De aangepaste waarden worden alleen gebruikt als het aangepaste profiel is ingeschakeld</string>
@@ -79,12 +79,12 @@
     <string name="preferences_clear_chart_history_sum">Klik hier om het lokaal opgeslagen bestand te wissen voor grafiekhistorie.</string>
     <string name="preferences_clear_chart_history_toast">Het bestand is verwijderd\u2026</string>
     <string name="preferences_clear_chart_history_alert">Weet je het zeker?</string>
-    <string name="preferences_clear_history_stats_title">Batterij statistieken resetten</string>
-    <string name="preferences_clear_history_stats_sum">Klik hier om de batterij statistieken te resetten. Hierdoor wordt alle statistiek-historie gewist. Dit is vergelijkbaar met het volledig opladen en ontkoppelen. Alle statistieken worden gereset naar dit punt, dus gebruik het met beleid!</string>
-    <string name="preferences_clear_history_stats_toast">Alle batterij statistieken zijn verwijderd\u2026</string>
+    <string name="preferences_clear_history_stats_title">Batterijstatistieken resetten</string>
+    <string name="preferences_clear_history_stats_sum">Klik hier om de batterijstatistieken te resetten. Hierdoor wordt alle statistiek-historie gewist. Dit is vergelijkbaar met het volledig opladen en ontkoppelen. Alle statistieken worden gereset naar dit punt, dus gebruik het met beleid!</string>
+    <string name="preferences_clear_history_stats_toast">Alle batterijstatistieken zijn verwijderd\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Het is niet mogelijk om de statistieken te resetten - mogelijk ondersteunt dit apparaat deze functie niet\u2026</string>
-    <string name="preferences_custom_ref">De batterij historie wordt gebaseerd op een aangepast referentiepunt dat nu gemaakt wordt (of wanneer het apparaat wordt ontkoppeld). Dit punt kan worden gebruikt om te bepalen wat de batterij gebruikt na dit moment in plaats van sinds de laatste keer ontkoppeld of opgeladen. </string>
-    <string name="preferences_custom_ref_plugged">Het apparaat is momenteel aan het opladen - er kan alleen een aangepast punt gemaakt worden wanneer het apparaat is ontkoppeld</string>
+    <string name="preferences_custom_ref">De batterijhistorie wordt gebaseerd op een aangepast referentiepunt dat nu gemaakt wordt (of wanneer het apparaat wordt ontkoppeld). Dit punt kan worden gebruikt om te bepalen wat de batterij gebruikt na dit moment in plaats van sinds de laatste keer ontkoppeld of opgeladen. </string>
+    <string name="preferences_custom_ref_plugged">Het apparaat is momenteel aan het opladen. Er kan alleen een aangepast punt gemaakt worden wanneer het apparaat is ontkoppeld</string>
     <string name="preferences_send_anon_stats_title">Anonieme gebruikstatistieken toestaan</string>
     <string name="preferences_send_anon_stats_sum">Sta toe dat er anonieme gebruikstatistieken worden verzonden. Geen traceerbare of prive gegevens worden verstuurd</string>
     <string name="preferences_show_ads_title">Advertenties weergeven</string>
@@ -93,7 +93,7 @@
     <string name="preferences_override_lang_sum">Gebruik een andere taal dan je standaard systeemtaal</string>
     <string name="preferences_power_profiles_include_sensors_title">Sensoren in berekening opnemen</string>
     <string name="preferences_power_profiles_include_sensors_sum">"Sommige apparaten berekenen het energiegebruik van sensoren niet juist. Schakel dit uit wanneer het verbruik van de sensoren in de apps niet juist lijkt (accelerometer in het bijzonder)"</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_title">Energieverbruik per procent resetten</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_title">Energiegebruik per procent resetten</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">De berekening van het energiegebruik per procent wordt gereset. Wil je verder gaan?</string>
     <string name="preferences_widget_dialog_title">Kleuren kiezen</string>
     <string name="preferences_widget_color_full_title">Kleur op 100%</string>
@@ -101,7 +101,7 @@
     <string name="preferences_widget_color_empty_title">Kleur op 0%</string>
     <string name="preferences_widget_color_alpha_title">Kleur transparantie</string>
     <string name="preferences_widget_color_preview_title">Voorbeeld procent</string>
-    <string name="preferences_widget_color_preview_sum">Stel de procent vol waarde van de batterij in in het onderstaande voorbeeld</string>
+    <string name="preferences_widget_color_preview_sum">Stel de procent vol-waarde van de batterij in in het onderstaande voorbeeld</string>
     <string name="preferences_widget_color_screen_sum">Stel het kleurverloop van de batterijweergave in en controleer de widget instellingen</string>
     <string name="preferences_widget_color_category">Kleuren</string>
     <string name="preferences_widget_general_category">Algemeen</string>
@@ -109,17 +109,16 @@
     <string name="preferences_start_foreground_sum">Draai Battery Monitor met een hoge prioriteit. Gebruik dit alleen wanneer de icons niet juist worden vernieuwd, waardoor ze niet het juiste batterijpercentage weergeven. Schakel dit alleen in wanneer nodig, want bij inschakeling zijn er minder systeembronnen voor andere apps</string>
     <string name="preferences_menu_add_alarm">Nieuw alarm toevoegen</string>
     <string name="preferences_menu_remove_alarm">Alarm verwijderen</string> 
-    <string name="preferences_disable_animation_title">Schakel schermanimaties uit</string>
+    <string name="preferences_disable_animation_title">Schermanimaties uitschakelen</string>
     <string name="preferences_disable_animation_sum">Schakelt schermanimaties uit voor tragere apparaten.</string>
-    
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
     <string name="icon_themes_icsmono">ICS Monochrome</string>   
     <string name="icon_themes_trad">Traditional</string>   
     <string name="icon_themes_default">Systeem standaard</string>   
-    <string name="icon_themes_getmore">Krijg meer thema\'s</string>
-    <string name="time_left_calc_dontshow">Verberg geschaalde tijd</string>
+    <string name="icon_themes_getmore">Meer thema\'s verkrijgen</string>
+    <string name="time_left_calc_dontshow">Geschaalde tijd verbergen</string>
     <string name="time_left_calc_last5">Laatste 5 minuten</string>
     <string name="time_left_calc_last15">Laatste 15 minuten</string>
     <string name="time_left_calc_last30">Laatste 30 minuten</string>
@@ -133,7 +132,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Systeem (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% van de batterij verbruikt door:</string>
+    <string name="process_suck_mon_header">%0$.1f%% van de batterij gebruikt door:</string>
     <string name="process_suck_mon_nodata">Geen gegevens beschikbaar. Er zijn geen apps die de geselecteerde bron gebruikt hebben sinds de laatste keer opladen</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (sinds laatst ontkoppeld)</string>
@@ -149,7 +148,8 @@
     <string name="procsuckmon_viewby_wake_times">Bekijk aantal keer activeren</string>
     <string name="procsuckmon_viewby_gps">Bekijk GPS-gebruik</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Bekijk aantal Kernel Wakelocks</string>
-
+    <string name="procsuckmon_wakelock_user_apps">Gecombineerde App Wakelocks (niet-Kernel)</string>
+    
     <!-- Main screen -->
     <string name="main_history_button">Historie</string>
     <string name="main_preferences_button">Voorkeuren</string>
@@ -186,25 +186,25 @@
     <string name="main_app_usage_label">Apps:</string>
     <string name="main_app_usage_button">App Sucker</string>
     <string name="main_android_batt_usage_button">Batterijgebruik - standaard</string>    
-    <string name="main_android_batt_usage_failed">Laden standaard batterijgebruik-scherm mislukt...</string>
+    <string name="main_android_batt_usage_failed">Standaard batterijgebruik-scherm laden mislukt...</string>
     <string name="main_tools_menu">Meer</string>
     <string name="main_menu_charts">Grafieken</string>
-    <string name="menu_whatsnew">Wat is nieuw</string>
+    <string name="menu_whatsnew">Wat is nieuw?</string>
     <string name="about_about">Over</string>
-    <string name="main_stat_ref_label">* Gebaseerd op aangepast referentiepunt gemaakt %1s geleden</string>
-    <string name="menu_set_custom_ref">Maak aangemaakt referentiepunt</string>
-    <string name="menu_remove_custom_ref">Verwijder aangemaakt referentiepunt</string>
+    <string name="main_stat_ref_label">* Gebaseerd op aangepast referentiepunt, %1s geleden gemaakt</string>
+    <string name="menu_set_custom_ref">Aangemaakt referentiepunt maken</string>
+    <string name="menu_remove_custom_ref">Aangemaakt referentiepunt verwijderen</string>
     <string name="menu_refresh">Vernieuw</string>
     <string name="main_refresh_toast">Statieken vernieuwen\u2026</string>
-    <string name="main_market_nomarket_msg">Functie niet beschikbaar. Er lijkt geen market-app ge?nstalleerd te zijn op je apparaat.</string>
+    <string name="main_market_nomarket_msg">Functie niet beschikbaar. Er lijkt geen Play Store-app geïnstalleerd te zijn op je apparaat.</string>
     <string name="menu_help">Help</string>
     <string name="menu_send_debug_data">Verzend foutrapport</string>    
-    <string name="menu_send_debug_data_dlg_title">Verzend foutrapport met:</string>
+    <string name="menu_send_debug_data_dlg_title">Foutrapport verzenden met:</string>
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Foutrapport</string>  
-    <string name="menu_send_debug_data_body">Geef alsjeblieft een omschrijven van het probleem dat je hebt ondervonden:\n\n</string> 
+    <string name="menu_send_debug_data_body">Geef alsjeblieft een omschrijving van het probleem dat je hebt ondervonden:\n\n</string> 
     <string name="menu_review">Beoordeel GSam Battery Monitor</string>
     <string name="menu_enable_more_stats">Schakel meer statistieken in</string>
-    <string name="main_share_intentchoosertitle">Deel mijn gemiddeld batterijgebruik\u2026</string>
+    <string name="main_share_intentchoosertitle">Deel mijn batterijgebruik\u2026</string>
     <string name="main_share_subject">Gemiddeld batterijgebruik - GSam Battery Monitor</string>
     <string name="main_share_msg2">Mijn %1$s %2$s batterij gebruikt gemiddeld %3$s (%4$s actief gebruik) na opladen. Bekijk GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">Mijn %1$s %2$s batterij gebruikt gemiddeld %3$s na opladen. Bekijk GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
@@ -216,7 +216,7 @@
     <string name="main_tablet_standby_usage">Standby (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">GSam Battery Monitor beoordelen</string>
     <string name="rate_me_msg">Tevreden over GSam Battery Monitor? Neem alsjeblieft even de tijd om de app een goede beoordeling te geven!\n\nMaak je geen zorgen, je wordt niet opnieuw gevraagd.</string>
-    <string name="rate_me_ok">Beoordeel het!</string>
+    <string name="rate_me_ok">Beoordeel de app!</string>
     <string name="main_header_type">Type</string>
     <string name="main_header_time">Tijd</string>
     <string name="main_header_power">Energie</string>
@@ -229,13 +229,16 @@
     <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
     <string name="main_avg_chargetime_label">Oplaadtijd:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
-    <string name="main_kitkat_nostats_title2">Schakel meer statistieken in met de Root Companion App</string>
-    <string name="main_kitkat_nostats_helper_needed2">Je kan toegang krijgen tot meer statistieken wanneer je Root access hebt door het installeren van de GSam Root Companion app. Deze app geeft je toegang tot gedetailleerde statistieken over wakelocks, sensorgebruik en nog vele andere statistieken.\n
-        \nAls je geen Root-toegang hebt of niet weet wat dit betekent, maar je er geen zorgen over GSam functioneert ook prima zonder deze toegang.\n
+    <string name="main_kitkat_nostats_title2">Meer statistieken verkrijgen met de Root Companion App</string>
+    <string name="main_kitkat_nostats_helper_needed2">Je kan toegang krijgen tot meer statistieken wanneer je 
+        Root access hebt door het installeren van de GSam Root Companion app. Deze app geeft je toegang tot gedetailleerde 
+        statistieken over Wakelocks, sensorgebruik en nog vele andere statistieken.\n
+        \nAls je geen Root-toegang hebt of niet weet wat dit betekent, maak je er geen zorgen over, GSam 
+        functioneert ook prima zonder deze toegang.\n
         \nKijk op <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> voor meer informatie.</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">De Root Companion App is niet goed in /system/priv-app geïnstalleerd. Open de app en kijk of deze goed is geïnstalleerd.</string>
-    <string name="main_kitkat_nostats_launch_companion">Open Root Companion</string>
-    <string name="main_kitkat_nostats_install_companion">Installeer Root Companion</string>
+    <string name="main_kitkat_nostats_launch_companion">Open de Root Companion-app</string>
+    <string name="main_kitkat_nostats_install_companion">Installeer de Root Companion-app</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App details</string>
@@ -258,16 +261,16 @@
     <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
     <string name="appdetail_details_button">Beheren</string>
     <string name="appdetail_details_button_wakelocks">Google mij</string>    
-    <string name="appdetail_details_adjustpower">Energiebesparing tips</string>
-    <string name="appdetail_details_adjust_wifi">Schakel Wi-Fi uit bij geen gebruik via de Wi-Fi instellingen knop bovenin.</string>
+    <string name="appdetail_details_adjustpower">Energiebesparingstips</string>
+    <string name="appdetail_details_adjust_wifi">Schakel Wi-Fi uit bij geen gebruik via de Wi-Fi instellingen-knop bovenin.</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi instellingen</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Laden Wi-Fi instellingen niet mogelijk</string>
-    <string name="appdetail_details_adjust_screen">Verlaag Helderheid en Time-out door de Display instellingen knop bovenin.</string>
+    <string name="appdetail_details_adjust_screen">Verlaag Helderheid en Time-out door de Display instellingen-knop bovenin.</string>
     <string name="appdetail_details_adjust_screen_button">Display instellingen</string>
-    <string name="appdetail_details_adjust_screen_failedintent">Laden scherm instellingen niet mogelijk</string>
-    <string name="detail_menu_export">Export</string>
-    <string name="detail_menu_export_dlg_title">Export Display (Text) gegevens gebruik</string>
-    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Export gegevens</string>    
+    <string name="appdetail_details_adjust_screen_failedintent">Laden Display instellingen niet mogelijk</string>
+    <string name="detail_menu_export">Exporteer</string>
+    <string name="detail_menu_export_dlg_title">Exporteer de gegevens Display gebruik (Text)</string>
+    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Exporteer gegevens</string>    
     <string name="appdetail_appuid">App UID:</string>  
     <string name="appdetail_audio">Geluid aan:</string>  
     <string name="appdetail_bright">Helder:</string>  
@@ -334,6 +337,12 @@
     <string name="ok">OK</string>
     <string name="error">Er is een fout opgetreden</string>
 
+    <!-- Copied from the original BATTERY_STATS permission description -->
+    <string name="permlab_batteryStats">Lees batterijstatistieken</string>
+    <string name="permdesc_batteryStats">Sta toe dat een app de gebruiksdata leest 
+        van de huidige, bijna lege batterij. De app zoekt, na toestemming, gedetailleerd informatie over
+        welke apps je gebruikt.</string>
+
     <!-- Charts -->
     <string name="main_chart_showtemp">Temperatuur</string>
     <string name="main_chart_showother">Andere</string>
@@ -373,11 +382,39 @@
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
     <string name="about_translations">Vertalingen:</string>
     
+    <!-- DashClock Widget Extension -->
+    <string name="dashclock_description">Geeft de batterijstatistieken weer inclusief resterende tijd, gebruik per uur, etc.</string>
+    <string name="dashclock_active_standby">%1$s Actief, %2$s Standby</string>
+    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
+    <string name="dashclock_delta_per_hour_short_full">Vol</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Opladen</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Ontladen</string>  
+    <string name="dashclock_to_empty">%1$s tot leeg</string>  
+    <string name="dashclock_to_full">%1$s tot vol</string>
+    <string name="dashclock_pref_show_used">Geef gebruik weer</string>
+    <string name="dashclock_pref_show_remaining_time">Resterende tijd weergeven</string>
+    <string name="dashclock_pref_show_active_standby">Tijden actief en standby weergeven</string>
+    <string name="dashclock_pref_show_temp_voltage">Temperatuur en voltage weergeven</string>
+    <string name="dashclock_settings">GSam Extensie-instellingen</string>
+    
     <!-- Translations & Translators -->   
-    <string name="lang_default">Standaard systemtaal</string>        
+    <string name="lang_default">Standaard systeemtaal</string>        
     <string name="translator_anonymous">Anoniem</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
+    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
+    <string name="translator_fr">Jaworski Johan</string>      
+    <string name="translator_it">Fabio Abbà</string>    
+    <string name="translator_hu">István Kriskó (Stefi)</string>    
+    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
+    <string name="translator_sv">Pontus Edgren</string>
     <string name="translator_nl">ArTsLeOpS</string>
+    <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
+    <string name="translator_zh_CN">Gavin Fang</string>
+    <string name="translator_tr">Saldıray Günal</string>
+    <string name="translator_pl">www.cvxcvx.pl</string>
+    <string name="translator_de">Jan Fortein</string>
+    <string name="translator_es">Carlos Salazar (&lt;a href=\"http://about.me/carlos_salazar\"&gt;Ulric&lt;/a&gt;) &lt;BR&gt;
+        Broquen (&lt;a href=\"http://forum.xda-developers.com/member.php?u=2695779\"&gt;broquen&lt;/a&gt;)</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Is je display te fel?</string>
