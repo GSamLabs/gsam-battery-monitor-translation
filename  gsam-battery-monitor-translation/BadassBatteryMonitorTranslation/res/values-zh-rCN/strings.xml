@@ -19,22 +19,20 @@
     <string name="preferences_theme_category">主题</string>
     <string name="preferences_alarm_category">提醒</string>
     <string name="preferences_startup_service_title">开机自动运行</string>
-    <string name="preferences_startup_service_sum">系统启动自动运行电池检测</string>
+    <string name="preferences_startup_service_sum">软件启动时自动开始电池检测</string>
     <string name="preferences_temperature_title">温度以摄氏度表示</string>
     <string name="preferences_show_notification_icon_title">显示状态栏信息图标</string>
     <string name="preferences_show_notification_icon_sum">在状态栏显示当前电量指示图标</string>
     <string name="preferences_show_notification_title">只显示提醒</string>
-    <string name="preferences_show_notification_sum">提醒时不显示当前电量指示图标</string>
-    <string name="preferences_alarm_chargecomplete_sum">充电完成时提醒</string>
-    <string name="preferences_alarm_lowbatt_title">低电量提醒</string>
-    <string name="preferences_alarm_lowbatt_sum">剩余电量过低时提醒</string>
-    <string name="preferences_alarm_lowbatttrigger_title">低电量提醒设置</string>
-    <string name="preferences_alarm_lowbatttrigger_sum">剩余电量提醒百分比设置</string>
-    <string name="preferences_alarm_lowbatttrigger_err">该值必须在0到100之间</string>
-    <string name="preferences_alarm_hotbatt_title">电池过热提醒</string>
-    <string name="preferences_alarm_hotbatt_sum">电池温度过热时提醒</string>
-    <string name="preferences_alarm_hotbatttrigger_title">电池温度提醒设置</string>
-    <string name="preferences_alarm_hotbatttrigger_sum">温度提醒设置</string>
+    <string name="preferences_show_notification_sum">提醒时不显示电量指示图标</string>
+    <string name="preferences_alarm_condition_charging">电量高于</string>
+    <string name="preferences_alarm_condition_discharging">电量低于</string>
+    <string name="preferences_alarm_condition_overheated">电池过热</string>
+    <string name="preferences_alarm_condition_overvoltage">电压过高</string>
+    <string name="preferences_alarm_condition_temperature">温度高于</string>
+    <string name="preferences_alarm_select_percent">电量百分比</string>
+    <string name="preferences_alarm_select_temperature">电池温度</string>
+    <string name="preferences_alarm_select_tone">选择提醒铃声</string>
     <string name="preferences_theme_title">电池图标风格主题</string>
     <string name="preferences_theme_sum">选择电池图标风格</string>
     <string name="preferences_theme_getmore_title">更多图标风格主题</string>
@@ -44,8 +42,10 @@
     <string name="preferences_widget_back_title">透明的小部件背景</string>
     <string name="preferences_widget_back_msg">小部件完全透明，你可以直接看到壁纸。</string>
     <string name="preferences_widget_show_timeleft_title">显示剩余时间</string>
-    <string name="preferences_overlay_icon_sum">覆盖系统电池图标，可以设置位置大小等。</string>
-    <string name="preferences_overlay_icon_title">覆盖系统电池图标</string>
+    <string name="preferences_widget_show_temp_title">显示温度</string>
+    <string name="preferences_widget_show_voltage_title">显示电压</string>
+    <string name="preferences_overlay_icon_sum">覆盖原厂电池图标。  位置，尺寸等。 都是完全可配置的。</string>
+    <string name="preferences_overlay_icon_title">覆盖标准电池图标</string>
     <string name="preferences_overlay_icon_configure_sum">配置覆盖图标的大小，位置，背景颜色，亮度等。</string>
     <string name="preferences_overlay_icon_configure_title">配置图标</string>
     <string name="preferences_overlay_icon_configure_invalid">无法打开配置功能。请手动打开图标包进行手动配置。</string>
@@ -100,7 +100,7 @@
     <string name="preferences_widget_color_full_title">100%时的颜色</string>
     <string name="preferences_widget_color_middle_title">50%的颜色</string>
     <string name="preferences_widget_color_empty_title">0%的颜色</string>
-	<string name="preferences_widget_color_alpha_title">颜色透明度</string>
+    <string name="preferences_widget_color_alpha_title">颜色透明度</string>
     <string name="preferences_widget_color_preview_title">效果预览</string>
     <string name="preferences_widget_color_preview_sum">设置下图电池状态预览百分比数值</string>
     <string name="preferences_widget_color_screen_sum">设置电池显示的颜色渐变，小部件</string>
@@ -110,6 +110,8 @@
     <string name="preferences_start_foreground_sum">以高优先级运行本应用。当电池图标不更新时使用该设定。否则请勿勾选本选项，以免占用过多系统资源。</string>
     <string name="preferences_menu_add_alarm">添加闹钟</string>
     <string name="preferences_menu_remove_alarm">移除闹钟</string>
+    <string name="preferences_disable_animation_title">禁用动画效果</string>
+    <string name="preferences_disable_animation_sum">对较慢的设备禁用屏幕动画</string>
    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">圆圈</string>  
@@ -124,7 +126,7 @@
     <string name="time_left_calc_last60">最近60分钟</string>
     <string name="stats_since_unplugged">从最后一次拔出电源</string>
     <string name="stats_since_charged">从最后一次充满</string>
-    <string name="stats_since_custom">从自选的参考点</string>
+    <string name="stats_since_custom">从自定义的参考点</string>
     <string name="pwer_profiles_mfg">出厂值</string>
     <string name="pwer_profiles_saved">目前已保存的值</string>
 
@@ -137,30 +139,31 @@
     <string name="process_suck_mon_title_unplugged">%1$s (从上次拔出电源)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (从上次充满)</string>
     <string name="process_suck_mon_title_customref">%1$s (从自选参考点)</string>
-    <string name="procsuckmon_viewby_pwr">显示%电量使用</string>
-    <string name="procsuckmon_viewby_pwr_minforeground">显示%电量使用（只包括后台应用CPU）</string>
+    <string name="procsuckmon_viewby_pwr">显示 % 电量使用</string>
+    <string name="procsuckmon_viewby_pwr_minforeground">显示 % 电量使用（只包括后台应用CPU）</string>
     <string name="procsuckmon_viewby_cpu">显示CPU使用时间</string>
-    <string name="procsuckmon_viewby_cpu_minforeground">显示CPU使用 （只包括后台应用CPU）</string>
+    <string name="procsuckmon_viewby_cpu_minforeground">显示CPU使用（只包括后台应用CPU）</string>
     <string name="procsuckmon_viewby_data">显示网络数据使用量</string>
     <string name="procsuckmon_viewby_sensor">显示传感器使用时间</string>
     <string name="procsuckmon_viewby_awake">显示保持唤醒状态时间</string>
     <string name="procsuckmon_viewby_wake_times">显示唤醒设备的次数</string>
     <string name="procsuckmon_viewby_gps">显示GPS时间使用</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">显示内核唤醒锁时间</string>
+    <string name="procsuckmon_wakelock_user_apps">结合应用的唤醒锁 (非内核)</string>
 
     <!-- Main screen -->
     <string name="main_history_button">历史</string>
     <string name="main_preferences_button">选项</string>
     <string name="main_calculating">计算中\u2026</string>
     <string name="main_full">已充满</string>
-    <string name="main_timetofull">剩余 - 充满还需：</string>
-    <string name="main_timetofull_tablet">充满还需时间：</string>
-    <string name="main_timeleft">剩余 - 平均：</string>
-    <string name="main_timeleft_tablet">剩余使用时间（以平均使用情况）： </string>
-    <string name="main_timeleft_rolling">剩余 - 最近%1$s分钟: </string>
-    <string name="main_timeleft_rolling_tablet">剩余使用时间（以最近%1$s分钟使用情况）： </string>
-    <string name="main_talktime">剩余 - 通话时间： </string>
-    <string name="main_talktime_tablet">可用通话时间： </string>
+    <string name="main_timeremaining">剩余时间</string>
+    <string name="main_timetofull2">充满还需时间：</string>
+    <string name="main_timetofull_tablet2">充满还需时间：</string>
+    <string name="main_timeleft2">平均： </string>
+    <string name="main_timeleft_tablet2">剩余使用时间（以平均使用情况）： </string>
+    <string name="main_timeleft_rolling2">最近%1$s分钟: </string>
+    <string name="main_timeleft_rolling_tablet2">剩余使用时间（以最近%1$s分钟使用情况）： </string>
+    <string name="main_talktime2">通话时间：  </string>
     <string name="main_temp">温度：</string>
     <string name="main_voltage">电压：</string>
     <string name="main_health">电池类型 / 健康度: </string>
@@ -171,17 +174,20 @@
     <string name="main_health_over_voltage">电压过高</string>
     <string name="main_health_unknown">未知</string>
     <string name="main_health_failed">获取失败</string>
-    <string name="main_usage_label">电池使用情况 - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label">电池使用 - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label2">使用了 %1$s%% 在 %2$s 内</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s 活动, %3$s 待机</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s 活动</string>
     <string name="main_phone_on_label">电话：</string>
     <string name="main_screen_on_label">屏幕：</string>
-    <string name="main_phone_radio_on_label">电话网络：</string>
+    <string name="main_phone_radio_on_label">电话射频：</string>
     <string name="main_wifi_active_label">Wifi活动：</string>
     <string name="main_idle_label">保持唤醒：</string>
     <string name="main_bluetooth_label">蓝牙：</string>
-    <string name="main_app_usage_label">应用程序使用：</string>
-    <string name="main_app_usage_button">应用程序耗电分析</string>
+    <string name="main_app_usage_label">应用使用：</string>
+    <string name="main_app_usage_button">应用耗电分析</string>
     <string name="main_android_batt_usage_button">电池 - 系统内置</string>    
-    <string name="main_android_batt_usage_failed">无法打开系统内置电源使用应用。。。</string>
+    <string name="main_android_batt_usage_failed">无法打开系统内置 电池使用 应用。。。</string>
     <string name="main_tools_menu">更多</string>
     <string name="main_menu_charts">图表</string>
     <string name="menu_whatsnew">更新信息</string>
@@ -193,7 +199,12 @@
     <string name="main_refresh_toast">统计信息已更新\u2026</string>
     <string name="main_market_nomarket_msg">功能不可用。在您的机器上找不到应用程序市场。</string>
     <string name="menu_help">帮助</string>
+    <string name="menu_send_debug_data">发送错误报告</string>    
+    <string name="menu_send_debug_data_dlg_title">发送错误报告使用:</string>
+    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
+    <string name="menu_send_debug_data_body">Please enter a description of the problem you encountered:\n\n</string> 
     <string name="menu_review">评论 GSam Battery Monitor</string>
+    <string name="menu_enable_more_stats">开启更多统计</string>
     <string name="main_share_intentchoosertitle">共享我的电池平均使用时间\u2026</string>
     <string name="main_share_subject">平均电池使用时间 - GSam Battery Monitor</string>
     <string name="main_share_msg2">我的%1$s %2$s充一次电后平均使用时间%3$s (%4$s活动时间)。请查看GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
@@ -201,7 +212,7 @@
     <string name="main_avg_timepercharge_label">平均电池使用时间: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%%使用%2$s（从最后一次拔出电源）</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%%使用%2$s（从最后一次充满）</string>
-    <string name="main_tablet_battusage_customref">%1$s%%使用%2$s（从自选参考点）</string>
+    <string name="main_tablet_battusage_customref">%1$s%%使用%2$s（从自定义参考点）</string>
     <string name="main_tablet_active_usage">活动 (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">待机 (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">为GSam Battery Monitor评分</string>
@@ -210,7 +221,23 @@
     <string name="main_header_type">类型</string>
     <string name="main_header_time">时间</string>
     <string name="main_header_power">电量</string>
-
+    <string name="averages_since">至从 %1$s</string>
+    <string name="averages_header">每完整充电周期平均值</string>
+    <string name="main_avg_timepercharge_label2">电池寿命:</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s 活动)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s 待机)</string>
+    <string name="main_avg_screenon_label">屏幕开启:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s 最大)</string>
+    <string name="main_avg_chargetime_label">充电时间:</string>
+    <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
+    <string name="main_kitkat_nostats_title2">用Root伴侣应用开启更多统计资料</string>
+    <string name="main_kitkat_nostats_helper_needed2">如果你通过安装GSam Root伴侣应用而拥有Root访问权限，你可以启用访问更多统计资料
+                 这会让你访问更详细的唤醒锁，传感器使用和许多其他统计信息。\n
+        \n如果你没有Root或者不知道这是什么意思，别担心它。GSam没有它功能也一样很好。\n
+        \n参考 <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> 获得更多信息。</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root伴侣应用没有正确的安装在/system/priv-app。 请启动应用并验证它是否正确安装。</string>
+	<string name="main_kitkat_nostats_launch_companion">启动Root伴侣</string>
+	<string name="main_kitkat_nostats_install_companion">安装Root伴侣</string>
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">应用程序详情</string>
     <string name="process_suck_mon_title_prefix_wifi">Wifi详情</string>
@@ -223,10 +250,13 @@
     <string name="appdetail_included_processes">包含的进程</string>
     <string name="appdetail_seconds">%1$01d秒</string>
     <string name="appdetail_minutes">%1$01d分 %2$01d秒</string>
+    <string name="appdetail_minutes_decimal">%1$s分</string>
     <string name="appdetail_days">%1$01d天 %2$01d时 %3$01d分</string>
     <string name="appdetail_days_twolevels">%1$01d天 %2$01d时</string>
+    <string name="appdetail_days_twolevels_decimal">%1$01d天 %2$s时</string>
     <string name="appdetail_hours">%1$01d时 %2$01d分 %3$01d秒</string>
     <string name="appdetail_hours_twolevels">%1$01d时 %2$01d分</string>
+    <string name="appdetail_hours_twolevels_decimal">%1$01d时 %2$s分</string>
     <string name="appdetail_details_button">管理</string>
     <string name="appdetail_details_button_wakelocks">Google我</string>    
     <string name="appdetail_details_adjustpower">省电小提示</string>
@@ -261,7 +291,7 @@
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % 电量</string>
     <string name="appdetail_pct_power_nospace">% 电量</string>
     <string name="appdetail_pct_time">% 时间</string>
-    <string name="appdetail_phoneon">电话无线射频打开：</string>  
+    <string name="appdetail_phoneon">电话射频打开：</string>  
     <string name="appdetail_pwr_sysdata">系统数据消耗电量：</string>  
     <string name="appdetail_received">收到：</string>  
     <string name="appdetail_received_wifimobile">收到数据(Wifi / 移动)：</string>
@@ -291,6 +321,8 @@
     <string name="appdetail_bytes">%d字节</string>        
     <string name="appdetail_mb">%.2f MB</string>          
     <string name="appdetail_kb">%.2f KB</string>  
+    <string name="appdetail_totaltime">总时间(包括唤醒):</string>
+    <string name="appdetail_select_package">选择管理的包</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">最新更新</string>
@@ -302,6 +334,12 @@
     <string name="no">否</string>
     <string name="ok">好</string>
     <string name="error">出错了</string>
+    
+    <!-- Copied from the original BATTERY_STATS permission description -->
+    <string name="permlab_batteryStats">read battery statistics</string>
+    <string name="permdesc_batteryStats">Allows an application to read the current low-level
+        battery use data.  May allow the application to find out detailed information about
+        which apps you use.</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">温度</string>
@@ -342,22 +380,39 @@
     <string name="about_actionbar">标题栏由actionbarsherlock.com提供</string>
     <string name="about_translations">翻译：</string>
    
+    <!-- DashClock Widget Extension -->
+    <string name="dashclock_description">显示电池统计资料包括剩余时间，每小时消耗等更多。</string>
+    <string name="dashclock_active_standby">%1$s 活动, %2$s 待机</string>
+    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/时</string>
+    <string name="dashclock_delta_per_hour_short_full">充满</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - 充电中</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - 放电中</string>  
+    <string name="dashclock_to_empty">%1$s 用尽</string>  
+    <string name="dashclock_to_full">%1$s 充满</string>
+    <string name="dashclock_pref_show_used">显示总计使用量</string>
+    <string name="dashclock_pref_show_remaining_time">显示剩余时间</string>
+    <string name="dashclock_pref_show_active_standby">显示活动和待机时间</string>
+    <string name="dashclock_pref_show_temp_voltage">显示温度和电压/string>
+    <string name="dashclock_settings">GSam扩展设置</string>
+    
     <!-- Translations & Translators -->  
     <string name="lang_default">系统默认语言</string>        
     <string name="translator_anonymous">匿名</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <!--  EG string name="translator_ru">Dmitry Chernogaev &lt;BR&gt;&lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string -->        
+    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
     <string name="translator_fr">Jaworski Johan</string>       
-    <string name="translator_it">Fabio Abbà</string>     
-    <string name="translator_hu">István Kriskó (Stefi)</string>    
-    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
+    <string name="translator_it">Fabio AbbÃ </string>     
+    <string name="translator_hu">IstvÃ¡n KriskÃ³ (Stefi)</string>    
+    <string name="translator_cs">MatÄ›j Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
     <string name="translator_sv">Pontus Edgren</string>
     <string name="translator_nl">ArTsLeOpS</string>
     <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
-    <string name="translator_zh_CN">Gavin Fang</string>    
-    <string name="translator_tr">Saldıray Günal</string>
-    <string name="translator_pl">cvxcvx</string>
+    <string name="translator_zh_CN">Gavin Fang / myliyifei修补</string>
+    <string name="translator_tr">SaldÄ±ray GÃ¼nal</string>
+    <string name="translator_pl">www.cvxcvx.pl</string>
     <string name="translator_de">Jan Fortein</string>
+    <string name="translator_es">Carlos Salazar (&lt;a href=\"http://about.me/carlos_salazar\"&gt;Ulric&lt;/a&gt;) &lt;BR&gt;
+        Broquen (&lt;a href=\"http://forum.xda-developers.com/member.php?u=2695779\"&gt;broquen&lt;/a&gt;)</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">您的屏幕太亮了？</string>
@@ -401,5 +456,3 @@
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with_application">共享 <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
-
-
