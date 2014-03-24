@@ -36,7 +36,7 @@
     <string name="preferences_theme_title">Ícones de Bateria</string>
     <string name="preferences_theme_sum">Escolhe o estilo do ícone de bateria</string>
     <string name="preferences_theme_getmore_title">Mais Temas..</string>
-    <string name="preferences_theme_getmore_msg">Isto vai procurar mais temas. O GSam Labs não controla ou aprova todos os temas, se um tema não funcionar entre em contacto com o programador do mesmo. \n\nFaça o download e instale, os temas vão ficar disponíveis neste menu.\n\nSabia que pode criar os seus próprios temas?  \n\nVisite http://badassbatterymonitor.blogspot.com para mais detalhes!</string>
+    <string name="preferences_theme_getmore_msg">Isto vai procurar por mais temas. O GSam Labs não controla ou aprova todos os temas, se um tema não funcionar entre em contacto com o programador do mesmo. \n\nFaça o download e instale, os temas vão ficar disponíveis neste menu.\n\nSabia que pode criar os seus próprios temas?  \n\nVisite <a href="http://badassbatterymonitor.blogspot.com">http://badassbatterymonitor.blogspot.com</a> para mais detalhes!</string>
     <string name="preferences_theme_progress_title">Actualizando Temas</string>
     <string name="preferences_theme_progress_msg">Actualizando lista de temas disponíveis\u2026</string>
     <string name="preferences_widget_back_title">Widget Transparente</string>
@@ -51,7 +51,7 @@
     <string name="preferences_overlay_icon_configure_invalid">Incapaz de abrir as configurações.  Abrir o pacote de ícones manualmente para configurar.</string>
     <string name="preferences_overlay_icon_notvalid_title">O Tema Selecionado Não Suporta Sobreposição</string>
     <string name="preferences_overlay_icon_notvalid_msg">Selecione um tema diferente e tente de novo.\n\nA sobreposição de ícones apenas é suportada por pacotes externos.  Selecione "Mais Temas" no menu de temas para encontrar pacotes externos.  \n\nTodos os pacotes fornecidos pelo GSam Labs suportam a sobreposição.  Os pacotes de ícones de terceiros podem não suportar a sobreposição.</string>
-    <string name="preferences_show_charging_animation_title">Animação durante Carregamento</string>
+    <string name="preferences_show_charging_animation_title">Animação Durante a Carga</string>
     <string name="preferences_widget_color_screen_title">Opções do Widget da Bateria</string>
     <string name="preferences_app_theme_title">Usar Tema Escuro</string>
     <string name="preferences_app_theme_sum">Usa o tema em preto para o ecrã da aplicação</string>
@@ -65,7 +65,7 @@
     <string name="preferences_power_per_percent_reset_summary">Reinicia os tempos estimados.  Usa isto se os tempos estimados não estão correctos.  Actualmente %1$s / porcento calculado em %2$01d porcentagem</string>
     <string name="preferences_power_per_percent_dlgtext">Valores separados por uma virgula em POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Estes valores são constantemente actualizados - quanto mais tempo estiver activo, mas correcto se torna.  No entanto, sempre que se altere algum valor no perfil de energia, e necessário limpar este campo e deixar que a aplicação o volte a criar.</string>
     <string name="preferences_power_per_percent_reset">Reiniciar</string>
-    <string name="preferences_time_per_percent_title">Reiniciar o histórico de Descarga</string>
+    <string name="preferences_time_per_percent_title">Reiniciar o Histórico de Descarga</string>
     <string name="preferences_time_per_percent_unkown">Desconhecido</string>
     <string name="preferences_time_per_percent_summary">Reinicia o valor calculado para a média de duração de uma carga completa. Actualmente %1$s (%2$sm / porcento calculado em %3$01d porcentagem)</string>
     <string name="preferences_stats_since_title">Ver as Estatísticas Desde</string>
@@ -84,15 +84,15 @@
     <string name="preferences_clear_history_stats_sum">Clica aqui para reiniciar as estatísticas da bateria.  Este processo eliminará todas as estatísticas.  E equivalente a fazer uma carga completa e desligar o carregador.  Todas as estatísticas são reiniciadas até esse ponto, use com cuidado!</string>
     <string name="preferences_clear_history_stats_toast">Todas as estatísticas foram limpas\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Incapaz de restabelecer as estatísticas - este dispositivo pode não suportar essa função\u2026</string>
-    <string name="preferences_custom_ref">O histórico da bateria vai ser baseado a partir de um ponto de referencia personalizado criado agora (ou quando desconectares o carregador). Esta referencia serve para saber o uso da bateria desde este momento, em vez da última carga completa. </string>
+    <string name="preferences_custom_ref">O histórico da bateria vai ser baseado a partir de um ponto de referência personalizado criado agora (ou quando desconectares o carregador). Esta referência serve para saber o uso da bateria desde este momento, em vez da última carga completa. </string>
     <string name="preferences_custom_ref_plugged">O dispositivo está a carga - só pode criar um ponto personalizado depois de o desconectar.</string>
     <string name="preferences_send_anon_stats_title">Permitir Estatísticas Anónimas</string>
-    <string name="preferences_send_anon_stats_sum">Permite o envio de estatisticas em anónimo.  Nenhuma informação pessoal será enviada.</string>
+    <string name="preferences_send_anon_stats_sum">Permite o envio de estatísticas em anónimo.  Nenhuma informação pessoal será enviada.</string>
     <string name="preferences_show_ads_title">Mostrar Publicidade</string>
     <string name="preferences_show_ads_sum">Mostra publicidade no ecrã principal.</string>
     <string name="preferences_override_lang_title">Idioma</string>
     <string name="preferences_override_lang_sum">Usar outro idioma em vez do predefinido pelo sistema.</string>
-    <string name="preferences_power_profiles_include_sensors_title">Incluir os sensores nos cálculos</string>
+    <string name="preferences_power_profiles_include_sensors_title">Incluir Sensores nos Cálculos</string>
     <string name="preferences_power_profiles_include_sensors_sum">"Alguns dispositivos não calculam o uso dos sensores correctamente.  Desactiva esta opção se o calculo parece não estar correcto (em particular o acelerômetro). "</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">Reiniciar Porcentagem</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">Isto reiniciará o calculo de energia por unidade de porcentagem.  Deseja continuar?</string>
@@ -107,7 +107,7 @@
     <string name="preferences_widget_color_category">Cores</string>
     <string name="preferences_widget_general_category">Geral</string>
     <string name="preferences_start_foreground_title">Alta Prioridade</string>
-    <string name="preferences_start_foreground_sum">Utiliza o monitor de bateria em alta prioridade.  Utilizar apenas se os icones não actualizam correctamente ao mostrar a porcentagem de bateria.  Não actives se isso não acontecer, vais estar a consumir recursos extra que poderiam ser usados noutras aplicações. </string>
+    <string name="preferences_start_foreground_sum">Utiliza o monitor de bateria em alta prioridade.  Utilizar apenas se os ícones não actualizam correctamente ao mostrar a porcentagem de bateria.  Não actives se isso não acontecer, vais estar a consumir recursos extra que poderiam ser usados noutras aplicações. </string>
     <string name="preferences_menu_add_alarm">Adicionar Alarme</string>
     <string name="preferences_menu_remove_alarm">Remover Alarme</string>
     <string name="preferences_disable_animation_title">Desactivar Animações</string>
@@ -141,14 +141,14 @@
     <string name="process_suck_mon_title_customref">%1$s (Desde referência personalizada)</string>
     <string name="procsuckmon_viewby_pwr">Ver % de Bateria Utilizada</string>
     <string name="procsuckmon_viewby_pwr_minforeground">Ver % Usada (só CPU em segundo plano)</string>
-    <string name="procsuckmon_viewby_cpu">Ver uso do CPU em minutos</string>
+    <string name="procsuckmon_viewby_cpu">Ver Uso do CPU em Minutos</string>
     <string name="procsuckmon_viewby_cpu_minforeground">Ver CPU (Em segundo plano)</string>
     <string name="procsuckmon_viewby_data">Ver Utilização de Dados</string>
     <string name="procsuckmon_viewby_sensor">Ver tempo de uso dos Sensores</string>
     <string name="procsuckmon_viewby_awake">Ver tempo Desperto</string>
     <string name="procsuckmon_viewby_wake_times">Ver número de Despertares</string>
     <string name="procsuckmon_viewby_gps">Ver tempo de uso do GPS</string>
-    <string name="procsuckmon_viewby_kernel_wakelocks">Ver despertares do Kernel</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">Ver Despertares do Kernel</string>
     <string name="procsuckmon_wakelock_user_apps">Despertares de todas as Aplicações (non-Kernel)</string>
 
     <!-- Main screen -->
@@ -157,7 +157,7 @@
     <string name="main_calculating">Calculando\u2026</string>
     <string name="main_full">Cheia</string>
     <string name="main_timeremaining">Tempo Restante</string>
-    <string name="main_timetofull2">Carga Completo:</string>
+    <string name="main_timetofull2">Carga Completa:</string>
     <string name="main_timetofull_tablet2">Carga Completa:</string>
     <string name="main_timeleft2">Média:</string>
     <string name="main_timeleft_tablet2">Média de Uso:</string>
@@ -186,7 +186,7 @@
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Aplicações:</string>
     <string name="main_app_usage_button">App Sucker</string>
-    <string name="main_android_batt_usage_button">Uso de bateria - (App Andoroid)</string>
+    <string name="main_android_batt_usage_button">Uso de Bateria - (App Android)</string>
     <string name="main_android_batt_usage_failed">Incapaz de abrir a aplicação da bateria...</string>
     <string name="main_tools_menu">Mais</string>
     <string name="main_menu_charts">Gráficos</string>
@@ -199,12 +199,12 @@
     <string name="main_refresh_toast">Estatísticas Actualizadas\u2026</string>
     <string name="main_market_nomarket_msg">Função não disponível.  Parece que não há nenhuma aplicação do market instalada.</string>
     <string name="menu_help">Ajuda</string>
-    <string name="menu_send_debug_data">Enviar relatório de Erros</string>
+    <string name="menu_send_debug_data">Enviar Relatório de Erros</string>
     <string name="menu_send_debug_data_dlg_title">Enviar relatório usando:</string>
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
     <string name="menu_send_debug_data_body">Por favor, descreve o problema ocorrido:\n\n</string>
     <string name="menu_review">Avalia GSam Monitor de Bateria</string>
-    <string name="menu_enable_more_stats">Activar mais Estatísticas</string>
+    <string name="menu_enable_more_stats">Activar Mais Estatísticas</string>
     <string name="main_share_intentchoosertitle">Partilha a duração média da bateria\u2026</string>
     <string name="main_share_subject">Duração da Bateria (Média) - GSam Battery Monitor</string>
     <string name="main_share_msg2">Telemóvel: %1$s %2$s. Média da bateria %3$s (%4$s em uso) com apenas uma carga. Sabe mais sobre o GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
@@ -231,8 +231,8 @@
     <string name="main_avg_chargetime_label">Tempo de carga:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title2">Activa mais estatísticas com o Root Companion</string>
-    <string name="main_kitkat_nostats_helper_needed2">Podes ter acesso a mais estatisticas se tiveres root instalando o GSam Root Companion.  Esta aplicação dá te mais informações detalhadas sobre sensores, etc.\n
-        \nSe não tiveres root ou não souberes o que significa, não te preocupes. Gsam funciona correctamente sem ele\n
+    <string name="main_kitkat_nostats_helper_needed2">Podes ter acesso a mais estatisticas se tiveres root, instalando o GSam Root Companion.  Esta aplicação dá te mais informações detalhadas sobre sensores, etc.\n
+        \nSe não tiveres root ou não souberes o que significa, não te preocupes, o Gsam funciona correctamente sem ele\n
         \nMais informações em <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a>.</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">A aplicação Root Companion não está correctamente instalada em /system/priv-app.  Por favor inicia a aplicação e verifica se está devidamente instalada.</string>
 	<string name="main_kitkat_nostats_launch_companion">Iniciar Root Companion</string>
@@ -260,10 +260,10 @@
     <string name="appdetail_details_button">Editar</string>
     <string name="appdetail_details_button_wakelocks">Google Me</string>    
     <string name="appdetail_details_adjustpower">Dicas para poupar Bateria</string>
-    <string name="appdetail_details_adjust_wifi">Desliga o Wi-Fi quando não necessitares usando o botão definições em cima.</string>
+    <string name="appdetail_details_adjust_wifi">Desligue o Wi-Fi quando não for necessário usando o botão de definições em cima.</string>
     <string name="appdetail_details_adjust_wifi_button">Definições Wi-Fi</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Incapaz de abrir as definições</string>
-    <string name="appdetail_details_adjust_screen">Reduz o brilho do ecrã e a duração da luz de fundo usando o botão em cima.</string>
+    <string name="appdetail_details_adjust_screen">Reduza o brilho do ecrã e a duração da luz de fundo usando o botão em cima.</string>
     <string name="appdetail_details_adjust_screen_button">Definições Ecrã</string>
     <string name="appdetail_details_adjust_screen_failedintent">Incapaz de abrir as definiçções</string>
     <string name="detail_menu_export">Exportar</string>
@@ -416,7 +416,7 @@
     <string name="main_market_pro_msg">Sabias que existe uma versão do GSam Pro optimizada para tablets?  Procura por ela no google play.\n\nEsta mensagem não voltará a aparecer.</string>
     <string name="main_market_pro_msg_kindle">Sabias que existe uma versão do GSam Pro optimizada para o Kindle Fire?  Procura por ela na Appstore.\n\nEsta mensagem não voltará a aparecer.</string>
     <string name="main_market_pro_ok">Saber mais</string>
-    <string name="main_market_pro_cancel">Não, Obrigado</string>
+    <string name="main_market_pro_cancel">Não, obrigado</string>
     <string name="main_invalid_license_title">Licença Inválida</string>
     <string name="main_invalid_license_msg">A tua licença não parece estar válida.  O Monitor de Bateria vai continuar em modo gratuito.  Se compraste a aplicação, por favor verifica a tua compra.</string>
     <string name="main_invalid_license_ok">Verificar compras</string>
