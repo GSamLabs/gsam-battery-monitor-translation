@@ -63,7 +63,7 @@
     <string name="preferences_profiles_screen_summary">Avançado - Edita os perfis de energia usados para calcular todos os valores</string>
     <string name="preferences_power_per_percent_reset_title">Reiniciar Tempos Estimados</string>
     <string name="preferences_power_per_percent_reset_summary">Reinicia os tempos estimados.  Usa isto se os tempos estimados não estão correctos.  Actualmente %1$s / porcento calculado em %2$01d porcentagem</string>
-    <string name="preferences_power_per_percent_dlgtext">Valores separados por uma virgula em POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Estes valores são constantemente actualizados - quanto mais tempo estiver activo, mas correcto se torna.  No entanto, sempre que se altere algum valor no perfil de energia, e necessário limpar este campo e deixar que a aplicação o volte a criar.</string>
+    <string name="preferences_power_per_percent_dlgtext">Valores separados por uma virgula em POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Estes valores são constantemente actualizados - quanto mais tempo estiver activo, mais correcto se torna.  No entanto, sempre que se altere algum valor no perfil de energia, e necessário limpar este campo e deixar que a aplicação o volte a criar.</string>
     <string name="preferences_power_per_percent_reset">Reiniciar</string>
     <string name="preferences_time_per_percent_title">Reiniciar o Histórico de Descarga</string>
     <string name="preferences_time_per_percent_unkown">Desconhecido</string>
