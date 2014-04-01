@@ -21,7 +21,7 @@
     <string name="preferences_startup_service_sum">Rozpoczęcie monitorowania baterii podczas uruchamiania</string>
     <string name="preferences_temperature_title">Temp. w stopniach Celsjusza</string>
     <string name="preferences_show_notification_icon_title">Pokaż ikonę powiadomienia</string>
-    <string name="preferences_show_notification_icon_sum">Pokaż % ikonę powiadomienia w pasku powiadomień</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Pokaż % ikonę powiadomienia w pasku powiadomień</string>
     <string name="preferences_show_notification_title">Pokaż tylko powiadomienia</string>
     <string name="preferences_show_notification_sum">Pokaż powiadomienia bez ikony powiadomień</string>
     <string name="preferences_alarm_condition_charging">Bateria powyżej</string>
@@ -35,7 +35,7 @@
     <string name="preferences_theme_title">Motyw ikony baterii</string>
     <string name="preferences_theme_sum">Wybierz styl ikony baterii</string>
     <string name="preferences_theme_getmore_title">Pobierz więcej motywów</string>
-    <string name="since">Tutaj wyszukasz więcej motywów Battery Monitor. GSam Labs nie kontroluje ani nie sprawdza wszystkich motywów, więc jeśli coś nie działa należy skontaktować się z twórcą motywu.\n\nPobierz i zainstaluj motyw, a następnie wrócić do tego menu, aby wyświetlić dostępne motywy. \n\nWiesz, że możesz tworzyć własne motywy?  Sprawdz szczególy na http://badassbatterymonitor.blogspot.com!</string>
+    <string name="preferences_theme_getmore_msg">Tu wyszukasz więcej tematów Battery Monitor. GSam Labs nie kontroluje ani nie zatwierdza wszystkich  tematów,więc jeśli tematu nie działa, skontaktuj się z twórcą tego tematu.\n\nPobierz i zainstaluj motyw, a następnie wrócić do tego menu, aby zobaczyć dostępne tematy.\n\nCzy wiesz, że możesz tworzyć własne motywy? Zobacz szczegółowe informacje na temat! http://badassbatterymonitor.blogspot.com</string>
     <string name="preferences_theme_progress_title">Pobieranie motywów</string>
     <string name="preferences_theme_progress_msg">Pobieranie listy dostępnych motywów\u2026</string>
     <string name="preferences_widget_back_title">Przezroczyste tło widgetu</string>
@@ -206,8 +206,8 @@
     <string name="menu_enable_more_stats">Enable More Stats</string>
     <string name="main_share_intentchoosertitle">Udostępnij mój średni czas pracy baterii\u2026</string>
     <string name="main_share_subject">Średni czas pracy baterii - GSam Battery Monitor</string>
-    <string name="main_share_msg2">Moje %1$s %2$s średnie baterii %3$s (%4$s aktywne korzystanie) na jednym ładowaniu. Sprawdź na GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_share_msg">Moje %1$s %2$s średnie baterii %3$s na jednym ładowaniu. Sprawdź na GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_share_msg2">Moja %1$s %2$s średnie baterii %3$s (%4$s aktywne korzystanie) na jednym ładowaniu. Sprawdź na GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_share_msg">Moja %1$s %2$s średnie baterii %3$s na jednym ładowaniu. Sprawdź na GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_avg_timepercharge_label">Średni czas pracy baterii: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% użycie %2$s (Od ostatniego odłączenia)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% użycie %2$s (Od pełnego naładowania</string>
@@ -230,15 +230,15 @@
     <string name="main_avg_chargetime_label">Czas ładowania:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title">Aplikacja Root Companion jest wymagana dla KitKat</string>
-    <string name="main_kitkat_nostats_helper_needed">Niestety, Google usunęło możliwość w KitKat (4.4)
-        dla aplikacji nie-systemowych na dostęp do statystyk baterii\n
-    \nZ rootem, można ponownie włączyć GSam instalując aplikację Root Companion (http://goo.gl/Dy06az) i skopiować ją do
-        \n/system/app-priv.
-        \nPracujemy nad alternatywnym sposóbem gromadzenia niezbędnych danych, a także - Przepraszamy za niedogodności!
-        \nZobacz http://goo.gl/r93pUE aby uzyskać więcej informacji.</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">Aplikacja Root Companion nie jest prawidłowo zainstalowana w /system/app-priv. Proszę uruchomić aplikację i sprawdzić, czy to jest poprawnie zainstalowana.</string>
-        <string name="main_kitkat_nostats_launch_companion">Uruchom  Root Companion</string>
-        <string name="main_kitkat_nostats_install_companion">Zainstaluj Root Companion</string>
+    <string name="main_kitkat_nostats_helper_needed2">Możesz włączyć dostęp do większej ilości statystyk, 
+	jeśli masz dostęp do roota, instalując aplikację GSam Companion Root. To daje dostęp do szczegółow wybudzeń, 
+	wykorzystania czujników i wiele innych statystyk.\n 
+	\nJeśli nie masz roota, lub nie wiesz, co to oznacza, nie martw się o to. GSam będzie działać dobrze 
+	bez niego.\n 
+	\nZobacz http://goo.gl/WBXJ6o aby uzyskać więcej informacji.</string>
+	<string name="main_kitkat_nostats_helper_not_installed_correctly">Aplikacja Root Companion nie jest prawidłowo zainstalowana w /system/app-priv. Proszę uruchomić aplikację i sprawdzić, czy to jest poprawnie zainstalowana.</string>
+    <string name="main_kitkat_nostats_launch_companion">Uruchom  Root Companion</string>
+    <string name="main_kitkat_nostats_install_companion">Zainstaluj Root Companion</string>
    
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Szczegóły aplikacji</string>
@@ -439,7 +439,7 @@
     <string name="main_invalid_license_msg">Twoja licencja na tą aplikacje wydaje się nie być aktualna. Battery Monitor będzie działać w jego trybie Free. Jeśli uważasz, że to pomyłka, proszę sprawdzić stan twójego zakup.</string>
     <string name="main_invalid_license_ok">Sprawdź swój zakup</string>
     <string name="main_invalid_license_cancel">Kontynuuj</string>    
-    <string name="about_invalidlicense">Twoja licencja jest nie ważna. Battery Monitor będzie pracował w trybie Free. Jeśli uważasz, że to błąd, skontaktuj się z deweloperem przy użyciu swoje Google ID Zakup</string>
+    <string name="about_invalidlicense">Twoja licencja jest nie ważna. Battery Monitor będzie pracował w trybie Free. Jeśli uważasz, że to błąd, skontaktuj się z deweloperem przy użyciu swoje Google ID Zakupu</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Przejdź na strone główną</string>
