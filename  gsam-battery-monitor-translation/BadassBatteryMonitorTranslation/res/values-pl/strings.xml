@@ -62,7 +62,7 @@
     <string name="preferences_profiles_screen_summary">Zaawansowane - Edytuj profile zużycia energii wykorzystane do obliczenia wszystkich wartości</string>
     <string name="preferences_power_per_percent_reset_title">Resetowanie pozostałego czasu szacunkowego</string>
     <string name="preferences_power_per_percent_reset_summary">Resetowanie szacunkowego czasu. Użyj tego, jeśli pozostały czas nie jest dokładny. Obecnie %1$s / procent obliczony na %2$01d procentowych</string>
-    <string name="preferences_power_per_percent_dlgtext">Oddzielone przecinkami w formie POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Wartość ta jest stale aktualizowana - im dłużej działa, tym tym bardziej dokładny pomiar. Po każdej zmianie ustawienia profilu zasilania należy jednak wyczyścić to pole i pozwolić aplikacji na regeneracje.</string>   
+    <string name="preferences_power_per_percent_dlgtext">Oddzielone przecinkami w formie POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Wartość ta jest stale aktualizowana - im dłużej działa, tym tym bardziej dokładny pomiar. Po każdej zmianie ustawienia profilu zasilania należy jednak wyczyścić to pole i pozwolić aplikacji na regeneracje.</string>  
     <string name="preferences_power_per_percent_reset">Reset</string>
     <string name="preferences_time_per_percent_title">Resetowanie historii czasu rozładowania</string>
     <string name="preferences_time_per_percent_unkown">nieznane</string>
@@ -111,12 +111,12 @@
     <string name="preferences_menu_remove_alarm">Usuń alarm</string>
     <string name="preferences_disable_animation_title">Wyłącz efekty animacji</string>
     <string name="preferences_disable_animation_sum">Wyłącza animację ekranu dla wolniejszych urządzeń.</string>
-    
+   
     <!-- Preference Selection Arrays -->    
-    <string name="icon_themes_circle">Koło</string>   
-    <string name="icon_themes_icsmono">ICS Monochromatyczne</string>   
-    <string name="icon_themes_trad">Tradycyjny</string>   
-    <string name="icon_themes_default">Domyślny systemu</string>   
+    <string name="icon_themes_circle">Koło</string>  
+    <string name="icon_themes_icsmono">ICS Monochromatyczne</string>  
+    <string name="icon_themes_trad">Tradycyjny</string>  
+    <string name="icon_themes_default">Domyślny systemu</string>  
     <string name="icon_themes_getmore">Pobierz więcej motywów</string>
     <string name="time_left_calc_dontshow">Nie pokazuj czasu</string>
     <string name="time_left_calc_last5">Ostatnie 5 minut</string>
@@ -203,6 +203,7 @@
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Raport o błędach</string>  
     <string name="menu_send_debug_data_body">Proszę wprowadź opis napotkanego problemu:\n\n</string>
     <string name="menu_review">Oceń GSam Battery Monitor</string>
+    <string name="menu_enable_more_stats">Enable More Stats</string>
     <string name="main_share_intentchoosertitle">Udostępnij mój średni czas pracy baterii\u2026</string>
     <string name="main_share_subject">Średni czas pracy baterii - GSam Battery Monitor</string>
     <string name="main_share_msg2">Moje %1$s %2$s średnie baterii %3$s (%4$s aktywne korzystanie) na jednym ładowaniu. Sprawdź na GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
@@ -220,7 +221,7 @@
     <string name="main_header_time">Czas</string>
     <string name="main_header_power">Energia</string>
     <string name="averages_since">Od %1$s</string>
-    <string name="averages_header">Srednio na pełnym naładowaniu</string>
+    <string name="averages_header">Średnio na pełnym naładowaniu</string>
     <string name="main_avg_timepercharge_label2">Żywotność baterii:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s Aktywny)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Czuwanie)</string>
@@ -229,16 +230,16 @@
     <string name="main_avg_chargetime_label">Czas ładowania:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title">Aplikacja Root Companion jest wymagana dla KitKat</string>
-    <string name="main_kitkat_nostats_helper_needed">Niestety, Google usunęło możliwość w KitKat (4.4) 
-	dla aplikacji nie-systemowych na dostęp do statystyk baterii\n
-    \nZ rootem, można ponownie włączyć GSam instalując aplikację Root Companion (http://goo.gl/Dy06az) i skopiować ją do 
-	\n/system/app-priv.
-	\nPracujemy nad alternatywnym sposóbem gromadzenia niezbędnych danych, a także - Przepraszamy za niedogodności!
-	\nZobacz http://goo.gl/r93pUE aby uzyskać więcej informacji.</string>
+    <string name="main_kitkat_nostats_helper_needed">Niestety, Google usunęło możliwość w KitKat (4.4)
+        dla aplikacji nie-systemowych na dostęp do statystyk baterii\n
+    \nZ rootem, można ponownie włączyć GSam instalując aplikację Root Companion (http://goo.gl/Dy06az) i skopiować ją do
+        \n/system/app-priv.
+        \nPracujemy nad alternatywnym sposóbem gromadzenia niezbędnych danych, a także - Przepraszamy za niedogodności!
+        \nZobacz http://goo.gl/r93pUE aby uzyskać więcej informacji.</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">Aplikacja Root Companion nie jest prawidłowo zainstalowana w /system/app-priv. Proszę uruchomić aplikację i sprawdzić, czy to jest poprawnie zainstalowana.</string>
-	<string name="main_kitkat_nostats_launch_companion">Uruchom  Root Companion</string>
-	<string name="main_kitkat_nostats_install_companion">Zainstaluj Root Companion</string>
-    
+        <string name="main_kitkat_nostats_launch_companion">Uruchom  Root Companion</string>
+        <string name="main_kitkat_nostats_install_companion">Zainstaluj Root Companion</string>
+   
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Szczegóły aplikacji</string>
     <string name="process_suck_mon_title_prefix_wifi">Szczegóły WiFi</string>
@@ -320,8 +321,8 @@
     <string name="appdetail_wifiactive">Wifi aktywne:</string>  
     <string name="appdetail_wifion">Wifi wł:</string>      
     <string name="appdetail_bytes">%d bajty</string>        
-    <string name="appdetail_mb">%.2f MB</string>           
-    <string name="appdetail_kb">%.2f KB</string>   
+    <string name="appdetail_mb">%.2f MB</string>          
+    <string name="appdetail_kb">%.2f KB</string>  
     <string name="appdetail_totaltime">Łączny czas (łącznie z wybudzonym):</string>
     <string name="appdetail_select_package">Wybierz pakiet do zarządzania</string>
 
@@ -335,11 +336,11 @@
     <string name="no">Nie</string>
     <string name="ok">OK</string>
     <string name="error">Wystąpił błąd</string>
-    
+   
     <!-- Copied from the original BATTERY_STATS permission description -->
     <string name="permlab_batteryStats">Przeczytaj statystyki baterii</string>
-    <string name="permdesc_batteryStats">Zezwala aplikacji na odczyt bieżących danych dotyczących 
-        wykorzystania niskiego poziomu baterii. Może zezwolić aplikacji, aby dowiedzieć się szczegółowych 
+    <string name="permdesc_batteryStats">Zezwala aplikacji na odczyt bieżących danych dotyczących
+        wykorzystania niskiego poziomu baterii. Może zezwolić aplikacji, aby dowiedzieć się szczegółowych
         informacji o tym, jakich aplikacji używasz.</string>
 
     <!-- Charts -->
@@ -372,7 +373,7 @@
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Nieznane</string>
     <string name="chart_wifi">WiFi</string>
-    
+   
     <!-- About -->
     <string name="about_app_name">Informacje GSam Battery Monitor</string>
     <string name="about_version">Wersja %1s</string>    
@@ -380,7 +381,7 @@
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
     <string name="about_translations">Tłumaczenie:</string>
-    
+   
     <!-- DashClock Widget Extension -->
     <string name="dashclock_description">Pokaż statystyk baterii łącznie czas pozostały, zużycie na godzinę i więcej.</string>
     <string name="dashclock_active_standby">%1$s Atywny, %2$s Czuwanie</string>
@@ -395,12 +396,26 @@
     <string name="dashclock_pref_show_active_standby">Pokaż czas aktywności i czuwania</string>
     <string name="dashclock_pref_show_temp_voltage">Pokaż temperaturę i napięcia</string>
     <string name="dashclock_settings">Rozszeżone ustawienia GSam</string>
-    
-    <!-- Translations & Translators -->   
+   
+    <!-- Translations & Translators -->  
     <string name="lang_default">Domyślny język systemu</string>        
     <string name="translator_anonymous">Anonimowy</string>
-    <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
+<!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
+    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
+    <string name="translator_fr">Jaworski Johan</string>       
+    <string name="translator_it">Fabio Abbà</string>     
+    <string name="translator_hu">István Kriskó (Stefi)</string>    
+    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
+    <string name="translator_sv">Pontus Edgren</string>
+    <string name="translator_nl">ArTsLeOpS</string>
+    <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
+    <string name="translator_zh_CN">Gavin Fang &lt;BR&gt; myliyifei修补</string>  
+    <string name="translator_tr">Saldıray Günal</string>
     <string name="translator_pl">www.cvxcvx.pl</string>
+    <string name="translator_de">Jan Fortein</string>
+    <string name="translator_es">Carlos Salazar (&lt;a href=\"http://about.me/carlos_salazar\"&gt;Ulric&lt;/a&gt;) &lt;BR&gt;
+        Broquen (&lt;a href=\"http://forum.xda-developers.com/member.php?u=2695779\"&gt;broquen&lt;/a&gt;)</string>
+    <string name="translator_uk">Yaroslav Brukh</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Czy Twój ekran jest zbyt jasny?</string>
@@ -444,4 +459,3 @@
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with_application">Podziel się z %s</string>
 </resources>
-
