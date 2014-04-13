@@ -21,7 +21,7 @@
     <string name="preferences_startup_service_sum">Rozpoczęcie monitorowania baterii podczas uruchamiania</string>
     <string name="preferences_temperature_title">Temp. w stopniach Celsjusza</string>
     <string name="preferences_show_notification_icon_title">Pokaż ikonę powiadomienia</string>
-    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Pokaż % ikonę powiadomienia w pasku powiadomień</string>
+    <string name="preferences_show_notification_icon_sum">Pokaż % ikonę powiadomienia w pasku powiadomień</string>
     <string name="preferences_show_notification_title">Pokaż tylko powiadomienia</string>
     <string name="preferences_show_notification_sum">Pokaż powiadomienia bez ikony powiadomień</string>
     <string name="preferences_alarm_condition_charging">Bateria powyżej</string>
