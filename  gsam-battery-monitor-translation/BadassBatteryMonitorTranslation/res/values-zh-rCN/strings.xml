@@ -375,7 +375,7 @@
     <!-- About -->
     <string name="about_app_name">关于GSam Battery Monitor</string>
     <string name="about_version">版本%1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2013</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">图表由AChartEngine.org提供</string>
     <string name="about_actionbar">标题栏由actionbarsherlock.com提供</string>
     <string name="about_translations">翻译：</string>

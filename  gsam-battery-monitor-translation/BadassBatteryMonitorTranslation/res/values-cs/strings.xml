@@ -337,7 +337,7 @@
     <!-- About -->
     <string name="about_app_name">O GSam Battery Monitoru</string>
     <string name="about_version">Verze %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2013</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Grafy od AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility od actionbarsherlock.com</string>
     <string name="about_translations">Překlady:</string>

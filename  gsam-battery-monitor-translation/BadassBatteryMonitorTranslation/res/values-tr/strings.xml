@@ -377,7 +377,7 @@
     <!-- About -->
 	<string name="about_app_name">GSam Battery Monitor Hakkında</string>
 	<string name="about_version">Versiyon no: %1s</string>
-	<string name="about_copyright">\u24d2 GSam Labs 2013</string>
+	<string name="about_copyright">\u24d2 GSam Labs 2014</string>
 	<string name="about_chartengine">Grafik Motoru: AChartEngine.org</string>
 	<string name="about_actionbar">ActionBar Uyumluluğu: Actionbarsherlock.com</string>
 	<string name="about_translations">Çeviriler:</string>
