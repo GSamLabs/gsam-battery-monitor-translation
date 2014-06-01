@@ -208,7 +208,6 @@
     <string name="main_share_subject">Средняя жизнь батареи - GSam Battery Monitor</string>
     <string name="main_share_msg2">Моя продолжительность %1$s %2$s %3$s (%4$s активного использования) на одной зарядке. GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_share_msg">Моя продолжительность %1$s %2$s средняя жизнь батареи %3$s на одной зарядке. GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Средняя жизнь батареи: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% использование %2$s (От последнего отключения)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% использование %2$s (От полной зарядки)</string>
     <string name="main_tablet_battusage_customref">%1$s%% использование %2$s (От пользовательской метки)</string>
@@ -380,6 +379,7 @@
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">График от AChartEngine.org</string>
     <string name="about_actionbar">Совместимость строки меню от actionbarsherlock.com</string>
+    <string name="about_icons">Значки приложения от &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Перевод:</string>
 
     <!-- DashClock Widget Extension -->
