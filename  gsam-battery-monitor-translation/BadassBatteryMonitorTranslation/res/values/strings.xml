@@ -208,7 +208,6 @@
     <string name="main_share_subject">Average Battery Life - GSam Battery Monitor</string>
     <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Average Battery Life: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Used Over %2$s (Since Last Unplugged)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Used Over %2$s (Since Full Charge)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Since Custom Reference)</string>
@@ -377,9 +376,10 @@
     <!-- About -->
     <string name="about_app_name">About GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2013</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
+    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Translations:</string>
     
     <!-- DashClock Widget Extension -->
@@ -403,7 +403,7 @@
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
     <string name="translator_fr">Jaworski Johan</string>       
-    <string name="translator_it">Fabio Abbà</string>     
+    <string name="translator_it">Fabio Abbà &lt;BR&gt; AlphaUMi</string>     
     <string name="translator_hu">István Kriskó (Stefi)</string>    
     <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
     <string name="translator_sv">Pontus Edgren</string>
