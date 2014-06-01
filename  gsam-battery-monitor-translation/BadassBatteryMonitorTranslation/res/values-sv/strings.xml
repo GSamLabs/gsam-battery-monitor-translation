@@ -336,7 +336,7 @@
     <!-- About -->
     <string name="about_app_name">Om GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2013</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Diagram av AChartEngine.org</string>
     <string name="about_actionbar">ActionBar kompatibilitet av actionbarsherlock.com</string>
     <string name="about_translations">Översättningar:</string>
