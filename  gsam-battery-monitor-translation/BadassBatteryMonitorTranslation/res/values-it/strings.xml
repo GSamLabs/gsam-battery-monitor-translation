@@ -265,13 +265,13 @@
    <string name="appdetail_details_adjust_wifi">Spegni il WiFi quando non utilizzato tramite il pulsante in alto.</string>
    <string name="appdetail_details_adjust_wifi_button"> Imposta WiFi</string>
    <string name="appdetail_details_adjust_wifi_failedintent">Impossibile lanciare le impostazioni WiFi</string>
-   <string name="appdetail_details_adjust_screen">Diminuire la luminosità e il tempo di inattività dello schermo tramite il pulsante in alt</string>
+   <string name="appdetail_details_adjust_screen">Diminuire la luminosità e il tempo di inattività dello schermo tramite il pulsante in alto.</string>
    <string name="appdetail_details_adjust_screen_button">Impostazioni schermo</string>
    <string name="appdetail_details_adjust_screen_failedintent">Impossibile avviare le impostazioni dello schermo</string>
    <string name="detail_menu_export">Esporta</string>
    <string name="detail_menu_export_dlg_title">Esporta i dati visualizzati tramite:</string>
    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Esporta dati</string>    
-   <string name="appdetail_appuid">UID Applicazione:</string>  
+   <string name="appdetail_appuid">UID applicazione:</string>  
    <string name="appdetail_audio">Audio attivo:</string>  
    <string name="appdetail_bright">Chiarissimo:</string>  
    <string name="appdetail_bytesrec">Bytes ricevuti:</string>  
@@ -291,8 +291,8 @@
    <string name="appdetail_medium">Medio:</string>
    <string name="appdetail_numwakes">Interruzioni tra standby:</string>
    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Consumo</string>
-   <string name="appdetail_pct_power_nospace">% consumo</string>
-   <string name="appdetail_pct_time">% tempo</string>
+   <string name="appdetail_pct_power_nospace">% Consumo</string>
+   <string name="appdetail_pct_time">% Tempo</string>
    <string name="appdetail_phoneon">Linea attiva:</string>  
    <string name="appdetail_pwr_sysdata">Consumo per dati sistema:</string>  
    <string name="appdetail_received">Ricevuti:</string>  
