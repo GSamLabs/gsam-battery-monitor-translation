@@ -111,6 +111,8 @@
     <string name="preferences_menu_remove_alarm">Remove Alarm</string>
     <string name="preferences_disable_animation_title">Disable animation effects</string>
     <string name="preferences_disable_animation_sum">Disables screen animation for slower devices.</string>
+    <string name="preferences_contains_telephony_support_title">Contains phone or data modem</string>
+    <string name="preferences_contains_telephony_support_sum">Some devices report telephony (phone / 3G / 4G / LTE) incorrectly - especially tablets.  Modify this only if the reported value is not correct.  Reported value:  %1s</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
