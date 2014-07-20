@@ -112,7 +112,7 @@
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cirkel</string>   
-    <string name="icon_themes_icsmono">ICS Svartvit</string>   
+    <string name="icon_themes_icsmono">Svartvit</string>   
     <string name="icon_themes_trad">Traditionell</string>   
     <string name="icon_themes_default">System Standard</string>   
     <string name="icon_themes_getmore">Skaffa fler teman</string>

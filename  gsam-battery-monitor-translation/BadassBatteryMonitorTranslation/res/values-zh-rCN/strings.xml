@@ -115,7 +115,7 @@
    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">圆圈</string>  
-    <string name="icon_themes_icsmono">ICS单色</string>  
+    <string name="icon_themes_icsmono">单色</string>  
     <string name="icon_themes_trad">传统型</string>  
     <string name="icon_themes_default">系统默认</string>  
     <string name="icon_themes_getmore">获取更多主题</string>

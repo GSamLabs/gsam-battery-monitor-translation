@@ -115,7 +115,7 @@
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
-    <string name="icon_themes_icsmono">ICS Monochrome</string>   
+    <string name="icon_themes_icsmono">Monochrome</string>   
     <string name="icon_themes_trad">Traditional</string>   
     <string name="icon_themes_default">Systeem standaard</string>   
     <string name="icon_themes_getmore">Meer thema\'s verkrijgen</string>
