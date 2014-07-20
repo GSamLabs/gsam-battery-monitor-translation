@@ -111,7 +111,7 @@
    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">מעגל</string>  
-    <string name="icon_themes_icsmono">ICS שחור-לבן</string>  
+    <string name="icon_themes_icsmono">שחור-לבן</string>  
     <string name="icon_themes_trad">מסורתי</string>  
     <string name="icon_themes_default">ברירת מחדל</string>  
     <string name="icon_themes_getmore">הורד ערכות נושא נוספות</string>

@@ -120,7 +120,7 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cercle</string>
-    <string name="icon_themes_icsmono">ICS Monochrome</string>
+    <string name="icon_themes_icsmono">Monochrome</string>
     <string name="icon_themes_trad">Traditionnel</string>
     <string name="icon_themes_default">Défaut Système</string>
     <string name="icon_themes_getmore">Obtenir Plus de Thèmes</string>

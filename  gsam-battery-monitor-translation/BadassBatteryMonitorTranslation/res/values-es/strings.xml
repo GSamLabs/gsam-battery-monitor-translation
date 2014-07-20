@@ -115,7 +115,7 @@
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Círculo</string>   
-    <string name="icon_themes_icsmono">ICS Monocromo</string>   
+    <string name="icon_themes_icsmono">Monocromo</string>   
     <string name="icon_themes_trad">Tradicional</string>   
     <string name="icon_themes_default">Sistema</string>   
     <string name="icon_themes_getmore">Conseguir más temas</string>

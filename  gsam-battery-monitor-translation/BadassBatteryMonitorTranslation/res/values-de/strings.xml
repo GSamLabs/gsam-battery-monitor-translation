@@ -113,7 +113,7 @@
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kreis</string>   
-    <string name="icon_themes_icsmono">ICS Monochrom</string>   
+    <string name="icon_themes_icsmono">Monochrom</string>   
     <string name="icon_themes_trad">Klassisch</string>   
     <string name="icon_themes_default">System Standard</string>   
     <string name="icon_themes_getmore">Lade mehr Designs</string>

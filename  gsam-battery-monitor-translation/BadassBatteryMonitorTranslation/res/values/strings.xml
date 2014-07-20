@@ -116,7 +116,7 @@
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
-    <string name="icon_themes_icsmono">ICS Monochrome</string>   
+    <string name="icon_themes_icsmono">Monochrome</string>   
     <string name="icon_themes_trad">Traditional</string>   
     <string name="icon_themes_default">System Default</string>   
     <string name="icon_themes_getmore">Get More Themes</string>

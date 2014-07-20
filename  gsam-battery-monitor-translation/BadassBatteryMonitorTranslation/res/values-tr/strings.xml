@@ -115,7 +115,7 @@
   
     <!-- Preference Selection Arrays -->    
 	<string name="icon_themes_circle">Dairesel</string>
-	<string name="icon_themes_icsmono">ICS Monochrome</string>
+	<string name="icon_themes_icsmono">Monochrome</string>
 	<string name="icon_themes_trad">Geleneksel</string>
 	<string name="icon_themes_default">Sistem Varsayılanı</string>
 	<string name="icon_themes_getmore">Daha Fazla Tema Al</string>

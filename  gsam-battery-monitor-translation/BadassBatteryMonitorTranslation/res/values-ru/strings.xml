@@ -116,7 +116,7 @@
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
-    <string name="icon_themes_icsmono">ICS монохромный</string>
+    <string name="icon_themes_icsmono">Монохромный</string>
     <string name="icon_themes_trad">Традиционный</string> 
     <string name="icon_themes_default">Системный</string>
     <string name="icon_themes_getmore">Больше тем</string>

@@ -114,7 +114,7 @@
    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kör</string>  
-    <string name="icon_themes_icsmono">ICS monokróm</string>  
+    <string name="icon_themes_icsmono">Monokróm</string>  
     <string name="icon_themes_trad">Hagyományos</string>  
     <string name="icon_themes_default">Rendszer ikon</string>  
     <string name="icon_themes_getmore">További témák</string>
