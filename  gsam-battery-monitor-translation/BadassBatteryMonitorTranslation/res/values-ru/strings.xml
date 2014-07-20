@@ -39,11 +39,11 @@
     <string name="preferences_theme_progress_title">Получаем темы</string>
     <string name="preferences_theme_progress_msg">Получаем список доступных тем\u2026</string>
     <string name="preferences_widget_back_title">Прозрачный фон виджета</string>
-    <string name="preferences_widget_back_msg">Сделайте фон виджета полностью прозрачным, чтобы видеть обои.</string>
+    <string name="preferences_widget_back_msg">Сделайте фон виджета полностью прозрачным, чтобы видеть обои</string>
     <string name="preferences_widget_show_timeleft_title">Показать оставшееся время</string>
     <string name="preferences_widget_show_temp_title">Показать температуру</string>
     <string name="preferences_widget_show_voltage_title">Показать напряжение</string>
-    <string name="preferences_overlay_icon_sum">Перекрыть стоковый значок батареи. Положение, размер и др. полностью изменяемы</string>
+    <string name="preferences_overlay_icon_sum">Перекрыть стоковый значок батареи - положение, размер и др. полностью изменяемы</string>
     <string name="preferences_overlay_icon_title">Перекрыть значок батареи</string>
     <string name="preferences_overlay_icon_configure_sum">Настройте размер, положение, цвет фона, яркость и др. показатели значка перекрытия</string>
     <string name="preferences_overlay_icon_configure_title">Настроить значок перекрытия</string>
@@ -88,7 +88,7 @@
     <string name="preferences_send_anon_stats_title">Разрешить анон.статистику</string>
     <string name="preferences_send_anon_stats_sum">Разрешить отсылку анонимной статистики использования. Частные и идентифицируемые данные не отсылаются</string>
     <string name="preferences_show_ads_title">Показать рекламу</string>
-    <string name="preferences_show_ads_sum">Показать рекламу на главном экране.</string>
+    <string name="preferences_show_ads_sum">Показать рекламу на главном экране</string>
     <string name="preferences_override_lang_title">Язык</string>
     <string name="preferences_override_lang_sum">Использовать язык, отличный от языка системы по умолчанию</string>
     <string name="preferences_power_profiles_include_sensors_title">Включить в расчёт сенсоры</string>
@@ -101,7 +101,7 @@
     <string name="preferences_widget_color_empty_title">Цвет 0%</string>
     <string name="preferences_widget_color_alpha_title">Прозрачность цвета</string>
     <string name="preferences_widget_color_preview_title">Предпросмотр в процентах</string>
-    <string name="preferences_widget_color_preview_sum">Установить полное значение в процентах просмотра батареи ниже.</string>
+    <string name="preferences_widget_color_preview_sum">Установить полное значение в процентах просмотра батареи ниже</string>
     <string name="preferences_widget_color_screen_sum">Установить градиент цвета батареи и настроить виджет</string>
     <string name="preferences_widget_color_category">Цвета</string>
     <string name="preferences_widget_general_category">Общее</string>
@@ -111,6 +111,8 @@
     <string name="preferences_menu_remove_alarm">Убрать сигнал</string>
     <string name="preferences_disable_animation_title">Отключить анимацию</string>
     <string name="preferences_disable_animation_sum">Отключить эффекты анимации экрана для устройств с низкой производительностью</string>
+    <string name="preferences_contains_telephony_support_title">С учётом телефона или модема</string>
+    <string name="preferences_contains_telephony_support_sum">Некоторые устройства неправильно определяют данные телефонии (телефон / 3G / 4G / LTE)  - особенно, планшеты.  Изменяйте данный пункт только если определяемое значение некорректно.  Определяемое значение:  %1s</string>
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
@@ -142,7 +144,7 @@
     <string name="procsuckmon_viewby_pwr_minforeground">% питания (только фон CPU)</string>
     <string name="procsuckmon_viewby_cpu">Минуты исп.CPU</string>
     <string name="procsuckmon_viewby_cpu_minforeground">CPU (только фон CPU)</string>
-    <string name="procsuckmon_viewby_data">Время исп.в сети</string>
+    <string name="procsuckmon_viewby_data">Время исп.сети</string>
     <string name="procsuckmon_viewby_sensor">Время исп.сенсора</string>
     <string name="procsuckmon_viewby_awake">Время бодрствования</string>
     <string name="procsuckmon_viewby_wake_times">Кол-во пробуждений</string>
