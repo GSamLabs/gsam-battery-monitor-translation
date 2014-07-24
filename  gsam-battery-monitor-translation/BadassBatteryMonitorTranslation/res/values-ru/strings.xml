@@ -111,8 +111,8 @@
     <string name="preferences_menu_remove_alarm">Убрать сигнал</string>
     <string name="preferences_disable_animation_title">Отключить анимацию</string>
     <string name="preferences_disable_animation_sum">Отключить эффекты анимации экрана для устройств с низкой производительностью</string>
-  <string name="preferences_contains_telephony_support_title">Наличие телефона/модема</string>
-    <string name="preferences_contains_telephony_support_sum">Некоторые устройства ошибочно определяют наличие телефонии (телефон / 3G / 4G / LTE) - особенно, планшеты.  Снимите отметку только если определяемое устройством значение наличия телефонии некорректно. Определяемое значение: %1s</string>
+    <string name="preferences_contains_telephony_support_title">Наличие телефона/модема</string>
+    <string name="preferences_contains_telephony_support_sum">Некоторые устройства ошибочно определяют наличие телефонии (телефон/3G/4G/LTE) - особенно, планшеты. Снимите/поставьте отметку только если определяемое устройством значение наличия телефонии некорректно. Определяемое значение: %1s</string>
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
