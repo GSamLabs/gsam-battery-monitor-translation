@@ -128,6 +128,9 @@
     <string name="stats_since_unplugged">От последнего отключения</string>
     <string name="stats_since_charged">От последней полной зарядки</string>
     <string name="stats_since_custom">От пользовательской метки</string>
+    <string name="stats_since_screen_off">От выключения экрана</string>
+    <string name="stats_since_now">От текущего момента</string>
+    <string name="stats_since_ago">От %1s назад</string>
     <string name="pwer_profiles_mfg">Заводские установки</string>
     <string name="pwer_profiles_saved">Текущие сохранённые значения</string>
     
@@ -193,7 +196,6 @@
     <string name="main_menu_charts">Графики</string>
     <string name="menu_whatsnew">Что нового</string>
     <string name="about_about">О приложении</string>
-    <string name="main_stat_ref_label">* Основано на пользовательской метке, созданной %1s назад</string>
     <string name="menu_set_custom_ref">Установить пользовательскую метку</string>
     <string name="menu_remove_custom_ref">Убрать пользовательскую метку</string>
     <string name="menu_refresh">Обновить</string>
@@ -348,6 +350,7 @@
     <string name="main_chart_showtemp">Температура</string>
     <string name="main_chart_showother">Другое</string>
     <string name="main_chart_showradio">Сигнал телефона</string>
+    <string name="main_chart_showrate">Темп изменений</string>
     <string name="chart_menu_batthistory">График истории батареи</string>
     <string name="chart_menu_battdischarge">График питание/проценты</string>
     <string name="notification_chargecomplete">Зарядка завершена</string>
@@ -369,7 +372,8 @@
     <string name="chart_med">Средн.</string>
     <string name="chart_screen">Экран</string>
     <string name="chart_signal">Сигнал телефона</string>
-    <string name="chart_tempc">Температура батареи \u00B0C</string>
+    <string name="chart_rateofchange">\u0394 %/ч</string>
+    <string name="chart_tempc">Температура батареи \u00B0C</string>    
     <string name="chart_tempf">Температура батареи \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Неизвестно</string>
