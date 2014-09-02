@@ -108,9 +108,13 @@
     <string name="preferences_widget_general_category">一般</string>
     <string name="preferences_start_foreground_title">高優先權</string>
     <string name="preferences_start_foreground_sum">用高優先權監控電池用量。只有在圖示無法隨著電量改變而更新時使用，否則會影響到其他應用程式的可用資源。</string>
-    <string name="preferences_menu_add_alarm">增加提示</string>
-    <string name="preferences_menu_remove_alarm">移除提示</string>
-    
+    <string name="preferences_menu_add_alarm">增加警報</string>
+    <string name="preferences_menu_remove_alarm">移除警報</string>
+    <string name="preferences_disable_animation_title">關閉動畫效果</string>
+    <string name="preferences_disable_animation_sum">在較慢的裝置上關閉動畫。</string>
+    <string name="preferences_contains_telephony_support_title">包含電話或資料傳輸</string>
+    <string name="preferences_contains_telephony_support_sum">有些裝置不會正確回報電話 / 3G / 4G / LTE，尤其是平板。如果回報的資料不正確才選此項。回報資料： %1s</string>
+   
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">圓圈</string>   
     <string name="icon_themes_icsmono">ICS黑白</string>   
@@ -125,6 +129,9 @@
     <string name="stats_since_unplugged">從最後一次中斷充電</string>
     <string name="stats_since_charged">從最後一次充飽</string>
     <string name="stats_since_custom">從自訂的參考點</string>
+    <string name="stats_since_screen_off">從關閉螢幕</string>
+    <string name="stats_since_now">從現在起</string>
+    <string name="stats_since_ago">從 %1s 前</string>
     <string name="pwer_profiles_mfg">出廠值</string>
     <string name="pwer_profiles_saved">目前已保存值</string>
 
@@ -147,20 +154,21 @@
     <string name="procsuckmon_viewby_wake_times">檢視喚醒裝置次數</string>
     <string name="procsuckmon_viewby_gps">檢視GPS使用時間</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">檢視核心 Wakelocks</string>
+    <string name="procsuckmon_wakelock_user_apps">檢視App (非核心) Wakelocks</string>
 
     <!-- Main screen -->
     <string name="main_history_button">歷史</string>
     <string name="main_preferences_button">設定</string>
     <string name="main_calculating">計算中\u2026</string>
     <string name="main_full">充飽</string>
-    <string name="main_timetofull">剩餘 - 至充飽: </string>
-    <string name="main_timetofull_tablet">預計充飽時間: </string>
-    <string name="main_timeleft">剩餘 - 平均: </string>
-    <string name="main_timeleft_tablet">剩餘 (平均用量): </string>
-    <string name="main_timeleft_rolling">剩餘 - 最近 %1$s分: </string>
-    <string name="main_timeleft_rolling_tablet">剩餘 (最近 %1$s分用量): </string>
-    <string name="main_talktime">剩餘 - 談話時間: </string>
-    <string name="main_talktime_tablet">談話時間剩餘: </string>
+    <string name="main_timeremaining">Time Remaining</string>
+    <string name="main_timetofull2">剩餘 - 至充飽: </string>
+    <string name="main_timetofull_tablet2">預計充飽時間: </string>
+    <string name="main_timeleft2">剩餘 - 平均: </string>
+    <string name="main_timeleft_tablet2">剩餘 (平均用量): </string>
+    <string name="main_timeleft_rolling2">剩餘 - 最近 %1$s分: </string>
+    <string name="main_timeleft_rolling_tablet2">剩餘 (最近 %1$s分用量): </string>
+    <string name="main_talktime2">剩餘 - 談話時間: </string>
     <string name="main_temp">溫度: </string>
     <string name="main_voltage">電壓: </string>
     <string name="main_health">類型 / 健康狀態: </string>
@@ -172,9 +180,12 @@
     <string name="main_health_unknown">未知</string>
     <string name="main_health_failed">失敗</string>
     <string name="main_usage_label">電池用量 - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label2">在 %2$s 內使用了 %1$s%%</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s 使用中, %3$s 待機</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s 使用中</string>
     <string name="main_phone_on_label">電話:</string>
     <string name="main_screen_on_label">螢幕:</string>
-    <string name="main_phone_radio_on_label">電話收音機:</string>
+    <string name="main_phone_radio_on_label">電波:</string>
     <string name="main_wifi_active_label">Wifi 啟用:</string>
     <string name="main_idle_label">喚醒:</string>
     <string name="main_bluetooth_label">藍芽:</string>
@@ -183,10 +194,9 @@
     <string name="main_android_batt_usage_button">內建的電池用量表</string>    
     <string name="main_android_batt_usage_failed">無法啟動內建的電池用量表...</string>
     <string name="main_tools_menu">更多</string>
-    <string name="main_menu_charts">表格</string>
+    <string name="main_menu_charts">圖表</string>
     <string name="menu_whatsnew">最新消息</string>
     <string name="about_about">關於</string>
-    <string name="main_stat_ref_label">* 根據 %1s 前設定的自訂基準點</string>
     <string name="menu_set_custom_ref">設定自訂基準點</string>
     <string name="menu_remove_custom_ref">移除自訂基準點</string>
     <string name="menu_refresh">重新整理</string>
@@ -198,6 +208,7 @@
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - 錯誤報告</string>  
     <string name="menu_send_debug_data_body">請描述一夏你遇到的問題:\n\n</string>
     <string name="menu_review">對 GSam Battery Monitor 評分</string>
+    <string name="menu_enable_more_stats">啟用更多統計</string>
     <string name="main_share_intentchoosertitle">分享我的平均電池壽命\u2026</string>
     <string name="main_share_subject">平均電池壽命 - GSam Battery Monitor</string>
     <string name="main_share_msg2">我的 %1$s %2$s 電池一次充電平均可以用 %3$s (正常使用 %4$s). 快試試 GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
@@ -214,6 +225,22 @@
     <string name="main_header_type">類型</string>
     <string name="main_header_time">時間</string>
     <string name="main_header_power">電力</string>
+    <string name="averages_since">自從 %1$s</string>
+    <string name="averages_header">平均每次完整充電</string>
+    <string name="main_avg_timepercharge_label2">電池壽命:</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s 啟動)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s 待機)</string>
+    <string name="main_avg_screenon_label">Screen On:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
+    <string name="main_avg_chargetime_label">Charge Time:</string>
+    <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
+    <string name="main_kitkat_nostats_title2">利用 Root Companion App 啟用更多統計</string>
+    <string name="main_kitkat_nostats_helper_needed2">如果你已經有 Root 權限，你可以藉著安裝 the GSam Root Companion App 來觀看更多統計。這可以看到詳細的 Wakelocks、感應器用量以及更多。\n
+        \n如果你沒有 Root 或不知道 Root 是什麼意思，不用擔心。GSam 還是可以正常運作。\n
+        \n更多資訊請參閱 <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a>。</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion App 沒有被正確安裝在 /system/priv-app。請啟動這個程式，並驗證它是否正確安裝。</string>
+	      <string name="main_kitkat_nostats_launch_companion">啟動 Root Companion</string>
+	      <string name="main_kitkat_nostats_install_companion">安裝 Root Companion</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App 詳細資料</string>
@@ -227,10 +254,13 @@
     <string name="appdetail_included_processes">包含的程序</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
+    <string name="appdetail_minutes_decimal">%1$sm</string>
+    <string name="appdetail_days_twolevels_decimal">%1$01dd %2$sh</string>
     <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
     <string name="appdetail_days_twolevels">%1$01dd %2$01dh</string>
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
+    <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
     <string name="appdetail_details_button">管理</string>
     <string name="appdetail_details_button_wakelocks">Google 它</string>    
     <string name="appdetail_details_adjustpower">省電提示</string>
@@ -295,6 +325,8 @@
     <string name="appdetail_bytes">%d bytes</string>        
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
+    <string name="appdetail_totaltime">總計時間 (包含喚醒):</string>
+    <string name="appdetail_select_package">選擇要管理的 package</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">更新訊息</string>
@@ -307,10 +339,15 @@
     <string name="ok">確定</string>
     <string name="error">發生錯誤</string>
 
+    <!-- Copied from the original BATTERY_STATS permission description -->
+    <string name="permlab_batteryStats">讀取電池統計資料</string>
+    <string name="permdesc_batteryStats">允許程式讀取目前的低階電池紀錄。可能會允許應用程式找出應用程式的使用紀錄。</string>
+
     <!-- Charts -->
     <string name="main_chart_showtemp">溫度</string>
     <string name="main_chart_showother">其他</string>
     <string name="main_chart_showradio">手機訊號</string>
+    <string name="main_chart_showrate">變化率</string>
     <string name="chart_menu_batthistory">放電歷史圖</string>
     <string name="chart_menu_battdischarge">電源-百分比圖</string>
     <string name="notification_chargecomplete">充電完成</string>
@@ -331,7 +368,8 @@
     <string name="chart_max">最大</string>
     <string name="chart_med">中等</string>
     <string name="chart_screen">螢幕</string>
-    <string name="chart_signal">Phone Signal</string>
+    <string name="chart_rateofchange">\u0394 %/小時</string>
+    <string name="chart_signal">手機訊號強度</string>
     <string name="chart_tempc">電池溫度 \u00B0C</string>
     <string name="chart_tempf">電池溫度 \u00B0F</string>
     <string name="chart_timeformat">hh:mm a</string>
@@ -344,8 +382,24 @@
     <string name="about_copyright">\u24d2 GSam Labs 2013</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
+    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">翻譯：</string>
     
+    <!-- DashClock Widget Extension -->
+    <string name="dashclock_description">顯示電池統計，包含剩餘時間、每小時使用電量等等。</string>
+    <string name="dashclock_active_standby">%1$s 使用中, %2$s 待機</string>
+    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
+    <string name="dashclock_delta_per_hour_short_full">充飽</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - 充電中</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - 放電中</string>  
+    <string name="dashclock_to_empty">%1$s 耗盡</string>  
+    <string name="dashclock_to_full">%1$s 充滿</string>
+    <string name="dashclock_pref_show_used">顯示用量</string>
+    <string name="dashclock_pref_show_remaining_time">顯示剩餘時間</string>
+    <string name="dashclock_pref_show_active_standby">顯示使用中與待機次數</string>
+    <string name="dashclock_pref_show_temp_voltage">顯示溫度與電壓</string>
+    <string name="dashclock_settings">GSam 附加元件設定</string>
+
     <!-- Translations & Translators -->   
     <string name="lang_default">系統預設語言</string>        
     <string name="translator_anonymous">無名</string>
@@ -370,7 +424,7 @@
     <string name="main_market_pro_msg_kindle">你知道有個專為 Kindle Fire 優化的 GSam Battery Monitor嗎？在 App Store 中可以找到。\n\n別擔心，這個訊息只會出現一次。</string>
     <string name="main_market_pro_ok">看一下</string>
     <string name="main_market_pro_cancel">不，謝了</string>
-    <string name="main_invalid_license_title">Invalid License</string>
+    <string name="main_invalid_license_title">無效授權</string>
     <string name="main_invalid_license_msg">你的授權看起來是無效的。這個 Battery Monitor 會繼續在免費版模式下運作。如果你覺得這出錯了，請檢查你的購買紀錄。</string>
     <string name="main_invalid_license_ok">檢查我的購買紀錄</string>
     <string name="main_invalid_license_cancel">繼續</string>    
