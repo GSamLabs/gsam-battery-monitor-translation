@@ -161,7 +161,7 @@
     <string name="main_preferences_button">設定</string>
     <string name="main_calculating">計算中\u2026</string>
     <string name="main_full">充飽</string>
-    <string name="main_timeremaining">Time Remaining</string>
+    <string name="main_timeremaining">剩餘時間</string>
     <string name="main_timetofull2">剩餘 - 至充飽: </string>
     <string name="main_timetofull_tablet2">預計充飽時間: </string>
     <string name="main_timeleft2">剩餘 - 平均: </string>
@@ -190,7 +190,7 @@
     <string name="main_idle_label">喚醒:</string>
     <string name="main_bluetooth_label">藍芽:</string>
     <string name="main_app_usage_label">App 用量:</string>
-    <string name="main_app_usage_button">App Sucker</string>
+    <string name="main_app_usage_button">App 用量</string>
     <string name="main_android_batt_usage_button">內建的電池用量表</string>    
     <string name="main_android_batt_usage_failed">無法啟動內建的電池用量表...</string>
     <string name="main_tools_menu">更多</string>
@@ -213,7 +213,6 @@
     <string name="main_share_subject">平均電池壽命 - GSam Battery Monitor</string>
     <string name="main_share_msg2">我的 %1$s %2$s 電池一次充電平均可以用 %3$s (正常使用 %4$s). 快試試 GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">我的 %1$s %2$s 電池一次充電平均可以用 %3$s. 快試試 GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">平均電池壽命: %1$s</string>
     <string name="main_tablet_battusage_unplug">用掉 %1$s%% ; 經過 %2$s (從最後一次中斷充電)</string>
     <string name="main_tablet_battusage_fullcharge">用掉 %1$s%% ; 經過 %2$s (從最後一次充飽)</string>
     <string name="main_tablet_battusage_customref">用掉 %1$s%% ; 經過 %2$s (從自訂的參考點)</string>
@@ -230,8 +229,8 @@
     <string name="main_avg_timepercharge_label2">電池壽命:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s 啟動)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s 待機)</string>
-    <string name="main_avg_screenon_label">Screen On:</string>
-    <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
+    <string name="main_avg_screenon_label">螢幕開啟:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s 最大)</string>
     <string name="main_avg_chargetime_label">Charge Time:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title2">利用 Root Companion App 啟用更多統計</string>
@@ -255,9 +254,9 @@
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
     <string name="appdetail_minutes_decimal">%1$sm</string>
-    <string name="appdetail_days_twolevels_decimal">%1$01dd %2$sh</string>
     <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
     <string name="appdetail_days_twolevels">%1$01dd %2$01dh</string>
+    <string name="appdetail_days_twolevels_decimal">%1$01dd %2$sh</string>
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
@@ -368,11 +367,11 @@
     <string name="chart_max">最大</string>
     <string name="chart_med">中等</string>
     <string name="chart_screen">螢幕</string>
-    <string name="chart_rateofchange">\u0394 %/小時</string>
     <string name="chart_signal">手機訊號強度</string>
+    <string name="chart_rateofchange">\u0394 %/小時</string>
     <string name="chart_tempc">電池溫度 \u00B0C</string>
     <string name="chart_tempf">電池溫度 \u00B0F</string>
-    <string name="chart_timeformat">hh:mm a</string>
+    <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">未知</string>
     <string name="chart_wifi">Wifi</string>
     
