@@ -112,7 +112,9 @@
     <string name="preferences_menu_remove_alarm">Odstranit alarm</string>
     <string name="preferences_disable_animation_title">Zakázat grafické efekty</string>
     <string name="preferences_disable_animation_sum">Zakázat animace obrazovky, pro pomalá zařízení.</string>
-    
+	<string name="preferences_contains_telephony_support_title">Dostupnost telefonní nebo datový modem</string>
+	<string name="preferences_contains_telephony_support_sum">Některá zařízení chybně detekují přítomnost telefonování (telefonní / 3G / 4G / LTE) - zejména tablety. Odstranit/zaškrtnout pouze v případě, že je stanovená hodnota dostupnosti telefonního přístroje správně.Zadaná hodnota: %1s</string>
+
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kruhový</string>   
     <string name="icon_themes_icsmono">Monochromatický</string>   
@@ -127,6 +129,9 @@
     <string name="stats_since_unplugged">posledního odpojení</string>
     <string name="stats_since_charged">posledního plného nabití</string>
     <string name="stats_since_custom">uživatelské předvolby</string>
+	<string name="stats_since_screen_off">Od vypnutí obrazovky</string>
+	<string name="stats_since_now">Od teď</string>
+	<string name="stats_since_ago">Od %1s před</string>    
     <string name="pwer_profiles_mfg">Původní hodnoty</string>
     <string name="pwer_profiles_saved">Stávající uložené hodnoty</string>
 
@@ -156,14 +161,14 @@
     <string name="main_preferences_button">Předvolby</string>
     <string name="main_calculating">Výpočet\u2026</string>
     <string name="main_full">Plno</string>
-    <string name="main_timetofull">Zbývá - do nabití: </string>
-    <string name="main_timetofull_tablet">Čas do plného nabití: </string>
-    <string name="main_timeleft">Zbývá - průměrně: </string>
-    <string name="main_timeleft_tablet">Zbývá (běžné používání): </string>
-    <string name="main_timeleft_rolling">Zbývá - posledních %1$sm: </string>
-    <string name="main_timeleft_rolling_tablet">Zbývá (posledních %1$sm k použití): </string>
-    <string name="main_talktime">Zbývá - čas hovoru: </string>
-    <string name="main_talktime_tablet">Zbývající čas hovoru: </string>
+	<string name="main_timeremaining">Zbývající čas</string>
+	<string name="main_timetofull2">Do plna:</string>
+	<string name="main_timetofull_tablet2">Do plného nabití:</string>
+	<string name="main_timeleft2">Průměr:</string>
+	<string name="main_timeleft_tablet2">Průměrná spotřeba:</string>
+	<string name="main_timeleft_rolling2">Poslední %1$sm:</string>
+	<string name="main_timeleft_rolling_tablet2">Poslední %1$sm Využití:</string>
+	<string name="main_talktime2">Doba hovoru:</string>    
     <string name="main_temp">Teplota: </string>
     <string name="main_voltage">Napětí: </string>
     <string name="main_health">Typ / Stav: </string>
@@ -192,7 +197,6 @@
     <string name="main_menu_charts">Grafy</string>
     <string name="menu_whatsnew">Co je nového</string>
     <string name="about_about">O aplikaci</string>
-    <string name="main_stat_ref_label">* Založeno na uživatelské předvolbě vytvořené před %1s</string>
     <string name="menu_set_custom_ref">Nastavit uživatelskou předvolbu</string>
     <string name="menu_remove_custom_ref">Odstranit uživatelskou předvolbu</string>
     <string name="menu_refresh">Obnovit</string>
@@ -348,6 +352,7 @@
     <string name="main_chart_showtemp">Teplota</string>
     <string name="main_chart_showother">Ostatní</string>
     <string name="main_chart_showradio">Telefonní signál</string>
+    <string name="main_chart_showrate">Rychlost změny</string>
     <string name="chart_menu_batthistory">Graf historie baterie</string>
     <string name="chart_menu_battdischarge">Graf energie/procentuální</string>
     <string name="notification_chargecomplete">Nabíjení dokončeno</string>
