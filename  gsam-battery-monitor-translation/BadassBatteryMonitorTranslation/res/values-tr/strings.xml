@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"  xmlns:tools="http://schemas.android.com/tools">
 
-	<!--  Don't include app name in locale file -->
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
@@ -110,8 +109,10 @@
 	<string name="preferences_start_foreground_sum">Uygulamayı yüksek öncelikte çalıştırın. Bu seçeneği sadece pil yüzdesini gösteren simgeler doğru güncellenmiyorsa kullanın. Aksi takdirde, diğer programların çalışması için gereken boş belleği azaltacaktır.</string>
   <string name="preferences_menu_add_alarm">Yeni İkaz Ekle</string>
   <string name="preferences_menu_remove_alarm">İkaz Kaldır</string>
-<string name="preferences_disable_animation_title">Animasyon Efektlerini Kapat</string>
-<string name="preferences_disable_animation_sum">Yavaş cihazlar için animasyon efektlerini kapatır.</string>
+ <string name="preferences_disable_animation_title">Animasyon Efektlerini Kapat</string>
+ <string name="preferences_disable_animation_sum">Yavaş cihazlar için animasyon efektlerini kapatır.</string>
+ <string name="preferences_contains_telephony_support_title">Telefon, Modem Verisini Dahil Et</string>
+ <string name="preferences_contains_telephony_support_sum">Başta tabletler olmak üzere bazı cihazlar mobil (telefon/3G/4G/LTE) verileri yanlış hesaplar.  Tespit edilen değer yanlışsa dahil etmeyin.  Değer:  %1s</string>
   
     <!-- Preference Selection Arrays -->    
 	<string name="icon_themes_circle">Dairesel</string>
@@ -127,6 +128,9 @@
 	<string name="stats_since_unplugged">Fişten Çekişten Bu Yana</string>
 	<string name="stats_since_charged">Tam Şarjdan Bu Yana</string>
 	<string name="stats_since_custom">Özel Referanstan Bu Yana</string>
+  <string name="stats_since_screen_off">Since Screen Off</string>
+  <string name="stats_since_now">Since Now</string>
+  <string name="stats_since_ago">Since %1s Ago</string>
 	<string name="pwer_profiles_mfg">Üretici Değerleri</string>
 	<string name="pwer_profiles_saved">Mevcut Kaydedilmiş Değerler</string>
 
@@ -192,7 +196,6 @@
 	<string name="main_menu_charts">Grafikler</string>
 	<string name="menu_whatsnew">Yenilikler</string>
 	<string name="about_about">Hakkında</string>
-	<string name="main_stat_ref_label">* %1s önce oluşturulan özel referansa göre</string>
 	<string name="menu_set_custom_ref">Özel Referans Belirle</string>
 	<string name="menu_remove_custom_ref">Özel Referansı Kaldır</string>
 	<string name="menu_refresh">Yenile</string>
