@@ -111,7 +111,9 @@
     <string name="preferences_menu_remove_alarm">Usuń alarm</string>
     <string name="preferences_disable_animation_title">Wyłącz efekty animacji</string>
     <string name="preferences_disable_animation_sum">Wyłącza animację ekranu dla wolniejszych urządzeń.</string>
-   
+    <string name="preferences_contains_telephony_support_title">Zawiera dane telefonu lub modemu</string>
+    <string name="preferences_contains_telephony_support_sum">Raport niektórych urządzeń telefonicznych (telefon / 3G / 4G / LTE) nieprawidłowy - zwłaszcza dla tabletów. Zmieni się to tylko wtedy, gdy zgłoszona wartość nie jest poprawna. Podaj wartość: %1s</string>
+    
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Koło</string>  
     <string name="icon_themes_icsmono">Monochromatyczne</string>  
@@ -126,7 +128,10 @@
     <string name="stats_since_unplugged">Od ostatniego odłączenia</string>
     <string name="stats_since_charged">Od ostatniego pełnego naładowania</string>
     <string name="stats_since_custom">Od niestandardowego odniesienia</string>
-    <string name="pwer_profiles_mfg">Wartości producenta</string>
+    <string name="stats_since_screen_off">Od wyłączenia ekranu</string>
+    <string name="stats_since_now">Od teraz</string>
+    <string name="stats_since_ago">Od %1s temu</string>
+	<string name="pwer_profiles_mfg">Wartości producenta</string>
     <string name="pwer_profiles_saved">Aktualne zapisane wartości</string>
 
     <!-- App Sucker -->
@@ -191,7 +196,6 @@
     <string name="main_menu_charts">Wykresy</string>
     <string name="menu_whatsnew">Nowości</string>
     <string name="about_about">О programie</string>
-    <string name="main_stat_ref_label">* W oparciu o niestandardowe ustawienia utworzone %1s temu</string>
     <string name="menu_set_custom_ref">Ustaw niestandardowe preferencje</string>
     <string name="menu_remove_custom_ref">Usuń niestandardowe preferencje</string>
     <string name="menu_refresh">Odśwież</string>
@@ -208,7 +212,6 @@
     <string name="main_share_subject">Średni czas pracy baterii - GSam Battery Monitor</string>
     <string name="main_share_msg2">Moja %1$s %2$s średnie baterii %3$s (%4$s aktywne korzystanie) na jednym ładowaniu. Sprawdź na GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_share_msg">Moja %1$s %2$s średnie baterii %3$s na jednym ładowaniu. Sprawdź na GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Średni czas pracy baterii: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% użycie %2$s (Od ostatniego odłączenia)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% użycie %2$s (Od pełnego naładowania</string>
     <string name="main_tablet_battusage_customref">%1$s%% użycie %2$s (Niestandardowe preferencje)</string>
@@ -230,11 +233,11 @@
     <string name="main_avg_chargetime_label">Czas ładowania:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title">Aplikacja Root Companion jest wymagana dla KitKat</string>
-    <string name="main_kitkat_nostats_helper_needed2">Możesz włączyć dostęp do większej ilości statystyk, 
-	jeśli masz dostęp do roota, instalując aplikację GSam Companion Root. To daje dostęp do szczegółow wybudzeń, 
-	wykorzystania czujników i wiele innych statystyk.\n 
-	\nJeśli nie masz roota, lub nie wiesz, co to oznacza, nie martw się o to. GSam będzie działać dobrze 
-	bez niego.\n 
+    <string name="main_kitkat_nostats_helper_needed2">Możesz włączyć dostęp do większej ilości statystyk,
+	jeśli masz dostęp do roota, instalując aplikację GSam Companion Root. To daje dostęp do szczegółow wybudzeń,
+	wykorzystania czujników i wiele innych statystyk.\n
+	\nJeśli nie masz roota, lub nie wiesz, co to oznacza, nie martw się o to. GSam będzie działać dobrze
+	bez niego.\n
 	\nZobacz http://goo.gl/WBXJ6o aby uzyskać więcej informacji.</string>
 	<string name="main_kitkat_nostats_helper_not_installed_correctly">Aplikacja Root Companion nie jest prawidłowo zainstalowana w /system/app-priv. Proszę uruchomić aplikację i sprawdzić, czy to jest poprawnie zainstalowana.</string>
     <string name="main_kitkat_nostats_launch_companion">Uruchom  Root Companion</string>
@@ -347,6 +350,7 @@
     <string name="main_chart_showtemp">Temperatura</string>
     <string name="main_chart_showother">Inne</string>
     <string name="main_chart_showradio">Sygnał telefonu</string>
+	<string name="main_chart_showrate">Tempo zmian</string>
     <string name="chart_menu_batthistory">Wykres historii baterii</string>
     <string name="chart_menu_battdischarge">Energia kontra wykres %</string>
     <string name="notification_chargecomplete">Ładowanie zakończone</string>
@@ -368,6 +372,7 @@
     <string name="chart_med">Średni</string>
     <string name="chart_screen">Ekran</string>
     <string name="chart_signal">Sygnał telefonu</string>
+	<string name="chart_rateofchange">\u0394 %/Godzina</string>
     <string name="chart_tempc">Temperatura Beterii \u00B0C</string>
     <string name="chart_tempf">Temperatura Beterii \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
@@ -380,7 +385,8 @@
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
-    <string name="about_translations">Tłumaczenie:</string>
+    <string name="about_icons">Ikony aplikacji &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
+	<string name="about_translations">Tłumaczenie:</string>
    
     <!-- DashClock Widget Extension -->
     <string name="dashclock_description">Pokaż statystyk baterii łącznie czas pozostały, zużycie na godzinę i więcej.</string>
@@ -416,6 +422,8 @@
     <string name="translator_es">Carlos Salazar (&lt;a href=\"http://about.me/carlos_salazar\"&gt;Ulric&lt;/a&gt;) &lt;BR&gt;
         Broquen (&lt;a href=\"http://forum.xda-developers.com/member.php?u=2695779\"&gt;broquen&lt;/a&gt;)</string>
     <string name="translator_uk">Yaroslav Brukh</string>
+	<string name="translator_pt_PT">João Ricardo.</string>
+    <string name="translator_zh_TW">Andy~★</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Czy Twój ekran jest zbyt jasny?</string>
