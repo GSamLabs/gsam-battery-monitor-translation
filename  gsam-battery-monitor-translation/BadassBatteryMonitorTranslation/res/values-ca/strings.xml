@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- No need to include the app name in the translation -->
+	<!-- Don't translate app_name -->
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
@@ -25,6 +25,8 @@
     <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Show % notification icon in notification bar</string>
     <string name="preferences_show_notification_title">Show Notification Only</string>
     <string name="preferences_show_notification_sum">See the notification without the notification icon</string>
+    <!-- preferences_show_notification_lockscreen_title is not used yet... -->
+    <string name="preferences_show_notification_lockscreen_title">Show Notification on Lockscreen</string>
     <string name="preferences_alarm_condition_charging">Battery above</string>
     <string name="preferences_alarm_condition_discharging">Battery below</string>
     <string name="preferences_alarm_condition_overheated">Battery overheated</string>
@@ -112,10 +114,12 @@
     <string name="preferences_menu_remove_alarm">Remove Alarm</string>
     <string name="preferences_disable_animation_title">Disable animation effects</string>
     <string name="preferences_disable_animation_sum">Disables screen animation for slower devices.</string>
+    <string name="preferences_contains_telephony_support_title">Contains phone or data modem</string>
+    <string name="preferences_contains_telephony_support_sum">Some devices report telephony (phone / 3G / 4G / LTE) incorrectly - especially tablets.  Modify this only if the reported value is not correct.  Reported value:  %1s</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
-    <string name="icon_themes_icsmono">ICS Monochrome</string>   
+    <string name="icon_themes_icsmono">Monochrome</string>   
     <string name="icon_themes_trad">Traditional</string>   
     <string name="icon_themes_default">System Default</string>   
     <string name="icon_themes_getmore">Get More Themes</string>
@@ -127,6 +131,9 @@
     <string name="stats_since_unplugged">Since Last Unplugged</string>
     <string name="stats_since_charged">Since Last Full Charge</string>
     <string name="stats_since_custom">Since Custom Reference</string>
+    <string name="stats_since_screen_off">Since Screen Off</string>
+    <string name="stats_since_now">Since Now</string>
+    <string name="stats_since_ago">Since %1s Ago</string>
     <string name="pwer_profiles_mfg">Manufacturers Values</string>
     <string name="pwer_profiles_saved">Current Saved Values</string>
 
@@ -136,9 +143,8 @@
     <string name="process_suck_mon_header">%0$.1f%% of battery consumed by:</string>
     <string name="process_suck_mon_nodata">No data available.  There are no apps that have consumed the specified resource during the last device power cycle.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
-    <string name="process_suck_mon_title_unplugged">%1$s (Since Last Unplugged)</string>
-    <string name="process_suck_mon_title_fullcharge">%1$s (Since Full Charge)</string>
-    <string name="process_suck_mon_title_customref">%1$s (Since Custom Reference)</string>
+    <!-- Suffix gets 'stats_since_X' replaced -->
+    <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
     <string name="procsuckmon_viewby_pwr">View % Power Used</string>
     <string name="procsuckmon_viewby_pwr_minforeground">View % Power (Background CPU Only)</string>
     <string name="procsuckmon_viewby_cpu">View CPU Minutes Used</string>
@@ -192,7 +198,6 @@
     <string name="main_menu_charts">Charts</string>
     <string name="menu_whatsnew">What\'s New</string>
     <string name="about_about">About</string>
-    <string name="main_stat_ref_label">* Based on custom reference created %1s ago</string>
     <string name="menu_set_custom_ref">Set Custom Reference</string>
     <string name="menu_remove_custom_ref">Remove Custom Reference</string>
     <string name="menu_refresh">Refresh</string>
@@ -209,7 +214,6 @@
     <string name="main_share_subject">Average Battery Life - GSam Battery Monitor</string>
     <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Average Battery Life: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Used Over %2$s (Since Last Unplugged)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Used Over %2$s (Since Full Charge)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Since Custom Reference)</string>
@@ -348,6 +352,7 @@
     <string name="main_chart_showtemp">Temperature</string>
     <string name="main_chart_showother">Others</string>
     <string name="main_chart_showradio">Phone Signal</string>
+    <string name="main_chart_showrate">Rate of Change</string>
     <string name="chart_menu_batthistory">Battery History Chart</string>
     <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
     <string name="notification_chargecomplete">Charge Complete</string>
@@ -369,6 +374,7 @@
     <string name="chart_med">Med</string>
     <string name="chart_screen">Screen</string>
     <string name="chart_signal">Phone Signal</string>
+    <string name="chart_rateofchange">\u0394 %/Hour</string>
     <string name="chart_tempc">Battery Temperature \u00B0C</string>
     <string name="chart_tempf">Battery Temperature \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
@@ -378,9 +384,9 @@
     <!-- About -->
     <string name="about_app_name">About GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2013</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
-    <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
+    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Translations:</string>
     
     <!-- DashClock Widget Extension -->
@@ -404,18 +410,21 @@
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
     <string name="translator_fr">Jaworski Johan</string>       
-    <string name="translator_it">Fabio Abbà</string>     
+    <string name="translator_it">Fabio Abbà &lt;BR&gt; AlphaUMi</string>     
     <string name="translator_hu">István Kriskó (Stefi)</string>    
     <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
     <string name="translator_sv">Pontus Edgren</string>
     <string name="translator_nl">ArTsLeOpS</string>
     <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
-    <string name="translator_zh_CN">Gavin Fang</string>
+    <string name="translator_zh_CN">Gavin Fang &lt;BR&gt; myliyifei修补</string>  
     <string name="translator_tr">Saldıray Günal</string>
     <string name="translator_pl">www.cvxcvx.pl</string>
     <string name="translator_de">Jan Fortein</string>
     <string name="translator_es">Carlos Salazar (&lt;a href=\"http://about.me/carlos_salazar\"&gt;Ulric&lt;/a&gt;) &lt;BR&gt;
         Broquen (&lt;a href=\"http://forum.xda-developers.com/member.php?u=2695779\"&gt;broquen&lt;/a&gt;)</string>
+    <string name="translator_uk">Yaroslav Brukh</string>
+    <string name="translator_pt_PT">João Ricardo.</string>
+    <string name="translator_zh_TW">Andy~★</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
