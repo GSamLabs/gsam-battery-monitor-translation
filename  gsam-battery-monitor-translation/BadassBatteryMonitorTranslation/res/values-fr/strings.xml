@@ -116,7 +116,9 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="preferences_menu_add_alarm">Ajouter Nouvelle Alarme</string>
     <string name="preferences_menu_remove_alarm">Retirer Alarme</string>
     <string name="preferences_disable_animation_title">Désactiver Effets Animation</string>
-    <string name="preferences_disable_animation_sum">Désactiver les effets d\'animation pour les appareils lents.</string>
+    <string name="preferences_disable_animation_sum">"Désactiver les effets d'animation pour les appareils lents."</string>
+    <string name="preferences_contains_telephony_support_title">Contient téléphone ou données modem</string>
+    <string name="preferences_contains_telephony_support_sum">Certains appareils indiquent la téléphonnie (téléphone / 3G / 4G / LTE) incorrectement - notamment les tablettes. Modifier seulement si la valeur indiquée n\'est pas correcte. Valeur indiquée: %1s</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cercle</string>
@@ -132,6 +134,9 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="stats_since_unplugged">Depuis Dernier Débranch.</string>
     <string name="stats_since_charged">Depuis Dernière Charge Complète</string>
     <string name="stats_since_custom">Depuis Référence Perso.</string>
+    <string name="stats_since_screen_off">Depuis Ecran Eteint</string>
+    <string name="stats_since_now">Depuis Maintenant</string>
+    <string name="stats_since_ago">Depuis %1s Il y Avait</string>
     <string name="pwer_profiles_mfg">Valeurs Fabricants</string>
     <string name="pwer_profiles_saved">Valeurs Actuelles Sauv.</string>
 
@@ -197,7 +202,6 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="main_menu_charts">Graphiques</string>
     <string name="menu_whatsnew">Quoi De Neuf</string>
     <string name="about_about">A Propos</string>
-    <string name="main_stat_ref_label">* Basé sur la référence personnalisée il y à %1s</string>
     <string name="menu_set_custom_ref">Définir Référence Personnalisée</string>
     <string name="menu_remove_custom_ref">Supprimer Référence personnalisée</string>
     <string name="menu_refresh">Rafraîchir</string>
@@ -216,7 +220,6 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <string name="main_share_subject">Vie Moyenne Batterie - GSam Battery Monitor</string>
     <string name="main_share_msg2">Mon %1$s %2$s a une moyenne de batterie de %3$s (%4$s utilisation active) sur une seule charge. Vérifier GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_share_msg">Mon %1$s %2$s a une moyenne de batterie de %3$s sur une seule charge. Vérifier GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">Vie Moyenne Batterie: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Util. Sur %2$s (Depuis Dernier Débranch.)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Util. Sur %2$s (Depuis Dernière Charge Complète)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Util. Sur %2$s (Depuis Référence Perso.)</string>
@@ -239,12 +242,12 @@ Ne vous inquiétez pas - vous ne verrez plus ce message à nouveau."</string>
     <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
     <string name="main_avg_chargetime_label">Temps Chargement:</string>
     <string name="main_avg_chargetime_text">%1$s CA / %2$s USB</string>
-    <string name="main_kitkat_nostats_title2">Activer Plus de Stats avec l\'Application Root Companion</string>
-    <string name="main_kitkat_nostats_helper_needed2">"Vous pouvez activer l\'accès à plus de statistiques si vous avez un accès Root en installant l\'application GSam Root Companion. Cela vous donne un accès détaillé pour le wakelock, l\'utilisation du capteur, ainsi que beaucoup d\'autres statistiques.
+    <string name="main_kitkat_nostats_title2">"Activer Plus de Stats avec l'Application Root Companion"</string>
+    <string name="main_kitkat_nostats_helper_needed2">"Vous pouvez activer l'accès à plus de statistiques si vous avez un accès Root en installant l'application GSam Root Companion. Cela vous donne un accès détaillé pour le wakelock, l'utilisation du capteur, ainsi que beaucoup d'autres statistiques.
  
-Si vous n\'êtes pas Root, ou si vous ne savez pas ce que cela signifie, ne vous inquiétez pas pour cela. GSam fonctionnera très bien sans cela.
+Si vous n'êtes pas Root, ou si vous ne savez pas ce que cela signifie, ne vous inquiétez pas pour cela. GSam fonctionnera très bien sans cela.
  
-Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pour plus d\'informations.</string>
+Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a>" pour plus d'informations."</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">"L'application Root Companion n'est pas installée correctement dans /system/priv-app. Svp lancez l'application et vérifiez qu'elle est correctement installée."</string>
     <string name="main_kitkat_nostats_launch_companion">Lancer Root Companion</string>
     <string name="main_kitkat_nostats_install_companion">Installer Root Companion</string>
@@ -345,10 +348,14 @@ Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pour plus d\'i
     <string name="no">Non</string>
     <string name="ok">OK</string>
     <string name="error">"Une erreur s'est produite"</string>
+    <string name="permlab_batteryStats">lire les statistiques de la batterie</string>
+    <string name="permdesc_batteryStats">Permet à une application de lire en utilisant les données pour la batterie faible. Peut autoriser à l\'application de trouver des informations détaillées sur les applications que vous utilisez.</string>
+    
     <!-- Charts -->
     <string name="main_chart_showtemp">Température</string>
     <string name="main_chart_showother">Autres</string>
     <string name="main_chart_showradio">Signal Mobile</string>
+    <string name="main_chart_showrate">Noter Changement</string>
     <string name="chart_menu_batthistory">Historique Graphique Batterie</string>
     <string name="chart_menu_battdischarge">Graphique Energie vs Pourcentage</string>
     <string name="notification_chargecomplete">Charge Complète</string>
@@ -370,6 +377,7 @@ Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pour plus d\'i
     <string name="chart_med">Moy</string>
     <string name="chart_screen">Ecran</string>
     <string name="chart_signal">Signal Mobile</string>
+    <string name="chart_rateofchange">Δ %/Heure</string>
     <string name="chart_tempc">Température Batterie °C</string>
     <string name="chart_tempf">Température Batterie °F</string>
     <string name="chart_timeformat">HH:mm</string>
@@ -380,6 +388,7 @@ Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pour plus d\'i
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Moteur Graphique par AChartEngine.org</string>
     <string name="about_actionbar">Compatibilité ActionBar par actionbarsherlock.com</string>
+    <string name="about_icons">Icônes Application par &lt;a href=https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921>Marius Bozgan&lt;/a></string> 
     <string name="about_translations">Traductions:</string>
     
     <!-- Dashclock -->   
@@ -395,7 +404,7 @@ Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pour plus d\'i
     <string name="dashclock_pref_show_remaining_time">Afficher le temps restant</string>
     <string name="dashclock_pref_show_active_standby">Afficher le temps actif et de veille</string>
     <string name="dashclock_pref_show_temp_voltage">Afficher température et tension</string>
-    <string name="dashclock_settings">Paramètres  Extension GSam</string>
+    <string name="dashclock_settings">Paramètres Extension GSam</string>
     
     <!-- Translations & Translators -->   
     <string name="lang_default">Langue Système Par Défaut</string>
@@ -447,9 +456,17 @@ Ne vous inquiétez pas, vous ne verrez plus ce message à nouveau."</string>
     <string name="abs__activitychooserview_choose_application">Choisir une application</string>
     <string name="abs__shareactionprovider_share_with">Partager avec</string>
     <string name="abs__shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_action_bar_home_description">Naviguer accueil</string>
+    <string name="abc_action_bar_up_description">Naviguer vers le haut</string>
+    <string name="abc_action_menu_overflow_description">Plus d\'options</string>
+    <string name="abc_action_mode_done">Terminée</string>
+    <string name="abc_activity_chooser_view_see_all">Voir tout</string>
+    <string name="abc_activitychooserview_choose_application">Choisir application</string> 
     <string name="abs__searchview_description_search">Rechercher</string>
     <string name="abs__searchview_description_query">Rechercher question</string>
     <string name="abs__searchview_description_clear">Effacer question</string>
     <string name="abs__searchview_description_submit">Envoyer question</string>
     <string name="abs__searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>    
 </resources>
