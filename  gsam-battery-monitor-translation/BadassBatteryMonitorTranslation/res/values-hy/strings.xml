@@ -5,23 +5,23 @@
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">Time Left: %1$02d:%2$02d (Average), %3$02d:%4$02d (Last %5$sm)</string>
-    <string name="battery_status_time_left_no_running">Time Left: %1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">Time Left: Calculating - check back later</string>
-    <string name="battery_status_time_to_full">Time To Full: %1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">Time To Full: Calculating - check back later</string>
-    <string name="battery_status_title">Battery Status - %1$s%% (%2$s)</string>
-    <string name="battery_status_title_charging">Battery Status - %1$s%% (%2$s) - Charging</string>
-    <string name="battery_status_title_full">Battery Status - %1$s%% (%2$s) - Full</string>
+    <string name="battery_status_time_left">Ժ-կ է մնացել՝ %1$02d:%2$02d (միջինը), %3$02d:%4$02d (վերջինը՝ %5$sm)</string>
+    <string name="battery_status_time_left_no_running">Ժ-կ է մնացել՝ %1$02d:%2$02d</string>
+    <string name="battery_status_time_left_unknown">Ժ-կ է մնացել՝ հաշվում է, փորձեք ավելի ուշ</string>
+    <string name="battery_status_time_to_full">Կլիցքավորվի՝ %1$02d:%2$02d</string>
+    <string name="battery_status_time_to_full_unknown">Կլիցքավորվի՝ հաշվում է, փորձեք ավելի ուշ</string>
+    <string name="battery_status_title">Մարտկոցի վիճակը՝ %1$s%% (%2$s)</string>
+    <string name="battery_status_title_charging">Մարտկոցի վիճակը՝ %1$s%% (%2$s)՝ լիցքավորվում է</string>
+    <string name="battery_status_title_full">Մարտկոցի վիճակը՝ %1$s%% (%2$s)՝ լիքն է</string>
 
     <!-- Preferences -->
-    <string name="preferences_general_category">General Preferences</string>
-    <string name="preferences_theme_category">Theme</string>
-    <string name="preferences_alarm_category">Alarms</string>
-    <string name="preferences_startup_service_title">Monitor On Device Startup</string>
-    <string name="preferences_startup_service_sum">Start battery monitoring on boot</string>
-    <string name="preferences_temperature_title">Temperature in Celsius</string>
-    <string name="preferences_show_notification_icon_title">Show Notification Icon</string>
+    <string name="preferences_general_category">Կարգավորումներ</string>
+    <string name="preferences_theme_category">Շապիկ</string>
+    <string name="preferences_alarm_category">Տագնապ</string>
+    <string name="preferences_startup_service_title">Դիտազննել սարքը միացնելիս</string>
+    <string name="preferences_startup_service_sum">Սկսել մարտկոցի դիտազննումը բեռնելիս</string>
+    <string name="preferences_temperature_title">Ջերմաստիճանը Ցելսիուսով</string>
+    <string name="preferences_show_notification_icon_title">Ցուցադրել ծանուցումների պատկերակը</string>
     <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Show % notification icon in notification bar</string>
     <string name="preferences_show_notification_title">Show Notification Only</string>
     <string name="preferences_show_notification_sum">See the notification without the notification icon</string>
