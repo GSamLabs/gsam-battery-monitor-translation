@@ -24,6 +24,8 @@
     <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Show % notification icon in notification bar</string>
     <string name="preferences_show_notification_title">Show Notification Only</string>
     <string name="preferences_show_notification_sum">See the notification without the notification icon</string>
+    <!-- preferences_show_notification_lockscreen_title is not used yet... -->
+    <string name="preferences_show_notification_lockscreen_title">Show Notification on Lockscreen</string>
     <string name="preferences_alarm_condition_charging">Battery above</string>
     <string name="preferences_alarm_condition_discharging">Battery below</string>
     <string name="preferences_alarm_condition_overheated">Battery overheated</string>
@@ -140,9 +142,8 @@
     <string name="process_suck_mon_header">%0$.1f%% of battery consumed by:</string>
     <string name="process_suck_mon_nodata">No data available.  There are no apps that have consumed the specified resource during the last device power cycle.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
-    <string name="process_suck_mon_title_unplugged">%1$s (Since Last Unplugged)</string>
-    <string name="process_suck_mon_title_fullcharge">%1$s (Since Full Charge)</string>
-    <string name="process_suck_mon_title_customref">%1$s (Since Custom Reference)</string>
+    <!-- Suffix gets 'stats_since_X' replaced -->
+    <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
     <string name="procsuckmon_viewby_pwr">View % Power Used</string>
     <string name="procsuckmon_viewby_pwr_minforeground">View % Power (Background CPU Only)</string>
     <string name="procsuckmon_viewby_cpu">View CPU Minutes Used</string>
@@ -384,7 +385,6 @@
     <string name="about_version">Version %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
-    <string name="about_actionbar">ActionBar Compatibility by actionbarsherlock.com</string>
     <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Translations:</string>
     
