@@ -24,6 +24,8 @@
 	<string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">% Bildirim simgesini bildirim çubuğunda göster</string>
 	<string name="preferences_show_notification_title">Sadece Bildirim Göster</string>
 <string name="preferences_show_notification_sum">Bildirimi simgesiz göster</string>
+    <!-- preferences_show_notification_lockscreen_title is not used yet... -->
+    <string name="preferences_show_notification_lockscreen_title">Show Notification on Lockscreen</string>
 	<string name="preferences_alarm_condition_charging">Pil seviyesi bundan yüksekken</string>
   <string name="preferences_alarm_condition_discharging">Pil seviyesi bundan düşükken</string>
   <string name="preferences_alarm_condition_overheated">Pil aşırı ısınmış</string>
@@ -84,7 +86,7 @@
 	<string name="preferences_clear_history_stats_toast">Tüm pil istatistikleri temizlendi\u2026</string>
 	<string name="preferences_clear_history_stats_error_toast">Sıfırlama başarısız - cihazınız bu seçeneği desteklemiyor olabilir\u2026</string>
 	<string name="preferences_custom_ref">Pil geçmişi özel referans noktasına göre (veya fişten çekildiği ana göre) tutulacaktır. Bu özellik, referans noktasından bu yana pili en çok neyin tükettiğini keşfetmek için kullanılabilir.</string>
-	<string name="preferences_custom_ref_plugged"> Cihaz şu an şarj olmakta - özel referans noktasını cihaz fişte takılı değilken oluşturabilirsiniz.</string>
+	<string name="preferences_custom_ref_plugged">Cihaz şu an şarj olmakta - özel referans noktasını cihaz fişte takılı değilken oluşturabilirsiniz.</string>
 	<string name="preferences_send_anon_stats_title">Anonim İstatistiğe İzin Ver</string>
 	<string name="preferences_send_anon_stats_sum">Anonim kullanım istatistiklerinin gönderilmesine izin verir. Kişisel veya deşifre edilebilir hiçbir bilgi gönderilmez.</string>
 	<string name="preferences_show_ads_title">Reklamları Göster</string>
@@ -139,10 +141,9 @@
 	<string name="process_suck_mon_android_system">Sistem (%1s)</string>
 	<string name="process_suck_mon_header">%0$.1f%% pil harcayan:</string>
 	<string name="process_suck_mon_nodata">Veri mevcut değil. Son güç döngüsü boyunca güç tüketmiş bir uygulama bulunamadı.</string>
-	<string name="process_suck_mon_title_prefix">Uyg. Kullanımı - %1$s</string>
-	<string name="process_suck_mon_title_unplugged">%1$s (Fişten Çekişten Bu Yana)</string>
-	<string name="process_suck_mon_title_fullcharge">%1$s (Tam Şarjdan Bu Yana)</string>
-	<string name="process_suck_mon_title_customref">%1$s (Özel Referanstan Bu Yana)</string>
+	<string name="process_suck_mon_title_prefix">Uyg. Kullanımı - %1$s</string>	
+    <!-- Suffix gets 'stats_since_X' replaced -->
+    <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
 	<string name="procsuckmon_viewby_pwr">Güç Kullanım %</string>
 	<string name="procsuckmon_viewby_pwr_minforeground">Güç % (Sadece Arkaplan CPU)</string>
 	<string name="procsuckmon_viewby_cpu">CPU Süreleri</string>
@@ -212,7 +213,6 @@
 	<string name="main_share_subject">Ortalama Pil Ömrü - GSam Battery Monitor</string>
 	<string name="main_share_msg2">%1$s %2$s cihazımın tam şarjdaki ortalama pil ömrü: %3$s (%4$s aktif kullanımla). GSam Battery Monitor: - http://bit.ly/uHT7Vy #badassbattery</string>
 	<string name="main_share_msg">%1$s %2$s cihazımın tam şarjdaki ortalama pil ömrü: %3$s. GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-	<string name="main_avg_timepercharge_label">Ortalama Pil Ömrü: %1$s</string>
 	<string name="main_tablet_battusage_unplug">Kullanım: %1$s%% Süre: %2$s (Fişten Çekişten Bu Yana)</string>
 	<string name="main_tablet_battusage_fullcharge">Kullanım: %1$s%% Süre: %2$s (Tam Şarjdan Bu Yana)</string>
 	<string name="main_tablet_battusage_customref">Kullanım: %1$s%% Süre: %2$s (Özel Referanstan Bu Yana)</string>
@@ -350,6 +350,7 @@
 	<string name="main_chart_showtemp">Sıcaklık</string>
 	<string name="main_chart_showother">Diğer</string>
 	<string name="main_chart_showradio">Verici Sinyali</string>
+    <string name="main_chart_showrate">Rate of Change</string>
 	<string name="chart_menu_batthistory">Pil Geçmişi Grafiği</string>
 	<string name="chart_menu_battdischarge">Güç vs Yüzde Grafiği</string>
 	<string name="notification_chargecomplete">Şarj Tamamlandı</string>
@@ -371,6 +372,7 @@
 	<string name="chart_med">Ort.</string>
 	<string name="chart_screen">Ekran</string>
 	<string name="chart_signal">Verici Sinyali</string>
+    <string name="chart_rateofchange">\u0394 %/Hour</string>
 	<string name="chart_tempc">Pil Sıcaklığı \u00B0C</string>
 	<string name="chart_tempf">Pil Sıcaklığı \u00B0F</string>
 	<string name="chart_timeformat">HH:mm</string>
@@ -382,7 +384,7 @@
 	<string name="about_version">Versiyon no: %1s</string>
 	<string name="about_copyright">\u24d2 GSam Labs 2014</string>
 	<string name="about_chartengine">Grafik Motoru: AChartEngine.org</string>
-	<string name="about_actionbar">ActionBar Uyumluluğu: Actionbarsherlock.com</string>
+    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
 	<string name="about_translations">Çeviriler:</string>
 
 <!-- DashClock Widget Extension -->
