@@ -22,11 +22,11 @@
     <string name="preferences_startup_service_sum">Սկսել մարտկոցի դիտազննումը բեռնելիս</string>
     <string name="preferences_temperature_title">Ջերմաստիճանը Ցելսիուսով</string>
     <string name="preferences_show_notification_icon_title">Ցուցադրել ծանուցումների պատկերակը</string>
-    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Show % notification icon in notification bar</string>
-    <string name="preferences_show_notification_title">Show Notification Only</string>
-    <string name="preferences_show_notification_sum">See the notification without the notification icon</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Ցուցադրել % ծանուցման պատկերակը</string>
+    <string name="preferences_show_notification_title">Ցուցադրել  միայն ծանուցումները</string>
+    <string name="preferences_show_notification_sum">Ծանուցումները ցուցադրել առանց պատկերակի</string>
     <!-- preferences_show_notification_lockscreen_title is not used yet... -->
-    <string name="preferences_show_notification_lockscreen_title">Show Notification on Lockscreen</string>
+    <string name="preferences_show_notification_lockscreen_title">Ծանուցումները ցուցադրել կողպէկրանին</string>
     <string name="preferences_alarm_condition_charging">Battery above</string>
     <string name="preferences_alarm_condition_discharging">Battery below</string>
     <string name="preferences_alarm_condition_overheated">Battery overheated</string>
@@ -75,8 +75,8 @@
     <string name="preferences_power_profiles_edit_summary">Customize your power profile.  The custom values will only be used if the custom profile is enabled.</string>
     <string name="profedit_title">Modify the values below to change how your time remaining and App Sucker times are calculated</string>
     <string name="profedit_load_basedon">Reload Data Based On:</string>
-    <string name="profedit_save">Save</string>
-    <string name="profedit_cancel">Cancel</string>
+    <string name="profedit_save">Պահպանել</string>
+    <string name="profedit_cancel">Չեղարկել</string>
     <string name="profedit_custom_values_saves">Saved custom values.  You may re-enable manufacturing defaults in the preferences screen.</string>
     <string name="preferences_clear_chart_history_title">Clear Chart History File</string>
     <string name="preferences_clear_chart_history_sum">Click here to clear the local cached file for chart history.</string>
@@ -158,56 +158,56 @@
     <string name="procsuckmon_wakelock_user_apps">Combined App Wakelocks (non-Kernel)</string>
 
     <!-- Main screen -->
-    <string name="main_history_button">History</string>
-    <string name="main_preferences_button">Preferences</string>
-    <string name="main_calculating">Calculating\u2026</string>
-    <string name="main_full">Full</string>
-    <string name="main_timeremaining">Time Remaining</string>
-    <string name="main_timetofull2">To Full:</string>
-    <string name="main_timetofull_tablet2">To Full Charge:</string>
-    <string name="main_timeleft2">Average:</string>
-    <string name="main_timeleft_tablet2">Average Usage:</string>
-    <string name="main_timeleft_rolling2">Last %1$sm:</string>
-    <string name="main_timeleft_rolling_tablet2">Last %1$sm Usage:</string>
-    <string name="main_talktime2">Talk Time:</string>
-    <string name="main_temp">Temperature: </string>
-    <string name="main_voltage">Voltage: </string>
-    <string name="main_health">Type / Health: </string>
-    <string name="main_health_cold">Cold</string>
-    <string name="main_health_dead">Dead</string>
-    <string name="main_health_good">Good</string>
-    <string name="main_health_hot">Hot</string>
+    <string name="main_history_button">Պատմություն</string>
+    <string name="main_preferences_button">Կարգավորումներ</string>
+    <string name="main_calculating">Հաշվում է\u2026</string>
+    <string name="main_full">Լիքը</string>
+    <string name="main_timeremaining">Մնացել է</string>
+    <string name="main_timetofull2">Լցվելուն.</string>
+    <string name="main_timetofull_tablet2">Լիքը լցվելուն.</string>
+    <string name="main_timeleft2">Միջինը.</string>
+    <string name="main_timeleft_tablet2">Միջին օգտ.</string>
+    <string name="main_timeleft_rolling2">Վերջինը %1$sm.</string>
+    <string name="main_timeleft_rolling_tablet2">Վերջինը %1$sm օգտ. է.</string>
+    <string name="main_talktime2">Խոսելու ժ-ը.</string>
+    <string name="main_temp">Ջերմաստիճան. </string>
+    <string name="main_voltage">Լարում. </string>
+    <string name="main_health">Տեսակ/ Առողջություն. </string>
+    <string name="main_health_cold">Սառը</string>
+    <string name="main_health_dead">Պասսիվ</string>
+    <string name="main_health_good">Լավ</string>
+    <string name="main_health_hot">Տաք</string>
     <string name="main_health_over_voltage">Over Voltage</string>
-    <string name="main_health_unknown">Unknown</string>
-    <string name="main_health_failed">Failed</string>
-    <string name="main_usage_label">Battery Usage - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
-    <string name="main_usage_label2">Used %1$s%% in %2$s</string>
-    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s Active, %3$s Standby</string>
-    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s Active</string>
-    <string name="main_phone_on_label">Phone:</string>
-    <string name="main_screen_on_label">Screen:</string>
-    <string name="main_phone_radio_on_label">Phone Radio:</string>
-    <string name="main_wifi_active_label">Wifi Active:</string>
+    <string name="main_health_unknown">Անհայտ</string>
+    <string name="main_health_failed">Ձախողում</string>
+    <string name="main_usage_label">Մարտկոցի օգտ-ը՝ %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label2">Օգտ. է %1$s%%՝ %2$s-ում</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s ակտիվ, %3$s նիրհելիս</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s ակտիվ</string>
+    <string name="main_phone_on_label">Հեռախոս.</string>
+    <string name="main_screen_on_label">Էկրան.</string>
+    <string name="main_phone_radio_on_label">Հեռախոսը.</string>
+    <string name="main_wifi_active_label">Ակտիվ Wifi.</string>
     <string name="main_idle_label">Held Awake:</string>
-    <string name="main_bluetooth_label">Bluetooth:</string>
+    <string name="main_bluetooth_label">Bluetooth-ը.</string>
     <string name="main_app_usage_label">App Usage:</string>
     <string name="main_app_usage_button">App Sucker</string>
     <string name="main_android_batt_usage_button">Battery Use - Built In</string>    
     <string name="main_android_batt_usage_failed">Unable to launch the built in battery usage screen...</string>
-    <string name="main_tools_menu">More</string>
-    <string name="main_menu_charts">Charts</string>
-    <string name="menu_whatsnew">What\'s New</string>
-    <string name="about_about">About</string>
+    <string name="main_tools_menu">Ավելին</string>
+    <string name="main_menu_charts">Գծապատկեր</string>
+    <string name="menu_whatsnew">Ինչն է նոր</string>
+    <string name="about_about">Մեր մասին</string>
     <string name="menu_set_custom_ref">Set Custom Reference</string>
     <string name="menu_remove_custom_ref">Remove Custom Reference</string>
-    <string name="menu_refresh">Refresh</string>
+    <string name="menu_refresh">Թարմացնել</string>
     <string name="main_refresh_toast">Statistics Refreshed\u2026</string>
     <string name="main_market_nomarket_msg">Function not available.  There does not appear to be a market application installed on your device.</string>
-    <string name="menu_help">Help</string>
-    <string name="menu_send_debug_data">Send error report</string>    
-    <string name="menu_send_debug_data_dlg_title">Send Error Report Using:</string>
-    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
-    <string name="menu_send_debug_data_body">Please enter a description of the problem you encountered:\n\n</string> 
+    <string name="menu_help">Օգնություն</string>
+    <string name="menu_send_debug_data">Ուղարկել զեկույց</string>    
+    <string name="menu_send_debug_data_dlg_title">Զեկույցը ուղարկել հետևյալով՝</string>
+    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Սխալի զեկույց</string>  
+    <string name="menu_send_debug_data_body">Նկարագրեք ծագած խնդիրը.\n\n</string> 
     <string name="menu_review">Review GSam Battery Monitor</string>
     <string name="menu_enable_more_stats">Enable More Stats</string>
     <string name="main_share_intentchoosertitle">Share my average battery life\u2026</string>
@@ -221,18 +221,18 @@
     <string name="main_tablet_standby_usage">Standby (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">Rate GSam Battery Monitor</string>
     <string name="rate_me_msg">Do you like GSam Battery Monitor?  Please take the time to give the app a good rating!\n\nDon\'t worry - you won\'t be asked again.</string>
-    <string name="rate_me_ok">Rate It!</string>
+    <string name="rate_me_ok">Գնահատել</string>
     <string name="main_header_type">Type</string>
-    <string name="main_header_time">Time</string>
+    <string name="main_header_time">Ժ-ը</string>
     <string name="main_header_power">Power</string>
     <string name="averages_since">Since %1$s</string>
     <string name="averages_header">Averages Per Complete Charge</string>
-    <string name="main_avg_timepercharge_label2">Battery Life:</string>
-    <string name="main_avg_timepercharge_text_active">%1$s (%2$s Active)</string>
+    <string name="main_avg_timepercharge_label2">Մարտկոցի կյանքը.</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s ակտիվ)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Standby)</string>
     <string name="main_avg_screenon_label">Screen On:</string>
     <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
-    <string name="main_avg_chargetime_label">Charge Time:</string>
+    <string name="main_avg_chargetime_label">Լիցքավորելու ժ-ը.</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title2">Enable More Stats with Root Companion App</string>
     <string name="main_kitkat_nostats_helper_needed2">You can enable access to more statistics if you
@@ -264,7 +264,7 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
-    <string name="appdetail_details_button">Manage</string>
+    <string name="appdetail_details_button">Կառավարել</string>
     <string name="appdetail_details_button_wakelocks">Google Me</string>    
     <string name="appdetail_details_adjustpower">Power Savings Hint</string>
     <string name="appdetail_details_adjust_wifi">Turn off Wi-Fi when not in use using the Wi-Fi Settings button above.</string>
@@ -273,7 +273,7 @@
     <string name="appdetail_details_adjust_screen">Lower screen brightness and screen timeout using the Display Settings button above.</string>
     <string name="appdetail_details_adjust_screen_button">Display Settings</string>
     <string name="appdetail_details_adjust_screen_failedintent">Unable to launch display settings</string>
-    <string name="detail_menu_export">Export</string>
+    <string name="detail_menu_export">Արտածել</string>
     <string name="detail_menu_export_dlg_title">Export Screen (Text) Data Using</string>
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Export Data</string>    
     <string name="appdetail_appuid">App UID:</string>  
@@ -281,10 +281,10 @@
     <string name="appdetail_bright">Bright:</string>  
     <string name="appdetail_bytesrec">Bytes Received:</string>  
     <string name="appdetail_bytessent">Bytes Sent:</string>  
-    <string name="appdetail_cpu">CPU Usage:</string>  
-    <string name="appdetail_cpu_backgroundonly">CPU Usage (Background Only):</string>  
-    <string name="appdetail_dark">Dark:</string>  
-    <string name="appdetail_data_enabled">Data Enabled:</string>  
+    <string name="appdetail_cpu">CPU օգտ.</string>  
+    <string name="appdetail_cpu_backgroundonly">CPU օգտ. (միայն խորապատկերում).</string>  
+    <string name="appdetail_dark">Մուգ.</string>  
+    <string name="appdetail_data_enabled">Տվյալը մից. է</string>  
     <string name="appdetail_dim">Dim:</string>  
     <string name="appdetail_discharge_whileonoff">Discharge While On/Off:</string>  
     <string name="appdetail_gps">GPS:</string>  
@@ -323,48 +323,48 @@
     <string name="appdetail_total_appssystem">Total (Apps / System):</string> 
     <string name="appdetail_video">Video On:</string>  
     <string name="appdetail_wakelocks">Number of Wake Locks:</string>  
-    <string name="appdetail_wifiactive">Wifi Active:</string>  
-    <string name="appdetail_wifion">Wifi On:</string>      
-    <string name="appdetail_bytes">%d bytes</string>        
-    <string name="appdetail_mb">%.2f MB</string>           
-    <string name="appdetail_kb">%.2f KB</string>   
-    <string name="appdetail_totaltime">Total Time (including awake):</string>
-    <string name="appdetail_select_package">Select Package To Manage</string>
+    <string name="appdetail_wifiactive">Wifi-ը ակտիվ է.</string>  
+    <string name="appdetail_wifion">Wifi-ը միաց. է</string>      
+    <string name="appdetail_bytes">%d բայթ</string>        
+    <string name="appdetail_mb">%.2f ՄԲ</string>           
+    <string name="appdetail_kb">%.2f ԿԲ</string>   
+    <string name="appdetail_totaltime">Ընդ. ժ-ը (ներառյալ արթնեցումը).</string>
+    <string name="appdetail_select_package">Ընտրեք փաթեթրը՝ կառավարելու համար</string>
 
     <!-- Change Log - actual change content isn't translated -->
-    <string name="changelog_full_title">What\'s New</string>
-    <string name="changelog_title">What\'s New</string>
-    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_full_title">Ինչն է նոր</string>
+    <string name="changelog_title">Ինչն է նոր</string>
+    <string name="changelog_ok_button">ԼԱՎ</string>
 
     <!-- Misc. -->
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="ok">OK</string>
-    <string name="error">An error occurred</string>
+    <string name="yes">Այո</string>
+    <string name="no">Ոչ</string>
+    <string name="ok">ԼԱՎ</string>
+    <string name="error">Սխալ է գրանցվել</string>
     
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">read battery statistics</string>
+  <string name="permlab_batteryStats">կարդալ մարտկոցի վիճ/գր-ը</string>
     <string name="permdesc_batteryStats">Allows an application to read the current low-level
         battery use data.  May allow the application to find out detailed information about
         which apps you use.</string>
 
     <!-- Charts -->
-    <string name="main_chart_showtemp">Temperature</string>
-    <string name="main_chart_showother">Others</string>
-    <string name="main_chart_showradio">Phone Signal</string>
+    <string name="main_chart_showtemp">Ջերմաստիճան</string>
+    <string name="main_chart_showother">Այլ</string>
+    <string name="main_chart_showradio">Ազդանշանը</string>
     <string name="main_chart_showrate">Rate of Change</string>
-    <string name="chart_menu_batthistory">Battery History Chart</string>
+    <string name="chart_menu_batthistory">Մարտկոցի պատմության գծապատկերը</string>
     <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
-    <string name="notification_chargecomplete">Charge Complete</string>
-    <string name="notification_battcharging">Battery Charging (%1s%%)</string>
-    <string name="notification_battlow">Battery Low (%1s%%)</string>
-    <string name="notification_batthot_f">Warning - Hot Battery (%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">Warning - Hot Battery (%.1f\u00B0C)</string>
-    <string name="notification_battovervoltage">Warning - Battery Over Voltage (%.1f V)</string>
-    <string name="chart_active">Active</string>
-    <string name="chart_batt_history">Battery History (%1$s)</string>
-    <string name="chart_batt_percent">Battery %</string>
-    <string name="chart_charging">Charging</string>
+    <string name="notification_chargecomplete">Լիցքավորվեց</string>
+    <string name="notification_battcharging">Մարտկոցը լից. է (%1s%%)</string>
+    <string name="notification_battlow">Մարտկոցը քիչ է (%1s%%)</string>
+    <string name="notification_batthot_f">Մարտկոցը տաք է (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Մարտկոցը տաք է (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Մարտկոցի լարումը բարձր է (%.1f V)</string>
+    <string name="chart_active">Ակտիվ</string>
+    <string name="chart_batt_history">Մարտկոցի պատմ-ը (%1$s)</string>
+    <string name="chart_batt_percent">Մարտկոցի %-ը</string>
+    <string name="chart_charging">Լիցքավորում</string>
     <string name="chart_dim">Dim</string>
     <string name="chart_gps">GPS</string>
     <string name="chart_high">High</string>
@@ -382,12 +382,12 @@
     <string name="chart_wifi">Wifi</string>
     
     <!-- About -->
-    <string name="about_app_name">About GSam Battery Monitor</string>
-    <string name="about_version">Version %1s</string>    
+    <string name="about_app_name">GSam Battery Monitor-ի մասին</string>
+    <string name="about_version">Տարբերակը. %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
-    <string name="about_translations">Translations:</string>
+    <string name="about_translations">Թարգմանողներ.</string>
     
     <!-- DashClock Widget Extension -->
     <string name="dashclock_description">Show battery statistics including time left, drain per hour, and more.</string>
@@ -405,8 +405,8 @@
     <string name="dashclock_settings">GSam Extension Settings</string>
     
     <!-- Translations & Translators -->   
-    <string name="lang_default">Default System Language</string>        
-    <string name="translator_anonymous">Anonymous</string>
+    <string name="lang_default">Համակարգային լեզուն</string>        
+    <string name="translator_anonymous">Անանուն</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
     <string name="translator_fr">Jaworski Johan</string>       
@@ -432,39 +432,39 @@
     <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
     <string name="preferences_send_anon_stats_buypro_msg">The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.\n\nThe Pro version does not include ads, and will let you turn off anonymous usage statistics.</string>
     <string name="menu_seeotherapps">See Other Apps by GSam Labs</string>
-    <string name="menu_gopro">Upgrade To Pro</string>
-    <string name="menu_gopro_nook">Purchase</string>
-    <string name="menu_goprokindle">Upgrade To The Kindle Fire Edition</string>
-    <string name="nook_gopro_title">Trial Expired</string>
-    <string name="nook_gopro_msg">Your trial of the battery monitor has expired.  Please purchase the full edition.  You can continue to use the battery monitor, however it will run in Free mode which removes a number of features and optimizations.</string>
-    <string name="nook_gopro_ok">Buy Full Version</string>
-    <string name="nook_gopro_cancel">Continue In Free Mode</string>
-    <string name="main_market_pro_title">Thank You For Using GSam Battery Monitor - Free</string>
+    <string name="menu_gopro">Արդիացնել Pro-ի</string>
+    <string name="menu_gopro_nook">Գնել</string>
+    <string name="menu_goprokindle">Արդիացնել The Kindle Fire Edition-ի</string>
+    <string name="nook_gopro_title">Փորձարկումը սպառվել է</string>
+    <string name="nook_gopro_msg">Փորձարկման ժամկետը սպառվել է։ Գնեք ամբողջական տարբերակը։ Եթե շարունակեք օգտագործումը, ապա աշխատելու է Free եղանակը։</string>
+    <string name="nook_gopro_ok">Գնել ամբողջական տարբերակը</string>
+    <string name="nook_gopro_cancel">Շարունակել Free-ով</string>
+    <string name="main_market_pro_title">Շնորհակալություն GSam Battery Monitor - Free-ին օգտ. համար</string>
     <string name="main_market_pro_msg">Did you know there is a Tablet optimized professional version of GSam Battery Monitor?  Look for it in the market.\n\nDon\'t worry, you won\'t see this message again.</string>
     <string name="main_market_pro_msg_kindle">Did you know there is a Kindle Fire optimized version of GSam Battery Monitor?  Look for it in the Appstore.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_ok">Take A Look</string>
-    <string name="main_market_pro_cancel">No Thank You</string>
-    <string name="main_invalid_license_title">Invalid License</string>
-    <string name="main_invalid_license_msg">Your license to this application appears to not be valid.  The Battery Monitor will continue to operate in it\'s Free mode.  If you feel this is a mistake, please check your purchase.</string>
-    <string name="main_invalid_license_ok">Check My Purchase</string>
-    <string name="main_invalid_license_cancel">Continue</string>    
-    <string name="about_invalidlicense">You do not have a valid license.  GSam Battery Monitor will continue to run in Free mode.  If you feel this is a mistake, please contact the developer with your Google Purchase ID</string>
+    <string name="main_market_pro_ok">Հայացք գցեք</string>
+    <string name="main_market_pro_cancel">Ոչ</string>
+    <string name="main_invalid_license_title">Արտոնագիրը սխալ է</string>
+    <string name="main_invalid_license_msg">Կարծես արտոնագիրը սխալ է։ The Battery Monitor-ը կաշխատի Free եղանակով։ </string>
+    <string name="main_invalid_license_ok">Իմ գնումները</string>
+    <string name="main_invalid_license_cancel">Շարունակել</string>    
+    <string name="about_invalidlicense">Չունեք վավեր արտոնագիր։ GSam Battery Monitor-ը կաշխատի Free եղանակով։ Եթե կարծում եք, որ սա սխալ է, ապա կապնվեք հեղինակի հետ՝ ներկայացնելով Google Purchase ID-ին։</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Navigate home</string>
     <string name="abs__action_bar_up_description">Navigate up</string>
-    <string name="abs__action_menu_overflow_description">More options</string>
-    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__action_menu_overflow_description">Լր. ընտրանքներ</string>
+    <string name="abs__action_mode_done">Պատրաստ է</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activity_chooser_view_see_all">Նայեք բոլորը...</string>
     <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">Ընտրեք ակտիվությունը</string>
     <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
-    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__share_action_provider_share_with">Համաօգտագործել...</string>
     <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
-    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__activitychooserview_choose_application">Ընտրեք ծրագիրը</string>
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with">Համաօգտագործել</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">Share with <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">Համաօգտագործել <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
