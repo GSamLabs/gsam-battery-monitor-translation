@@ -24,6 +24,7 @@
     <string name="preferences_show_notification_icon_sum">Показать значок оповещения с процентами в строке оповещения</string>
     <string name="preferences_show_notification_title">Показать только оповещение</string>
     <string name="preferences_show_notification_sum">Оповещение без значка оповещения</string>
+    <string name="preferences_show_notification_lockscreen_title">Уведомления на экране блокировки</string>
     <string name="preferences_alarm_condition_charging">Заряд выше</string>
     <string name="preferences_alarm_condition_discharging">Заряд ниже</string>
     <string name="preferences_alarm_condition_overheated">Перегрев батареи</string>
@@ -140,9 +141,7 @@
     <string name="process_suck_mon_header">%0$.1f%% батареи использовалось:</string>
     <string name="process_suck_mon_nodata">Данные недоступны. Нет приложений, которые потребляли указанный ресурс во время последнего цикла батареи устройства.</string>
     <string name="process_suck_mon_title_prefix">Приложения - %1$s</string>
-    <string name="process_suck_mon_title_unplugged">%1$s (от посл.отключения)</string>
-    <string name="process_suck_mon_title_fullcharge">%1$s (от полн.зарядки)</string>
-    <string name="process_suck_mon_title_customref">%1$s (от польз.метки)</string>
+    <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
 	  <string name="procsuckmon_viewby_pwr">% исп.питания</string>
     <string name="procsuckmon_viewby_pwr_minforeground">% питания (только фон CPU)</string>
     <string name="procsuckmon_viewby_cpu">Минуты исп.CPU</string>
@@ -384,7 +383,6 @@
     <string name="about_version">Версия %1s</string>
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">График от AChartEngine.org</string>
-    <string name="about_actionbar">Совместимость строки меню от actionbarsherlock.com</string>
     <string name="about_icons">Значки приложения от &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Перевод:</string>
 
