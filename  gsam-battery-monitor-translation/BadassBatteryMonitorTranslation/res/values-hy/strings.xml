@@ -344,17 +344,17 @@
     
     <!-- Copied from the original BATTERY_STATS permission description -->
   <string name="permlab_batteryStats">կարդալ մարտկոցի վիճ/գր-ը</string>
-    <string name="permdesc_batteryStats">Allows an application to read the current low-level
-        battery use data.  May allow the application to find out detailed information about
-        which apps you use.</string>
+    <string name="permdesc_batteryStats">Թույլատրում է հավելվածին կարդալ մարտկոցի ցածր
+       մակարդակի օգտ. տվյալը։ Թոյլատրում է հավելվածին ստանալ մանրամասն տեղեկություններ
+        այն հավելվածների մասին, որոնք օգտագործում եք։</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">Ջերմաստիճան</string>
     <string name="main_chart_showother">Այլ</string>
     <string name="main_chart_showradio">Ազդանշանը</string>
-    <string name="main_chart_showrate">Rate of Change</string>
+    <string name="main_chart_showrate">Փոփոխման աստիճանը</string>
     <string name="chart_menu_batthistory">Մարտկոցի պատմության գծապատկերը</string>
-    <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
+    <string name="chart_menu_battdischarge">Հոսանք vs Տոկոսային գծապատկեր</string>
     <string name="notification_chargecomplete">Լիցքավորվեց</string>
     <string name="notification_battcharging">Մարտկոցը լից. է (%1s%%)</string>
     <string name="notification_battlow">Մարտկոցը քիչ է (%1s%%)</string>
@@ -365,44 +365,44 @@
     <string name="chart_batt_history">Մարտկոցի պատմ-ը (%1$s)</string>
     <string name="chart_batt_percent">Մարտկոցի %-ը</string>
     <string name="chart_charging">Լիցքավորում</string>
-    <string name="chart_dim">Dim</string>
+    <string name="chart_dim">Խամրած</string>
     <string name="chart_gps">GPS</string>
-    <string name="chart_high">High</string>
-    <string name="chart_incall">In Call</string>
-    <string name="chart_low">Low</string>
-    <string name="chart_max">Max</string>
-    <string name="chart_med">Med</string>
-    <string name="chart_screen">Screen</string>
-    <string name="chart_signal">Phone Signal</string>
-    <string name="chart_rateofchange">\u0394 %/Hour</string>
-    <string name="chart_tempc">Battery Temperature \u00B0C</string>
-    <string name="chart_tempf">Battery Temperature \u00B0F</string>
+    <string name="chart_high">Բարձր</string>
+    <string name="chart_incall">Զանգl</string>
+    <string name="chart_low">Ցածր</string>
+    <string name="chart_max">Առվ.</string>
+    <string name="chart_med">Միջ.</string>
+    <string name="chart_screen">Էկրան</string>
+    <string name="chart_signal">Ազդանշանը</string>
+    <string name="chart_rateofchange">\u0394 %/Ժամ</string>
+    <string name="chart_tempc">Մարտկոցի ջերմաստիճանը \u00B0C</string>
+    <string name="chart_tempf">Մարտկոցի ջերմաստիճանը \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
-    <string name="chart_unknown">Unknown</string>
+    <string name="chart_unknown">Անհայտ</string>
     <string name="chart_wifi">Wifi</string>
     
     <!-- About -->
     <string name="about_app_name">GSam Battery Monitor-ի մասին</string>
     <string name="about_version">Տարբերակը. %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
-    <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
-    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
+    <string name="about_chartengine">Գծապատկերի միջուկը AChartEngine.org-ից</string>
+    <string name="about_icons">Պատկերակները &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;-ից</string>
     <string name="about_translations">Թարգմանողներ.</string>
     
     <!-- DashClock Widget Extension -->
-    <string name="dashclock_description">Show battery statistics including time left, drain per hour, and more.</string>
-    <string name="dashclock_active_standby">%1$s Active, %2$s Standby</string>
+    <string name="dashclock_description">Ցուցադրել մարտկոցի վիճակագրությունը՝ մնացել է ժ-կ, ժամ առ ժամ դատարկումը և այլն։</string>
+    <string name="dashclock_active_standby">%1$s ակտիվ, %2$s Նիրհ</string>
     <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
-    <string name="dashclock_delta_per_hour_short_full">Full</string>
-    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Charging</string>  
-    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Discharging</string>  
-    <string name="dashclock_to_empty">%1$s to empty</string>  
-    <string name="dashclock_to_full">%1$s to full</string>
-    <string name="dashclock_pref_show_used">Show amount used</string>
-    <string name="dashclock_pref_show_remaining_time">Show time remaining</string>
-    <string name="dashclock_pref_show_active_standby">Show active and standby times</string>
-    <string name="dashclock_pref_show_temp_voltage">Show temperature and voltage</string>
-    <string name="dashclock_settings">GSam Extension Settings</string>
+    <string name="dashclock_delta_per_hour_short_full">Լիքը</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h՝ լիցքավորում</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h՝ լիցքաթափում</string>  
+    <string name="dashclock_to_empty">%1$s դատարկ</string>  
+    <string name="dashclock_to_full">%1$s լիքը</string>
+    <string name="dashclock_pref_show_used">Ցուցադրել օգտ. քանակը</string>
+    <string name="dashclock_pref_show_remaining_time">Ցուցադրել մնացած ժ-ը</string>
+    <string name="dashclock_pref_show_active_standby">Ցուցադրել ակտիվ և նիրհելու ժ-ը</string>
+    <string name="dashclock_pref_show_temp_voltage">Ցուցադրել ջերմաստիճանը և լարումը</string>
+    <string name="dashclock_settings">GSam-ի ընդլայնման կարգավորումներ</string>
     
     <!-- Translations & Translators -->   
     <string name="lang_default">Համակարգային լեզուն</string>        
@@ -427,11 +427,11 @@
     <string name="translator_zh_TW">Andy~★</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
-    <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">If you have trouble reading at night because your screen is too bright, check out GSam Screen Dimmer.  It lets you reduce your brightness settings below what is normally allowed, making for a much more pleasant night-time read!\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.\n\nThe Pro version does not include ads, and will let you turn off anonymous usage statistics.</string>
-    <string name="menu_seeotherapps">See Other Apps by GSam Labs</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_title">Էկրանը շա՞տ է պայծառ։</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Եթե խնդիրներ ունեք գիշերը ընթերցանության ժամանակ, քանի որ էկրանը շատ պայծառ է, ապա օգտվեք GSam Screen Dimmer-ից։ Այն հնարավորություն կտա կարդավորել պայծառությունը՝ Ձեր ընթերցանությունը դարձնելով հաճելի։\n\nԱյլևս չեք տեսնի այս հաղորդագրությունը։</string>
+    <string name="preferences_send_anon_stats_buypro_title">Գնեք Pro-ն</string>
+    <string name="preferences_send_anon_stats_buypro_msg">Battery Monitor-ի անվճար տարբերակը հնարավորություն չի տա անջատել գովազդը։\n\nPro տարբերակը չի պարունակում գովազդ և կկարողանաք անջատել անանուն վիճակագրության օգտագործումը։</string>
+    <string name="menu_seeotherapps">GSam Labs-ի այլ հավելվածներ</string>
     <string name="menu_gopro">Արդիացնել Pro-ի</string>
     <string name="menu_gopro_nook">Գնել</string>
     <string name="menu_goprokindle">Արդիացնել The Kindle Fire Edition-ի</string>
@@ -440,8 +440,8 @@
     <string name="nook_gopro_ok">Գնել ամբողջական տարբերակը</string>
     <string name="nook_gopro_cancel">Շարունակել Free-ով</string>
     <string name="main_market_pro_title">Շնորհակալություն GSam Battery Monitor - Free-ին օգտ. համար</string>
-    <string name="main_market_pro_msg">Did you know there is a Tablet optimized professional version of GSam Battery Monitor?  Look for it in the market.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_msg_kindle">Did you know there is a Kindle Fire optimized version of GSam Battery Monitor?  Look for it in the Appstore.\n\nDon\'t worry, you won\'t see this message again.</string>
+    <string name="main_market_pro_msg">Գիտեք, որ կա GSam Battery Monitor-ի՝ հատուկ թաբլեթների համար նախատեսված տարբերակը։ Փնտրեք այն Market-ում։\n\nԱյլևս չեք տեսնի այս հաղորդագրությունը։</string>
+    <string name="main_market_pro_msg_kindle">Գիտեք, որ կա GSam Battery Monitor-ի՝ հատուկ Kindle Fire-ի համար նախատեսված տարբերակը։ Փնտրեք այն Appstore-ում։\n\nԱյլևս չեք տեսնի այս հաղորդագրությունը։</string>
     <string name="main_market_pro_ok">Հայացք գցեք</string>
     <string name="main_market_pro_cancel">Ոչ</string>
     <string name="main_invalid_license_title">Արտոնագիրը սխալ է</string>
@@ -451,8 +451,8 @@
     <string name="about_invalidlicense">Չունեք վավեր արտոնագիր։ GSam Battery Monitor-ը կաշխատի Free եղանակով։ Եթե կարծում եք, որ սա սխալ է, ապա կապնվեք հեղինակի հետ՝ ներկայացնելով Google Purchase ID-ին։</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-    <string name="abs__action_bar_home_description">Navigate home</string>
-    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_bar_home_description">Դեպի տուն</string>
+    <string name="abs__action_bar_up_description">Վերև</string>
     <string name="abs__action_menu_overflow_description">Լր. ընտրանքներ</string>
     <string name="abs__action_mode_done">Պատրաստ է</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
