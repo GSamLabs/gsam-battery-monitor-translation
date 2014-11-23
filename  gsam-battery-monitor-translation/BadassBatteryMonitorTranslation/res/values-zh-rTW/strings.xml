@@ -253,7 +253,7 @@
     <string name="appdetail_included_processes">包含的程序</string>
     <string name="appdetail_seconds">%1$01d 秒</string>
     <string name="appdetail_minutes">%1$01d 分 %2$01d 秒</string>
-    <string name="appdetail_minutes_decimal">%1$ 分</string>
+    <string name="appdetail_minutes_decimal">%1$s 分</string>
     <string name="appdetail_days">%1$01dd %2$01d 時 %3$01d 分</string>
     <string name="appdetail_days_twolevels">%1$01d天 %2$01d 時</string>
     <string name="appdetail_days_twolevels_decimal">%1$01d天 %2$s時</string>
