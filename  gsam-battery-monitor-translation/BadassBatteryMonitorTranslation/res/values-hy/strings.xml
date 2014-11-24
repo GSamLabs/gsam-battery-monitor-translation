@@ -5,7 +5,7 @@
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">Ժ-կ է մնացել՝ %1$02d:%2$02d (միջինը), %3$02d:%4$02d (վերջինը՝ %5$sm)</string>
+    <string name="battery_status_time_left">Ժ-կ է մնացել՝ %1$02d:%2$02d (միջինը), %3$02d:%4$02d (վերջին՝ %5$sm)</string>
     <string name="battery_status_time_left_no_running">Ժ-կ է մնացել՝ %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Ժ-կ է մնացել՝ հաշվում է, փորձեք ավելի ուշ</string>
     <string name="battery_status_time_to_full">Կլիցքավորվի՝ %1$02d:%2$02d</string>
@@ -22,7 +22,7 @@
     <string name="preferences_startup_service_sum">Սկսել մարտկոցի դիտազննումը բեռնելիս</string>
     <string name="preferences_temperature_title">Ջերմաստիճանը Ցելսիուսով</string>
     <string name="preferences_show_notification_icon_title">Ցուցադրել ծանուցումների պատկերակը</string>
-    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Ցուցադրել % ծանուցման պատկերակը</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Ցուցադրել %-ի ծանուցման պատկերակը</string>
     <string name="preferences_show_notification_title">Ցուցադրել  միայն ծանուցումները</string>
     <string name="preferences_show_notification_sum">Ծանուցումները ցուցադրել առանց պատկերակի</string>
     <!-- preferences_show_notification_lockscreen_title is not used yet... -->
@@ -53,10 +53,10 @@
     <string name="preferences_overlay_icon_configure_invalid">Հնարավոր չէ սկսել կազմաձևումը։ Ինքներդ բացեք պատկերակի փաթեթը։</string>
     <string name="preferences_overlay_icon_notvalid_title">Ընտրված թեման չի աջակցում վերածածկող պատկերակներ</string>
     <string name="preferences_overlay_icon_notvalid_msg">Ընտրեք այլ թեմա և կրկին փորձեք։\n\nՎերածածկող պատկերակները աջակցում են միայն արտաքին փաթեթները։ Ընտրեք Ստանալ լր. թեմաներ՝ Մարտկոցի պատկերակի թեման ցանկից և գտեք արտաքին փաթեթը։ Պատկերակների բոլոր փաթեթները տրամադրվում են GSam Labs-ից։ Երրորդ կողմի փաթեթները կարող են չաջակցել վերածածկող գործառույթը։</string>
-    <string name="preferences_show_charging_animation_title">Լիցքավորելիս ցուցադրել շարժունացում</string> 
+    <string name="preferences_show_charging_animation_title">Լիցքավորելիս ցուցադրել շարժունացում</string>
     <string name="preferences_widget_color_screen_title">Մարտկոցի Վիդջեթի կարգավորումներ</string>
     <string name="preferences_app_theme_title">Օգտ. մուգ գույնի թեմա</string>
-    <string name="preferences_app_theme_sum">Օգտ. մուգ գույնի թեմա էկրանի համար</string>
+    <string name="preferences_app_theme_sum">Օգտ. մուգ գույնի թեմա՝ էկրանի համար</string>
     <string name="preferences_time_left_title">Հաշվել մնացած ժ-ը</string>
     <string name="preferences_time_left_sum">Հաշվել մնացած ժ-ը՝ օգտագործման վրա հիմված։</string>
     <string name="preferences_profiles_screen_title">Սարքի հոսանքի պրոֆիլներ</string>
@@ -140,12 +140,12 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Համակարգ (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%%-ը ծախսել է՝</string>
+    <string name="process_suck_mon_header">%0$.1f%%-ը ծախսվել է՝</string>
     <string name="process_suck_mon_nodata">Տվյալներ չկան։ Չկան հավելվածներ, որոնք ծախսել են որոշակի ռեսուրսներ՝ վերջին շրջանում։</string>
     <string name="process_suck_mon_title_prefix">Խմող հավելված՝ %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
     <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
-    <string name="procsuckmon_viewby_pwr">Դիտել % օգտ. հոսանքը</string>
+    <string name="procsuckmon_viewby_pwr">Դիտել հոսանքը օգտ. %-ը</string>
     <string name="procsuckmon_viewby_pwr_minforeground">Դիտել % հոսանքը (Միայն խորապատ. CPU)</string>
     <string name="procsuckmon_viewby_cpu">Դիտել CPU-ի օգտ. ժ-ը</string>
     <string name="procsuckmon_viewby_cpu_minforeground">Դիտել CPU (Միայն խորապատ. CPU)</string>
@@ -162,13 +162,13 @@
     <string name="main_preferences_button">Կարգավորումներ</string>
     <string name="main_calculating">Հաշվում է\u2026</string>
     <string name="main_full">Լիքը</string>
-    <string name="main_timeremaining">Մնացել է</string>
+    <string name="main_timeremaining">Մնացել է՝</string>
     <string name="main_timetofull2">Լցվելուն.</string>
     <string name="main_timetofull_tablet2">Լիքը լցվելուն.</string>
     <string name="main_timeleft2">Միջինը.</string>
     <string name="main_timeleft_tablet2">Միջին օգտ.</string>
-    <string name="main_timeleft_rolling2">Վերջինը %1$sm.</string>
-    <string name="main_timeleft_rolling_tablet2">Վերջինը %1$sm օգտ. է.</string>
+    <string name="main_timeleft_rolling2">Վերջին %1$sm.</string>
+    <string name="main_timeleft_rolling_tablet2">Վերջին %1$sm օգտ. է.</string>
     <string name="main_talktime2">Խոսելու ժ-ը.</string>
     <string name="main_temp">Ջերմաստիճան. </string>
     <string name="main_voltage">Լարում. </string>
@@ -186,13 +186,13 @@
     <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s ակտիվ</string>
     <string name="main_phone_on_label">Հեռախոս.</string>
     <string name="main_screen_on_label">Էկրան.</string>
-    <string name="main_phone_radio_on_label">Հեռախոսը.</string>
+    <string name="main_phone_radio_on_label">Կապը.</string>
     <string name="main_wifi_active_label">Ակտիվ Wifi.</string>
     <string name="main_idle_label">Արթնացում.</string>
     <string name="main_bluetooth_label">Bluetooth-ը.</string>
     <string name="main_app_usage_label">Հավելվածների օգտ.</string>
     <string name="main_app_usage_button">Խմող հավելված</string>
-    <string name="main_android_batt_usage_button">Մարտկոցի օգտ.՝ ներկառուցված</string>    
+    <string name="main_android_batt_usage_button">Մարտկոցի կարգավորումներ</string>    
     <string name="main_android_batt_usage_failed">Չհաջողվեց բացել ներկառուցված մարտկոցի օգտ. էկրանը...</string>
     <string name="main_tools_menu">Ավելին</string>
     <string name="main_menu_charts">Գծապատկեր</string>
@@ -207,8 +207,8 @@
     <string name="menu_send_debug_data">Ուղարկել զեկույց</string>    
     <string name="menu_send_debug_data_dlg_title">Զեկույցը ուղարկել հետևյալով՝</string>
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Սխալի զեկույց</string>  
-    <string name="menu_send_debug_data_body">Նկարագրեք ծագած խնդիրը.\n\n</string> 
-    <string name="menu_review">Զննել GSam Battery Monitor-ը</string>
+    <string name="menu_send_debug_data_body">Նկարագրեք ծագած խնդիրը.\n\n</string>
+    <string name="menu_review">GSam Battery Monitor-ի մասին</string>
     <string name="menu_enable_more_stats">Միացնել լր. վիճակներ</string>
     <string name="main_share_intentchoosertitle">Տարածել մարտկոցի կյանքի միջին տևողությունը\u2026</string>
     <string name="main_share_subject">Մարտկոցի կյանքի միջին տևողությունը՝ GSam Battery Monitor</string>
@@ -230,7 +230,7 @@
     <string name="main_avg_timepercharge_label2">Մարտկոցի կյանքը.</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s ակտիվ)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Նիրհ)</string>
-    <string name="main_avg_screenon_label">Էկրանը միաց.</string>
+    <string name="main_avg_screenon_label">Էկրանը միացված</string>
     <string name="main_avg_screenon_text">%1$s (%2$s առվլ.)</string>
     <string name="main_avg_chargetime_label">Լիցքավորելու ժ-ը.</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
@@ -301,7 +301,7 @@
     <string name="appdetail_phoneon">Ռադիոն աշխ է.</string>  
     <string name="appdetail_pwr_sysdata">Հոսանքը համակ. տվյալի համար.</string>  
     <string name="appdetail_received">Ստացվել է.</string>  
-    <string name="appdetail_received_wifimobile">Ստացվել է(Wifi / բջջային).</string> 
+    <string name="appdetail_received_wifimobile">Ստացվել է(Wifi / բջջային).</string>
     <string name="appdetail_scanning">Ազդանշանի ստուգում.</string>  
     <string name="appdetail_screen_brightness">Էկրանի պայծառություն.</string>  
     <string name="appdetail_screenon">Էկրանը միաց.</string>  
@@ -318,9 +318,9 @@
     <string name="appdetail_sensor_rotvector">Պտտվող վեկտոր.</string>  
     <string name="appdetail_sensor_temp">Ջերմաստիճան.</string>  
     <string name="appdetail_sent">Ուղարկված.</string>  
-    <string name="appdetail_sent_wifimobile">Ուղարկված (Wifi / բջջային).</string>  
+    <string name="appdetail_sent_wifimobile">Ուղարկվել է (Wifi / բջջային).</string>  
     <string name="appdetail_signal_stregth">Ազդանշանի ուժը.</string>
-    <string name="appdetail_total_appssystem">Ընդհանուր (Հավելված/Համակարգ).</string> 
+    <string name="appdetail_total_appssystem">Ընդհանուր (Հավելված/Համակարգ).</string>
     <string name="appdetail_video">Տեսանյութի խաղարկում.</string>  
   <string name="appdetail_wakelocks">Արթուն/Կողպելու քանակը.</string>  
     <string name="appdetail_wifiactive">Wifi-ը ակտիվ է.</string>  
@@ -408,7 +408,7 @@
     <string name="lang_default">Համակարգային լեզուն</string>        
     <string name="translator_anonymous">Անանուն</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_hy">Hrant Ohanyan »» &lt;a href=\"http://haysoft.org\"&gt;HaySoft&lt;/a&gt;)</string> 
+    <string name="translator_hy">Hrant Ohanyan »» &lt;a href=\"http://haysoft.org\"&gt;HaySoft&lt;/a&gt;)</string>
     <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
     <string name="translator_fr">Jaworski Johan</string>       
     <string name="translator_it">Fabio Abbà &lt;BR&gt; AlphaUMi</string>     
