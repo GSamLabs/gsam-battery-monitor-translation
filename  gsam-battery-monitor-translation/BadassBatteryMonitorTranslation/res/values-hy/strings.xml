@@ -408,24 +408,7 @@
     <string name="lang_default">Համակարգային լեզուն</string>        
     <string name="translator_anonymous">Անանուն</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_hy">Hrant Ohanyan »» &lt;a href=\"http://haysoft.org\"&gt;HaySoft&lt;/a&gt;)</string>
-    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
-    <string name="translator_fr">Jaworski Johan</string>       
-    <string name="translator_it">Fabio Abbà &lt;BR&gt; AlphaUMi</string>     
-    <string name="translator_hu">István Kriskó (Stefi)</string>    
-    <string name="translator_cs">Matěj Trakal (&lt;a href=\"http://mtrakal.cz\"&gt;mtrakal&lt;/a&gt;)</string>
-    <string name="translator_sv">Pontus Edgren</string>
-    <string name="translator_nl">ArTsLeOpS</string>
-    <string name="translator_iw">Michael Sandler (&lt;a href=\"http://sandler.in\"&gt;mich&lt;/a&gt;)</string>
-    <string name="translator_zh_CN">Gavin Fang &lt;BR&gt; myliyifei修补</string>  
-    <string name="translator_tr">Saldıray Günal</string>
-    <string name="translator_pl">www.cvxcvx.pl</string>
-    <string name="translator_de">Jan Fortein</string>
-    <string name="translator_es">Carlos Salazar (&lt;a href=\"http://about.me/carlos_salazar\"&gt;Ulric&lt;/a&gt;) &lt;BR&gt;
-        Broquen (&lt;a href=\"http://forum.xda-developers.com/member.php?u=2695779\"&gt;broquen&lt;/a&gt;)</string>
-    <string name="translator_uk">Yaroslav Brukh</string>
-    <string name="translator_pt_PT">João Ricardo.</string>
-    <string name="translator_zh_TW">Andy~★</string>
+    <string name="translator_hy">Hrant Ohanyan »» &lt;a href=\"http://haysoft.org\"&gt;HaySoft&lt;/a&gt;</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Էկրանը շա՞տ է պայծառ։</string>
