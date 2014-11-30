@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
 
-	<!-- Don't translate app_name -->
+    <!-- Don't translate app_name -->
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
@@ -10,16 +10,16 @@
     <string name="battery_status_time_left_unknown">Temps restant: Calculant – Revisa-ho més tard</string>
     <string name="battery_status_time_to_full">Temps per a càrrega màxima: %1$02d:%2$02d</string>
     <string name="battery_status_time_to_full_unknown">Temps per a càrrega màxima: Calculant – Revisa-ho més tard</string>
-    <string name="battery_status_title">Estat de la batería - %1$s%% (%2$s)</string>
-    <string name="battery_status_title_charging">Estat de la batería- %1$s%% (%2$s) - Charging</string>
-    <string name="battery_status_title_full">Estat de la batería- %1$s%% (%2$s) - Full</string>
+    <string name="battery_status_title">Estat de la bateria - %1$s%% (%2$s)</string>
+    <string name="battery_status_title_charging">Estat de la bateria- %1$s%% (%2$s) - Charging</string>
+    <string name="battery_status_title_full">Estat de la Bateria- %1$s%% (%2$s) - Full</string>
 
     <!-- Preferences -->
     <string name="preferences_general_category">Opcions generals</string>
     <string name="preferences_theme_category">Tema</string>
     <string name="preferences_alarm_category">Alarmes</string>
-    <string name="preferences_startup_service_title">"Encendre Monitor quan s'encengui el dispositiu"</string>
-    <string name="preferences_startup_service_sum">Començar monitorejant la batería al encendre</string>
+    <string name="preferences_startup_service_title">"Inicia l’aplicació quan s'encengui el dispositiu"</string>
+    <string name="preferences_startup_service_sum">Començar monitorejant la Bateria al encendre</string>
     <string name="preferences_temperature_title">Temperatura en Celsius</string>
     <string name="preferences_show_notification_icon_title">"Mostra l'icona de notificació"</string>
     <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Mostra en % una notificació a la barra de notificacións</string>
@@ -27,16 +27,16 @@
     <string name="preferences_show_notification_sum">"Visualitza la notificació sense l'icona de notificació"</string>
     <!-- preferences_show_notification_lockscreen_title is not used yet... -->
     <string name="preferences_show_notification_lockscreen_title">Mostra les notificacións amb la pantalla bloquejada</string>
-    <string name="preferences_alarm_condition_charging">Batería per damunt</string>
-    <string name="preferences_alarm_condition_discharging">Batería per devall</string>
-    <string name="preferences_alarm_condition_overheated">Batería sobrecalentada</string>
-    <string name="preferences_alarm_condition_overvoltage">Batería per damunt del voltatje</string>
+    <string name="preferences_alarm_condition_charging">Bateria per damunt</string>
+    <string name="preferences_alarm_condition_discharging">Bateria per devall</string>
+    <string name="preferences_alarm_condition_overheated">Bateria sobrecalentada</string>
+    <string name="preferences_alarm_condition_overvoltage">Bateria per damunt del voltatje</string>
     <string name="preferences_alarm_condition_temperature">Temperatura per damunt</string>
-    <string name="preferences_alarm_select_percent">Percentatje de la batería</string>
-    <string name="preferences_alarm_select_temperature">Temperatura de la batería</string>
+    <string name="preferences_alarm_select_percent">percentatge de la bateria</string>
+    <string name="preferences_alarm_select_temperature">Temperatura de la bateria</string>
     <string name="preferences_alarm_select_tone">Selecciona un to de notificació</string>
-    <string name="preferences_theme_title">"Tema de l'icona de la batería"</string>
-    <string name="preferences_theme_sum">"Escull l'estil de la icona de la batería"</string>
+    <string name="preferences_theme_title">"Tema de l'icona de la bateria"</string>
+    <string name="preferences_theme_sum">"Escull l'estil de la icona de la bateria"</string>
     <string name="preferences_theme_getmore_title">Aconsegueix més temes</string>
     <string name="preferences_theme_getmore_msg">Això buscarà més temes per a Battery Monitor. GSam Labs no controla o aprova tots els temes, per tant si el tema no funcione, contacta amb el desenvolupador del tema.\n\nDescarrega i instal•la el tema, desprès torna al menú per a veure els temes disponibles.\n\nSabíes que pots crear els teus propis temes? Vés a http://badassbatterymonitor.blogspot.com per saber més detalls de com fer-ho!</string>
     <string name="preferences_theme_progress_title">Recuperant temes</string>
@@ -46,16 +46,16 @@
     <string name="preferences_widget_show_timeleft_title">Mostra el temps restant</string>
     <string name="preferences_widget_show_temp_title">Mostra la tempertaura</string>
     <string name="preferences_widget_show_voltage_title">Mostra el voltatge</string>
-    <string name="preferences_overlay_icon_sum">"Destaca l'icona de la batería. Localització, lloc, etc. Son configurables completament."</string>
-    <string name="preferences_overlay_icon_title">"Destaca l'icona de la batería estandard."</string>
+    <string name="preferences_overlay_icon_sum">"Destaca l'icona de la bateria. Localització, lloc, etc. Son completament configurables."</string>
+    <string name="preferences_overlay_icon_title">"Destaca l'icona de la bateria estandard."</string>
     <string name="preferences_overlay_icon_configure_sum">"Configura el destacament de l'icona, mida lloc, color de fons, brillantor, i més."</string>
     <string name="preferences_overlay_icon_configure_title">"Configurar l'icona destacada"</string>
     <string name="preferences_overlay_icon_configure_invalid">"No es pot encendre la configuració.  Obre el pack d'icones per configurar-ho manualment."</string>
     <string name="preferences_overlay_icon_notvalid_title">El tema seleccionat no soporta les icones destacades.</string>
-    <string name="preferences_overlay_icon_notvalid_msg">"Selecciona un tema diferent i torna-ho a intenetar.\n\nLes icones destacades sol son soportades per packs d'icones externs. Selecciona Aconsegueix més temes del tema de l'icona de la batería per trobar un pack d'icones extern. Tots els packs d'icones de GSam Labs soporten icones destacades. Els packs d'icones de tercers poden no suportar els destacaments."</string>
-    <string name="preferences_show_charging_animation_title">"Mostra l'animació mentre s'esta carregant"</string> 
+    <string name="preferences_overlay_icon_notvalid_msg">"Selecciona un tema diferent i torna-ho a intenetar.\n\nLes icones destacades sol son soportades per packs d'icones externs. Selecciona Aconsegueix més temes del tema de l'icona de la bateria per trobar un pack d'icones extern. Tots els packs d'icones de GSam Labs suporten icones destacades. Els packs d'icones de tercers poden no suportar els destacaments."</string>
+    <string name="preferences_show_charging_animation_title">"Mostra l'animació mentre s’està carregant"</string> 
     <string name="preferences_widget_color_screen_title">"Opcions de l'aplicació de la Bateria"</string>
-    <string name="preferences_app_theme_title">"Utilitzar temes foscos d'aplicacións"</string>
+    <string name="preferences_app_theme_title">"Utilitzar temes foscos d’aplicacions"</string>
     <string name="preferences_app_theme_sum">"Utilitza un tema fosc per les pantalles de l'aplicació."</string>
     <string name="preferences_time_left_title">Calcula el temps restant</string>
     <string name="preferences_time_left_sum">"Calcula el temps restant basat en l'ús a partir d'aquesta escala temporal."</string>
@@ -63,59 +63,59 @@
     <string name="preferences_power_profiles_use_stock_title">Permet els perfils personalitzats</string>
     <string name="preferences_power_profiles_edit_title">"Editar perfil d'Energia"</string>
     <string name="preferences_profiles_screen_summary">"Avançat – Editar els perfils d'ús d'Energia que s'utilitzen per calcular tots els valors"</string>
-    <string name="preferences_power_per_percent_reset_title">Reinicia les estimacións del temps restant.</string>
-    <string name="preferences_power_per_percent_reset_summary">Reinicia les estimacións del temps restant.  Utilitza-ho si el temps restant no és exacte.  Ara mateix %1$s / percent calculat de %2$01d percentatges</string>
-    <string name="preferences_power_per_percent_dlgtext">"La coma separada a POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Aquest valor s'actualitza constantment – com més l'utilitzis, més exacte es. Quant canviïs la configuració del perfil d'energia, hauríes de deixar buit aquest camp, i deixar que l'aplicació el regeneri."</string>   
+    <string name="preferences_power_per_percent_reset_title">Reinicia les estimacions del temps restant.</string>
+    <string name="preferences_power_per_percent_reset_summary">Reinicia les estimacions del temps restant.  Utilitza-ho si el temps restant no és exacte.  Ara mateix %1$s / percent calculat de %2$01d percentatges</string>
+    <string name="preferences_power_per_percent_dlgtext">"La coma separada a POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Aquest valor s'actualitza constantment – com més l'utilitzis, més exacte es. Quant canviïs la configuració del perfil d'energia, hauries de deixar buit aquest camp, i deixar que l'aplicació el regeneri."</string>   
     <string name="preferences_power_per_percent_reset">Reinicia</string>
-    <string name="preferences_time_per_percent_title">"Reinicia l'historial del temps de descarga"</string>
+    <string name="preferences_time_per_percent_title">"Reinicia l'historial del temps de descàrrega"</string>
     <string name="preferences_time_per_percent_unkown">Desconegut</string>
     <string name="preferences_time_per_percent_summary">Reinicia el valor calculat de la mitja de la que el teu dispositiu duri un cicle de càrrega sencer. Ara mateix %1$s (%2$sm / per cent calculats de %3$01d percentatges)</string>
-    <string name="preferences_stats_since_title">Visualitza les estadístiques desde</string>
-    <string name="preferences_stats_since_summary">"Visualitza les estadistiques desde l'última vegada de la seva desconnexió o desde l'última càrrega complerta"</string>
-    <string name="preferences_power_profiles_edit_summary">"Personalitza el teu perfil d'energia.  Els valors personalitzats només s'utilitzarán si  el perfil personalitzat està activat."</string>
-    <string name="profedit_title">Modifica els valors de més avall per cambiar com els valors del temps restant serán calculats.</string>
+    <string name="preferences_stats_since_title">Visualitza les estadístiques des de</string>
+    <string name="preferences_stats_since_summary">"Visualitza les estadístiques des de l'última vegada de la seva desconnexió o des de l'última càrrega completa"</string>
+    <string name="preferences_power_profiles_edit_summary">"Personalitza el teu perfil d'energia.  Els valors personalitzats només s’utilitzaran si el perfil personalitzat està activat."</string>
+    <string name="profedit_title">Modifica els valors de més avall per canviar com els valors del temps restant seran calculats.</string>
     <string name="profedit_load_basedon">Recarrega dades basades:</string>
     <string name="profedit_save">Guardar</string>
     <string name="profedit_cancel">Cancel•la</string>
-    <string name="profedit_custom_values_saves">Valors personalitzats guardats. Pots re activar els valors de fábrica a la pantalla de preferències.</string>
+    <string name="profedit_custom_values_saves">Valors personalitzats guardats. Pots reactivar els valors de Fábrica a la pantalla de preferències.</string>
     <string name="preferences_clear_chart_history_title">"Esborrar arxiu d'historial de taules"</string>
-    <string name="preferences_clear_chart_history_sum">"Clica aqui per esborrar l'arxiu historial de la memòria clau."</string>
-    <string name="preferences_clear_chart_history_toast">"L'arxiu d'historials ha estat llimpiat.\u2026"</string>
+    <string name="preferences_clear_chart_history_sum">"Clica aquí per esborrar l'arxiu historial de la memòria clau."</string>
+    <string name="preferences_clear_chart_history_toast">"L'arxiu d'historials ha estat netejat.\u2026"</string>
     <string name="preferences_clear_chart_history_alert">Estàs segur?</string>
-    <string name="preferences_clear_history_stats_title">Reseteja els paràmetres de l batería</string>
-    <string name="preferences_clear_history_stats_sum">"Cliqueja aqui per a resetejar les estadístiques de la batería. Això eliminarà totes les estadístiques de l'historial. És l'equivalent a fer una càrrega completa i desconnectar. Totes les estadístiques es reiniciaràn amb referència a aquest punt, per tannt s'ha d'utilitzar amb compte!"</string>
-    <string name="preferences_clear_history_stats_toast">Totes les estadístiques de la batería han estat llimpiades\u2026</string>
-    <string name="preferences_clear_history_stats_error_toast">Impossible resetejar les estadístiques – aquest dispositiu pot no suportar aquesta funció\u2026</string>
-    <string name="preferences_custom_ref">"L'historial de la batería estarà basat en un punt de referència personalitzat creat ara (o quan el dispositiu estigui desconnectat) Pot ser utilitzat per a determinar quant s'ha utilitzat la batería des d'un punt específic en el temps a més de l'última vegada que es va carregar."</string>
+    <string name="preferences_clear_history_stats_title">Reseteja els paràmetres de la bateria</string>
+    <string name="preferences_clear_history_stats_sum">"Cliqueija aquí per a reiniciar les estadístiques de la bateria. Això eliminarà totes les estadístiques de l'historial. És l'equivalent a fer una càrrega completa i desconnectar. Totes les estadístiques es reiniciaran amb referència a aquest punt, per tant s'ha d'utilitzar amb compte!"</string>
+    <string name="preferences_clear_history_stats_toast">Totes les estadístiques de la bateria han estat netejades\u2026</string>
+    <string name="preferences_clear_history_stats_error_toast">Impossible reiniciar les estadístiques – aquest dispositiu pot no suportar aquesta funció\u2026</string>
+    <string name="preferences_custom_ref">"L'historial de la bateria estarà basat en un punt de referència personalitzat creat ara (o quan el dispositiu estigui desconnectat) Pot ser utilitzat per a determinar quant s'ha utilitzat la bateria des d'un punt específic en el temps a més de l'última vegada que es va carregar."</string>
     <string name="preferences_custom_ref_plugged">"El dispositiu s'està carregant - tan sols pots crear una referència personalitzada quan el dispositiu està desconnectat."</string>
     <string name="preferences_send_anon_stats_title">"Permet ús d'estadístiques anònimes"</string>
     <string name="preferences_send_anon_stats_sum">"Permet l'enviament d'estadístiques d'ús anònimes. Cap dada identificable o privada serà enviada."</string>
-    <string name="preferences_show_ads_title">Móstra propaganda</string>
-    <string name="preferences_show_ads_sum">Móstra propaganda a la pantalla principal.</string>
+    <string name="preferences_show_ads_title">Mostra propaganda</string>
+    <string name="preferences_show_ads_sum">Mostra propaganda a la pantalla principal.</string>
     <string name="preferences_override_lang_title">LLenguatge</string>
     <string name="preferences_override_lang_sum">Utilitza una altra llengua que no sigui la estàndard del sistema.</string>
-    <string name="preferences_power_profiles_include_sensors_title">Incloeix sensors als càlculs</string>
-    <string name="preferences_power_profiles_include_sensors_sum">"Alguns dispositius no calculen lús del sensor correctament. No marquis això si el sensor de l'aplicació sembla inexacte (l'acceleròmetre en particular)"</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_title">"Reseteja el percentatje d'energía"</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_msg">Això resetejarà els càlculs del percentatje. Vols continuar?</string>
+    <string name="preferences_power_profiles_include_sensors_title">Inclou sensors als càlculs</string>
+    <string name="preferences_power_profiles_include_sensors_sum">"Alguns dispositius no calculen l'ús del sensor correctament. No marquis això si el sensor de l'aplicació sembla inexacte (l'acceleròmetre en particular)"</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_title">"Reseteja el percentatge d’energia"</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_msg">Això reiniciarà els càlculs del percentatge. Vols continuar?</string>
     <string name="preferences_widget_dialog_title">Tria un color</string>
     <string name="preferences_widget_color_full_title">Color Al 100%</string>
     <string name="preferences_widget_color_middle_title">Color Al 50%</string>
     <string name="preferences_widget_color_empty_title">Color Al 0%</string>
     <string name="preferences_widget_color_alpha_title">Transparència del color</string>
-    <string name="preferences_widget_color_preview_title">Preestrena el percentatje</string>
-    <string name="preferences_widget_color_preview_sum">Fica el percentatje al màxim del valor de la preestrena de la batería de més avall.</string>
-    <string name="preferences_widget_color_screen_sum">"Programa el grau de color de la visió de la batería i el control de les opcións de l'aparell."</string>
+    <string name="preferences_widget_color_preview_title">Preestrena el percentatge</string>
+    <string name="preferences_widget_color_preview_sum">Fica el percentatge al màxim del valor de la preestrena de la bateria de més avall.</string>
+    <string name="preferences_widget_color_screen_sum">"Programa el grau de color de la visió de la bateria i el control de les opcions de l'aparell."</string>
     <string name="preferences_widget_color_category">Colors</string>
     <string name="preferences_widget_general_category">General</string>
     <string name="preferences_start_foreground_title">Prioritat alta</string>
-    <string name="preferences_start_foreground_sum">"Utilitza el monitor de batería utilitzant una alta prioritat. Utilitza-ho només si les icones no s'estan actualittzant correctament per a reflectir el percentatje de la batería. No ho activis ja que pot afectar la cantitat de recursos per altres aplicacións."</string>
+    <string name="preferences_start_foreground_sum">"Utilitza el monitor de bateria utilitzant una alta prioritat. Utilitza-ho només si les icones no s'estan actualitzant correctament per a reflectir el percentatge de la bateria. No ho activis ja que pot afectar la quantitat de recursos per altres aplicacions."</string>
     <string name="preferences_menu_add_alarm">Afegeix una nora alarma</string>
     <string name="preferences_menu_remove_alarm">Elimina una alarma</string>
     <string name="preferences_disable_animation_title">"Desconnecta els efectes d'animació"</string>
-    <string name="preferences_disable_animation_sum">Desconnecta les animacións de la pantalla per a dispositius més lents.</string>
-    <string name="preferences_contains_telephony_support_title">Conté el mòvil o dades del mòdem</string>
-    <string name="preferences_contains_telephony_support_sum">"Alguns dispositius informen telefonía (mòvil / 3G / 4G / LTE) incorrectament - especialment tablets.  Modificar-ho només si els valors de l'informe no són correctes. Valors reportats:  %1s</string>
+    <string name="preferences_disable_animation_sum">Desconnecta les animacions de la pantalla per a dispositius més lents.</string>
+    <string name="preferences_contains_telephony_support_title">Conté el mòbil o dades del mòdem</string>
+    <string name="preferences_contains_telephony_support_sum">"Alguns dispositius informen telefonia (mòbil / 3G / 4G / LTE) incorrectament - especialment tablets.  Modificar-ho només si els valors de l'informe no són correctes. Valors reportats:  %1s</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cercle</string>   
@@ -128,8 +128,8 @@
     <string name="time_left_calc_last15">Últims 15 minuts</string>
     <string name="time_left_calc_last30">Últims 30 minuts</string>
     <string name="time_left_calc_last60">Últims 60 minuts</string>
-    <string name="stats_since_unplugged">"Des de l'última vegada desconnectat"</string>
-    <string name="stats_since_charged">"Des de l'última vegada carregat al màxim"</string>
+    <string name="stats_since_unplugged">"Des de l'últim cop desconnectat"</string>
+    <string name="stats_since_charged">"Des de l'últim cop carregat al màxim"</string>
     <string name="stats_since_custom">Des de la referència personalitzada.</string>
     <string name="stats_since_screen_off">Des de la pantalla tancada</string>
     <string name="stats_since_now">"Des d'ara"</string>
@@ -140,22 +140,22 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Sistema (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% de la batería consumit per:</string>
-    <string name="process_suck_mon_nodata">"No hi ha dades disponibles.  No hi ha aplicacións que hagin consumit recursos específics durant l'últim cicle de càrrega."</string>
+    <string name="process_suck_mon_header">%0$.1f%% de la bateria consumit per:</string>
+    <string name="process_suck_mon_nodata">"No hi ha dades disponibles.  No hi ha aplicacions que hagin consumit recursos específics durant l'últim cicle de càrrega."</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
     <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
     <string name="procsuckmon_viewby_pwr">Vista % Energia utilitzada</string>
     <string name="procsuckmon_viewby_pwr_minforeground">Vista % Energia (Tan sols de la CPU de fons)</string>
-    <string name="procsuckmon_viewby_cpu">Mirar minuts utilitzats per la CPU</string>
+    <string name="procsuckmon_viewby_cpu">Veure minuts utilitzats per la CPU</string>
     <string name="procsuckmon_viewby_cpu_minforeground">Mirar CPU (Tan sols el fons de la CPU)</string>
-    <string name="procsuckmon_viewby_data">Mira les dades utilitzades de la xarxa</string>
-    <string name="procsuckmon_viewby_sensor">Mira el sensor del temps utilitzat</string>
-    <string name="procsuckmon_viewby_awake">Mira el temps mantés encés</string>
-    <string name="procsuckmon_viewby_wake_times">"Mira el número de vegades que s'ha encés el dispositiu"</string>
-    <string name="procsuckmon_viewby_gps">Mira el temps de GPS utilitzat</string>
-    <string name="procsuckmon_viewby_kernel_wakelocks">Mira els nuclis reactivats</string>
-    <string name="procsuckmon_wakelock_user_apps">"Reactivació combinada d'aplicacións (no del nucli)"</string>
+    <string name="procsuckmon_viewby_data">Veure les dades utilitzades de la xarxa</string>
+    <string name="procsuckmon_viewby_sensor">Veure el sensor del temps utilitzat</string>
+    <string name="procsuckmon_viewby_awake">Veure el temps Mantingut encès</string>
+    <string name="procsuckmon_viewby_wake_times">"Veure el número de vegades que s'ha encés el dispositiu"</string>
+    <string name="procsuckmon_viewby_gps">Veure el temps de GPS utilitzat</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">Veure els nuclis reactivats</string>
+    <string name="procsuckmon_wakelock_user_apps">"Reactivació combinada d’aplicacions (no del nucli)"</string>
 
     <!-- Main screen -->
     <string name="main_history_button">Historial</string>
@@ -168,7 +168,7 @@
     <string name="main_timeleft2">Mitjana:</string>
     <string name="main_timeleft_tablet2">Ús mitjà:</string>
     <string name="main_timeleft_rolling2">Últims %1$sm:</string>
-    <string name="main_timeleft_rolling_tablet2">Ús dels ultims %1$sm:</string>
+    <string name="main_timeleft_rolling_tablet2">Ús dels últims %1$sm:</string>
     <string name="main_talktime2">Temps de parla:</string>
     <string name="main_temp">Temperatura: </string>
     <string name="main_voltage">Voltatge: </string>
@@ -180,20 +180,20 @@
     <string name="main_health_over_voltage">Per sobre del voltatge</string>
     <string name="main_health_unknown">Desconegut</string>
     <string name="main_health_failed">Fallat</string>
-    <string name="main_usage_label">Ús de la batería - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label">Ús de la bateria - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_usage_label2">Utilitzat %1$s%% en %2$s</string>
     <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s Actiu, %3$s En espera</string>
     <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s Actiu</string>
-    <string name="main_phone_on_label">Mòvil:</string>
+    <string name="main_phone_on_label">mòbil:</string>
     <string name="main_screen_on_label">Pantalla:</string>
-    <string name="main_phone_radio_on_label">Ràdio del mòvil:</string>
+    <string name="main_phone_radio_on_label">Ràdio del mòbil:</string>
     <string name="main_wifi_active_label">Wifi Actiu:</string>
-    <string name="main_idle_label">mantingut despert:</string>
+    <string name="main_idle_label">Mantingut despert:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
-    <string name="main_app_usage_label">"Ús d'aplicacións:"</string>
-    <string name="main_app_usage_button">Aplicacións que drenen batería</string>
-    <string name="main_android_batt_usage_button">Ús de batería – Estimat</string>    
-    <string name="main_android_batt_usage_failed">Impossible llençar la pantalla de lús de batería estimat...</string>
+    <string name="main_app_usage_label">"Ús d’aplicacions:"</string>
+    <string name="main_app_usage_button">aplicacions que drenen bateria</string>
+    <string name="main_android_batt_usage_button">Ús de bateria – Estimat</string>    
+    <string name="main_android_batt_usage_failed">Impossible llençar la pantalla de l’ús de bateria estimat...</string>
     <string name="main_tools_menu">Més</string>
     <string name="main_menu_charts">Gràfics</string>
     <string name="menu_whatsnew">Què hi ha de nou</string>
@@ -202,32 +202,32 @@
     <string name="menu_remove_custom_ref">Treu referències personalitzades</string>
     <string name="menu_refresh">Refresca</string>
     <string name="main_refresh_toast">Estadístiques refrescades\u2026</string>
-    <string name="main_market_nomarket_msg">Funció no disponible.  Sembla que no hia ha una aplicació de mercat instal•lada al teu dispositiu.</string>
+    <string name="main_market_nomarket_msg">Funció no disponible.  Sembla que no hi ha una aplicació del mercat instal•lada al teu dispositiu.</string>
     <string name="menu_help">Ajuda</string>
     <string name="menu_send_debug_data">"Enviar informe d'error"</string>    
     <string name="menu_send_debug_data_dlg_title">"Enviar informe d'error utilitzant:"</string>
     <string name="menu_send_debug_data_subject">"GSam Labs - Battery Monitor – Informe d'error"</string>  
     <string name="menu_send_debug_data_body">Sisplau, fica una descripció del problema que has trobat:\n\n</string> 
     <string name="menu_review">Opina sobre GSam Battery Monitor</string>
-    <string name="menu_enable_more_stats">fica més estadístiques</string>
-    <string name="main_share_intentchoosertitle">Comparteix la mitjana de la vida de la meva batería\u2026</string>
-    <string name="main_share_subject">Vida mitja de la batería - GSam Battery Monitor</string>
-    <string name="main_share_msg2">My %1$s %2$s Mitjanes de la batería %3$s (%4$s ús actiu) a una sola càrrega. Fica un ull a GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg">Les meves %1$s %2$s mitjanes de la batería %3$s a una sola càrrega. Fica un ull a GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="menu_enable_more_stats">Fica més estadístiques</string>
+    <string name="main_share_intentchoosertitle">Comparteix la mitjana de la vida de la meva bateria\u2026</string>
+    <string name="main_share_subject">Vida mitja de la bateria - GSam Battery Monitor</string>
+    <string name="main_share_msg2">Les meves %1$s %2$s Mitjanes de la bateria %3$s (%4$s ús actiu) a una sola càrrega. Fès un cop d’ull a GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg">Les meves %1$s %2$s mitjanes de la bateria %3$s a una sola càrrega. Fès un cop d’ull a GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_tablet_battusage_unplug">"%1$s%% Utilitzat un %2$s (Des de l'última desconnexió)"</string>
-    <string name="main_tablet_battusage_fullcharge">"%1$s%% Utilitzat un %2$s (Des de l'última càrrega complerta)"</string>
+    <string name="main_tablet_battusage_fullcharge">"%1$s%% Utilitzat un %2$s (Des de l'última càrrega completa)"</string>
     <string name="main_tablet_battusage_customref">"%1$s%% Utilitzat un %2$s (Des de l'última referència personalitzada)"</string>
     <string name="main_tablet_active_usage">Actiu (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">En espera (%1$02d:%2$02d:%3$02d)</string>  
     <string name="rate_me_title">Opina de GSam Battery Monitor</string>
-    <string name="rate_me_msg">"T'agrade GSam Battery Monitor?  Sisplau pren-te el teu temps per donar una bona opinió!\n\nNo et preocupis, no t'ho tornarem a preguntar."</string>
+    <string name="rate_me_msg">"T’agrada GSam Battery Monitor?  Sisplau pren-te el teu temps per donar una bona opinió!\n\nNo et preocupis, no t'ho tornarem a preguntar."</string>
     <string name="rate_me_ok">Opina!</string>
     <string name="main_header_type">Tipus</string>
     <string name="main_header_time">Temps</string>
     <string name="main_header_power">Energia</string>
     <string name="averages_since">Des de %1$s</string>
-    <string name="averages_header">Mitjanes per càrrega complerta</string>
-    <string name="main_avg_timepercharge_label2">V>ida de la batería:</string>
+    <string name="averages_header">Mitjanes per càrrega completa</string>
+    <string name="main_avg_timepercharge_label2">Vida de la bateria:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s Actiu)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s En espera)</string>
     <string name="main_avg_screenon_label">Pantalla encesa:</string>
@@ -235,22 +235,22 @@
     <string name="main_avg_chargetime_label">Temps de càrrega:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title2">Permet més estadístiques amb una aplicació arrel.</string>
-    <string name="main_kitkat_nostats_helper_needed2">Pots permentre l\'accés a més estadístiques si tens accés d\'arrel instal•lant l\'aplicació germana GSam Root Companion. Això et donarà l\'accés al ús del sensor, bloqueig del encés i altres estadístiques.
+    <string name="main_kitkat_nostats_helper_needed2">Pots permetre l\'accés a més estadístiques si tens accés d\'arrel instal•lant l\'aplicació germana GSam Root Companion. Això et donarà l\'accés al ús del sensor, bloqueig del encès i altres estadístiques.
         \nIf Si no tens l\'aplicació arrel, o no saps el què vol dir, no et preocupis. Gsam funcionarà correctament sense aquesta aplicació.\n
         \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> per a més informació.</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">"L'aplicació arrel no està instalada correctament a /system/priv-app. Sisplau, executa l'aplicació i verifica que està correctament instal•lada."</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">"L'aplicació arrel no està instal•lada correctament a /system/priv-app. Sisplau, executa l'aplicació i verifica que està correctament instal•lada."</string>
   <string name="main_kitkat_nostats_launch_companion">"Executa l'aplicació arrel companya"</string>
   <string name="main_kitkat_nostats_install_companion">"Instal•la l'aplicació arrel companya"</string>
     
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">"Detalls d'aplicació"</string>
     <string name="process_suck_mon_title_prefix_wifi">Detalls del wifi</string>
-    <string name="process_suck_mon_title_prefix_radio">Detalls de la ràdio</string>
+    <string name="process_suck_mon_title_prefix_radio">Detalls del ràdio</string>
     <string name="process_suck_mon_title_prefix_screen">Detalls de la pantalla</string>
-    <string name="process_suck_mon_title_prefix_wakelock">"Detalls del bloqueig d'encés de pantalla"</string>
+    <string name="process_suck_mon_title_prefix_wakelock">"Detalls del bloqueig d'encès de pantalla"</string>
     <string name="appdetail_usagedetail">"Detalls d'ús"</string>
     <string name="appdetail_processname">Nom del procés</string>
-    <string name="appdetail_included_packages">Paquets incluïts</string>
+    <string name="appdetail_included_packages">Paquets inclosos</string>
     <string name="appdetail_included_processes">Processos inclosos</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
@@ -261,20 +261,20 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
-    <string name="appdetail_details_button">Manage</string>
+    <string name="appdetail_details_button">Gestiona</string>
     <string name="appdetail_details_button_wakelocks">Google Me</string>    
-    <string name="appdetail_details_adjustpower">Power Savings Hint</string>
-    <string name="appdetail_details_adjust_wifi">Desconnècta el wifi quan no es faci servir. Botó de configuracións més amunt.</string>
-    <string name="appdetail_details_adjust_wifi_button">Configuracións del wifi</string>
-    <string name="appdetail_details_adjust_wifi_failedintent">No es poden executar les configuracións del wifi</string>
-    <string name="appdetail_details_adjust_screen">"Baixa la brillantor de la pantalla i el temps d'apagat de la pantalla utilitzant els botó de Mostrar Configuració del botó de més a dalt."</string>
-    <string name="appdetail_details_adjust_screen_button">Mostra les configuracións</string>
-    <string name="appdetail_details_adjust_screen_failedintent">No es poden mostrar les configuracións</string>
+    <string name="appdetail_details_adjustpower">Estalvi d’energia indirecte</string>
+    <string name="appdetail_details_adjust_wifi">Desconnecta el wifi quan no es faci servir. Botó de configuracions més amunt.</string>
+    <string name="appdetail_details_adjust_wifi_button">Configuracions del wifi</string>
+    <string name="appdetail_details_adjust_wifi_failedintent">No es poden executar les configuracions del wifi</string>
+    <string name="appdetail_details_adjust_screen">"Baixa la brillantor de la pantalla i el temps d’apagada de la pantalla utilitzant els botó de Mostrar Configuració del botó de més a dalt."</string>
+    <string name="appdetail_details_adjust_screen_button">Mostra les configuracions</string>
+    <string name="appdetail_details_adjust_screen_failedintent">No es poden mostrar les configuracions</string>
     <string name="detail_menu_export">Exportar</string>
     <string name="detail_menu_export_dlg_title">Exportar pantalla (Text) ús de dades</string>
-    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor – esporar dades</string>    
+    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor – exportar dades</string>    
     <string name="appdetail_appuid">Aplicació UID:</string>  
-    <string name="appdetail_audio">Audio activat:</string>  
+    <string name="appdetail_audio">Àudio activat:</string>  
     <string name="appdetail_bright">Brillantor:</string>  
     <string name="appdetail_bytesrec">Bytes Rebuts:</string>  
     <string name="appdetail_bytessent">Bytes Enviats:</string>  
@@ -291,23 +291,23 @@
     <string name="appdetail_low">Baix - 0:</string>  
     <string name="appdetail_med">Mitjà - %s:</string>
     <string name="appdetail_medium">Mitjà:</string>  
-    <string name="appdetail_numwakes">"Nombre de vegades que el dispositiu s'ha encés:"</string>  
+    <string name="appdetail_numwakes">"Nombre de vegades que el dispositiu s'ha ences:"</string>  
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Energia</string>
     <string name="appdetail_pct_power_nospace">% Energia</string>
     <string name="appdetail_pct_time">% Temps</string>
-    <string name="appdetail_phoneon">Radio del mòvil encés:</string>  
+    <string name="appdetail_phoneon">Radio del mòbil encès:</string>  
     <string name="appdetail_pwr_sysdata">Energia per a dades del sistema:</string>  
     <string name="appdetail_received">Rebuts:</string>  
-    <string name="appdetail_received_wifimobile">Rebuts (Wifi / Mòvil):</string> 
-    <string name="appdetail_scanning">Escannejant per a senyal:</string>  
+    <string name="appdetail_received_wifimobile">Rebuts (Wifi / mòbil):</string> 
+    <string name="appdetail_scanning">Escanejant per senyal:</string>  
     <string name="appdetail_screen_brightness">Brillantor de la pantalla:</string>  
     <string name="appdetail_screenon">Pantalla encesa:</string>  
-    <string name="appdetail_sensor_accelerometer">Accelerometre:</string>  
+    <string name="appdetail_sensor_accelerometer">Acceleròmetre:</string>  
     <string name="appdetail_sensor_gravity">Gravetat:</string>  
-    <string name="appdetail_sensor_gyroscope">Giroscòpi:</string>  
+    <string name="appdetail_sensor_gyroscope">Giroscopi:</string>  
     <string name="appdetail_sensor_light">Llum:</string>  
     <string name="appdetail_sensor_lin_accel">Acceleració Lineal:</string>  
-    <string name="appdetail_sensor_magfield">Camp magnetic:</string>  
+    <string name="appdetail_sensor_magfield">Camp magnètic:</string>  
     <string name="appdetail_sensor_orientation">Orientació:</string>  
     <string name="appdetail_sensor_pressure">Pressió:</string>  
     <string name="appdetail_sensor_proximity">Proximitat:</string>  
@@ -315,13 +315,13 @@
     <string name="appdetail_sensor_rotvector">Vector rotacional:</string>  
     <string name="appdetail_sensor_temp">Temperatura:</string>  
     <string name="appdetail_sent">Enviats:</string>  
-    <string name="appdetail_sent_wifimobile">Enviats (Wifi / Mòvil):</string>  
+    <string name="appdetail_sent_wifimobile">Enviats (Wifi / mòbil):</string>  
     <string name="appdetail_signal_stregth">Força del senyal:</string>
-    <string name="appdetail_total_appssystem">Total (Aplicacións / Sistema):</string> 
-    <string name="appdetail_video">Video encés:</string>  
+    <string name="appdetail_total_appssystem">Total (aplicacions / Sistema):</string> 
+    <string name="appdetail_video">Vídeo encès:</string>  
     <string name="appdetail_wakelocks">Nombre de bloqueigs de pantalla:</string>  
     <string name="appdetail_wifiactive">Wifi Actiu:</string>  
-    <string name="appdetail_wifion">Wifi encés:</string>      
+    <string name="appdetail_wifion">Wifi encès:</string>      
     <string name="appdetail_bytes">%d bytes</string>        
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
@@ -340,25 +340,25 @@
     <string name="error">Ha habut un error</string>
     
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">Llegeix les estadístiques de la batería</string>
-    <string name="permdesc_batteryStats">"Permet una aplicació per a llegir el nivell d'aquest ús de dades de baix corrent. Pots permetre que l'aplicació trobi informació detallada sobre les aplicacións que utilitzes."</string>
+    <string name="permlab_batteryStats">Llegeix les estadístiques de la bateria</string>
+    <string name="permdesc_batteryStats">"Permet que una aplicació llegeixi el nivell d'ús de dades de baix corrent. Pots permetre que l'aplicació trobi informació detallada sobre les aplicacions que utilitzes."</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">Temperatura</string>
     <string name="main_chart_showother">Altres</string>
-    <string name="main_chart_showradio">Senyal del mòvil</string>
+    <string name="main_chart_showradio">Senyal del mòbil</string>
     <string name="main_chart_showrate">Taxa de càrrega</string>
-    <string name="chart_menu_batthistory">"Gràfica de l'historial de la batería"</string>
-    <string name="chart_menu_battdischarge">"Gràfica de l'Energia i Percentatje"</string>
+    <string name="chart_menu_batthistory">"Gràfica de l'historial de la bateria"</string>
+    <string name="chart_menu_battdischarge">"Gràfica de l'Energia i percentatge"</string>
     <string name="notification_chargecomplete">Càrrega completada</string>
-    <string name="notification_battcharging">Batería carregant-se (%1s%%)</string>
-    <string name="notification_battlow">Batería baixa (%1s%%)</string>
-    <string name="notification_batthot_f">Atenció – Batería escalfada (%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">Atenció – Batería escalfada (%.1f\u00B0C)</string>
-    <string name="notification_battovervoltage">Atenció – Batería per sobre del voltatge (%.1f V)</string>
+    <string name="notification_battcharging">Bateria carregant-se (%1s%%)</string>
+    <string name="notification_battlow">Bateria baixa (%1s%%)</string>
+    <string name="notification_batthot_f">Atenció – Bateria escalfada (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Atenció – Bateria escalfada (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Atenció – Bateria per sobre del voltatge (%.1f V)</string>
     <string name="chart_active">Actiu</string>
-    <string name="chart_batt_history">Historial de la batería (%1$s)</string>
-    <string name="chart_batt_percent">Batería %</string>
+    <string name="chart_batt_history">Historial de la bateria (%1$s)</string>
+    <string name="chart_batt_percent">Bateria %</string>
     <string name="chart_charging">Carregant</string>
     <string name="chart_dim">Enfosquir</string>
     <string name="chart_gps">GPS</string>
@@ -368,10 +368,10 @@
     <string name="chart_max">Màxim</string>
     <string name="chart_med">Mitj</string>
     <string name="chart_screen">Pantalla</string>
-    <string name="chart_signal">Senyal del mòvil</string>
+    <string name="chart_signal">Senyal del mòbil</string>
     <string name="chart_rateofchange">\u0394 %/Hora</string>
-    <string name="chart_tempc">Temperatura de la batería \u00B0C</string>
-    <string name="chart_tempf">Temperatura de la batería \u00B0F</string>
+    <string name="chart_tempc">Temperatura de la bateria \u00B0C</string>
+    <string name="chart_tempf">Temperatura de la bateria \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Desconegut</string>
     <string name="chart_wifi">Wifi</string>
@@ -382,10 +382,10 @@
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Maquinaria de gràfica per:AChartEngine.org</string>
     <string name="about_icons">"Icones de l'aplicació per: &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;"</string>
-    <string name="about_translations">Traduccións:</string>
+    <string name="about_translations">Traduccions:</string>
     
     <!-- DashClock Widget Extension -->
-    <string name="dashclock_description">Mostra les estadístiques de la batería incloent el temps restant, drenatge per hora, i més.</string>
+    <string name="dashclock_description">Mostra les estadístiques de la bateria incloent el temps restant, drenatge per hora, i més.</string>
     <string name="dashclock_active_standby">%1$s Actiu, %2$s En espera</string>
     <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
     <string name="dashclock_delta_per_hour_short_full">Complet</string>
@@ -393,11 +393,11 @@
     <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h – Descarregant-se</string>  
     <string name="dashclock_to_empty">%1$s a buit</string>  
     <string name="dashclock_to_full">%1$s a complet</string>
-    <string name="dashclock_pref_show_used">Mostra la cantitat utilitzada</string>
+    <string name="dashclock_pref_show_used">Mostra la quantitat utilitzada</string>
     <string name="dashclock_pref_show_remaining_time">Mostra el temps restant</string>
     <string name="dashclock_pref_show_active_standby">"Mostra els temps actius i d'espera"</string>
     <string name="dashclock_pref_show_temp_voltage">Mostra la temperatura i el voltatge</string>
-    <string name="dashclock_settings">"GSam Configuracións d'extensió"</string>
+    <string name="dashclock_settings">"GSam Configuracions d'extensió"</string>
     
     <!-- Translations & Translators -->   
     <string name="lang_default">Llenguatge del sistema per defecte</string>        
@@ -407,20 +407,20 @@
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">La teva pantalla brilla massa?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">Si tens problemes llegint per la nit degut a que la teva pantalla brilla massa, fés un ull a GSam Screen Dimmer.  Et dexa reduïr la brillantor a la pantalla per devall del que normalment està permès, fent que llegir per la nit sigui més còmode. No et preocupis, no llegiràs aquest missatge cap cop més.</string>
-    <string name="preferences_send_anon_stats_buypro_title">Fés-te Pro!</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Si tens problemes llegint per la nit degut a que la teva pantalla brilla massa, fes un ull a GSam Screen Dimmer.  Et deixa reduir la brillantor a la pantalla per davall del que normalment està permès, fent que llegir per la nit sigui més còmode. No et preocupis, no llegiràs aquest missatge cap cop més.</string>
+    <string name="preferences_send_anon_stats_buypro_title">Fes-te Pro!</string>
     <string name="preferences_send_anon_stats_buypro_msg">"La versió gratuïta de Battery Monitor no et deixarà treure els anuncis i t'obligarà a utilitzar estadístiques anònimes.\n\nLa versió Pro no inclou anuncis, i et deixarà desconnectar l'ús d'estadístiques anònimes."</string>
-    <string name="menu_seeotherapps">Mira altres aplicacións per GSam Labs</string>
+    <string name="menu_seeotherapps">Mira altres aplicacions per GSam Labs</string>
     <string name="menu_gopro">Actualitza a Pro</string>
     <string name="menu_gopro_nook">Comprar</string>
     <string name="menu_goprokindle">"Actualitza a l'edició de Kindle Fire Edition"</string>
     <string name="nook_gopro_title">Versió de prova expirada</string>
-    <string name="nook_gopro_msg">"La versió de prova de battery monitor ha expirat. Sisplau compra l'edició complerta. Pots continuar utilitzant battery monitor, de totes maneres funcionarà amb el mode gratuït, el qual treu un nombre de característiques i optimitzacións."</string>
+    <string name="nook_gopro_msg">"La versió de prova de battery monitor ha expirat. Sisplau compra l'edició completa. Pots continuar utilitzant battery monitor, de totes maneres funcionarà amb el mode gratuït, el qual treu un nombre de característiques i optimitzacións."</string>
     <string name="nook_gopro_ok">Compra la versió completa</string>
     <string name="nook_gopro_cancel">Continua amb el mode gratuït</string>
     <string name="main_market_pro_title">Gràcies per utilitzar GSam Battery Monitor - Free</string>
-    <string name="main_market_pro_msg">Sabíes que hi ha una versió optimitzada de GSam Battery monitor per a tablets? Busca-ho al mercat.\n\nNo et preocupis, no tornaràs a veure aquest missatge un altre cop.</string>
-    <string name="main_market_pro_msg_kindle">Sabíes que hi ha una versió optimitzada de GSam Battery monitor per a Kidle Fire? Busca-ho al mercat.\n\nNo et preocupis, no tornaràs a veure aquest missatge un altre cop.</string>
+    <string name="main_market_pro_msg">Sabies que hi ha una versió optimitzada de GSam Battery monitor per a tablets? Busca-ho al mercat.\n\nNo et preocupis, no tornaràs a veure aquest missatge un altre cop.</string>
+    <string name="main_market_pro_msg_kindle">Sabies que hi ha una versió optimitzada de GSam Battery monitor per a Kidle Fire? Busca-ho al mercat.\n\nNo et preocupis, no tornaràs a veure aquest missatge un altre cop.</string>
     <string name="main_market_pro_ok">"Fes un cop d'ull"</string>
     <string name="main_market_pro_cancel">No, gràcies</string>
     <string name="main_invalid_license_title">Llicència invàlida</string>
@@ -432,7 +432,7 @@
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Navega al principi</string>
     <string name="abs__action_bar_up_description">Navega cap dalt</string>
-    <string name="abs__action_menu_overflow_description">Més opcións</string>
+    <string name="abs__action_menu_overflow_description">Més opcions</string>
     <string name="abs__action_mode_done">Fet</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
     <string name="abs__activity_chooser_view_see_all">Veure-ho tot...</string>
