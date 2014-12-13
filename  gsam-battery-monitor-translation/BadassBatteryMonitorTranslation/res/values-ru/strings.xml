@@ -54,7 +54,7 @@
     <string name="preferences_show_charging_animation_title">Анимация при зарядке</string>
     <string name="preferences_widget_color_screen_title">Настройки виджета батареи</string>
     <string name="preferences_app_theme_title">Использовать тёмную тему</string>
-    <string name="preferences_app_theme_sum">Использовать тёмную тему для экранов приложения</string>
+    <string name="preferences_app_theme_title2">Оформление приложения</string>
     <string name="preferences_time_left_title">Рассчитать остаток времени</string>
     <string name="preferences_time_left_sum">Рассчитать остаток времени, основываясь на использовании в данный временной промежуток</string>
     <string name="preferences_profiles_screen_title">Профили питания устройства</string>
