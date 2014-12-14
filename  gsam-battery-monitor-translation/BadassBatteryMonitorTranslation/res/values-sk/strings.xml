@@ -24,6 +24,8 @@
     <string name="preferences_show_notification_icon_title">Zobrazovať stavovú ikonku</string>
     <string name="preferences_show_notification_icon_sum">Zobrazovať ikonu s percentami v stavovom paneli</string>
     <string name="preferences_show_notification_title">Zobrazovať len v paneli</string>
+    <!-- preferences_show_notification_lockscreen_title is not used yet... -->
+    <string name="preferences_show_notification_lockscreen_title">Zobrazovať nofitikáciu na zamknutej obrazovke</string>
     <string name="preferences_show_notification_sum">Zobrazovať v stavovom paneli bez ikony</string>
     <string name="preferences_alarm_condition_charging">Batéria nad</string>
     <string name="preferences_alarm_condition_discharging">Batéria pod</string>
@@ -55,6 +57,7 @@
     <string name="preferences_widget_color_screen_title">Nastavenie widgetu batérie</string>
     <string name="preferences_app_theme_title">Použiť tmavý vzhľad</string>
     <string name="preferences_app_theme_sum">Použiť tmavý vzhľad pre hlavné okno aplikácie</string>
+    <string name="preferences_app_theme_title2">Téma aplikácie</string>
     <string name="preferences_time_left_title">Výpočet zostávajúceho času</string>
     <string name="preferences_time_left_sum">Počítať zostávajúci čas batérie založený na tomto časovom úseku.</string>
     <string name="preferences_profiles_screen_title">Profily napájania zariadenia</string>
@@ -372,6 +375,7 @@
     <string name="chart_low">Min</string>
     <string name="chart_max">Max</string>
     <string name="chart_med">Stred</string>
+    <string name="chart_rateofchange">\u0394 %/Hodín</string>
     <string name="chart_screen">Obrazovka</string>
     <string name="chart_signal">Signál</string>
     <string name="chart_tempc">Teplota batérie \u00B0C</string>
