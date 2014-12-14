@@ -28,7 +28,7 @@
     <string name="preferences_alarm_condition_charging">Batéria nad</string>
     <string name="preferences_alarm_condition_discharging">Batéria pod</string>
     <string name="preferences_alarm_condition_overheated">Prehriatie batérie</string>
-    <string name="preferences_alarm_condition_overvoltage">Prepātie batérie</string>
+    <string name="preferences_alarm_condition_overvoltage">Prepätie batérie</string>
     <string name="preferences_alarm_condition_temperature">Teplota nad</string>
     <string name="preferences_alarm_select_percent">Percentá batérie</string>
     <string name="preferences_alarm_select_temperature">Teplota batérie</string>
@@ -68,14 +68,14 @@
     <string name="preferences_time_per_percent_title">Resetovať históriu časov vybíjania</string>
     <string name="preferences_time_per_percent_unkown">neznáme</string>
     <string name="preferences_time_per_percent_summary">Resetovať spočítané hodnoty využitia batérie pre priemernú spotrebu zariadenia. Aktuálne %1$s (%2$sm / percent z %3$01d percent)</string>
-    <string name="preferences_stats_since_title">Zobraziť statistiku od</string>
-    <string name="preferences_stats_since_summary">Zobraziť statistiku od posledného odpojenia / od posledného nabitia.</string>
-    <string name="preferences_power_profiles_edit_summary">Prispôsobiť uživateľský profil.  Uživateľské hodnoty budú použité iba keď je aktivovaný uživatelský profil.</string>
+    <string name="preferences_stats_since_title">Zobraziť štatistiku od</string>
+    <string name="preferences_stats_since_summary">Zobraziť štatistiku od posledného odpojenia / od posledného nabitia.</string>
+    <string name="preferences_power_profiles_edit_summary">Prispôsobiť užívateľský profil.  Užívateľské hodnoty budú použité iba ak je aktivovaný užívatelský profil.</string>
     <string name="profedit_title">Pre zmenu výpočtu zostávajúceho času a času spotreby aplikací upravte hodnoty nižšie</string>
     <string name="profedit_load_basedon">Obnoviť dáta založená na:</string>
-    <string name="profedit_save">Uložit</string>
-    <string name="profedit_cancel">Zrušit</string>
-    <string name="profedit_custom_values_saves">Užívateľské hodnoty uložené.  Môžete je vrátit do pôvodného nastavenia na obrazovce predvolieb.</string>
+    <string name="profedit_save">Uložiť</string>
+    <string name="profedit_cancel">Zrušiť</string>
+    <string name="profedit_custom_values_saves">Užívateľské hodnoty uložené.  Môžete ich vrátiť do pôvodného nastavenia na obrazovce predvolieb.</string>
     <string name="preferences_clear_chart_history_title">Vyčistiť súbor histórie grafov</string>
     <string name="preferences_clear_chart_history_sum">Kliknite pre vyčistenie súbora dočasnej pamāti historie grafov.</string>
     <string name="preferences_clear_chart_history_toast">Súbor historie bol vyčištený\u2026</string>
@@ -84,7 +84,8 @@
     <string name="preferences_clear_history_stats_sum">Kliknite sem pre reset štatistík batérie.  Táto voľba zmaže všetky štatistiky.  Je to ekvivalent k plnému nabitiu a odpojeniu od napájania.  Všetky štatistiky budú počítané od tejto chvíle, preto používajte s obozretnosťou!</string>
     <string name="preferences_clear_history_stats_toast">Všetky štatistiky boli zmazané\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Nepodarilo sa zmazať štatistiky - toto zariadenie nemusí funkciu podporovať\u2026</string>
-    <string name="preferences_custom_ref">The battery history will be based off of a custom reference point created now (or when the device gets unplugged).  This can be used to determine what has used your battery since this specific point in time rather than since last unplugged or last charged. </string>
+    <string name="preferences_custom_ref">História batérie bude založená na vlastnom referenčnom bode vytvorenom teraz (alebo od odpojenia zariadenia). Toto môže byť využité pre určenie,
+čo využívalo vašu batériu od špecifického časového bodu - od posledného odpojenia alebo posledného nabitia.</string>
     <string name="preferences_custom_ref_plugged">Zariadenie sa nabíja - užívateľskú predvoľbu môžete použít len, keď je telefón odpojený od napájania.</string>
     <string name="preferences_send_anon_stats_title">Povoliť anonymný zber štatistík</string>
     <string name="preferences_send_anon_stats_sum">Povoliť odosielanie anonymných štatistických dát.  Nebudú odosielané žiadne osobné dáta.</string>
@@ -102,7 +103,7 @@
     <string name="preferences_widget_color_empty_title">Farba pri 0%</string>
     <string name="preferences_widget_color_alpha_title">Priehľadnosť farby</string>
     <string name="preferences_widget_color_preview_title">Ukážka</string>
-    <string name="preferences_widget_color_preview_sum">Zvoľte percenta pre ukážku jednotlivých farieb.</string>
+    <string name="preferences_widget_color_preview_sum">Zvoľte percentá pre ukážku jednotlivých farieb.</string>
     <string name="preferences_widget_color_screen_sum">Zvoľte farebné prechody widgetu a zobrazte ukážku.</string>
     <string name="preferences_widget_color_category">Farby</string>
     <string name="preferences_widget_general_category">Hlavné</string>
@@ -111,9 +112,9 @@
     <string name="preferences_menu_add_alarm">Pridať nový alarm</string>
     <string name="preferences_menu_remove_alarm">Odstrániť alarm</string>
     <string name="preferences_disable_animation_title">Zakázať grafické efekty</string>
-    <string name="preferences_disable_animation_sum">Zakázat animácie obrazovky, pre pomalá zariadenie.</string>
-	<string name="preferences_contains_telephony_support_title">Dostupnosť telefonny alebo dátový modem</string>
-	<string name="preferences_contains_telephony_support_sum">Niektoré zariadenie nesprávne detekujú prítomnosť telefonovania (telefonny / 3G / 4G / LTE) - zvlášť tablety. Odstrániť/zaškrtnúť len v prípade, že je stanovená hodnota dostupnosti telefonneho prístroje správne.Zadaná hodnota: %1s</string>
+    <string name="preferences_disable_animation_sum">Zakázat animácie obrazovky, pre pomalé zariadenia.</string>
+	<string name="preferences_contains_telephony_support_title">Dostupnosť telefónneho alebo dátoveho modemu</string>
+	<string name="preferences_contains_telephony_support_sum">Niektoré zariadenie nesprávne detekujú prítomnosť telefonovania (telefónny / 3G / 4G / LTE) - zvlášť tablety. Odstrániť/zaškrtnúť len v prípade, že je stanovená hodnota dostupnosti telefónneho prístroje správne.Zadaná hodnota: %1s</string>
 
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kruhový</string>   
@@ -210,12 +211,12 @@
     <string name="menu_enable_more_stats">Povoliť viac štatistík</string>
     <string name="main_share_intentchoosertitle">Zdielať moju priemernú výdrž batérie\u2026</string>
     <string name="main_share_subject">Priemerná výdrž batérie - GSam Battery Monitor</string>
-    <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_tablet_battusage_unplug">%1$s%% Used Over %2$s (Od posledného odpojení)</string>
-    <string name="main_tablet_battusage_fullcharge">%1$s%% Used Over %2$s Od plného nabití)</string>
-    <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Od uživatelské předvolby)</string>
-    <string name="main_tablet_active_usage">Aktivne používanie (%1$02d:%2$02d:%3$02d)</string>
+    <string name="main_share_msg2">Moja %1$s %2$s batéria priemerne %3$s (%4$s active usage) na jediné nabitie. Pozrite si GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg">Moja %1$s %2$s batéria priemerne %3$s na jediné nabitie. Pozrite si GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_tablet_battusage_unplug">%1$s%% Použité viac ako %2$s (Od posledného odpojenia)</string>
+    <string name="main_tablet_battusage_fullcharge">%1$s%% Použité viac ako %2$s Od plného nabitia)</string>
+    <string name="main_tablet_battusage_customref">%1$s%% Použité viac ako %2$s (Od uživatelskej predvoľby)</string>
+    <string name="main_tablet_active_usage">Aktívne používanie (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">V pohotovosti (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">Ohodnotiť GSam Battery Monitor</string>
     <string name="rate_me_msg">Páči sa vám GSam Battery Monitor?  Prosím venujte chvíľu na ohodnotenie aplikácie!\n\nNebojte sa, už nebudete oslovený znova.</string>
