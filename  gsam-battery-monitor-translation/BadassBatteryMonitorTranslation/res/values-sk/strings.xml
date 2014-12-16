@@ -130,12 +130,12 @@
     <string name="time_left_calc_last15">za posledných 15 minút</string>
     <string name="time_left_calc_last30">za posledných 30 minút</string>
     <string name="time_left_calc_last60">za posledných 60 minút</string>
-    <string name="stats_since_unplugged">posledného odpojenia</string>
-    <string name="stats_since_charged">posledného plného nabitia</string>
+    <string name="stats_since_unplugged">od posledného odpojenia</string>
+    <string name="stats_since_charged">od posledného plného nabitia</string>
     <string name="stats_since_custom">užívateľské predvoľby</string>
-	<string name="stats_since_screen_off">Od vypnutia obrazovky</string>
-	<string name="stats_since_now">Od teraz</string>
-	<string name="stats_since_ago">Od %1s pred</string>    
+	<string name="stats_since_screen_off">od vypnutia obrazovky</string>
+	<string name="stats_since_now">od teraz</string>
+	<string name="stats_since_ago">od %1s pred</string>    
     <string name="pwer_profiles_mfg">Pôvodné hodnoty</string>
     <string name="pwer_profiles_saved">Súčasne uložené hodnoty</string>
 
@@ -157,7 +157,7 @@
     <string name="procsuckmon_viewby_wake_times">Zobraziť počet prebudení zariadenia</string>
     <string name="procsuckmon_viewby_gps">Zobraziť využitie GPS</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Čo zakazuje uspania</string>
-    <string name="procsuckmon_wakelock_user_apps">Combined App Wakelocks (non-Kernel)</string>
+    <string name="procsuckmon_wakelock_user_apps">kombinované Wakelock-y aplikácií (non-Kernel)</string>
 
     <!-- Main screen -->
     <string name="main_history_button">História</string>
@@ -214,7 +214,7 @@
     <string name="menu_enable_more_stats">Povoliť viac štatistík</string>
     <string name="main_share_intentchoosertitle">Zdielať moju priemernú výdrž batérie\u2026</string>
     <string name="main_share_subject">Priemerná výdrž batérie - GSam Battery Monitor</string>
-    <string name="main_share_msg2">Môj %1$s %2$s batéria priemerne %3$s (%4$s active usage) na jedno nabitie. Pozrite si GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg2">Môj %1$s %2$s batéria priemerne %3$s (%4$s aktívneho používania) na jedno nabitie. Pozrite si GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">Môj %1$s %2$s batéria priemerne %3$s na jedno nabitie. Pozrite si GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Použité viac ako %2$s (Od posledného odpojenia)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Použité viac ako %2$s Od plného nabitia)</string>
@@ -243,7 +243,7 @@
         \nPokiaľ nemáte Root, alebo neviete čo to znamená, nelámte si s tým hlavu.  GSam bude
         fungovat dobre i bez toho.\n
         \nNavštívte <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pre viac informacií.</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion application nie je korektne nainštalovaná v /system/priv-app.  Prosím spusťte aplikáciu a overte, že je správně nainstalována.</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion application nie je korektne nainštalovaná v /system/priv-app.  Prosím spustite aplikáciu a overte, že je správne nainštalovaná.</string>
 	<string name="main_kitkat_nostats_launch_companion">Spustiť Root Companion</string>
 	<string name="main_kitkat_nostats_install_companion">Nainštalovať Root Companion</string>
 
@@ -254,7 +254,7 @@
     <string name="process_suck_mon_title_prefix_radio">Detail signálu</string>
     <string name="process_suck_mon_title_prefix_screen">Detail obrazovky</string>
     <string name="process_suck_mon_title_prefix_wakelock">Detail zákazu uspania</string>
-    <string name="appdetail_usagedetail">Podrobnosti o využitií</string>
+    <string name="appdetail_usagedetail">Podrobnosti o využití</string>
     <string name="appdetail_processname">Meno procesu</string>
     <string name="appdetail_included_packages">Zahrnuté balíčky</string>
     <string name="appdetail_included_processes">Zahrnuté procesy</string>
@@ -273,7 +273,7 @@
     <string name="appdetail_details_adjust_wifi">Keď Wi-Fi práve nevyužívate, vypnite ju pomocou tlačítka vyššie. Predĺžite tak výdrž batérie.</string>
     <string name="appdetail_details_adjust_wifi_button">Nastavenie Wi-Fi</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Nepodarilo sa otvoriť nastavenie Wi-Fi</string>
-    <string name="appdetail_details_adjust_screen">Nastavenie nižšieho jasu a kratšie doby vypnutia obrazovky môže prodĺžiť výdrž. Nastavte obrazovku pomocou tlačítka vyššie.</string>
+    <string name="appdetail_details_adjust_screen">Nastavenie nižšieho jasu a kratšej doby vypnutia obrazovky môže predĺžiť výdrž. Nastavte obrazovku pomocou tlačítka vyššie.</string>
     <string name="appdetail_details_adjust_screen_button">Nastavenie obrazovky</string>
     <string name="appdetail_details_adjust_screen_failedintent">Nepodarilo sa otvoriť nastavenie obrazovky</string>
     <string name="detail_menu_export">Exportovať</string>
@@ -317,15 +317,15 @@
     <string name="appdetail_sensor_orientation">Orientácia:</string>  
     <string name="appdetail_sensor_pressure">Tlak:</string>  
     <string name="appdetail_sensor_proximity">Priblíženie:</string>  
-    <string name="appdetail_sensor_relhum">Relativna vlhkosť:</string>  
-    <string name="appdetail_sensor_rotvector">Relativny vektor:</string>  
+    <string name="appdetail_sensor_relhum">Relatívna vlhkosť:</string>  
+    <string name="appdetail_sensor_rotvector">Relatívny vektor:</string>  
     <string name="appdetail_sensor_temp">Teplota:</string>  
     <string name="appdetail_sent">Odoslané:</string>  
     <string name="appdetail_sent_wifimobile">Odoslané (Wi-Fi / Mobilné):</string>  
     <string name="appdetail_signal_stregth">Sila signálu:</string>
-    <string name="appdetail_total_appssystem">Celkom (Aplikácia / Systém):</string> 
+    <string name="appdetail_total_appssystem">Celkom (Aplikácie / Systém):</string> 
     <string name="appdetail_video">Zapnutá kamera:</string>  
-    <string name="appdetail_wakelocks">Počet zabránenia uspania:</string>  
+    <string name="appdetail_wakelocks">Počet zabránení uspania:</string>  
     <string name="appdetail_wifiactive">Wi-Fi aktívna:</string>  
     <string name="appdetail_wifion">Wi-Fi zapnutá:</string>      
     <string name="appdetail_bytes">%d bajtov</string>        
@@ -340,7 +340,7 @@
     <string name="changelog_ok_button">Potvrdiť</string>
 
     <!-- Misc. -->
-    <string name="yes">Ano</string>
+    <string name="yes">Áno</string>
     <string name="no">Nie</string>
     <string name="ok">Potvrdiť</string>
     <string name="error">Došlo k chybe</string>
@@ -401,7 +401,7 @@
     <string name="dashclock_to_empty">%1$s veľmi vybitá</string>
     <string name="dashclock_to_full">%1$s do nabitia</string>
     <string name="dashclock_pref_show_used">Zobraziť množstvo využitia</string>
-    <string name="dashclock_pref_show_remaining_time">Zobraziť zbývajúci čas</string>
+    <string name="dashclock_pref_show_remaining_time">Zobraziť zostávajúci čas</string>
     <string name="dashclock_pref_show_active_standby">Zobraziť aktívny čas a v pohotovosti</string>
     <string name="dashclock_pref_show_temp_voltage">Zobraziť teplotu a napätie</string>
     <string name="dashclock_settings">GSam rozšírené nastavenie</string>
@@ -422,7 +422,7 @@
     <string name="menu_gopro_nook">Kúpiť</string>
     <string name="menu_goprokindle">Upgrade na Kindle Fire edíciu</string>
     <string name="nook_gopro_title">Skúšobná verzia vypršala</string>
-    <string name="nook_gopro_msg">Vaša skúšobná verzia Battery Monitoru vypršala.  Prosím zakúpte plnú verziu.  Môžete pokračovat v používání Battery Monitoru, ale vo verziu Free, tá ale neobsahuje toľko funkcií a optimalizacií.</string>
+    <string name="nook_gopro_msg">Vaša skúšobná verzia Battery Monitoru vypršala.  Prosím zakúpte plnú verziu.  Môžete pokračovat v používání Battery Monitoru, ale vo verziu Free, tá ale neobsahuje toľko funkcií a optimalizácií.</string>
     <string name="nook_gopro_ok">Zakúpiť plnú verziu</string>
     <string name="nook_gopro_cancel">Pokračovat v režime zdarma</string>
     <string name="main_market_pro_title">Ďakujem za využitie GSam Battery Monitor - Zdarma</string>
@@ -431,10 +431,10 @@
     <string name="main_market_pro_ok">Zobraziť</string>
     <string name="main_market_pro_cancel">Nie, ďakujem</string>
     <string name="main_invalid_license_title">Neplatná licencia</string>
-    <string name="main_invalid_license_msg">Vaša licencia k aplikáciu vyzerá jako neplatná.  Battery Monitor bude pokračovat v režimu verzia Free.  Pokiaľ si myslíte, že došlo k chybe, skontrolujte vašu objednávku.</string>
+    <string name="main_invalid_license_msg">Vaša licencia k aplikácii vyzerá byť neplatná.  Battery Monitor bude pokračovat v režime Free verzie.  Pokiaľ si myslíte, že došlo k chybe, skontrolujte vašu objednávku.</string>
     <string name="main_invalid_license_ok">Skontrolovať objednávku</string>
     <string name="main_invalid_license_cancel">Pokračovať</string>    
-    <string name="about_invalidlicense">Nemáte platný licenčný kľúč  GSam Battery Monitor bude pokračovat v režimu verzia Free.  Pokiaľ si myslíte, že došlo k chybe, prosím kontaktujte vývojára s vaším kupujúcim Google ID</string>
+    <string name="about_invalidlicense">Nemáte platný licenčný kľúč  GSam Battery Monitor bude pokračovat v režime Free verzie.  Pokiaľ si myslíte, že došlo k chybe, prosím kontaktujte vývojára s vaším kupujúcim Google ID</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">Na úvodnú obrazovku</string>
