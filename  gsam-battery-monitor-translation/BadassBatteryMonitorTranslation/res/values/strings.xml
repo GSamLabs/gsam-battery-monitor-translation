@@ -56,6 +56,7 @@
     <string name="preferences_widget_color_screen_title">Battery Widget Settings</string>
     <string name="preferences_app_theme_title">Use Dark App Theme</string>
     <string name="preferences_app_theme_title2">App Theme</string>
+    <string name="preferences_app_theme_split">Toolbar On Bottom</string>
     <string name="preferences_time_left_title">Calculate Time Left</string>
     <string name="preferences_time_left_sum">Calculate time left based on the usage over this time scale.</string>
     <string name="preferences_profiles_screen_title">Device Power Profiles</string>
