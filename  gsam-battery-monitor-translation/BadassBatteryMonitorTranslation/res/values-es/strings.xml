@@ -279,7 +279,7 @@
     <string name="appdetail_dark">Oscuro:</string>  
     <string name="appdetail_data_enabled">Datos activados:</string>  
     <string name="appdetail_dim">Oscurecer:</string>  
-    <string name="appdetail_discharge_whileonoff">Descargar Mientras Activado/Desactivado:</string>
+    <string name="appdetail_discharge_whileonoff">Descargar Mientras\nActivado/Desactivado:</string>
     <string name="appdetail_gps">GPS:</string>  
     <string name="appdetail_high">Alto - %s:</string>
     <string name="appdetail_keepawake">Despierto:</string>  
