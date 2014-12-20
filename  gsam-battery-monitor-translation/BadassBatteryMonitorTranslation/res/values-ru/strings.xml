@@ -24,6 +24,7 @@
     <string name="preferences_show_notification_icon_sum">Показать значок оповещения с процентами в строке оповещения</string>
     <string name="preferences_show_notification_title">Показать только оповещение</string>
     <string name="preferences_show_notification_sum">Оповещение без значка оповещения</string>
+    <!-- preferences_show_notification_lockscreen_title is not used yet... -->
     <string name="preferences_show_notification_lockscreen_title">Уведомления на экране блокировки</string>
     <string name="preferences_alarm_condition_charging">Заряд выше</string>
     <string name="preferences_alarm_condition_discharging">Заряд ниже</string>
@@ -55,6 +56,7 @@
     <string name="preferences_widget_color_screen_title">Настройки виджета батареи</string>
     <string name="preferences_app_theme_title">Использовать тёмную тему</string>
     <string name="preferences_app_theme_title2">Оформление приложения</string>
+    <string name="preferences_app_theme_split">Панель инструментов снизу</string>
     <string name="preferences_time_left_title">Рассчитать остаток времени</string>
     <string name="preferences_time_left_sum">Рассчитать остаток времени, основываясь на использовании в данный временной промежуток</string>
     <string name="preferences_profiles_screen_title">Профили питания устройства</string>
@@ -141,6 +143,7 @@
     <string name="process_suck_mon_header">%0$.1f%% батареи использовалось:</string>
     <string name="process_suck_mon_nodata">Данные недоступны. Нет приложений, которые потребляли указанный ресурс во время последнего цикла батареи устройства.</string>
     <string name="process_suck_mon_title_prefix">Приложения - %1$s</string>
+    <!-- Suffix gets 'stats_since_X' replaced -->
     <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
 	  <string name="procsuckmon_viewby_pwr">% исп.питания</string>
     <string name="procsuckmon_viewby_pwr_minforeground">% питания (только фон CPU)</string>
