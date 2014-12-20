@@ -80,8 +80,8 @@
     <string name="profedit_cancel">Zrušiť</string>
     <string name="profedit_custom_values_saves">Užívateľské hodnoty uložené.  Môžete ich vrátiť do pôvodného nastavenia na obrazovce predvolieb.</string>
     <string name="preferences_clear_chart_history_title">Vyčistiť súbor histórie grafov</string>
-    <string name="preferences_clear_chart_history_sum">Kliknite pre vyčistenie súbora dočasnej pamāti historie grafov.</string>
-    <string name="preferences_clear_chart_history_toast">Súbor historie bol vyčištený\u2026</string>
+    <string name="preferences_clear_chart_history_sum">Kliknite pre vyčistenie súbora dočasnej pamāti histórie grafov.</string>
+    <string name="preferences_clear_chart_history_toast">Súbor histórie bol vyčištený\u2026</string>
     <string name="preferences_clear_chart_history_alert">Ste si istý?</string>
     <string name="preferences_clear_history_stats_title">Reset štatistík batérie</string>
     <string name="preferences_clear_history_stats_sum">Kliknite sem pre reset štatistík batérie.  Táto voľba zmaže všetky štatistiky.  Je to ekvivalent k plnému nabitiu a odpojeniu od napájania.  Všetky štatistiky budú počítané od tejto chvíle, preto používajte s obozretnosťou!</string>
@@ -100,7 +100,7 @@
     <string name="preferences_power_profiles_include_sensors_sum">"Niektoré zariadenia nepočítajú využitie senzorov správne. - Odškrtnite, pokiaľ sa vám zdá, že využitie senzorov neodpovedá realite (hlavne akcelerometer). "</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">Reset energie v percentách</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">Toto zmaže váš prepočet energie na percentá. Naozaj chcete pokračovat?</string>
-    <string name="preferences_widget_dialog_title">Zvol si farvu</string>
+    <string name="preferences_widget_dialog_title">Zvoľte si farbu</string>
     <string name="preferences_widget_color_full_title">Farba pri 100%</string>
     <string name="preferences_widget_color_middle_title">Farba pri 50%</string>
     <string name="preferences_widget_color_empty_title">Farba pri 0%</string>
@@ -115,9 +115,9 @@
     <string name="preferences_menu_add_alarm">Pridať nový alarm</string>
     <string name="preferences_menu_remove_alarm">Odstrániť alarm</string>
     <string name="preferences_disable_animation_title">Zakázať grafické efekty</string>
-    <string name="preferences_disable_animation_sum">Zakázat animácie obrazovky, pre pomalé zariadenia.</string>
-	<string name="preferences_contains_telephony_support_title">Dostupnosť telefónneho alebo dátoveho modemu</string>
-	<string name="preferences_contains_telephony_support_sum">Niektoré zariadenie nesprávne detekujú prítomnosť telefonovania (telefónny / 3G / 4G / LTE) - zvlášť tablety. Odstrániť/zaškrtnúť len v prípade, že je stanovená hodnota dostupnosti telefónneho prístroje správne.Zadaná hodnota: %1s</string>
+    <string name="preferences_disable_animation_sum">Zakázať animácie obrazovky, pre pomalé zariadenia.</string>
+	<string name="preferences_contains_telephony_support_title">Dostupnosť telefónneho alebo dátového modemu</string>
+	<string name="preferences_contains_telephony_support_sum">Niektoré zariadenia nesprávne detekujú prítomnosť telefónneho modulu (telefónny / 3G / 4G / LTE) - obzvlášť tablety. Odstrániť/zaškrtnúť len v prípade, že je správne stanovená hodnota dostupnosti telefónneho prístroja. Zadaná hodnota: %1s</string>
 
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Kruhový</string>   
@@ -149,7 +149,7 @@
     <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
     <string name="procsuckmon_viewby_pwr">Zobraziť využitie energie v %</string>
     <string name="procsuckmon_viewby_pwr_minforeground">Zobraziť využitie energie v % (CPU na pozadí)</string>
-    <string name="procsuckmon_viewby_cpu">Zobraziť využitie CPU v minutách</string>
+    <string name="procsuckmon_viewby_cpu">Zobraziť využitie CPU v minútach</string>
     <string name="procsuckmon_viewby_cpu_minforeground">Zobraziť využitie CPU (bežiace len na pozadí)</string>
     <string name="procsuckmon_viewby_data">Zobraziť využitie prenesených dát</string>
     <string name="procsuckmon_viewby_sensor">Zobraziť využitie senzorov</string>
@@ -184,8 +184,8 @@
     <string name="main_health_failed">Nepodarené</string>
     <string name="main_usage_label">Využitie batérie - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_usage_label2">Využité %1$s%% v %2$s</string>
-    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s aktivny, %3$s v pohotovosti</string>
-    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s aktivny</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s aktívny, %3$s v pohotovosti</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s aktívny</string>
     <string name="main_phone_on_label">Telefón:</string>
     <string name="main_screen_on_label">Obrazovka:</string>
     <string name="main_phone_radio_on_label">Signál:</string>
@@ -199,9 +199,9 @@
     <string name="main_tools_menu">Viac</string>
     <string name="main_menu_charts">Grafy</string>
     <string name="menu_whatsnew">Čo je nového</string>
-    <string name="about_about">O aplikáciu</string>
+    <string name="about_about">O aplikácii</string>
     <string name="menu_set_custom_ref">Nastaviť užívateľskú predvoľbu</string>
-    <string name="menu_remove_custom_ref">Odstraniť užívateľskú predvoľbu</string>
+    <string name="menu_remove_custom_ref">Odstrániť užívateľskú predvoľbu</string>
     <string name="menu_refresh">Obnoviť</string>
     <string name="main_refresh_toast">Štatistiky obnovené\u2026</string>
     <string name="main_market_nomarket_msg">Funkcia nie je dostupná.  Aplikácia z marketu sa nezdá byť nainštalovaná na vašom zariadení.</string>
@@ -209,7 +209,7 @@
     <string name="menu_send_debug_data">Odoslať záznam o chybe</string>    
     <string name="menu_send_debug_data_dlg_title">Odoslať záznam o chybe pomocou:</string>
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
-    <string name="menu_send_debug_data_body">Prosím zadajte popis chyby na ktorú ste narazili:\n\n</string> 
+    <string name="menu_send_debug_data_body">Prosím zadajte popis chyby, na ktorú ste narazili:\n\n</string> 
     <string name="menu_review">Napísať recenziu na GSam Battery Monitor</string>
     <string name="menu_enable_more_stats">Povoliť viac štatistík</string>
     <string name="main_share_intentchoosertitle">Zdielať moju priemernú výdrž batérie\u2026</string>
@@ -230,19 +230,19 @@
     <string name="averages_since">Od %1$s</string>
     <string name="averages_header">Priemerne pre kompletné nabitie</string>
     <string name="main_avg_timepercharge_label2">Výdrž batérie:</string>
-    <string name="main_avg_timepercharge_text_active">%1$s (%2$s aktivny)</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s aktívny)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s v pohotovosti)</string>
     <string name="main_avg_screenon_label">Zapnutá obrazovka:</string>
     <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
     <string name="main_avg_chargetime_label">Doba nabíjania:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title2">Povoliť viac štatistík s Root Companion App</string>
-    <string name="main_kitkat_nostats_helper_needed2">Môžete povoliť viac štatistík, keď
-        máte Root prístup instalaciu GSam Root Companion app.  Aplikácia vám umožní prístup k detailným
-        zákazom prebudenia, využitie senzorov a mnoho dalších štatistík.\n
+    <string name="main_kitkat_nostats_helper_needed2">Inštaláciou GSam Root Companion app môžete povoliť viac štatistík v prípade ak
+        máte Root prístup. Aplikácia vám umožní prístup k detailným
+        zákazom prebudenia, využitia senzorov a mnoho dalších štatistík.\n
         \nPokiaľ nemáte Root, alebo neviete čo to znamená, nelámte si s tým hlavu.  GSam bude
         fungovat dobre i bez toho.\n
-        \nNavštívte <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pre viac informacií.</string>
+        \nNavštívte <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> pre viac informácií.</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion application nie je korektne nainštalovaná v /system/priv-app.  Prosím spustite aplikáciu a overte, že je správne nainštalovaná.</string>
 	<string name="main_kitkat_nostats_launch_companion">Spustiť Root Companion</string>
 	<string name="main_kitkat_nostats_install_companion">Nainštalovať Root Companion</string>
@@ -416,7 +416,7 @@
     <string name="appdetail_details_adjust_screen_market_bsd_title">Je vaša obrazovka príliš jasná?</string>
     <string name="appdetail_details_adjust_screen_market_bsd_msg">Pokiaľ máte problém s čítaním v noci, pretože vaša obrazovka je príliš jasná, skúste GSam Screen Dimmer.  Aplikácia vám umožní nastaviť jas na nižšie hodnoty, ako je bežne povolené a umožní lepšie čítanie v noci!\n\nTáto správa už nebude znovu zobrazená.</string>
     <string name="preferences_send_anon_stats_buypro_title">Prejsť na plnú verziu!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">Neplatená verzia Battery Monitoru nedovoluje vypnúť reklamy, bez toho aby ste neodosielali anonymné štatistiky.\n\nPlatená Pro verzia neobsahuje reklamy a dovoluje vypnúť aj odosielanie štatistík.</string>
+    <string name="preferences_send_anon_stats_buypro_msg">Neplatená verzia Battery Monitoru nedovoľuje vypnúť reklamy, bez toho aby ste neodosielali anonymné štatistiky.\n\nPlatená Pro verzia neobsahuje reklamy a dovoluje vypnúť aj odosielanie štatistík.</string>
     <string name="menu_seeotherapps">Zobraziť dalšie aplikácie od GSam Labs</string>
     <string name="menu_gopro">Upgrade na Pro</string>
     <string name="menu_gopro_nook">Kúpiť</string>
@@ -424,7 +424,7 @@
     <string name="nook_gopro_title">Skúšobná verzia vypršala</string>
     <string name="nook_gopro_msg">Vaša skúšobná verzia Battery Monitoru vypršala.  Prosím zakúpte plnú verziu.  Môžete pokračovat v používání Battery Monitoru, ale vo verziu Free, tá ale neobsahuje toľko funkcií a optimalizácií.</string>
     <string name="nook_gopro_ok">Zakúpiť plnú verziu</string>
-    <string name="nook_gopro_cancel">Pokračovat v režime zdarma</string>
+    <string name="nook_gopro_cancel">Pokračovať v režime zdarma</string>
     <string name="main_market_pro_title">Ďakujem za využitie GSam Battery Monitor - Zdarma</string>
     <string name="main_market_pro_msg">Vedeli ste, že existuje verzia GSam Battery Monitoru priamo pre tablety?  Pozrite sa na ňu v markete.\n\nTáto správa už nebude znovu zobrazená.</string>
     <string name="main_market_pro_msg_kindle">Vedeli ste, že existuje verzia GSam Battery Monitoru pre Kindle Fire?  Pozrite sa na ňu v Appstore.\n\nTáto správa už nebude znovu zobrazená.</string>
