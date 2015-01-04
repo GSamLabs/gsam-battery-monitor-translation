@@ -28,13 +28,13 @@
     <string name="preferences_show_notification_title">Visa bara meddelande</string>
     <string name="preferences_show_notification_sum">Se meddelande utan ikonen</string>
     <!-- preferences_show_notification_lockscreen_title is not used yet... -->
-    <string name="preferences_show_notification_lockscreen_title">Show Notification on Lockscreen</string>
+    <string name="preferences_show_notification_lockscreen_title">Visa meddelande på låsskärmen</string>
     <string name="preferences_alarm_condition_charging">Batteri över</string>
     <string name="preferences_alarm_condition_discharging">Batteri under</string>
     <string name="preferences_alarm_condition_overheated">Batteri överhettat</string>
-    <string name="preferences_alarm_condition_overvoltage">Batteri överspänt</string>
+    <string name="preferences_alarm_condition_overvoltage">För hög batterispänning</string>
     <string name="preferences_alarm_condition_temperature">Temperatur över</string>
-    <string name="preferences_alarm_select_percent">Batteri procent</string>
+    <string name="preferences_alarm_select_percent">Batteriprocent</string>
     <string name="preferences_alarm_select_temperature">Batteritemperatur</string>
     <string name="preferences_alarm_select_tone">Välj meddelandesignal</string>
     <string name="preferences_theme_title">Tema för batteriikon</string>
@@ -46,8 +46,8 @@
     <string name="preferences_widget_back_title">Genomskinlig widgetbakgrund</string>
     <string name="preferences_widget_back_msg">Gör widgetbakgrunden helt genomskinlig, vilket tillåter din bakgrund att synas genom widgeten.</string>
     <string name="preferences_widget_show_timeleft_title">Visa tid kvar</string>
-    <string name="preferences_widget_show_temp_title">Show Temperature</string>
-    <string name="preferences_widget_show_voltage_title">Show Voltage</string>
+    <string name="preferences_widget_show_temp_title">Visa temperatur</string>
+    <string name="preferences_widget_show_voltage_title">Visa spänning</string>
     <string name="preferences_overlay_icon_sum">Ersätt standard batteriikonen.  Plats, storlek, etc, kan ändras fullt ut.</string>
     <string name="preferences_overlay_icon_title">Ersätt batteriikonen som är standard</string>
     <string name="preferences_overlay_icon_configure_sum">Konfigurera den överliggande ikonens storlek, plats, bakgrundsfärg, ljusstyrka m.m.</string>
@@ -55,11 +55,11 @@
     <string name="preferences_overlay_icon_configure_invalid">Kunde ej starta konfigurationen.  Öppna ikonpaketet manuellt för att konfigurera.</string>
     <string name="preferences_overlay_icon_notvalid_title">Valt tema stöder ej överliggande ikon</string>
     <string name="preferences_overlay_icon_notvalid_msg">Välj ett annat tema och försök igen.\n\nÖverliggande ikoner stöds bara av externa ikonpaket.  Välj skaffa fler teman från Menyn: Batteriikon tema för att ladda ner ett externt ikonpaket.  Alla ikonpaket som tillhandahålls av GSam Labs stöder överliggande ikoner.  Tredjeparts ikonpaket kanske inte stöder överliggande ikoner.</string>
-    <string name="preferences_show_charging_animation_title">Show animation while charging</string> 
-    <string name="preferences_widget_color_screen_title">Batteriwidget inställningar</string>
+    <string name="preferences_show_charging_animation_title">Visa animation under laddningen</string> 
+    <string name="preferences_widget_color_screen_title">Inställningar för batteriwidget</string>
     <string name="preferences_app_theme_title">Använd ett mörkt tema för appen</string>
-    <string name="preferences_app_theme_title2">App Theme</string>
-    <string name="preferences_app_theme_split">Toolbar On Bottom</string>
+    <string name="preferences_app_theme_title2">App-tema</string>
+    <string name="preferences_app_theme_split">Verktygsraden längst ner</string>
     <string name="preferences_time_left_title">Beräkna tid kvar</string>
     <string name="preferences_time_left_sum">Beräkna tid kvar baserat på ditt användande över denna tidsskala.</string>
     <string name="preferences_profiles_screen_title">Enhetens strömprofiler</string>
@@ -74,7 +74,7 @@
     <string name="preferences_time_per_percent_unkown">okänd</string>
     <string name="preferences_time_per_percent_summary">Återställ det beräknade värdet för genomsnittslig tid som din enhet håller från en full laddning. För närvarande %1$s (%2$sm / procent beräknat över %3$01d procentenheter)</string>
     <string name="preferences_stats_since_title">Visa statistik</string>
-    <string name="preferences_stats_since_summary">Visar statistik från det att du kopplade ifrån laddaren eller sedan full ladning.</string>
+    <string name="preferences_stats_since_summary">Visar statistik från det att du kopplade ifrån laddaren eller sedan full laddning.</string>
     <string name="preferences_power_profiles_edit_summary">Konfigurera din strömprofil. Det ändrade värdet kommer bara att användas om din anpassade profil är aktiverad.</string>
     <string name="profedit_title">Modifiera värdena nedanför för att ändra hur tid kvar och hur App Suckers tider är beräknade.</string>
     <string name="profedit_load_basedon">Ladda om data baserat på:</string>
@@ -91,7 +91,7 @@
     <string name="preferences_clear_history_stats_error_toast">Kunde inte återställa statistiken - Denna enhet kanske inte stöder denna funktionen.\u2026</string>
     <string name="preferences_custom_ref">Din batterihistoria kommer att baseras på en anpassad referens som kommer att skapas nu (eller när man kopplar laddaren ifrån enheten) Detta kan användas för att bestämma vad som har använt ditt batteri sedan denna specifika punkten istället för tidpunkten när laddaren var urkopplad eller batteriet färdigladdat. </string>
     <string name="preferences_custom_ref_plugged">Enheten laddas för tillfället - Du kan bara skapa en anpassad referens när laddaren är urkopplad.</string>
-    <string name="preferences_send_anon_stats_title">Tillåt anonym användningsstatistik.</string>
+    <string name="preferences_send_anon_stats_title">Tillåt anonym användarstatistik.</string>
     <string name="preferences_send_anon_stats_sum">Tillåt att vi skickar anonym användarstatistik. Ingen privat eller data som kan identifiera dig skickas.</string>
     <string name="preferences_show_ads_title">Visa reklam</string>
     <string name="preferences_show_ads_sum">Visar reklam i appen.</string>
@@ -100,25 +100,25 @@
     <string name="preferences_power_profiles_include_sensors_title">Inkludera sensorer i beräkning</string>
     <string name="preferences_power_profiles_include_sensors_sum">"Vissa enheter beräknar inte sensoranvändande korrekt. Bocka ur detta om sensorernas användande inte verkar korrekt (särskilt accelerometer)."</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">Återställ ström per procent</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_msg">Detta kommer att återställa din ström per procent beräkning. Vill du fortsätta?</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_msg">Detta kommer att återställa din ström per procentberäkning. Vill du fortsätta?</string>
     <string name="preferences_widget_dialog_title">Välj en färg</string>
     <string name="preferences_widget_color_full_title">Färg vid 100%</string>
     <string name="preferences_widget_color_middle_title">Färg vid 50%</string>
     <string name="preferences_widget_color_empty_title">Färg vid 0%</string>
     <string name="preferences_widget_color_alpha_title">Genomskinlighet på färgen</string>
     <string name="preferences_widget_color_preview_title">Förhandsvisning för procent</string>
-    <string name="preferences_widget_color_preview_sum">Förhandsgranska hur widgeten kommer att se ut vid en viss procent nedan.</string>
-    <string name="preferences_widget_color_screen_sum">Ställ in färggradienten enligt batteriet och ställ in widget inställningarna</string>
+    <string name="preferences_widget_color_preview_sum">Ställ in det fulla procentvärdet av batteriets förhandsgranskningen här nedan.</string>
+    <string name="preferences_widget_color_screen_sum">Ställ in färggradienten enligt batteriet och ställ in widget-inställningarna</string>
     <string name="preferences_widget_color_category">Färger</string>
     <string name="preferences_widget_general_category">Allmänt</string>
     <string name="preferences_start_foreground_title">Hög prioritet</string>
     <string name="preferences_start_foreground_sum">Kör batteriövervakaren genom att använda en hög prioritet. Använd bara om dina ikoner inte uppdateras korrekt så att det speglar batteriets procent. Aktivera ej annars då detta kommer att påverka hur många resurser som finns tillgängliga för andra applikationer. </string>
     <string name="preferences_menu_add_alarm">Lägg till ett nytt alarm</string>
     <string name="preferences_menu_remove_alarm">Ta bort alarm</string>
-    <string name="preferences_disable_animation_title">Disable animation effects</string>
-    <string name="preferences_disable_animation_sum">Disables screen animation for slower devices.</string>
-    <string name="preferences_contains_telephony_support_title">Contains phone or data modem</string>
-    <string name="preferences_contains_telephony_support_sum">Some devices report telephony (phone / 3G / 4G / LTE) incorrectly - especially tablets.  Modify this only if the reported value is not correct.  Reported value:  %1s</string>
+    <string name="preferences_disable_animation_title">Inaktivera animationseffekter</string>
+    <string name="preferences_disable_animation_sum">Inaktivera skärmanimeringar för långsamma enheter.</string>
+    <string name="preferences_contains_telephony_support_title">Innehåller telefon eller datamodem</string>
+    <string name="preferences_contains_telephony_support_sum">En del enheter rapporterar telefonin (telefon / 3G / 4G / LTE) felaktigt - speciellt surfplattor.  Ändra detta bara om du får felaktiga värden.  Rapporterat värde:  %1s</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Cirkel</string>   
@@ -131,17 +131,17 @@
     <string name="time_left_calc_last15">De senaste 15 minuterna</string>
     <string name="time_left_calc_last30">De senaste 30 minuterna</string>
     <string name="time_left_calc_last60">De senaste 60 minuterna</string>
-    <string name="stats_since_unplugged">Sedan laddaren kopplades från</string>
+    <string name="stats_since_unplugged">Sedan laddaren kopplades ifrån</string>
     <string name="stats_since_charged">Sedan fulladdning</string>
     <string name="stats_since_custom">Sedan anpassad referens</string>
-    <string name="stats_since_screen_off">Since Screen Off</string>
-    <string name="stats_since_now">Since Now</string>
-    <string name="stats_since_ago">Since %1s Ago</string>
+    <string name="stats_since_screen_off">Sedan skärmen stängdes av</string>
+    <string name="stats_since_now">Sedan nu</string>
+    <string name="stats_since_ago">För %1s sedan</string>
     <string name="pwer_profiles_mfg">Tillverkarens värde</string>
     <string name="pwer_profiles_saved">Nuvarande sparande värden</string>
 
     <!-- App Sucker -->
-    <string name="process_kernel_label">Kernel (Android OS)</string>
+    <string name="process_kernel_label">Kärna (Android OS)</string>
     <string name="process_suck_mon_android_system">System (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% av batteriet har förbrukats av:</string>
     <string name="process_suck_mon_nodata">Ingen data tillgänglig. Det finns inga appar som har använt den specifierade resursen under enhetens senaste strömcykel.</string>
@@ -157,36 +157,36 @@
     <string name="procsuckmon_viewby_awake">Visa hur länge enheten varit vaken</string>
     <string name="procsuckmon_viewby_wake_times">Visa hur många gånger enheten har väckts</string>
     <string name="procsuckmon_viewby_gps">Visa hur länge GPS:en har används</string>
-    <string name="procsuckmon_viewby_kernel_wakelocks">Visa kernel wakelocks</string>
-    <string name="procsuckmon_wakelock_user_apps">Combined App Wakelocks (non-Kernel)</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">Visa kärn-wakelocks</string>
+    <string name="procsuckmon_wakelock_user_apps">Kompinerade app-wakelocks (ej kärna)</string>
 
     <!-- Main screen -->
       <string name="main_history_button">Historia</string>
     <string name="main_preferences_button">Inställningar</string>
     <string name="main_calculating">Beräknar\u2026</string>
     <string name="main_full">Laddat</string>
-    <string name="main_timeremaining">Time Remaining</string>
-    <string name="main_timetofull2">To Full:</string>
-    <string name="main_timetofull_tablet2">To Full Charge:</string>
-    <string name="main_timeleft2">Average:</string>
-    <string name="main_timeleft_tablet2">Average Usage:</string>
-    <string name="main_timeleft_rolling2">Last %1$sm:</string>
-    <string name="main_timeleft_rolling_tablet2">Last %1$sm Usage:</string>
-    <string name="main_talktime2">Talk Time:</string>
+    <string name="main_timeremaining">Återstående tid</string>
+    <string name="main_timetofull2">Till full:</string>
+    <string name="main_timetofull_tablet2">Till full laddning:</string>
+    <string name="main_timeleft2">Genomsnitt:</string>
+    <string name="main_timeleft_tablet2">Genomsnittlig användning:</string>
+    <string name="main_timeleft_rolling2">Sista %1$sm:</string>
+    <string name="main_timeleft_rolling_tablet2">Sista %1$sm användning:</string>
+    <string name="main_talktime2">Prattid:</string>
     <string name="main_temp">Temperatur: </string>
-    <string name="main_voltage">Volt: </string>
+    <string name="main_voltage">Spänning: </string>
     <string name="main_health">Typ / hälsa: </string>
     <string name="main_health_cold">Kallt</string>
     <string name="main_health_dead">Dött</string>
     <string name="main_health_good">Bra</string>
     <string name="main_health_hot">Varmt</string>
-    <string name="main_health_over_voltage">För högt voltantal</string>
+    <string name="main_health_over_voltage">För hög spänning</string>
     <string name="main_health_unknown">Okänd</string>
     <string name="main_health_failed">Misslyckades</string>
     <string name="main_usage_label">Batterianvändning - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
-    <string name="main_usage_label2">Used %1$s%% in %2$s</string>
-    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s Active, %3$s Standby</string>
-    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s Active</string>
+    <string name="main_usage_label2">Användning %1$s%% i %2$s</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s aktiv, %3$s viloläge</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s aktiv</string>
     <string name="main_phone_on_label">Telefon:</string>
     <string name="main_screen_on_label">Skärm:</string>
     <string name="main_phone_radio_on_label">Radio:</string>
@@ -195,7 +195,7 @@
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Appar:</string>
     <string name="main_app_usage_button">App Sucker</string>
-    <string name="main_android_batt_usage_button">Batterianvändnig</string>    
+    <string name="main_android_batt_usage_button">Batterianvändning</string>    
     <string name="main_android_batt_usage_failed">Kunde inte starta den inbyggda batterianvändningsappen...</string>
     <string name="main_tools_menu">Mer</string>
     <string name="main_menu_charts">Diagram</string>
@@ -208,12 +208,12 @@
     <string name="main_refresh_toast">Statistiken uppdaterades\u2026</string>
     <string name="main_market_nomarket_msg">Funktionen är ej tillgänglig. Det verkar inte finnas någon Play butik installerad på din enhet.</string>
     <string name="menu_help">Hjälp</string>
-    <string name="menu_send_debug_data">Send error report</string>    
-    <string name="menu_send_debug_data_dlg_title">Send Error Report Using:</string>
+    <string name="menu_send_debug_data">Skicka felrapport</string>    
+    <string name="menu_send_debug_data_dlg_title">Skicka felrapport med:</string>
     <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
     <string name="menu_send_debug_data_body">Please enter a description of the problem you encountered:\n\n</string> 
     <string name="menu_review">Recensera GSam Battery Monitor</string>
-    <string name="menu_enable_more_stats">Enable More Stats</string>
+    <string name="menu_enable_more_stats">Aktivera mera stats</string>
     <string name="main_share_intentchoosertitle">Dela din genomsnittliga batteritid\u2026</string>
     <string name="main_share_subject">Min genomsnittliga batteritid - GSam Battery Monitor</string>
     <string name="main_share_msg2">Mitt %1$s %2$s batteri snittar %3$s (%4$s under aktiv användning) på en laddning. Kolla in GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
@@ -222,38 +222,38 @@
     <string name="main_tablet_battusage_fullcharge">%1$s%% Har används %2$s (sedan fulladdad)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Använd över %2$s (sedan anpassad referens)</string>
     <string name="main_tablet_active_usage">Aktiv (%1$02d:%2$02d:%3$02d)</string>
-    <string name="main_tablet_standby_usage">Vänteläge (%1$02d:%2$02d:%3$02d)</string>    
+    <string name="main_tablet_standby_usage">Viloläge (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">Betygsätt GSam Battery Monitor</string>
     <string name="rate_me_msg">Gillar du GSam Battery Monitor?  Ta dig tid att ge den ett bra betyg i Play butiken!\n\nOroa dig inte - du kommer inte att bli tillfrågad igen.</string>
     <string name="rate_me_ok">Betygsätt!</string>
     <string name="main_header_type">Typ</string>
     <string name="main_header_time">Tid</string>
     <string name="main_header_power">Ström</string>
-    <string name="averages_since">Since %1$s</string>
-    <string name="averages_header">Averages Per Complete Charge</string>
-    <string name="main_avg_timepercharge_label2">Battery Life:</string>
-    <string name="main_avg_timepercharge_text_active">%1$s (%2$s Active)</string>
-    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Standby)</string>
-    <string name="main_avg_screenon_label">Screen On:</string>
-    <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
-    <string name="main_avg_chargetime_label">Charge Time:</string>
+    <string name="averages_since">Sedan %1$s</string>
+    <string name="averages_header">Genomsnitt per full laddning</string>
+    <string name="main_avg_timepercharge_label2">Batteritid:</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s aktiv)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s viloläge)</string>
+    <string name="main_avg_screenon_label">Skärm på:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s max)</string>
+    <string name="main_avg_chargetime_label">Laddningstid:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
-    <string name="main_kitkat_nostats_title2">Enable More Stats with Root Companion App</string>
-    <string name="main_kitkat_nostats_helper_needed2">You can enable access to more statistics if you
-        have Root access by installing the GSam Root Companion app.  This gives you access to detailed
-        wakelock, sensor usage, and many other statistics.\n
-        \nIf you do not have Root, or do not know what this means, don\'t worry about it.  GSam will
-        function just fine without it.\n
-        \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> for more information.</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">The Root Companion application is not installed correctly in /system/priv-app.  Please launch the application and verify it is correctly installed.</string>
-	<string name="main_kitkat_nostats_launch_companion">Launch Root Companion</string>
-	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
+    <string name="main_kitkat_nostats_title2">Aktivera mera stats med appen Root Companion</string>
+    <string name="main_kitkat_nostats_helper_needed2">Du kan få tillgång till mer statistik om du
+        har Root-åtkomst genom att installera appen GSam Root Companion.  Detta ger dig tillgång till detaljerad
+        wakelock, sensoranvändning, och ännu mer statistik.\n
+        \nOm du inte har Root, eller du inte vet vad det är, kan du ändå vara lugn.  GSam fungera
+        alldeles utmärkt utan Root.\n
+        \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> för mer information.</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Appen Root Companion är inte installerat som det ska i /system/priv-app.  Starta appen och kontrollera att den är installerad på rätt sätt.</string>
+	<string name="main_kitkat_nostats_launch_companion">Starta Root Companion</string>
+	<string name="main_kitkat_nostats_install_companion">Installera Root Companion</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App-detaljer</string>
     <string name="process_suck_mon_title_prefix_wifi">WiFi-detaljer</string>
-    <string name="process_suck_mon_title_prefix_radio">Radio-etaljer</string>
-    <string name="process_suck_mon_title_prefix_screen">Skärm-etaljer</string>
+    <string name="process_suck_mon_title_prefix_radio">Radio-detaljer</string>
+    <string name="process_suck_mon_title_prefix_screen">Skärm-detaljer</string>
     <string name="process_suck_mon_title_prefix_wakelock">Wakelock-detaljer</string>
     <string name="appdetail_usagedetail">Användningsdetaljer</string>
     <string name="appdetail_processname">Namn på processen</string>
@@ -271,7 +271,7 @@
     <string name="appdetail_details_button">Hantera</string>
     <string name="appdetail_details_button_wakelocks">Googla mig</string>    
     <string name="appdetail_details_adjustpower">Tips för att spara ström</string>
-    <string name="appdetail_details_adjust_wifi">Stäng av Wi-Fi när du inte änvänder det genom att använda knappen ovanför.</string>
+    <string name="appdetail_details_adjust_wifi">Stäng av WiFi när du inte använder det genom att använda knappen ovanför.</string>
     <string name="appdetail_details_adjust_wifi_button">WiFi-inställningar</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Kunde inte öppna WiFi-inställningar</string>
     <string name="appdetail_details_adjust_screen">Sänk skärmstyrkan genom att använda knappen ovanför.</string>
@@ -280,7 +280,7 @@
     <string name="detail_menu_export">Exportera</string>
     <string name="detail_menu_export_dlg_title">Exportera skärm (text) data genom</string>
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - exportera data</string>    
-    <string name="appdetail_appuid">App UID:</string>  
+    <string name="appdetail_appuid">App-UID:</string>  
     <string name="appdetail_audio">Ljud på:</string>  
     <string name="appdetail_bright">Ljus:</string>  
     <string name="appdetail_bytesrec">Bytes mottaget:</string>  
@@ -305,8 +305,8 @@
     <string name="appdetail_phoneon">Telefonradio på:</string>  
     <string name="appdetail_pwr_sysdata">Ström för systemdata:</string>  
     <string name="appdetail_received">Mottagen:</string>  
-    <string name="appdetail_received_wifimobile">Mottagen (Wifi / Data):</string> 
-    <string name="appdetail_scanning">Skannar efter signal:</string>  
+    <string name="appdetail_received_wifimobile">Mottagen (wifi / data):</string> 
+    <string name="appdetail_scanning">Letar efter signal:</string>  
     <string name="appdetail_screen_brightness">Skärmstyrka:</string>  
     <string name="appdetail_screenon">Skärm på:</string>  
     <string name="appdetail_sensor_accelerometer">Accelerometer:</string>  
@@ -322,18 +322,18 @@
     <string name="appdetail_sensor_rotvector">Roterande vektor:</string>  
     <string name="appdetail_sensor_temp">Temperatur:</string>  
     <string name="appdetail_sent">Skickat:</string>  
-    <string name="appdetail_sent_wifimobile">Skickat (Wifi / Data):</string>  
+    <string name="appdetail_sent_wifimobile">Skickat (wifi / data):</string>  
     <string name="appdetail_signal_stregth">Signalstyrka:</string>
     <string name="appdetail_total_appssystem">Totalt (appar / system):</string> 
     <string name="appdetail_video">Video på:</string>  
     <string name="appdetail_wakelocks">Antal wakelocks:</string>  
     <string name="appdetail_wifiactive">Wifi aktiv:</string>  
     <string name="appdetail_wifion">Wifi på:</string>      
-    <string name="appdetail_bytes">%d Bytes</string>        
+    <string name="appdetail_bytes">%d bytes</string>        
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
-    <string name="appdetail_totaltime">Total Time (including awake):</string>
-    <string name="appdetail_select_package">Select Package To Manage</string>
+    <string name="appdetail_totaltime">Total tid (även vaken):</string>
+    <string name="appdetail_select_package">Välj paket att hantera</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Nyheter</string>
@@ -347,18 +347,18 @@
     <string name="error">Ett fel inträffade</string>
     
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">read battery statistics</string>
-    <string name="permdesc_batteryStats">Allows an application to read the current low-level
-        battery use data.  May allow the application to find out detailed information about
-        which apps you use.</string>
+    <string name="permlab_batteryStats">läs batteristatistik</string>
+    <string name="permdesc_batteryStats">Tillåt att programmet läser användningsdata
+        för batteriets lägsta-nivå.  Detta tillåter programmet att leta upp detaljerad information om
+        vilken app du använt.</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">Temperatur</string>
     <string name="main_chart_showother">Övrigt</string>
     <string name="main_chart_showradio">Telefonsignal</string>
-    <string name="main_chart_showrate">Rate of Change</string>
+    <string name="main_chart_showrate">Förändringstakten</string>
     <string name="chart_menu_batthistory">Diagram över batteriets historia</string>
-    <string name="chart_menu_battdischarge">Ström VS procentdiagram</string>
+    <string name="chart_menu_battdischarge">Effekt mot procentdiagram</string>
     <string name="notification_chargecomplete">Laddning klar!</string>
     <string name="notification_battcharging">Batteri laddas (%1s%%)</string>
     <string name="notification_battlow">Batteri lågt (%1s%%)</string>
@@ -378,7 +378,7 @@
     <string name="chart_med">Med</string>
     <string name="chart_screen">Skärm</string>
     <string name="chart_signal">Telefonsignal</string>
-    <string name="chart_rateofchange">\u0394 %/Hour</string>
+    <string name="chart_rateofchange">\u0394 %/timmar</string>
     <string name="chart_tempc">Batteritemperatur \u00B0C</string>
     <string name="chart_tempf">Batteritemperatur \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
@@ -390,33 +390,33 @@
     <string name="about_version">Version %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2014</string>
     <string name="about_chartengine">Diagram av AChartEngine.org</string>
-    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
+    <string name="about_icons">App-icons av &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Översättningar:</string>
     
     <!-- DashClock Widget Extension -->
-    <string name="dashclock_description">Show battery statistics including time left, drain per hour, and more.</string>
-    <string name="dashclock_active_standby">%1$s Active, %2$s Standby</string>
+    <string name="dashclock_description">Visa batteristatistik som tid kvar, urladdning per timme och mycket mer.</string>
+    <string name="dashclock_active_standby">%1$s aktiv, %2$s viloläge</string>
     <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
     <string name="dashclock_delta_per_hour_short_full">Full</string>
-    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Charging</string>  
-    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Discharging</string>  
-    <string name="dashclock_to_empty">%1$s to empty</string>  
-    <string name="dashclock_to_full">%1$s to full</string>
-    <string name="dashclock_pref_show_used">Show amount used</string>
-    <string name="dashclock_pref_show_remaining_time">Show time remaining</string>
-    <string name="dashclock_pref_show_active_standby">Show active and standby times</string>
-    <string name="dashclock_pref_show_temp_voltage">Show temperature and voltage</string>
-    <string name="dashclock_settings">GSam Extension Settings</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - laddar</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - urladdning</string>  
+    <string name="dashclock_to_empty">%1$s till tomt</string>  
+    <string name="dashclock_to_full">%1$s till fullt</string>
+    <string name="dashclock_pref_show_used">Visa använt antal</string>
+    <string name="dashclock_pref_show_remaining_time">Visa återstående tid</string>
+    <string name="dashclock_pref_show_active_standby">Visa aktiv och vilotid</string>
+    <string name="dashclock_pref_show_temp_voltage">Visa temperatur och spänning</string>
+    <string name="dashclock_settings">Utökade inställningar för GSam</string>
     
     <!-- Translations & Translators -->   
-    <string name="lang_default">Systemstandard</string>        
-    <string name="translator_anonymous">Anonymous</string>
+    <string name="lang_default">Standard systemspråk</string>        
+    <string name="translator_anonymous">Anonym</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <string name="translator_sv">Pontus Edgren &lt;BR&gt; Göran Helsingborg</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Är din skärm för ljus?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">Om det är svårt för dig att läsa på natten för att dig skärm är för ljus, kolla in Gsam Screen Dimmer. Den låter dig sänka skärmstyrkan lägre än vad man normalt kan, vilket gör det mycket mer behagligt att läsa!\n\nOroa dig inte, du kommer inte att se detta meddelandet igen.</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Om det är svårt för dig att läsa på natten för att din skärm är för ljus, kolla in Gsam Screen Dimmer. Den låter dig sänka skärmstyrkan lägre än vad man normalt kan, vilket gör det mycket mer behagligt att läsa!\n\nOroa dig inte, du kommer inte att se detta meddelandet igen.</string>
     <string name="preferences_send_anon_stats_buypro_title">Köp Pro!</string>
     <string name="preferences_send_anon_stats_buypro_msg">Gratisversionen av GSam Battery Monitor låter dig inte stänga av reklam om du väljer att inte skicka anonym statistik.\n\nPremiumversionen av GSam Battery Monitor innehåller ingen reklam, och låter dig stänga av sändningen av anonym statistik.</string>
     <string name="menu_seeotherapps">Se andra appar från GSam Labs</string>
@@ -433,7 +433,7 @@
     <string name="main_market_pro_ok">Ta en titt</string>
     <string name="main_market_pro_cancel">Nej tack</string>
     <string name="main_invalid_license_title">Ogiltig licens</string>
-    <string name="main_invalid_license_msg">Din licens för denna applikation verkar inte vara giltig. GSam Battery Monitor kommer att fortsätta i gratisläget. Om det känns som att detta är ett misstag, var god kolla ditt köp.</string>
+    <string name="main_invalid_license_msg">Din licens för denna applikation verkar inte vara giltig. GSam Battery Monitor kommer att fortsätta i gratisläget. Om det känns som att detta är ett misstag, var god kontrollera ditt köp.</string>
     <string name="main_invalid_license_ok">Kontrollera mitt köp</string>
     <string name="main_invalid_license_cancel">Fortsätt</string>    
     <string name="about_invalidlicense">Du har ingen giltig licens. GSam Battery Monitor kommer fortsätta att köra i gratisläget. Om detta är ett misstag, var god kontakta utvecklaren med ditt Google-ID</string>
