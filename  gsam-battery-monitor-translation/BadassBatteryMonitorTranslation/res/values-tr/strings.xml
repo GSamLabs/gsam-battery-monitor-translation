@@ -382,7 +382,7 @@
     <!-- About -->
 	<string name="about_app_name">GSam Battery Monitor Hakkında</string>
 	<string name="about_version">Versiyon no: %1s</string>
-	<string name="about_copyright">\u24d2 GSam Labs 2014</string>
+	<string name="about_copyright">\u24d2 GSam Labs 2015</string>
 	<string name="about_chartengine">Grafik Motoru: AChartEngine.org</string>
     <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
 	<string name="about_translations">Çeviriler:</string>

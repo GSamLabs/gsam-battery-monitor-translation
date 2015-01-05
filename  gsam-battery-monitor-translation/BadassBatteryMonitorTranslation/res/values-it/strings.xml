@@ -376,7 +376,7 @@
    <!-- About -->
    <string name="about_app_name">Info su GSam Battery Monitor</string>
    <string name="about_version">Versione %1s</string>    
-   <string name="about_copyright">\u24d2 GSam Labs 2014</string>
+   <string name="about_copyright">\u24d2 GSam Labs 2015</string>
    <string name="about_chartengine">Chart Engine da AChartEngine.org</string>
    <string name="about_actionbar">Compatibilità ActionBar grazie a actionbarsherlock.com</string>
    <string name="about_icons">Icone app grazie a &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>

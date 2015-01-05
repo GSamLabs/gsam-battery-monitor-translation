@@ -388,7 +388,7 @@
     <!-- About -->
     <string name="about_app_name">Om GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2015</string>
     <string name="about_chartengine">Diagram av AChartEngine.org</string>
     <string name="about_icons">App-ikoner av &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Översättningar:</string>
