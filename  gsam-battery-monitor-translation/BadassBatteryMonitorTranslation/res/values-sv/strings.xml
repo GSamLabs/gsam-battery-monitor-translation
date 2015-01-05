@@ -172,7 +172,7 @@
     <string name="main_timeleft_tablet2">Genomsnittlig användning:</string>
     <string name="main_timeleft_rolling2">Sista %1$sm:</string>
     <string name="main_timeleft_rolling_tablet2">Sista %1$sm användning:</string>
-    <string name="main_talktime2">Prattid:</string>
+    <string name="main_talktime2">Taltid:</string>
     <string name="main_temp">Temperatur: </string>
     <string name="main_voltage">Spänning: </string>
     <string name="main_health">Typ / hälsa: </string>
