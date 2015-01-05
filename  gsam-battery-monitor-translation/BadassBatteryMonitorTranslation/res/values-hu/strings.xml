@@ -376,7 +376,7 @@
     <!-- About -->
     <string name="about_app_name">A GSam Battery Monitor névjegye</string>
     <string name="about_version">Verzió %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2015</string>
     <string name="about_chartengine">Diagramot készítette:  AChartEngine.org</string>
     <string name="about_actionbar">ActionBar kompatibilitás:  actionbarsherlock.com</string>
     <string name="about_translations">Fordítók:</string>

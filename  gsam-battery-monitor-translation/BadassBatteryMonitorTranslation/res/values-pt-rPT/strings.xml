@@ -373,7 +373,7 @@
     <!-- About -->
     <string name="about_app_name">Acerca GSam Battery Monitor</string>
     <string name="about_version">Versão %1s</string>
-    <string name="about_copyright">\u24d2 GSam Labs 2014</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2015</string>
     <string name="about_chartengine">Motor Gráfico por AChartEngine.org</string>
     <string name="about_actionbar">Compatibilidade da ActionBar por actionbarsherlock.com</string>
     <string name="about_translations">Traduções:</string>
