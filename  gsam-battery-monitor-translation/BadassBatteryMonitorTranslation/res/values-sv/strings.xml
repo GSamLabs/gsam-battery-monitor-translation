@@ -158,7 +158,7 @@
     <string name="procsuckmon_viewby_wake_times">Visa hur många gånger enheten har väckts</string>
     <string name="procsuckmon_viewby_gps">Visa hur länge GPS:en har används</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Visa kärn-wakelocks</string>
-    <string name="procsuckmon_wakelock_user_apps">Kompinerade app-wakelocks (ej kärna)</string>
+    <string name="procsuckmon_wakelock_user_apps">Kombinerade app-wakelocks (ej kärna)</string>
 
     <!-- Main screen -->
       <string name="main_history_button">Historik</string>
