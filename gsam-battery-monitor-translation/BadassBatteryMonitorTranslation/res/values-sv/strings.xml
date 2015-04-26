@@ -135,7 +135,7 @@
     <string name="stats_since_charged">Sedan fulladdning</string>
     <string name="stats_since_custom">Sedan anpassad referens</string>
     <string name="stats_since_screen_off">Sedan skärmen stängdes av</string>
-    <string name="stats_since_now">Sedan nu</string>
+    <string name="stats_since_now">Från och med nu</string>
     <string name="stats_since_ago">För %1s sedan</string>
     <string name="pwer_profiles_mfg">Tillverkarens värde</string>
     <string name="pwer_profiles_saved">Nuvarande sparande värden</string>
@@ -166,12 +166,12 @@
     <string name="main_calculating">Beräknar\u2026</string>
     <string name="main_full">Laddat</string>
     <string name="main_timeremaining">Återstående tid</string>
-    <string name="main_timetofull2">Till full:</string>
-    <string name="main_timetofull_tablet2">Till full laddning:</string>
+    <string name="main_timetofull2">Till fulladdat:</string>
+    <string name="main_timetofull_tablet2">Till fullladdat:</string>
     <string name="main_timeleft2">Genomsnitt:</string>
     <string name="main_timeleft_tablet2">Genomsnittlig användning:</string>
-    <string name="main_timeleft_rolling2">Sista %1$sm:</string>
-    <string name="main_timeleft_rolling_tablet2">Sista %1$sm användning:</string>
+    <string name="main_timeleft_rolling2">Senaste %1$sm:</string>
+    <string name="main_timeleft_rolling_tablet2">Senaste %1$sm användning:</string>
     <string name="main_talktime2">Taltid:</string>
     <string name="main_temp">Temperatur: </string>
     <string name="main_voltage">Spänning: </string>
@@ -184,13 +184,13 @@
     <string name="main_health_unknown">Okänd</string>
     <string name="main_health_failed">Misslyckades</string>
     <string name="main_usage_label">Batterianvändning - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
-    <string name="main_usage_label2">Användning %1$s%% i %2$s</string>
+    <string name="main_usage_label2">Använt %1$s%% under %2$s</string>
     <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s aktiv, %3$s viloläge</string>
     <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s aktiv</string>
     <string name="main_phone_on_label">Telefon:</string>
     <string name="main_screen_on_label">Skärm:</string>
     <string name="main_phone_radio_on_label">Radio:</string>
-    <string name="main_wifi_active_label">Wifi:</string>
+    <string name="main_wifi_active_label">Wi-Fi:</string>
     <string name="main_idle_label">Enheten vaken:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Appar:</string>
@@ -216,8 +216,8 @@
     <string name="menu_enable_more_stats">Aktivera mera stats</string>
     <string name="main_share_intentchoosertitle">Dela din genomsnittliga batteritid\u2026</string>
     <string name="main_share_subject">Min genomsnittliga batteritid - GSam Battery Monitor</string>
-    <string name="main_share_msg2">Mitt %1$s %2$s batteri snittar %3$s (%4$s under aktiv användning) på en laddning. Kolla in GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg">>Mitt %1$s %2$s batteri snittar %3$s (%4$s under aktiv användning) på en laddning. Kolla in GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg2">Min %1$s %2$s batteri snittar %3$s (%4$s under aktiv användning) på en laddning. Kolla in GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg">>Min %1$s %2$s batteri snittar %3$s (%4$s under aktiv användning) på en laddning. Kolla in GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Har används %2$s (sedan laddaren togs bort)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Har används %2$s (sedan fulladdad)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Använd över %2$s (sedan anpassad referens)</string>
@@ -242,9 +242,9 @@
     <string name="main_kitkat_nostats_helper_needed2">Du kan få tillgång till mer statistik om du
         har Root-åtkomst genom att installera appen GSam Root Companion.  Detta ger dig tillgång till detaljerad
         wakelock, sensoranvändning, och ännu mer statistik.\n
-        \nOm du inte har Root, eller du inte vet vad det är, kan du ändå vara lugn.  GSam fungera
+        \nOm du inte har Root, eller du inte vet vad det är, kan du ändå vara lugn.  GSam fungerar
         alldeles utmärkt utan Root.\n
-        \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> för mer information.</string>
+        \nSe <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> för mer information.</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">Appen Root Companion är inte installerat som det ska i /system/priv-app.  Starta appen och kontrollera att den är installerad på rätt sätt.</string>
 	<string name="main_kitkat_nostats_launch_companion">Starta Root Companion</string>
 	<string name="main_kitkat_nostats_install_companion">Installera Root Companion</string>
