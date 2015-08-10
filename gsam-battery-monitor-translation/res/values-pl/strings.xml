@@ -143,8 +143,8 @@
     <string name="process_suck_mon_title_unplugged">%1$s (Od ostatniego odłączenia)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (Od pełnego naładowania)</string>
     <string name="process_suck_mon_title_customref">%1$s (Od niestandardowego odniesienia)</string>
-    <string name="procsuckmon_viewby_pwr">Widok % poboru enegrii</string>
-    <string name="procsuckmon_viewby_pwr_minforeground">Widok % enegrii (tylko użycie procesora)</string>
+    <string name="procsuckmon_viewby_pwr">Widok % poboru energii</string>
+    <string name="procsuckmon_viewby_pwr_minforeground">Widok % energii (tylko użycie procesora)</string>
     <string name="procsuckmon_viewby_cpu">Widok używania procesora</string>
     <string name="procsuckmon_viewby_cpu_minforeground">Widok CPU (tylko użycie procesora)</string>
     <string name="procsuckmon_viewby_data">Widok wykorzystania sieci</string>
