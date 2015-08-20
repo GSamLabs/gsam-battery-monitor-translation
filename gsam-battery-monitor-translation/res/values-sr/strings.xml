@@ -7,9 +7,9 @@
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Преостало време: %1$02d:%2$02d (Просечно), %3$02d:%4$02d (Последње %5$sm)</string>
     <string name="battery_status_time_left_no_running">Преостало време: %1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">Преостало време: Израчунавање - проверите касније</string>
+    <string name="battery_status_time_left_unknown">Преостало време: Израчунавање</string>
     <string name="battery_status_time_to_full">Време до пуне: %1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">Време до пуне: Израчунавање - проверите касније</string>
+    <string name="battery_status_time_to_full_unknown">Време до пуне: Израчунавање</string>
     <string name="battery_status_title">Статус батерије - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">Статус батерије - %1$s%% (%2$s) - Пуњење</string>
     <string name="battery_status_title_full">Статус батерије - %1$s%% (%2$s) - Пуна</string>
@@ -191,7 +191,7 @@
     <string name="main_wifi_active_label">Wifi Активан:</string>
     <string name="main_idle_label">Будан:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
-    <string name="main_app_usage_label">Употреба апликација:</string>
+    <string name="main_app_usage_label">Апликације:</string>
     <string name="main_app_usage_button">Коришћење апликацијама</string>
     <string name="main_android_batt_usage_button">Батерија која се користи - Уграђена</string>    
     <string name="main_android_batt_usage_failed">Немогуће покренути екран коришћења уграђене батерије...</string>
@@ -228,10 +228,10 @@
     <string name="main_header_power">Енергија</string>
     <string name="averages_since">Од %1$s</string>
     <string name="averages_header">Просечно по пуном циклусу</string>
-    <string name="main_avg_timepercharge_label2">Трајање батерије:</string>
+    <string name="main_avg_timepercharge_label2">Трајање бат.:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s Активно)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Приправност)</string>
-    <string name="main_avg_screenon_label">Укључен екран:</string>
+    <string name="main_avg_screenon_label">Укљ. екран:</string>
     <string name="main_avg_screenon_text">%1$s (%2$s Максимално)</string>
     <string name="main_avg_chargetime_label">Време пуњења:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
