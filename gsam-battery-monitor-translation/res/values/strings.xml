@@ -244,6 +244,8 @@
     <string name="main_kitkat_nostats_helper_not_installed_correctly">The Root Companion application is not installed correctly in /system/priv-app.  Please launch the application and verify it is correctly installed.</string>
 	<string name="main_kitkat_nostats_launch_companion">Launch Root Companion</string>
 	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
+	<string name="main_phone_permission_title">Grant Phone Permission</string>
+	<string name="main_phone_permission_text">GSam can track the power usage of your phone by monitoring its state and signal strength.&lt;BR/>&lt;BR/>Granting access to the &lt;B>Phone (make and manage phone calls)&lt;/B> permission will result in more accurate statistics."</string>
     
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App Detail</string>
