@@ -404,6 +404,7 @@
     <string name="dashclock_pref_show_remaining_time">Show time remaining</string>
     <string name="dashclock_pref_show_active_standby">Show active and standby times</string>
     <string name="dashclock_pref_show_temp_voltage">Show temperature and voltage</string>
+    <string name="dashclock_pref_show_screen_on_time">Show screen on time</string>
     <string name="dashclock_settings">GSam Extension Settings</string>
     
     <!-- Translations & Translators -->   
