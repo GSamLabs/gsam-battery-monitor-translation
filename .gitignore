@@ -27,3 +27,6 @@ proguard/
 
 # Log Files
 *.log
+
+# IML
+gsam-battery-monitor-translation.iml
