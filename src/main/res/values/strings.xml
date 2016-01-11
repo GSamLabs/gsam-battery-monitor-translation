@@ -246,7 +246,7 @@
 	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
 	<string name="main_phone_permission_title">Grant Phone Permission</string>
 	<string name="main_phone_permission_text">GSam can track the power usage of your phone by monitoring its state and signal strength.&lt;BR/>&lt;BR/>Granting access to the &lt;B>Phone (make and manage phone calls)&lt;/B> permission will result in more accurate statistics."</string>
-    
+
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App Detail</string>
     <string name="process_suck_mon_title_prefix_wifi">Wifi Detail</string>
@@ -332,6 +332,15 @@
     <string name="appdetail_kb">%.2f KB</string>   
     <string name="appdetail_totaltime">Total Time (including awake):</string>
     <string name="appdetail_select_package">Select Package To Manage</string>
+    <string name="appdetail_heldawake_title">Held Awake / Doze</string>
+    <string name="appdetail_deep_sleep_label">Deep Sleep - CPU Freq 0:</string>
+    <string name="appdetail_doze_label">Doze (% Screen Off):</string>
+    <string name="appdetail_doze_num_label">Doze Sessions:</string>
+    <string name="appdetail_doze_maint_label">Doze Maintenance:</string>
+    <string name="appdetail_doze_maint_value">%1$s (%2$d times)</string>
+    <string name="appdetail_discharge_screen_off_label">Discharge Screen Off:</string>
+    <string name="appdetail_discharge_screen_off_value">%1$d%% total, %2$d%% doze</string>
+    <string name="appdetail_avg_doze_label">Doze Time:</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">What\'s New</string>
@@ -355,6 +364,7 @@
     <string name="main_chart_showother">Others</string>
     <string name="main_chart_showradio">Phone Signal</string>
     <string name="main_chart_showrate">Rate of Change</string>
+    <string name="main_chart_showcpu">CPU</string>
     <string name="chart_menu_batthistory">Battery History Chart</string>
     <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
     <string name="notification_chargecomplete">Charge Complete</string>
@@ -382,11 +392,14 @@
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Unknown</string>
     <string name="chart_wifi">Wifi</string>
+    <string name="chart_cpu_mhz">CPU Avg Freq (GHz)</string>
+    <string name="chart_cpu_util">CPU Util %</string>
+    <string name="chart_idle">Doze</string>
     
     <!-- About -->
     <string name="about_app_name">About GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2015</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2016</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Translations:</string>
