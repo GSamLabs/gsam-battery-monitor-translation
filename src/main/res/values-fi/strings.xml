@@ -6,7 +6,7 @@
 
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Aikaa jäljellä: %1$02d:%2$02d (Keskiarvo), %3$02d:%4$02d (Edellinen %5$sm)</string>
-    <string name="battery_status_time_left_no_running">Aikiaa jäljellä: %1$02d:%2$02d</string>
+    <string name="battery_status_time_left_no_running">Aikaa jäljellä: %1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">Aikaa jäljellä: Lasketaan - palaa takaisin myöhemmin</string>
     <string name="battery_status_time_to_full">Aikaa täyteen lataukseen: %1$02d:%2$02d</string>
     <string name="battery_status_time_to_full_unknown">Aikaa täyteen lataukseen: Lasketaan - palaa takaisin myöhemmin</string>
