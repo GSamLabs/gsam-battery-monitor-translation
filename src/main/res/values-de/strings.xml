@@ -18,13 +18,13 @@
     <string name="preferences_general_category">Allgemeine Einstellungen</string>
     <string name="preferences_theme_category">Aussehen</string>
     <string name="preferences_alarm_category">Alarme</string>
-    <string name="preferences_startup_service_title">Den Gerätestart beobachten</string>
+    <string name="preferences_startup_service_title">Beim Gerätestart mitstarten</string>
     <string name="preferences_startup_service_sum">Beim Hochfahren starten</string>
     <string name="preferences_temperature_title">Temperatur in Celsius</string>
     <string name="preferences_show_notification_icon_title">Zeige Benachrichtigungssymbol</string>
     <string name="preferences_show_notification_icon_sum">Zeige % Benachrichtigungssymbol in der Statusleiste</string>
     <string name="preferences_show_notification_title">Nur Benachrichtigung zeigen</string>
-    <string name="preferences_show_notification_sum">Benachrichtigung ohne Symbol anzeigen</string>
+    <string name="preferences_show_notification_sum">Benachrichtigung ohne Symbol zeigen</string>
     <string name="preferences_alarm_chargecomplete_title">Akku geladen</string>
     <string name="preferences_alarm_chargecomplete_sum">Benachrichtigung, wenn Akku voll geladen ist</string>
     <string name="preferences_alarm_lowbatt_title">Akku fast leer</string>
@@ -57,7 +57,7 @@
     <string name="preferences_show_charging_animation_title">Animation während des Ladens anzeigen</string> 
     <string name="preferences_widget_color_screen_title">Akku Widget Einstellungen</string>
     <string name="preferences_app_theme_title">Dunkles Design anwenden</string>
-    <string name="preferences_app_theme_sum">Nutze ein dunkles Design für die App-Bildschirme</string>
+    <string name="preferences_app_theme_sum">Nutze ein dunkles Design</string>
     <string name="preferences_time_left_title">Zeitspanne zur Berechnung</string>
     <string name="preferences_time_left_sum">Verbleibende Laufzeit wird über diese Zeitspanne berechnet.</string>
     <string name="preferences_profiles_screen_title">Geräte Energie Profile</string>
@@ -104,7 +104,7 @@
     <string name="preferences_widget_color_empty_title">Farbe bei 0%</string>
     <string name="preferences_widget_color_alpha_title">Farb-Transparenz</string>
     <string name="preferences_widget_color_preview_title">Prozent Vorschau</string>
-    <string name="preferences_widget_color_preview_sum">Lege den Wert der Prozentzahl in der unten angezeigten Vorschau aus.</string>
+    <string name="preferences_widget_color_preview_sum">Wähle den Wert der Prozentzahl in der unten angezeigten Vorschau aus.</string>
     <string name="preferences_widget_color_screen_sum">Lege den Farbverlauf der Akku Ansicht und der Widget Einstellugnen fest</string>
     <string name="preferences_widget_color_category">Farben</string>
     <string name="preferences_widget_general_category">Allgemein</string>
@@ -118,10 +118,10 @@
     <string name="icon_themes_default">System Standard</string>   
     <string name="icon_themes_getmore">Lade mehr Designs</string>
     <string name="time_left_calc_dontshow">Zeitspanne nicht anzeigen</string>
-    <string name="time_left_calc_last5">Letze 5 Minuten</string>
-    <string name="time_left_calc_last15">Letze 15 Minuten</string>
-    <string name="time_left_calc_last30">Letze 30 Minuten</string>
-    <string name="time_left_calc_last60">Letze 60 Minuten</string>
+    <string name="time_left_calc_last5">Letzen 5 Minuten</string>
+    <string name="time_left_calc_last15">Letzen 15 Minuten</string>
+    <string name="time_left_calc_last30">Letzen 30 Minuten</string>
+    <string name="time_left_calc_last60">Letzen 60 Minuten</string>
     <string name="stats_since_unplugged">Seit der letzten USB Verbindung</string>
     <string name="stats_since_charged">Seit dem letzten vollständigen Aufladen</string>
     <string name="stats_since_custom">Seit eigenem Zeitpunkt</string>
@@ -136,15 +136,15 @@
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Seit der letzten USB Verbindung)</string>
     <string name="process_suck_mon_title_fullcharge">%1$s (Seit letztem vollständigen Aufladen)</string>
-    <string name="process_suck_mon_title_customref">%1$s (Seit angepassten Zeitpunkt )</string>
+    <string name="process_suck_mon_title_customref">%1$s (Seit angepasstem Zeitpunkt )</string>
     <string name="procsuckmon_viewby_pwr">Zeige % verbrauchter Energie</string>
     <string name="procsuckmon_viewby_pwr_minforeground">Zeige % Energie (nur Hintergrund CPU)</string>
-    <string name="procsuckmon_viewby_cpu">Zeige aktive CPU Minuten</string>
+    <string name="procsuckmon_viewby_cpu">Zeige CPU-Zeit</string>
     <string name="procsuckmon_viewby_cpu_minforeground">Zeige CPU (nur Hintergrund CPU)</string>
     <string name="procsuckmon_viewby_data">Zeige verbrauchte Netzwerkdaten</string>
     <string name="procsuckmon_viewby_sensor">Zeige genutzte Sensorzeit</string>
     <string name="procsuckmon_viewby_awake">Zeige aktiv gehaltene Zeit</string>
-    <string name="procsuckmon_viewby_wake_times">Zeige die Anzahl des Geräte Aufweckens</string>
+    <string name="procsuckmon_viewby_wake_times">Zeige die Anzahl des Aufweckens</string>
     <string name="procsuckmon_viewby_gps">Zeige genutzte GPS Zeit</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Zeige Kernel Wakelocks</string>
 
@@ -174,7 +174,7 @@
     <string name="main_usage_label">Akkunutzung - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_phone_on_label">Telefon:</string>
     <string name="main_screen_on_label">Bildschirm:</string>
-    <string name="main_phone_radio_on_label">Telefon Radio:</string>
+    <string name="main_phone_radio_on_label">Mobilfunk:</string>
     <string name="main_wifi_active_label">WLAN aktiv:</string>
     <string name="main_idle_label">Aktiv gehalten:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
@@ -183,7 +183,7 @@
     <string name="main_android_batt_usage_button">Akkuinfo - System</string>    
     <string name="main_android_batt_usage_failed">Erstellung des Bildschirms zum System Akkuinfo fehlgeschlagen...</string>
     <string name="main_tools_menu">Mehr</string>
-    <string name="main_menu_charts">Charts</string>
+    <string name="main_menu_charts">Tabellen</string>
     <string name="menu_whatsnew">Was ist neu?</string>
     <string name="about_about">Über</string>
     <string name="main_stat_ref_label">* Basiert auf persönlichen Einstellungen, erstellt vor %1s</string>
@@ -196,8 +196,8 @@
     <string name="menu_review">Bewerte GSam Battery Monitor</string>
     <string name="main_share_intentchoosertitle">Meine durchschnittliche Akkulaufzeit teilen\u2026</string>
     <string name="main_share_subject">durchschnittliche Akkulaufzeit - GSam Battery Monitor</string>
-    <string name="main_share_msg2">My %1$s %2$s Akku Durchschnitt %3$s (%4$s aktive Nutzung) bei einer Ladung. Besuche GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg">My %1$s %2$s Akku Durchschnitt %3$s bei einer Ladung. Besuche GSam Battery Monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_share_msg2">Mein %1$s %2$s Akku Durchschnitt %3$s (%4$s aktive Nutzung) bei einer Ladung. Besuche GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg">Mein %1$s %2$s Akku Durchschnitt %3$s bei einer Ladung. Besuche GSam Battery Monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_avg_timepercharge_label">Durchschnittliche Akkulaufzeit: %1$s</string>
     <string name="main_tablet_battusage_unplug">%1$s%% verbraucht in %2$s (seit letzter USB Verbindung)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% verbraucht in %2$s (seit letzter vollen Akkuladung)</string>
@@ -233,7 +233,7 @@
     <string name="appdetail_details_adjust_wifi">Schalte WLAN  über den Button oben ab, wenn es nicht genutzt wird.</string>
     <string name="appdetail_details_adjust_wifi_button">WLAN Einstellungen</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Aufrufen der WLAN Einstellungen fehlgeschlagen</string>
-    <string name="appdetail_details_adjust_screen">Verringere  über den Button oben die Bildschirmhelligkeit und den Ruhezustand.</string>
+    <string name="appdetail_details_adjust_screen">Verringere über den Button oben die Bildschirmhelligkeit und den Ruhezustand.</string>
     <string name="appdetail_details_adjust_screen_button">Bildschirmeinstellungen</string>
     <string name="appdetail_details_adjust_screen_failedintent">Aufrufen der Bildschirmeinstellungen fehlgeschlagen</string>
     <string name="detail_menu_export">Exportieren</string>
@@ -321,11 +321,11 @@
     <string name="chart_gps">GPS</string>
     <string name="chart_high">Hoch</string>
     <string name="chart_incall">Telefoniert</string>
-    <string name="chart_low">Low</string>
+    <string name="chart_low">Niedrig</string>
     <string name="chart_max">Max</string>
-    <string name="chart_med">Med</string>
+    <string name="chart_med">Mittel</string>
     <string name="chart_screen">Bildschirm</string>
-    <string name="chart_signal">Telefon Signal</string>
+    <string name="chart_signal">Mobilfunk</string>
     <string name="chart_tempc">Akku Temperatur \u00B0C</string>
     <string name="chart_tempf">Akku Temperatur \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
@@ -344,14 +344,14 @@
     <string name="lang_default">Standard System Sprache</string>        
     <string name="translator_anonymous">Anonym</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_de">Jan Fortein</string>        
+    <string name="translator_de">Jan Fortein, Marcus Barkhahn</string>        
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Ist dein Bildschirm zu hell?</string>
     <string name="appdetail_details_adjust_screen_market_bsd_msg">Wenn du Probleme hast nachts zu lesen, weil dein Bildschirm zu hell ist, schau dir GSam Screen Dimmer an. Es lässt dich deine Bildschirmhelligkeit unter den normal erlaubten Wert reduzieren, für ein angenehmeres Lesen bei Nacht!\n\nKeine Sorge, diese Meldung wird dir nicht erneut angezeigt.</string>
-    <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
+    <string name="preferences_send_anon_stats_buypro_title">Pro kaufen</string>
     <string name="preferences_send_anon_stats_buypro_msg">Die kostenlose Version von Battery Monitor lässt dich die Werbung nicht abschalten, wenn du nicht die anonymen Nutzungsstatitiken erlaubst.\n\nDie Pro Version enthält keine Werbung und lässt dich die anonymen Nutzungsstatitiken abschalten.</string>
-    <string name="menu_seeotherapps">Andere Apps von GSam Labs</string>
+    <string name="menu_seeotherapps">Mehr Apps von GSam Labs</string>
     <string name="menu_gopro">Upgrade zur Pro Version</string>
     <string name="menu_gopro_nook">Kaufen</string>
     <string name="menu_goprokindle">Upgrade auf die Kindle Fire Edition</string>
