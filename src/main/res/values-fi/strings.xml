@@ -5,14 +5,14 @@
     <!-- string name="app_name">GSam Battery Monitor</string -->
 
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">Aikaa jäljellä: %1$02d:%2$02d (keskiarvo), %3$02d:%4$02d (edellinen %5$sm)</string>
-    <string name="battery_status_time_left_no_running">Aikaa jäljellä: %1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">Aikaa jäljellä: Lasketaan - palaa takaisin myöhemmin</string>
-    <string name="battery_status_time_to_full">Aikaa täyteen lataukseen: %1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">Aikaa täyteen lataukseen: Lasketaan - palaa takaisin myöhemmin</string>
+    <string name="battery_status_time_left">Jäljellä: %1$02d:%2$02d (keskimäärin), %3$02d:%4$02d (edellinen %5$sm)</string>
+    <string name="battery_status_time_left_no_running">Jäljellä: %1$02d:%2$02d</string>
+    <string name="battery_status_time_left_unknown">Jäljellä: lasketaan - palaa myöhemmin</string>
+    <string name="battery_status_time_to_full">Täyteen lataukseen: %1$02d:%2$02d</string>
+    <string name="battery_status_time_to_full_unknown">Täyteen lataukseen: lasketaan - palaa myöhemmin</string>
     <string name="battery_status_title">Akun tila - %1$s%% (%2$s)</string>
-    <string name="battery_status_title_charging">Akun tila - %1$s%% (%2$s) - Ladataan</string>
-    <string name="battery_status_title_full">Akun tila - %1$s%% (%2$s) - Täynnä</string>
+    <string name="battery_status_title_charging">Akun tila - %1$s%% (%2$s) - ladataan</string>
+    <string name="battery_status_title_full">Akun tila - %1$s%% (%2$s) - täynnä</string>
 
     <!-- Preferences -->
     <string name="preferences_general_category">Yleisasetukset</string>
@@ -63,16 +63,16 @@
     <string name="preferences_profiles_screen_title">Laitteen virtaprofiilit</string>
     <string name="preferences_power_profiles_use_stock_title">Ota oma profiili käyttöön</string>
     <string name="preferences_power_profiles_edit_title">Muokkaa virtaprofiilia</string>
-    <string name="preferences_profiles_screen_summary">Edistynyt - Muokkaa virrankäyttöprofiileja, joita käytetään kaikkien arvojen laskennassa</string>
+    <string name="preferences_profiles_screen_summary">Edistynyt - muokkaa virrankäyttöprofiileja, joita käytetään kaikkien arvojen laskennassa</string>
     <string name="preferences_power_per_percent_reset_title">Nollaa jäljellä olevan ajan arviot</string>
-    <string name="preferences_power_per_percent_reset_summary">Nollaa jäljellä olevan ajan arviot. Käytä tätä, jos jäljellä olevan ajan arvio ei ole tarkka. Nykyisellään %1$s / prosentti laskettuna %2$01d prosentista</string>
+    <string name="preferences_power_per_percent_reset_summary">Nollaa jäljellä olevan ajan arviot. Käytä tätä, jos jäljellä olevan ajan arvio ei ole tarkka. Nykyisellään %1$s/prosentti laskettuna %2$01d prosentista.</string>
     <string name="preferences_power_per_percent_dlgtext">Pilkulla eroteltu muoto POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED. Tätä arvoa päivitetään jatkuvasti - mitä pidempään suoritetaan, sitä tarkemmaksi muodostuu. Kun muutat virtaprofiilin asetuksia, tämä pitäisi tyhjentää ja antaa sovelluksen luoda se uudelleen.</string>   
     <string name="preferences_power_per_percent_reset">Nollaa</string>
     <string name="preferences_time_per_percent_title">Nollaa purkautumisajan historia</string>
     <string name="preferences_time_per_percent_unkown">tuntematon</string>
-    <string name="preferences_time_per_percent_summary">Nollaa laitteesi täyden lataussyklin laskennallinen arvo. Nykyisellään %1$s (%2$sm / prosenttia laskettuna %3$01d prosentista)</string>
-    <string name="preferences_stats_since_title">Näytä tilastot lähtien</string>
-    <string name="preferences_stats_since_summary">Näytä tilastot edellisestä latauksen lopettamisesta tai täydestä latauksesta lähtien</string>
+    <string name="preferences_time_per_percent_summary">Nollaa laitteesi täyden lataussyklin laskennallinen arvo. Nykyisellään %1$s (%2$sm/prosentti laskettuna %3$01d prosentista)</string>
+    <string name="preferences_stats_since_title">Näytä tilastot alkaen</string>
+    <string name="preferences_stats_since_summary">Näytä tilastot edellisestä latauksen loppumisesta tai täydestä latauksesta alkaen</string>
     <string name="preferences_power_profiles_edit_summary">Muokkaa virtaprofiiliasi. Muokattuja arvoja käytetään ainoastaan oman profiilin ollessa käytössä.</string>
     <string name="profedit_title">Muokkaa alla olevia arvoja muuttaaksesi jäljellä olevan ajan ja sovellusten akkukäytön laskentaa</string>
     <string name="profedit_load_basedon">Lataa tiedot uudelleen perustuen:</string>
@@ -84,11 +84,11 @@
     <string name="preferences_clear_chart_history_toast">Historiatiedosto tyhjennetty\u2026</string>
     <string name="preferences_clear_chart_history_alert">Oletko varma?</string>
     <string name="preferences_clear_history_stats_title">Nollaa akkutilastot</string>
-    <string name="preferences_clear_history_stats_sum">Napsauta tästä nollataksesi akun tilastot. Tämä poistaa kaiken tilastohistorian. Se vastaa täyttä latausta ja latauksesta poistoa. Kaikki tilastot nollataan suhteessa tähän ajankohtaan, joten käytä varoen!</string>
+    <string name="preferences_clear_history_stats_sum">Napsauta tästä nollataksesi akun tilastot. Tämä poistaa kaiken tilastohistorian. Se vastaa täyttä latausta ja latauksen loppumista. Kaikki tilastot nollataan suhteessa tähän ajankohtaan, joten käytä varoen!</string>
     <string name="preferences_clear_history_stats_toast">Kaikki akkutilastot tyhjennetty\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Tilastojen nollaus epäonnistui - tämä laite ei tue tätä toimintoa\u2026</string>
-    <string name="preferences_custom_ref">Akkuhistoria perustuu muokattuun vertailuajankohtaan, joka luodaan nyt (tai kun laite poistetaan latauksesta). Tätä voidaan käyttää akkukäytön määritykseen edellisen latauksesta poiston tai täyteen latauksen sijaan.</string>
-    <string name="preferences_custom_ref_plugged">Laitetta ladataan parhaillaan - voit luoda oman vertailuajankohdan, kun laite on poistettu latauksesta.</string>
+    <string name="preferences_custom_ref">Akkuhistoria perustuu muokattuun vertailuajankohtaan, joka luodaan nyt (tai kun laitteen lataus loppuu). Tätä voidaan käyttää akkukäytön määritykseen edellisen latauksen lopun tai täyteen latauksen sijaan.</string>
+    <string name="preferences_custom_ref_plugged">Laitetta ladataan parhaillaan - voit luoda oman vertailuajankohdan, kun laitteen lataus loppuu.</string>
     <string name="preferences_send_anon_stats_title">Salli nimetön käyttötilastointi</string>
     <string name="preferences_send_anon_stats_sum">Salli nimettömien käyttötilastojen lähetys. Yksilöiviä tai yksityisiä tietoja ei lähetetä.</string>
     <string name="preferences_show_ads_title">Näytä mainokset</string>
@@ -100,12 +100,12 @@
     <string name="preferences_power_profiles_include_sensors_dlg_title">Nollaa virta prosenttia kohti</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">Tämä nollaa laskennan virran prosenttia kohti. Haluatko jatkaa?</string>
     <string name="preferences_widget_dialog_title">Valitse väri</string>
-    <string name="preferences_widget_color_full_title">Väri 100 %:ssa</string>
-    <string name="preferences_widget_color_middle_title">Väri 50 %:ssa</string>
-    <string name="preferences_widget_color_empty_title">Väri 0 %:ssa</string>
+    <string name="preferences_widget_color_full_title">Väri 100%:ssa</string>
+    <string name="preferences_widget_color_middle_title">Väri 50%:ssa</string>
+    <string name="preferences_widget_color_empty_title">Väri 0%:ssa</string>
     <string name="preferences_widget_color_alpha_title">Värin läpinäkyvyys</string>
-    <string name="preferences_widget_color_preview_title">Prosentin esikatselu</string>
-    <string name="preferences_widget_color_preview_sum">Aseta prosenttiarvo nähdäksesi akun esikatselun alla.</string>
+    <string name="preferences_widget_color_preview_title">Akun varauksen esikatselu</string>
+    <string name="preferences_widget_color_preview_sum">Aseta akun varausprosentti nähdäksesi esikatselun alla.</string>
     <string name="preferences_widget_color_screen_sum">Aseta akkunäkymän väri ja hallitse pienoissovelluksen asetuksia</string>
     <string name="preferences_widget_color_category">Värit</string>
     <string name="preferences_widget_general_category">Yleinen</string>
@@ -116,7 +116,7 @@
     <string name="preferences_disable_animation_title">Poista animaatiotehosteet käytöstä</string>
     <string name="preferences_disable_animation_sum">Poistaa näytön animoinnit käytöstä hitaammilla laitteilla.</string>
     <string name="preferences_contains_telephony_support_title">Sisältää puhelimen tai modeemin</string>
-    <string name="preferences_contains_telephony_support_sum">Jotkin laitteet raportoivat puhelinliikenteen (puhelin / 3G / 4G / LTE) väärin - varsinkin tabletit. Muokkaa tätä ainoastaan, jos raportoidut arvot eivät ole oikein. Raportoitu arvo: %1s</string>
+    <string name="preferences_contains_telephony_support_sum">Jotkin laitteet raportoivat puhelinliikenteen (puhelin/3G/4G/LTE) väärin - varsinkin tabletit. Muokkaa tätä ainoastaan, jos raportoidut arvot eivät ole oikein. Raportoitu arvo: %1s</string>
     
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Ympyrä</string>   
@@ -129,11 +129,11 @@
     <string name="time_left_calc_last15">Viimeiset 15 minuuttia</string>
     <string name="time_left_calc_last30">Viimeiset 30 minuuttia</string>
     <string name="time_left_calc_last60">Viimeiset 60 minuuttia</string>
-    <string name="stats_since_unplugged">Viimeisestä latauksesta poistosta</string>
-    <string name="stats_since_charged">Viimeisestä täydestä latauksesta</string>
-    <string name="stats_since_custom">Viimeisestä omasta vertailuajasta</string>
-    <string name="stats_since_screen_off">Viimeisestä näytön sammumisesta</string>
-    <string name="stats_since_now">Tästä lähtien</string>
+    <string name="stats_since_unplugged">Latauksen loppumisesta</string>
+    <string name="stats_since_charged">Täydestä latauksesta</string>
+    <string name="stats_since_custom">Omasta vertailuajasta</string>
+    <string name="stats_since_screen_off">Näytön sammumisesta</string>
+    <string name="stats_since_now">Tästä alkaen</string>
     <string name="stats_since_ago">Alkaen %1s sitten</string>
     <string name="pwer_profiles_mfg">Valmistajan arvot</string>
     <string name="pwer_profiles_saved">Nykyiset tallennetut arvot</string>
@@ -143,13 +143,13 @@
     <string name="process_suck_mon_android_system">Järjestelmä (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% akusta käyttänyt:</string>
     <string name="process_suck_mon_nodata">Ei tietoa saatavilla. Mikään sovellus ei ole käyttänyt määritettyä resurssia laitteen edellisen lataussyklin aikana.</string>
-    <string name="process_suck_mon_title_prefix">Sovellusten akkukäyttö - %1$s</string>
+    <string name="process_suck_mon_title_prefix">Sovelluskäyttö - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
     <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
     <string name="procsuckmon_viewby_pwr">Näytä virrankäyttö-%</string>
-    <string name="procsuckmon_viewby_pwr_minforeground">Näytä virrankäyttö-% (Vain tausta-CPU)</string>
+    <string name="procsuckmon_viewby_pwr_minforeground">Näytä virrankäyttö-% (vain tausta-CPU)</string>
     <string name="procsuckmon_viewby_cpu">Näytä käytetyt CPU-minuutit</string>
-    <string name="procsuckmon_viewby_cpu_minforeground">Näytä käytetyt CPU-minuutit (Vain tausta-CPU)</string>
+    <string name="procsuckmon_viewby_cpu_minforeground">Näytä käytetyt CPU-minuutit (vain tausta-CPU)</string>
     <string name="procsuckmon_viewby_data">Näytä käytetty verkkodata</string>
     <string name="procsuckmon_viewby_sensor">Näytä käytetty anturiaika</string>
     <string name="procsuckmon_viewby_awake">Näytä hereilläoloaika</string>
@@ -163,12 +163,12 @@
     <string name="main_preferences_button">Asetukset</string>
     <string name="main_calculating">Lasketaan\u2026</string>
     <string name="main_full">Täynnä</string>
-    <string name="main_timeremaining">Aikaa jäljellä</string>
+    <string name="main_timeremaining">Jäljellä</string>
     <string name="main_timetofull2">Täyteen:</string>
     <string name="main_timetofull_tablet2">Täyteen lataukseen:</string>
-    <string name="main_timeleft2">Keskiarvo:</string>
+    <string name="main_timeleft2">Keskimäärin:</string>
     <string name="main_timeleft_tablet2">Keskimääräinen käyttö:</string>
-    <string name="main_timeleft_rolling2">Vimeiset %1$sm:</string>
+    <string name="main_timeleft_rolling2">Viimeinen %1$sm:</string>
     <string name="main_timeleft_rolling_tablet2">Viimeisen %1$sm käyttö:</string>
     <string name="main_talktime2">Puheaika:</string>
     <string name="main_temp">Lämpötila: </string>
@@ -192,8 +192,8 @@
     <string name="main_idle_label">Hereillä:</string>
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Sovelluskäyttö:</string>
-    <string name="main_app_usage_button">ASovellusten akkukäyttö</string>
-    <string name="main_android_batt_usage_button">Akkukäyttö - Sisäänrakennettu</string>    
+    <string name="main_app_usage_button">Sovelluskäyttö</string>
+    <string name="main_android_batt_usage_button">Akkukäyttö - sisäänrakennettu</string>    
     <string name="main_android_batt_usage_failed">Sisäänrakennetun akkukäyttönäytön käynnistys epäonnistui...</string>
     <string name="main_tools_menu">Lisää</string>
     <string name="main_menu_charts">Kaaviot</string>
@@ -207,17 +207,17 @@
     <string name="menu_help">Apua</string>
     <string name="menu_send_debug_data">Lähetä virheraportti</string>    
     <string name="menu_send_debug_data_dlg_title">Lähetä virheraportti käyttäen:</string>
-    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Virheraportti</string>  
+    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - virheraportti (error report)</string>  
     <string name="menu_send_debug_data_body">Syötä tiedot kohtaamastasi virheestä (englanniksi):\n\n</string> 
     <string name="menu_review">Arvostele GSam Battery Monitor</string>
     <string name="menu_enable_more_stats">Ota lisää tilastoja käyttöön</string>
     <string name="main_share_intentchoosertitle">Jaa keskimääräinen akunkestoni\u2026</string>
     <string name="main_share_subject">Keskimääräinen akunkesto - GSam Battery Monitor</string>
-    <string name="main_share_msg2">Oma %1$s %2$s -akkuni kestää keskimäärin %3$s (%4$s aktiivikäyttöä) yhdellä latauksella. Tutustu GSam Battery Monitoriin: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg2">Oma %1$s %2$s -akkuni kestää keskimäärin %3$s (%4$s aktiivikäyttöä) yhdellä latauksella. Tutustu GSam Battery Monitoriin: - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_share_msg">Oma %1$s %2$s -akkuni kestää keskimäärin %3$s yhdellä latauksella. Tutustu GSam Battery Monitoriin osoitteessa - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_tablet_battusage_unplug">%1$s%% käytetty %2$s (Latauksesta poistosta)</string>
-    <string name="main_tablet_battusage_fullcharge">%1$s%% käytetty %2$s (Täydestä latauksesta)</string>
-    <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Omasta vertailuajankohdasta)</string>
+    <string name="main_tablet_battusage_unplug">%1$s%% käytetty %2$s (latauksen loppumisesta)</string>
+    <string name="main_tablet_battusage_fullcharge">%1$s%% käytetty %2$s (täydestä latauksesta)</string>
+    <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (omasta vertailuajankohdasta)</string>
     <string name="main_tablet_active_usage">Aktiivinen (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">Valmiustila (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">Arvostele GSam Battery Monitor</string>
@@ -226,15 +226,15 @@
     <string name="main_header_type">Tyyppi</string>
     <string name="main_header_time">Aika</string>
     <string name="main_header_power">Virta</string>
-    <string name="averages_since">Lähtien %1$s</string>
-    <string name="averages_header">Keskiarvot täyttä latausta kohti</string>
+    <string name="averages_since">Alkaen %1$s</string>
+    <string name="averages_header">Täyden latauksen keskiarvot</string>
     <string name="main_avg_timepercharge_label2">Akkukesto:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s aktiivinen)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s valmiustila)</string>
     <string name="main_avg_screenon_label">Näyttö päällä:</string>
-    <string name="main_avg_screenon_text">%1$s (%2$s Maks.)</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s maks.)</string>
     <string name="main_avg_chargetime_label">Latausaika:</string>
-    <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
+    <string name="main_avg_chargetime_text">%1$s AC/%2$s USB</string>
     <string name="main_kitkat_nostats_title2">Ota käyttöön lisää tilastoja Root Companion -sovelluksella</string>
     <string name="main_kitkat_nostats_helper_needed2">Voit ottaa käyttöön lisää tilastoja, jos sinulla
         on root-oikeudet ja asennat GSam Root Companion -sovelluksen. Tämä mahdollistaa pääsyn tarkkoihin
@@ -270,26 +270,26 @@
     <string name="appdetail_details_button">Hallitse</string>
     <string name="appdetail_details_button_wakelocks">Googlaa minut</string>    
     <string name="appdetail_details_adjustpower">Virransäästövinkki</string>
-    <string name="appdetail_details_adjust_wifi">Sammuta Wifi yllä olevalla wifi-asetuspainikkeella, kun et käytä sitä.</string>
-    <string name="appdetail_details_adjust_wifi_button">Wifi -asetukset</string>
+    <string name="appdetail_details_adjust_wifi">Sammuta Wifi yllä olevalla wifi-asetukset -painikkeella, kun et käytä sitä.</string>
+    <string name="appdetail_details_adjust_wifi_button">Wifi-asetukset</string>
     <string name="appdetail_details_adjust_wifi_failedintent">Wifi-asetuksia ei voi käynnistää</string>
-    <string name="appdetail_details_adjust_screen">Himmennä näytön kirkkautta ja lyhennä sammumisaikaa yllä olevalla näyttöasetuspainikkeella.</string>
-    <string name="appdetail_details_adjust_screen_button">Näyttöasetukset</string>
-    <string name="appdetail_details_adjust_screen_failedintent">Näyttöasetuksia ei voi käynnistää</string>
+    <string name="appdetail_details_adjust_screen">Himmennä näytön kirkkautta ja lyhennä sammumisaikaa yllä olevalla näytön asetukset -painikkeella.</string>
+    <string name="appdetail_details_adjust_screen_button">Näytön asetukset</string>
+    <string name="appdetail_details_adjust_screen_failedintent">Näytön asetuksia ei voi käynnistää</string>
     <string name="detail_menu_export">Vie</string>
     <string name="detail_menu_export_dlg_title">Vie näytön (teksti) tiedot käyttäen</string>
     <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Vie tiedot</string>    
     <string name="appdetail_appuid">Sovelluksen UID:</string>  
     <string name="appdetail_audio">Äänet päällä:</string>  
     <string name="appdetail_bright">Kirkas:</string>  
-    <string name="appdetail_bytesrec">Tavua vastaanotettu:</string>  
-    <string name="appdetail_bytessent">Tavua lähetetty:</string>  
+    <string name="appdetail_bytesrec">Vastaanotettu:</string>  
+    <string name="appdetail_bytessent">Lähetetty:</string>  
     <string name="appdetail_cpu">CPU-käyttö:</string>  
     <string name="appdetail_cpu_backgroundonly">CPU-käyttö (vain taustalla):</string>  
     <string name="appdetail_dark">Tumma:</string>  
     <string name="appdetail_data_enabled">Data käytössä:</string>  
     <string name="appdetail_dim">Himmennys:</string>  
-    <string name="appdetail_discharge_whileonoff">Pura, kun päällä/pois päältä:</string>  
+    <string name="appdetail_discharge_whileonoff">Purkautuminen päällä/pois päältä:</string>  
     <string name="appdetail_gps">GPS:</string>  
     <string name="appdetail_high">Korkea - %s:</string>
     <string name="appdetail_keepawake">Pidä hereillä:</string>  
@@ -298,16 +298,16 @@
     <string name="appdetail_med">Keskitaso - %s:</string>
     <string name="appdetail_medium">Keskitaso:</string>  
     <string name="appdetail_numwakes">Laitteen herätysten määrä:</string>  
-    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Virta</string>
-    <string name="appdetail_pct_power_nospace">% Virta</string>
-    <string name="appdetail_pct_time">% Aika</string>
+    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ %-virta</string>
+    <string name="appdetail_pct_power_nospace">%-virta</string>
+    <string name="appdetail_pct_time">%-aika</string>
     <string name="appdetail_phoneon">Puhelimen radio päällä:</string>  
     <string name="appdetail_pwr_sysdata">Järjestelmädatan virta:</string>  
-    <string name="appdetail_received">Vastaanotettu:</string>  
-    <string name="appdetail_received_wifimobile">Vastaanotettu (wifi/mobiili):</string> 
+    <string name="appdetail_received">Vastaanotto:</string>  
+    <string name="appdetail_received_wifimobile">Vastaanotto (wifi/mobiili):</string> 
     <string name="appdetail_scanning">Etsitään signaalia:</string>  
     <string name="appdetail_screen_brightness">Näytön kirkkaus:</string>  
-    <string name="appdetail_screenon">Näytä päällä:</string>  
+    <string name="appdetail_screenon">Näyttö päällä:</string>  
     <string name="appdetail_sensor_accelerometer">Kiihtyvyysanturi:</string>  
     <string name="appdetail_sensor_gravity">Painovoima:</string>  
     <string name="appdetail_sensor_gyroscope">Gyroskooppi:</string>  
@@ -320,8 +320,8 @@
     <string name="appdetail_sensor_relhum">Suhteellinen kosteus:</string>  
     <string name="appdetail_sensor_rotvector">Pyörimisvektori:</string>  
     <string name="appdetail_sensor_temp">Lämpötila:</string>  
-    <string name="appdetail_sent">Lähetetty:</string>  
-    <string name="appdetail_sent_wifimobile">Lähetetty (wifi/mobiili):</string>  
+    <string name="appdetail_sent">Lähetys:</string>  
+    <string name="appdetail_sent_wifimobile">Lähetys (wifi/mobiili):</string>  
     <string name="appdetail_signal_stregth">Signaalin vahvuus:</string>
     <string name="appdetail_total_appssystem">Yhteensä (sovellukset/järjestelmä):</string> 
     <string name="appdetail_video">Video päällä:</string>  
@@ -355,7 +355,7 @@
     <string name="error">Tapahtui virhe</string>
     
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">lue akkutilastot</string>
+    <string name="permlab_batteryStats">Lue akkutilastot</string>
     <string name="permdesc_batteryStats">Sallii sovelluksen lukea nykyisen matalan tason
         akun käyttötiedot. Saattaa sallia sovelluksen löytää yksityiskohtaisia tietoja
         sovellustesi käytöstä.</string>
@@ -410,8 +410,8 @@
     <string name="dashclock_active_standby">%1$s aktiivinen, %2$s valmiustila</string>
     <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
     <string name="dashclock_delta_per_hour_short_full">Täynnä</string>
-    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Ladataan</string>  
-    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Puretaan</string>  
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - ladataan</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - puretaan</string>  
     <string name="dashclock_to_empty">%1$s tyhjäksi</string>  
     <string name="dashclock_to_full">%1$s täyteen</string>
     <string name="dashclock_pref_show_used">Näytä käytetty määrä</string>
@@ -433,7 +433,7 @@
     <string name="appdetail_details_adjust_screen_market_bsd_msg">Jos sinulla on vaikeuksia lukea iltaisin, koska näyttösi on liian kirkas, tutustu GSam Screen Dimmeriin. Sovellus sallii sinun pienentää näytön kirkkautta normaalia himmeämmäksi tehden iltalukemisesta miellyttävämpää!\n\nÄlä huoli, et näe tätä viestiä uudelleen.</string>
     <string name="preferences_send_anon_stats_buypro_title">Vaihda Pro-versioon!</string>
     <string name="preferences_send_anon_stats_buypro_msg">Battery Monitorin ilmaisversio ei anna sinun piilottaa mainoksia, jollet salli anonyymien käyttötilastojen lähetystä.\n\nPro-versiossa ei ole mainoksia ja voit estää anonyymien käyttötilastojen lähetyksen.</string>
-    <string name="menu_seeotherapps">Tutustu muihin GSam Labsin sovelluksiin</string>
+    <string name="menu_seeotherapps">Tutustu GSam Labsin sovelluksiin</string>
     <string name="menu_gopro">Päivitä Pro-versioon</string>
     <string name="menu_gopro_nook">Osta</string>
     <string name="menu_goprokindle">Päivitä Kindle Fire Editioniin</string>
@@ -441,8 +441,8 @@
     <string name="nook_gopro_msg">Battery Monitorin kokeiluaika on päättynyt. Osta koko versio. Voit jatkaa Battery Monitorin käyttöä, mutta sen käyttö jatkuu ilmaisversion toiminnoilla ja optimoinneilla.</string>
     <string name="nook_gopro_ok">Osta koko versio</string>
     <string name="nook_gopro_cancel">Jatka ilmaisversiolla</string>
-    <string name="main_market_pro_title">Kiitos GSam Battery Monitorin käytöstä - Ilmainen</string>
-    <string name="main_market_pro_msg">Tiesitkö, että GSam Battery Monitorista on myös tableteille optimoitu pro-versio? Löydät sen sovelluskaupasta.\n\nÄlä huoli, et näe tätä viestiä uudelleen.</string>
+    <string name="main_market_pro_title">Kiitos GSam Battery Monitorin käytöstä - ilmainen</string>
+    <string name="main_market_pro_msg">Tiesitkö, että GSam Battery Monitorista on myös tableteille optimoitu Pro-versio? Löydät sen sovelluskaupasta.\n\nÄlä huoli, et näe tätä viestiä uudelleen.</string>
     <string name="main_market_pro_msg_kindle">Tiesitkö, että GSam Battery Monitorista on myös Kidle Firelle optimoitu versio? Löydät sen sovelluskaupasta.\n\nÄlä huoli, et näe tätä viestiä uudelleen.</string>
     <string name="main_market_pro_ok">Tutustu</string>
     <string name="main_market_pro_cancel">Ei, kiitos</string>
