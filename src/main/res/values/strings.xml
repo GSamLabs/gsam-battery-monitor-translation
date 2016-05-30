@@ -96,6 +96,8 @@
     <string name="preferences_override_lang_sum">Use a language other than your default system language.</string>
     <string name="preferences_power_profiles_include_sensors_title">Include Sensors In Calculation</string>
     <string name="preferences_power_profiles_include_sensors_sum">"Some devices don't calculate sensor usage correctly.  Uncheck this if your apps sensor usage seems inaccurate (accelerometer in particular). "</string>
+    <string name="preferences_power_profiles_include_audio_title">Include Audio In Calculation</string>
+    <string name="preferences_power_profiles_include_audio_sum">"Some devices don't calculate audio usage correctly.  Uncheck this if your apps audio usage seems inaccurate (media/audioserver app in particular). "</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">Reset Power Per Percent</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">This will reset your power per percent calculation.  Do you wish to continue?</string>
     <string name="preferences_widget_dialog_title">Pick A Color</string>
@@ -156,6 +158,7 @@
     <string name="procsuckmon_viewby_gps">View GPS Time Used</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">View Kernel Wakelocks</string>
     <string name="procsuckmon_wakelock_user_apps">Combined App Wakelocks (non-Kernel)</string>
+    <string name="procsuckmon_unacounted_cpu_label">Combined App CPU</string>
 
     <!-- Main screen -->
     <string name="main_history_button">History</string>
@@ -327,20 +330,23 @@
     <string name="appdetail_wakelocks">Number of Wake Locks:</string>  
     <string name="appdetail_wifiactive">Wifi Active:</string>  
     <string name="appdetail_wifion">Wifi On:</string>      
-    <string name="appdetail_bytes">%d bytes</string>        
+    <string name="appdetail_bytes">%d bytes</string>
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
     <string name="appdetail_totaltime">Total Time (including awake):</string>
     <string name="appdetail_select_package">Select Package To Manage</string>
     <string name="appdetail_heldawake_title">Held Awake / Doze</string>
     <string name="appdetail_deep_sleep_label">Deep Sleep - CPU Freq 0:</string>
-    <string name="appdetail_doze_label">Doze (% Screen Off):</string>
     <string name="appdetail_doze_num_label">Doze Sessions:</string>
     <string name="appdetail_doze_maint_label">Doze Maintenance:</string>
-    <string name="appdetail_doze_maint_value">%1$s (%2$d times)</string>
     <string name="appdetail_discharge_screen_off_label">Discharge Screen Off:</string>
-    <string name="appdetail_discharge_screen_off_value">%1$d%% total, %2$d%% doze</string>
     <string name="appdetail_avg_doze_label">Doze Time:</string>
+    <string name="appdetail_avg_doze_light_label">Doze Time (Light):</string>
+    <string name="appdetail_avg_doze_deep_label">Doze Time (Deep):</string>
+    <string name="appdetail_light_doze_header">Light</string>
+    <string name="appdetail_deep_doze_header">Deep</string>
+    <string name="appdetail_screen_off_label">% Screen Off:</string>
+    <string name="appdetail_doze_count_value">%1$s (%2$d maint)</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">What\'s New</string>

@@ -335,12 +335,9 @@
     <string name="appdetail_select_package">Valitse hallinnoitava paketti</string>
     <string name="appdetail_heldawake_title">Pidetty hereillä/unessa</string>
     <string name="appdetail_deep_sleep_label">Syvä uni - CPU-taajuus 0:</string>
-    <string name="appdetail_doze_label">Unessa (% näyttö sammutettu):</string>
     <string name="appdetail_doze_num_label">Unijaksot:</string>
     <string name="appdetail_doze_maint_label">Unen ylläpito:</string>
-    <string name="appdetail_doze_maint_value">%1$s (%2$d kertaa)</string>
     <string name="appdetail_discharge_screen_off_label">Pura näyttö sammutettuna:</string>
-    <string name="appdetail_discharge_screen_off_value">%1$d%% yhteensä, %2$d%% unessa</string>
     <string name="appdetail_avg_doze_label">Unessaoloaika:</string>
 
     <!-- Change Log - actual change content isn't translated -->
@@ -469,4 +466,5 @@
     <string name="abs__shareactionprovider_share_with">Jaa sovelluksella</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
     <string name="abs__shareactionprovider_share_with_application">Jaa sovelluksella <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="appdetail_screen_off_label">% näyttö sammutettu:</string>
 </resources>
