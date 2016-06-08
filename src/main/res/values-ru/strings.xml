@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"xmlns:tools="http://schemas.android.com/tools">
 
-    <!--string name="app_name">GSam Battery Monitor</string -->
+    <string name="app_name">GSam Battery Monitor</string>
     
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">Ост.:%1$02d:%2$02d(в средн.),%3$02d:%4$02d(посл.%5$sмин)</string>
@@ -21,7 +21,7 @@
     <string name="preferences_startup_service_sum">Начать мониторинг батареи при загрузке</string>
     <string name="preferences_temperature_title">Температура в гр. Цельсия</string>
     <string name="preferences_show_notification_icon_title">Показать значок оповещения</string>
-    <string name="preferences_show_notification_icon_sum">Показать значок оповещения с процентами в строке оповещения</string>
+    <string name="preferences_show_notification_icon_sum"tools:ignore="StringFormatInvalid">Показать значок оповещения с процентами в строке оповещения</string>
     <string name="preferences_show_notification_title">Показать только оповещение</string>
     <string name="preferences_show_notification_sum">Оповещение без значка оповещения</string>
     <!-- preferences_show_notification_lockscreen_title is not used yet... -->
@@ -244,6 +244,8 @@
     <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion не установлено корректно в/system/priv-app.  Пожалуйста, запустите приложение и проверьте, правильно ли оно установлено.</string>
         <string name="main_kitkat_nostats_launch_companion">Запустить Root Companion</string>
         <string name="main_kitkat_nostats_install_companion">Установить Root Companion</string>
+	<string name="main_phone_permission_title">Предоставить разрешение телефона</string>
+	<string name="main_phone_permission_text">GSam может отслеживать расход питания Вашего телефона посредством мониторинга его состояния и уровня сигнала.&lt;BR/>&lt;BR/>Предоставление доступа к &lt;B>телефону (совершение и управление вызовами)&lt;/B> даст более точные результаты в статистике."</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
@@ -330,6 +332,15 @@
     <string name="appdetail_kb">%.2f КБ</string>
     <string name="appdetail_totaltime">Общ.время(вкл.бодрствование):</string>
     <string name="appdetail_select_package">Выбрать пакет</string>
+    <string name="appdetail_heldawake_title">Бодрствование / Doze</string>
+    <string name="appdetail_deep_sleep_label">Глубокий сон - частота CPU 0:</string>
+    <string name="appdetail_doze_label">Doze (% экран выкл.):</string>
+    <string name="appdetail_doze_num_label">Сессии Doze:</string>
+    <string name="appdetail_doze_maint_label">Поддержание Doze:</string>
+    <string name="appdetail_doze_maint_value">%1$s (%2$d раз)</string>
+    <string name="appdetail_discharge_screen_off_label">Разрядка с выкл. экраном:</string>
+    <string name="appdetail_discharge_screen_off_value">%1$d%% всего, %2$d%% doze</string>
+    <string name="appdetail_avg_doze_label">Время Doze:</string>
     
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Что нового</string>
@@ -353,6 +364,7 @@
     <string name="main_chart_showother">Другое</string>
     <string name="main_chart_showradio">Сигнал телефона</string>
     <string name="main_chart_showrate">Темп изменений</string>
+    <string name="main_chart_showcpu">CPU</string>
     <string name="chart_menu_batthistory">График истории батареи</string>
     <string name="chart_menu_battdischarge">График питание/проценты</string>
     <string name="notification_chargecomplete">Зарядка завершена</string>
@@ -381,6 +393,10 @@
     <string name="chart_unknown">Неизвестно</string>
     <string name="chart_wifi">Wifi</string>
     
+<string name="chart_cpu_mhz">Ср.частота CPU (ГГц)</string>
+    <string name="chart_cpu_util">Исп. CPU %</string>
+    <string name="chart_idle">Doze</string>
+    
     <!-- About -->
     <string name="about_app_name">О GSam Battery Monitor</string>
     <string name="about_version">Версия %1s</string>
@@ -391,7 +407,7 @@
 
     <!-- DashClock Widget Extension -->
     <string name="dashclock_description">Показывать статистику батареи, включая остающееся время, расход в час и др.</string>
-    <string name="dashclock_active_standby">%1$s активн, %2$s ожидание</string>
+    <string name="dashclock_active_standby">%1$s активн., %2$s ожидание</string>
     <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/ч</string>
     <string name="dashclock_delta_per_hour_short_full">Полная зарядка</string>
     <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/ч - заряжается</string>
@@ -402,11 +418,12 @@
     <string name="dashclock_pref_show_remaining_time">Остаток времени</string>
     <string name="dashclock_pref_show_active_standby">Активный режим и ожидание</string>
     <string name="dashclock_pref_show_temp_voltage">Температура и напряжение</string>
+    <string name="dashclock_pref_show_screen_on_time">Время вкл. экрана</string>
     <string name="dashclock_settings">Настройки расширения GSam</string>
     
     <!-- Translations & Translators -->
     <string name="lang_default">Язык системы по умолчанию</string>        
-    <string name="translator_anonymous">Anonymous</string>
+    <string name="translator_anonymous">Аноним</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
     <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://google.com/+DmitryGaich\"&gt;(gaich)&lt;/a&gt;</string>  
 
