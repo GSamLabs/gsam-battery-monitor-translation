@@ -9,16 +9,16 @@
     <string name="battery_status_time_left_unknown">Sisa Waktu: Menghitung - periksa kembali nanti</string>
     <string name="battery_status_time_to_full">Waktu Pengisian: %1$02d:%2$02d</string>
     <string name="battery_status_time_to_full_unknown">Waktu Pengisian: Menghitung - periksa kembali nanti</string>
-    <string name="battery_status_title">Status Batere - %1$s%% (%2$s)</string>
-    <string name="battery_status_title_charging">Status Batere - %1$s%% (%2$s) - Mengisi</string>
-    <string name="battery_status_title_full">Status Batere - %1$s%% (%2$s) - Penuh</string>
+    <string name="battery_status_title">Status Baterai - %1$s%% (%2$s)</string>
+    <string name="battery_status_title_charging">Status Baterai - %1$s%% (%2$s) - Mengisi</string>
+    <string name="battery_status_title_full">Status Baterai - %1$s%% (%2$s) - Penuh</string>
 
     <!-- Preferences -->
     <string name="preferences_general_category">Pilihan</string>
     <string name="preferences_theme_category">Tema</string>
     <string name="preferences_alarm_category">Alarm</string>
     <string name="preferences_startup_service_title">Monitor saat perangkat dihidupkan</string>
-    <string name="preferences_startup_service_sum">Mulai pengecekan batere saat dihidupkan</string>
+    <string name="preferences_startup_service_sum">Mulai pengecekan Baterai saat dihidupkan</string>
     <string name="preferences_temperature_title">Temperatur dalam Celsius</string>
     <string name="preferences_show_notification_icon_title">Tampilkan Ikon pada Notifikasi</string>
     <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Tampilkan % (persentase) pada notifikasi</string>
@@ -26,15 +26,15 @@
     <string name="preferences_show_notification_sum">Lihat notifikasi tanpa ikon</string>
     <!-- preferences_show_notification_lockscreen_title is not used yet... -->
     <string name="preferences_show_notification_lockscreen_title">Tampilkan Notifikasi saat Kunci Layar</string>
-    <string name="preferences_alarm_condition_charging">Batere diatas</string>
-    <string name="preferences_alarm_condition_discharging">Batere dibawah</string>
-    <string name="preferences_alarm_condition_overheated">Batere sangat panas</string>
-    <string name="preferences_alarm_condition_overvoltage">Batere kelebihan daya</string>
+    <string name="preferences_alarm_condition_charging">Baterai diatas</string>
+    <string name="preferences_alarm_condition_discharging">Baterai dibawah</string>
+    <string name="preferences_alarm_condition_overheated">Baterai sangat panas</string>
+    <string name="preferences_alarm_condition_overvoltage">Baterai kelebihan daya</string>
     <string name="preferences_alarm_condition_temperature">Temperatur diatas</string>
-    <string name="preferences_alarm_select_percent">Persentase Batere</string>
-    <string name="preferences_alarm_select_temperature">Temperatur Batere</string>
+    <string name="preferences_alarm_select_percent">Persentase Baterai</string>
+    <string name="preferences_alarm_select_temperature">Temperatur Baterai</string>
     <string name="preferences_alarm_select_tone">Pilih Suara Notifikasi</string>
-    <string name="preferences_theme_title">Tema Ikon Batere</string>
+    <string name="preferences_theme_title">Tema Ikon Baterai</string>
     <string name="preferences_theme_sum">Pilih tema</string>
     <string name="preferences_theme_getmore_title">Unduh Tema</string>
     <string name="preferences_theme_getmore_msg">Pencarian Tema.  GSam Labs tidak melakukan kontrol atas semua tema, bila tema tidak bisa diaplikasikan, silahkan hubungi developer pembuat tema.\n\nDownload dan instal tema, kembali ke menu ini untuk mengaktifkan tema.\n\nAnda juga bisa membuat tema sendiri?  Lihat http://badassbatterymonitor.blogspot.com untuk detailnya!</string>
@@ -45,15 +45,15 @@
     <string name="preferences_widget_show_timeleft_title">Tampilkan Sisa Waktu</string>
     <string name="preferences_widget_show_temp_title">Tampilkan Temperatur</string>
     <string name="preferences_widget_show_voltage_title">Tampilkan Daya</string>
-    <string name="preferences_overlay_icon_sum">Ubah tampilan standar batere.  Lokasi, ukuran, dll. semua dapat diubah.</string>
-    <string name="preferences_overlay_icon_title">Ubah tampilan standar batere</string>
+    <string name="preferences_overlay_icon_sum">Ubah tampilan standar Baterai.  Lokasi, ukuran, dll. semua dapat diubah.</string>
+    <string name="preferences_overlay_icon_title">Ubah tampilan standar Baterai</string>
     <string name="preferences_overlay_icon_configure_sum">Ubah ukuran ikon, lokasi, warna latar, kecerahan layar, dan lainnya.</string>
     <string name="preferences_overlay_icon_configure_title">Ubah Tampilan Ikon</string>
     <string name="preferences_overlay_icon_configure_invalid">Tidak dapat memunculkan menu ubah.  Buka ikon secara manual.</string>
     <string name="preferences_overlay_icon_notvalid_title">Tema Yang Dipilih Tidak Dapat Merubah Tampilan Ikon.</string>
-    <string name="preferences_overlay_icon_notvalid_msg">Pilih tema lain dan coba kembali.\n\nTampilan Ikon hanya didukung oleh aplikasi pihak ketiga.  Pilih Unduh tema dari menu Tema Batere Ikon.  Semua Icon Packs yang disediakan oleh GSam Labs mendukung tampilan perubahan ikon.  Aplikasi pihak ketiga memungkinkan adanya ketidaksesuaian aplikasi pengubah tampilan.</string>
+    <string name="preferences_overlay_icon_notvalid_msg">Pilih tema lain dan coba kembali.\n\nTampilan Ikon hanya didukung oleh aplikasi pihak ketiga.  Pilih Unduh tema dari menu Tema Baterai Ikon.  Semua Icon Packs yang disediakan oleh GSam Labs mendukung tampilan perubahan ikon.  Aplikasi pihak ketiga memungkinkan adanya ketidaksesuaian aplikasi pengubah tampilan.</string>
     <string name="preferences_show_charging_animation_title">Tampilkan animasi saat mengisi</string> 
-    <string name="preferences_widget_color_screen_title">Ubah Widget Batere</string>
+    <string name="preferences_widget_color_screen_title">Ubah Widget Baterai</string>
     <string name="preferences_app_theme_title">Gunakan Tema Gelap</string>
     <string name="preferences_app_theme_title2">Tema Aplikasi</string>
     <string name="preferences_app_theme_split">Toolbar dibawah</string>
@@ -62,7 +62,7 @@
     <string name="preferences_profiles_screen_title">Profil Daya</string>
     <string name="preferences_power_profiles_use_stock_title">Gunakan Profil Custom</string>
     <string name="preferences_power_profiles_edit_title">Ubah Profil</string>
-    <string name="preferences_profiles_screen_summary">Lanjutan - Ubah profil penggunaan batere untuk menghitung parameter lain</string>
+    <string name="preferences_profiles_screen_summary">Lanjutan - Ubah profil penggunaan Baterai untuk menghitung parameter lain</string>
     <string name="preferences_power_per_percent_reset_title">Atur Ulang Perkiraan Waktu Sisa</string>
     <string name="preferences_power_per_percent_reset_summary">Atur ulang perkiraan waktu tersisa.  Gunakan ini bila waktu tersisa yang ada tidak akurat.  Saat ini %1$s / persen terhitung dari %2$01d persentase</string>
     <string name="preferences_power_per_percent_dlgtext">Menggunakan pemisah koma dalam POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED.  Nilai ini terus diperbarui - semakin lama Anda menjalankan, maka akan semakin akurat. Setiap kali Anda mengubah Profil Tenaga pengaturan. Namun, Anda harus membiarkan aplikasi terus berjalan.</string>   
@@ -82,7 +82,7 @@
     <string name="preferences_clear_chart_history_sum">Klik di sini untuk menghapus file cache lokal untuk sejarah grafik.</string>
     <string name="preferences_clear_chart_history_toast">File sejarah telah dibersihkan\u2026</string>
     <string name="preferences_clear_chart_history_alert">Apakah Anda Yakin?</string>
-    <string name="preferences_clear_history_stats_title">Atur Ulang Statistik Batere</string>
+    <string name="preferences_clear_history_stats_title">Atur Ulang Statistik Baterai</string>
     <string name="preferences_clear_history_stats_sum">Klik di sini untuk me-reset statistik baterai. Ini akan menghapus semua sejarah statistik. Ini setara dengan melakukan pengisian penuh dan dicabut. Semua statistik akan diatur ulang pada titik ini, jadi gunakan dengan hati-hati!</string>
     <string name="preferences_clear_history_stats_toast">Semua statistik baterai telah dibersihkan\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">Tidak dapat mengatur ulang statistik - perangkat ini tidak mendukung fungsi ini\u2026</string>
@@ -142,7 +142,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Sistem (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% batere dikonsumsi oleh:</string>
+    <string name="process_suck_mon_header">%0$.1f%% Baterai dikonsumsi oleh:</string>
     <string name="process_suck_mon_nodata">Tidak ada data tersedia.  Tidak ada aplikasi yang telah mengkonsumsi daya selama siklus yang telah ditentukan.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
@@ -183,7 +183,7 @@
     <string name="main_health_over_voltage">Kelebihan Voltase</string>
     <string name="main_health_unknown">Tidak Diketahui</string>
     <string name="main_health_failed">Gagal</string>
-    <string name="main_usage_label">Penggunaan Batere - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
+    <string name="main_usage_label">Penggunaan Baterai - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_usage_label2">Digunakan %1$s%% in %2$s</string>
     <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s Aktif, %3$s Standby</string>
     <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s Aktif</string>
@@ -195,8 +195,8 @@
     <string name="main_bluetooth_label">Bluetooth:</string>
     <string name="main_app_usage_label">Penggunaan Aplikasi:</string>
     <string name="main_app_usage_button">Aplikasi Pengguna Daya</string>
-    <string name="main_android_batt_usage_button">Batere Digunakan - Built In</string>    
-    <string name="main_android_batt_usage_failed">Tidak dapat meluncurkan built-in batere di layar...</string>
+    <string name="main_android_batt_usage_button">Baterai Digunakan - Built In</string>    
+    <string name="main_android_batt_usage_failed">Tidak dapat meluncurkan built-in Baterai di layar...</string>
     <string name="main_tools_menu">Lainnya</string>
     <string name="main_menu_charts">Grafik</string>
     <string name="menu_whatsnew">Yang Baru</string>
@@ -213,10 +213,10 @@
     <string name="menu_send_debug_data_body">Masukkan deskripsi dari masalah yang Anda temui:\n\n</string> 
     <string name="menu_review">Ulas GSam Battery Monitor</string>
     <string name="menu_enable_more_stats">Aktifkan Statistik Lainnya</string>
-    <string name="main_share_intentchoosertitle">Bagi siklus batere saya\u2026</string>
-    <string name="main_share_subject">Rata-rata siklus batere - GSam Battery Monitor</string>
-    <string name="main_share_msg2">Rata-rata batere %1$s %2$s dari %3$s (%4$s aktif) dalam sekali pengisian. Lihat GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg">Rata-rata batere %1$s %2$s dari %3$s dalam sekali pengisian. Lihat GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_share_intentchoosertitle">Bagi siklus Baterai saya\u2026</string>
+    <string name="main_share_subject">Rata-rata siklus Baterai - GSam Battery Monitor</string>
+    <string name="main_share_msg2">Rata-rata Baterai %1$s %2$s dari %3$s (%4$s aktif) dalam sekali pengisian. Lihat GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg">Rata-rata Baterai %1$s %2$s dari %3$s dalam sekali pengisian. Lihat GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Digunakan Dari %2$s (Sejak Terakhir Diisi)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Digunakan Dari %2$s (Sejak Terakhir Diisi Penuh)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Digunakan Dari %2$s (Sejak Referensi Kustom)</string>
@@ -230,7 +230,7 @@
     <string name="main_header_power">Daya</string>
     <string name="averages_since">Sejak %1$s</string>
     <string name="averages_header">Rata-rata per Pengisian Penuh</string>
-    <string name="main_avg_timepercharge_label2">Kapasitas Batere:</string>
+    <string name="main_avg_timepercharge_label2">Kapasitas Baterai:</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s Aktif)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Standby)</string>
     <string name="main_avg_screenon_label">Layar Hidup:</string>
@@ -360,8 +360,8 @@
     <string name="error">Terjadi kesalahan</string>
     
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">membaca statistik batere</string>
-    <string name="permdesc_batteryStats">Ijinkan aplikasi membaca penggunaan batere.  Memungkinkan aplikasi mencari informasi atas aplikasi lain yang terpasang.</string>
+    <string name="permlab_batteryStats">membaca statistik Baterai</string>
+    <string name="permdesc_batteryStats">Ijinkan aplikasi membaca penggunaan Baterai.  Memungkinkan aplikasi mencari informasi atas aplikasi lain yang terpasang.</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">Temperatur</string>
@@ -369,17 +369,17 @@
     <string name="main_chart_showradio">Sinyal</string>
     <string name="main_chart_showrate">Tingkat Perubahan</string>
     <string name="main_chart_showcpu">CPU</string>
-    <string name="chart_menu_batthistory">Grafik Riwayat Batere</string>
+    <string name="chart_menu_batthistory">Grafik Riwayat Baterai</string>
     <string name="chart_menu_battdischarge">Daya vs Grafik Persentase</string>
     <string name="notification_chargecomplete">Pengisian Penuh</string>
-    <string name="notification_battcharging">Pengisian Batere (%1s%%)</string>
-    <string name="notification_battlow">Batere Rendah (%1s%%)</string>
-    <string name="notification_batthot_f">Perhatian - Batere Panas (%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">Perhatian - Batere Panas (%.1f\u00B0C)</string>
-    <string name="notification_battovervoltage">Perhatian - Batere Kelebihan Arus (%.1f V)</string>
+    <string name="notification_battcharging">Pengisian Baterai (%1s%%)</string>
+    <string name="notification_battlow">Baterai Rendah (%1s%%)</string>
+    <string name="notification_batthot_f">Perhatian - Baterai Panas (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Perhatian - Baterai Panas (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Perhatian - Baterai Kelebihan Arus (%.1f V)</string>
     <string name="chart_active">Aktif</string>
-    <string name="chart_batt_history">Riwayat Batere (%1$s)</string>
-    <string name="chart_batt_percent">Batere %</string>
+    <string name="chart_batt_history">Riwayat Baterai (%1$s)</string>
+    <string name="chart_batt_percent">Baterai %</string>
     <string name="chart_charging">Mengisi</string>
     <string name="chart_dim">Redup</string>
     <string name="chart_gps">GPS</string>
@@ -391,8 +391,8 @@
     <string name="chart_screen">Layar Hidup</string>
     <string name="chart_signal">Sinyal Telefon</string>
     <string name="chart_rateofchange">\u0394 %/Jam</string>
-    <string name="chart_tempc">Temperatur Batere \u00B0C</string>
-    <string name="chart_tempf">Temperatur Batere \u00B0F</string>
+    <string name="chart_tempc">Temperatur Baterai \u00B0C</string>
+    <string name="chart_tempf">Temperatur Baterai \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">Tidak Diketahui</string>
     <string name="chart_wifi">Wifi</string>
