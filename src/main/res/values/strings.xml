@@ -159,6 +159,15 @@
     <string name="procsuckmon_viewby_kernel_wakelocks">View Kernel Wakelocks</string>
     <string name="procsuckmon_wakelock_user_apps">Combined App Wakelocks (non-Kernel)</string>
     <string name="procsuckmon_unacounted_cpu_label">Combined App CPU</string>
+    <string name="procsuckmon_unacounted_cpu_title">What Does This Mean?</string>
+    <string name="procsuckmon_unacounted_cpu_text">
+        Consider enabling more stats to avoid this message via Menu -> More -> Enable More Stats&lt;BR/>&lt;BR/>
+        Android N doesn\'t permit apps to gather the CPU utilization of other apps, and therefore GSam can\'t distinguish which app is responsible for the system CPU utilization.
+        Instead, GSam puts all CPU utilization in this one bucket so it\'s clear that apps are consuming resources.  GSam is still able to track other battery drainers such as network usage, etc.&lt;P>
+        If this is important to you, you can enable more stats (Menu -> More -> Enable More Stats), or &lt;b>star&lt;/b> the &lt;a href=\"https://code.google.com/p/android/issues/detail?id=211629\">this issue&lt;/a> in the Android issue tracker.&lt;p>
+        &lt;B>Please do NOT add a comment to the issue tracker&lt;/B> - this will only annoy the Android development team.  Instead, simply hit the Star icon to show that you care about it.  There is no point in adding \'Me Too\'
+        or yelling at the Android Development team in any way.  What they have done here is actually GOOD for security - they just haven\'t provided an alternate secure path for apps such as GSam.
+    </string>
 
     <!-- Main screen -->
     <string name="main_history_button">History</string>
@@ -249,6 +258,63 @@
 	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
 	<string name="main_phone_permission_title">Grant Phone Permission</string>
 	<string name="main_phone_permission_text">GSam can track the power usage of your phone by monitoring its state and signal strength.&lt;BR/>&lt;BR/>Granting access to the &lt;B>Phone (make and manage phone calls)&lt;/B> permission will result in more accurate statistics."</string>
+
+    <!-- ADB Connect Wizard -->
+    <string name="adb_start_text">GSam can access more stats if you give it the special BATTERY_STATS permission.  You just need to enable it once!</string>
+    <string name="adb_start_text2">
+        &#8212; &lt;b>Have Root?&lt;/b>  Let GSam add the needed permission automatically by running the
+        following command: &lt;i>pm grant %1$s android.permission.BATTERY_STATS&lt;/i>
+    </string>
+    <string name="adb_start_button_root">Grant Access With Root</string>
+    <string name="adb_start_text3">
+        &#8212; &lt;b>No Root?&lt;/b>  Connect to a computer and use the ADB command to enable access.
+    </string>
+    <string name="adb_start_button">Show Me How</string>
+    <string name="adb_get_title">Get ADB</string>
+    <string name="adb_get_text">
+        Download and install ADB on your computer.  You can find the application and instructions here:
+        &lt;br/>&lt;br/>
+        &#8212; Get just the command line tools from Google (&lt;a href="https://goo.gl/4WJatw">https://goo.gl/4WJatw&lt;/a>)
+        &lt;br/>&lt;br/>
+        &#8212; Or get a simple installer (Windows Only) from XDA (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
+    </string>
+    <string name="adb_get_button">OK, I\'ve got ADB Installed!</string>
+    <string name="adb_developer_title">Enable USB Debugging</string>
+    <string name="adb_developer_text">To enable ADB on your device, you\'ll first need to enable USB Debug.  You can disable debugging once everything is complete.</string>
+    <string name="adb_developer_text2">&lt;a href="">Launch Settings -> About&lt;/a>&lt;br></string>
+    <string name="adb_developer_text2_click">Click on the "Build Number" entry 7 times until it tells you that you are a developer</string>
+    <string name="adb_developer_text3">&lt;a href="">Launch Settings -> Developer Options"&lt;/a>&lt;br></string>
+    <string name="adb_developer_text3_click">Select "USB Debugging</string>
+    <string name="adb_developer_error_not_developer">Enable Developer Options first</string>
+    <string name="adb_developer_error_not_enabled">Enable USB Debugging first</string>
+    <string name="adb_developer_button">OK, I\'ve enabled USB Debugging!</string>
+    <string name="adb_connect_title">Connect and Verify ADB</string>
+    <string name="adb_connect_text">
+        &#8212; Connect your phone to your computer via USB&lt;br/>&lt;br/>
+        &#8212; Make sure you select &lt;i>&lt;b>Allow USB debugging&lt;/b>&lt;/i> on any popup message on your phone&lt;br/>&lt;br/>
+        &#8212; Verify ADB is active by opening up a command shell on your computer and running &lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
+    </string>
+    <string name="adb_connect_text2">
+        C:\\> adb devices&lt;br/>
+        List of devices attached&lt;br/>
+        85B7N26304004631	device&lt;br/>
+        C:\\>
+    </string>
+    <string name="adb_connect_button">OK, ADB is active!</string>
+    <string name="adb_grant_title">Grant GSam Access</string>
+    <string name="adb_grant_text">Grant GSam access to the BATTERY_STATS permission using the followng ADB command (all on one line).  This setting should stick through the life of the application install.</string>
+    <string name="adb_grant_text2">
+        C:\\> adb shell pm grant %1$s android.permission.BATTERY_STATS&lt;br/>
+        C:\\>
+    </string>
+    <string name="adb_grant_button">All Done!</string>
+    <string name="adb_grant_error_not_granted">Permission still not granted.  Try again&#8230;</string>
+    <string name="adb_grant_success">Congratulations &#8212; Permission Granted!\nYou can disable USB Debugging now if you wish.</string>
+    <string name="adb_root_progress_title">Please Wait&#8230;</string>
+    <string name="adb_root_progress_msg">Granting GSam BATTERY_STATS permission&#8230;\n\nMake sure you accept any superuser requests.</string>
+    <string name="adb_root_error_no_rights">Unable to obtain supersuser authority.  Do you have root?  Did you give GSam authority?</string>
+    <string name="adb_root_error_dlg_title">An Error Occurred</string>
+    <string name="adb_root_success">Congratulations &#8212; Permission Granted!</string>
 
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App Detail</string>
