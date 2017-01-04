@@ -96,6 +96,8 @@
     <string name="preferences_override_lang_sum">Использовать язык, отличный от языка системы по умолчанию</string>
     <string name="preferences_power_profiles_include_sensors_title">Включить в расчёт сенсоры</string>
     <string name="preferences_power_profiles_include_sensors_sum">Некоторые устройства не могут правильно определить использование сенсоров. Снимите галочку, если данные использования сенсора кажутся Вам неверными (в частности, данные акселерометра)</string>
+    <string name="preferences_power_profiles_include_audio_title">Включить в расчет аудио</string>
+    <string name="preferences_power_profiles_include_audio_sum">Некоторые устройства не могут правильно определить использование аудио. Снимите галочку, если данные использования аудио кажутся Вам неверными (в частности, данные медиа/аудиосервера)</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">Сброс питания по процентам</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">Это сбросит расчет питания по процентам. Хотите продолжить?</string>
     <string name="preferences_widget_dialog_title">Указать цвет</string>
@@ -156,6 +158,16 @@
     <string name="procsuckmon_viewby_gps">Время исп.GPS</string>
     <string name="procsuckmon_viewby_kernel_wakelocks">Вэйклоки ядра</string>
     <string name="procsuckmon_wakelock_user_apps">Объед.вэйклоки прилож.(не ядра)</string>
+    <string name="procsuckmon_unacounted_cpu_label">Объед.CPU прилож.</string>
+    <string name="procsuckmon_unacounted_cpu_title">Что это значит?</string>
+    <string name="procsuckmon_unacounted_cpu_text">
+        Чтобы убрать это сообщение, Вы можете добавить дополнительную статистику в Меню -> Еще -> Вкл. доп. статистику&lt;BR/>&lt;BR/>
+        Андроид N не позволяет собирать данные об использовании процессора сторонними приложениями, поэтому GSam не может определить, какое приложение использовало системные ресурсы CPU.
+        Вместо этого, GSam помещает все использование CPU в один раздел, свидетельствующий о потреблении приложениями ресурсов.  GSam по-прежнему может отследить других виновников расхода заряда, таких как пользователей сети и т.д.&lt;P>
+        Если это для Вас важно, можете включить дополнительную статистику (Меню -> Еще -> Вкл. доп. статистику), или &lt;b>отметить&lt;/b> звездой &lt;a href=\"https://code.google.com/p/android/issues/detail?id=211629\">эту проблему&lt;/a> в системе отслеживания проблем Андроид.&lt;p>
+        &lt;B>Пожалуйста. НЕ добавляйте комментарий в системе отслеживания&lt;/B> - это только раздражает команду разработчиков Андроид.  Вместо этого просто нажмите на значок со звездой, чтобы показать, что это Вас беспокоит.  Смысла писать \'Я тоже\' нет.
+        Нет смысла и каким-либо способом давить на разработчиков Андроид.  То, что они сделали, в целом, ХОРОШО для безопасности - но они не оставили альтернативного закрытого пути для таких приложений, как GSam.
+    </string>
     
     <!-- Main screen -->
     <string name="main_history_button">История</string>
@@ -247,6 +259,63 @@
 	<string name="main_phone_permission_title">Предоставить разрешение телефона</string>
 	<string name="main_phone_permission_text">GSam может отслеживать расход питания Вашего телефона посредством мониторинга его состояния и уровня сигнала.&lt;BR/>&lt;BR/>Предоставление доступа к &lt;B>телефону (совершение и управление вызовами)&lt;/B> даст более точные результаты в статистике."</string>
 
+    <!-- ADB Connect Wizard -->
+    <string name="adb_start_text">GSam может включить дополнительную статистику, если Вы предоставите программе разрешение BATTERY_STATS.  Его надо предоставить только один раз!</string>
+    <string name="adb_start_text2">
+        &#8212; &lt;b>Есть рут?&lt;/b>  Предоставьте GSam необходимое разрешение автоматически, запустив
+        следующую команду: &lt;i>pm grant %1$s android.permission.BATTERY_STATS&lt;/i>
+    </string>
+    <string name="adb_start_button_root">Предоставление доступа с рутом</string>
+    <string name="adb_start_text3">
+        &#8212; &lt;b>Нет рута?&lt;/b>  Подключите телефон к компьютеру и используйте ADB для предоставления доступа.
+    </string>
+    <string name="adb_start_button">Как это сделать</string>
+    <string name="adb_get_title">Получите ADB</string>
+    <string name="adb_get_text">
+        Загрузите и установите ADB на свой компьютер.  Приложение и инструкции можно найти здесь:
+        &lt;br/>&lt;br/>
+        &#8212; Получить только командную строку от Google (&lt;a href="https://goo.gl/4WJatw">https://goo.gl/4WJatw&lt;/a>)
+        &lt;br/>&lt;br/>
+        &#8212; Или получить простой установщик (только Windows) с XDA (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
+    </string>
+    <string name="adb_get_button">Хорошо, я установил ADB!</string>
+    <string name="adb_developer_title">Включите отладку по USB</string>
+    <string name="adb_developer_text">Чтобы включить ADB на устройстве, сперва нужно включить отладку по USB.  По окончании настройки Вы можете отключить отладку.</string>
+    <string name="adb_developer_text2">&lt;a href="">Запустите настройки -> О телефоне&lt;/a>&lt;br></string>
+    <string name="adb_developer_text2_click">Нажмите на пункт "Номер сборки" 7 раз, пока не появится сообщение о том, что Вы стали разработчиком</string>
+    <string name="adb_developer_text3">&lt;a href="">Перейдите в настройки -> Опции разработчика"&lt;/a>&lt;br></string>
+    <string name="adb_developer_text3_click">Выберите "Отладка по USB"</string>
+    <string name="adb_developer_error_not_developer">Сперва включите опции разработчика</string>
+    <string name="adb_developer_error_not_enabled">Сперва включите отладку по USB</string>
+    <string name="adb_developer_button">Хорошо, я включил отладку по  USB!</string>
+    <string name="adb_connect_title">Подключите и проверьте ADB</string>
+    <string name="adb_connect_text">
+        &#8212; Подключите телефон к компьютеру через USB&lt;br/>&lt;br/>
+        &#8212; Обязательно выберите &lt;i>&lt;b>Разрешить отладку по USB&lt;/b>&lt;/i> во всплывающем сообщении на телефоне&lt;br/>&lt;br/>
+        &#8212; Убедитесь, что ADB работает, открыв командную строку на компьютере и запустив команду &lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
+    </string>
+    <string name="adb_connect_text2">
+        C:\\> adb devices&lt;br/>
+        List of devices attached&lt;br/>
+        85B7N26304004631	device&lt;br/>
+        C:\\>
+    </string>
+    <string name="adb_connect_button">Хорошо, ADB работает!</string>
+    <string name="adb_grant_title">Предоставьте GSam доступ</string>
+    <string name="adb_grant_text">Предоставьте GSam доступ к разрешению BATTERY_STATS следующей командой ADB (в одну строку).  Настройка сохранится на весь период установки приложения.</string>
+    <string name="adb_grant_text2">
+        C:\\> adb shell pm grant %1$s android.permission.BATTERY_STATS&lt;br/>
+        C:\\>
+    </string>
+    <string name="adb_grant_button">Готово!</string>
+    <string name="adb_grant_error_not_granted">Разрешение не предоставлено.  Попробуйте ещё раз&#8230;</string>
+    <string name="adb_grant_success">Поздравляем &#8212; Разрешение предоставлено!\nТеперь, если хотите, можете отключить отладку по USB.</string>
+    <string name="adb_root_progress_title">Пожалуйста, подождите&#8230;</string>
+    <string name="adb_root_progress_msg">Предоставление GSam разрешения BATTERY_STATS&#8230;\n\nПримите все запросы суперпользователя.</string>
+    <string name="adb_root_error_no_rights">Невозможно получить разрешение суперпользователя.  У Вас есть рут?  Вы предоставили рут-доступ GSam?</string>
+    <string name="adb_root_error_dlg_title">Произошла ошибка</string>
+    <string name="adb_root_success">Поздравляем &#8212; Разрешение предоставлено!</string>
+
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
     <string name="process_suck_mon_title_prefix_wifi">Детали Wi-Fi</string>
@@ -334,13 +403,16 @@
     <string name="appdetail_select_package">Выбрать пакет</string>
     <string name="appdetail_heldawake_title">Бодрствование / Doze</string>
     <string name="appdetail_deep_sleep_label">Глубокий сон - частота CPU 0:</string>
-    <string name="appdetail_doze_label">Doze (% экран выкл.):</string>
-    <string name="appdetail_doze_num_label">Сессии Doze:</string>
+    <string name="appdetail_doze_num_label">Doze (% экран выкл.):</string>
     <string name="appdetail_doze_maint_label">Поддержание Doze:</string>
-    <string name="appdetail_doze_maint_value">%1$s (%2$d раз)</string>
-    <string name="appdetail_discharge_screen_off_label">Разрядка с выкл. экраном:</string>
-    <string name="appdetail_discharge_screen_off_value">%1$d%% всего, %2$d%% doze</string>
+    <string name="appdetail_discharge_screen_off_label">Разряд с выкл. экраном:</string>
     <string name="appdetail_avg_doze_label">Время Doze:</string>
+    <string name="appdetail_avg_doze_light_label">Время Doze (лёгкий):</string>
+    <string name="appdetail_avg_doze_deep_label">Время Doze (глубокий):</string>
+    <string name="appdetail_light_doze_header">Лёгкий</string>
+    <string name="appdetail_deep_doze_header">Глубокий</string>
+    <string name="appdetail_screen_off_label">% выкл. экран:</string>
+    <string name="appdetail_doze_count_value">%1$s (%2$d поддерж.)</string>
     
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Что нового</string>
