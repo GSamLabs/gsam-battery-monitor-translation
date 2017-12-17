@@ -415,6 +415,7 @@
     <string name="appdetail_deep_doze_header">Deep</string>
     <string name="appdetail_screen_off_label">% Screen Off:</string>
     <string name="appdetail_doze_count_value">%1$s (%2$d maint)</string>
+    <string name="appdetail_screendoze">Screen Doze:</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">What\'s New</string>
@@ -469,6 +470,8 @@
     <string name="chart_cpu_mhz">CPU Avg Freq (GHz)</string>
     <string name="chart_cpu_util">CPU Util %</string>
     <string name="chart_idle">Doze</string>
+    <!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
+    <string name="chart_screen_doze">AOD</string>
     
     <!-- About -->
     <string name="about_app_name">About GSam Battery Monitor</string>
