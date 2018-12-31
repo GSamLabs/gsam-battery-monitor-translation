@@ -12,6 +12,10 @@
     <string name="battery_status_title">Battery Status - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">Battery Status - %1$s%% (%2$s) - Charging</string>
     <string name="battery_status_title_full">Battery Status - %1$s%% (%2$s) - Full</string>
+    <string name="battery_status_notification_channel_title">Battery Status</string>
+    <string name="battery_status_notification_channel_desc">Notifications for battery status</string>
+    <string name="battery_alarm_notification_channel_title">Battery Alarms</string>
+    <string name="battery_alarm_notification_channel_desc">Notifications for battery alarms</string>
 
     <!-- Preferences -->
     <string name="preferences_general_category">General Preferences</string>
@@ -24,8 +28,6 @@
     <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Show % notification icon in notification bar</string>
     <string name="preferences_show_notification_title">Show Notification Only</string>
     <string name="preferences_show_notification_sum">See the notification without the notification icon</string>
-    <!-- preferences_show_notification_lockscreen_title is not used yet... -->
-    <string name="preferences_show_notification_lockscreen_title">Show Notification on Lockscreen</string>
     <string name="preferences_alarm_condition_charging">Battery above</string>
     <string name="preferences_alarm_condition_discharging">Battery below</string>
     <string name="preferences_alarm_condition_overheated">Battery overheated</string>
@@ -118,7 +120,8 @@
     <string name="preferences_disable_animation_sum">Disables screen animation for slower devices.</string>
     <string name="preferences_contains_telephony_support_title">Contains phone or data modem</string>
     <string name="preferences_contains_telephony_support_sum">Some devices report telephony (phone / 3G / 4G / LTE) incorrectly - especially tablets.  Modify this only if the reported value is not correct.  Reported value:  %1s</string>
-    
+    <string name="preferences_configure_notification_title">Configure Status Notification</string>
+
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
     <string name="icon_themes_icsmono">Monochrome</string>   
@@ -162,11 +165,8 @@
     <string name="procsuckmon_unacounted_cpu_title">What Does This Mean?</string>
     <string name="procsuckmon_unacounted_cpu_text">
         Consider enabling more stats to avoid this message via Menu -> More -> Enable More Stats&lt;BR/>&lt;BR/>
-        Android N doesn\'t permit apps to gather the CPU utilization of other apps, and therefore GSam can\'t distinguish which app is responsible for the system CPU utilization.
-        Instead, GSam puts all CPU utilization in this one bucket so it\'s clear that apps are consuming resources.  GSam is still able to track other battery drainers such as network usage, etc.&lt;P>
-        If this is important to you, you can enable more stats (Menu -> More -> Enable More Stats), or &lt;b>star&lt;/b> the &lt;a href=\"https://code.google.com/p/android/issues/detail?id=211629\">this issue&lt;/a> in the Android issue tracker.&lt;p>
-        &lt;B>Please do NOT add a comment to the issue tracker&lt;/B> - this will only annoy the Android development team.  Instead, simply hit the Star icon to show that you care about it.  There is no point in adding \'Me Too\'
-        or yelling at the Android Development team in any way.  What they have done here is actually GOOD for security - they just haven\'t provided an alternate secure path for apps such as GSam.
+        Android N and later doesn\'t permit apps to gather the CPU utilization of other apps, and therefore GSam can\'t distinguish which app is responsible for the system CPU utilization.
+        Instead, GSam puts all CPU utilization in this one bucket so it\'s clear that apps are consuming resources.  GSam is still able to track other battery drainers such as network usage, etc.
     </string>
 
     <!-- Main screen -->
@@ -476,7 +476,7 @@
     <!-- About -->
     <string name="about_app_name">About GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 ,GSam Labs 2018</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2019</string>
     <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
     <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Translations:</string>
