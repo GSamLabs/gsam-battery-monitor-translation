@@ -11,7 +11,11 @@
     <string name="battery_status_time_to_full_unknown">Время до полн.:подсчет - проверьте позже</string>
     <string name="battery_status_title">Статус батареи-%1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">Батарея заряжается-%1$s%% (%2$s)</string>
-    <string name="battery_status_title_full">Батарея заряжена-%1$s%% (%2$s)</string>
+    <string name="battery_status_title_full">Состояние батареи - %1$s%% (%2$s) - заряжена</string>
+    <string name="battery_status_notification_channel_title">Состояние батареи</string>
+    <string name="battery_status_notification_channel_desc">Уведомления состояния батареи</string>
+    <string name="battery_alarm_notification_channel_title">Сигналы батареи</string>
+    <string name="battery_alarm_notification_channel_desc">Уведомления сигналов бвтареи</string>
     
     <!-- Preferences -->
     <string name="preferences_general_category">Общие предпочтения</string>
@@ -24,8 +28,6 @@
     <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">Показать значок оповещения с процентами в строке оповещения</string>
     <string name="preferences_show_notification_title">Показать только оповещение</string>
     <string name="preferences_show_notification_sum">Оповещение без значка оповещения</string>
-    <!-- preferences_show_notification_lockscreen_title is not used yet... -->
-    <string name="preferences_show_notification_lockscreen_title">Уведомления на экране блокировки</string>
     <string name="preferences_alarm_condition_charging">Заряд выше</string>
     <string name="preferences_alarm_condition_discharging">Заряд ниже</string>
     <string name="preferences_alarm_condition_overheated">Перегрев батареи</string>
@@ -118,6 +120,7 @@
     <string name="preferences_disable_animation_sum">Отключить эффекты анимации экрана для устройств с низкой производительностью</string>
     <string name="preferences_contains_telephony_support_title">Наличие телефона/модема</string>
     <string name="preferences_contains_telephony_support_sum">Некоторые устройства ошибочно определяют наличие телефонии (телефон/3G/4G/LTE) - особенно, планшеты. Снимите/поставьте отметку только если определяемое устройством значение наличия телефонии некорректно. Определяемое значение: %1s</string>
+    <string name="preferences_configure_notification_title">Настройка уведомления состояния</string>
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
@@ -161,8 +164,8 @@
     <string name="procsuckmon_unacounted_cpu_label">Объед.CPU прилож.</string>
     <string name="procsuckmon_unacounted_cpu_title">Что это значит?</string>
     <string name="procsuckmon_unacounted_cpu_text">
-        Чтобы убрать это сообщение, Вы можете добавить дополнительную статистику в Меню -> Еще -> Вкл. доп. статистику&lt;BR/>&lt;BR/>
-        Андроид N не позволяет собирать данные об использовании процессора сторонними приложениями, поэтому GSam не может определить, какое приложение использовало системные ресурсы CPU.
+        Вы можете добавить дополнительную статистику в Меню -> Еще -> Вкл. доп. статистику&lt;BR/>&lt;BR/>
+        Андроид N и более поздние версии не позволяют собирать данные об использовании процессора сторонними приложениями, поэтому GSam не может определить, какое приложение использовало системные ресурсы CPU.
         Вместо этого, GSam помещает все использование CPU в один раздел, свидетельствующий о потреблении приложениями ресурсов.  GSam по-прежнему может отследить других виновников расхода заряда, таких как пользователей сети и т.д.
     </string>
     
@@ -251,10 +254,12 @@
         прекрасно работать без этого.\n
         \nСм. <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> для дополнительной информации.</string>    
     <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion не установлено корректно в/system/priv-app.  Пожалуйста, запустите приложение и проверьте, правильно ли оно установлено.</string>
-        <string name="main_kitkat_nostats_launch_companion">Запустить Root Companion</string>
-        <string name="main_kitkat_nostats_install_companion">Установить Root Companion</string>
-	<string name="main_phone_permission_title">Предоставить разрешение телефона</string>
-	<string name="main_phone_permission_text">GSam может отслеживать расход питания Вашего телефона посредством мониторинга его состояния и уровня сигнала.&lt;BR/>&lt;BR/>Предоставление доступа к &lt;B>телефону (совершение и управление вызовами)&lt;/B> даст более точные результаты в статистике."</string>
+    <string name="main_kitkat_nostats_launch_companion">Запустить Root Companion</string>
+    <string name="main_kitkat_nostats_install_companion">Установить Root Companion</string>
+    <string name="main_phone_permission_title">Предоставить разрешение телефона</string>
+    <string name="main_phone_permission_text">GSam может отслеживать расход питания Вашего телефона посредством мониторинга его состояния и уровня сигнала.&lt;BR/>&lt;BR/>Предоставление доступа к &lt;B>телефону (совершение и управление вызовами)&lt;/B> даст более точные результаты в статистике."</string>
+    <string name="main_stats_corrupt_title">Невозможно получить статистику</string>
+    <string name="main_stats_currupt_text">При получении статистики батареи произошла ошибка.  Если данная ошибка продолжает возникать, попробуйте &lt;li>&amp;nbsp;перезапустить телефон, or &lt;/li> &lt;li>&amp;nbsp;зарядить телефон до 100%&lt;/li>Это проблема в работе служб Андроид, а не в GSam Battery Monitor.</string>
 
     <!-- ADB Connect Wizard -->
     <string name="adb_start_text">GSam может включить дополнительную статистику, если Вы предоставите программе разрешение BATTERY_STATS.  Его надо предоставить только один раз!</string>
@@ -410,6 +415,7 @@
     <string name="appdetail_deep_doze_header">Глубокий</string>
     <string name="appdetail_screen_off_label">% выкл. экран:</string>
     <string name="appdetail_doze_count_value">%1$s (%2$d поддерж.)</string>
+    <string name="appdetail_screendoze">Doze экрана:</string>
     
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Что нового</string>
@@ -462,9 +468,12 @@
     <string name="chart_unknown">Неизвестно</string>
     <string name="chart_wifi">Wifi</string>
     
-<string name="chart_cpu_mhz">Ср.частота CPU (ГГц)</string>
+    <string name="chart_cpu_mhz">Ср.частота CPU (ГГц)</string>
     <string name="chart_cpu_util">Исп. CPU %</string>
     <string name="chart_idle">Doze</string>
+    
+<!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
+    <string name="chart_screen_doze">AOD</string>
     
     <!-- About -->
     <string name="about_app_name">О GSam Battery Monitor</string>
@@ -494,7 +503,7 @@
     <string name="lang_default">Язык системы по умолчанию</string>        
     <string name="translator_anonymous">Аноним</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->    
-    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://google.com/+DmitryGaich\"&gt;(gaich)&lt;/a&gt;</string>  
+    <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>  
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Ваш экран слишком яркий?</string>
