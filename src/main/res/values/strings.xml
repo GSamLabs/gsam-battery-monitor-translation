@@ -122,6 +122,8 @@
     <string name="preferences_contains_telephony_support_sum">Some devices report telephony (phone / 3G / 4G / LTE) incorrectly - especially tablets.  Modify this only if the reported value is not correct.  Reported value:  %1s</string>
     <string name="preferences_configure_notification_title">Configure Status Notification</string>
     <string name="preferences_configure_notification_sum">Control all notification priority/behavior</string>
+    <string name="preferences_disable_battery_optimization_title">Disable Battery Optimization</string>
+    <string name="preferences_disable_battery_optimization_sum">GSam must run in the background to monitor the device usage and receive notifications of changes. If GSam is having trouble keeping up, try disabling battery optimization. Most users should not need to do this.</string>
 
     <!-- Preference Selection Arrays -->    
     <string name="icon_themes_circle">Circle</string>   
