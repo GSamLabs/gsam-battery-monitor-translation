@@ -65,7 +65,7 @@
     <string name="preferences_power_profiles_edit_title">Energie Profil bearbeiten</string>
     <string name="preferences_profiles_screen_summary">Erweitert - Bearbeite die Energie Profile zur Berechnung aller Werte</string>
     <string name="preferences_power_per_percent_title">Verbrauch je Prozent</string>
-    <string name="preferences_power_per_percent_summary">Menge des Verbauchs je Prozent der Akkuladung. Setze diesen Wert zurück, wenn du deine Profileinstellungen änderst.</string>
+    <string name="preferences_power_per_percent_summary">Menge des Verbrauchs je Prozent der Akkuladung. Setze diesen Wert zurück, wenn du deine Profileinstellungen änderst.</string>
     <string name="preferences_power_per_percent_dlgtext">Kommagetrennter Wert in der Form VERBRAUCH_PRO_PROZENT_LADUNG, GESAMTE_GEMESSENE_LADUNG. Dieser Wert wird ständig aktualisiert - je länger du die Funktion nutzt, um so genauer wird er. Wann immer du ein Profil änderst, solltest dieses Feld leeren, und die App neu berechnen lassen.</string>
     <string name="preferences_time_per_percent_title">Entladungszeit Messungen zurücksetzen</string>
     <string name="preferences_time_per_percent_unkown">unbekannt</string>
@@ -96,7 +96,7 @@
     <string name="preferences_override_lang_sum">Eine andere, als die Systemsprache auswählen.</string>
     <string name="preferences_power_profiles_include_sensors_title">Sensoren in die Berechnung einbeziehen</string>
     <string name="preferences_power_profiles_include_sensors_sum">Manche Geräte berechnen die Sensornutzung nicht korrekt. Wähle diese Funktion ab, wenn die Sensornutzung ungenau erscheint (speziell die des Beschleunigungssensors).</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_title">Verbauch je Prozent zurücksetzen</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_title">Verbrauch je Prozent zurücksetzen</string>
     <string name="preferences_power_profiles_include_sensors_dlg_msg">Die Berechnung des Verbrauchs je Prozent wird hierdurch zurückgesetzt. Willst du fortfahren?</string>
     <string name="preferences_widget_dialog_title">Wähle eine Farbe</string>
     <string name="preferences_widget_color_full_title">Farbe bei 100%</string>
@@ -308,7 +308,7 @@
     <string name="main_chart_showother">Andere</string>
     <string name="main_chart_showradio">Telefon Signal</string>
     <string name="chart_menu_batthistory">Akku Verlauf Tabelle</string>
-    <string name="chart_menu_battdischarge">Verbauch vs. Prozent Tabelle</string>
+    <string name="chart_menu_battdischarge">Verbrauch vs. Prozent Tabelle</string>
     <string name="notification_chargecomplete">Akku vollständig geladen</string>
     <string name="notification_battlow">Akku fast leer (%1s%%)</string>
     <string name="notification_batthot_f">Warnung - Heißer Akku (%.1f\u00B0F)</string>
@@ -344,7 +344,7 @@
     <string name="lang_default">Standard System Sprache</string>        
     <string name="translator_anonymous">Anonym</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_de">Jan Fortein, Marcus Barkhahn</string>        
+    <string name="translator_de">Jan Fortein, Marcus Barkhahn, Josef Radinger</string>        
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">Ist dein Bildschirm zu hell?</string>
@@ -356,7 +356,7 @@
     <string name="menu_gopro_nook">Kaufen</string>
     <string name="menu_goprokindle">Upgrade auf die Kindle Fire Edition</string>
     <string name="nook_gopro_title">Probeversion abgelaufen</string>
-    <string name="nook_gopro_msg">Deine Probeversion von battery monitor ist abgelaufen.  Bitte kaufe die Vollversion. Du kannst Battery Monitor im kostenlosen Modus weiter nutzen, da durch werden einige Funktionen und Optimierungen deaktiviert.</string>
+    <string name="nook_gopro_msg">Deine Probeversion von battery monitor ist abgelaufen. Bitte kaufe die Vollversion. Du kannst Battery Monitor im kostenlosen Modus weiter nutzen, dadurch werden einige Funktionen und Optimierungen deaktiviert.</string>
     <string name="nook_gopro_ok">Kaufe die Vollversion</string>
     <string name="nook_gopro_cancel">Weiter im kostenlosen Modus</string>
     <string name="main_market_pro_title">Danke, dass du GSam Battery Monitor - Free benutzt</string>
