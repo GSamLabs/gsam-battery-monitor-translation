@@ -14,7 +14,11 @@
     <string name="battery_status_title_full">Battery Status - %1$s%% (%2$s) - Full</string>
     <string name="battery_status_notification_channel_title">Battery Status</string>
     <string name="battery_status_notification_channel_desc">Notifications for battery status</string>
-    <string name="battery_alarm_notification_channel_title">Battery Alarms</string>
+    <string name="battery_alarm_level_gt_notification_channel_title">Alarms - Level &gt; %1$s%%</string>
+    <string name="battery_alarm_level_lt_notification_channel_title">Alarms - Level &lt; %1$s%%</string>
+    <string name="battery_alarm_temp_gt_notification_channel_title">Alarms - Temperature &gt; %1$s</string>
+    <string name="battery_alarm_over_heated_notification_channel_title">Alarms - Overheated</string>
+    <string name="battery_alarm_over_voltage_notification_channel_title">Alarms - Over Voltage</string>
     <string name="battery_alarm_notification_channel_desc">Notifications for battery alarms</string>
 
     <!-- Preferences -->
@@ -320,7 +324,14 @@
     <string name="adb_root_error_no_rights">Unable to obtain supersuser authority.  Do you have root?  Did you give GSam authority?</string>
     <string name="adb_root_error_dlg_title">An Error Occurred</string>
     <string name="adb_root_success">Congratulations &#8212; Permission Granted!</string>
-
+    <string name="adb_enable_hidden_api_text">
+        &lt;b>Optional:&lt;/b> Permit GSam to access hidden APIs. This &lt;b>is not&lt;/b> required, but will provide more &lt;a href="http://blogger.gsamlabs.com/2019/12/enhanced-statistics-for-android-pie-and.html">detailed results&lt;/a>.&lt;br/>&lt;br/>
+        &lt;b>WARNING:&lt;/b> This hidden API access is a system wide setting, so other apps can access hidden APIs as well as GSam.
+    </string>
+    <string name="adb_enable_hidden_api_text2">
+        C:\\> adb shell settings put global %1$s 1&lt;br/>
+        C:\\>
+    </string>
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">App Detail</string>
     <string name="process_suck_mon_title_prefix_wifi">Wifi Detail</string>
