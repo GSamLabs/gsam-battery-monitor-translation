@@ -72,7 +72,7 @@
    <string name="preferences_time_per_percent_unkown">sconosciuto</string>
    <string name="preferences_time_per_percent_summary">Resetta il valore calcolato in base alla durata media della batteria. Attualmente %1$s (%2$sm / per cento calcolato su %3$01d percentuali).</string>
    <string name="preferences_stats_since_title">Vedi statistiche da</string>
-   <string name="preferences_stats_since_summary">"Vedi statistiche dallo spegnimento, o dall'ultima carica completa."</string>
+   <string name="preferences_stats_since_summary">"Vedi statistiche dalla disconnessione, o dall'ultima carica completa."</string>
    <string name="preferences_power_profiles_edit_summary">Personalizza profilo consumi.  I valori immessi verranno usati solo se è abilitato il profilo utente.</string>
    <string name="profedit_title">Modifica i valori per cambiare i metodi di calcolo del tempo rimanente e dei consumi applicazioni</string>
    <string name="profedit_load_basedon">Ricarica dati basati su:</string>
@@ -87,7 +87,7 @@
    <string name="preferences_clear_history_stats_sum">"Clicca per resettare le statistiche della batteria.  Questo rimuoverà la cronologia delle statistiche.  E' uguale a caricare completamente il telefono.  Tutte le statistiche saranno relative a questo momento, quindi usare cautela!"</string>
    <string name="preferences_clear_history_stats_toast">Tutte le statistiche della batteria cancellate\u2026</string>
    <string name="preferences_clear_history_stats_error_toast">Impossibile resettare statistiche - il dispositivo potrebbe non supportare questa funzione\u2026</string>
-   <string name="preferences_custom_ref">"La cronologia partirà dal punto di riferimento creato (o dallo spegnimento del telefono).  Ciò può essere utile per determinare cosa ha usato la batteria da questo punto di riferimento piuttosto che dall'ultimo spegnimento o dall'ultima carica. "</string>
+   <string name="preferences_custom_ref">"La cronologia partirà dal punto di riferimento creato (o dalla disconnessione del telefono).  Ciò può essere utile per determinare cosa ha usato la batteria da questo punto di riferimento piuttosto che dall'ultimo disconnessione o dall'ultima carica. "</string>
    <string name="preferences_custom_ref_plugged">Dispositivo in carica - puoi creare un punto di riferimento solo quando il dispositivo non è collegato alla rete elettrica.</string>
    <string name="preferences_send_anon_stats_title">Consenti statistiche anonime</string>
    <string name="preferences_send_anon_stats_sum">"Cosenti l'invio di statistiche anonime.  Non sono inviati dati personali."</string>
@@ -127,7 +127,7 @@
    <string name="time_left_calc_last15">Ultimi 15 minuti</string>
    <string name="time_left_calc_last30">Ultimi 30 minuti</string>
    <string name="time_left_calc_last60">Ultimi 60 minuti</string>
-   <string name="stats_since_unplugged">Dallo spegnimento</string>
+   <string name="stats_since_unplugged">Dalla disconnessione</string>
    <string name="stats_since_charged">"Dall'ultima carica"</string>
    <string name="stats_since_custom">Da punto di riferimento creato</string>
    <string name="pwer_profiles_mfg">Valori predefiniti</string>
@@ -140,7 +140,7 @@
    <string name="process_suck_mon_header">%0$.1f%% carica usata da:</string>
    <string name="process_suck_mon_nodata">"Nessun dato disponibile.  Non ci sono app che abbiano consumato il valore indicato durante l'ultimo ciclo di carica."</string>
    <string name="process_suck_mon_title_prefix">Consumo Batt - %1$s</string>
-   <string name="process_suck_mon_title_unplugged">%1$s (dallo spegnimento)</string>
+   <string name="process_suck_mon_title_unplugged">%1$s (dalla disconnessione)</string>
    <string name="process_suck_mon_title_fullcharge">"%1$s (dall'ultima carica)"</string>
    <string name="process_suck_mon_title_customref">%1$s (da riferimento creato)</string>
    <string name="procsuckmon_viewby_pwr">Vedi % di carica usata</string>
@@ -214,7 +214,7 @@
    <string name="main_share_subject">Durata media batteria - GSam Battery Monitor</string>
    <string name="main_share_msg2">La batteria del mio %1$s %2$s ha consumato in media %3$s (%4$s di uso attivo) in un singolo ciclo di carica. Dai uno sguardo a GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
    <string name="main_share_msg">La batteria del mio %1$s %2$s ha consumato in media %3$s in un singolo ciclo di carica. Dai uno sguardo a GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-   <string name="main_tablet_battusage_unplug">%1$s%% usato in %2$s (dallo spegnimento)</string>
+   <string name="main_tablet_battusage_unplug">%1$s%% usato in %2$s (dalla disconnessione)</string>
    <string name="main_tablet_battusage_fullcharge">"%1$s%% usato in %2$s (dall'ultima carica)"</string>
    <string name="main_tablet_battusage_customref">%1$s%% usato in %2$s (da punto di riferimento)</string>
    <string name="main_tablet_active_usage">Attivo (%1$02d:%2$02d:%3$02d)</string>
@@ -376,7 +376,7 @@
    <!-- About -->
    <string name="about_app_name">Info su GSam Battery Monitor</string>
    <string name="about_version">Versione %1s</string>    
-   <string name="about_copyright">\u24d2 GSam Labs 2019</string>
+   <string name="about_copyright">\u24d2 GSam Labs 2020</string>
    <string name="about_chartengine">Chart Engine da AChartEngine.org</string>
    <string name="about_actionbar">Compatibilità ActionBar grazie a actionbarsherlock.com</string>
    <string name="about_icons">Icone app grazie a &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
