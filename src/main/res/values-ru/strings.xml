@@ -14,7 +14,11 @@
     <string name="battery_status_title_full">Состояние батареи - %1$s%% (%2$s) - заряжена</string>
     <string name="battery_status_notification_channel_title">Состояние батареи</string>
     <string name="battery_status_notification_channel_desc">Уведомления состояния батареи</string>
-    <string name="battery_alarm_notification_channel_title">Сигналы батареи</string>
+    <string name="battery_alarm_level_gt_notification_channel_title">Сигналы - заряд &gt; %1$s%%</string>
+    <string name="battery_alarm_level_lt_notification_channel_title">Сигналы - заряд &lt; %1$s%%</string>
+    <string name="battery_alarm_temp_gt_notification_channel_title">Сигналы - температура &gt; %1$s</string>
+    <string name="battery_alarm_over_heated_notification_channel_title">Сигналы - перегрев</string>
+    <string name="battery_alarm_over_voltage_notification_channel_title">Сигналы - перенапряжение</string>
     <string name="battery_alarm_notification_channel_desc">Уведомления сигналов бвтареи</string>
     
     <!-- Preferences -->
@@ -121,11 +125,17 @@
     <string name="preferences_contains_telephony_support_title">Наличие телефона/модема</string>
     <string name="preferences_contains_telephony_support_sum">Некоторые устройства ошибочно определяют наличие телефонии (телефон/3G/4G/LTE) - особенно, планшеты. Снимите/поставьте отметку только если определяемое устройством значение наличия телефонии некорректно. Определяемое значение: %1s</string>
     <string name="preferences_configure_notification_title">Настройка уведомления состояния</string>
+    <string name="preferences_configure_notification_sum">Управление приоритетом/поведением всех уведомлений</string>
+    <string name="preferences_disable_battery_optimization_title">Отключить оптимизацию батареи</string>
+    <string name="preferences_disable_battery_optimization_sum">GSam должен работать в фоне для мониторинга использования устройства и получения уведомлений об изменениях. Если у GSam имеются с этим проблемы, отключите для него оптимизацию батареи. Большинству пользователей это не требуется.</string>
     
     <!-- Preference Selection Arrays -->
     <string name="icon_themes_circle">Круглый</string>
     <string name="icon_themes_icsmono">Монохромный</string>
-    <string name="icon_themes_trad">Традиционный</string> 
+    <string name="icon_themes_trad">Традиционный</string>
+    <string name="icon_themes_ics">Монохромный 2</string>
+    <string name="icon_themes_plain">Полоса с числами</string>
+    <string name="icon_themes_plainnum">Только числа</string> 
     <string name="icon_themes_default">Системный</string>
     <string name="icon_themes_getmore">Больше тем</string>
     <string name="time_left_calc_dontshow">Не показывать время</string>
@@ -318,6 +328,14 @@
     <string name="adb_root_error_dlg_title">Произошла ошибка</string>
     <string name="adb_root_success">Поздравляем &#8212; Разрешение предоставлено!</string>
 
+    <string name="adb_enable_hidden_api_text">
+        &lt;b>Опционально:&lt;/b> Разрешите GSam доступ к скрытым API. Это &lt;b>не&lt;/b> обязательно, но позволит получить более &lt;a href="http://blogger.gsamlabs.com/2019/12/enhanced-statistics-for-android-pie-and.html">детальные результаты&lt;/a>.&lt;br/>&lt;br/>
+        &lt;b>WARNING:&lt;/b> This hidden API access is a system wide setting, so other apps can access hidden APIs as well as GSam.
+    </string>
+    <string name="adb_enable_hidden_api_text2">
+        C:\\> adb shell settings put global %1$s 1&lt;br/>
+        C:\\>
+    </string>
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">Детали приложений</string>
     <string name="process_suck_mon_title_prefix_wifi">Детали Wi-Fi</string>
@@ -472,7 +490,7 @@
     <string name="chart_cpu_util">Исп. CPU %</string>
     <string name="chart_idle">Doze</string>
     
-<!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
+    <!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
     <string name="chart_screen_doze">AOD</string>
     
     <!-- About -->
@@ -515,7 +533,7 @@
     <string name="menu_gopro_nook">Купить</string>
     <string name="menu_goprokindle">Обновить до версии Kindle Fire</string>
     <string name="nook_gopro_title">Триальный период истек</string>
-    <string name="nook_gopro_msg">Триальный период приложения истек. Пожалуйста, купите полную версию. Вы можете продолжать использовать battery monitor, однако, он перейдет в бесплатный режим, который не предусматривает некоторые функции и оптимизации.</string>
+    <string name="nook_gopro_msg">Пробный период использования приложения истек. Пожалуйста, купите полную версию. Вы можете продолжать использовать battery monitor, однако, он перейдет в бесплатный режим, который не предусматривает некоторые функции и оптимизации.</string>
     <string name="nook_gopro_ok">Купить полную версию</string>
     <string name="nook_gopro_cancel">Продолжить в бесплатном режиме</string>
     <string name="main_market_pro_title">Спасибо за использование GSam Battery Monitor - бесплатной версии</string>
