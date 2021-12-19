@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Don't translate app_name -->
-    <!--string name="app_name">GSam Battery Monitor</string -->
+    <string name="app_name">GSam Battery Monitor</string>
 
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">预计剩余时间: %1$02d:%2$02d (平均), %3$02d:%4$02d (最近 %5$s分钟)</string>
-    <string name="battery_status_time_left_no_running">预计剩余时间: %1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">预计剩余时间: 计算中 - 请稍候</string>
-    <string name="battery_status_time_to_full">预计充满时间: %1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">预计充满时间: 计算中 - 请稍候</string>
+    <string name="battery_status_time_left">预计剩余时间：%1$02d:%2$02d (平均)，%3$02d:%4$02d (最近 %5$s 分钟)</string>
+    <string name="battery_status_time_left_no_running">预计剩余时间：%1$02d:%2$02d</string>
+    <string name="battery_status_time_left_unknown">预计剩余时间：计算中 - 请稍候</string>
+    <string name="battery_status_time_to_full">预计充满时间：%1$02d:%2$02d</string>
+    <string name="battery_status_time_to_full_unknown">预计充满时间：计算中 - 请稍候</string>
     <string name="battery_status_title">电池状态 - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">电池状态 - %1$s%% (%2$s) - 充电中</string>
     <string name="battery_status_title_full">电池状态 - %1$s%% (%2$s) - 已充满</string>
+    <string name="battery_status_notification_channel_title">电池状态</string>
+    <string name="battery_status_notification_channel_desc">电池状态通知</string>
+    <string name="battery_alarm_level_gt_notification_channel_title">提醒 - 电量 &gt; %1$s%%</string>
+    <string name="battery_alarm_level_lt_notification_channel_title">提醒 - 电量 &lt; %1$s%%</string>
+    <string name="battery_alarm_temp_gt_notification_channel_title">提醒 - 温度 &gt; %1$s</string>
+    <string name="battery_alarm_over_heated_notification_channel_title">提醒 - 过热</string>
+    <string name="battery_alarm_over_voltage_notification_channel_title">提醒 - 电压过高</string>
+    <string name="battery_alarm_notification_channel_desc">电池提醒通知</string>
 
     <!-- Preferences -->
     <string name="preferences_general_category">通用设置</string>
     <string name="preferences_theme_category">主题</string>
     <string name="preferences_alarm_category">提醒</string>
     <string name="preferences_startup_service_title">开机自动运行</string>
-    <string name="preferences_startup_service_sum">软件启动时自动开始电池检测</string>
+    <string name="preferences_startup_service_sum">开机时自动开始电池检测</string>
     <string name="preferences_temperature_title">温度以摄氏度表示</string>
-    <string name="preferences_show_notification_icon_title">显示状态栏信息图标</string>
-    <string name="preferences_show_notification_icon_sum">在状态栏显示当前电量指示图标</string>
+    <string name="preferences_show_notification_icon_title">显示状态栏通知图标</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">在状态栏显示当前电量指示图标</string>
     <string name="preferences_show_notification_title">只显示提醒</string>
     <string name="preferences_show_notification_sum">提醒时不显示电量指示图标</string>
     <string name="preferences_alarm_condition_charging">电量高于</string>
@@ -32,141 +39,158 @@
     <string name="preferences_alarm_condition_temperature">温度高于</string>
     <string name="preferences_alarm_select_percent">电量百分比</string>
     <string name="preferences_alarm_select_temperature">电池温度</string>
-    <string name="preferences_alarm_select_tone">选择提醒铃声</string>
-    <string name="preferences_theme_title">电池图标风格主题</string>
+    <string name="preferences_alarm_select_tone">选择通知提示音</string>
+    <string name="preferences_theme_title">电池图标主题</string>
     <string name="preferences_theme_sum">选择电池图标风格</string>
-    <string name="preferences_theme_getmore_title">更多图标风格主题</string>
-    <string name="preferences_theme_getmore_msg">当前操作会去寻找更多的风格的电池图标。GSam Labs并不对所有的风格主题进行审核，如果改主题不能工作，请直接联系主题风格的作者。\n\n请下载并安装新的主题，然后回到电池图标风格菜单来查看已有的电池图标风格。\n\n你也可以自己制作你喜欢的主题，参考 http://badassbatterymonitor.blogspot.com 获取制作主题的帮助！</string>
+    <string name="preferences_theme_getmore_title">获取更多图标主题</string>
+    <string name="preferences_theme_getmore_msg">当前操作会搜寻更多风格的电池图标。GSam Labs 并不对所有的风格主题进行审核，所以如果该主题不能工作，请直接联系其作者。\n\n请下载并安装新的主题，然后返回到该菜单查看可用主题。\n\n你也可以自己制作喜欢的主题，参考 http://badassbatterymonitor.blogspot.com 获取制作主题的帮助！</string>
     <string name="preferences_theme_progress_title">正在获取主题</string>
-    <string name="preferences_theme_progress_msg">正在获取支持的主题列表\u2026</string>
-    <string name="preferences_widget_back_title">透明的小部件背景</string>
-    <string name="preferences_widget_back_msg">小部件完全透明，你可以直接看到壁纸。</string>
+    <string name="preferences_theme_progress_msg">正在获取可用的主题列表……</string>
+    <string name="preferences_widget_back_title">小部件背景透明</string>
+    <string name="preferences_widget_back_msg">小部件背景完全透明，你可以直接看到壁纸。</string>
     <string name="preferences_widget_show_timeleft_title">显示剩余时间</string>
     <string name="preferences_widget_show_temp_title">显示温度</string>
     <string name="preferences_widget_show_voltage_title">显示电压</string>
-    <string name="preferences_overlay_icon_sum">覆盖原厂电池图标。  位置，尺寸等。 都是完全可配置的。</string>
+    <string name="preferences_overlay_icon_sum">覆盖原厂电池图标。位置、尺寸等都是完全可配置的。</string>
     <string name="preferences_overlay_icon_title">覆盖标准电池图标</string>
-    <string name="preferences_overlay_icon_configure_sum">配置覆盖图标的大小，位置，背景颜色，亮度等。</string>
-    <string name="preferences_overlay_icon_configure_title">配置图标</string>
+    <string name="preferences_overlay_icon_configure_sum">配置覆盖图标的大小、位置、背景颜色、亮度等。</string>
+    <string name="preferences_overlay_icon_configure_title">配置覆盖图标</string>
     <string name="preferences_overlay_icon_configure_invalid">无法打开配置功能。请手动打开图标包进行手动配置。</string>
-    <string name="preferences_overlay_icon_notvalid_title">当前主题风格不支持覆盖图标功能</string>
-    <string name="preferences_overlay_icon_notvalid_msg">请选择其他的主题风格再试一次。\n\n只有扩展图标包支持覆盖图标功能。请在电池图标主题风格菜单选择获得更多主题风格来获得扩展图标包。 所有GSam Labs提供的图标包都支持覆盖图标功能。第三方图标包可能不支持该功能。</string>
-    <string name="preferences_show_charging_animation_title">显示充电动画</string>     
+    <string name="preferences_overlay_icon_notvalid_title">选中的主题不支持覆盖图标功能</string>
+    <string name="preferences_overlay_icon_notvalid_msg">请选择其他主题再试一次。\n\n只有扩展图标包支持覆盖图标功能。请在电池图标主题菜单选择获取更多主题来获得扩展图标包。所有 GSam Labs 提供的图标包都支持覆盖图标功能。第三方图标包可能不支持该功能。</string>
+    <string name="preferences_show_charging_animation_title">显示充电动画</string>
     <string name="preferences_widget_color_screen_title">电池小部件设置</string>
-    <string name="preferences_app_theme_title">使用深色风格</string>
-    <string name="preferences_app_theme_sum">应用程序界面使用深色风格</string>
+    <string name="preferences_app_theme_title">使用深色主题</string>
+    <string name="preferences_app_theme_title2">应用主题</string>
+    <string name="preferences_app_theme_split">在底部显示工具栏</string>
     <string name="preferences_time_left_title">计算剩余时间</string>
     <string name="preferences_time_left_sum">用来计算剩余时间的统计区间</string>
     <string name="preferences_profiles_screen_title">设备耗电性能分析</string>
     <string name="preferences_power_profiles_use_stock_title">使用自定义的分析方式</string>
-    <string name="preferences_power_profiles_edit_title">修改耗电性能分析方式</string>
+    <string name="preferences_power_profiles_edit_title">编辑耗电性能分析方式</string>
     <string name="preferences_profiles_screen_summary">高级功能 - 修改用于耗电性能分析的参数</string>
-    <string name="preferences_power_per_percent_title">电量消耗速率</string>
-    <string name="preferences_power_per_percent_summary">电池每降低百分之一是所消耗的电量。如果改变了耗电性能分析设置，请清空该数值。</string>
-    <string name="preferences_power_per_percent_dlgtext">这个值表示为“每降低百分之一所消耗的电量,已消耗的总的百分数”。这个值是即时更新的，也就是说，你是用的越久，这个值越接近实际情况。当你修改耗电性能分析的设置时，必须把这个值清除，应用程序会重新计算这个值。</string>
+    <string name="preferences_power_per_percent_reset_title">重置预计的剩余时间</string>
+    <string name="preferences_power_per_percent_reset_summary">重置预计的剩余时间。若是预计剩余时间不准，请使用该功能。当前 %1$s / 百分之一 基于过去 %2$01d 次百分比计算得出</string>
+    <string name="preferences_power_per_percent_dlgtext">逗号分隔的形式如：POWER_USED_PER_PERCENT_DROP,TOTAL_PERCENT_MEASURED。该值会持续更新 - 运行时间越长，数据越准确。当更改耗电性能分析方式时，你应该清除该字段，从而让应用重新生成。</string>
     <string name="preferences_power_per_percent_reset">重置</string>
-    <string name="preferences_time_per_percent_title">重设放电历史</string>
+    <string name="preferences_time_per_percent_title">重置放电历史</string>
     <string name="preferences_time_per_percent_unkown">未知</string>
-    <string name="preferences_time_per_percent_summary">重设你的设备当前计算的平均满电使用时间。当前 %1$s (%2$s分钟 / 百分之一 已统计%3$01d次)</string>
-    <string name="preferences_stats_since_title">设置开始统计</string>
-    <string name="preferences_stats_since_summary">从拔出充电线开始，或者从最后一次充满电开始</string>
-    <string name="preferences_power_profiles_edit_summary">自定义耗电性能分析设置。自定义值只有在自定义性能分析功能被选中才能使用。</string>
-    <string name="profedit_title">修改下面的值会改变剩余使用时间和应用程序耗电统计的结果</string>
-    <string name="profedit_load_basedon">以如下哪项为依据重新加载数据：</string>
+    <string name="preferences_time_per_percent_summary">重置你的设备当前计算的平均满电使用时间。当前 %1$s (%2$s 分钟 / 百分之一 基于过去 %3$01d 次百分比计算得出)</string>
+    <string name="preferences_stats_since_title">设置统计起始点</string>
+    <string name="preferences_stats_since_summary">查看自上次拔出充电器或上次充满电后的统计数据</string>
+    <string name="preferences_power_profiles_edit_summary">自定义耗电性能分析设置。自定义值只有在自定义性能分析功能启用后才会使用。</string>
+    <string name="profedit_title">修改下面的值以改变计算剩余使用时间和应用程序耗电统计的方式</string>
+    <string name="profedit_load_basedon">基于该项重新加载数据：</string>
     <string name="profedit_save">保存</string>
     <string name="profedit_cancel">取消</string>
-    <string name="profedit_custom_values_saves">自定义数值已保存，你可以在选项菜单中重新恢复出厂设置。</string>
+    <string name="profedit_custom_values_saves">自定义数值已保存。你可以在选项菜单中重新恢复出厂预设值。</string>
     <string name="preferences_clear_chart_history_title">清空图表历史文件</string>
-    <string name="preferences_clear_chart_history_sum">在此清空本地图标历史的缓存文件</string>
-    <string name="preferences_clear_chart_history_toast">历史文件已经清除\u2026</string>
-    <string name="preferences_clear_chart_history_alert">你确定么？</string>
+    <string name="preferences_clear_chart_history_sum">点击此处清空本地图表历史的缓存文件</string>
+    <string name="preferences_clear_chart_history_toast">历史文件已被清除……</string>
+    <string name="preferences_clear_chart_history_alert">你确定吗？</string>
     <string name="preferences_clear_history_stats_title">重置电池统计数据</string>
-    <string name="preferences_clear_history_stats_sum">在此重置电池统计信息。这样做所有的统计历史数据会被清除，相当于做了一次充满电并拔出充电器的动作。所有的统计数据都将基于这一点来计算，请小心使用该功能！</string>
-    <string name="preferences_clear_history_stats_toast">所有电池统计信息已清除\u2026</string>
-    <string name="preferences_clear_history_stats_error_toast">无法重置统计信息-本设备可能不支持此功能\u2026</string>
-    <string name="preferences_custom_ref">电池历史会基于当前（或者拔出充电器时）的自选参考点记录。这个功能通常用来计算某一个时刻开始使用情况。</string>
-    <string name="preferences_custom_ref_plugged">设备正在充电-自选参考点只能在充电器被拔出时使用。</string>
+    <string name="preferences_clear_history_stats_sum">在此重置电池统计数据。这会清除所有的统计历史数据，相当于做了一次充满电并拔出充电器的动作。所有的统计数据都将基于该时间点来计算，请小心使用该功能！</string>
+    <string name="preferences_clear_history_stats_toast">所有电池统计信息已清除……</string>
+    <string name="preferences_clear_history_stats_error_toast">无法重置统计信息 - 该设备可能不支持此功能……</string>
+    <string name="preferences_custom_ref">电池历史会基于当前 (或者拔出充电器时) 的自选参考点记录。这个功能通常用来计算自此时起电池的使用情况，而不是自上次拔出充电器或者上次充满电。</string>
+    <string name="preferences_custom_ref_plugged">设备正在充电 - 自选参考点只能在充电器被拔出时创建。</string>
     <string name="preferences_send_anon_stats_title">允许匿名使用统计</string>
-    <string name="preferences_send_anon_stats_sum">允许发送匿名统计数据。保证不包含身份信息和私人数据。</string>
+    <string name="preferences_send_anon_stats_sum">允许发送匿名统计数据。不包含身份信息和私人数据。</string>
     <string name="preferences_show_ads_title">显示广告</string>
-    <string name="preferences_show_ads_sum">主屏幕显示广告</string>
+    <string name="preferences_show_ads_sum">主屏幕显示广告。</string>
     <string name="preferences_override_lang_title">语言</string>
     <string name="preferences_override_lang_sum">使用非系统默认的语言。</string>
     <string name="preferences_power_profiles_include_sensors_title">计算时包括传感器信息</string>
-    <string name="preferences_power_profiles_include_sensors_sum">"有些设备没有办法准确的计算出传感器的电量消耗信息。如果传感器统计信息数值看起来不靠谱（通常是加速度仪），取消本选项。 "</string>
+    <string name="preferences_power_profiles_include_sensors_sum">"有些设备无法准确计算出传感器的电量消耗信息。若传感器使用量看起来不准确 (通常是加速度传感器)，请取消本选项。"</string>
+    <string name="preferences_power_profiles_include_audio_title">计算时包括音频信息</string>
+    <string name="preferences_power_profiles_include_audio_sum">"有些设备无法准确计算出音频的电量消耗信息。若音频使用量看起来不准确 (通常是媒体/音频服务器应用)，请取消本选项。"</string>
     <string name="preferences_power_profiles_include_sensors_dlg_title">重置电量消耗信息</string>
-    <string name="preferences_power_profiles_include_sensors_dlg_msg">这会重置你每个百分数所消耗的电量计算信息。你确定要继续么？</string>
+    <string name="preferences_power_profiles_include_sensors_dlg_msg">这会重置每个百分数所消耗的电量计算信息。确定继续？</string>
     <string name="preferences_widget_dialog_title">请选择颜色</string>
-    <string name="preferences_widget_color_full_title">100%时的颜色</string>
-    <string name="preferences_widget_color_middle_title">50%的颜色</string>
-    <string name="preferences_widget_color_empty_title">0%的颜色</string>
+    <string name="preferences_widget_color_full_title">100% 时的颜色</string>
+    <string name="preferences_widget_color_middle_title">50% 时的颜色</string>
+    <string name="preferences_widget_color_empty_title">0% 时的颜色</string>
     <string name="preferences_widget_color_alpha_title">颜色透明度</string>
     <string name="preferences_widget_color_preview_title">效果预览</string>
-    <string name="preferences_widget_color_preview_sum">设置下图电池状态预览百分比数值</string>
-    <string name="preferences_widget_color_screen_sum">设置电池显示的颜色渐变，小部件</string>
+    <string name="preferences_widget_color_preview_sum">设置下图电池状态预览百分比数值。</string>
+    <string name="preferences_widget_color_screen_sum">设置电池显示的颜色渐变，并控制小部件的设定</string>
     <string name="preferences_widget_color_category">颜色</string>
     <string name="preferences_widget_general_category">通用设置</string>
     <string name="preferences_start_foreground_title">高优先级</string>
-    <string name="preferences_start_foreground_sum">以高优先级运行本应用。当电池图标不更新时使用该设定。否则请勿勾选本选项，以免占用过多系统资源。</string>
-    <string name="preferences_menu_add_alarm">添加闹钟</string>
-    <string name="preferences_menu_remove_alarm">移除闹钟</string>
+    <string name="preferences_start_foreground_sum">以高优先级运行本应用。仅当电池图标不能正常更新时使用该设定，否则请勿勾选本选项，以免占用过多系统资源。</string>
+    <string name="preferences_menu_add_alarm">增加新提醒</string>
+    <string name="preferences_menu_remove_alarm">移除提醒</string>
     <string name="preferences_disable_animation_title">禁用动画效果</string>
-    <string name="preferences_disable_animation_sum">对较慢的设备禁用屏幕动画</string>
-   
-    <!-- Preference Selection Arrays -->    
-    <string name="icon_themes_circle">圆圈</string>  
-    <string name="icon_themes_icsmono">单色</string>  
-    <string name="icon_themes_trad">传统型</string>  
-    <string name="icon_themes_default">系统默认</string>  
+    <string name="preferences_disable_animation_sum">对较慢的设备禁用屏幕动画。</string>
+    <string name="preferences_contains_telephony_support_title">包含电话或数据调制解调器信息</string>
+    <string name="preferences_contains_telephony_support_sum">有些设备会错误报告电话信息 (电话 / 3G / 4G / LTE) - 尤其是平板。若是报告数值有误，请修改本选项。当前报告值：%1s</string>
+    <string name="preferences_configure_notification_title">配置状态通知</string>
+    <string name="preferences_configure_notification_sum">控制所有通知的优先级和行为</string>
+    <string name="preferences_disable_battery_optimization_title">禁用电池优化</string>
+    <string name="preferences_disable_battery_optimization_sum">GSam 必须在后台运行，以监测设备使用情况并接收通知。若 GSam 无法保持运行，请尝试禁用电池优化。大部分用户不需要这样做。</string>
+
+    <!-- Preference Selection Arrays -->
+    <string name="icon_themes_circle">圆圈</string>
+    <string name="icon_themes_icsmono">单色</string>
+    <string name="icon_themes_trad">传统型</string>
+    <string name="icon_themes_ics">单色 2</string>
+    <string name="icon_themes_plain">数字栏</string>
+    <string name="icon_themes_plainnum">只显示数字</string>
+    <string name="icon_themes_default">系统默认</string>
     <string name="icon_themes_getmore">获取更多主题</string>
-    <string name="time_left_calc_dontshow">所有时间</string>
-    <string name="time_left_calc_last5">最近5分钟</string>
-    <string name="time_left_calc_last15">最近15分钟</string>
-    <string name="time_left_calc_last30">最近30分钟</string>
-    <string name="time_left_calc_last60">最近60分钟</string>
-    <string name="stats_since_unplugged">从最后一次拔出电源</string>
-    <string name="stats_since_charged">从最后一次充满</string>
-    <string name="stats_since_custom">从自定义的参考点</string>
+    <string name="time_left_calc_dontshow">不显示估计时间</string>
+    <string name="time_left_calc_last5">最近 5 分钟</string>
+    <string name="time_left_calc_last15">最近 15 分钟</string>
+    <string name="time_left_calc_last30">最近 30 分钟</string>
+    <string name="time_left_calc_last60">最近 60 分钟</string>
+    <string name="stats_since_unplugged">自上次拔出充电器</string>
+    <string name="stats_since_charged">自上次充满</string>
+    <string name="stats_since_custom">自自定义的参考点</string>
+    <string name="stats_since_screen_off">自屏幕关闭</string>
+    <string name="stats_since_now">自现在</string>
+    <string name="stats_since_ago">自 %1s 之前</string>
     <string name="pwer_profiles_mfg">出厂值</string>
     <string name="pwer_profiles_saved">目前已保存的值</string>
 
     <!-- App Sucker -->
-    <string name="process_kernel_label">内核(Android系统)</string>
-    <string name="process_suck_mon_android_system">系统(%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%%的电量已被应用程序使用</string>
-    <string name="process_suck_mon_nodata">没有可用数据。在最后一次电池循环后没有应用程序消耗了资源。</string>
+    <string name="process_kernel_label">内核 (Android 系统)</string>
+    <string name="process_suck_mon_android_system">系统 (%1s)</string>
+    <string name="process_suck_mon_header">%0$.1f%% 的电量已被使用：</string>
+    <string name="process_suck_mon_nodata">无可用数据。自上次充电后，尚无应用程序消耗了指定资源。</string>
     <string name="process_suck_mon_title_prefix">应用程序耗电分析 - %1$s</string>
-    <string name="process_suck_mon_title_unplugged">%1$s (从上次拔出电源)</string>
-    <string name="process_suck_mon_title_fullcharge">%1$s (从上次充满)</string>
-    <string name="process_suck_mon_title_customref">%1$s (从自选参考点)</string>
-    <string name="procsuckmon_viewby_pwr">显示 % 电量使用</string>
-    <string name="procsuckmon_viewby_pwr_minforeground">显示 % 电量使用（只包括后台应用CPU）</string>
-    <string name="procsuckmon_viewby_cpu">显示CPU使用时间</string>
-    <string name="procsuckmon_viewby_cpu_minforeground">显示CPU使用（只包括后台应用CPU）</string>
-    <string name="procsuckmon_viewby_data">显示网络数据使用量</string>
-    <string name="procsuckmon_viewby_sensor">显示传感器使用时间</string>
-    <string name="procsuckmon_viewby_awake">显示保持唤醒状态时间</string>
-    <string name="procsuckmon_viewby_wake_times">显示唤醒设备的次数</string>
-    <string name="procsuckmon_viewby_gps">显示GPS时间使用</string>
-    <string name="procsuckmon_viewby_kernel_wakelocks">显示内核唤醒锁时间</string>
-    <string name="procsuckmon_wakelock_user_apps">结合应用的唤醒锁 (非内核)</string>
+    <!-- Suffix gets 'stats_since_X' replaced -->
+    <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
+    <string name="procsuckmon_viewby_pwr">查看 % 电量使用</string>
+    <string name="procsuckmon_viewby_pwr_minforeground">查看 % 电量使用 (只包括后台应用 CPU)</string>
+    <string name="procsuckmon_viewby_cpu">查看 CPU 使用时间</string>
+    <string name="procsuckmon_viewby_cpu_minforeground">查看 CPU 使用(只包括后台应用 CPU)</string>
+    <string name="procsuckmon_viewby_data">查看网络数据使用量d</string>
+    <string name="procsuckmon_viewby_sensor">查看传感器使用时间</string>
+    <string name="procsuckmon_viewby_awake">查看保持唤醒状态时间</string>
+    <string name="procsuckmon_viewby_wake_times">查看设备唤醒次数</string>
+    <string name="procsuckmon_viewby_gps">查看 GPS 使用时间</string>
+    <string name="procsuckmon_viewby_kernel_wakelocks">查看内核唤醒锁</string>
+    <string name="procsuckmon_wakelock_user_apps">合并的应用程序唤醒锁 (非内核)</string>
+    <string name="procsuckmon_unacounted_cpu_label">合并的应用程序唤醒锁</string>
+    <string name="procsuckmon_unacounted_cpu_title">这是什么意思？</string>
+    <string name="procsuckmon_unacounted_cpu_text">考虑通过 菜单 -> 更多 -> 开启更多统计 以获取更多数据，从而消除该消息。&lt;BR/>&lt;BR/>Android N 及之后的版本不允许应用收集其他应用程序的 CPU 使用情况，因此 GSam 无法区分哪些应用程序对应于系统 CPU 使用。所以 GSam 将所有 CPU 使用情况放到一起，以清楚表明应用程序在消耗资源。GSam 依然可以追踪其他的电池消耗情况比如网络使用等。</string>
 
     <!-- Main screen -->
     <string name="main_history_button">历史</string>
-    <string name="main_preferences_button">选项</string>
-    <string name="main_calculating">计算中\u2026</string>
+    <string name="main_preferences_button">首选项</string>
+    <string name="main_calculating">计算中……</string>
     <string name="main_full">已充满</string>
     <string name="main_timeremaining">剩余时间</string>
     <string name="main_timetofull2">充满还需时间：</string>
     <string name="main_timetofull_tablet2">充满还需时间：</string>
-    <string name="main_timeleft2">平均： </string>
-    <string name="main_timeleft_tablet2">剩余使用时间（以平均使用情况）： </string>
-    <string name="main_timeleft_rolling2">最近%1$s分钟: </string>
-    <string name="main_timeleft_rolling_tablet2">剩余使用时间（以最近%1$s分钟使用情况）： </string>
-    <string name="main_talktime2">通话时间：  </string>
+    <string name="main_timeleft2">平均：</string>
+    <string name="main_timeleft_tablet2">剩余使用时间 (以平均使用情况)：</string>
+    <string name="main_timeleft_rolling2">最近 %1$s 分钟：</string>
+    <string name="main_timeleft_rolling_tablet2">剩余使用时间 (以最近 %1$s 分钟使用情况)：</string>
+    <string name="main_talktime2">通话时间：</string>
     <string name="main_temp">温度：</string>
     <string name="main_voltage">电压：</string>
-    <string name="main_health">电池类型 / 健康度: </string>
+    <string name="main_health">电池类型 / 健康度：</string>
     <string name="main_health_cold">过冷</string>
     <string name="main_health_dead">已坏</string>
     <string name="main_health_good">良好</string>
@@ -176,77 +200,142 @@
     <string name="main_health_failed">获取失败</string>
     <string name="main_usage_label">电池使用 - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
     <string name="main_usage_label2">使用了 %1$s%% 在 %2$s 内</string>
-    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s 活动, %3$s 待机</string>
-    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s 活动</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/小时 - %2$s 活动，%3$s 待机</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/小时 - %2$s 活动</string>
     <string name="main_phone_on_label">电话：</string>
     <string name="main_screen_on_label">屏幕：</string>
     <string name="main_phone_radio_on_label">电话射频：</string>
-    <string name="main_wifi_active_label">Wifi活动：</string>
+    <string name="main_wifi_active_label">Wifi 活动：</string>
     <string name="main_idle_label">保持唤醒：</string>
     <string name="main_bluetooth_label">蓝牙：</string>
     <string name="main_app_usage_label">应用使用：</string>
     <string name="main_app_usage_button">应用耗电分析</string>
-    <string name="main_android_batt_usage_button">电池 - 系统内置</string>    
-    <string name="main_android_batt_usage_failed">无法打开系统内置 电池使用 应用。。。</string>
+    <string name="main_android_batt_usage_button">电池使用 - 系统内置</string>
+    <string name="main_android_batt_usage_failed">无法打开系统内置的"电池使用"应用……</string>
     <string name="main_tools_menu">更多</string>
     <string name="main_menu_charts">图表</string>
     <string name="menu_whatsnew">更新信息</string>
     <string name="about_about">关于</string>
-    <string name="main_stat_ref_label">* 基于%1s前设置的自选参考点</string>
     <string name="menu_set_custom_ref">设置自选参考点</string>
     <string name="menu_remove_custom_ref">移除自选参考点</string>
     <string name="menu_refresh">刷新</string>
-    <string name="main_refresh_toast">统计信息已更新\u2026</string>
-    <string name="main_market_nomarket_msg">功能不可用。在您的机器上找不到应用程序市场。</string>
+    <string name="main_refresh_toast">统计信息已更新……</string>
+    <string name="main_market_nomarket_msg">功能不可用。设备上似乎没有安装应用程序市场。</string>
     <string name="menu_help">帮助</string>
-    <string name="menu_send_debug_data">发送错误报告</string>    
-    <string name="menu_send_debug_data_dlg_title">发送错误报告使用:</string>
-    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
-    <string name="menu_send_debug_data_body">Please enter a description of the problem you encountered:\n\n</string> 
+    <string name="menu_send_debug_data">发送错误报告</string>
+    <string name="menu_send_debug_data_dlg_title">发送错误报告于：</string>
+    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>
+    <string name="menu_send_debug_data_body">请输入遇到的问题详情：\n\n</string>
     <string name="menu_review">评论 GSam Battery Monitor</string>
     <string name="menu_enable_more_stats">开启更多统计</string>
-    <string name="main_share_intentchoosertitle">共享我的电池平均使用时间\u2026</string>
-    <string name="main_share_subject">平均电池使用时间 - GSam Battery Monitor</string>
-    <string name="main_share_msg2">我的%1$s %2$s充一次电后平均使用时间%3$s (%4$s活动时间)。请查看GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg">我的%1$s %2$s充一次电后平均使用时间%3$s。 请查看GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_avg_timepercharge_label">平均电池使用时间: %1$s</string>
-    <string name="main_tablet_battusage_unplug">%1$s%%使用%2$s（从最后一次拔出电源）</string>
-    <string name="main_tablet_battusage_fullcharge">%1$s%%使用%2$s（从最后一次充满）</string>
-    <string name="main_tablet_battusage_customref">%1$s%%使用%2$s（从自定义参考点）</string>
+    <string name="main_share_intentchoosertitle">分享我的电池平均使用时间……</string>
+    <string name="main_share_subject">电池平均使用时间 - GSam Battery Monitor</string>
+    <string name="main_share_msg2">我的 %1$s %2$s 充一次电后电池平均使用时间 %3$s (%4$s 活动时间)。请查看 GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg">我的 %1$s %2$s 充一次电后电池平均使用时间 %3$s 。请查看 GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_tablet_battusage_unplug">%1$s%% 使用 %2$s (自上次拔出充电器)</string>
+    <string name="main_tablet_battusage_fullcharge">%1$s%% 使用 %2$s (自上次充满)</string>
+    <string name="main_tablet_battusage_customref">%1$s%% 使用 %2$s (自自定义参考点)</string>
     <string name="main_tablet_active_usage">活动 (%1$02d:%2$02d:%3$02d)</string>
-    <string name="main_tablet_standby_usage">待机 (%1$02d:%2$02d:%3$02d)</string>    
-    <string name="rate_me_title">为GSam Battery Monitor评分</string>
-    <string name="rate_me_msg">您喜欢GSam Battery Monitor么？烦请抽时间给个好评吧！\n\n别担心 - 您不会再被本信息打扰。</string>
+    <string name="main_tablet_standby_usage">待机 (%1$02d:%2$02d:%3$02d)</string>
+    <string name="rate_me_title">为 GSam Battery Monitor 评分</string>
+    <string name="rate_me_msg">你喜欢 GSam Battery Monitor 吗？烦请抽时间给个好评吧！\n\n别担心 - 你不会再被本信息打扰。</string>
     <string name="rate_me_ok">请评分！</string>
     <string name="main_header_type">类型</string>
     <string name="main_header_time">时间</string>
     <string name="main_header_power">电量</string>
-    <string name="averages_since">至从 %1$s</string>
-    <string name="averages_header">每完整充电周期平均值</string>
-    <string name="main_avg_timepercharge_label2">电池寿命:</string>
+    <string name="averages_since">自 %1$s</string>
+    <string name="averages_header">每完整充电周期的平均值</string>
+    <string name="main_avg_timepercharge_label2">电池寿命：</string>
     <string name="main_avg_timepercharge_text_active">%1$s (%2$s 活动)</string>
     <string name="main_avg_timepercharge_text_standby">%1$s (%2$s 待机)</string>
-    <string name="main_avg_screenon_label">屏幕开启:</string>
+    <string name="main_avg_screenon_label">屏幕开启：</string>
     <string name="main_avg_screenon_text">%1$s (%2$s 最大)</string>
-    <string name="main_avg_chargetime_label">充电时间:</string>
+    <string name="main_avg_chargetime_label">充电时间：</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
-    <string name="main_kitkat_nostats_title2">用Root伴侣应用开启更多统计资料</string>
-    <string name="main_kitkat_nostats_helper_needed2">如果你通过安装GSam Root伴侣应用而拥有Root访问权限，你可以启用访问更多统计资料
-                 这会让你访问更详细的唤醒锁，传感器使用和许多其他统计信息。\n
-        \n如果你没有Root或者不知道这是什么意思，别担心它。GSam没有它功能也一样很好。\n
-        \n参考 <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> 获得更多信息。</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root伴侣应用没有正确的安装在/system/priv-app。 请启动应用并验证它是否正确安装。</string>
-	<string name="main_kitkat_nostats_launch_companion">启动Root伴侣</string>
-	<string name="main_kitkat_nostats_install_companion">安装Root伴侣</string>
+    <string name="main_kitkat_nostats_title2">用 Root Companion 应用开启更多统计信息</string>
+    <string name="main_kitkat_nostats_helper_needed2">如果你通过安装 GSam Root Companion 应用而拥有了 Root 权限，你将可以访问更多统计信息。这会让你有权限获取唤醒锁详情、传感器使用和许多其他统计信息。\n\n如果你没有 Root 或者不知道这是什么意思，也别担心，GSam 没有它也一样可以工作。\n\n查看 <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> 获取更多信息。</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root Companion 应用没有正确安装在 /system/priv-app。请启动应用并验证它是否正确安装。</string>
+	<string name="main_kitkat_nostats_launch_companion">启动 Root Companion</string>
+	<string name="main_kitkat_nostats_install_companion">安装 Root Companion</string>
+	<string name="main_phone_permission_title">授予电话权限</string>
+	<string name="main_phone_permission_text">GSam 可以基于监测电话的状态和信号强度来追踪电话的电量使用情况。&lt;BR/>&lt;BR/>授予 &lt;B>电话 (拨打电话及管理通话)&lt;/B> 权限可以获取更精确的统计数据。</string>
+    <string name="main_stats_corrupt_title">无法获取数据</string>
+    <string name="main_stats_currupt_text">获取电池统计数据时出错了。若该错误持续出现，尝试 &lt;li>&amp;nbsp;重启手机，或者 &lt;/li> &lt;li>&amp;nbsp;将手机充电至 100%&lt;/li>这是 Android 核心服务的问题，和 GSam Battery Monitor 无关。</string>
+    <string name="main_notification_permission_title">获取通知</string>
+    <string name="main_notification_permission_text">GSam 可以使用通知来显示当前电池状态。&lt;BR/>&lt;BR/>授予权限后，可以在偏好设置中控制通知。</string>
+
+    <!-- ADB Connect Wizard -->
+    <string name="adb_start_text">若授予 GSam 特殊的 BATTERY_STATS 权限，它将可以获取更多统计信息。你只需要做一次！</string>
+    <string name="adb_start_text2">
+        &#8212; &lt;b>拥有 Root？&lt;/b>让 GSam 通过运行如下命令自动添加所需权限：&lt;i>pm grant %1$s android.permission.BATTERY_STATS&lt;/i>
+    </string>
+    <string name="adb_start_button_root">使用 Root 授予权限</string>
+    <string name="adb_start_text3">
+        &#8212; &lt;b>没有 Root？&lt;/b>连接到电脑并使用 ADB 命令来授予权限。
+    </string>
+    <string name="adb_start_button">看看怎么做</string>
+    <string name="adb_get_title">获取 ADB</string>
+    <string name="adb_get_text">
+        下载并安装 ADB 到电脑上。你可以在这里找到应用和安装指南：
+        &lt;br/>&lt;br/>
+        &#8212; 从 Google 获取命令行工具 (&lt;a href="https://goo.gl/4WJatw">https://goo.gl/4WJatw&lt;/a>)
+        &lt;br/>&lt;br/>
+        &#8212; 或者从 XDA 上获取一个简单的安装器 (仅适用于 Windows) (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
+    </string>
+    <string name="adb_get_button">好了，我已经安装好 ADB 了！</string>
+    <string name="adb_developer_title">打开 USB 调试</string>
+    <string name="adb_developer_text">为了在设备上启用 ADB，你首先需要启用 USB 调试。当全部搞定后，你可以禁用调试。</string>
+    <string name="adb_developer_text2">&lt;a href="">打开 设置 -> 关于&lt;/a>&lt;br></string>
+    <string name="adb_developer_text2_click">点击 "版本号" 连续 7 次直到它提示你已经是开发者了</string>
+    <string name="adb_developer_text3">&lt;a href="">打开 设置 -> 开发者选项"&lt;/a>&lt;br></string>
+    <string name="adb_developer_text3_click">选择 "USB 调试"</string>
+    <string name="adb_developer_error_not_developer">首先启用开发者选项</string>
+    <string name="adb_developer_error_not_enabled">首先启用 USB 调试</string>
+    <string name="adb_developer_button">好了，我已经启用 USB 调试了！</string>
+    <string name="adb_connect_title">连接并验证 ADB</string>
+    <string name="adb_connect_text">
+        &#8212; 将你的手机通过 USB 连接至电脑&lt;br/>&lt;br/>
+        &#8212; 确保选择了手机上弹出的消息中的 &lt;i>&lt;b>允许 USB 调试&lt;/b>&lt;/i>&lt;br/>&lt;br/>
+        &#8212; 通过打开电脑上的命令行提示符并运行如下命令来验证 ADB 已经开启&lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
+    </string>
+    <string name="adb_connect_text2">
+        C:\\> adb devices&lt;br/>
+        List of devices attached&lt;br/>
+        85B7N26304004631	device&lt;br/>
+        C:\\>
+    </string>
+    <string name="adb_connect_button">好了，ADB 已开启！</string>
+    <string name="adb_grant_title">授予 GSam 权限</string>
+    <string name="adb_grant_text">使用如下 ADB 命令 (所有内容都在一行上) 将 BATTERY_STATS 权限授予 GSam。该设定会在应用安装期间内一直保持。</string>
+    <string name="adb_grant_text2">
+        C:\\> adb shell pm grant %1$s android.permission.BATTERY_STATS&lt;br/>
+        C:\\>
+    </string>
+    <string name="adb_grant_button">全部完成！</string>
+    <string name="adb_grant_error_not_granted">权限尚未获取，请重试……</string>
+    <string name="adb_grant_success">恭喜 —— 权限已获取！\n现在你可以禁用 USB 调试模式了。</string>
+    <string name="adb_root_progress_title">请稍候……</string>
+    <string name="adb_root_progress_msg">正在授予 GSam BATTERY_STATS 权限……\n\n确保你接受任意的超级用户请求。</string>
+    <string name="adb_root_error_no_rights">无法获得超级用户授权。你是否拥有 root 权限？你授权 GSam 了吗？</string>
+    <string name="adb_root_error_dlg_title">出错了</string>
+    <string name="adb_root_success">恭喜 —— 权限已获取！</string>
+    <string name="adb_enable_hidden_api_text">
+        &lt;b>可选：&lt;/b>允许 GSam 访问隐藏 API。这&lt;b>不是&lt;/b>必须的，但是可以提供更&lt;a href="http://blogger.gsamlabs.com/2019/12/enhanced-statistics-for-android-pie-and.html">详细的结果&lt;/a>。&lt;br/>&lt;br/>
+        &lt;b>警告：&lt;/b>允许访问隐藏 API 是系统级别的设定，所以其他应用程序也可以向 GSam 一样访问隐藏 API。
+    </string>
+    <string name="adb_enable_hidden_api_text2">
+        C:\\> adb shell settings put global %1$s 1&lt;br/>
+        C:\\>
+    </string>
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">应用程序详情</string>
-    <string name="process_suck_mon_title_prefix_wifi">Wifi详情</string>
+    <string name="process_suck_mon_title_prefix_wifi">Wifi 详情</string>
     <string name="process_suck_mon_title_prefix_radio">无线射频详情</string>
     <string name="process_suck_mon_title_prefix_screen">屏幕详情</string>
     <string name="process_suck_mon_title_prefix_wakelock">唤醒锁详情</string>
     <string name="appdetail_usagedetail">电量使用详情</string>
     <string name="appdetail_processname">进程名</string>
-    <string name="appdetail_included_packages">包含的应用程序包</string>
+    <string name="appdetail_included_packages">包含的应用程序</string>
     <string name="appdetail_included_processes">包含的进程</string>
     <string name="appdetail_seconds">%1$01d秒</string>
     <string name="appdetail_minutes">%1$01d分 %2$01d秒</string>
@@ -258,172 +347,192 @@
     <string name="appdetail_hours_twolevels">%1$01d时 %2$01d分</string>
     <string name="appdetail_hours_twolevels_decimal">%1$01d时 %2$s分</string>
     <string name="appdetail_details_button">管理</string>
-    <string name="appdetail_details_button_wakelocks">Google我</string>    
+    <string name="appdetail_details_button_wakelocks">Google 一下</string>
     <string name="appdetail_details_adjustpower">省电小提示</string>
-    <string name="appdetail_details_adjust_wifi">当Wi-Fi不使用时可以使用上面的Wi-Fi设置按钮关闭该功能。</string>
-    <string name="appdetail_details_adjust_wifi_button">Wi-Fi设置</string>
-    <string name="appdetail_details_adjust_wifi_failedintent">无法打开wifi设置</string>
-    <string name="appdetail_details_adjust_screen">通过上面的显示设置按钮可以降低屏幕亮度和减少屏幕超时</string>
+    <string name="appdetail_details_adjust_wifi">当 Wi-Fi 不使用时可以使用上面的 Wi-Fi 设置按钮关闭该功能。</string>
+    <string name="appdetail_details_adjust_wifi_button">Wi-Fi 设置</string>
+    <string name="appdetail_details_adjust_wifi_failedintent">无法打开 wifi 设置</string>
+    <string name="appdetail_details_adjust_screen">使用上面的显示设置按钮可以降低屏幕亮度和减少屏幕超时。</string>
     <string name="appdetail_details_adjust_screen_button">显示设置</string>
     <string name="appdetail_details_adjust_screen_failedintent">无法打开显示设置</string>
     <string name="detail_menu_export">导出</string>
-    <string name="detail_menu_export_dlg_title">导出屏幕（文本）数据为</string>
-    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - 导出数据</string>    
-    <string name="appdetail_appuid">应用程序 用户ID：</string>  
-    <string name="appdetail_audio">声音打开：</string>  
-    <string name="appdetail_bright">明亮：</string>  
-    <string name="appdetail_bytesrec">收到字节数：</string>  
-    <string name="appdetail_bytessent">发出字节数：</string>  
-    <string name="appdetail_cpu">CPU使用：</string>  
-    <string name="appdetail_cpu_backgroundonly">CPU使用（只包括后台应用）：</string>  
-    <string name="appdetail_dark">很暗：</string>  
-    <string name="appdetail_data_enabled">数据连接打开：</string>  
-    <string name="appdetail_dim">暗：</string>  
-    <string name="appdetail_discharge_whileonoff">放电 开/关：</string>  
-    <string name="appdetail_gps">GPS：</string>  
-    <string name="appdetail_high">高 - %s:</string>
-    <string name="appdetail_keepawake">保持唤醒：</string>  
-    <string name="appdetail_light">亮：</string>  
-    <string name="appdetail_low">低 - 0:</string>  
-    <string name="appdetail_med">中 - %s:</string>
-    <string name="appdetail_medium">中：</string>  
-    <string name="appdetail_numwakes">唤醒设备次数：</string>  
+    <string name="detail_menu_export_dlg_title">导出屏幕 (文本) 数据为</string>
+    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - 导出数据</string>
+    <string name="appdetail_appuid">应用程序 UID：</string>
+    <string name="appdetail_audio">声音开启：</string>
+    <string name="appdetail_bright">明亮：</string>
+    <string name="appdetail_bytesrec">接收字节数：</string>
+    <string name="appdetail_bytessent">发送字节数：</string>
+    <string name="appdetail_cpu">CPU 使用：</string>
+    <string name="appdetail_cpu_backgroundonly">CPU 使用 (只包括后台应用)：</string>
+    <string name="appdetail_dark">很暗：</string>
+    <string name="appdetail_data_enabled">数据连接打开：</string>
+    <string name="appdetail_dim">暗：</string>
+    <string name="appdetail_discharge_whileonoff">放电 开/关：</string>
+    <string name="appdetail_gps">GPS：</string>
+    <string name="appdetail_high">高 - %s：</string>
+    <string name="appdetail_keepawake">保持唤醒：</string>
+    <string name="appdetail_light">亮：</string>
+    <string name="appdetail_low">低 - 0：</string>
+    <string name="appdetail_med">中 - %s：</string>
+    <string name="appdetail_medium">中：</string>
+    <string name="appdetail_numwakes">唤醒设备次数：</string>
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % 电量</string>
     <string name="appdetail_pct_power_nospace">% 电量</string>
     <string name="appdetail_pct_time">% 时间</string>
-    <string name="appdetail_phoneon">电话射频打开：</string>  
-    <string name="appdetail_pwr_sysdata">系统数据消耗电量：</string>  
-    <string name="appdetail_received">收到：</string>  
-    <string name="appdetail_received_wifimobile">收到数据(Wifi / 移动)：</string>
-    <string name="appdetail_scanning">扫描信号：</string>  
-    <string name="appdetail_screen_brightness">屏幕亮度：</string>  
-    <string name="appdetail_screenon">屏幕打开：</string>  
-    <string name="appdetail_sensor_accelerometer">加速度传感器：</string>  
-    <string name="appdetail_sensor_gravity">重力感应器：</string>  
-    <string name="appdetail_sensor_gyroscope">陀螺仪：</string>  
-    <string name="appdetail_sensor_light">光线感应器：</string>  
-    <string name="appdetail_sensor_lin_accel">线性加速度：</string>  
-    <string name="appdetail_sensor_magfield">磁场：</string>  
-    <string name="appdetail_sensor_orientation">方向：</string>  
-    <string name="appdetail_sensor_pressure">压力：</string>  
-    <string name="appdetail_sensor_proximity">近距离传感器：</string>  
-    <string name="appdetail_sensor_relhum">相对湿度：</string>  
-    <string name="appdetail_sensor_rotvector">旋转向量：</string>  
-    <string name="appdetail_sensor_temp">温度：</string>  
-    <string name="appdetail_sent">发送：</string>  
-    <string name="appdetail_sent_wifimobile">发送(Wifi / 移动)：</string>  
+    <string name="appdetail_phoneon">电话射频开启：</string>
+    <string name="appdetail_pwr_sysdata">系统数据消耗电量：</string>
+    <string name="appdetail_received">接收数据：</string>
+    <string name="appdetail_received_wifimobile">接收数据 (Wifi / 移动网络)：</string>
+    <string name="appdetail_scanning">信号扫描：</string>
+    <string name="appdetail_screen_brightness">屏幕亮度：</string>
+    <string name="appdetail_screenon">屏幕开启：</string>
+    <string name="appdetail_sensor_accelerometer">加速度传感器：</string>
+    <string name="appdetail_sensor_gravity">重力感应器：</string>
+    <string name="appdetail_sensor_gyroscope">陀螺仪：</string>
+    <string name="appdetail_sensor_light">光线感应器：</string>
+    <string name="appdetail_sensor_lin_accel">线性加速度：</string>
+    <string name="appdetail_sensor_magfield">磁场：</string>
+    <string name="appdetail_sensor_orientation">方向：</string>
+    <string name="appdetail_sensor_pressure">压力：</string>
+    <string name="appdetail_sensor_proximity">近距离传感器：</string>
+    <string name="appdetail_sensor_relhum">相对湿度：</string>
+    <string name="appdetail_sensor_rotvector">旋转矢量：</string>
+    <string name="appdetail_sensor_temp">温度：</string>
+    <string name="appdetail_sent">发送数据：</string>
+    <string name="appdetail_sent_wifimobile">发送数据 (Wifi / 移动网络)：</string>
     <string name="appdetail_signal_stregth">信号强度：</string>
-    <string name="appdetail_total_appssystem">总共(应用程序 / 系统):</string>
-    <string name="appdetail_video">视频打开：</string>  
-    <string name="appdetail_wakelocks">唤醒锁数：</string>  
-    <string name="appdetail_wifiactive">Wifi活动：</string>  
-    <string name="appdetail_wifion">Wifi打开：</string>      
-    <string name="appdetail_bytes">%d字节</string>        
-    <string name="appdetail_mb">%.2f MB</string>          
-    <string name="appdetail_kb">%.2f KB</string>  
-    <string name="appdetail_totaltime">总时间(包括唤醒):</string>
-    <string name="appdetail_select_package">选择管理的包</string>
+    <string name="appdetail_total_appssystem">总计 (应用程序 / 系统)：</string>
+    <string name="appdetail_video">视频播放：</string>
+    <string name="appdetail_wakelocks">唤醒锁数：</string>
+    <string name="appdetail_wifiactive">Wifi 活动：</string>
+    <string name="appdetail_wifion">Wifi 开启：</string>
+    <string name="appdetail_bytes">%d B</string>
+    <string name="appdetail_mb">%.2f MB</string>
+    <string name="appdetail_kb">%.2f KB</string>
+    <string name="appdetail_totaltime">总时间 (包括唤醒)：</string>
+    <string name="appdetail_select_package">选择要管理的包</string>
+    <string name="appdetail_heldawake_title">持有唤醒锁 / 低功耗模式</string>
+    <string name="appdetail_deep_sleep_label">深度睡眠 - CPU 频率 0：</string>
+    <string name="appdetail_doze_num_label">低功耗模式会话：</string>
+    <string name="appdetail_doze_maint_label">低功耗模式运行：</string>
+    <string name="appdetail_discharge_screen_off_label">屏幕关闭时放电：</string>
+    <string name="appdetail_avg_doze_label">低功耗模式时间：</string>
+    <string name="appdetail_avg_doze_light_label">低功耗模式时间 (轻度)：</string>
+    <string name="appdetail_avg_doze_deep_label">低功耗模式时间 (深度)：</string>
+    <string name="appdetail_light_doze_header">轻度</string>
+    <string name="appdetail_deep_doze_header">深度</string>
+    <string name="appdetail_screen_off_label">% 屏幕关闭：</string>
+    <string name="appdetail_doze_count_value">%1$s (%2$d 运行)</string>
+    <string name="appdetail_screendoze">屏幕低功耗模式：</string>
 
     <!-- Change Log - actual change content isn't translated -->
-    <string name="changelog_full_title">最新更新</string>
-    <string name="changelog_title">最新更新</string>
-    <string name="changelog_ok_button">好</string>
+    <string name="changelog_full_title">最近更新</string>
+    <string name="changelog_title">最近更新</string>
+    <string name="changelog_ok_button">好的</string>
 
     <!-- Misc. -->
     <string name="yes">是</string>
     <string name="no">否</string>
-    <string name="ok">好</string>
+    <string name="ok">好的</string>
     <string name="error">出错了</string>
-    
+
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">read battery statistics</string>
-    <string name="permdesc_batteryStats">Allows an application to read the current low-level
-        battery use data.  May allow the application to find out detailed information about
-        which apps you use.</string>
+    <string name="permlab_batteryStats">读取电池统计信息</string>
+    <string name="permdesc_batteryStats">允许应用读取当前底层的电池使用数据。可以让应用找出你所使用的应用的详细信息。</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">温度</string>
     <string name="main_chart_showother">其他</string>
     <string name="main_chart_showradio">电话信号</string>
-    <string name="chart_menu_batthistory">电池历史图表</string>
-    <string name="chart_menu_battdischarge">电量 vs 百分比 图标</string>
+    <string name="main_chart_showrate">变化率</string>
+    <string name="main_chart_showcpu">CPU</string>
+    <string name="chart_menu_batthistory">电量历史图表</string>
+    <string name="chart_menu_battdischarge">电量和百分比图表</string>
     <string name="notification_chargecomplete">充电完成</string>
-    <string name="notification_battcharging">充电中(%1s%%)</string>
-    <string name="notification_battlow">电量低(%1s%%)</string>
-    <string name="notification_batthot_f">警告 - 电池过热(%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">警告 - 电池过热(%.1f\u00B0C)</string>
+    <string name="notification_battcharging">充电中 (%1s%%)</string>
+    <string name="notification_battlow">电量低 (%1s%%)</string>
+    <string name="notification_batthot_f">警告 - 电池过热 (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">警告 - 电池过热 (%.1f\u00B0C)</string>
     <string name="notification_battovervoltage">警告 - 电池电压过高 (%.1f V)</string>
     <string name="chart_active">活动</string>
-    <string name="chart_batt_history">电池历史(%1$s)</string>
-    <string name="chart_batt_percent">电池 %</string>
+    <string name="chart_batt_history">电量历史 (%1$s)</string>
+    <string name="chart_batt_percent">电量 %</string>
     <string name="chart_charging">充电中</string>
-    <string name="chart_dim">亮度</string>
+    <string name="chart_dim">屏幕稍暗</string>
     <string name="chart_gps">GPS</string>
     <string name="chart_high">高</string>
-    <string name="chart_incall">通话时间</string>
-    <string name="chart_low">最小</string>
+    <string name="chart_incall">通话中</string>
+    <string name="chart_low">低</string>
     <string name="chart_max">最大</string>
     <string name="chart_med">中等</string>
     <string name="chart_screen">屏幕</string>
     <string name="chart_signal">电话信号</string>
-    <string name="chart_tempc">电池温度\u00B0C</string>
-    <string name="chart_tempf">电池温度\u00B0F</string>
+    <string name="chart_rateofchange">\u0394 %/小时</string>
+    <string name="chart_tempc">电池温度 \u00B0C</string>
+    <string name="chart_tempf">电池温度 \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">未知</string>
     <string name="chart_wifi">Wifi</string>
-   
+    <string name="chart_cpu_mhz">CPU 平均频率 (GHz)</string>
+    <string name="chart_cpu_util">CPU 使用率 %</string>
+    <string name="chart_idle">低功耗模式</string>
+    <!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
+    <string name="chart_screen_doze">息屏显示</string>
+
     <!-- About -->
-    <string name="about_app_name">关于GSam Battery Monitor</string>
-    <string name="about_version">版本%1s</string>    
+    <string name="about_app_name">关于 GSam Battery Monitor</string>
+    <string name="about_version">版本 %1s</string>
     <string name="about_copyright">\u24d2 GSam Labs 2022</string>
-    <string name="about_chartengine">图表由AChartEngine.org提供</string>
-    <string name="about_actionbar">标题栏由actionbarsherlock.com提供</string>
+    <string name="about_chartengine">图标引擎由 AChartEngine.org 提供</string>
+    <string name="about_icons">应用图标由 &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt; 提供</string>
     <string name="about_translations">翻译：</string>
-   
+
     <!-- DashClock Widget Extension -->
-    <string name="dashclock_description">显示电池统计资料包括剩余时间，每小时消耗等更多。</string>
-    <string name="dashclock_active_standby">%1$s 活动, %2$s 待机</string>
-    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/时</string>
+    <string name="dashclock_description">显示电池统计信息包括剩余时间、每小时电量消耗等。</string>
+    <string name="dashclock_active_standby">%1$s 活动，%2$s 待机</string>
+    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/小时</string>
     <string name="dashclock_delta_per_hour_short_full">充满</string>
-    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - 充电中</string>  
-    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - 放电中</string>  
-    <string name="dashclock_to_empty">%1$s 用尽</string>  
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/小时 - 充电中</string>
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/小时 - 放电中</string>
+    <string name="dashclock_to_empty">%1$s 用尽</string>
     <string name="dashclock_to_full">%1$s 充满</string>
     <string name="dashclock_pref_show_used">显示总计使用量</string>
     <string name="dashclock_pref_show_remaining_time">显示剩余时间</string>
     <string name="dashclock_pref_show_active_standby">显示活动和待机时间</string>
     <string name="dashclock_pref_show_temp_voltage">显示温度和电压</string>
-    <string name="dashclock_settings">GSam扩展设置</string>
-    
-    <!-- Translations & Translators -->  
-    <string name="lang_default">系统默认语言</string>        
+    <string name="dashclock_pref_show_screen_on_time">显示亮屏时间</string>
+    <string name="dashclock_settings">GSam 扩展设置</string>
+
+    <!-- Translations & Translators -->
+    <string name="lang_default">系统默认语言</string>
     <string name="translator_anonymous">匿名</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
-    <string name="translator_zh_CN">Gavin Fang &lt;BR&gt; myliyifei修补</string>
-    
+    <string name="translator_zh_CN">Gavin Fang&lt;BR&gt;myliyifei&lt;BR&gt;silverzhaojr</string>
+
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
-    <string name="appdetail_details_adjust_screen_market_bsd_title">您的屏幕太亮了？</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">如果由于屏幕亮度太高而使您晚上阅读不舒服，请查看GSam Screen Dimmer。它可以将屏幕亮度降低到平时允许的亮度以下，是您获得一个更舒适的夜间阅读环境！\n\n别担心，这条消息只会显示一次。</string>
-    <string name="preferences_send_anon_stats_buypro_title">购买高级版本!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">如果您不允许匿名使用情况统计，本软件的免费版本不允许关闭广告。\n\n高级版本没有广告，而且允许你关闭匿名使用情况统计。</string>
-    <string name="menu_seeotherapps">看看GSam Labs的其他应用</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_title">屏幕是否太亮了？</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">如果由于屏幕亮度太高而使你晚上阅读不舒服，请查看 GSam Screen Dimmer。它可以将屏幕亮度降低到平时允许的亮度以下，使你获得一个更舒适的夜间阅读环境！\n\n别担心，这条消息只会显示一次。</string>
+    <string name="preferences_send_anon_stats_buypro_title">购买高级版本！</string>
+    <string name="preferences_send_anon_stats_buypro_msg">如果你不允许匿名使用情况统计，本软件的免费版本不允许关闭广告。\n\n高级版本没有广告，而且允许你关闭匿名使用情况统计。</string>
+    <string name="menu_seeotherapps">查看 GSam Labs 的其他应用</string>
     <string name="menu_gopro">升级到高级版本</string>
     <string name="menu_gopro_nook">购买</string>
-    <string name="menu_goprokindle">升级到Kindle Fire版本</string>
+    <string name="menu_goprokindle">升级到 Kindle Fire 版本</string>
     <string name="nook_gopro_title">试用过期</string>
-    <string name="nook_gopro_msg">你的电池管理程序已过期。请购买完整版本。您可以继续使用电池管理器，但是只能使用去掉了许多功能和优化的免费模式。</string>
+    <string name="nook_gopro_msg">你的电池管理程序已过期。请购买完整版本。你可以继续使用电池管理器，但是只能使用去掉了许多功能和优化的免费模式。</string>
     <string name="nook_gopro_ok">购买完整版本</string>
     <string name="nook_gopro_cancel">继续使用免费模式</string>
-    <string name="main_market_pro_title">谢谢使用GSam Battery Monitor - 免费</string>
-    <string name="main_market_pro_msg">您知道GSam Battery Monitor有一个平板优化专业版么？请在应用程序市场查找。\n\n别担心，这条消息只会显示一次。</string>
-    <string name="main_market_pro_msg_kindle">您知道GSam Battery Monitor有一个Kindle Fire优化的版本么？Appstore里可以找到它。\n\n别担心，这条消息只会显示一次。</string>
+    <string name="main_market_pro_title">感谢使用 GSam Battery Monitor - 免费</string>
+    <string name="main_market_pro_msg">你知道 GSam Battery Monitor 有一个平板优化专业版吗？请在应用程序市场查找。\n\n别担心，这条消息只会显示一次。</string>
+    <string name="main_market_pro_msg_kindle">你知道 GSam Battery Monitor 有一个为 Kindle Fire 优化的版本吗？Appstore里可以找到它。\n\n别担心，这条消息只会显示一次。</string>
     <string name="main_market_pro_ok">看看去</string>
     <string name="main_market_pro_cancel">不了，谢谢</string>
     <string name="main_invalid_license_title">非法许可</string>
-    <string name="main_invalid_license_msg">您的应用程序许可看起来不是合法的。电池管理器会继续在免费模式下运行。如果您觉得出现问题了，请检查您的购买记录。</string>
+    <string name="main_invalid_license_msg">你的应用程序许可看起来不是合法的。电池管理器会继续在免费模式下运行。如果你觉得有问题，请检查你的购买记录。</string>
     <string name="main_invalid_license_ok">检查我的购买记录</string>
-    <string name="main_invalid_license_cancel">继续</string>    
-    <string name="about_invalidlicense">你没有合法许可。GSam Battery Monitor会继续在免费模式下运行。如果您觉得出现问题了，请用您的Google购买ID联系开发者。</string>
+    <string name="main_invalid_license_cancel">继续</string>
+    <string name="about_invalidlicense">你没有合法许可。GSam Battery Monitor 会继续在免费模式下运行。如果你觉得有问题，请用你的 Google 购买 ID 联系开发者。</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
     <string name="abs__action_bar_home_description">浏览主页</string>
@@ -431,15 +540,15 @@
     <string name="abs__action_menu_overflow_description">更多选项</string>
     <string name="abs__action_mode_done">完成</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_see_all">查看全部。。。</string>
+    <string name="abs__activity_chooser_view_see_all">查看全部...</string>
     <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_dialog_title_default">查看应用</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">选择应用</string>
     <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
-    <string name="abs__share_action_provider_share_with">共享。。。</string>
+    <string name="abs__share_action_provider_share_with">分享...</string>
     <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
-    <string name="abs__activitychooserview_choose_application">选择一个应用</string>
+    <string name="abs__activitychooserview_choose_application">选择应用</string>
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with">共享</string>
+    <string name="abs__shareactionprovider_share_with">分享</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">共享 <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">通过 <xliff:g id="application_name" example="Bluetooth">%s</xliff:g> 分享</string>
 </resources>
