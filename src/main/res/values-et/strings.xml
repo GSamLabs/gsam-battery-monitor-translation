@@ -256,54 +256,51 @@
     <string name="main_avg_chargetime_label">Laadimisaeg:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title2">Luba rohkem statistikat juurkasutaja kaasrakendusega</string>
-    <string name="main_kitkat_nostats_helper_needed2">You can enable access to more statistics if you
-        have Root access by installing the GSam Root Companion app.  This gives you access to detailed
-        wakelock, sensor usage, and many other statistics.\n
-        \nIf you do not have Root, or do not know what this means, don\'t worry about it.  GSam will
-        function just fine without it.\n
-        \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> for more information.</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">The Root Companion application is not installed correctly in /system/priv-app.  Please launch the application and verify it is correctly installed.</string>
-	<string name="main_kitkat_nostats_launch_companion">Launch Root Companion</string>
-	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
-	<string name="main_phone_permission_title">Grant Phone Permission</string>
-	<string name="main_phone_permission_text">GSam can track the power usage of your phone by monitoring its state and signal strength.&lt;BR/>&lt;BR/>Granting access to the &lt;B>Phone (make and manage phone calls)&lt;/B> permission will result in more accurate statistics."</string>
-    <string name="main_stats_corrupt_title">Unable to retrieve stats</string>
-    <string name="main_stats_currupt_text">An error occurred while retrieving battery statistics.  If this error continues, try &lt;li>&amp;nbsp;Restarting your phone, or &lt;/li> &lt;li>&amp;nbsp;Charge your phone to 100%&lt;/li>This is an issue with the core Android services, and not GSam Battery Monitor.</string>
+    <string name="main_kitkat_nostats_helper_needed2">Juurkasutajat omades saad ligi rohkemale statistikale, installides GSam Root Companion rakenduse. See annab ligipääsu täpsele ärkamislukkude ja sensorite kasutusele ning paljule muule statistikale.\n
+        Kui sul juurkasutaja (root) puudub, või ei tea, mis see on, ära selle pärast muretse - GSam töötab hästi ka ilma selleta.\n\n
+        Täiendava info jaoks vaata <a href="http://goo.gl/WBXJ6o">https://goo.gl/WBXJ6o</a></string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Rakendus Root Companion ei ole korrektselt asukohta /system/priv-app installitud. Palun käivita rakendus ja veendu, et see on korrektselt installitud.</string>
+	<string name="main_kitkat_nostats_launch_companion">Käivita Root Companion</string>
+	<string name="main_kitkat_nostats_install_companion">Installi Root Companion</string>
+	<string name="main_phone_permission_title">Anna telefoniluba</string>
+	<string name="main_phone_permission_text">GSam saab jälgida telefonifunktsiooni toitekasutust, jälgides selle olekut ja signaalitugevust.&lt;BR/>&lt;BR/>Andes loa &lt;B>Telefon (telefonikõnede tegemine ja haldamine)&lt;/B>, kuvab rakendus täpsema statistika."</string>
+    <string name="main_stats_corrupt_title">Statistika hankimine ebaõnnestus</string>
+    <string name="main_stats_currupt_text">Aku statistika hankimisel esines tõrge. Kui see tõrge jätkub, proovi &lt;li>&amp;nbsp;telefon taaskäivitada, või &lt;/li> &lt;li>&amp;nbsp;laadi oma telefon 100% peale&lt;/li>See on Androidi tuumteenuste viga, mitte GSam Battery Monitori viga.</string>
 
     <!-- ADB Connect Wizard -->
-    <string name="adb_start_text">GSam can access more stats if you give it the special BATTERY_STATS permission.  You just need to enable it once!</string>
+    <string name="adb_start_text">GSam saab ligi rohkemale statistikale, kui annad sellel erilise BATTERY_STATS loa. Sa pead seda tegema vaid ühe korra!</string>
     <string name="adb_start_text2">
-        &#8212; &lt;b>Have Root?&lt;/b>  Let GSam add the needed permission automatically by running the
-        following command: &lt;i>pm grant %1$s android.permission.BATTERY_STATS&lt;/i>
+        &#8212; &lt;b>Omad juurkasutajat?&lt;/b> Luba GSamil vajalik luba automaatselt anda, 
+        käivitades järgneva käskluse: &lt;i>pm grant %1$s android.permission.BATTERY_STATS&lt;/i>
     </string>
-    <string name="adb_start_button_root">Grant Access With Root</string>
+    <string name="adb_start_button_root">Anna luba juurkasutajaga</string>
     <string name="adb_start_text3">
-        &#8212; &lt;b>No Root?&lt;/b>  Connect to a computer and use the ADB command to enable access.
+        &#8212; &lt;b>Juurkasutaja puudub?&lt;/b> Ühendu arvutiga ning kasuta ligipääsu andmiseks antud ADB-käsklust.
     </string>
-    <string name="adb_start_button">Show Me How</string>
-    <string name="adb_get_title">Get ADB</string>
+    <string name="adb_start_button">Näita, kuidas</string>
+    <string name="adb_get_title">Hangi ADB</string>
     <string name="adb_get_text">
-        Download and install ADB on your computer.  You can find the application and instructions here:
+        Laadi alla ja installi ADB oma arvutisse. Programmi ja juhised leiad siit:
         &lt;br/>&lt;br/>
-        &#8212; Get just the command line tools from Google (&lt;a href="https://goo.gl/4WJatw">https://goo.gl/4WJatw&lt;/a>)
+        &#8212; Hangi Google\'ilt vaid käsureatööriistad (&lt;a href="https://goo.gl/4WJatw">https://goo.gl/4WJatw&lt;/a>)
         &lt;br/>&lt;br/>
-        &#8212; Or get a simple installer (Windows Only) from XDA (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
+        &#8212; Või hangi lihtne installer XDA-st (ainult Windows) (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
     </string>
-    <string name="adb_get_button">OK, I\'ve got ADB Installed!</string>
-    <string name="adb_developer_title">Enable USB Debugging</string>
-    <string name="adb_developer_text">To enable ADB on your device, you\'ll first need to enable USB Debug.  You can disable debugging once everything is complete.</string>
-    <string name="adb_developer_text2">&lt;a href="">Launch Settings -> About&lt;/a>&lt;br></string>
-    <string name="adb_developer_text2_click">Click on the "Build Number" entry 7 times until it tells you that you are a developer</string>
-    <string name="adb_developer_text3">&lt;a href="">Launch Settings -> Developer Options"&lt;/a>&lt;br></string>
-    <string name="adb_developer_text3_click">Select "USB Debugging</string>
-    <string name="adb_developer_error_not_developer">Enable Developer Options first</string>
-    <string name="adb_developer_error_not_enabled">Enable USB Debugging first</string>
-    <string name="adb_developer_button">OK, I\'ve enabled USB Debugging!</string>
-    <string name="adb_connect_title">Connect and Verify ADB</string>
+    <string name="adb_get_button">OK, mul on ADB installitud!</string>
+    <string name="adb_developer_title">Luba USB silumine</string>
+    <string name="adb_developer_text">ADB oma seadmes lubamiseks pead kõigepealt lubama USB silumise. Kui kõik on tehtud, võid selle uuesti keelata.</string>
+    <string name="adb_developer_text2">&lt;a href="">Käivita Seaded -> Teave&lt;/a>&lt;br></string>
+    <string name="adb_developer_text2_click">Vajuta üksust "Järgunumber" 7 korda, kuni see ütleb, et oled arendaja</string>
+    <string name="adb_developer_text3">&lt;a href="">Käivita Seaded -> Arendaja valikud"&lt;/a>&lt;br></string>
+    <string name="adb_developer_text3_click">Vali "USB silumine"</string>
+    <string name="adb_developer_error_not_developer">Luba kõigepealt arendaja valikud</string>
+    <string name="adb_developer_error_not_enabled">Luba kõigepealt USB silumine</string>
+    <string name="adb_developer_button">OK, mul on USB silumine lubatud!</string>
+    <string name="adb_connect_title">Ühenda ja kinnita ADB</string>
     <string name="adb_connect_text">
-        &#8212; Connect your phone to your computer via USB&lt;br/>&lt;br/>
-        &#8212; Make sure you select &lt;i>&lt;b>Allow USB debugging&lt;/b>&lt;/i> on any popup message on your phone&lt;br/>&lt;br/>
-        &#8212; Verify ADB is active by opening up a command shell on your computer and running &lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
+        &#8212; Ühenda oma telefon arvutiga USB kaudu&lt;br/>&lt;br/>
+        &#8212; Veendu, et valid &lt;i>&lt;b>Luba USB-silumine&lt;/b>&lt;/i> mistahes hüpikul oma telefonis&lt;br/>&lt;br/>
+        &#8212; Kinnita, et ADB on aktiivne, avades oma arvutis käsurea ning kirjutades &lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
     </string>
     <string name="adb_connect_text2">
         C:\\> adb devices&lt;br/>
@@ -311,39 +308,40 @@
         85B7N26304004631	device&lt;br/>
         C:\\>
     </string>
-    <string name="adb_connect_button">OK, ADB is active!</string>
-    <string name="adb_grant_title">Grant GSam Access</string>
-    <string name="adb_grant_text">Grant GSam access to the BATTERY_STATS permission using the followng ADB command (all on one line).  This setting should stick through the life of the application install.</string>
+    <string name="adb_connect_button">OK, ADB on aktiivne!</string>
+    <string name="adb_grant_title">Anna GSamile luba</string>
+    <string name="adb_grant_text">Anna GSamile BATTERY_STATS luba, kasutades järgnevat ADB-käsklust (kõik ühel real). See säte peaks püsima terve aja, kuni GSami rakendus on paigaldatud.</string>
     <string name="adb_grant_text2">
         C:\\> adb shell pm grant %1$s android.permission.BATTERY_STATS&lt;br/>
         C:\\>
     </string>
-    <string name="adb_grant_button">All Done!</string>
-    <string name="adb_grant_error_not_granted">Permission still not granted.  Try again&#8230;</string>
-    <string name="adb_grant_success">Congratulations &#8212; Permission Granted!\nYou can disable USB Debugging now if you wish.</string>
-    <string name="adb_root_progress_title">Please Wait&#8230;</string>
-    <string name="adb_root_progress_msg">Granting GSam BATTERY_STATS permission&#8230;\n\nMake sure you accept any superuser requests.</string>
-    <string name="adb_root_error_no_rights">Unable to obtain supersuser authority.  Do you have root?  Did you give GSam authority?</string>
-    <string name="adb_root_error_dlg_title">An Error Occurred</string>
-    <string name="adb_root_success">Congratulations &#8212; Permission Granted!</string>
+    <string name="adb_grant_button">Kõik tehtud!</string>
+    <string name="adb_grant_error_not_granted">Luba pole jätkuvalt antud. Proovi uuesti&#8230;</string>
+    <string name="adb_grant_success">Õnnitlused &#8212; luba on antud!\nSoovi korral võid nüüd USB silumise keelata.</string>
+    <string name="adb_root_progress_title">Palun oota&#8230;</string>
+    <string name="adb_root_progress_msg">Annan GSamile BATTERY_STATS loa&#8230;\n\nVeendu, et kinnitad mistahes superkasutaja taotlused.</string>
+    <string name="adb_root_error_no_rights">Superkasutaja ligipääsu saamine ebaõnnestus. Kas sul on juurkasutaja (root)? Kas andsid GSamile loa?</string>
+    <string name="adb_root_error_dlg_title">Esines viga</string>
+    <string name="adb_root_success">Õnnitlused &#8212; luba on antud!</string>
     <string name="adb_enable_hidden_api_text">
-        &lt;b>Optional:&lt;/b> Permit GSam to access hidden APIs. This &lt;b>is not&lt;/b> required, but will provide more &lt;a href="http://blogger.gsamlabs.com/2019/12/enhanced-statistics-for-android-pie-and.html">detailed results&lt;/a>.&lt;br/>&lt;br/>
-        &lt;b>WARNING:&lt;/b> This hidden API access is a system wide setting, so other apps can access hidden APIs as well as GSam.
+        &lt;b>Valikuline:&lt;/b> Anna GSamile luba peidetud rakendusliideste kasutamiseks. See &lt;b>ei ole&lt;/b> nõutud, kuid annab rohkem &lt;a href="https://blogger.gsamlabs.com/2019/12/enhanced-statistics-for-android-pie-and.html">detailsemaid tulemusi&lt;/a>.&lt;br/>&lt;br/>
+        &lt;b>HOIATUS:&lt;/b> See peidetud rakendusliides on süsteemiülene säte, seega lisaks GSamile saavad teised rakendused samuti peidetud rakendusliidestele ligi.
     </string>
     <string name="adb_enable_hidden_api_text2">
         C:\\> adb shell settings put global %1$s 1&lt;br/>
         C:\\>
     </string>
+
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
-    <string name="process_suck_mon_title_prefix_app">App Detail</string>
-    <string name="process_suck_mon_title_prefix_wifi">Wifi Detail</string>
-    <string name="process_suck_mon_title_prefix_radio">Radio Detail</string>
-    <string name="process_suck_mon_title_prefix_screen">Screen Detail</string>
-    <string name="process_suck_mon_title_prefix_wakelock">Wakelock Detail</string>
-    <string name="appdetail_usagedetail">Usage Details</string>
-    <string name="appdetail_processname">Process Name</string>
-    <string name="appdetail_included_packages">Included Packages</string>
-    <string name="appdetail_included_processes">Included Processes</string>
+    <string name="process_suck_mon_title_prefix_app">Rakenduse detailid</string>
+    <string name="process_suck_mon_title_prefix_wifi">WiFi detailid</string>
+    <string name="process_suck_mon_title_prefix_radio">Raadioside detailid</string>
+    <string name="process_suck_mon_title_prefix_screen">Ekraani detailid</string>
+    <string name="process_suck_mon_title_prefix_wakelock">Äratusluku detailid</string>
+    <string name="appdetail_usagedetail">Kasutusandmed</string>
+    <string name="appdetail_processname">Protsessi nimi</string>
+    <string name="appdetail_included_packages">Kaasatud paketid</string>
+    <string name="appdetail_included_processes">Kaasatud protsessid</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
     <string name="appdetail_minutes_decimal">%1$sm</string>
@@ -353,85 +351,85 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
-    <string name="appdetail_details_button">Manage</string>
-    <string name="appdetail_details_button_wakelocks">Google Me</string>    
-    <string name="appdetail_details_adjustpower">Power Savings Hint</string>
-    <string name="appdetail_details_adjust_wifi">Turn off Wi-Fi when not in use using the Wi-Fi Settings button above.</string>
-    <string name="appdetail_details_adjust_wifi_button">Wi-Fi Settings</string>
-    <string name="appdetail_details_adjust_wifi_failedintent">Unable to launch wifi settings</string>
-    <string name="appdetail_details_adjust_screen">Lower screen brightness and screen timeout using the Display Settings button above.</string>
-    <string name="appdetail_details_adjust_screen_button">Display Settings</string>
-    <string name="appdetail_details_adjust_screen_failedintent">Unable to launch display settings</string>
-    <string name="detail_menu_export">Export</string>
-    <string name="detail_menu_export_dlg_title">Export Screen (Text) Data Using</string>
-    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Export Data</string>    
-    <string name="appdetail_appuid">App UID:</string>  
-    <string name="appdetail_audio">Audio On:</string>  
-    <string name="appdetail_bright">Bright:</string>  
-    <string name="appdetail_bytesrec">Bytes Received:</string>  
-    <string name="appdetail_bytessent">Bytes Sent:</string>  
-    <string name="appdetail_cpu">CPU Usage:</string>  
-    <string name="appdetail_cpu_backgroundonly">CPU Usage (Background Only):</string>  
-    <string name="appdetail_dark">Dark:</string>  
-    <string name="appdetail_data_enabled">Data Enabled:</string>  
-    <string name="appdetail_dim">Dim:</string>  
-    <string name="appdetail_discharge_whileonoff">Discharge While On/Off:</string>  
+    <string name="appdetail_details_button">Halda</string>
+    <string name="appdetail_details_button_wakelocks">Googelda seda</string>    
+    <string name="appdetail_details_adjustpower">Aku säästmise vihjed</string>
+    <string name="appdetail_details_adjust_wifi">Lülita Wi-Fi välja, kui seda ei kasutata, kasutades ülalolevat Wi-Fi seadete nuppu.</string>
+    <string name="appdetail_details_adjust_wifi_button">Wi-Fi seaded</string>
+    <string name="appdetail_details_adjust_wifi_failedintent">Wi-Fi seadete käivitamine ebaõnnestus</string>
+    <string name="appdetail_details_adjust_screen">Alanda ekraani eredust ja ajalõpu viidet, kasutades ülalolevat ekraani seadete nuppu.</string>
+    <string name="appdetail_details_adjust_screen_button">Ekraaniseaded</string>
+    <string name="appdetail_details_adjust_screen_failedintent">Ekraaniseadete käivitamine ebaõnnestus</string>
+    <string name="detail_menu_export">Ekspordi</string>
+    <string name="detail_menu_export_dlg_title">Ekspordi ekraani (tekstipõhised) andmed, kasutades</string>
+    <string name="detail_menu_export_subject">GSam Labs - Akujälgija - Eksporditud andmed</string>    
+    <string name="appdetail_appuid">Rakenduse UID:</string>  
+    <string name="appdetail_audio">Heli sees:</string>  
+    <string name="appdetail_bright">Ere:</string>  
+    <string name="appdetail_bytesrec">Baite saadud:</string>  
+    <string name="appdetail_bytessent">Baite saadetud:</string>  
+    <string name="appdetail_cpu">Protsessorikasutus:</string>  
+    <string name="appdetail_cpu_backgroundonly">Protsessorikasutus (vaid taustal):</string>  
+    <string name="appdetail_dark">Tume:</string>  
+    <string name="appdetail_data_enabled">Andmeside lubatud:</string>  
+    <string name="appdetail_dim">Hämar:</string>  
+    <string name="appdetail_discharge_whileonoff">Tühjenemine, kui on sees/väljas:</string>  
     <string name="appdetail_gps">GPS:</string>  
-    <string name="appdetail_high">High - %s:</string>
-    <string name="appdetail_keepawake">Keep Awake:</string>  
-    <string name="appdetail_light">Light:</string>  
-    <string name="appdetail_low">Low - 0:</string>  
-    <string name="appdetail_med">Medium - %s:</string>
-    <string name="appdetail_medium">Medium:</string>  
-    <string name="appdetail_numwakes">Number of times waking device:</string>  
-    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Power</string>
-    <string name="appdetail_pct_power_nospace">% Power</string>
-    <string name="appdetail_pct_time">% Time</string>
-    <string name="appdetail_phoneon">Phone Radio On:</string>  
-    <string name="appdetail_pwr_sysdata">Power For System Data:</string>  
-    <string name="appdetail_received">Received:</string>  
-    <string name="appdetail_received_wifimobile">Received (Wifi / Mobile):</string> 
-    <string name="appdetail_scanning">Scanning For Signal:</string>  
-    <string name="appdetail_screen_brightness">Screen Brightness:</string>  
-    <string name="appdetail_screenon">Screen On:</string>  
-    <string name="appdetail_sensor_accelerometer">Accelerometer:</string>  
-    <string name="appdetail_sensor_gravity">Gravity:</string>  
-    <string name="appdetail_sensor_gyroscope">Gyroscope:</string>  
-    <string name="appdetail_sensor_light">Light:</string>  
-    <string name="appdetail_sensor_lin_accel">Linear Acceleration:</string>  
-    <string name="appdetail_sensor_magfield">Magnetic Field:</string>  
-    <string name="appdetail_sensor_orientation">Orientation:</string>  
-    <string name="appdetail_sensor_pressure">Pressure:</string>  
-    <string name="appdetail_sensor_proximity">Proximity:</string>  
-    <string name="appdetail_sensor_relhum">Relative Humidity:</string>  
-    <string name="appdetail_sensor_rotvector">Rotational Vector:</string>  
-    <string name="appdetail_sensor_temp">Temperature:</string>  
-    <string name="appdetail_sent">Sent:</string>  
-    <string name="appdetail_sent_wifimobile">Sent (Wifi / Mobile):</string>  
-    <string name="appdetail_signal_stregth">Signal Strength:</string>
-    <string name="appdetail_total_appssystem">Total (Apps / System):</string> 
-    <string name="appdetail_video">Video On:</string>  
-    <string name="appdetail_wakelocks">Number of Wake Locks:</string>  
-    <string name="appdetail_wifiactive">Wifi Active:</string>  
-    <string name="appdetail_wifion">Wifi On:</string>      
-    <string name="appdetail_bytes">%d bytes</string>
+    <string name="appdetail_high">Kõrge - %s:</string>
+    <string name="appdetail_keepawake">Ärkvelolek:</string>  
+    <string name="appdetail_light">Hele:</string>  
+    <string name="appdetail_low">Madal - 0:</string>  
+    <string name="appdetail_med">Keskmine - %s:</string>
+    <string name="appdetail_medium">Keskmine:</string>  
+    <string name="appdetail_numwakes">Kordi seadet äratatud:</string>  
+    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % toidet</string>
+    <string name="appdetail_pct_power_nospace">% toidet</string>
+    <string name="appdetail_pct_time">% aega</string>
+    <string name="appdetail_phoneon">Telefoni raadioside sees:</string>  
+    <string name="appdetail_pwr_sysdata">Toide süsteemiandmete jaoks:</string>  
+    <string name="appdetail_received">Saadud:</string>  
+    <string name="appdetail_received_wifimobile">Saadud (Wi-Fi/mobiilside):</string> 
+    <string name="appdetail_scanning">Signaali skaneerimine:</string>  
+    <string name="appdetail_screen_brightness">Ekraani eredus:</string>  
+    <string name="appdetail_screenon">Ekraan sees:</string>  
+    <string name="appdetail_sensor_accelerometer">Kiirendusmõõtur:</string>  
+    <string name="appdetail_sensor_gravity">Gravitatsioon:</string>  
+    <string name="appdetail_sensor_gyroscope">Güroskoop:</string>  
+    <string name="appdetail_sensor_light">Valgus:</string>  
+    <string name="appdetail_sensor_lin_accel">Lineaarne kiirendus:</string>  
+    <string name="appdetail_sensor_magfield">Magneetiline väli:</string>  
+    <string name="appdetail_sensor_orientation">Orientatsioon:</string>  
+    <string name="appdetail_sensor_pressure">Surve:</string>  
+    <string name="appdetail_sensor_proximity">Lähedus:</string>  
+    <string name="appdetail_sensor_relhum">Relatiivne niiskus:</string>  
+    <string name="appdetail_sensor_rotvector">Pöördevektor:</string>  
+    <string name="appdetail_sensor_temp">Temperatuur:</string>  
+    <string name="appdetail_sent">Saadetud:</string>  
+    <string name="appdetail_sent_wifimobile">Saadetud (Wi-Fi/mobiilside):</string>  
+    <string name="appdetail_signal_stregth">Signaalitugevus:</string>
+    <string name="appdetail_total_appssystem">Kokku (rakendused/süsteem):</string> 
+    <string name="appdetail_video">Video sees:</string>  
+    <string name="appdetail_wakelocks">Äratuslukkude arv:</string>  
+    <string name="appdetail_wifiactive">Wi-Fi aktiivne:</string>  
+    <string name="appdetail_wifion">Wi-Fi sees:</string>      
+    <string name="appdetail_bytes">%d baiti</string>
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
-    <string name="appdetail_totaltime">Total Time (including awake):</string>
-    <string name="appdetail_select_package">Select Package To Manage</string>
-    <string name="appdetail_heldawake_title">Held Awake / Doze</string>
-    <string name="appdetail_deep_sleep_label">Deep Sleep - CPU Freq 0:</string>
-    <string name="appdetail_doze_num_label">Doze Sessions:</string>
-    <string name="appdetail_doze_maint_label">Doze Maintenance:</string>
-    <string name="appdetail_discharge_screen_off_label">Discharge Screen Off:</string>
-    <string name="appdetail_avg_doze_label">Doze Time:</string>
-    <string name="appdetail_avg_doze_light_label">Doze Time (Light):</string>
-    <string name="appdetail_avg_doze_deep_label">Doze Time (Deep):</string>
-    <string name="appdetail_light_doze_header">Light</string>
-    <string name="appdetail_deep_doze_header">Deep</string>
-    <string name="appdetail_screen_off_label">% Screen Off:</string>
-    <string name="appdetail_doze_count_value">%1$s (%2$d maint)</string>
-    <string name="appdetail_screendoze">Screen Doze:</string>
+    <string name="appdetail_totaltime">Aeg kokku (sealhulgas ärkvel):</string>
+    <string name="appdetail_select_package">Vali pakett, mida hallata</string>
+    <string name="appdetail_heldawake_title">Ärkvel hoidmine/uni</string>
+    <string name="appdetail_deep_sleep_label">Sügavuni - protsessori sagedus 0:</string>
+    <string name="appdetail_doze_num_label">Uneseansid:</string>
+    <string name="appdetail_doze_maint_label">Unehaldus:</string>
+    <string name="appdetail_discharge_screen_off_label">Tühjenemine, kui ekraan väljas:</string>
+    <string name="appdetail_avg_doze_label">Une aeg:</string>
+    <string name="appdetail_avg_doze_light_label">Une aeg (kerge):</string>
+    <string name="appdetail_avg_doze_deep_label">Une aeg (sügav):</string>
+    <string name="appdetail_light_doze_header">Kerge</string>
+    <string name="appdetail_deep_doze_header">Sügav</string>
+    <string name="appdetail_screen_off_label">% ekraan väljas:</string>
+    <string name="appdetail_doze_count_value">%1$s (%2$d haldus)</string>
+    <string name="appdetail_screendoze">Ekraani uni:</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">Mis on uut</string>
@@ -445,49 +443,48 @@
     <string name="error">Esines tõrge</string>
     
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">read battery statistics</string>
-    <string name="permdesc_batteryStats">Allows an application to read the current low-level
-        battery use data.  May allow the application to find out detailed information about
-        which apps you use.</string>
+    <string name="permlab_batteryStats">aku statistika lugemine</string>
+    <string name="permdesc_batteryStats">Võimaldab rakendusel lugeda hetkeseid madala taseme akukasutuse andmeid. 
+        Võib võimaldada rakendusel saada detailset infot kasutatavate rakenduste kohta.</string>
 
     <!-- Charts -->
-    <string name="main_chart_showtemp">Temperature</string>
-    <string name="main_chart_showother">Others</string>
-    <string name="main_chart_showradio">Phone Signal</string>
-    <string name="main_chart_showrate">Rate of Change</string>
-    <string name="main_chart_showcpu">CPU</string>
-    <string name="chart_menu_batthistory">Battery History Chart</string>
-    <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
-    <string name="notification_chargecomplete">Charge Complete</string>
-    <string name="notification_battcharging">Battery Charging (%1s%%)</string>
-    <string name="notification_battlow">Battery Low (%1s%%)</string>
-    <string name="notification_batthot_f">Warning - Hot Battery (%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">Warning - Hot Battery (%.1f\u00B0C)</string>
-    <string name="notification_battovervoltage">Warning - Battery Over Voltage (%.1f V)</string>
-    <string name="chart_active">Active</string>
-    <string name="chart_batt_history">Battery History (%1$s)</string>
-    <string name="chart_batt_percent">Battery %</string>
-    <string name="chart_charging">Charging</string>
-    <string name="chart_dim">Dim</string>
+    <string name="main_chart_showtemp">Temperatuur</string>
+    <string name="main_chart_showother">Muud</string>
+    <string name="main_chart_showradio">Telefonisignaal</string>
+    <string name="main_chart_showrate">Muutumise kiirus</string>
+    <string name="main_chart_showcpu">Protsessor</string>
+    <string name="chart_menu_batthistory">Aku ajaloo diagramm</string>
+    <string name="chart_menu_battdischarge">Toide vs protsendi diagramm</string>
+    <string name="notification_chargecomplete">Edukas laadimine</string>
+    <string name="notification_battcharging">Aku laadimine (%1s%%)</string>
+    <string name="notification_battlow">Aku tühjeneb (%1s%%)</string>
+    <string name="notification_batthot_f">Hoiatus - kuum aku (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">Hoiatus - kuum aku (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">Hoiatus - aku on ülepinge saanud (%.1f V)</string>
+    <string name="chart_active">Aktiivne</string>
+    <string name="chart_batt_history">Akuajalugu (%1$s)</string>
+    <string name="chart_batt_percent">Aku %</string>
+    <string name="chart_charging">Laadimine</string>
+    <string name="chart_dim">Hämar</string>
     <string name="chart_gps">GPS</string>
-    <string name="chart_high">High</string>
-    <string name="chart_incall">In Call</string>
-    <string name="chart_low">Low</string>
-    <string name="chart_max">Max</string>
-    <string name="chart_med">Med</string>
-    <string name="chart_screen">Screen</string>
-    <string name="chart_signal">Phone Signal</string>
-    <string name="chart_rateofchange">\u0394 %/Hour</string>
-    <string name="chart_tempc">Battery Temperature \u00B0C</string>
-    <string name="chart_tempf">Battery Temperature \u00B0F</string>
+    <string name="chart_high">Kõrge</string>
+    <string name="chart_incall">Kõnes</string>
+    <string name="chart_low">Madal</string>
+    <string name="chart_max">Maks.</string>
+    <string name="chart_med">Kesk.</string>
+    <string name="chart_screen">Ekraan</string>
+    <string name="chart_signal">Telefonisignaal</string>
+    <string name="chart_rateofchange">\u0394 %/tund</string>
+    <string name="chart_tempc">Aku temperatuur \u00B0C</string>
+    <string name="chart_tempf">Aku temperatuur \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
-    <string name="chart_unknown">Unknown</string>
-    <string name="chart_wifi">Wifi</string>
-    <string name="chart_cpu_mhz">CPU Avg Freq (GHz)</string>
-    <string name="chart_cpu_util">CPU Util %</string>
-    <string name="chart_idle">Doze</string>
+    <string name="chart_unknown">Teadmata</string>
+    <string name="chart_wifi">Wi-Fi</string>
+    <string name="chart_cpu_mhz">Protsessori keskmine sagedus (GHz)</string>
+    <string name="chart_cpu_util">Protsessori kasutus %</string>
+    <string name="chart_idle">Uni</string>
     <!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
-    <string name="chart_screen_doze">AOD</string>
+    <string name="chart_screen_doze">Sää.ek.</string>
     
     <!-- About -->
     <string name="about_app_name">GSam akujälgija teave</string>
@@ -498,66 +495,66 @@
     <string name="about_translations">Tõlked:</string>
     
     <!-- DashClock Widget Extension -->
-    <string name="dashclock_description">Show battery statistics including time left, drain per hour, and more.</string>
-    <string name="dashclock_active_standby">%1$s Active, %2$s Standby</string>
+    <string name="dashclock_description">Kuva aku statistikat, sealhulgas jäänud aeg, tühjenemine tunnis ja muud.</string>
+    <string name="dashclock_active_standby">%1$s aktiivne, %2$s ooterežiimis</string>
     <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
-    <string name="dashclock_delta_per_hour_short_full">Full</string>
-    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Charging</string>  
-    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Discharging</string>  
-    <string name="dashclock_to_empty">%1$s to empty</string>  
-    <string name="dashclock_to_full">%1$s to full</string>
-    <string name="dashclock_pref_show_used">Show amount used</string>
-    <string name="dashclock_pref_show_remaining_time">Show time remaining</string>
-    <string name="dashclock_pref_show_active_standby">Show active and standby times</string>
-    <string name="dashclock_pref_show_temp_voltage">Show temperature and voltage</string>
-    <string name="dashclock_pref_show_screen_on_time">Show screen on time</string>
-    <string name="dashclock_settings">GSam Extension Settings</string>
+    <string name="dashclock_delta_per_hour_short_full">Täis</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - laadimine</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - tühjenemine</string>  
+    <string name="dashclock_to_empty">%1$s kuni tühi</string>  
+    <string name="dashclock_to_full">%1$s kuni täis</string>
+    <string name="dashclock_pref_show_used">Kuva kasutatud väärtust</string>
+    <string name="dashclock_pref_show_remaining_time">Kuva järelejäänud aega</string>
+    <string name="dashclock_pref_show_active_standby">Kuva aktiivset ja ooterežiimi aega</string>
+    <string name="dashclock_pref_show_temp_voltage">Kuva temperatuuri ja pinget</string>
+    <string name="dashclock_pref_show_screen_on_time">Kuva ekraani seesoleku aeg</string>
+    <string name="dashclock_settings">GSam Extension seaded</string>
     
     <!-- Translations & Translators -->   
-    <string name="lang_default">Default System Language</string>        
-    <string name="translator_anonymous">Anonymous</string>
+    <string name="lang_default">Vaikimisi süsteemikeel</string>        
+    <string name="translator_anonymous">Anonüümne</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <string name="translator_et">Madis Otenurm</string>        
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
-    <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">If you have trouble reading at night because your screen is too bright, check out GSam Screen Dimmer.  It lets you reduce your brightness settings below what is normally allowed, making for a much more pleasant night-time read!\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
-    <string name="preferences_send_anon_stats_buypro_msg">The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.\n\nThe Pro version does not include ads, and will let you turn off anonymous usage statistics.</string>
-    <string name="menu_seeotherapps">See Other Apps by GSam Labs</string>
-    <string name="menu_gopro">Upgrade To Pro</string>
-    <string name="menu_gopro_nook">Purchase</string>
-    <string name="menu_goprokindle">Upgrade To The Kindle Fire Edition</string>
-    <string name="nook_gopro_title">Trial Expired</string>
-    <string name="nook_gopro_msg">Your trial of the battery monitor has expired.  Please purchase the full edition.  You can continue to use the battery monitor, however it will run in Free mode which removes a number of features and optimizations.</string>
-    <string name="nook_gopro_ok">Buy Full Version</string>
-    <string name="nook_gopro_cancel">Continue In Free Mode</string>
-    <string name="main_market_pro_title">Thank You For Using GSam Battery Monitor - Free</string>
-    <string name="main_market_pro_msg">Did you know there is a Tablet optimized professional version of GSam Battery Monitor?  Look for it in the market.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_msg_kindle">Did you know there is a Kindle Fire optimized version of GSam Battery Monitor?  Look for it in the Appstore.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_ok">Take A Look</string>
-    <string name="main_market_pro_cancel">No Thank You</string>
-    <string name="main_invalid_license_title">Invalid License</string>
-    <string name="main_invalid_license_msg">Your license to this application appears to not be valid.  The Battery Monitor will continue to operate in it\'s Free mode.  If you feel this is a mistake, please check your purchase.</string>
-    <string name="main_invalid_license_ok">Check My Purchase</string>
-    <string name="main_invalid_license_cancel">Continue</string>    
-    <string name="about_invalidlicense">You do not have a valid license.  GSam Battery Monitor will continue to run in Free mode.  If you feel this is a mistake, please contact the developer with your Google Purchase ID</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_title">On su ekraan liiga ere?</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">Kui sul on probleeme öösel lugemisega, proovi GSam Screen Dimmerit. See võimaldab sul heledust alla lubatud taseme alandada, parandades öösel lugemise kogemust!\n\nÄra muretse, sa ei näe seda sõnumit uuesti. </string>
+    <string name="preferences_send_anon_stats_buypro_title">Hangi Pro!</string>
+    <string name="preferences_send_anon_stats_buypro_msg">Akujälgija tasuta versioon ei luba sul reklaame välja lülitada, kui sa otsustad mitte lubada anonüümset kasutusstatistikat.\n\nPro-versioon ei sisalda reklaame ning võimaldab anonüümse kasutusstatistika välja lülitada.</string>
+    <string name="menu_seeotherapps">Vaata teisi rakendusi arendajalt GSam Labs</string>
+    <string name="menu_gopro">Täienda Prole</string>
+    <string name="menu_gopro_nook">Osta</string>
+    <string name="menu_goprokindle">Täienda Kindle Fire Edition-iks</string>
+    <string name="nook_gopro_title">Prooviversioon aegunud</string>
+    <string name="nook_gopro_msg">Sinu akujälgija prooviversioon on aegunud, palun osta täisversioon. Sa võid akujälgija kasutamist jätkata, kuid see käitatakse tasuta režiimis, mis eemaldab mitmed funktsioonid ja optimiseerimised.</string>
+    <string name="nook_gopro_ok">Osta täisversioon</string>
+    <string name="nook_gopro_cancel">Jätka tasuta režiimis</string>
+    <string name="main_market_pro_title">Täname GSam akujälgija tasutaversiooni kasutamise eest</string>
+    <string name="main_market_pro_msg">Kas teadsid, et GSam akujälgijast on olemas tahvelarvutitele optimeeritud professionaalne versioon? Otsi seda Play poest.\n\nÄra muretse, sa ei näe seda sõnumit uuesti.</string>
+    <string name="main_market_pro_msg_kindle">Kas teadsid, et GSam akujälgijast on olemas Kindle Fire\'ile optimeeritud professionaalne versioon? Otsi seda Appstore\'ist.\n\nÄra muretse, sa ei näe seda sõnumit uuesti.</string>
+    <string name="main_market_pro_ok">Vaata järgi</string>
+    <string name="main_market_pro_cancel">Tänan ei</string>
+    <string name="main_invalid_license_title">Kehtetu litsents</string>
+    <string name="main_invalid_license_msg">Tundub, et sinu rakenduse litsents ei ole kehtiv. Akujälgija jätkab töötamist tasuta režiimis. Kui tunned, et see on eksitus, palun kontrolli oma ostu.</string>
+    <string name="main_invalid_license_ok">Kontrolli mu ostu</string>
+    <string name="main_invalid_license_cancel">Jätka</string>    
+    <string name="about_invalidlicense">Sul puudub kehtiv litsents. GSam akujälgija jätkab töötamist tasuta režiimis. Kui tunned, et see on eksitus, palun kontakteeru arendajaga ning anna talle oma Google\'i ostu-ID</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-    <string name="abs__action_bar_home_description">Navigate home</string>
-    <string name="abs__action_bar_up_description">Navigate up</string>
-    <string name="abs__action_menu_overflow_description">More options</string>
-    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__action_bar_home_description">Navigeeri koju</string>
+    <string name="abs__action_bar_up_description">Navigeeri üles</string>
+    <string name="abs__action_menu_overflow_description">Rohkem valikuid</string>
+    <string name="abs__action_mode_done">Valmis</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activity_chooser_view_see_all">Vaata kõiki...</string>
     <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">Vali tegevus</string>
     <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
-    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__share_action_provider_share_with">Jaga rakendusega...</string>
     <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
-    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__activitychooserview_choose_application">Vali rakendus</string>
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with">Jaga rakendusega</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">Share with <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">Jaga rakendusega <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
 </resources>
