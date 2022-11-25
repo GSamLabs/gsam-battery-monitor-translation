@@ -270,6 +270,8 @@
 	<string name="main_phone_permission_text">GSam can track the power usage of your phone by monitoring its state and signal strength.&lt;BR/>&lt;BR/>Granting access to the &lt;B>Phone (make and manage phone calls)&lt;/B> permission will result in more accurate statistics."</string>
     <string name="main_stats_corrupt_title">Unable to retrieve stats</string>
     <string name="main_stats_currupt_text">An error occurred while retrieving battery statistics.  If this error continues, try &lt;li>&amp;nbsp;Restarting your phone, or &lt;/li> &lt;li>&amp;nbsp;Charge your phone to 100%&lt;/li>This is an issue with the core Android services, and not GSam Battery Monitor.</string>
+    <string name="main_notification_permission_title">Get Notified</string>
+    <string name="main_notification_permission_text">GSam can use notifications to show you the current state of the battery.&lt;BR/>&lt;BR/>Once you grant access, you can control notifications in GSam Preferences.</string>
 
     <!-- ADB Connect Wizard -->
     <string name="adb_start_text">GSam can access more stats if you give it the special BATTERY_STATS permission.  You just need to enable it once!</string>
