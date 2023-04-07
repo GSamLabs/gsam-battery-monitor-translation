@@ -6,9 +6,9 @@
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">剩餘時間：%1$02d:%2$02d (平均)，%3$02d:%4$02d (過去 %5$s 分)</string>
     <string name="battery_status_time_left_no_running">剩餘時間：%1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">剩餘時間：計算中 - 請稍後</string>
+    <string name="battery_status_time_left_unknown">剩餘時間：計算中 - 請稍候</string>
     <string name="battery_status_time_to_full">充飽時間：%1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">充飽時間：計算中 - 請稍後</string>
+    <string name="battery_status_time_to_full_unknown">充飽時間：計算中 - 請稍候</string>
     <string name="battery_status_title">電池狀態 - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">電池狀態 - %1$s%% (%2$s) - 充電中</string>
     <string name="battery_status_title_full">電池狀態 - %1$s%% (%2$s) - 已充飽</string>
@@ -470,7 +470,7 @@
     <string name="chart_batt_history">電池歷史記錄 (%1$s)</string>
     <string name="chart_batt_percent">電池 %</string>
     <string name="chart_charging">充電中</string>
-    <string name="chart_dim">Dim</string>
+    <string name="chart_dim">變暗</string>
     <string name="chart_gps">GPS</string>
     <string name="chart_high">高</string>
     <string name="chart_incall">通話</string>
