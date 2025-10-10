@@ -386,8 +386,8 @@
     <string name="about_app_name">О GSam Battery Monitor</string>
     <string name="about_version">Верзија %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2022</string>
-    <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
-    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
+    <string name="about_chartengine">Графички механизам урадио AChartEngine.org</string>
+    <string name="about_icons">Иконицу апликације радио &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Преводи:</string>
     
     <!-- DashClock Widget Extension -->
@@ -428,7 +428,7 @@
     <string name="main_market_pro_msg">Да ли сте знали да имамо оптимизовану GSam Battery Monitor апликацију за таблете ?  Потражите је на маркету.\n\nНе брините, нећете видети ову поруку више.</string>
     <string name="main_market_pro_msg_kindle">Да ли сте знали да постоји Kindle Fire оптимизована GSam Battery Monitor апликација?  Потражите је на Appstore.\n\nНе брините, нећете видети ову поруку више.</string>
     <string name="main_market_pro_ok">Погледајте</string>
-    <string name="main_market_pro_cancel">Не гвала</string>
+    <string name="main_market_pro_cancel">Не хвала</string>
     <string name="main_invalid_license_title">Неважећа лиценца</string>
     <string name="main_invalid_license_msg">Ваша лиценца можда није важећа. Battery Monitor ће наставити да ради у Бесплатном моду.  Ако мислите да је ово грешка молимо вас проверите вашу куповину.</string>
     <string name="main_invalid_license_ok">Провери моју куповину</string>
