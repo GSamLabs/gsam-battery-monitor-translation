@@ -143,7 +143,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kärna (Android OS)</string>
     <string name="process_suck_mon_android_system">System (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% av batteriet har förbrukats av:</string>
+    <string name="process_suck_mon_header">%1$.1f%% av batteriet har förbrukats av:</string>
     <string name="process_suck_mon_nodata">Ingen data tillgänglig. Det finns inga appar som har använt den specifierade resursen under enhetens senaste strömcykel.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
@@ -388,7 +388,7 @@
     <!-- About -->
     <string name="about_app_name">Om GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">Diagram av AChartEngine.org</string>
     <string name="about_icons">App-ikoner av &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Översättningar:</string>

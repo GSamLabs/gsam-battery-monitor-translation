@@ -142,7 +142,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Sistem (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% Baterai dikonsumsi oleh:</string>
+    <string name="process_suck_mon_header">%1$.1f%% Baterai dikonsumsi oleh:</string>
     <string name="process_suck_mon_nodata">Tidak ada data tersedia.  Tidak ada aplikasi yang telah mengkonsumsi daya selama siklus yang telah ditentukan.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->

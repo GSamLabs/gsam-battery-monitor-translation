@@ -141,7 +141,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Кернел (Android OS)</string>
     <string name="process_suck_mon_android_system">Систем (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% од батерије коришћено од:</string>
+    <string name="process_suck_mon_header">%1$.1f%% од батерије коришћено од:</string>
     <string name="process_suck_mon_nodata">Нема података.  Нема апликација које су користиле овај извор у овом циклусу батерије.</string>
     <string name="process_suck_mon_title_prefix">Коришћење Апликацијама - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
@@ -385,7 +385,7 @@
     <!-- About -->
     <string name="about_app_name">О GSam Battery Monitor</string>
     <string name="about_version">Верзија %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">Графички механизам урадио AChartEngine.org</string>
     <string name="about_icons">Иконицу апликације радио &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Преводи:</string>

@@ -143,7 +143,7 @@ Les Icônes de Recouvrement ne sont pris en charge uniquement que par Packs D'Ic
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Système (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% de batterie consommée par:</string>
+    <string name="process_suck_mon_header">%1$.1f%% de batterie consommée par:</string>
     <string name="process_suck_mon_nodata">"Pas de donnée disponible. Aucune application n'a consommé de ressource spécifiée au cours du dernier cycle d'énergie de l'appareil."</string>
     <string name="process_suck_mon_title_prefix">Application Ventouse - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Depuis Dernier Débranch.)</string>
@@ -388,7 +388,7 @@ Regarder "<a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a>" pour plus d'i
     <string name="chart_cpu_util">% Utilisation de Processeur</string>
     <string name="about_app_name">A Propos de GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">Moteur Graphique par AChartEngine.org</string>
     <string name="about_actionbar">Compatibilité ActionBar par actionbarsherlock.com</string>
     <string name="about_icons">Icônes Application par &lt;a href=https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921>Marius Bozgan&lt;/a></string> 

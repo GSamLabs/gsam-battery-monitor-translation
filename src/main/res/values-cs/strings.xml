@@ -138,7 +138,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Jádro (Android OS)</string>
     <string name="process_suck_mon_android_system">Systém (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% baterie spotřebovaly:</string>
+    <string name="process_suck_mon_header">%1$.1f%% baterie spotřebovaly:</string>
     <string name="process_suck_mon_nodata">Nejsou dostupná data.  Nejsou dostupné žádné aplikace, které by spotřebovaly energii od posledního cyklu nabíjení.</string>
     <string name="process_suck_mon_title_prefix">Žrouti - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Od posledního odpojení)</string>
@@ -383,7 +383,7 @@
     <!-- About -->
     <string name="about_app_name">O GSam Battery Monitoru</string>
     <string name="about_version">Verze %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">Grafy od AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Compatibility od actionbarsherlock.com</string>
     <string name="about_icons">App Icons od &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>

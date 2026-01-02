@@ -133,7 +133,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">内核(Android系统)</string>
     <string name="process_suck_mon_android_system">系统(%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%%的电量已被应用程序使用</string>
+    <string name="process_suck_mon_header">%1$.1f%%的电量已被应用程序使用</string>
     <string name="process_suck_mon_nodata">没有可用数据。在最后一次电池循环后没有应用程序消耗了资源。</string>
     <string name="process_suck_mon_title_prefix">应用程序耗电分析 - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (从上次拔出电源)</string>
@@ -375,7 +375,7 @@
     <!-- About -->
     <string name="about_app_name">关于GSam Battery Monitor</string>
     <string name="about_version">版本%1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">图表由AChartEngine.org提供</string>
     <string name="about_actionbar">标题栏由actionbarsherlock.com提供</string>
     <string name="about_translations">翻译：</string>

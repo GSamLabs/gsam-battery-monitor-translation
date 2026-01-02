@@ -133,7 +133,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Sistema (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% de bateria consumida por:</string>
+    <string name="process_suck_mon_header">%1$.1f%% de bateria consumida por:</string>
     <string name="process_suck_mon_nodata">Sem dados disponíveis.  Nenhuma aplicação consumiu recursos durante o último ciclo de bateria.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Desde que desconectou)</string>

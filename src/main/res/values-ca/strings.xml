@@ -140,7 +140,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">Sistema (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% de la bateria consumit per:</string>
+    <string name="process_suck_mon_header">%1$.1f%% de la bateria consumit per:</string>
     <string name="process_suck_mon_nodata">"No hi ha dades disponibles.  No hi ha aplicacions que hagin consumit recursos específics durant l'últim cicle de càrrega."</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
@@ -379,7 +379,7 @@
     <!-- About -->
     <string name="about_app_name">Sobre GSam Battery Monitor</string>
     <string name="about_version">Versió %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">Maquinaria de gràfica per:AChartEngine.org</string>
     <string name="about_icons">"Icones de l'aplicació per: &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;"</string>
     <string name="about_translations">Traduccions:</string>

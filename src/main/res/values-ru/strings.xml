@@ -155,7 +155,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Ядро(ОС Андроид)</string>
     <string name="process_suck_mon_android_system">Система (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% батареи использовалось:</string>
+    <string name="process_suck_mon_header">%1$.1f%% батареи использовалось:</string>
     <string name="process_suck_mon_nodata">Данные недоступны. Нет приложений, которые потребляли указанный ресурс во время последнего цикла батареи устройства.</string>
     <string name="process_suck_mon_title_prefix">Приложения - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
@@ -496,7 +496,7 @@
     <!-- About -->
     <string name="about_app_name">О GSam Battery Monitor</string>
     <string name="about_version">Версия %1s</string>
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">График от AChartEngine.org</string>
     <string name="about_icons">Значки приложения от &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Перевод:</string>

@@ -137,7 +137,7 @@
    <!-- App Sucker -->
    <string name="process_kernel_label">Kernel (Android OS)</string>
    <string name="process_suck_mon_android_system">Sistema (%1s)</string>
-   <string name="process_suck_mon_header">%0$.1f%% carica usata da:</string>
+   <string name="process_suck_mon_header">%1$.1f%% carica usata da:</string>
    <string name="process_suck_mon_nodata">"Nessun dato disponibile.  Non ci sono app che abbiano consumato il valore indicato durante l'ultimo ciclo di carica."</string>
    <string name="process_suck_mon_title_prefix">Consumo Batt - %1$s</string>
    <string name="process_suck_mon_title_unplugged">%1$s (dalla disconnessione)</string>
@@ -376,7 +376,7 @@
    <!-- About -->
    <string name="about_app_name">Info su GSam Battery Monitor</string>
    <string name="about_version">Versione %1s</string>    
-   <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+   <string name="about_copyright">\u24d2 GSam Labs 2026</string>
    <string name="about_chartengine">Chart Engine da AChartEngine.org</string>
    <string name="about_actionbar">Compatibilità ActionBar grazie a actionbarsherlock.com</string>
    <string name="about_icons">Icone app grazie a &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>

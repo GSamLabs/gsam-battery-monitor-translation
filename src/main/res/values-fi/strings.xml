@@ -141,7 +141,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Ydin (Android OS)</string>
     <string name="process_suck_mon_android_system">Järjestelmä (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% akusta käyttänyt:</string>
+    <string name="process_suck_mon_header">%1$.1f%% akusta käyttänyt:</string>
     <string name="process_suck_mon_nodata">Ei tietoa saatavilla. Mikään sovellus ei ole käyttänyt määritettyä resurssia laitteen edellisen lataussyklin aikana.</string>
     <string name="process_suck_mon_title_prefix">Sovelluskäyttö - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
@@ -397,7 +397,7 @@
     <!-- About -->
     <string name="about_app_name">Tietoa GSam Battery Monitorista</string>
     <string name="about_version">Versio %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">Kaaviomoottorin tekijä AChartEngine.org</string>
     <string name="about_icons">Sovelluskuvakkeiden tekijä &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
     <string name="about_translations">Käännökset:</string>

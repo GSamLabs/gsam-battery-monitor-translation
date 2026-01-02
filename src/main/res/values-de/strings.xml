@@ -131,7 +131,7 @@
     <!-- App Sucker -->
     <string name="process_kernel_label">Kernel (Android OS)</string>
     <string name="process_suck_mon_android_system">System (%1s)</string>
-    <string name="process_suck_mon_header">%0$.1f%% Akku verbraucht von:</string>
+    <string name="process_suck_mon_header">%1$.1f%% Akku verbraucht von:</string>
     <string name="process_suck_mon_nodata">Keine Daten verfügbar. Es gibt keine Apps, die die spezielle Quelle seit dem letzten Ladezyklus verbraucht haben.</string>
     <string name="process_suck_mon_title_prefix">App Sucker - %1$s</string>
     <string name="process_suck_mon_title_unplugged">%1$s (Seit der letzten USB Verbindung)</string>
@@ -335,7 +335,7 @@
     <!-- About -->
     <string name="about_app_name">Über GSam Battery Monitor</string>
     <string name="about_version">Version %1s</string>    
-    <string name="about_copyright">\u24d2 GSam Labs 2022</string>
+    <string name="about_copyright">\u24d2 GSam Labs 2026</string>
     <string name="about_chartengine">Chart Engine von AChartEngine.org</string>
     <string name="about_actionbar">ActionBar Kompatibilität von actionbarsherlock.com</string>
     <string name="about_translations">Übersetzungen:</string>
